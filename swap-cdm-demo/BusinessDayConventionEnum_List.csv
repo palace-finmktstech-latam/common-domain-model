@@ -1,0 +1,9 @@
+Enum Value,Convention Name,Adjustment Rule,Common Usage,Description
+FOLLOWING,Following,Move to next business day,Standard adjustment,If date falls on non-business day move to next business day
+FRN,Floating Rate Note,Special FRN convention,Floating rate notes,Floating rate note specific business day adjustment
+MODFOLLOWING,Modified Following,Following but stay in same month,Most common for swaps,Move to next business day unless it crosses month-end then move to preceding business day
+PRECEDING,Preceding,Move to previous business day,Less common adjustment,If date falls on non-business day move to previous business day
+MODPRECEDING,Modified Preceding,Preceding but stay in same month,Special cases,Move to previous business day unless it crosses month-start then move to following business day
+NEAREST,Nearest,Move to closest business day,Rare usage,Move to whichever business day (preceding or following) is closer
+NONE,None,No adjustment applied,Fixed dates,Date is used as-is regardless of whether it is a business day
+NOT_APPLICABLE,Not Applicable,Convention does not apply,Special instruments,Business day convention is not relevant for this instrument

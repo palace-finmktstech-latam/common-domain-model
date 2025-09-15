@@ -1,0 +1,23 @@
+# DividendDateReferenceTypeFormatValidator
+
+**Full Name:** `cdm.product.asset.validation.DividendDateReferenceTypeFormatValidator`
+
+**Package:** `cdm.product.asset.validation`
+
+## Type: Concrete Class
+
+### Implemented Interfaces
+
+- `com.rosetta.model.lib.validation.Validator`
+
+### Methods
+
+#### Getter Methods
+
+- `List getValidationResults(RosettaPath arg0, DividendDateReference arg1)`
+- `List getComparisonResults(DividendDateReference arg0)`
+
+#### Other Methods
+
+- `ValidationResult validate(RosettaPath arg0, DividendDateReference arg1)`
+

@@ -1,0 +1,63 @@
+GOLDMAN SACHS NON-DELIVERABLE SWAP - CDM REPRESENTATION
+=========================================================
+
+REFERENCE NUMBERS:
+  Goldman Sachs Ref: SDBB7MM33347TK7MBR.0.0.0
+  Internal Ref: 063474811
+  USI: 1030444992 SDBB7MM33347TK7MBR00000010000000
+
+KEY DATES:
+  Trade Date: August 26, 2022
+  Effective Date: January 5, 2023
+  Termination Date: January 5, 2043
+  Term: 20 years
+
+PARTIES:
+  Party 1: Goldman Sachs Bank USA
+    - Role: Floating Rate Payer
+    - Office: 200 West Street, New York, NY 10282
+  Party 2: BANCO ABC
+    - Role: Fixed Rate Payer
+    - Contact: Backoffice_mesa@bancoabc.cl
+
+FLOATING LEG TERMS:
+  Payer: Goldman Sachs Bank USA
+  Rate Index: CLP-ICP (Chilean Overnight Index)
+  Initial Notional: CLP 10,694,180,710.00
+  Day Count: Actual/360
+  Payment Frequency: Monthly (5th of each month)
+  Reset: Last day of each calculation period
+  Business Days: New York and Santiago
+  Amortizing: Yes (see schedule)
+
+FIXED LEG TERMS:
+  Payer: BANCO ABC
+  Fixed Rate: 1.75%
+  Initial Notional: CLF 316,764.00
+  Day Count: Actual/360
+  Payment Frequency: Monthly (5th of each month)
+  Business Days: New York and Santiago
+  Inflation Adjustment: CLF/UF indexed
+  Amortizing: Yes (see schedule)
+
+SETTLEMENT TERMS:
+  Type: Non-Deliverable
+  Settlement Currency: USD
+  Reference Currency: CLP
+  FX Rate Source: CLP DOLAR OBS / CLP10
+  Valuation Date: 2 business days before payment
+
+SPECIAL FEATURES:
+  • Amortizing structure with 240 payment periods
+  • Interim exchanges on specified dates
+  • Final exchange at maturity:
+    - GS Bank: CLP 76,144,265.50
+    - Banco ABC: CLF 2,255.41
+  • CLF inflation adjustment mechanism
+  • Disruption event handling with fallbacks
+
+CDM STRUCTURE:
+  ✓ Trade created with date: FieldWithMetaDate {value=2022-08-26, meta=null}
+  ✓ Parties: 2 parties defined
+  ✓ Counterparties: 2 roles defined
+  ✓ Product structure: NonTransferableProduct

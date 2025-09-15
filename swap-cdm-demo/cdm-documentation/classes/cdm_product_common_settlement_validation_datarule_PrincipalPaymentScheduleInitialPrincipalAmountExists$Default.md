@@ -1,0 +1,19 @@
+# Default
+
+**Full Name:** `cdm.product.common.settlement.validation.datarule.PrincipalPaymentScheduleInitialPrincipalAmountExists$Default`
+
+**Package:** `cdm.product.common.settlement.validation.datarule`
+
+## Type: Concrete Class
+
+### Implemented Interfaces
+
+- `cdm.product.common.settlement.validation.datarule.PrincipalPaymentScheduleInitialPrincipalAmountExists`
+
+### Methods
+
+#### Other Methods
+
+- `ValidationResult validate(RosettaPath arg0, PrincipalPaymentSchedule arg1)`
+- `ComparisonResult executeDataRule(PrincipalPaymentSchedule arg0)`
+

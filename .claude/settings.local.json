@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn:*)",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile)",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" exec:java -Dexec.mainClass=\"com.example.cdm.CDMExplorer\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.CDMUsageDocumentationGenerator\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.GoldmanSachsSwapCDM\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" clean compile exec:java -Dexec.mainClass=\"com.example.cdm.GoldmanSachsSwapCDM\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.GoldmanSachsSwapSimplified\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.GoldmanSachsSwapDemo\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.CrossCurrencySwapJSON\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.MinimalTrade\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.TradeWithFixedLeg\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.TradeWithFixedRate\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.TradeWithFloatingLeg\")",
+      "Bash(find:*)",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.CrossCurrencySwap\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" -q compile exec:java -Dexec.mainClass=\"com.example.cdm.CDMExplorer\" -Dexec.args=\"Observable\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.CrossCurrencySwapWithPayments\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.CompleteXCcySwapWithSettlement\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" -q compile)",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.EnumExplorer\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.AmortizingXCcySwap\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

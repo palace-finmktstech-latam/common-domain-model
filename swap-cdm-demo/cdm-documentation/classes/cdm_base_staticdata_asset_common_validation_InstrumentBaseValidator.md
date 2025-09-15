@@ -1,0 +1,23 @@
+# InstrumentBaseValidator
+
+**Full Name:** `cdm.base.staticdata.asset.common.validation.InstrumentBaseValidator`
+
+**Package:** `cdm.base.staticdata.asset.common.validation`
+
+## Type: Concrete Class
+
+### Implemented Interfaces
+
+- `com.rosetta.model.lib.validation.Validator`
+
+### Methods
+
+#### Getter Methods
+
+- `List getValidationResults(RosettaPath arg0, InstrumentBase arg1)`
+- `List getComparisonResults(InstrumentBase arg0)`
+
+#### Other Methods
+
+- `ValidationResult validate(RosettaPath arg0, InstrumentBase arg1)`
+

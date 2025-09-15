@@ -1,0 +1,29 @@
+# PubliclyAvailableInformationMeta
+
+**Full Name:** `cdm.observable.event.meta.PubliclyAvailableInformationMeta`
+
+**Package:** `cdm.observable.event.meta`
+
+## Type: Concrete Class
+
+### Implemented Interfaces
+
+- `com.rosetta.model.lib.meta.RosettaMetaData`
+
+### Methods
+
+#### Getter Methods
+
+- `List getQualifyFunctions(QualifyFunctionFactory arg0)`
+
+#### Other Methods
+
+- `Validator typeFormatValidator()`
+- `ValidatorWithArg onlyExistsValidator()`
+- `Validator validator()`
+- `List dataRules(ValidatorFactory arg0)`
+
+### Annotations
+
+- **RosettaMeta**
+

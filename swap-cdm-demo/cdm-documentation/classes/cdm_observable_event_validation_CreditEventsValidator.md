@@ -1,0 +1,23 @@
+# CreditEventsValidator
+
+**Full Name:** `cdm.observable.event.validation.CreditEventsValidator`
+
+**Package:** `cdm.observable.event.validation`
+
+## Type: Concrete Class
+
+### Implemented Interfaces
+
+- `com.rosetta.model.lib.validation.Validator`
+
+### Methods
+
+#### Getter Methods
+
+- `List getValidationResults(RosettaPath arg0, CreditEvents arg1)`
+- `List getComparisonResults(CreditEvents arg0)`
+
+#### Other Methods
+
+- `ValidationResult validate(RosettaPath arg0, CreditEvents arg1)`
+

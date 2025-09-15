@@ -1,0 +1,38 @@
+# FieldWithMetaMarketDisruptionEnum
+
+**Full Name:** `cdm.observable.event.metafields.FieldWithMetaMarketDisruptionEnum`
+
+**Package:** `cdm.observable.event.metafields`
+
+## Type: Interface
+
+### Implemented Interfaces
+
+- `com.rosetta.model.lib.RosettaModelObject`
+- `com.rosetta.model.lib.meta.FieldWithMeta`
+- `com.rosetta.model.lib.GlobalKey`
+
+### Methods
+
+#### Builder Methods
+
+- `FieldWithMetaMarketDisruptionEnum build()`
+
+#### Getter Methods
+
+- `MarketDisruptionEnum getValue()`
+- `Class getType()`
+- `Class getValueType()`
+- `MetaFields getMeta()`
+
+#### Other Methods
+
+- `void process(RosettaPath arg0, Processor arg1)`
+- `FieldWithMetaMarketDisruptionEnumBuilder toBuilder()`
+- `RosettaMetaData metaData()`
+
+### Annotations
+
+- **RuneDataType**
+- **RosettaDataType**
+

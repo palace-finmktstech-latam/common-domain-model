@@ -1,0 +1,5 @@
+Enum Value,Settlement Type Name,Settlement Method,Common Usage,Description
+CASH,Cash Settlement,Financial settlement only,Interest rate swaps and most derivatives,Settlement through cash payments only - no physical delivery of underlying assets
+PHYSICAL,Physical Settlement,Delivery of underlying asset,Commodity derivatives and some FX,Settlement through actual delivery of the underlying commodity currency or security
+ELECTION,Election,Party can choose settlement method,Complex derivatives with optionality,One party has the right to elect between cash or physical settlement
+CASH_OR_PHYSICAL,Cash or Physical,Either method available,Flexible settlement terms,Settlement can be either cash or physical as determined by contract terms or market conditions

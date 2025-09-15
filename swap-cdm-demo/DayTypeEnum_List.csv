@@ -1,0 +1,6 @@
+Enum Value,Day Type Name,Definition,Common Usage,Description
+BUSINESS,Business Day,Valid business day in specified business centers,Most common for payments and settlements,Count only days when banks and financial markets are open
+CALENDAR,Calendar Day,Any calendar day including weekends and holidays,Simple date calculations,Count all days including weekends and holidays
+CURRENCY_BUSINESS,Currency Business Day,Business day for specific currency,Currency-specific settlements,Business day in the primary financial center for a currency
+EXCHANGE_BUSINESS,Exchange Business Day,Trading day for specific exchange,Exchange-traded instruments,Days when a specific exchange is open for trading
+SCHEDULED_TRADING_DAY,Scheduled Trading Day,Scheduled trading day (may differ from actual),Exchange products with scheduled hours,Days when trading is scheduled (regardless of actual trading)

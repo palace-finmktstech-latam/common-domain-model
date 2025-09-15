@@ -1,0 +1,23 @@
+# EventTimestampTypeFormatValidator
+
+**Full Name:** `cdm.event.workflow.validation.EventTimestampTypeFormatValidator`
+
+**Package:** `cdm.event.workflow.validation`
+
+## Type: Concrete Class
+
+### Implemented Interfaces
+
+- `com.rosetta.model.lib.validation.Validator`
+
+### Methods
+
+#### Getter Methods
+
+- `List getValidationResults(RosettaPath arg0, EventTimestamp arg1)`
+- `List getComparisonResults(EventTimestamp arg0)`
+
+#### Other Methods
+
+- `ValidationResult validate(RosettaPath arg0, EventTimestamp arg1)`
+

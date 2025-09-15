@@ -1,0 +1,23 @@
+# LimitApplicableExtendedValidator
+
+**Full Name:** `cdm.event.workflow.validation.LimitApplicableExtendedValidator`
+
+**Package:** `cdm.event.workflow.validation`
+
+## Type: Concrete Class
+
+### Implemented Interfaces
+
+- `com.rosetta.model.lib.validation.Validator`
+
+### Methods
+
+#### Getter Methods
+
+- `List getValidationResults(RosettaPath arg0, LimitApplicableExtended arg1)`
+- `List getComparisonResults(LimitApplicableExtended arg0)`
+
+#### Other Methods
+
+- `ValidationResult validate(RosettaPath arg0, LimitApplicableExtended arg1)`
+

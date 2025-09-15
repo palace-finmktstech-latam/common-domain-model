@@ -1,0 +1,15 @@
+Enum Value,Day Count Name,Calculation Method,Common Usage,Description
+ACT_360,Actual/360,Actual days / 360,Money markets and USD swaps,Count actual days in period and divide by 360
+ACT_365L,Actual/365 Leap,Actual days / 365 or 366 in leap years,Some bond markets,Count actual days divided by 365 (366 in leap years)
+ACT_364,Actual/364,Actual days / 364,Specific instruments,Count actual days in period and divide by 364
+ACT_365_FIXED,Actual/365 Fixed,Actual days / 365,GBP and some other markets,Count actual days in period and divide by 365 (always)
+ACT_ACT_AFB,Actual/Actual AFB,Complex actual/actual (French method),French bond markets,Association Française des Banques method
+ACT_ACT_ICMA,Actual/Actual ICMA,Complex actual/actual (ICMA method),International bond markets,International Capital Market Association method
+ACT_ACT_ISDA,Actual/Actual ISDA,Complex actual/actual (ISDA method),Interest rate swaps,ISDA standard actual/actual calculation
+ACT_ACT_ISMA,Actual/Actual ISMA,Complex actual/actual (ISMA method),Bond markets (legacy),International Securities Market Association method (legacy)
+CAL_252,Calendar 252,Calendar days / 252,Brazilian markets,252 business days per year (Brazilian convention)
+_1_1,1/1,Fixed rate of 1,Unit calculations,Always returns 1 (no day count adjustment)
+_30E_360,30E/360,30 days per month / 360,Eurobond markets,European 30/360 method (end-of-month adjusted)
+_30E_360_ISDA,30E/360 ISDA,30 days per month / 360 (ISDA version),ISDA standard Eurobond calculation,ISDA version of European 30/360
+_30_360,30/360,30 days per month / 360,US corporate bonds,US 30/360 method (Bond Basis)
+RBA_BOND_BASIS,RBA Bond Basis,Reserve Bank of Australia method,Australian bond markets,Australian central bank bond calculation method

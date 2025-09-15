@@ -1,0 +1,6 @@
+Enum Value,Description,Use Case,Timing
+CALCULATION_PERIOD_START_DATE,Payment occurs relative to the start of the calculation period,Used when payments need to be made at the beginning of interest accrual periods,Beginning of period
+CALCULATION_PERIOD_END_DATE,Payment occurs relative to the end of the calculation period,Most common for standard interest rate swaps - pay after interest has accrued,End of period
+LAST_PRICING_DATE,Payment occurs relative to the last pricing/fixing date,Used for derivatives where payment timing depends on final pricing,After pricing/fixing
+RESET_DATE,Payment occurs relative to the rate reset date,Used when payment timing is tied to floating rate resets,After rate reset
+VALUATION_DATE,Payment occurs relative to the valuation date,Used for complex derivatives where payment depends on asset valuation,After valuation

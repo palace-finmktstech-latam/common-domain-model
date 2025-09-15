@@ -1,0 +1,23 @@
+# SettledEntityMatrixTypeFormatValidator
+
+**Full Name:** `cdm.product.asset.validation.SettledEntityMatrixTypeFormatValidator`
+
+**Package:** `cdm.product.asset.validation`
+
+## Type: Concrete Class
+
+### Implemented Interfaces
+
+- `com.rosetta.model.lib.validation.Validator`
+
+### Methods
+
+#### Getter Methods
+
+- `List getValidationResults(RosettaPath arg0, SettledEntityMatrix arg1)`
+- `List getComparisonResults(SettledEntityMatrix arg0)`
+
+#### Other Methods
+
+- `ValidationResult validate(RosettaPath arg0, SettledEntityMatrix arg1)`
+

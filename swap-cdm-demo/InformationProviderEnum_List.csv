@@ -1,0 +1,19 @@
+Enum Value,Organization Name,Region,Type,Description
+ASSOC_BANKS_SINGAPORE,Association of Banks in Singapore,Singapore,Banking Association,Singapore's banking industry association
+BANCO_CENTRAL_CHILE,Banco Central de Chile,Chile,Central Bank,Chilean central bank providing FX rates (e.g. Dólar Observado)
+BANK_OF_CANADA,Bank of Canada,Canada,Central Bank,Canadian central bank
+BANK_OF_ENGLAND,Bank of England,United Kingdom,Central Bank,UK central bank
+BANK_OF_JAPAN,Bank of Japan,Japan,Central Bank,Japanese central bank
+BLOOMBERG,Bloomberg,Global,Financial Data Provider,Global financial data and analytics provider
+EURO_CENTRAL_BANK,European Central Bank,European Union,Central Bank,European Union central bank
+FEDERAL_RESERVE,Federal Reserve,United States,Central Bank,US central bank and monetary authority
+FHLBSF,Federal Home Loan Bank of San Francisco,United States,Financial Institution,US government-sponsored enterprise
+ICESWAP,ICE Swap,Global,Exchange/Platform,Intercontinental Exchange swap trading platform
+ISDA,International Swaps and Derivatives Association,Global,Industry Association,Global derivatives industry trade organization
+REFINITIV,Refinitiv,Global,Financial Data Provider,Financial markets data and infrastructure provider (formerly Thomson Reuters)
+RESERVE_BANK_AUSTRALIA,Reserve Bank of Australia,Australia,Central Bank,Australian central bank
+RESERVE_BANK_NEW_ZEALAND,Reserve Bank of New Zealand,New Zealand,Central Bank,New Zealand central bank
+REUTERS,Reuters,Global,Financial Data Provider,Global news and financial information provider
+SAFEX,South African Futures Exchange,South Africa,Exchange,South African derivatives exchange
+TELERATE,Telerate,Global,Financial Data Provider,Financial information service (legacy system)
+TOKYOSWAP,Tokyo Swap,Japan,Exchange/Platform,Tokyo-based swap trading platform

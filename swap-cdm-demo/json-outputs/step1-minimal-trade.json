@@ -1,0 +1,130 @@
+=====================================
+STEP 1: MINIMAL TRADE STRUCTURE
+=====================================
+
+What we're building:
+• Two parties: Bank A and Goldman Sachs
+• Trade date: September 10, 2025
+• Trade ID: SWAP-001
+• Counterparty roles: PARTY_1 and PARTY_2
+• NO product yet - just the trade shell
+
+JSON Output:
+=====================================
+{
+  "product" : null,
+  "tradeLot" : null,
+  "counterparty" : [ {
+    "role" : "PARTY_1",
+    "partyReference" : {
+      "value" : {
+        "partyId" : null,
+        "name" : {
+          "value" : "Bank A",
+          "meta" : null,
+          "valueType" : "java.lang.String",
+          "type" : "com.rosetta.model.metafields.FieldWithMetaString"
+        },
+        "businessUnit" : null,
+        "person" : null,
+        "personRole" : null,
+        "account" : null,
+        "contactInformation" : null,
+        "meta" : null,
+        "type" : "cdm.base.staticdata.party.Party"
+      },
+      "globalReference" : null,
+      "externalReference" : null,
+      "reference" : null,
+      "valueType" : "cdm.base.staticdata.party.Party",
+      "type" : "cdm.base.staticdata.party.metafields.ReferenceWithMetaParty"
+    },
+    "type" : "cdm.base.staticdata.party.Counterparty"
+  }, {
+    "role" : "PARTY_2",
+    "partyReference" : {
+      "value" : {
+        "partyId" : null,
+        "name" : {
+          "value" : "Goldman Sachs International",
+          "meta" : null,
+          "valueType" : "java.lang.String",
+          "type" : "com.rosetta.model.metafields.FieldWithMetaString"
+        },
+        "businessUnit" : null,
+        "person" : null,
+        "personRole" : null,
+        "account" : null,
+        "contactInformation" : null,
+        "meta" : null,
+        "type" : "cdm.base.staticdata.party.Party"
+      },
+      "globalReference" : null,
+      "externalReference" : null,
+      "reference" : null,
+      "valueType" : "cdm.base.staticdata.party.Party",
+      "type" : "cdm.base.staticdata.party.metafields.ReferenceWithMetaParty"
+    },
+    "type" : "cdm.base.staticdata.party.Counterparty"
+  } ],
+  "ancillaryParty" : null,
+  "adjustment" : null,
+  "tradeIdentifier" : [ {
+    "issuerReference" : null,
+    "issuer" : null,
+    "assignedIdentifier" : null,
+    "meta" : null,
+    "identifierType" : null,
+    "type" : "cdm.event.common.TradeIdentifier"
+  } ],
+  "tradeDate" : {
+    "value" : {
+      "day" : 10,
+      "month" : 9,
+      "year" : 2025
+    },
+    "meta" : null,
+    "valueType" : "com.rosetta.model.lib.records.Date",
+    "type" : "com.rosetta.model.metafields.FieldWithMetaDate"
+  },
+  "tradeTime" : null,
+  "party" : [ {
+    "partyId" : null,
+    "name" : {
+      "value" : "Bank A",
+      "meta" : null,
+      "valueType" : "java.lang.String",
+      "type" : "com.rosetta.model.metafields.FieldWithMetaString"
+    },
+    "businessUnit" : null,
+    "person" : null,
+    "personRole" : null,
+    "account" : null,
+    "contactInformation" : null,
+    "meta" : null,
+    "type" : "cdm.base.staticdata.party.Party"
+  }, {
+    "partyId" : null,
+    "name" : {
+      "value" : "Goldman Sachs International",
+      "meta" : null,
+      "valueType" : "java.lang.String",
+      "type" : "com.rosetta.model.metafields.FieldWithMetaString"
+    },
+    "businessUnit" : null,
+    "person" : null,
+    "personRole" : null,
+    "account" : null,
+    "contactInformation" : null,
+    "meta" : null,
+    "type" : "cdm.base.staticdata.party.Party"
+  } ],
+  "partyRole" : null,
+  "executionDetails" : null,
+  "contractDetails" : null,
+  "clearedDate" : null,
+  "collateral" : null,
+  "account" : null,
+  "meta" : null,
+  "type" : "cdm.event.common.Trade"
+}

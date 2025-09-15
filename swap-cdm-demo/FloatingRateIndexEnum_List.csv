@@ -1,0 +1,655 @@
+Currency,Index Name,CDM Enum Value,Description
+AED,EBOR,AED-EBOR-Reuters,UAE Emirates Interbank Offered Rate via Reuters
+AED,EIBOR,AED-EIBOR,UAE Emirates Interbank Offered Rate
+AUD,AONIA,AUD-AONIA,Australian Overnight Index Average
+AUD,AONIA,AUD-AONIA-OIS Compound,AONIA OIS Compound
+AUD,AONIA,AUD-AONIA-OIS-COMPOUND,AONIA OIS Compound (Alternative)
+AUD,AONIA,AUD-AONIA-OIS-COMPOUND-SwapMarker,AONIA OIS Compound SwapMarker
+AUD,BBR,AUD-BBR-AUBBSW,Australian Bank Bill Reference Rate AUBBSW
+AUD,BBR,AUD-BBR-BBSW,Australian Bank Bill Swap Rate
+AUD,BBR,AUD-BBR-BBSW-Bloomberg,Australian BBSW via Bloomberg
+AUD,BBR,AUD-BBR-BBSY (BID),Australian Bank Bill Bid Rate
+AUD,BBR,AUD-BBR-ISDC,Australian BBR ISDC
+AUD,BBSW,AUD-BBSW,Australian Bank Bill Swap Rate
+AUD,BBSW,AUD-BBSW Quarterly Swap Rate ICAP,BBSW Quarterly Swap Rate via ICAP
+AUD,BBSW,AUD-BBSW Semi Annual Swap Rate ICAP,BBSW Semi Annual Swap Rate via ICAP
+AUD,BBSY,AUD-BBSY Bid,Australian Bank Bill Bid Rate
+AUD,LIBOR,AUD-LIBOR-BBA,AUD LIBOR BBA
+AUD,LIBOR,AUD-LIBOR-BBA-Bloomberg,AUD LIBOR BBA via Bloomberg
+AUD,LIBOR,AUD-LIBOR-Reference Banks,AUD LIBOR Reference Banks
+AUD,Swap Rate,AUD-Quarterly Swap Rate-ICAP,Quarterly Swap Rate ICAP
+AUD,Swap Rate,AUD-Quarterly Swap Rate-ICAP-Reference Banks,Quarterly Swap Rate ICAP Reference Banks
+AUD,Swap Rate,AUD-Semi-Annual Swap Rate-11:00-BGCANTOR,Semi-Annual Swap Rate 11:00 BGCANTOR
+AUD,Swap Rate,AUD-Semi-Annual Swap Rate-BGCANTOR-Reference Banks,Semi-Annual Swap Rate BGCANTOR Reference Banks
+AUD,Swap Rate,AUD-Semi-annual Swap Rate-ICAP,Semi-annual Swap Rate ICAP
+AUD,Swap Rate,AUD-Semi-Annual Swap Rate-ICAP-Reference Banks,Semi-Annual Swap Rate ICAP Reference Banks
+AUD,Swap Rate,AUD-Swap Rate-Reuters,Swap Rate Reuters
+BRL,CDI,BRL-CDI,Brazilian Interbank Deposit Rate
+CAD,BA,CAD-BA-CDOR,Canadian Bankers' Acceptance CDOR
+CAD,BA,CAD-BA-CDOR-Bloomberg,Canadian BA CDOR via Bloomberg
+CAD,BA,CAD-BA-ISDD,Canadian BA ISDD
+CAD,BA,CAD-BA-Reference Banks,Canadian BA Reference Banks
+CAD,BA,CAD-BA-Reuters,Canadian BA Reuters
+CAD,BA,CAD-BA-Telerate,Canadian BA Telerate
+CAD,CDOR,CAD-CDOR,Canadian Dollar Offered Rate
+CAD,CORRA,CAD-CORRA,Canadian Overnight Repo Rate Average
+CAD,CORRA,CAD-CORRA CanDeal TMX Term,CORRA CanDeal TMX Term
+CAD,CORRA,CAD-CORRA Compounded Index,CORRA Compounded Index
+CAD,CORRA,CAD-CORRA-OIS Compound,CORRA OIS Compound
+CAD,CORRA,CAD-CORRA-OIS-COMPOUND,CORRA OIS Compound (Alternative)
+CAD,Swap Rate,CAD-ISDA-Swap Rate,CAD ISDA Swap Rate
+CAD,LIBOR,CAD-LIBOR-BBA,CAD LIBOR BBA
+CAD,LIBOR,CAD-LIBOR-BBA-Bloomberg,CAD LIBOR BBA Bloomberg
+CAD,LIBOR,CAD-LIBOR-BBA-SwapMarker,CAD LIBOR BBA SwapMarker
+CAD,LIBOR,CAD-LIBOR-Reference Banks,CAD LIBOR Reference Banks
+CAD,REPO,CAD-REPO-CORRA,CAD REPO CORRA
+CAD,TBILL,CAD-TBILL-ISDD,CAD Treasury Bill ISDD
+CAD,TBILL,CAD-TBILL-Reference Banks,CAD Treasury Bill Reference Banks
+CAD,TBILL,CAD-TBILL-Reuters,CAD Treasury Bill Reuters
+CAD,TBILL,CAD-TBILL-Telerate,CAD Treasury Bill Telerate
+CHF,LIBOR Swap,CHF-3M LIBOR SWAP-CME vs LCH-ICAP,3M LIBOR Swap CME vs LCH ICAP
+CHF,LIBOR Swap,CHF-3M LIBOR SWAP-CME vs LCH-ICAP-Bloomberg,3M LIBOR Swap CME vs LCH ICAP Bloomberg
+CHF,LIBOR Swap,CHF-3M LIBOR SWAP-EUREX vs LCH-ICAP,3M LIBOR Swap EUREX vs LCH ICAP
+CHF,LIBOR Swap,CHF-3M LIBOR SWAP-EUREX vs LCH-ICAP-Bloomberg,3M LIBOR Swap EUREX vs LCH ICAP Bloomberg
+CHF,LIBOR Swap,CHF-6M LIBOR SWAP-CME vs LCH-ICAP,6M LIBOR Swap CME vs LCH ICAP
+CHF,LIBOR Swap,CHF-6M LIBORSWAP-CME vs LCH-ICAP-Bloomberg,6M LIBOR Swap CME vs LCH ICAP Bloomberg
+CHF,LIBOR Swap,CHF-6M LIBOR SWAP-EUREX vs LCH-ICAP,6M LIBOR Swap EUREX vs LCH ICAP
+CHF,LIBOR Swap,CHF-6M LIBOR SWAP-EUREX vs LCH-ICAP-Bloomberg,6M LIBOR Swap EUREX vs LCH ICAP Bloomberg
+CHF,Swap Rate,CHF-Annual Swap Rate,Annual Swap Rate
+CHF,Swap Rate,CHF-Annual Swap Rate-11:00-ICAP,Annual Swap Rate 11:00 ICAP
+CHF,Swap Rate,CHF-Annual Swap Rate-Reference Banks,Annual Swap Rate Reference Banks
+CHF,Basis Swap,CHF-Basis Swap-3m vs 6m-LIBOR-11:00-ICAP,Basis Swap 3m vs 6m LIBOR 11:00 ICAP
+CHF,Swap Rate,CHF-ISDAFIX-Swap Rate,CHF ISDAFIX Swap Rate
+CHF,LIBOR,CHF-LIBOR,CHF LIBOR
+CHF,LIBOR,CHF-LIBOR-BBA,CHF LIBOR BBA
+CHF,LIBOR,CHF-LIBOR-BBA-Bloomberg,CHF LIBOR BBA Bloomberg
+CHF,LIBOR,CHF-LIBOR-ISDA,CHF LIBOR ISDA
+CHF,LIBOR,CHF-LIBOR-Reference Banks,CHF LIBOR Reference Banks
+CHF,OIS,CHF-OIS-11:00-ICAP,CHF OIS 11:00 ICAP
+CHF,SARON,CHF-SARON,Swiss Average Rate Overnight
+CHF,SARON,CHF-SARON Average 12M,SARON Average 12 Month
+CHF,SARON,CHF-SARON Average 1M,SARON Average 1 Month
+CHF,SARON,CHF-SARON Average 1W,SARON Average 1 Week
+CHF,SARON,CHF-SARON Average 2M,SARON Average 2 Month
+CHF,SARON,CHF-SARON Average 3M,SARON Average 3 Month
+CHF,SARON,CHF-SARON Average 6M,SARON Average 6 Month
+CHF,SARON,CHF-SARON Average 9M,SARON Average 9 Month
+CHF,SARON,CHF-SARON Compounded Index,SARON Compounded Index
+CHF,SARON,CHF-SARON-OIS Compound,SARON OIS Compound
+CHF,SARON,CHF-SARON-OIS-COMPOUND,SARON OIS Compound (Alternative)
+CHF,TOIS,CHF-TOIS-OIS-COMPOUND,TOIS OIS Compound
+CHF,Basis Swap,CHF USD-Basis Swaps-11:00-ICAP,CHF USD Basis Swaps 11:00 ICAP
+CL,CLICP,CL-CLICP-Bloomberg,Chilean Inflation Index via Bloomberg
+CLP,ICP,CLP-ICP,Chilean Peso ICP
+CLP,TNA,CLP-TNA,Chilean Peso TNA
+CNH,HIBOR,CNH-HIBOR,CNH Hong Kong Interbank Offered Rate
+CNH,HIBOR,CNH-HIBOR-Reference Banks,CNH HIBOR Reference Banks
+CNH,HIBOR,CNH-HIBOR-TMA,CNH HIBOR TMA
+CNY,Repo,CNY 7-Repo Compounding Date,CNY 7-Day Repo Compounding Date
+CNY,Repo,CNY-CNREPOFIX=CFXS-Reuters,CNY Repo Fix via Reuters
+CNY,Deposit,CNY-Deposit Rate,CNY Deposit Rate
+CNY,Repo,CNY-Fixing Repo Rate,CNY Fixing Repo Rate
+CNY,LPR,CNY-LPR,CNY Loan Prime Rate
+CNY,PBOCB,CNY-PBOCB-Reuters,CNY PBOC Benchmark via Reuters
+CNY,Swap Rate,CNY-Quarterly 7 day Repo Non Deliverable Swap Rate-TRADITION,Quarterly 7 day Repo NDS Rate TRADITION
+CNY,Swap Rate,CNY-Quarterly 7 day Repo Non Deliverable Swap Rate-TRADITION-Reference Banks,Quarterly 7 day Repo NDS Rate TRADITION Reference Banks
+CNY,Swap Rate,CNY-Quarterly 7D Repo NDS Rate Tradition,Quarterly 7D Repo NDS Rate Tradition
+CNY,Swap Rate,CNY-Semi-Annual Swap Rate-11:00-BGCANTOR,Semi-Annual Swap Rate 11:00 BGCANTOR
+CNY,Swap Rate,CNY-Semi-Annual Swap Rate-Reference Banks,Semi-Annual Swap Rate Reference Banks
+CNY,SHIBOR,CNY-SHIBOR,Shanghai Interbank Offered Rate
+CNY,SHIBOR,CNY-SHIBOR-OIS Compound,SHIBOR OIS Compound
+CNY,SHIBOR,CNY-Shibor-OIS-Compounding,SHIBOR OIS Compounding
+CNY,SHIBOR,CNY-SHIBOR-Reuters,SHIBOR via Reuters
+COP,IBR,COP-IBR-OIS Compound,Colombian IBR OIS Compound
+COP,IBR,COP-IBR-OIS-COMPOUND,Colombian IBR OIS Compound (Alternative)
+CZK,Swap Rate,CZK-Annual Swap Rate-11:00-BGCANTOR,Annual Swap Rate 11:00 BGCANTOR
+CZK,Swap Rate,CZK-Annual Swap Rate-Reference Banks,Annual Swap Rate Reference Banks
+CZK,CZEONIA,CZK-CZEONIA,Czech Overnight Index Average
+CZK,CZEONIA,CZK-CZEONIA-OIS Compound,CZEONIA OIS Compound
+CZK,PRIBOR,CZK-PRIBOR,Prague Interbank Offered Rate
+CZK,PRIBOR,CZK-PRIBOR-PRBO,PRIBOR PRBO
+CZK,PRIBOR,CZK-PRIBOR-Reference Banks,PRIBOR Reference Banks
+DKK,CIBOR,DKK-CIBOR,Copenhagen Interbank Offered Rate
+DKK,CIBOR,DKK-CIBOR2,CIBOR2
+DKK,CIBOR,DKK-CIBOR2-Bloomberg,CIBOR2 via Bloomberg
+DKK,CIBOR,DKK-CIBOR2-DKNA13,CIBOR2 DKNA13
+DKK,CIBOR,DKK-CIBOR-DKNA13,CIBOR DKNA13
+DKK,CIBOR,DKK-CIBOR-DKNA13-Bloomberg,CIBOR DKNA13 via Bloomberg
+DKK,CIBOR,DKK-CIBOR-Reference Banks,CIBOR Reference Banks
+DKK,CITA,DKK-CITA,DKK CITA
+DKK,CITA,DKK-CITA-DKNA14-COMPOUND,CITA DKNA14 Compound
+DKK,DESTR,DKK-DESTR,Danish Euro Short-Term Rate
+DKK,DESTR,DKK-DESTR Compounded Index,DESTR Compounded Index
+DKK,DESTR,DKK-DESTR-OIS Compound,DESTR OIS Compound
+DKK,DKKOIS,DKK-DKKOIS-OIS-COMPOUND,DKKOIS OIS Compound
+DKK,Tom Next,DKK-Tom Next-OIS Compound,Tom Next OIS Compound
+EUR,EURIBOR Swap,EUR-3M EURIBOR SWAP-CME vs LCH-ICAP,3M EURIBOR Swap CME vs LCH ICAP
+EUR,EURIBOR Swap,EUR-3M EURIBOR SWAP-CME vs LCH-ICAP-Bloomberg,3M EURIBOR Swap CME vs LCH ICAP Bloomberg
+EUR,EURIBOR Swap,EUR-3M EURIBOR SWAP-EUREX vs LCH-ICAP,3M EURIBOR Swap EUREX vs LCH ICAP
+EUR,EURIBOR Swap,EUR-3M EURIBOR SWAP-EUREX vs LCH-ICAP-Bloomberg,3M EURIBOR Swap EUREX vs LCH ICAP Bloomberg
+EUR,EURIBOR Swap,EUR-6M EURIBOR SWAP-CME vs LCH-ICAP,6M EURIBOR Swap CME vs LCH ICAP
+EUR,EURIBOR Swap,EUR-6M EURIBOR SWAP-CME vs LCH-ICAP-Bloomberg,6M EURIBOR Swap CME vs LCH ICAP Bloomberg
+EUR,EURIBOR Swap,EUR-6M EURIBOR SWAP-EUREX vs LCH-ICAP,6M EURIBOR Swap EUREX vs LCH ICAP
+EUR,EURIBOR Swap,EUR-6M EURIBOR SWAP-EUREX vs LCH-ICAP-Bloomberg,6M EURIBOR Swap EUREX vs LCH ICAP Bloomberg
+EUR,Swap Rate,EUR-Annual Swap Rate-10:00,Annual Swap Rate 10:00
+EUR,Swap Rate,EUR-Annual Swap Rate-10:00-BGCANTOR,Annual Swap Rate 10:00 BGCANTOR
+EUR,Swap Rate,EUR-Annual Swap Rate-10:00-Bloomberg,Annual Swap Rate 10:00 Bloomberg
+EUR,Swap Rate,EUR-Annual Swap Rate-10:00-ICAP,Annual Swap Rate 10:00 ICAP
+EUR,Swap Rate,EUR-Annual Swap Rate-10:00-SwapMarker,Annual Swap Rate 10:00 SwapMarker
+EUR,Swap Rate,EUR-Annual Swap Rate-10:00-TRADITION,Annual Swap Rate 10:00 TRADITION
+EUR,Swap Rate,EUR-Annual Swap Rate-11:00,Annual Swap Rate 11:00
+EUR,Swap Rate,EUR-Annual Swap Rate-11:00-Bloomberg,Annual Swap Rate 11:00 Bloomberg
+EUR,Swap Rate,EUR-Annual Swap Rate-11:00-ICAP,Annual Swap Rate 11:00 ICAP
+EUR,Swap Rate,EUR-Annual Swap Rate-11:00-SwapMarker,Annual Swap Rate 11:00 SwapMarker
+EUR,Swap Rate,EUR-Annual Swap Rate-3 Month,Annual Swap Rate 3 Month
+EUR,Swap Rate,EUR-Annual Swap Rate-3 Month-SwapMarker,Annual Swap Rate 3 Month SwapMarker
+EUR,Swap Rate,EUR-Annual Swap Rate-4:15-TRADITION,Annual Swap Rate 4:15 TRADITION
+EUR,Swap Rate,EUR-Annual Swap Rate-Reference Banks,Annual Swap Rate Reference Banks
+EUR,Basis Swap,EUR Basis Swap-EONIA vs 3m EUR+IBOR Swap Rates-A/360-10:00-ICAP,Basis Swap EONIA vs 3m EURIBOR 10:00 ICAP
+EUR,CNO,EUR-CNO TEC10,EUR CNO TEC10
+EUR,EONIA,EUR-EONIA,Euro Overnight Index Average
+EUR,EONIA,EUR-EONIA-AVERAGE,EONIA Average
+EUR,EONIA,EUR-EONIA-Average,EONIA Average (Alternative)
+EUR,EONIA,EUR-EONIA-OIS-10:00-BGCANTOR,EONIA OIS 10:00 BGCANTOR
+EUR,EONIA,EUR-EONIA-OIS-10:00-ICAP,EONIA OIS 10:00 ICAP
+EUR,EONIA,EUR-EONIA-OIS-10:00-TRADITION,EONIA OIS 10:00 TRADITION
+EUR,EONIA,EUR-EONIA-OIS-11:00-ICAP,EONIA OIS 11:00 ICAP
+EUR,EONIA,EUR-EONIA-OIS-4:15-TRADITION,EONIA OIS 4:15 TRADITION
+EUR,EONIA,EUR-EONIA-OIS Compound,EONIA OIS Compound
+EUR,EONIA,EUR-EONIA-OIS-COMPOUND,EONIA OIS Compound (Alternative)
+EUR,EONIA,EUR-EONIA-OIS-COMPOUND-Bloomberg,EONIA OIS Compound Bloomberg
+EUR,EONIA,EUR-EONIA-Swap-Index,EONIA Swap Index
+EUR,EURIBOR,EUR-EURIBOR,Euro Interbank Offered Rate
+EUR,EURIBOR,EUR-EURIBOR-Act/365,EURIBOR Act/365
+EUR,EURIBOR,EUR-EURIBOR-Act/365-Bloomberg,EURIBOR Act/365 Bloomberg
+EUR,EURIBOR,EUR EURIBOR-Annual Bond Swap vs 1m-11:00-ICAP,EURIBOR Annual Bond Swap vs 1m 11:00 ICAP
+EUR,EURIBOR,EUR EURIBOR-Basis Swap-1m vs 3m-Euribor-11:00-ICAP,EURIBOR Basis Swap 1m vs 3m 11:00 ICAP
+EUR,EURIBOR,EUR EURIBOR-Basis Swap-3m vs 6m-11:00-ICAP,EURIBOR Basis Swap 3m vs 6m 11:00 ICAP
+EUR,EURIBOR,EUR-EURIBOR ICE Swap Rate-11:00,EURIBOR ICE Swap Rate 11:00
+EUR,EURIBOR,EUR-EURIBOR ICE Swap Rate-12:00,EURIBOR ICE Swap Rate 12:00
+EUR,EURIBOR,EUR-EURIBOR-Reference Banks,EURIBOR Reference Banks
+EUR,EURIBOR,EUR-EURIBOR-Reuters,EURIBOR Reuters
+EUR,EURIBOR,EUR-EURIBOR-Telerate,EURIBOR Telerate
+EUR,EURONIA,EUR-EURONIA-OIS Compound,EURONIA OIS Compound
+EUR,EURONIA,EUR-EURONIA-OIS-COMPOUND,EURONIA OIS Compound (Alternative)
+EUR,EuroSTR,EUR-EuroSTR,Euro Short-Term Rate
+EUR,EuroSTR,EUR-EuroSTR Average 12M,EuroSTR Average 12 Month
+EUR,EuroSTR,EUR-EuroSTR Average 1M,EuroSTR Average 1 Month
+EUR,EuroSTR,EUR-EuroSTR Average 1W,EuroSTR Average 1 Week
+EUR,EuroSTR,EUR-EuroSTR Average 3M,EuroSTR Average 3 Month
+EUR,EuroSTR,EUR-EuroSTR Average 6M,EuroSTR Average 6 Month
+EUR,EuroSTR,EUR-EuroSTR-COMPOUND,EuroSTR Compound
+EUR,EuroSTR,EUR-EuroSTR Compounded Index,EuroSTR Compounded Index
+EUR,EuroSTR,EUR-EuroSTR FTSE Term,EuroSTR FTSE Term
+EUR,EuroSTR,EUR-EuroSTR ICE Compounded Index,EuroSTR ICE Compounded Index
+EUR,EuroSTR,EUR-EuroSTR ICE Compounded Index 0 Floor,EuroSTR ICE Compounded Index 0 Floor
+EUR,EuroSTR,EUR-EuroSTR ICE Compounded Index 0 Floor 2D Lag,EuroSTR ICE Compounded Index 0 Floor 2D Lag
+EUR,EuroSTR,EUR-EuroSTR ICE Compounded Index 0 Floor 5D Lag,EuroSTR ICE Compounded Index 0 Floor 5D Lag
+EUR,EuroSTR,EUR-EuroSTR ICE Compounded Index 2D Lag,EuroSTR ICE Compounded Index 2D Lag
+EUR,EuroSTR,EUR-EuroSTR ICE Compounded Index 5D Lag,EuroSTR ICE Compounded Index 5D Lag
+EUR,EuroSTR,EUR-EuroSTR ICE Swap Rate,EuroSTR ICE Swap Rate
+EUR,EuroSTR,EUR-EuroSTR-OIS Compound,EuroSTR OIS Compound
+EUR,EuroSTR,EUR-EuroSTR Term,EuroSTR Term
+EUR,ISDA,EUR-ISDA-EURIBOR Swap Rate-11:00,ISDA EURIBOR Swap Rate 11:00
+EUR,ISDA,EUR-ISDA-EURIBOR Swap Rate-12:00,ISDA EURIBOR Swap Rate 12:00
+EUR,ISDA,EUR-ISDA-LIBOR Swap Rate-10:00,ISDA LIBOR Swap Rate 10:00
+EUR,ISDA,EUR-ISDA-LIBOR Swap Rate-11:00,ISDA LIBOR Swap Rate 11:00
+EUR,LIBOR,EUR-LIBOR,EUR LIBOR
+EUR,LIBOR,EUR-LIBOR-BBA,EUR LIBOR BBA
+EUR,LIBOR,EUR-LIBOR-BBA-Bloomberg,EUR LIBOR BBA Bloomberg
+EUR,LIBOR,EUR-LIBOR-Reference Banks,EUR LIBOR Reference Banks
+EUR,TAM,EUR-TAM-CDC,EUR TAM CDC
+EUR,TEC10,EUR-TEC10-CNO,EUR TEC10 CNO
+EUR,TEC10,EUR-TEC10-CNO-SwapMarker,EUR TEC10 CNO SwapMarker
+EUR,TEC10,EUR-TEC10-Reference Banks,EUR TEC10 Reference Banks
+EUR,TEC5,EUR-TEC5-CNO,EUR TEC5 CNO
+EUR,TEC5,EUR-TEC5-CNO-SwapMarker,EUR TEC5 CNO SwapMarker
+EUR,TEC5,EUR-TEC5-Reference Banks,EUR TEC5 Reference Banks
+EUR,TMM,EUR-TMM-CDC-COMPOUND,EUR TMM CDC Compound
+EUR,Basis Swap,EUR USD-Basis Swaps-11:00-ICAP,EUR USD Basis Swaps 11:00 ICAP
+GBP,LIBOR Swap,GBP-6M LIBOR SWAP-CME vs LCH-ICAP,6M LIBOR Swap CME vs LCH ICAP
+GBP,LIBOR Swap,GBP-6M LIBOR SWAP-CME vs LCH-ICAP-Bloomberg,6M LIBOR Swap CME vs LCH ICAP Bloomberg
+GBP,LIBOR Swap,GBP-6M LIBOR SWAP-EUREX vs LCH-ICAP,6M LIBOR Swap EUREX vs LCH ICAP
+GBP,LIBOR Swap,GBP-6M LIBOR SWAP-EUREX vs LCH-ICAP-Bloomberg,6M LIBOR Swap EUREX vs LCH ICAP Bloomberg
+GBP,ISDA,GBP-ISDA-Swap Rate,GBP ISDA Swap Rate
+GBP,LIBOR,GBP-LIBOR,GBP LIBOR
+GBP,LIBOR,GBP-LIBOR-BBA,GBP LIBOR BBA
+GBP,LIBOR,GBP-LIBOR-BBA-Bloomberg,GBP LIBOR BBA Bloomberg
+GBP,LIBOR,GBP-LIBOR ICE Swap Rate,GBP LIBOR ICE Swap Rate
+GBP,LIBOR,GBP-LIBOR-ISDA,GBP LIBOR ISDA
+GBP,LIBOR,GBP-LIBOR-Reference Banks,GBP LIBOR Reference Banks
+GBP,RONIA,GBP-RONIA,Reformed Sterling Overnight Index Average
+GBP,RONIA,GBP-RONIA-OIS Compound,RONIA OIS Compound
+GBP,Swap Rate,GBP-Semi-Annual Swap Rate,Semi-Annual Swap Rate
+GBP,Swap Rate,GBP-Semi-Annual Swap Rate-11:00-ICAP,Semi-Annual Swap Rate 11:00 ICAP
+GBP,Swap Rate,GBP-Semi Annual Swap Rate-11:00-TRADITION,Semi Annual Swap Rate 11:00 TRADITION
+GBP,Swap Rate,GBP-Semi Annual Swap Rate-4:15-TRADITION,Semi Annual Swap Rate 4:15 TRADITION
+GBP,Swap Rate,GBP-Semi-Annual Swap Rate-Reference Banks,Semi-Annual Swap Rate Reference Banks
+GBP,Swap Rate,GBP-Semi-Annual Swap Rate-SwapMarker26,Semi-Annual Swap Rate SwapMarker26
+GBP,SONIA,GBP-SONIA,Sterling Overnight Index Average
+GBP,SONIA,GBP-SONIA-COMPOUND,SONIA Compound
+GBP,SONIA,GBP-SONIA Compounded Index,SONIA Compounded Index
+GBP,SONIA,GBP-SONIA FTSE Term,SONIA FTSE Term
+GBP,SONIA,GBP-SONIA ICE Compounded Index,SONIA ICE Compounded Index
+GBP,SONIA,GBP-SONIA ICE Compounded Index 0 Floor,SONIA ICE Compounded Index 0 Floor
+GBP,SONIA,GBP-SONIA ICE Compounded Index 0 Floor 2D Lag,SONIA ICE Compounded Index 0 Floor 2D Lag
+GBP,SONIA,GBP-SONIA ICE Compounded Index 0 Floor 5D Lag,SONIA ICE Compounded Index 0 Floor 5D Lag
+GBP,SONIA,GBP-SONIA ICE Compounded Index 2D Lag,SONIA ICE Compounded Index 2D Lag
+GBP,SONIA,GBP-SONIA ICE Compounded Index 5D Lag,SONIA ICE Compounded Index 5D Lag
+GBP,SONIA,GBP-SONIA ICE Swap Rate,SONIA ICE Swap Rate
+GBP,SONIA,GBP-SONIA ICE Term,SONIA ICE Term
+GBP,SONIA,GBP-SONIA-OIS-11:00-ICAP,SONIA OIS 11:00 ICAP
+GBP,SONIA,GBP-SONIA-OIS-11:00-TRADITION,SONIA OIS 11:00 TRADITION
+GBP,SONIA,GBP-SONIA-OIS-4:15-TRADITION,SONIA OIS 4:15 TRADITION
+GBP,SONIA,GBP-SONIA-OIS Compound,SONIA OIS Compound
+GBP,SONIA,GBP-SONIA Swap Rate,SONIA Swap Rate
+GBP,Base Rate,GBP-UK Base Rate,UK Base Rate
+GBP,Basis Swap,GBP USD-Basis Swaps-11:00-ICAP,GBP USD Basis Swaps 11:00 ICAP
+GBP,WMBA,GBP-WMBA-RONIA-COMPOUND,WMBA RONIA Compound
+GBP,WMBA,GBP-WMBA-SONIA-COMPOUND,WMBA SONIA Compound
+GRD,ATHIBOR,GRD-ATHIBOR-ATHIBOR,Greek Drachma ATHIBOR
+GRD,ATHIBOR,GRD-ATHIBOR-Reference Banks,Greek Drachma ATHIBOR Reference Banks
+GRD,ATHIBOR,GRD-ATHIBOR-Telerate,Greek Drachma ATHIBOR Telerate
+GRD,ATHIMID,GRD-ATHIMID-Reference Banks,Greek Drachma ATHIMID Reference Banks
+GRD,ATHIMID,GRD-ATHIMID-Reuters,Greek Drachma ATHIMID Reuters
+HKD,HIBOR,HKD-HIBOR,Hong Kong Interbank Offered Rate
+HKD,HIBOR,HKD-HIBOR-HIBOR=,HIBOR= (Rate Code)
+HKD,HIBOR,HKD-HIBOR-HIBOR-Bloomberg,HIBOR via Bloomberg
+HKD,HIBOR,HKD-HIBOR-HKAB,HIBOR Hong Kong Association of Banks
+HKD,HIBOR,HKD-HIBOR-HKAB-Bloomberg,HIBOR HKAB via Bloomberg
+HKD,HIBOR,HKD-HIBOR-ISDC,HIBOR ISDC
+HKD,HIBOR,HKD-HIBOR-Reference Banks,HIBOR Reference Banks
+HKD,HONIA,HKD-HONIA,Hong Kong Dollar Overnight Index Average
+HKD,HONIA,HKD-HONIA-OIS Compound,HONIA OIS Compound
+HKD,HONIX,HKD-HONIX-OIS-COMPOUND,HONIX OIS Compound
+HKD,ISDA,HKD-ISDA-Swap Rate-11:00,ISDA Swap Rate 11:00
+HKD,ISDA,HKD-ISDA-Swap Rate-4:00,ISDA Swap Rate 4:00
+HKD,Swap Rate,HKD-Quarterly-Annual Swap Rate-11:00-BGCANTOR,Quarterly-Annual Swap Rate 11:00 BGCANTOR
+HKD,Swap Rate,HKD-Quarterly-Annual Swap Rate-11:00-TRADITION,Quarterly-Annual Swap Rate 11:00 TRADITION
+HKD,Swap Rate,HKD-Quarterly-Annual Swap Rate-4:00-BGCANTOR,Quarterly-Annual Swap Rate 4:00 BGCANTOR
+HKD,Swap Rate,HKD-Quarterly-Annual Swap Rate-Reference Banks,Quarterly-Annual Swap Rate Reference Banks
+HKD,Swap Rate,HKD-Quarterly-Quarterly Swap Rate-11:00-ICAP,Quarterly-Quarterly Swap Rate 11:00 ICAP
+HKD,Swap Rate,HKD-Quarterly-Quarterly Swap Rate-4:00-ICAP,Quarterly-Quarterly Swap Rate 4:00 ICAP
+HKD,Swap Rate,HKD-Quarterly-Quarterly Swap Rate-Reference Banks,Quarterly-Quarterly Swap Rate Reference Banks
+HUF,BUBOR,HUF-BUBOR,Budapest Interbank Offered Rate
+HUF,BUBOR,HUF-BUBOR-Reference Banks,BUBOR Reference Banks
+HUF,BUBOR,HUF-BUBOR-Reuters,BUBOR Reuters
+HUF,HUFONIA,HUF-HUFONIA,Hungarian Overnight Index Average
+HUF,HUFONIA,HUF-HUFONIA-OIS Compound,HUFONIA OIS Compound
+IDR,IDMA,IDR-IDMA-Bloomberg,Indonesian IDMA via Bloomberg
+IDR,IDRFIX,IDR-IDRFIX,Indonesian IDRFIX
+IDR,INDONIA,IDR-INDONIA,Indonesian Overnight Index Average
+IDR,INDONIA,IDR-INDONIA-OIS Compound,INDONIA OIS Compound
+IDR,JIBOR,IDR-JIBOR,Jakarta Interbank Offered Rate
+IDR,JIBOR,IDR-JIBOR-Reuters,JIBOR Reuters
+IDR,SBI,IDR-SBI-Reuters,Indonesian SBI via Reuters
+IDR,Swap Rate,IDR-Semi-Annual Swap Rate-11:00-BGCANTOR,Semi-Annual Swap Rate 11:00 BGCANTOR
+IDR,Swap Rate,IDR-Semi Annual Swap Rate-Non-deliverable-16:00-Tullett Prebon,Semi Annual Swap Rate Non-deliverable 16:00 Tullett Prebon
+IDR,Swap Rate,IDR-Semi-Annual Swap Rate-Reference Banks,Semi-Annual Swap Rate Reference Banks
+IDR,SOR,IDR-SOR-Reference Banks,Indonesian SOR Reference Banks
+IDR,SOR,IDR-SOR-Reuters,Indonesian SOR Reuters
+IDR,SOR,IDR-SOR-Telerate,Indonesian SOR Telerate
+ILS,SHIR,ILS-SHIR,Israeli Shekel Interest Rate
+ILS,SHIR,ILS-SHIR-OIS Compound,SHIR OIS Compound
+ILS,TELBOR,ILS-TELBOR,Tel Aviv Interbank Offered Rate
+ILS,TELBOR,ILS-TELBOR01-Reuters,TELBOR01 Reuters
+ILS,TELBOR,ILS-TELBOR-Reference Banks,TELBOR Reference Banks
+INR,BMK,INR-BMK,Indian Rupee BMK
+INR,CMT,INR-CMT,Indian Rupee CMT
+INR,MIBOR,INR-FBIL-MIBOR-OIS-COMPOUND,FBIL MIBOR OIS Compound
+INR,INBMK,INR-INBMK-REUTERS,INBMK Reuters
+INR,MIBOR,INR-MIBOR OIS,Mumbai Interbank Offered Rate OIS
+INR,MIBOR,INR-MIBOR-OIS Compound,MIBOR OIS Compound
+INR,MIBOR,INR-MIBOR-OIS-COMPOUND,MIBOR OIS Compound (Alternative)
+INR,MIFOR,INR-MIFOR,Mumbai Interbank Forward Offered Rate
+INR,MIOIS,INR-MIOIS,Mumbai Interbank Overnight Index Swap
+INR,MITOR,INR-MITOR-OIS-COMPOUND,MITOR OIS Compound
+INR,MIFOR,INR-Modified MIFOR,Modified MIFOR
+INR,Reference,INR-Reference Banks,INR Reference Banks
+INR,Swap Rate,INR-Semi-Annual Swap Rate-11:30-BGCANTOR,Semi-Annual Swap Rate 11:30 BGCANTOR
+INR,Swap Rate,INR-Semi Annual Swap Rate-Non-deliverable-16:00-Tullett Prebon,Semi Annual Swap Rate Non-deliverable 16:00 Tullett Prebon
+INR,Swap Rate,INR-Semi-Annual Swap Rate-Reference Banks,Semi-Annual Swap Rate Reference Banks
+ISK,REIBOR,ISK-REIBOR,Reykjavik Interbank Offered Rate
+ISK,REIBOR,ISK-REIBOR-Reference Banks,REIBOR Reference Banks
+ISK,REIBOR,ISK-REIBOR-Reuters,REIBOR Reuters
+JPY,Swap Rate,JPY-Annual Swap Rate-11:00-TRADITION,Annual Swap Rate 11:00 TRADITION
+JPY,Swap Rate,JPY-Annual Swap Rate-3:00-TRADITION,Annual Swap Rate 3:00 TRADITION
+JPY,BBSF,JPY-BBSF-Bloomberg-10:00,BBSF Bloomberg 10:00
+JPY,BBSF,JPY-BBSF-Bloomberg-15:00,BBSF Bloomberg 15:00
+JPY,TIBOR,JPY-Euroyen TIBOR,Euroyen TIBOR
+JPY,ISDA,JPY-ISDA-Swap Rate-10:00,ISDA Swap Rate 10:00
+JPY,ISDA,JPY-ISDA-Swap Rate-15:00,ISDA Swap Rate 15:00
+JPY,LIBOR,JPY-LIBOR,JPY LIBOR
+JPY,LIBOR,JPY-LIBOR-BBA,JPY LIBOR BBA
+JPY,LIBOR,JPY-LIBOR-BBA-Bloomberg,JPY LIBOR BBA Bloomberg
+JPY,LIBOR,JPY-LIBOR-FRASETT,JPY LIBOR FRASETT
+JPY,LIBOR,JPY-LIBOR-ISDA,JPY LIBOR ISDA
+JPY,LIBOR,JPY-LIBOR-Reference Banks,JPY LIBOR Reference Banks
+JPY,LIBOR,JPY-LIBOR TSR-10:00,LIBOR TSR 10:00
+JPY,LIBOR,JPY-LIBOR TSR-15:00,LIBOR TSR 15:00
+JPY,LTPR,JPY-LTPR MHBK,Long Term Prime Rate MHBK
+JPY,LTPR,JPY-LTPR-MHCB,Long Term Prime Rate MHCB
+JPY,LTPR,JPY-LTPR-TBC,Long Term Prime Rate TBC
+JPY,MUTANCALL,JPY-MUTANCALL-TONAR,MUTANCALL TONAR
+JPY,OIS,JPY-OIS-11:00-ICAP,OIS 11:00 ICAP
+JPY,OIS,JPY-OIS-11:00-TRADITION,OIS 11:00 TRADITION
+JPY,OIS,JPY-OIS-3:00-TRADITION,OIS 3:00 TRADITION
+JPY,LIBOR,JPY-Quoting Banks-LIBOR,Quoting Banks LIBOR
+JPY,STPR,JPY-STPR-Quoting Banks,Short Term Prime Rate Quoting Banks
+JPY,TIBOR,JPY-TIBOR,Tokyo Interbank Offered Rate
+JPY,TIBOR,JPY-TIBOR-17096,TIBOR 17096
+JPY,TIBOR,JPY-TIBOR-17097,TIBOR 17097
+JPY,TIBOR,JPY-TIBOR-DTIBOR01,TIBOR DTIBOR01
+JPY,TIBOR,JPY-TIBOR-TIBM,TIBOR TIBM
+JPY,TIBOR,JPY-TIBOR-TIBM (10 Banks),TIBOR TIBM 10 Banks
+JPY,TIBOR,JPY-TIBOR-TIBM (5 Banks),TIBOR TIBM 5 Banks
+JPY,TIBOR,JPY-TIBOR-TIBM (All Banks),TIBOR TIBM All Banks
+JPY,TIBOR,JPY-TIBOR-TIBM (All Banks)-Bloomberg,TIBOR TIBM All Banks Bloomberg
+JPY,TIBOR,JPY-TIBOR-TIBM-Reference Banks,TIBOR TIBM Reference Banks
+JPY,TIBOR,JPY-TIBOR-ZTIBOR,TIBOR ZTIBOR
+JPY,TONA,JPY-TONA,Tokyo Overnight Average Rate
+JPY,TONA,JPY-TONA Average 180D,TONA Average 180 Days
+JPY,TONA,JPY-TONA Average 30D,TONA Average 30 Days
+JPY,TONA,JPY-TONA Average 90D,TONA Average 90 Days
+JPY,TONA,JPY-TONA Compounded Index,TONA Compounded Index
+JPY,TONA,JPY-TONA ICE Compounded Index,TONA ICE Compounded Index
+JPY,TONA,JPY-TONA ICE Compounded Index 0 Floor,TONA ICE Compounded Index 0 Floor
+JPY,TONA,JPY-TONA ICE Compounded Index 0 Floor 2D Lag,TONA ICE Compounded Index 0 Floor 2D Lag
+JPY,TONA,JPY-TONA ICE Compounded Index 0 Floor 5D Lag,TONA ICE Compounded Index 0 Floor 5D Lag
+JPY,TONA,JPY-TONA ICE Compounded Index 2D Lag,TONA ICE Compounded Index 2D Lag
+JPY,TONA,JPY-TONA ICE Compounded Index 5D Lag,TONA ICE Compounded Index 5D Lag
+JPY,TONA,JPY-TONA-OIS Compound,TONA OIS Compound
+JPY,TONA,JPY-TONA-OIS-COMPOUND,TONA OIS Compound (Alternative)
+JPY,TONA,JPY-TONA TSR-10:00,TONA TSR 10:00
+JPY,TONA,JPY-TONA TSR-15:00,TONA TSR 15:00
+JPY,TORF,JPY-TORF QUICK,TORF QUICK
+JPY,TSR,JPY-TSR-Reference Banks,TSR Reference Banks
+JPY,TSR,JPY-TSR-Reuters-10:00,TSR Reuters 10:00
+JPY,TSR,JPY-TSR-Reuters-15:00,TSR Reuters 15:00
+JPY,TSR,JPY-TSR-Telerate-10:00,TSR Telerate 10:00
+JPY,TSR,JPY-TSR-Telerate-15:00,TSR Telerate 15:00
+JPY,Basis Swap,JPY USD-Basis Swaps-11:00-ICAP,JPY USD Basis Swaps 11:00 ICAP
+KRW,Bond,KRW-Bond-3222,Korean Won Bond 3222
+KRW,CD,KRW-CD-3220,Korean Won CD 3220
+KRW,CD,KRW-CD 91D,Korean Won CD 91 Days
+KRW,CD,KRW-CD-KSDA-Bloomberg,Korean Won CD KSDA Bloomberg
+KRW,KOFR,KRW-KOFR,Korea Overnight Financing Repo Rate
+KRW,KOFR,KRW-KOFR-OIS Compound,KOFR OIS Compound
+KRW,Swap Rate,KRW-Quarterly Annual Swap Rate-3:30-ICAP,Quarterly Annual Swap Rate 3:30 ICAP
+MXN,TIIE,MXN-TIIE,Mexican Interbank Equilibrium Interest Rate
+MXN,TIIE,MXN-TIIE-Banxico,TIIE Banxico
+MXN,TIIE,MXN-TIIE-Banxico-Bloomberg,TIIE Banxico Bloomberg
+MXN,TIIE,MXN-TIIE-Banxico-Reference Banks,TIIE Banxico Reference Banks
+MXN,TIIE,MXN-TIIE ON,TIIE Overnight
+MXN,TIIE,MXN-TIIE ON-OIS Compound,TIIE ON OIS Compound
+MXN,TIIE,MXN-TIIE-Reference Banks,TIIE Reference Banks
+MYR,KLIBOR,MYR-KLIBOR,Kuala Lumpur Interbank Offered Rate
+MYR,KLIBOR,MYR-KLIBOR-BNM,KLIBOR Bank Negara Malaysia
+MYR,KLIBOR,MYR-KLIBOR-Reference Banks,KLIBOR Reference Banks
+MYR,MYOR,MYR-MYOR,Malaysia Overnight Rate
+MYR,MYOR,MYR-MYOR-OIS Compound,MYOR OIS Compound
+MYR,Swap Rate,MYR-Quarterly Swap Rate-11:00-TRADITION,Quarterly Swap Rate 11:00 TRADITION
+MYR,Swap Rate,MYR-Quarterly Swap Rate-TRADITION-Reference Banks,Quarterly Swap Rate TRADITION Reference Banks
+NOK,NIBOR,NOK-NIBOR,Norwegian Interbank Offered Rate
+NOK,NIBOR,NOK-NIBOR-NIBR,NIBOR NIBR
+NOK,NIBOR,NOK-NIBOR-NIBR-Bloomberg,NIBOR NIBR Bloomberg
+NOK,NIBOR,NOK-NIBOR-NIBR-Reference Banks,NIBOR NIBR Reference Banks
+NOK,NIBOR,NOK-NIBOR-OIBOR,NIBOR OIBOR
+NOK,NIBOR,NOK-NIBOR-Reference Banks,NIBOR Reference Banks
+NOK,NOWA,NOK-NOWA,Norwegian Overnight Weighted Average
+NOK,NOWA,NOK-NOWA-OIS Compound,NOWA OIS Compound
+NZD,BBR,NZD-BBR-BID,New Zealand Bank Bill Rate Bid
+NZD,BBR,NZD-BBR-FRA,New Zealand BBR FRA
+NZD,BBR,NZD-BBR-ISDC,New Zealand BBR ISDC
+NZD,BBR,NZD-BBR-Reference Banks,New Zealand BBR Reference Banks
+NZD,BBR,NZD-BBR-Telerate,New Zealand BBR Telerate
+NZD,BKBM,NZD-BKBM Bid,Bank Bill Benchmark Bid
+NZD,BKBM,NZD-BKBM FRA,Bank Bill Benchmark FRA
+NZD,BKBM,NZD-BKBM FRA Swap Rate ICAP,BKBM FRA Swap Rate ICAP
+NZD,NZIONA,NZD-NZIONA,New Zealand Interbank Overnight Cash Rate
+NZD,NZIONA,NZD-NZIONA-OIS Compound,NZIONA OIS Compound
+NZD,NZIONA,NZD-NZIONA-OIS-COMPOUND,NZIONA OIS Compound (Alternative)
+NZD,Swap Rate,NZD-Semi-Annual Swap Rate-11:00-BGCANTOR,Semi-Annual Swap Rate 11:00 BGCANTOR
+NZD,Swap Rate,NZD-Semi-Annual Swap Rate-BGCANTOR-Reference Banks,Semi-Annual Swap Rate BGCANTOR Reference Banks
+NZD,Swap Rate,NZD-Swap Rate-ICAP,Swap Rate ICAP
+NZD,Swap Rate,NZD-Swap Rate-ICAP-Reference Banks,Swap Rate ICAP Reference Banks
+PHP,ORR,PHP-ORR,Philippine Overnight Reference Rate
+PHP,PHIREF,PHP-PHIREF,Philippine Interbank Reference Rate
+PHP,PHIREF,PHP-PHIREF-BAP,PHIREF Bankers Association of Philippines
+PHP,PHIREF,PHP-PHIREF-Bloomberg,PHIREF Bloomberg
+PHP,PHIREF,PHP-PHIREF-Reference Banks,PHIREF Reference Banks
+PHP,Swap Rate,PHP-Semi-Annual Swap Rate-11:00-BGCANTOR,Semi-Annual Swap Rate 11:00 BGCANTOR
+PHP,Swap Rate,PHP-Semi-Annual Swap Rate-Reference Banks,Semi-Annual Swap Rate Reference Banks
+PLN,POLONIA,PLN-POLONIA,Polish Overnight Index Average
+PLN,POLONIA,PLN-POLONIA-OIS Compound,POLONIA OIS Compound
+PLN,POLONIA,PLN-POLONIA-OIS-COMPOUND,POLONIA OIS Compound (Alternative)
+PLN,WIBID,PLN-WIBID,Warsaw Interbank Bid Rate
+PLN,WIBOR,PLN-WIBOR,Warsaw Interbank Offered Rate
+PLN,WIBOR,PLN-WIBOR-Reference Banks,WIBOR Reference Banks
+PLN,WIBOR,PLN-WIBOR-WIBO,WIBOR WIBO
+PLN,WIRON,PLN-WIRON,Warsaw Interbank Overnight Rate
+PLN,WIRON,PLN-WIRON-OIS Compound,WIRON OIS Compound
+PLZ,WIBOR,PLZ-WIBOR-Reference Banks,Polish Zloty WIBOR Reference Banks
+PLZ,WIBOR,PLZ-WIBOR-WIBO,Polish Zloty WIBOR WIBO
+EUR,REPOFUNDS,REPOFUNDS RATE-FRANCE-OIS-COMPOUND,Repofunds Rate France OIS Compound
+EUR,REPOFUNDS,REPOFUNDS RATE-GERMANY-OIS-COMPOUND,Repofunds Rate Germany OIS Compound
+EUR,REPOFUNDS,REPOFUNDS RATE-ITALY-OIS-COMPOUND,Repofunds Rate Italy OIS Compound
+RON,Swap Rate,RON-Annual Swap Rate-11:00-BGCANTOR,Annual Swap Rate 11:00 BGCANTOR
+RON,Swap Rate,RON-Annual Swap Rate-Reference Banks,Annual Swap Rate Reference Banks
+RON,RBOR,RON-RBOR-Reuters,Romanian RBOR Reuters
+RON,ROBID,RON-ROBID,Romanian Interbank Bid Rate
+RON,ROBOR,RON-ROBOR,Romanian Interbank Offered Rate
+RUB,Swap Rate,RUB-Annual Swap Rate-11:00-BGCANTOR,Annual Swap Rate 11:00 BGCANTOR
+RUB,Swap Rate,RUB-Annual Swap Rate-12:45-TRADITION,Annual Swap Rate 12:45 TRADITION
+RUB,Swap Rate,RUB-Annual Swap Rate-4:15-TRADITION,Annual Swap Rate 4:15 TRADITION
+RUB,Swap Rate,RUB-Annual Swap Rate-Reference Banks,Annual Swap Rate Reference Banks
+RUB,Swap Rate,RUB-Annual Swap Rate-TRADITION-Reference Banks,Annual Swap Rate TRADITION Reference Banks
+RUB,Key Rate,RUB-Key Rate CBRF,Key Rate Central Bank of Russian Federation
+RUB,MosPrime,RUB-MosPrime,Moscow Prime Offered Rate
+RUB,MosPrime,RUB-MOSPRIME-NFEA,MosPrime NFEA
+RUB,MosPrime,RUB-MOSPRIME-Reference Banks,MosPrime Reference Banks
+RUB,RUONIA,RUB-RUONIA,Russian Overnight Index Average
+RUB,RUONIA,RUB-RUONIA-OIS Compound,RUONIA OIS Compound
+RUB,RUONIA,RUB-RUONIA-OIS-COMPOUND,RUONIA OIS Compound (Alternative)
+SAR,SAIBOR,SAR-SAIBOR,Saudi Arabian Interbank Offered Rate
+SAR,SRIOR,SAR-SRIOR-Reference Banks,Saudi Riyal Interbank Offered Rate Reference Banks
+SAR,SRIOR,SAR-SRIOR-SUAA,Saudi Riyal Interbank Offered Rate SUAA
+SEK,Swap Rate,SEK-Annual Swap Rate,Annual Swap Rate
+SEK,Swap Rate,SEK-Annual Swap Rate-SESWFI,Annual Swap Rate SESWFI
+SEK,SIOR,SEK-SIOR-OIS-COMPOUND,SIOR OIS Compound
+SEK,STIBOR,SEK-STIBOR,Stockholm Interbank Offered Rate
+SEK,STIBOR,SEK-STIBOR-Bloomberg,STIBOR Bloomberg
+SEK,STIBOR,SEK-STIBOR-OIS Compound,STIBOR OIS Compound
+SEK,STIBOR,SEK-STIBOR-Reference Banks,STIBOR Reference Banks
+SEK,STIBOR,SEK-STIBOR-SIDE,STIBOR SIDE
+SEK,SWESTR,SEK-SWESTR,Swedish Short Term Rate
+SEK,SWESTR,SEK-SWESTR Average 1M,SWESTR Average 1 Month
+SEK,SWESTR,SEK-SWESTR Average 1W,SWESTR Average 1 Week
+SEK,SWESTR,SEK-SWESTR Average 2M,SWESTR Average 2 Month
+SEK,SWESTR,SEK-SWESTR Average 3M,SWESTR Average 3 Month
+SEK,SWESTR,SEK-SWESTR Average 6M,SWESTR Average 6 Month
+SEK,SWESTR,SEK-SWESTR Compounded Index,SWESTR Compounded Index
+SEK,SWESTR,SEK-SWESTR-OIS Compound,SWESTR OIS Compound
+SGD,Swap Rate,SGD-Semi-Annual Currency Basis Swap Rate-11:00-Tullett Prebon,Semi-Annual Currency Basis Swap Rate 11:00 Tullett Prebon
+SGD,Swap Rate,SGD-Semi-Annual Currency Basis Swap Rate-16:00-Tullett Prebon,Semi-Annual Currency Basis Swap Rate 16:00 Tullett Prebon
+SGD,Swap Rate,SGD-Semi-Annual Swap Rate-11:00-BGCANTOR,Semi-Annual Swap Rate 11:00 BGCANTOR
+SGD,Swap Rate,SGD-Semi-Annual Swap Rate-11:00-Tullett Prebon,Semi-Annual Swap Rate 11:00 Tullett Prebon
+SGD,Swap Rate,SGD-Semi-Annual Swap Rate-11.00-TRADITION,Semi-Annual Swap Rate 11.00 TRADITION
+SGD,Swap Rate,SGD-Semi-Annual Swap Rate-16:00-Tullett Prebon,Semi-Annual Swap Rate 16:00 Tullett Prebon
+SGD,Swap Rate,SGD-Semi-Annual Swap Rate-ICAP,Semi-Annual Swap Rate ICAP
+SGD,Swap Rate,SGD-Semi-Annual Swap Rate-ICAP-Reference Banks,Semi-Annual Swap Rate ICAP Reference Banks
+SGD,Swap Rate,SGD-Semi-Annual Swap Rate-Reference Banks,Semi-Annual Swap Rate Reference Banks
+SGD,Swap Rate,SGD-Semi-Annual Swap Rate-TRADITION-Reference Banks,Semi-Annual Swap Rate TRADITION Reference Banks
+SGD,SIBOR,SGD-SIBOR,Singapore Interbank Offered Rate
+SGD,SIBOR,SGD-SIBOR-Reference Banks,SIBOR Reference Banks
+SGD,SIBOR,SGD-SIBOR-Reuters,SIBOR Reuters
+SGD,SIBOR,SGD-SIBOR-Telerate,SIBOR Telerate
+SGD,SONAR,SGD-SONAR-OIS-COMPOUND,SONAR OIS Compound
+SGD,SONAR,SGD-SONAR-OIS-VWAP-COMPOUND,SONAR OIS VWAP Compound
+SGD,SOR,SGD-SOR,Singapore Dollar Swap Offer Rate
+SGD,SORA,SGD-SORA,Singapore Overnight Rate Average
+SGD,SORA,SGD-SORA-COMPOUND,SORA Compound
+SGD,SORA,SGD-SORA-OIS Compound,SORA OIS Compound
+SGD,SOR,SGD-SOR-Reference Banks,SOR Reference Banks
+SGD,SOR,SGD-SOR-Reuters,SOR Reuters
+SGD,SOR,SGD-SOR-Telerate,SOR Telerate
+SGD,SOR,SGD-SOR-VWAP,SOR Volume Weighted Average Price
+SGD,SOR,SGD-SOR-VWAP-Reference Banks,SOR VWAP Reference Banks
+SKK,BRIBOR,SKK-BRIBOR-Bloomberg,Slovak Koruna BRIBOR Bloomberg
+SKK,BRIBOR,SKK-BRIBOR-BRBO,Slovak Koruna BRIBOR BRBO
+SKK,BRIBOR,SKK-BRIBOR-NBSK07,Slovak Koruna BRIBOR NBSK07
+SKK,BRIBOR,SKK-BRIBOR-Reference Banks,Slovak Koruna BRIBOR Reference Banks
+THB,Swap Rate,THB-Semi-Annual Swap Rate-11:00-BGCANTOR,Semi-Annual Swap Rate 11:00 BGCANTOR
+THB,Swap Rate,THB-Semi-Annual Swap Rate-Reference Banks,Semi-Annual Swap Rate Reference Banks
+THB,SOR,THB-SOR-Reference Banks,Thai Baht SOR Reference Banks
+THB,SOR,THB-SOR-Reuters,Thai Baht SOR Reuters
+THB,SOR,THB-SOR-Telerate,Thai Baht SOR Telerate
+THB,THBFIX,THB-THBFIX,Thai Baht Fixing Rate
+THB,THBFIX,THB-THBFIX-Reference Banks,THBFIX Reference Banks
+THB,THBFIX,THB-THBFIX-Reuters,THBFIX Reuters
+THB,THOR,THB-THOR,Thai Overnight Repurchase Rate
+THB,THOR,THB-THOR-COMPOUND,THOR Compound
+THB,THOR,THB-THOR-OIS Compound,THOR OIS Compound
+TRY,Swap Rate,TRY Annual Swap Rate-11:00-TRADITION,Annual Swap Rate 11:00 TRADITION
+TRY,Swap Rate,TRY-Annual Swap Rate-11:15-BGCANTOR,Annual Swap Rate 11:15 BGCANTOR
+TRY,Swap Rate,TRY-Annual Swap Rate-Reference Banks,Annual Swap Rate Reference Banks
+TRY,Swap Rate,TRY-Semi-Annual Swap Rate-TRADITION-Reference Banks,Semi-Annual Swap Rate TRADITION Reference Banks
+TRY,TLREF,TRY-TLREF,Turkish Lira Overnight Reference Rate
+TRY,TLREF,TRY-TLREF-OIS Compound,TLREF OIS Compound
+TRY,TLREF,TRY-TLREF-OIS-COMPOUND,TLREF OIS Compound (Alternative)
+TRY,TRLIBOR,TRY-TRLIBOR,Turkish Lira LIBOR
+TRY,TRYIBOR,TRY-TRYIBOR-Reference Banks,Turkish Lira Interbank Offered Rate Reference Banks
+TRY,TRYIBOR,TRY-TRYIBOR-Reuters,Turkish Lira Interbank Offered Rate Reuters
+TWD,Swap Rate,TWD-Quarterly-Annual Swap Rate-11:00-BGCANTOR,Quarterly-Annual Swap Rate 11:00 BGCANTOR
+TWD,Swap Rate,TWD-Quarterly-Annual Swap Rate-Reference Banks,Quarterly-Annual Swap Rate Reference Banks
+TWD,Reference,TWD-Reference Dealers,Taiwan Dollar Reference Dealers
+TWD,Reuters,TWD-Reuters-6165,Taiwan Dollar Reuters 6165
+TWD,TAIBIR,TWD-TAIBIR01,Taiwan Interbank Interest Rate 01
+TWD,TAIBIR,TWD-TAIBIR02,Taiwan Interbank Interest Rate 02
+TWD,TAIBOR,TWD-TAIBOR,Taipei Interbank Offered Rate
+TWD,TAIBOR,TWD-TAIBOR-Bloomberg,TAIBOR Bloomberg
+TWD,TAIBOR,TWD-TAIBOR-Reuters,TAIBOR Reuters
+TWD,Telerate,TWD-Telerate-6165,Taiwan Dollar Telerate 6165
+TWD,TWCPBA,TWD-TWCPBA,Taiwan Commercial Paper Benchmark Average
+GBP,Base Rate,UK Base Rate,UK Base Rate
+USD,LIBOR Swap,USD-3M LIBOR SWAP-CME vs LCH-ICAP,3M LIBOR Swap CME vs LCH ICAP
+USD,LIBOR Swap,USD-3M LIBOR SWAP-CME vs LCH-ICAP-Bloomberg,3M LIBOR Swap CME vs LCH ICAP Bloomberg
+USD,LIBOR Swap,USD-6M LIBOR SWAP-CME vs LCH-ICAP,6M LIBOR Swap CME vs LCH ICAP
+USD,LIBOR Swap,USD-6M LIBOR SWAP-CME vs LCH-ICAP-Bloomberg,6M LIBOR Swap CME vs LCH ICAP Bloomberg
+USD,AMERIBOR,USD-AMERIBOR,American Interbank Offered Rate
+USD,AMERIBOR,USD-AMERIBOR Average 30D,AMERIBOR Average 30 Days
+USD,AMERIBOR,USD-AMERIBOR Average 90D,AMERIBOR Average 90 Days
+USD,AMERIBOR,USD-AMERIBOR Term,AMERIBOR Term
+USD,AMERIBOR,USD-AMERIBOR Term Structure,AMERIBOR Term Structure
+USD,Swap Rate,USD-Annual Swap Rate-11:00-BGCANTOR,Annual Swap Rate 11:00 BGCANTOR
+USD,Swap Rate,USD-Annual Swap Rate-11:00-TRADITION,Annual Swap Rate 11:00 TRADITION
+USD,Swap Rate,USD-Annual Swap Rate-4:00-TRADITION,Annual Swap Rate 4:00 TRADITION
+USD,AXI,USD-AXI Term,AXI Term
+USD,BA,USD-BA-H.15,Bankers' Acceptance H.15
+USD,BA,USD-BA-Reference Dealers,Bankers' Acceptance Reference Dealers
+USD,BMA,USD-BMA Municipal Swap Index,BMA Municipal Swap Index
+USD,BSBY,USD-BSBY,Bloomberg Short-Term Bank Yield Index
+USD,CD,USD-CD-H.15,Certificate of Deposit H.15
+USD,CD,USD-CD-Reference Dealers,Certificate of Deposit Reference Dealers
+USD,CMS,USD-CMS-Reference Banks,Constant Maturity Swap Reference Banks
+USD,CMS,USD-CMS-Reference Banks-ICAP SwapPX,CMS Reference Banks ICAP SwapPX
+USD,CMS,USD-CMS-Reuters,CMS Reuters
+USD,CMS,USD-CMS-Telerate,CMS Telerate
+USD,CMT,USD-CMT,Constant Maturity Treasury
+USD,CMT,USD-CMT Average 1W,CMT Average 1 Week
+USD,CMT,USD-CMT-T7051,CMT T7051
+USD,CMT,USD-CMT-T7052,CMT T7052
+USD,COF11,USD-COF11-FHLBSF,Cost of Funds 11th District FHLBSF
+USD,COF11,USD-COF11-Reuters,Cost of Funds 11th District Reuters
+USD,COF11,USD-COF11-Telerate,Cost of Funds 11th District Telerate
+USD,COFI,USD-COFI,Cost of Funds Index
+USD,CP,USD-CP-H.15,Commercial Paper H.15
+USD,CP,USD-CP-Money Market Yield,Commercial Paper Money Market Yield
+USD,CP,USD-CP-Reference Dealers,Commercial Paper Reference Dealers
+USD,CRITR,USD-CRITR,Credit Inclusive Term Rate
+USD,Fed Funds,USD-Federal Funds,Federal Funds Rate
+USD,Fed Funds,USD-Federal Funds-H.15,Federal Funds H.15
+USD,Fed Funds,USD-Federal Funds-H.15-Bloomberg,Federal Funds H.15 Bloomberg
+USD,Fed Funds,USD-Federal Funds-H.15-OIS-COMPOUND,Federal Funds H.15 OIS Compound
+USD,Fed Funds,USD-Federal Funds-OIS Compound,Federal Funds OIS Compound
+USD,Fed Funds,USD-Federal Funds-Reference Dealers,Federal Funds Reference Dealers
+USD,FFCB,USD-FFCB-DISCO,Federal Farm Credit Banks Discount Note
+USD,FXI,USD-FXI Term,FXI Term
+USD,ISDAFIX,USD-ISDAFIX3-Swap Rate,ISDAFIX3 Swap Rate
+USD,ISDAFIX,USD-ISDAFIX3-Swap Rate-3:00,ISDAFIX3 Swap Rate 3:00
+USD,ISDA,USD-ISDA-Swap Rate,ISDA Swap Rate
+USD,ISDA,USD-ISDA-Swap Rate-3:00,ISDA Swap Rate 3:00
+USD,LIBOR,USD-LIBOR,USD LIBOR
+USD,LIBOR,USD-LIBOR-BBA,USD LIBOR BBA
+USD,LIBOR,USD-LIBOR-BBA-Bloomberg,USD LIBOR BBA Bloomberg
+USD,LIBOR,USD-LIBOR ICE Swap Rate-11:00,LIBOR ICE Swap Rate 11:00
+USD,LIBOR,USD-LIBOR ICE Swap Rate-15:00,LIBOR ICE Swap Rate 15:00
+USD,LIBOR,USD-LIBOR-ISDA,USD LIBOR ISDA
+USD,LIBOR,USD-LIBOR-LIBO,USD LIBOR LIBO
+USD,LIBOR,USD-LIBOR-Reference Banks,USD LIBOR Reference Banks
+USD,Municipal,USD-Municipal Swap Index,Municipal Swap Index
+USD,Municipal,USD-Municipal Swap Libor Ratio-11:00-ICAP,Municipal Swap Libor Ratio 11:00 ICAP
+USD,Municipal,USD-Municipal Swap Rate-11:00-ICAP,Municipal Swap Rate 11:00 ICAP
+USD,OIS,USD-OIS-11:00-BGCANTOR,OIS 11:00 BGCANTOR
+USD,OIS,USD-OIS-11:00-LON-ICAP,OIS 11:00 LON ICAP
+USD,OIS,USD-OIS-11:00-NY-ICAP,OIS 11:00 NY ICAP
+USD,OIS,USD-OIS-11:00-TRADITION,OIS 11:00 TRADITION
+USD,OIS,USD-OIS-3:00-BGCANTOR,OIS 3:00 BGCANTOR
+USD,OIS,USD-OIS-3:00-NY-ICAP,OIS 3:00 NY ICAP
+USD,OIS,USD-OIS-4:00-TRADITION,OIS 4:00 TRADITION
+USD,OBFR,USD-Overnight Bank Funding Rate,Overnight Bank Funding Rate
+USD,Prime,USD-Prime,USD Prime Rate
+USD,Prime,USD-Prime-H.15,Prime H.15
+USD,Prime,USD-Prime-Reference Banks,Prime Reference Banks
+USD,S&P,USD-S&P Index-High Grade,S&P Index High Grade
+USD,S&P,USD-SandP Index High Grade,S&P Index High Grade (Alternative)
+USD,SIBOR,USD-SIBOR-Reference Banks,Singapore USD Interbank Offered Rate Reference Banks
+USD,SIBOR,USD-SIBOR-SIBO,Singapore USD Interbank Offered Rate SIBO
+USD,SIFMA,USD-SIFMA Municipal Swap Index,SIFMA Municipal Swap Index
+USD,SOFR,USD-SOFR,Secured Overnight Financing Rate
+USD,SOFR,USD-SOFR Average 180D,SOFR Average 180 Days
+USD,SOFR,USD-SOFR Average 30D,SOFR Average 30 Days
+USD,SOFR,USD-SOFR Average 90D,SOFR Average 90 Days
+USD,SOFR,USD-SOFR CME Term,SOFR CME Term
+USD,SOFR,USD-SOFR-COMPOUND,SOFR Compound
+USD,SOFR,USD-SOFR Compounded Index,SOFR Compounded Index
+USD,SOFR,USD-SOFR ICE Compounded Index,SOFR ICE Compounded Index
+USD,SOFR,USD-SOFR ICE Compounded Index 0 Floor,SOFR ICE Compounded Index 0 Floor
+USD,SOFR,USD-SOFR ICE Compounded Index 0 Floor 2D Lag,SOFR ICE Compounded Index 0 Floor 2D Lag
+USD,SOFR,USD-SOFR ICE Compounded Index 0 Floor 5D Lag,SOFR ICE Compounded Index 0 Floor 5D Lag
+USD,SOFR,USD-SOFR ICE Compounded Index 2D Lag,SOFR ICE Compounded Index 2D Lag
+USD,SOFR,USD-SOFR ICE Compounded Index 5D Lag,SOFR ICE Compounded Index 5D Lag
+USD,SOFR,USD-SOFR ICE Swap Rate,SOFR ICE Swap Rate
+USD,SOFR,USD-SOFR ICE Swap Rate Spreads,SOFR ICE Swap Rate Spreads
+USD,SOFR,USD-SOFR ICE Term,SOFR ICE Term
+USD,SOFR,USD-SOFR-OIS Compound,SOFR OIS Compound
+USD,Swap Rate,USD Swap Rate-BCMP1,Swap Rate BCMP1
+USD,TBILL,USD-TBILL Auction High Rate,Treasury Bill Auction High Rate
+USD,TBILL,USD-TBILL-H.15,Treasury Bill H.15
+USD,TBILL,USD-TBILL-H.15-Bloomberg,Treasury Bill H.15 Bloomberg
+USD,TBILL,USD-TBILL-Secondary Market,Treasury Bill Secondary Market
+USD,TBILL,USD-TBILL Secondary Market-Bond Equivalent Yield,Treasury Bill Secondary Market Bond Equivalent Yield
+USD,TIBOR,USD-TIBOR-ISDC,USD TIBOR ISDC
+USD,TIBOR,USD-TIBOR-Reference Banks,USD TIBOR Reference Banks
+USD,Treasury,USD-Treasury-19901-3:00-ICAP,Treasury 19901 3:00 ICAP
+USD,Treasury,USD Treasury Rate-BCMP1,Treasury Rate BCMP1
+USD,Treasury,USD-Treasury Rate-ICAP BrokerTec,Treasury Rate ICAP BrokerTec
+USD,Treasury,USD-Treasury Rate-SwapMarker100,Treasury Rate SwapMarker100
+USD,Treasury,USD-Treasury Rate-SwapMarker99,Treasury Rate SwapMarker99
+USD,Treasury,USD-Treasury Rate-T19901,Treasury Rate T19901
+USD,Treasury,USD-Treasury Rate-T500,Treasury Rate T500
+VND,Swap Rate,VND-Semi-Annual Swap Rate-11:00-BGCANTOR,Semi-Annual Swap Rate 11:00 BGCANTOR
+VND,Swap Rate,VND-Semi-Annual Swap Rate-Reference Banks,Semi-Annual Swap Rate Reference Banks
+ZAR,DEPOSIT,ZAR-DEPOSIT-Reference Banks,Deposit Rate Reference Banks
+ZAR,DEPOSIT,ZAR-DEPOSIT-SAFEX,Deposit Rate SAFEX
+ZAR,JIBAR,ZAR-JIBAR,Johannesburg Interbank Average Rate
+ZAR,JIBAR,ZAR-JIBAR-Reference Banks,JIBAR Reference Banks
+ZAR,JIBAR,ZAR-JIBAR-SAFEX,JIBAR SAFEX
+ZAR,Prime,ZAR-Prime Average,Prime Average
+ZAR,Prime,ZAR-PRIME-AVERAGE,Prime Average (Alternative)
+ZAR,Prime,ZAR-PRIME-AVERAGE-Reference Banks,Prime Average Reference Banks
+ZAR,Swap Rate,ZAR-Quarterly Swap Rate-1:00-TRADITION,Quarterly Swap Rate 1:00 TRADITION
+ZAR,Swap Rate,ZAR-Quarterly Swap Rate-5:30-TRADITION,Quarterly Swap Rate 5:30 TRADITION
+ZAR,Swap Rate,ZAR-Quarterly Swap Rate-TRADITION-Reference Banks,Quarterly Swap Rate TRADITION Reference Banks
+ZAR,ZARONIA,ZAR-ZARONIA,South African Overnight Index Average
+ZAR,ZARONIA,ZAR-ZARONIA-OIS Compound,ZARONIA OIS Compound

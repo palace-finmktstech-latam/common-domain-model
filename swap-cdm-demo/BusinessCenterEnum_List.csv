@@ -1,0 +1,211 @@
+Enum Value,Country,City,Full Name,Region
+AEAB,UAE,Abu Dhabi,United Arab Emirates - Abu Dhabi,Middle East
+AEAD,UAE,Abu Dhabi,United Arab Emirates - Abu Dhabi,Middle East
+AEDU,UAE,Dubai,United Arab Emirates - Dubai,Middle East
+AMYE,Armenia,Yerevan,Armenia - Yerevan,Central Asia
+AOLU,Angola,Luanda,Angola - Luanda,Africa
+ARBA,Argentina,Buenos Aires,Argentina - Buenos Aires,South America
+ATVI,Austria,Vienna,Austria - Vienna,Europe
+AUAD,Australia,Adelaide,Australia - Adelaide,Oceania
+AUBR,Australia,Brisbane,Australia - Brisbane,Oceania
+AUCA,Australia,Canberra,Australia - Canberra,Oceania
+AUDA,Australia,Darwin,Australia - Darwin,Oceania
+AUME,Australia,Melbourne,Australia - Melbourne,Oceania
+AUPE,Australia,Perth,Australia - Perth,Oceania
+AUSY,Australia,Sydney,Australia - Sydney,Oceania
+AZBA,Azerbaijan,Baku,Azerbaijan - Baku,Central Asia
+BBBR,Barbados,Bridgetown,Barbados - Bridgetown,Caribbean
+BDDH,Bangladesh,Dhaka,Bangladesh - Dhaka,Asia
+BEBR,Belgium,Brussels,Belgium - Brussels,Europe
+BGSO,Bulgaria,Sofia,Bulgaria - Sofia,Europe
+BHMA,Bahrain,Manama,Bahrain - Manama,Middle East
+BMHA,Bermuda,Hamilton,Bermuda - Hamilton,North America
+BNBS,Brunei,Bandar Seri Begawan,Brunei - Bandar Seri Begawan,Asia
+BOLP,Bolivia,La Paz,Bolivia - La Paz,South America
+BRBD,Brazil,Belo Horizonte,Brazil - Belo Horizonte,South America
+BRBR,Brazil,Brasilia,Brazil - Brasilia,South America
+BRRJ,Brazil,Rio de Janeiro,Brazil - Rio de Janeiro,South America
+BRSP,Brazil,São Paulo,Brazil - São Paulo,South America
+BSNA,Bahamas,Nassau,Bahamas - Nassau,Caribbean
+BWGA,Botswana,Gaborone,Botswana - Gaborone,Africa
+BYMI,Myanmar,Yangon,Myanmar - Yangon,Asia
+CACL,Canada,Calgary,Canada - Calgary,North America
+CAFR,Canada,Fredericton,Canada - Fredericton,North America
+CAMO,Canada,Montreal,Canada - Montreal,North America
+CAOT,Canada,Ottawa,Canada - Ottawa,North America
+CATO,Canada,Toronto,Canada - Toronto,North America
+CAVA,Canada,Vancouver,Canada - Vancouver,North America
+CAWI,Canada,Winnipeg,Canada - Winnipeg,North America
+CHBA,Switzerland,Basel,Switzerland - Basel,Europe
+CHGE,Switzerland,Geneva,Switzerland - Geneva,Europe
+CHZU,Switzerland,Zurich,Switzerland - Zurich,Europe
+CIAB,Ivory Coast,Abidjan,Ivory Coast - Abidjan,Africa
+CLSA,Chile,Santiago,Chile - Santiago,South America
+CMYA,Cameroon,Yaoundé,Cameroon - Yaoundé,Africa
+CNBE,China,Beijing,China - Beijing,Asia
+CNSH,China,Shanghai,China - Shanghai,Asia
+COBO,Colombia,Bogotá,Colombia - Bogotá,South America
+CRSJ,Costa Rica,San José,Costa Rica - San José,Central America
+CWWI,Curaçao,Willemstad,Curaçao - Willemstad,Caribbean
+CYNI,Cyprus,Nicosia,Cyprus - Nicosia,Europe
+CZPR,Czech Republic,Prague,Czech Republic - Prague,Europe
+DECO,Germany,Cologne,Germany - Cologne,Europe
+DEDU,Germany,Düsseldorf,Germany - Düsseldorf,Europe
+DEFR,Germany,Frankfurt,Germany - Frankfurt,Europe
+DEHA,Germany,Hamburg,Germany - Hamburg,Europe
+DEHH,Germany,Hannover,Germany - Hannover,Europe
+DELE,Germany,Leipzig,Germany - Leipzig,Europe
+DEMA,Germany,Mainz,Germany - Mainz,Europe
+DEMU,Germany,Munich,Germany - Munich,Europe
+DEST,Germany,Stuttgart,Germany - Stuttgart,Europe
+DKCO,Denmark,Copenhagen,Denmark - Copenhagen,Europe
+DOSD,Dominican Republic,Santo Domingo,Dominican Republic - Santo Domingo,Caribbean
+DZAL,Algeria,Algiers,Algeria - Algiers,Africa
+ECGU,Ecuador,Guayaquil,Ecuador - Guayaquil,South America
+EETA,Estonia,Tallinn,Estonia - Tallinn,Europe
+EGCA,Egypt,Cairo,Egypt - Cairo,Africa
+ESAS,Spain,Las Palmas,Spain - Las Palmas,Europe
+ESBA,Spain,Barcelona,Spain - Barcelona,Europe
+ESMA,Spain,Madrid,Spain - Madrid,Europe
+ESSS,Spain,San Sebastián,Spain - San Sebastián,Europe
+ETAA,Ethiopia,Addis Ababa,Ethiopia - Addis Ababa,Africa
+EUR_ICESWAP,Europe,ICE Swap,EUR ICE Swap,Europe
+EUTA,Europe,TARGET,European TARGET System,Europe
+FIHE,Finland,Helsinki,Finland - Helsinki,Europe
+FRPA,France,Paris,France - Paris,Europe
+GBED,United Kingdom,Edinburgh,United Kingdom - Edinburgh,Europe
+GBLO,United Kingdom,London,United Kingdom - London,Europe
+GBP_ICESWAP,United Kingdom,ICE Swap,GBP ICE Swap,Europe
+GETB,Georgia,Tbilisi,Georgia - Tbilisi,Central Asia
+GGSP,Guernsey,St. Peter Port,Guernsey - St. Peter Port,Europe
+GHAC,Ghana,Accra,Ghana - Accra,Africa
+GIGI,Gibraltar,Gibraltar,Gibraltar - Gibraltar,Europe
+GMBA,Gambia,Banjul,Gambia - Banjul,Africa
+GNCO,Guinea,Conakry,Guinea - Conakry,Africa
+GRAT,Greece,Athens,Greece - Athens,Europe
+GTGC,Guatemala,Guatemala City,Guatemala - Guatemala City,Central America
+GUGC,Guam,Guam City,Guam - Guam City,Oceania
+HKHK,Hong Kong,Hong Kong,Hong Kong - Hong Kong,Asia
+HNTE,Honduras,Tegucigalpa,Honduras - Tegucigalpa,Central America
+HRZA,Croatia,Zagreb,Croatia - Zagreb,Europe
+HUBU,Hungary,Budapest,Hungary - Budapest,Europe
+IDJA,Indonesia,Jakarta,Indonesia - Jakarta,Asia
+IEDU,Ireland,Dublin,Ireland - Dublin,Europe
+ILJE,Israel,Jerusalem,Israel - Jerusalem,Middle East
+ILS_TELBOR,Israel,Tel Aviv,Israel - Tel Aviv (TELBOR),Middle East
+ILTA,Israel,Tel Aviv,Israel - Tel Aviv,Middle East
+INAH,India,Ahmedabad,India - Ahmedabad,Asia
+INBA,India,Bangalore,India - Bangalore,Asia
+INCH,India,Chennai,India - Chennai,Asia
+INHY,India,Hyderabad,India - Hyderabad,Asia
+INKO,India,Kolkata,India - Kolkata,Asia
+INMU,India,Mumbai,India - Mumbai,Asia
+INND,India,New Delhi,India - New Delhi,Asia
+IQBA,Iraq,Baghdad,Iraq - Baghdad,Middle East
+IRTE,Iran,Tehran,Iran - Tehran,Middle East
+ISRE,Iceland,Reykjavik,Iceland - Reykjavik,Europe
+ITMI,Italy,Milan,Italy - Milan,Europe
+ITRO,Italy,Rome,Italy - Rome,Europe
+ITTU,Italy,Turin,Italy - Turin,Europe
+JESH,Jersey,St. Helier,Jersey - St. Helier,Europe
+JMKI,Jamaica,Kingston,Jamaica - Kingston,Caribbean
+JOAM,Jordan,Amman,Jordan - Amman,Middle East
+JPTO,Japan,Tokyo,Japan - Tokyo,Asia
+KENA,Kenya,Nairobi,Kenya - Nairobi,Africa
+KHPP,Cambodia,Phnom Penh,Cambodia - Phnom Penh,Asia
+KRSE,South Korea,Seoul,South Korea - Seoul,Asia
+KWKC,Kuwait,Kuwait City,Kuwait - Kuwait City,Middle East
+KYGE,Cayman Islands,George Town,Cayman Islands - George Town,Caribbean
+KZAL,Kazakhstan,Almaty,Kazakhstan - Almaty,Central Asia
+LAVI,Laos,Vientiane,Laos - Vientiane,Asia
+LBBE,Lebanon,Beirut,Lebanon - Beirut,Middle East
+LKCO,Sri Lanka,Colombo,Sri Lanka - Colombo,Asia
+LULU,Luxembourg,Luxembourg,Luxembourg - Luxembourg,Europe
+LVRI,Latvia,Riga,Latvia - Riga,Europe
+MACA,Morocco,Casablanca,Morocco - Casablanca,Africa
+MARA,Morocco,Rabat,Morocco - Rabat,Africa
+MCMO,Monaco,Monaco,Monaco - Monaco,Europe
+MNUB,Mongolia,Ulaanbaatar,Mongolia - Ulaanbaatar,Asia
+MOMA,Mauritius,Port Louis,Mauritius - Port Louis,Africa
+MTVA,Malta,Valletta,Malta - Valletta,Europe
+MUPL,Mauritius,Port Louis,Mauritius - Port Louis,Africa
+MVMA,Maldives,Malé,Maldives - Malé,Asia
+MWLI,Malawi,Lilongwe,Malawi - Lilongwe,Africa
+MXMC,Mexico,Mexico City,Mexico - Mexico City,North America
+MYKL,Malaysia,Kuala Lumpur,Malaysia - Kuala Lumpur,Asia
+MYLA,Malaysia,Labuan,Malaysia - Labuan,Asia
+MZMA,Mozambique,Maputo,Mozambique - Maputo,Africa
+NAWI,Namibia,Windhoek,Namibia - Windhoek,Africa
+NGAB,Nigeria,Abuja,Nigeria - Abuja,Africa
+NGLA,Nigeria,Lagos,Nigeria - Lagos,Africa
+NLAM,Netherlands,Amsterdam,Netherlands - Amsterdam,Europe
+NLRO,Netherlands,Rotterdam,Netherlands - Rotterdam,Europe
+NOOS,Norway,Oslo,Norway - Oslo,Europe
+NPKA,Nepal,Kathmandu,Nepal - Kathmandu,Asia
+NYFD,United States,New York Fed,United States - New York Fed,North America
+NYSE,United States,New York Stock Exchange,United States - NYSE,North America
+NZAU,New Zealand,Auckland,New Zealand - Auckland,Oceania
+NZWE,New Zealand,Wellington,New Zealand - Wellington,Oceania
+OMMU,Oman,Muscat,Oman - Muscat,Middle East
+PAPC,Panama,Panama City,Panama - Panama City,Central America
+PELI,Peru,Lima,Peru - Lima,South America
+PHMA,Philippines,Manila,Philippines - Manila,Asia
+PHMK,Philippines,Makati,Philippines - Makati,Asia
+PKKA,Pakistan,Karachi,Pakistan - Karachi,Asia
+PLWA,Poland,Warsaw,Poland - Warsaw,Europe
+PRSJ,Puerto Rico,San Juan,Puerto Rico - San Juan,Caribbean
+PTLI,Portugal,Lisbon,Portugal - Lisbon,Europe
+QADO,Qatar,Doha,Qatar - Doha,Middle East
+ROBU,Romania,Bucharest,Romania - Bucharest,Europe
+RSBE,Serbia,Belgrade,Serbia - Belgrade,Europe
+RUMO,Russia,Moscow,Russia - Moscow,Europe
+SAAB,Saudi Arabia,Abha,Saudi Arabia - Abha,Middle East
+SAJE,Saudi Arabia,Jeddah,Saudi Arabia - Jeddah,Middle East
+SARI,Saudi Arabia,Riyadh,Saudi Arabia - Riyadh,Middle East
+SEST,Sweden,Stockholm,Sweden - Stockholm,Europe
+SGSI,Singapore,Singapore,Singapore - Singapore,Asia
+SILJ,Slovenia,Ljubljana,Slovenia - Ljubljana,Europe
+SKBR,Slovakia,Bratislava,Slovakia - Bratislava,Europe
+SLFR,Sierra Leone,Freetown,Sierra Leone - Freetown,Africa
+SNDA,Senegal,Dakar,Senegal - Dakar,Africa
+SVSS,El Salvador,San Salvador,El Salvador - San Salvador,Central America
+THBA,Thailand,Bangkok,Thailand - Bangkok,Asia
+TNTU,Tunisia,Tunis,Tunisia - Tunis,Africa
+TRAN,Turkey,Ankara,Turkey - Ankara,Europe
+TRIS,Turkey,Istanbul,Turkey - Istanbul,Europe
+TTPS,Trinidad and Tobago,Port of Spain,Trinidad and Tobago - Port of Spain,Caribbean
+TWTA,Taiwan,Taipei,Taiwan - Taipei,Asia
+TZDA,Tanzania,Dar es Salaam,Tanzania - Dar es Salaam,Africa
+TZDO,Tanzania,Dodoma,Tanzania - Dodoma,Africa
+UAKI,Ukraine,Kiev,Ukraine - Kiev,Europe
+UGKA,Uganda,Kampala,Uganda - Kampala,Africa
+USBO,United States,Boston,United States - Boston,North America
+USCH,United States,Chicago,United States - Chicago,North America
+USCR,United States,Charlotte,United States - Charlotte,North America
+USDC,United States,Washington DC,United States - Washington DC,North America
+USD_ICESWAP,United States,ICE Swap,USD ICE Swap,North America
+USD_MUNI,United States,Municipal,USD Municipal,North America
+USDN,United States,Denver,United States - Denver,North America
+USDT,United States,Detroit,United States - Detroit,North America
+USGS,United States,Guam,United States - Guam,North America
+USHL,United States,Honolulu,United States - Honolulu,North America
+USHO,United States,Houston,United States - Houston,North America
+USLA,United States,Los Angeles,United States - Los Angeles,North America
+USMB,United States,Mobile,United States - Mobile,North America
+USMN,United States,Minneapolis,United States - Minneapolis,North America
+USNY,United States,New York,United States - New York,North America
+USPO,United States,Portland,United States - Portland,North America
+USSA,United States,San Antonio,United States - San Antonio,North America
+USSE,United States,Seattle,United States - Seattle,North America
+USSF,United States,San Francisco,United States - San Francisco,North America
+USWT,United States,Washington,United States - Washington,North America
+UYMO,Uruguay,Montevideo,Uruguay - Montevideo,South America
+UZTA,Uzbekistan,Tashkent,Uzbekistan - Tashkent,Central Asia
+VECA,Venezuela,Caracas,Venezuela - Caracas,South America
+VGRT,British Virgin Islands,Road Town,British Virgin Islands - Road Town,Caribbean
+VNHA,Vietnam,Hanoi,Vietnam - Hanoi,Asia
+VNHC,Vietnam,Ho Chi Minh City,Vietnam - Ho Chi Minh City,Asia
+YEAD,Yemen,Aden,Yemen - Aden,Middle East
+ZAJO,South Africa,Johannesburg,South Africa - Johannesburg,Africa
+ZMLU,Zambia,Lusaka,Zambia - Lusaka,Africa
+ZWHA,Zimbabwe,Harare,Zimbabwe - Harare,Africa

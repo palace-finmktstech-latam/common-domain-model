@@ -1,0 +1,5 @@
+Enum Value,Settlement Method Name,Transfer Mechanism,Common Usage,Description
+DELIVERY_VERSUS_DELIVERY,Delivery versus Delivery (DvD),Simultaneous exchange of two assets,Securities lending and repo markets,Both parties deliver assets simultaneously - reduces counterparty risk
+DELIVERY_VERSUS_PAYMENT,Delivery versus Payment (DvP),Asset delivery against cash payment,Securities transactions,Asset is delivered only when payment is received - standard for securities trades
+PAYMENT_VERSUS_PAYMENT,Payment versus Payment (PvP),Simultaneous cash payments in different currencies,FX transactions and cross-currency swaps,Both currency payments occur simultaneously - eliminates FX settlement risk
+NOT_CENTRAL_SETTLEMENT,Not Central Settlement,Settlement outside central systems,Bilateral OTC transactions,Settlement occurs bilaterally between parties without central clearing or settlement system
