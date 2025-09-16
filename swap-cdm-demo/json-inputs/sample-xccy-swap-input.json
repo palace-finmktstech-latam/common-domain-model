@@ -1,0 +1,113 @@
+{
+  "header": {
+    "tradeId": "XCS-2024-001",
+    "tradeDate": {
+      "date": "15/03/2024",
+      "businessDayConvention": "FOLLOWING",
+      "businessCenters": ["USNY", "GBLO"]
+    },
+    "effectiveDate": {
+      "date": "19/03/2024",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["USNY", "GBLO"]
+    },
+    "terminationDate": {
+      "date": "19/03/2029",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["USNY", "GBLO"]
+    },
+    "party1": {
+      "partyId": "BANK-A",
+      "partyName": "Bank A Corporation",
+      "role": "DEALER"
+    },
+    "party2": {
+      "partyId": "BANK-B",
+      "partyName": "Bank B Limited",
+      "role": "CLIENT"
+    }
+  },
+  "legs": [
+    {
+      "legId": "USD-FIXED-LEG",
+      "payerPartyReference": "BANK-A",
+      "receiverPartyReference": "BANK-B",
+      "notionalAmount": 10000000,
+      "notionalCurrency": "USD",
+      "rateType": "FIXED",
+      "fixedRate": 0.045,
+      "paymentFrequency": "6M",
+      "dayCountFraction": "30/360",
+      "paymentDayConvention": "MODFOLLOWING",
+      "paymentBusinessCenters": ["USNY"],
+      "paymentDateOffset": 0,
+      "rollConvention": "EOM",
+      "settlementCurrency": "USD",
+      "settlementType": "CASH",
+      "initialExchange": {
+        "amount": 10000000,
+        "currency": "USD",
+        "date": "19/03/2024",
+        "dayConvention": "MODFOLLOWING",
+        "businessCenters": ["USNY"],
+        "payerPartyReference": "BANK-B",
+        "receiverPartyReference": "BANK-A"
+      },
+      "finalExchange": {
+        "amount": 10000000,
+        "currency": "USD",
+        "date": "19/03/2029",
+        "dayConvention": "MODFOLLOWING",
+        "businessCenters": ["USNY"],
+        "payerPartyReference": "BANK-A",
+        "receiverPartyReference": "BANK-B"
+      }
+    },
+    {
+      "legId": "EUR-FLOATING-LEG",
+      "payerPartyReference": "BANK-B",
+      "receiverPartyReference": "BANK-A",
+      "notionalAmount": 9200000,
+      "notionalCurrency": "EUR",
+      "rateType": "FLOATING",
+      "floatingRateIndex": "EUR-EURIBOR-6M",
+      "spread": 0.0015,
+      "resetFrequency": "6M",
+      "resetDayConvention": "MODFOLLOWING",
+      "resetBusinessCenters": ["EUTA"],
+      "resetDateOffset": -2,
+      "paymentFrequency": "6M",
+      "dayCountFraction": "ACT/360",
+      "paymentDayConvention": "MODFOLLOWING",
+      "paymentBusinessCenters": ["EUTA"],
+      "paymentDateOffset": 0,
+      "rollConvention": "EOM",
+      "settlementCurrency": "EUR",
+      "settlementType": "CASH",
+      "fxFixing": {
+        "fxFixingReference": "ECB",
+        "fxFixingOffset": -2,
+        "fxFixingDayConvention": "PRECEDING",
+        "fxFixingBusinessCenters": ["EUTA"]
+      },
+      "initialExchange": {
+        "amount": 9200000,
+        "currency": "EUR",
+        "date": "19/03/2024",
+        "dayConvention": "MODFOLLOWING",
+        "businessCenters": ["EUTA"],
+        "payerPartyReference": "BANK-A",
+        "receiverPartyReference": "BANK-B"
+      },
+      "finalExchange": {
+        "amount": 9200000,
+        "currency": "EUR",
+        "date": "19/03/2029",
+        "dayConvention": "MODFOLLOWING",
+        "businessCenters": ["EUTA"],
+        "payerPartyReference": "BANK-B",
+        "receiverPartyReference": "BANK-A"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "header": {
+    "tradeId": "IRS-2024-002",
+    "tradeDate": {
+      "date": "15/03/2024",
+      "businessDayConvention": "FOLLOWING",
+      "businessCenters": ["USNY"]
+    },
+    "effectiveDate": {
+      "date": "19/03/2024",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["USNY"]
+    },
+    "terminationDate": {
+      "date": "19/03/2034",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["USNY"]
+    },
+    "party1": {
+      "partyId": "DEALER-1",
+      "partyName": "Global Markets Inc",
+      "role": "DEALER"
+    },
+    "party2": {
+      "partyId": "CLIENT-1",
+      "partyName": "Corporate Treasury LLC",
+      "role": "CLIENT"
+    }
+  },
+  "legs": [
+    {
+      "legId": "FIXED-LEG",
+      "payerPartyReference": "CLIENT-1",
+      "receiverPartyReference": "DEALER-1",
+      "notionalAmount": 50000000,
+      "notionalCurrency": "USD",
+      "rateType": "FIXED",
+      "fixedRate": 0.0385,
+      "paymentFrequency": "6M",
+      "dayCountFraction": "30/360",
+      "paymentDayConvention": "MODFOLLOWING",
+      "paymentBusinessCenters": ["USNY"],
+      "paymentDateOffset": 0,
+      "rollConvention": "NONE",
+      "settlementCurrency": "USD",
+      "settlementType": "CASH"
+    },
+    {
+      "legId": "FLOATING-LEG",
+      "payerPartyReference": "DEALER-1",
+      "receiverPartyReference": "CLIENT-1",
+      "notionalAmount": 50000000,
+      "notionalCurrency": "USD",
+      "rateType": "FLOATING",
+      "floatingRateIndex": "USD-SOFR-COMPOUND",
+      "spread": 0.0,
+      "resetFrequency": "6M",
+      "resetDayConvention": "MODFOLLOWING",
+      "resetBusinessCenters": ["USNY"],
+      "resetDateOffset": -2,
+      "paymentFrequency": "6M",
+      "dayCountFraction": "ACT/360",
+      "paymentDayConvention": "MODFOLLOWING",
+      "paymentBusinessCenters": ["USNY"],
+      "paymentDateOffset": 0,
+      "rollConvention": "NONE",
+      "settlementCurrency": "USD",
+      "settlementType": "CASH"
+    }
+  ]
+}

@@ -21,7 +21,8 @@
       "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.CompleteXCcySwapWithSettlement\")",
       "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" -q compile)",
       "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.EnumExplorer\")",
-      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.AmortizingXCcySwap\")"
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.AmortizingXCcySwap\")",
+      "Bash(\"/c/Program Files/Apache/maven/bin/mvn\" compile exec:java -Dexec.mainClass=\"com.example.cdm.builder.JsonParserTest\")"
     ],
     "deny": [],
     "ask": []

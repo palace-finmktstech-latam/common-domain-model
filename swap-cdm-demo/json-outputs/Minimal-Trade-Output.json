@@ -1,0 +1,147 @@
+{
+  "trade" : {
+    "product" : {
+      "identifier" : null,
+      "taxonomy" : null,
+      "economicTerms" : {
+        "effectiveDate" : null,
+        "terminationDate" : null,
+        "dateAdjustments" : null,
+        "payout" : null,
+        "terminationProvision" : null,
+        "calculationAgent" : null,
+        "nonStandardisedTerms" : null,
+        "collateral" : null,
+        "type" : "cdm.product.template.EconomicTerms"
+      },
+      "meta" : null,
+      "type" : "cdm.product.template.NonTransferableProduct"
+    },
+    "tradeLot" : null,
+    "counterparty" : [ {
+      "role" : "PARTY_1",
+      "partyReference" : {
+        "value" : {
+          "partyId" : null,
+          "name" : {
+            "value" : "Global Markets Inc",
+            "meta" : null,
+            "type" : "com.rosetta.model.metafields.FieldWithMetaString",
+            "valueType" : "java.lang.String"
+          },
+          "businessUnit" : [ {
+            "name" : "Generic Swap Builder",
+            "identifier" : null,
+            "contactInformation" : null,
+            "meta" : null,
+            "type" : "cdm.base.staticdata.party.BusinessUnit"
+          } ],
+          "person" : null,
+          "personRole" : null,
+          "account" : null,
+          "contactInformation" : null,
+          "meta" : null,
+          "type" : "cdm.base.staticdata.party.Party"
+        },
+        "globalReference" : null,
+        "externalReference" : null,
+        "reference" : null,
+        "type" : "cdm.base.staticdata.party.metafields.ReferenceWithMetaParty",
+        "valueType" : "cdm.base.staticdata.party.Party"
+      },
+      "type" : "cdm.base.staticdata.party.Counterparty"
+    }, {
+      "role" : "PARTY_2",
+      "partyReference" : {
+        "value" : {
+          "partyId" : null,
+          "name" : {
+            "value" : "Corporate Treasury LLC",
+            "meta" : null,
+            "type" : "com.rosetta.model.metafields.FieldWithMetaString",
+            "valueType" : "java.lang.String"
+          },
+          "businessUnit" : null,
+          "person" : null,
+          "personRole" : null,
+          "account" : null,
+          "contactInformation" : null,
+          "meta" : null,
+          "type" : "cdm.base.staticdata.party.Party"
+        },
+        "globalReference" : null,
+        "externalReference" : null,
+        "reference" : null,
+        "type" : "cdm.base.staticdata.party.metafields.ReferenceWithMetaParty",
+        "valueType" : "cdm.base.staticdata.party.Party"
+      },
+      "type" : "cdm.base.staticdata.party.Counterparty"
+    } ],
+    "ancillaryParty" : null,
+    "adjustment" : null,
+    "tradeIdentifier" : null,
+    "tradeDate" : {
+      "value" : {
+        "day" : 15,
+        "month" : 3,
+        "year" : 2024
+      },
+      "meta" : null,
+      "type" : "com.rosetta.model.metafields.FieldWithMetaDate",
+      "valueType" : "com.rosetta.model.lib.records.Date"
+    },
+    "tradeTime" : null,
+    "party" : [ {
+      "partyId" : null,
+      "name" : {
+        "value" : "Global Markets Inc",
+        "meta" : null,
+        "type" : "com.rosetta.model.metafields.FieldWithMetaString",
+        "valueType" : "java.lang.String"
+      },
+      "businessUnit" : [ {
+        "name" : "Generic Swap Builder",
+        "identifier" : null,
+        "contactInformation" : null,
+        "meta" : null,
+        "type" : "cdm.base.staticdata.party.BusinessUnit"
+      } ],
+      "person" : null,
+      "personRole" : null,
+      "account" : null,
+      "contactInformation" : null,
+      "meta" : null,
+      "type" : "cdm.base.staticdata.party.Party"
+    }, {
+      "partyId" : null,
+      "name" : {
+        "value" : "Corporate Treasury LLC",
+        "meta" : null,
+        "type" : "com.rosetta.model.metafields.FieldWithMetaString",
+        "valueType" : "java.lang.String"
+      },
+      "businessUnit" : null,
+      "person" : null,
+      "personRole" : null,
+      "account" : null,
+      "contactInformation" : null,
+      "meta" : null,
+      "type" : "cdm.base.staticdata.party.Party"
+    } ],
+    "partyRole" : null,
+    "executionDetails" : null,
+    "contractDetails" : null,
+    "clearedDate" : null,
+    "collateral" : null,
+    "account" : null,
+    "meta" : null,
+    "type" : "cdm.event.common.Trade"
+  },
+  "state" : null,
+  "resetHistory" : null,
+  "transferHistory" : null,
+  "observationHistory" : null,
+  "valuationHistory" : null,
+  "meta" : null,
+  "type" : "cdm.event.common.TradeState"
+}

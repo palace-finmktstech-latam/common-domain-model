@@ -1,0 +1,7 @@
+This project is something we're building to experiment and understand the common domain model which is a model used for modelling and storing mainly financial products such as interest rate and fx derivatives amongst other things but those are the areas that are of more interest to me right now. 
+
+I am vaguely aware of the common domain model and have been wanting to use it for a number of years but it is poorly documented and hard to understand so we have been working through this together and building up a set of documentation which explains how it works. This documentation is in cdm-documentation and cdm-usage-docs. You seem to have kept the following two files particularly up to date as we have progressed and you have learned more about the CDM with respect to the initial documentation you put together: step-by-step-trade-building.md and working-cdm-api-patterns.md
+
+We have also built a sample file which helps us to build an example cross currency swap trade in the CDM.
+
+This sample file we have built over a number of steps and the latest version is called AmortizingXCcySwap.java. All of the test files we've built are in src\main\java\com\example\cdm. These files also create JSON outputs which are helpful to review, and are in json-outputs. There you can see the iterations as they are named Step-X...
