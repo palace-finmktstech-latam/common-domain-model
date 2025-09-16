@@ -9,15 +9,12 @@ public class PartyInfo {
     @JsonProperty("partyName")
     private String partyName;
 
-    @JsonProperty("role")
-    private String role;
 
     public PartyInfo() {}
 
-    public PartyInfo(String partyId, String partyName, String role) {
+    public PartyInfo(String partyId, String partyName) {
         this.partyId = partyId;
         this.partyName = partyName;
-        this.role = role;
     }
 
     public String getPartyId() {
@@ -36,15 +33,8 @@ public class PartyInfo {
         this.partyName = partyName;
     }
 
-    public String getRole() {
-        return role;
-    }
 
-    public void setRole(String role) {
-        this.role = role;
-    }
-
-    public static PartyInfo of(String partyId, String partyName, String role) {
-        return new PartyInfo(partyId, partyName, role);
+    public static PartyInfo of(String partyId, String partyName) {
+        return new PartyInfo(partyId, partyName);
     }
 }

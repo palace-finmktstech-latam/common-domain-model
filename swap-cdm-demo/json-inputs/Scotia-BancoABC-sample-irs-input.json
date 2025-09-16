@@ -1,0 +1,68 @@
+{
+  "header": {
+    "tradeId": "7554",
+    "tradeDate": {
+      "date": "10/09/2025",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["CLSA"]
+    },
+    "effectiveDate": {
+      "date": "12/09/2025",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["CLSA"]
+    },
+    "terminationDate": {
+      "date": "05/01/2026",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["CLSA"]
+    },
+    "party1": {
+      "partyId": "ThisBank",
+      "partyName": "Banco ABC"
+    },
+    "party2": {
+      "partyId": "OurCounterparty",
+      "partyName": "Scotiabank Chile"
+    }
+  },
+  "legs": [
+    {
+      "legId": "Pata-ICP",
+      "payerPartyReference": "ThisBank",
+      "receiverPartyReference": "OurCounterparty",
+      "notionalAmount": 300000000000,
+      "notionalCurrency": "CLP",
+      "rateType": "FLOATING",
+      "floatingRateIndex": "CLP-ICP",
+      "spread": 0.0,
+      "dayCountFraction": "ACT/360",
+      "resetFrequency": null,
+      "resetDayConvention": "PRECEDING",
+      "resetBusinessCenters": ["CLSA"],
+      "resetDateOffset": 0,
+      "paymentFrequency": null,
+      "paymentDayConvention": "MODFOLLOWING",
+      "paymentBusinessCenters": ["CLSA"],
+      "paymentDateOffset": 1,
+      "rollConvention": null,
+      "settlementCurrency": "CLP",
+      "settlementType": "CASH"
+    },
+    {
+      "legId": "Pata-Fija",
+      "payerPartyReference": "OurCounterparty",
+      "receiverPartyReference": "ThisBank",
+      "notionalAmount": 300000000000,
+      "notionalCurrency": "CLP",
+      "rateType": "FIXED",
+      "fixedRate": 0.0385,
+      "paymentFrequency": null,
+      "dayCountFraction": "ACT/360",
+      "paymentDayConvention": "MODFOLLOWING",
+      "paymentBusinessCenters": ["CLSA"],
+      "paymentDateOffset": 1,
+      "settlementCurrency": "CLP",
+      "settlementType": "CASH"
+    }
+  ]
+}

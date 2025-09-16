@@ -18,13 +18,11 @@
     },
     "party1": {
       "partyId": "BANK-A",
-      "partyName": "Bank A Corporation",
-      "role": "DEALER"
+      "partyName": "Bank A Corporation"
     },
     "party2": {
       "partyId": "BANK-B",
-      "partyName": "Bank B Limited",
-      "role": "CLIENT"
+      "partyName": "Bank B Limited"
     }
   },
   "legs": [

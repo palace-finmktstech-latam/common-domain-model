@@ -1,35 +1,35 @@
 {
   "header": {
-    "tradeId": "IRS-2024-002",
+    "tradeId": "BenTest",
     "tradeDate": {
-      "date": "15/03/2024",
-      "businessDayConvention": "FOLLOWING",
-      "businessCenters": ["USNY"]
+      "date": "01/10/2025",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["USNY", "CLSA"]
     },
     "effectiveDate": {
-      "date": "19/03/2024",
+      "date": "03/10/2025",
       "businessDayConvention": "MODFOLLOWING",
-      "businessCenters": ["USNY"]
+      "businessCenters": ["USNY", "CLSA"]
     },
     "terminationDate": {
-      "date": "19/03/2034",
+      "date": "03/10/2034",
       "businessDayConvention": "MODFOLLOWING",
-      "businessCenters": ["USNY"]
+      "businessCenters": ["USNY", "CLSA"]
     },
     "party1": {
-      "partyId": "DEALER-1",
-      "partyName": "Global Markets Inc"
+      "partyId": "ThisBank",
+      "partyName": "Banco ABC"
     },
     "party2": {
-      "partyId": "CLIENT-1",
-      "partyName": "Corporate Treasury LLC"
+      "partyId": "OurCounterparty",
+      "partyName": "XYZ Corp"
     }
   },
   "legs": [
     {
       "legId": "FIXED-LEG",
-      "payerPartyReference": "CLIENT-1",
-      "receiverPartyReference": "DEALER-1",
+      "payerPartyReference": "OurCounterparty",
+      "receiverPartyReference": "ThisBank",
       "notionalAmount": 50000000,
       "notionalCurrency": "USD",
       "rateType": "FIXED",
@@ -37,31 +37,31 @@
       "paymentFrequency": "6M",
       "dayCountFraction": "30/360",
       "paymentDayConvention": "MODFOLLOWING",
-      "paymentBusinessCenters": ["USNY"],
+      "paymentBusinessCenters": ["USNY", "CLSA"],
       "paymentDateOffset": 0,
-      "rollConvention": "NONE",
+      "rollConvention": "5",
       "settlementCurrency": "USD",
       "settlementType": "CASH"
     },
     {
-      "legId": "FLOATING-LEG",
-      "payerPartyReference": "DEALER-1",
-      "receiverPartyReference": "CLIENT-1",
+      "legId": "FLOATING-LEG-SOFR-LOOKBACK",
+      "payerPartyReference": "ThisBank",
+      "receiverPartyReference": "OurCounterparty",
       "notionalAmount": 50000000,
       "notionalCurrency": "USD",
       "rateType": "FLOATING",
       "floatingRateIndex": "USD-SOFR-COMPOUND",
       "spread": 0.0,
-      "resetFrequency": "6M",
-      "resetDayConvention": "MODFOLLOWING",
-      "resetBusinessCenters": ["USNY"],
-      "resetDateOffset": -2,
+      "resetFrequency": "3M",
+      "resetDayConvention": "PRECEDING",
+      "resetBusinessCenters": ["USNY", "CLSA"],
+      "resetDateOffset": -5,
       "paymentFrequency": "6M",
       "dayCountFraction": "ACT/360",
       "paymentDayConvention": "MODFOLLOWING",
-      "paymentBusinessCenters": ["USNY"],
+      "paymentBusinessCenters": ["USNY", "CLSA"],
       "paymentDateOffset": 0,
-      "rollConvention": "NONE",
+      "rollConvention": "5",
       "settlementCurrency": "USD",
       "settlementType": "CASH"
     }
