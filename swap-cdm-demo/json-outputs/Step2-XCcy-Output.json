@@ -1,0 +1,227 @@
+{
+  "trade" : {
+    "product" : {
+      "identifier" : null,
+      "taxonomy" : null,
+      "economicTerms" : {
+        "effectiveDate" : null,
+        "terminationDate" : null,
+        "dateAdjustments" : null,
+        "payout" : [ {
+          "assetPayout" : null,
+          "commodityPayout" : null,
+          "creditDefaultPayout" : null,
+          "fixedPricePayout" : null,
+          "interestRatePayout" : {
+            "payerReceiver" : {
+              "payer" : "PARTY_1",
+              "receiver" : "PARTY_2",
+              "type" : "cdm.base.staticdata.party.PayerReceiver"
+            },
+            "priceQuantity" : null,
+            "principalPayment" : null,
+            "settlementTerms" : null,
+            "rateSpecification" : null,
+            "dayCountFraction" : null,
+            "calculationPeriodDates" : {
+              "effectiveDate" : {
+                "adjustableDate" : {
+                  "unadjustedDate" : {
+                    "day" : 19,
+                    "month" : 3,
+                    "year" : 2024
+                  },
+                  "dateAdjustments" : null,
+                  "dateAdjustmentsReference" : null,
+                  "adjustedDate" : null,
+                  "meta" : null,
+                  "type" : "cdm.base.datetime.AdjustableDate"
+                },
+                "relativeDate" : null,
+                "meta" : null,
+                "type" : "cdm.base.datetime.AdjustableOrRelativeDate"
+              },
+              "terminationDate" : {
+                "adjustableDate" : {
+                  "unadjustedDate" : {
+                    "day" : 19,
+                    "month" : 3,
+                    "year" : 2029
+                  },
+                  "dateAdjustments" : null,
+                  "dateAdjustmentsReference" : null,
+                  "adjustedDate" : null,
+                  "meta" : null,
+                  "type" : "cdm.base.datetime.AdjustableDate"
+                },
+                "relativeDate" : null,
+                "meta" : null,
+                "type" : "cdm.base.datetime.AdjustableOrRelativeDate"
+              },
+              "calculationPeriodDatesAdjustments" : null,
+              "firstPeriodStartDate" : null,
+              "firstRegularPeriodStartDate" : null,
+              "firstCompoundingPeriodEndDate" : null,
+              "lastRegularPeriodEndDate" : null,
+              "stubPeriodType" : null,
+              "calculationPeriodFrequency" : null,
+              "meta" : null,
+              "type" : "cdm.product.common.schedule.CalculationPeriodDates"
+            },
+            "paymentDates" : null,
+            "paymentDate" : null,
+            "paymentDelay" : null,
+            "resetDates" : null,
+            "discountingMethod" : null,
+            "compoundingMethod" : null,
+            "cashflowRepresentation" : null,
+            "stubPeriod" : null,
+            "bondReference" : null,
+            "fixedAmount" : null,
+            "floatingAmount" : null,
+            "spreadCalculationMethod" : null,
+            "type" : "cdm.product.asset.InterestRatePayout"
+          },
+          "optionPayout" : null,
+          "performancePayout" : null,
+          "settlementPayout" : null,
+          "meta" : null,
+          "type" : "cdm.product.template.Payout"
+        } ],
+        "terminationProvision" : null,
+        "calculationAgent" : null,
+        "nonStandardisedTerms" : null,
+        "collateral" : null,
+        "type" : "cdm.product.template.EconomicTerms"
+      },
+      "meta" : null,
+      "type" : "cdm.product.template.NonTransferableProduct"
+    },
+    "tradeLot" : null,
+    "counterparty" : [ {
+      "role" : "PARTY_1",
+      "partyReference" : {
+        "value" : {
+          "partyId" : null,
+          "name" : {
+            "value" : "Bank A Corporation",
+            "meta" : null,
+            "type" : "com.rosetta.model.metafields.FieldWithMetaString",
+            "valueType" : "java.lang.String"
+          },
+          "businessUnit" : [ {
+            "name" : "Generic Swap Builder",
+            "identifier" : null,
+            "contactInformation" : null,
+            "meta" : null,
+            "type" : "cdm.base.staticdata.party.BusinessUnit"
+          } ],
+          "person" : null,
+          "personRole" : null,
+          "account" : null,
+          "contactInformation" : null,
+          "meta" : null,
+          "type" : "cdm.base.staticdata.party.Party"
+        },
+        "globalReference" : null,
+        "externalReference" : null,
+        "reference" : null,
+        "type" : "cdm.base.staticdata.party.metafields.ReferenceWithMetaParty",
+        "valueType" : "cdm.base.staticdata.party.Party"
+      },
+      "type" : "cdm.base.staticdata.party.Counterparty"
+    }, {
+      "role" : "PARTY_2",
+      "partyReference" : {
+        "value" : {
+          "partyId" : null,
+          "name" : {
+            "value" : "Bank B Limited",
+            "meta" : null,
+            "type" : "com.rosetta.model.metafields.FieldWithMetaString",
+            "valueType" : "java.lang.String"
+          },
+          "businessUnit" : null,
+          "person" : null,
+          "personRole" : null,
+          "account" : null,
+          "contactInformation" : null,
+          "meta" : null,
+          "type" : "cdm.base.staticdata.party.Party"
+        },
+        "globalReference" : null,
+        "externalReference" : null,
+        "reference" : null,
+        "type" : "cdm.base.staticdata.party.metafields.ReferenceWithMetaParty",
+        "valueType" : "cdm.base.staticdata.party.Party"
+      },
+      "type" : "cdm.base.staticdata.party.Counterparty"
+    } ],
+    "ancillaryParty" : null,
+    "adjustment" : null,
+    "tradeIdentifier" : null,
+    "tradeDate" : {
+      "value" : {
+        "day" : 15,
+        "month" : 3,
+        "year" : 2024
+      },
+      "meta" : null,
+      "type" : "com.rosetta.model.metafields.FieldWithMetaDate",
+      "valueType" : "com.rosetta.model.lib.records.Date"
+    },
+    "tradeTime" : null,
+    "party" : [ {
+      "partyId" : null,
+      "name" : {
+        "value" : "Bank A Corporation",
+        "meta" : null,
+        "type" : "com.rosetta.model.metafields.FieldWithMetaString",
+        "valueType" : "java.lang.String"
+      },
+      "businessUnit" : [ {
+        "name" : "Generic Swap Builder",
+        "identifier" : null,
+        "contactInformation" : null,
+        "meta" : null,
+        "type" : "cdm.base.staticdata.party.BusinessUnit"
+      } ],
+      "person" : null,
+      "personRole" : null,
+      "account" : null,
+      "contactInformation" : null,
+      "meta" : null,
+      "type" : "cdm.base.staticdata.party.Party"
+    }, {
+      "partyId" : null,
+      "name" : {
+        "value" : "Bank B Limited",
+        "meta" : null,
+        "type" : "com.rosetta.model.metafields.FieldWithMetaString",
+        "valueType" : "java.lang.String"
+      },
+      "businessUnit" : null,
+      "person" : null,
+      "personRole" : null,
+      "account" : null,
+      "contactInformation" : null,
+      "meta" : null,
+      "type" : "cdm.base.staticdata.party.Party"
+    } ],
+    "partyRole" : null,
+    "executionDetails" : null,
+    "contractDetails" : null,
+    "clearedDate" : null,
+    "collateral" : null,
+    "account" : null,
+    "meta" : null,
+    "type" : "cdm.event.common.Trade"
+  },
+  "state" : null,
+  "resetHistory" : null,
+  "transferHistory" : null,
+  "observationHistory" : null,
+  "valuationHistory" : null,
+  "meta" : null,
+  "type" : "cdm.event.common.TradeState"
+}
