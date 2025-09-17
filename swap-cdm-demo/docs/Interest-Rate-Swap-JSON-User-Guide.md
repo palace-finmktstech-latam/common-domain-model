@@ -211,14 +211,38 @@ The legs array contains specifications for each leg of the swap. Typically conta
 
 #### `floatingRateIndex` (Required for FLOATING legs)
 **Type**: String
-**Description**: Reference rate index for floating calculations
-**Possible Values**:
-- `"CLP-ICP"` - Chilean Interbank Average Rate
-- `"USD-SOFR-COMPOUND"` - USD Secured Overnight Financing Rate
+**Description**: Reference rate index for floating calculations. The system supports comprehensive automatic mapping to CDM enums.
+
+**Major Supported Indices**:
+- `"USD-SOFR"` - USD Secured Overnight Financing Rate
+- `"USD-SOFR-COMPOUND"` - USD SOFR with compounding
+- `"USD-SOFR Average 30D"` - USD SOFR 30-day average
+- `"USD-SOFR Average 90D"` - USD SOFR 90-day average
+- `"USD-SOFR Average 180D"` - USD SOFR 180-day average
 - `"USD-LIBOR"` - USD LIBOR (legacy)
-- `"EUR-EURIBOR-6M"` - EUR 6-month EURIBOR
-- `"EUR-EURIBOR-3M"` - EUR 3-month EURIBOR
-- `"GBP-SONIA-COMPOUND"` - GBP Sterling Overnight Index Average
+- `"USD-Federal Funds"` - US Federal Funds Rate
+- `"USD-AMERIBOR"` - American Interbank Offered Rate
+- `"USD-BSBY"` - Bloomberg Short-Term Bank Yield Index
+- `"EUR-EURIBOR"` - Euro Interbank Offered Rate
+- `"EUR-EONIA"` - Euro Overnight Index Average
+- `"GBP-SONIA"` - Sterling Overnight Index Average
+- `"GBP-LIBOR"` - GBP LIBOR (legacy)
+- `"JPY-TONA"` - Tokyo Overnight Average rate
+- `"JPY-TIBOR"` - Tokyo Interbank Offered Rate
+- `"CHF-SARON"` - Swiss Average Rate Overnight
+- `"AUD-AONIA"` - AUD Overnight Index Average
+- `"AUD-BBSW"` - Bank Bill Swap Rate
+- `"CAD-CORRA"` - Canadian Overnight Repo Rate Average
+- `"CAD-CDOR"` - Canadian Dollar Offered Rate
+- `"CLP-TNA"` - Chilean Tasa No Ajustable
+- `"CLP-ICP"` - Chilean Interbank Average Rate
+
+**Automatic Mapping**: The system uses intelligent fallback logic to map any floating rate index from the CDM documentation (600+ indices) by converting naming conventions. For example:
+- `"USD-SOFR Average 180D"` → `USD_SOFR_AVERAGE_180_D` enum
+- `"EUR-EURIBOR-6M"` → `EUR_EURIBOR_6_M` enum
+- Handles spaces, hyphens, and various formatting automatically
+
+**Note**: If an index is not recognized, the system logs a warning and continues processing without failure.
 
 #### `spread` (Optional for FLOATING legs)
 **Type**: Number
@@ -293,6 +317,26 @@ The legs array contains specifications for each leg of the swap. Typically conta
 **Type**: Array of Strings
 **Description**: Business centers for payment date adjustments
 **Values**: Same options as header `businessCenters`
+
+#### `calculationDayConvention` (Optional)
+**Type**: String
+**Description**: How calculation period end dates are adjusted for holidays (separate from payment dates)
+**Possible Values**:
+- `"MODFOLLOWING"` - Modified following (most common)
+- `"FOLLOWING"` - Move to next business day
+- `"PRECEDING"` - Move to previous business day
+- Same options as other business day conventions
+
+**Default**: Uses `paymentDayConvention` if not specified
+**Use Case**: Important for swaps where calculation periods and payment dates have different holiday adjustment rules
+
+#### `calculationBusinessCenters` (Optional)
+**Type**: Array of Strings
+**Description**: Business centers for calculation period date adjustments
+**Values**: Same options as header `businessCenters`
+
+**Default**: Uses `paymentBusinessCenters` if not specified
+**Use Case**: For multi-currency swaps where calculation periods follow different business calendars than payments
 
 #### `resetDayConvention` (Optional for FLOATING legs)
 **Type**: String
@@ -380,60 +424,9 @@ The legs array contains specifications for each leg of the swap. Typically conta
 
 **Recommended**: `"CASH"` for most swaps
 
-### Advanced Payment Methods (Optional)
+### Settlement Information
 
-#### `cashSettlementMethod` (Optional for CASH settlement)
-**Type**: String
-**Description**: Specific cash settlement methodology
-**Possible Values**:
-- `"CASH_PRICE_METHOD"` - Standard cash price method
-- `"CASH_PRICE_ALTERNATE_METHOD"` - Alternative cash price method
-- `"MID_MARKET_CALCULATION_AGENT_DETERMINATION"` - Mid-market calc agent determination
-- `"MID_MARKET_INDICATIVE_QUOTATIONS"` - Mid-market indicative quotations
-- `"CROSS_CURRENCY_METHOD"` - Cross-currency settlement method
-- `"PAR_YIELD_CURVE_ADJUSTED_METHOD"` - Par yield curve adjusted method
-- `"ZERO_COUPON_YIELD_ADJUSTED_METHOD"` - Zero coupon yield adjusted method
-
-**Use Cases**:
-- **Sophisticated swaps**: Mid-market calculation agent determination
-- **Cross-currency swaps**: Cross-currency method
-- **Credit derivatives**: Par yield curve methods
-
-#### `deliveryMethod` (Optional for PHYSICAL settlement)
-**Type**: String
-**Description**: Physical delivery method
-**Possible Values**:
-- `"DELIVERY_VERSUS_PAYMENT"` - DVP settlement (most common)
-- `"FREE_OF_PAYMENT"` - FOP settlement
-- `"PRE_DELIVERY"` - Pre-delivery settlement
-- `"PRE_PAYMENT"` - Pre-payment settlement
-
-**Recommended**: `"DELIVERY_VERSUS_PAYMENT"` for physical settlement
-
-#### `settlementCentre` (Optional)
-**Type**: String
-**Description**: Settlement infrastructure provider - supports both standard CDM systems and regional variations
-
-**Standard CDM Settlement Centres** (set in CDM model):
-- `"EUROCLEAR_BANK"` - Euroclear settlement system
-- `"CLEARSTREAM_BANKING_LUXEMBOURG"` - Clearstream settlement system
-
-**Regional Settlement Systems** (preserved in JSON, descriptive info logged):
-- `"LBTR"` - Chilean Large Value Transfer System (real-time gross settlement)
-- `"COMBANC"` - Chilean Compensation and Liquidation Chamber (net settlement)
-- `"CORRESPONDENT_BANK"` - Correspondent banking arrangement
-- `"CURRENT_ACCOUNT"` - Direct current account settlement
-- Any regional bank names containing "BANCO"
-
-**Important Notes**:
-- **European systems**: Mapped to standard CDM enums and included in the CDM model
-- **Regional systems**: Information preserved in input JSON with descriptive logging, but NOT mapped to European equivalents to avoid misleading associations
-- **Custom metadata**: Regional settlement information could be extended using CDM's MetaFields capability for full preservation
-
-**Use Cases**:
-- **European trades**: Use `"EUROCLEAR_BANK"` or `"CLEARSTREAM_BANKING_LUXEMBOURG"`
-- **Chilean trades**: Use `"LBTR"` or `"COMBANC"` - information will be preserved and logged
-- **Multi-jurisdiction trades**: Mix European and regional systems as appropriate per leg
+**Note**: Advanced payment method fields (`cashSettlementMethod`, `deliveryMethod`, `settlementCentre`) have been removed from the leg-level specification to maintain clean, focused configuration. The current settlement model focuses on the essential `settlementCurrency` and `settlementType` fields for practical swap implementation.
 
 ---
 
@@ -452,7 +445,7 @@ The legs array contains specifications for each leg of the swap. Typically conta
 ```json
 {
   "rateType": "FLOATING",
-  "floatingRateIndex": "USD-SOFR-COMPOUND",
+  "floatingRateIndex": "USD-SOFR Average 90D",
   "spread": 0.0015,
   "calculationPeriodFrequency": "3M",
   "paymentFrequency": "3M",
@@ -471,7 +464,7 @@ The legs array contains specifications for each leg of the swap. Typically conta
 }
 ```
 
-### Chilean ICP Floating Leg
+### Chilean ICP Floating Leg with Calculation Periods
 ```json
 {
   "rateType": "FLOATING",
@@ -479,6 +472,8 @@ The legs array contains specifications for each leg of the swap. Typically conta
   "spread": 0.0,
   "resetDayConvention": "PRECEDING",
   "resetBusinessCenters": ["CLSA"],
+  "calculationDayConvention": "MODFOLLOWING",
+  "calculationBusinessCenters": ["CLSA"],
   "dayCountFraction": "ACT/360",
   "rateRoundingPrecision": 5,
   "rateRoundingDirection": "NEAREST"
@@ -489,75 +484,32 @@ The legs array contains specifications for each leg of the swap. Typically conta
 ```json
 {
   "rateType": "FLOATING",
-  "floatingRateIndex": "USD-SOFR-COMPOUND",
+  "floatingRateIndex": "USD-SOFR Average 180D",
   "spread": 0.0015,
-  "calculationPeriodFrequency": "3M",
-  "paymentFrequency": "3M",
+  "calculationPeriodFrequency": "6M",
+  "paymentFrequency": "6M",
   "dayCountFraction": "ACT/360",
   "rateRoundingPrecision": 4,
   "rateRoundingDirection": "UP"
 }
 ```
 
-### Sophisticated Cash Settlement
+### Multi-Currency Swap with Different Business Day Rules
 ```json
 {
   "rateType": "FLOATING",
-  "floatingRateIndex": "USD-SOFR-COMPOUND",
+  "floatingRateIndex": "EUR-EURIBOR",
   "spread": 0.002,
   "calculationPeriodFrequency": "3M",
   "paymentFrequency": "3M",
-  "settlementCurrency": "USD",
-  "settlementType": "CASH",
-  "cashSettlementMethod": "MID_MARKET_CALCULATION_AGENT_DETERMINATION",
-  "settlementCentre": "EUROCLEAR_BANK"
-}
-```
-
-### Physical Settlement with DVP
-```json
-{
-  "rateType": "FIXED",
-  "fixedRate": 0.035,
-  "calculationPeriodFrequency": "6M",
-  "paymentFrequency": "6M",
+  "paymentDayConvention": "MODFOLLOWING",
+  "paymentBusinessCenters": ["EUFR"],
+  "calculationDayConvention": "FOLLOWING",
+  "calculationBusinessCenters": ["EUFR", "GBLO"],
   "settlementCurrency": "EUR",
-  "settlementType": "PHYSICAL",
-  "deliveryMethod": "DELIVERY_VERSUS_PAYMENT",
-  "settlementCentre": "CLEARSTREAM_BANKING_LUXEMBOURG"
+  "settlementType": "CASH"
 }
 ```
-
-### Chilean Market Settlement (LBTR)
-```json
-{
-  "rateType": "FLOATING",
-  "floatingRateIndex": "CLP-CAMARA-PROMEDIO",
-  "spread": 0.001,
-  "calculationPeriodFrequency": "1M",
-  "paymentFrequency": "1M",
-  "settlementCurrency": "CLP",
-  "settlementType": "CASH",
-  "cashSettlementMethod": "MID_MARKET_CALCULATION_AGENT_DETERMINATION",
-  "settlementCentre": "LBTR"
-}
-```
-*Note: LBTR information is preserved in JSON and logged descriptively. CDM model will not include a settlement centre enum to avoid misleading European mapping.*
-
-### Chilean Market Settlement (COMBANC)
-```json
-{
-  "rateType": "FIXED",
-  "fixedRate": 0.045,
-  "calculationPeriodFrequency": "3M",
-  "paymentFrequency": "3M",
-  "settlementCurrency": "CLP",
-  "settlementType": "CASH",
-  "cashSettlementMethod": "COLLATERALIZED_CASH_PRICE_METHOD",
-  "settlementCentre": "COMBANC"
-}
-```
-*Note: COMBANC information is preserved in JSON and logged descriptively. CDM model will not include a settlement centre enum to avoid misleading European mapping.*
 
 ---
 
@@ -601,13 +553,24 @@ The legs array contains specifications for each leg of the swap. Typically conta
 
 ---
 
-## Error Handling
+## Error Handling and Automatic Mapping
 
-The system provides warnings for:
-- Unknown business day conventions (defaults to MODFOLLOWING)
-- Unknown business centers (defaults to appropriate center)
-- Unknown floating rate indices (defaults to USD-SOFR-COMPOUND)
-- Invalid frequencies (defaults to appropriate values)
-- Unknown settlement types (defaults to CASH)
+The system provides robust error handling with warnings for:
+- **Unknown business day conventions** (defaults to MODFOLLOWING)
+- **Unknown business centers** (defaults to appropriate center)
+- **Unknown floating rate indices**: Uses comprehensive automatic mapping to CDM enums
+  - Supports 600+ floating rate indices from CDM documentation
+  - Converts naming conventions automatically (spaces to underscores, handles special suffixes)
+  - Only defaults to USD-SOFR-COMPOUND if all mapping attempts fail
+- **Invalid frequencies** (defaults to appropriate values)
+- **Unknown settlement types** (defaults to CASH)
 
-All warnings are logged to help identify potential issues while maintaining system stability.
+### Floating Rate Index Mapping Examples
+The system automatically handles these conversions:
+- `"USD-SOFR Average 180D"` → Successfully mapped to CDM enum
+- `"EUR-EURIBOR-6M"` → Mapped to appropriate CDM enum
+- `"GBP-SONIA Compounded Index"` → Mapped to CDM enum
+- `"JPY-TONA Average 30D"` → Mapped to CDM enum
+- `"Unknown-Index"` → Warning logged, defaults to USD-SOFR-COMPOUND
+
+All warnings are logged to help identify potential issues while maintaining system stability. The enhanced floating rate index mapping ensures that almost all standard market indices are recognized automatically.
