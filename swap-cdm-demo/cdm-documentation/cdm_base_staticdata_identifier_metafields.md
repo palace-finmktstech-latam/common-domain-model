@@ -18,10 +18,10 @@
 **Key Methods:**
 - `getValue()` → `IdentifierBuilder` [Getter]
 - `setValue(Identifier arg0)` → `FieldWithMetaIdentifierBuilder` [Setter]
-- `getOrCreateValue()` → `IdentifierBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaIdentifierBuilder` [Setter]
+- `getOrCreateValue()` → `IdentifierBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaIdentifierBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -36,10 +36,10 @@
 - `getValue()` → `IdentifierBuilder` [Getter]
 - `setValue(Identifier arg0)` → `FieldWithMetaIdentifierBuilder` [Setter]
 - `build()` → `FieldWithMetaIdentifier` [Builder]
-- `getOrCreateValue()` → `IdentifierBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaIdentifierBuilder` [Setter]
+- `getOrCreateValue()` → `IdentifierBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaIdentifierBuilder` [Setter]
 
 ### FieldWithMetaIdentifierImpl
 **Implements:** `FieldWithMetaIdentifier` 

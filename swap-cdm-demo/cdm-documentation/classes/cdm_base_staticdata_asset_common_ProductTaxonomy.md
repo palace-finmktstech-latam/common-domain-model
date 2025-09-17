@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `String getProductQualifier()`
 - `FieldWithMetaAssetClassEnum getPrimaryAssetClass()`
 - `List getSecondaryAssetClass()`
+- `String getProductQualifier()`
 
 #### Other Methods
 

@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `FxRateBuilder setRate(BigDecimal arg0)`
 - `FxRateBuilder setQuotedCurrencyPair(QuotedCurrencyPair arg0)`
+- `FxRateBuilder setRate(BigDecimal arg0)`
 
 #### Getter Methods
 

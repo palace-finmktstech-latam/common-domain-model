@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TimeZoneBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TimeZoneBuilder toBuilder()`
 - `TimeZoneBuilder prune()`
+- `TimeZoneBuilder toBuilder()`
+- `boolean hasData()`
 

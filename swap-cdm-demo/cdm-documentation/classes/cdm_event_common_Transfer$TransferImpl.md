@@ -27,10 +27,10 @@
 
 #### Getter Methods
 
-- `Reset getResetOrigin()`
-- `PartyReferencePayerReceiver getPayerReceiver()`
 - `ReferenceWithMetaPayout getSettlementOrigin()`
+- `PartyReferencePayerReceiver getPayerReceiver()`
 - `TransferExpression getTransferExpression()`
+- `Reset getResetOrigin()`
 - `List getIdentifier()`
 
 #### Other Methods

@@ -30,25 +30,25 @@
 
 - `AssetDeliveryProfileBlockBuilder setDayOfWeek(List arg0)`
 - `AssetDeliveryProfileBlockBuilder setStartTime(LocalTime arg0)`
-- `AssetDeliveryProfileBlockBuilder setEndTime(LocalTime arg0)`
 - `AssetDeliveryProfileBlockBuilder setDeliveryCapacity(Quantity arg0)`
 - `AssetDeliveryProfileBlockBuilder setPriceTimeIntervalQuantity(Price arg0)`
+- `AssetDeliveryProfileBlockBuilder setEndTime(LocalTime arg0)`
 
 #### Getter Methods
 
 - `List getDayOfWeek()`
 - `LocalTime getStartTime()`
-- `LocalTime getEndTime()`
-- `QuantityBuilder getDeliveryCapacity()`
 - `PriceBuilder getPriceTimeIntervalQuantity()`
+- `QuantityBuilder getDeliveryCapacity()`
 - `QuantityBuilder getOrCreateDeliveryCapacity()`
 - `PriceBuilder getOrCreatePriceTimeIntervalQuantity()`
+- `LocalTime getEndTime()`
 
 #### Adder Methods
 
-- `AssetDeliveryProfileBlockBuilder addDayOfWeek(DayOfWeekEnum arg0, int arg1)`
 - `AssetDeliveryProfileBlockBuilder addDayOfWeek(DayOfWeekEnum arg0)`
 - `AssetDeliveryProfileBlockBuilder addDayOfWeek(List arg0)`
+- `AssetDeliveryProfileBlockBuilder addDayOfWeek(DayOfWeekEnum arg0, int arg1)`
 
 #### Other Methods
 
@@ -56,7 +56,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AssetDeliveryProfileBlockBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AssetDeliveryProfileBlockBuilder toBuilder()`
 - `AssetDeliveryProfileBlockBuilder prune()`
+- `AssetDeliveryProfileBlockBuilder toBuilder()`
+- `boolean hasData()`
 

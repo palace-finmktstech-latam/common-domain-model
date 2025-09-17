@@ -15,10 +15,10 @@
 
 #### Setter Methods
 
+- `ResetFrequencyBuilder setMeta(MetaFields arg0)`
+- `ResetFrequencyBuilder setWeeklyRollConvention(WeeklyRollConventionEnum arg0)`
 - `ResetFrequencyBuilder setPeriod(PeriodExtendedEnum arg0)`
 - `ResetFrequencyBuilder setPeriodMultiplier(Integer arg0)`
-- `ResetFrequencyBuilder setWeeklyRollConvention(WeeklyRollConventionEnum arg0)`
-- `ResetFrequencyBuilder setMeta(MetaFields arg0)`
 
 #### Other Methods
 

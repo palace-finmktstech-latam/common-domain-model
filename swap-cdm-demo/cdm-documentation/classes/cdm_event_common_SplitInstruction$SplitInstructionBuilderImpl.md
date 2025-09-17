@@ -33,9 +33,9 @@
 
 #### Adder Methods
 
-- `SplitInstructionBuilder addBreakdown(PrimitiveInstruction arg0)`
 - `SplitInstructionBuilder addBreakdown(PrimitiveInstruction arg0, int arg1)`
 - `SplitInstructionBuilder addBreakdown(List arg0)`
+- `SplitInstructionBuilder addBreakdown(PrimitiveInstruction arg0)`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `SplitInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `SplitInstructionBuilder toBuilder()`
 - `SplitInstructionBuilder prune()`
+- `SplitInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

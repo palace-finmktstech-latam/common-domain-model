@@ -16,15 +16,15 @@
 
 #### Setter Methods
 
-- `TransferStateBuilder setTransferStatus(TransferStatusEnum arg0)`
 - `TransferStateBuilder setTransfer(Transfer arg0)`
+- `TransferStateBuilder setTransferStatus(TransferStatusEnum arg0)`
 - `TransferStateBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
-- `TransferBuilder getTransfer()`
 - `TransferBuilder getOrCreateTransfer()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `TransferBuilder getTransfer()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods

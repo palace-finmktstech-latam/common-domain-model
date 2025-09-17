@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaBusinessCentersBuilder setValue(BusinessCenters arg0)`
-- `ReferenceWithMetaBusinessCentersBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaBusinessCentersBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaBusinessCentersBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaBusinessCentersBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaBusinessCentersBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

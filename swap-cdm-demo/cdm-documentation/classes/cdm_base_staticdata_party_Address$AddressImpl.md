@@ -24,9 +24,9 @@
 
 - `String getState()`
 - `FieldWithMetaString getCountry()`
-- `String getPostalCode()`
-- `List getStreet()`
 - `String getCity()`
+- `List getStreet()`
+- `String getPostalCode()`
 
 #### Other Methods
 

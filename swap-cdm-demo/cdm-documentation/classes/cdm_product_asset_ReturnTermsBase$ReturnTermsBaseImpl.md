@@ -22,16 +22,16 @@
 
 #### Getter Methods
 
-- `String getPerformance()`
-- `ValuationTerms getValuationTerms()`
-- `DividendApplicability getDividendApplicability()`
-- `Integer getExpectedN()`
-- `Integer getAnnualizationFactor()`
 - `Boolean getMeanAdjustment()`
-- `BigDecimal getInitialLevel()`
+- `Integer getExpectedN()`
 - `DeterminationMethodEnum getInitialLevelSource()`
+- `Integer getAnnualizationFactor()`
+- `ValuationTerms getValuationTerms()`
+- `BigDecimal getInitialLevel()`
+- `DividendApplicability getDividendApplicability()`
 - `EquityUnderlierProvisions getEquityUnderlierProvisions()`
 - `Boolean getSharePriceDividendAdjustment()`
+- `String getPerformance()`
 
 #### Other Methods
 

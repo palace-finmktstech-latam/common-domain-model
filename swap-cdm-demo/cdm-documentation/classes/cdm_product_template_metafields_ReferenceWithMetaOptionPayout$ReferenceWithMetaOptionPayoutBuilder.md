@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaOptionPayoutBuilder setValue(OptionPayout arg0)`
-- `ReferenceWithMetaOptionPayoutBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaOptionPayoutBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaOptionPayoutBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaOptionPayoutBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaOptionPayoutBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

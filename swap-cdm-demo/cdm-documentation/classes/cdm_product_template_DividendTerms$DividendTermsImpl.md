@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `DividendPayoutRatio getManufacturedIncomeRequirement()`
-- `Money getMinimumBillingAmount()`
 - `DividendEntitlementEnum getDividendEntitlement()`
+- `Money getMinimumBillingAmount()`
+- `DividendPayoutRatio getManufacturedIncomeRequirement()`
 
 #### Other Methods
 

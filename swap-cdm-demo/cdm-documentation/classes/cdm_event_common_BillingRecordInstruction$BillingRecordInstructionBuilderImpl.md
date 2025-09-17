@@ -28,28 +28,28 @@
 
 #### Setter Methods
 
-- `BillingRecordInstructionBuilder setObservation(List arg0)`
 - `BillingRecordInstructionBuilder setSettlementDate(Date arg0)`
 - `BillingRecordInstructionBuilder setRecordEndDate(Date arg0)`
+- `BillingRecordInstructionBuilder setRecordStartDate(Date arg0)`
 - `BillingRecordInstructionBuilder setTradeState(ReferenceWithMetaTradeState arg0)`
 - `BillingRecordInstructionBuilder setTradeStateValue(TradeState arg0)`
-- `BillingRecordInstructionBuilder setRecordStartDate(Date arg0)`
+- `BillingRecordInstructionBuilder setObservation(List arg0)`
 
 #### Getter Methods
 
-- `ObservationBuilder getOrCreateObservation(int arg0)`
 - `Date getSettlementDate()`
-- `Date getRecordEndDate()`
 - `ReferenceWithMetaTradeStateBuilder getTradeState()`
 - `List getObservation()`
 - `Date getRecordStartDate()`
+- `Date getRecordEndDate()`
 - `ReferenceWithMetaTradeStateBuilder getOrCreateTradeState()`
+- `ObservationBuilder getOrCreateObservation(int arg0)`
 
 #### Adder Methods
 
-- `BillingRecordInstructionBuilder addObservation(Observation arg0)`
 - `BillingRecordInstructionBuilder addObservation(Observation arg0, int arg1)`
 - `BillingRecordInstructionBuilder addObservation(List arg0)`
+- `BillingRecordInstructionBuilder addObservation(Observation arg0)`
 
 #### Other Methods
 
@@ -57,7 +57,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BillingRecordInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BillingRecordInstructionBuilder toBuilder()`
 - `BillingRecordInstructionBuilder prune()`
+- `BillingRecordInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -19,13 +19,13 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Boolean getMultipleExchangeIndexAnnexFallback()`
-- `FPVFinalPriceElectionFallbackEnum getFPVFinalPriceElectionFallback()`
-- `Boolean getComponentSecurityIndexAnnexFallback()`
-- `AdjustableRelativeOrPeriodicDates getDividendValuationDates()`
 - `Boolean getFuturesPriceValuation()`
 - `Boolean getOptionsPriceValuation()`
 - `Integer getNumberOfValuationDates()`
+- `AdjustableRelativeOrPeriodicDates getDividendValuationDates()`
+- `Boolean getMultipleExchangeIndexAnnexFallback()`
+- `FPVFinalPriceElectionFallbackEnum getFPVFinalPriceElectionFallback()`
+- `Boolean getComponentSecurityIndexAnnexFallback()`
 
 #### Other Methods
 

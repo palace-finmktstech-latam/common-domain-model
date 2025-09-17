@@ -18,23 +18,23 @@
 
 - `FeaturePaymentBuilder setCurrency(FieldWithMetaString arg0)`
 - `FeaturePaymentBuilder setTime(TimeTypeEnum arg0)`
-- `FeaturePaymentBuilder setLevelPercentage(BigDecimal arg0)`
 - `FeaturePaymentBuilder setPayerReceiver(PartyReferencePayerReceiver arg0)`
-- `FeaturePaymentBuilder setPaymentDate(AdjustableOrRelativeDate arg0)`
 - `FeaturePaymentBuilder setCurrencyValue(String arg0)`
 - `FeaturePaymentBuilder setAmount(BigDecimal arg0)`
 - `FeaturePaymentBuilder setMeta(MetaFields arg0)`
+- `FeaturePaymentBuilder setLevelPercentage(BigDecimal arg0)`
+- `FeaturePaymentBuilder setPaymentDate(AdjustableOrRelativeDate arg0)`
 
 #### Getter Methods
 
 - `FieldWithMetaStringBuilder getCurrency()`
-- `PartyReferencePayerReceiverBuilder getPayerReceiver()`
 - `PartyReferencePayerReceiverBuilder getOrCreatePayerReceiver()`
+- `PartyReferencePayerReceiverBuilder getPayerReceiver()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `MetaFieldsBuilder getMeta()`
 - `FieldWithMetaStringBuilder getOrCreateCurrency()`
 - `AdjustableOrRelativeDateBuilder getPaymentDate()`
 - `AdjustableOrRelativeDateBuilder getOrCreatePaymentDate()`
-- `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
 

@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Quantity getDeliveryCapacity()`
 - `Price getPriceTimeIntervalQuantity()`
+- `Quantity getDeliveryCapacity()`
 
 #### Other Methods
 

@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaResolvablePriceQuantityBuilder setValue(ResolvablePriceQuantity arg0)`
-- `ReferenceWithMetaResolvablePriceQuantityBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaResolvablePriceQuantityBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaResolvablePriceQuantityBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaResolvablePriceQuantityBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaResolvablePriceQuantityBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

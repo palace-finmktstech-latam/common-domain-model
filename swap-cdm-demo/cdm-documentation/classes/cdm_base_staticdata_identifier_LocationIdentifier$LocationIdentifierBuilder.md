@@ -15,18 +15,18 @@
 
 #### Setter Methods
 
-- `LocationIdentifierBuilder setIssuer(FieldWithMetaString arg0)`
 - `LocationIdentifierBuilder setIssuerReferenceValue(Party arg0)`
-- `LocationIdentifierBuilder setIssuerReference(ReferenceWithMetaParty arg0)`
 - `LocationIdentifierBuilder setIssuerValue(String arg0)`
-- `LocationIdentifierBuilder setAssignedIdentifier(List arg0)`
-- `LocationIdentifierBuilder setLocationIdentifierType(CommodityLocationIdentifierTypeEnum arg0)`
+- `LocationIdentifierBuilder setIssuer(FieldWithMetaString arg0)`
 - `LocationIdentifierBuilder setMeta(MetaFields arg0)`
+- `LocationIdentifierBuilder setLocationIdentifierType(CommodityLocationIdentifierTypeEnum arg0)`
+- `LocationIdentifierBuilder setIssuerReference(ReferenceWithMetaParty arg0)`
+- `LocationIdentifierBuilder setAssignedIdentifier(List arg0)`
 
 #### Adder Methods
 
-- `LocationIdentifierBuilder addAssignedIdentifier(AssignedIdentifier arg0)`
 - `LocationIdentifierBuilder addAssignedIdentifier(AssignedIdentifier arg0, int arg1)`
+- `LocationIdentifierBuilder addAssignedIdentifier(AssignedIdentifier arg0)`
 - `LocationIdentifierBuilder addAssignedIdentifier(List arg0)`
 
 #### Other Methods

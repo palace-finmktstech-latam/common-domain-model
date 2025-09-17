@@ -30,8 +30,8 @@
 
 #### Getter Methods
 
-- `PeriodTimeEnum getPeriod()`
 - `Integer getPeriodMultiplier()`
+- `PeriodTimeEnum getPeriod()`
 
 #### Other Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `VelocityBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `VelocityBuilder toBuilder()`
 - `VelocityBuilder prune()`
+- `VelocityBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -27,17 +27,17 @@
 
 #### Getter Methods
 
-- `Date getClearedDate()`
-- `List getTradeIdentifier()`
-- `List getPartyRole()`
-- `FieldWithMetaTimeZone getTradeTime()`
-- `ContractDetails getContractDetails()`
 - `FieldWithMetaDate getTradeDate()`
-- `Collateral getCollateral()`
+- `List getTradeIdentifier()`
+- `FieldWithMetaTimeZone getTradeTime()`
+- `List getPartyRole()`
 - `ExecutionDetails getExecutionDetails()`
-- `List getAccount()`
-- `List getParty()`
+- `ContractDetails getContractDetails()`
+- `Date getClearedDate()`
+- `Collateral getCollateral()`
 - `MetaFields getMeta()`
+- `List getParty()`
+- `List getAccount()`
 
 #### Other Methods
 

@@ -15,24 +15,24 @@
 
 #### Setter Methods
 
+- `ValuationDateBuilder setValuationDate(RelativeDateOffset arg0)`
 - `ValuationDateBuilder setMultipleValuationDates(MultipleValuationDates arg0)`
-- `ValuationDateBuilder setFxFixingDate(FxFixingDate arg0)`
 - `ValuationDateBuilder setFxFixingSchedule(AdjustableDates arg0)`
 - `ValuationDateBuilder setSingleValuationDate(SingleValuationDate arg0)`
-- `ValuationDateBuilder setValuationDate(RelativeDateOffset arg0)`
+- `ValuationDateBuilder setFxFixingDate(FxFixingDate arg0)`
 
 #### Getter Methods
 
-- `FxFixingDateBuilder getFxFixingDate()`
-- `MultipleValuationDatesBuilder getMultipleValuationDates()`
-- `FxFixingDateBuilder getOrCreateFxFixingDate()`
-- `SingleValuationDateBuilder getSingleValuationDate()`
-- `AdjustableDatesBuilder getFxFixingSchedule()`
-- `SingleValuationDateBuilder getOrCreateSingleValuationDate()`
-- `MultipleValuationDatesBuilder getOrCreateMultipleValuationDates()`
-- `AdjustableDatesBuilder getOrCreateFxFixingSchedule()`
 - `RelativeDateOffsetBuilder getValuationDate()`
 - `RelativeDateOffsetBuilder getOrCreateValuationDate()`
+- `AdjustableDatesBuilder getFxFixingSchedule()`
+- `MultipleValuationDatesBuilder getMultipleValuationDates()`
+- `SingleValuationDateBuilder getSingleValuationDate()`
+- `FxFixingDateBuilder getOrCreateFxFixingDate()`
+- `FxFixingDateBuilder getFxFixingDate()`
+- `AdjustableDatesBuilder getOrCreateFxFixingSchedule()`
+- `SingleValuationDateBuilder getOrCreateSingleValuationDate()`
+- `MultipleValuationDatesBuilder getOrCreateMultipleValuationDates()`
 
 #### Other Methods
 

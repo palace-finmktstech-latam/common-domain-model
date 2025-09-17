@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `DeterminationMethodEnum getDeterminationMethod()`
 - `AveragingCalculationMethodEnum getAveragingMethod()`
+- `DeterminationMethodEnum getDeterminationMethod()`
 
 #### Other Methods
 

@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `ResetBuilder doEvaluate(PerformancePayout arg0, Observation arg1, Date arg2)`
 - `ResetBuilder assignOutput(ResetBuilder arg0, PerformancePayout arg1, Observation arg2, Date arg3)`
+- `ResetBuilder doEvaluate(PerformancePayout arg0, Observation arg1, Date arg2)`
 

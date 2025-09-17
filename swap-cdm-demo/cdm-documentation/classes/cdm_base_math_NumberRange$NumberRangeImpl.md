@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `NumberBound getLowerBound()`
 - `NumberBound getUpperBound()`
+- `NumberBound getLowerBound()`
 
 #### Other Methods
 

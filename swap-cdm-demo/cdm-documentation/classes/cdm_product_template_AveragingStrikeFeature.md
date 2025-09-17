@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `AveragingCalculation getAveragingCalculation()`
 - `ObservationTerms getObservationTerms()`
+- `AveragingCalculation getAveragingCalculation()`
 
 #### Other Methods
 

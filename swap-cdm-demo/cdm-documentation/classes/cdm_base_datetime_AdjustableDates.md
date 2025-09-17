@@ -22,8 +22,8 @@
 - `Class getType()`
 - `List getAdjustedDate()`
 - `List getUnadjustedDate()`
-- `BusinessDayAdjustments getDateAdjustments()`
 - `MetaFields getMeta()`
+- `BusinessDayAdjustments getDateAdjustments()`
 
 #### Other Methods
 

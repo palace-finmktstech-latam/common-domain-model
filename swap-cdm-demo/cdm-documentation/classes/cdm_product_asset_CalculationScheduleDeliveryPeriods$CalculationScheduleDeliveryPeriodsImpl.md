@@ -27,8 +27,8 @@
 
 #### Getter Methods
 
-- `Quantity getDeliveryCapacity()`
 - `Price getPriceTimeIntervalQuantity()`
+- `Quantity getDeliveryCapacity()`
 
 #### Other Methods
 

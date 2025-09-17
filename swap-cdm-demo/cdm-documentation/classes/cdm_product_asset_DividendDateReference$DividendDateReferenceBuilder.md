@@ -20,8 +20,8 @@
 
 #### Getter Methods
 
-- `OffsetBuilder getOrCreatePaymentDateOffset()`
 - `OffsetBuilder getPaymentDateOffset()`
+- `OffsetBuilder getOrCreatePaymentDateOffset()`
 
 #### Other Methods
 

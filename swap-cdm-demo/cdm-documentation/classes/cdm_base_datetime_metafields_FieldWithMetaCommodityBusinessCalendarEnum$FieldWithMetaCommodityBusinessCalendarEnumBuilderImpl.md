@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaCommodityBusinessCalendarEnumBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaCommodityBusinessCalendarEnumBuilder toBuilder()`
 - `FieldWithMetaCommodityBusinessCalendarEnumBuilder prune()`
+- `FieldWithMetaCommodityBusinessCalendarEnumBuilder toBuilder()`
+- `boolean hasData()`
 

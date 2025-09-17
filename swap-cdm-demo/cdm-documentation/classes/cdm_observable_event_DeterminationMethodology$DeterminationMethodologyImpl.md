@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `DeterminationMethodEnum getDeterminationMethod()`
 - `AveragingCalculationMethodEnum getAveragingMethod()`
+- `DeterminationMethodEnum getDeterminationMethod()`
 
 #### Other Methods
 

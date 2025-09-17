@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `PayerReceiverEnum getSeller()`
 - `PayerReceiverEnum getBuyer()`
+- `PayerReceiverEnum getSeller()`
 
 #### Other Methods
 

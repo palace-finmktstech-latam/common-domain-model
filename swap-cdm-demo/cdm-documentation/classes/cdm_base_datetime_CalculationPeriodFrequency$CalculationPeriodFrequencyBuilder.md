@@ -15,11 +15,11 @@
 
 #### Setter Methods
 
-- `CalculationPeriodFrequencyBuilder setPeriod(PeriodExtendedEnum arg0)`
-- `CalculationPeriodFrequencyBuilder setPeriodMultiplier(Integer arg0)`
+- `CalculationPeriodFrequencyBuilder setMeta(MetaFields arg0)`
 - `CalculationPeriodFrequencyBuilder setRollConvention(RollConventionEnum arg0)`
 - `CalculationPeriodFrequencyBuilder setBalanceOfFirstPeriod(Boolean arg0)`
-- `CalculationPeriodFrequencyBuilder setMeta(MetaFields arg0)`
+- `CalculationPeriodFrequencyBuilder setPeriod(PeriodExtendedEnum arg0)`
+- `CalculationPeriodFrequencyBuilder setPeriodMultiplier(Integer arg0)`
 
 #### Other Methods
 

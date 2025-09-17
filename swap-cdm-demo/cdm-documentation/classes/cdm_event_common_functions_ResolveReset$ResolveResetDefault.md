@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `ResetBuilder doEvaluate(TradeState arg0, Date arg1)`
 - `ResetBuilder assignOutput(ResetBuilder arg0, TradeState arg1, Date arg2)`
+- `ResetBuilder doEvaluate(TradeState arg0, Date arg1)`
 

@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `ExtraordinaryEvents getExtraordinaryEvents()`
 - `List getDeterminationTerms()`
 - `UnderlierSubstitutionProvision getSubstitutionProvision()`
+- `ExtraordinaryEvents getExtraordinaryEvents()`
 
 #### Other Methods
 

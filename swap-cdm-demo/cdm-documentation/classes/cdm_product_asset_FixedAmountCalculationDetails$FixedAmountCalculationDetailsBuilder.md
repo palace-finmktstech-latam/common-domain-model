@@ -15,18 +15,18 @@
 
 #### Setter Methods
 
-- `FixedAmountCalculationDetailsBuilder setFixedRate(BigDecimal arg0)`
+- `FixedAmountCalculationDetailsBuilder setCalculatedAmount(BigDecimal arg0)`
 - `FixedAmountCalculationDetailsBuilder setCalculationPeriod(CalculationPeriodBase arg0)`
 - `FixedAmountCalculationDetailsBuilder setYearFraction(BigDecimal arg0)`
-- `FixedAmountCalculationDetailsBuilder setCalculatedAmount(BigDecimal arg0)`
+- `FixedAmountCalculationDetailsBuilder setFixedRate(BigDecimal arg0)`
 - `FixedAmountCalculationDetailsBuilder setCalculationPeriodNotionalAmount(Money arg0)`
 
 #### Getter Methods
 
 - `CalculationPeriodBaseBuilder getCalculationPeriod()`
-- `MoneyBuilder getOrCreateCalculationPeriodNotionalAmount()`
-- `MoneyBuilder getCalculationPeriodNotionalAmount()`
 - `CalculationPeriodBaseBuilder getOrCreateCalculationPeriod()`
+- `MoneyBuilder getCalculationPeriodNotionalAmount()`
+- `MoneyBuilder getOrCreateCalculationPeriodNotionalAmount()`
 
 #### Other Methods
 

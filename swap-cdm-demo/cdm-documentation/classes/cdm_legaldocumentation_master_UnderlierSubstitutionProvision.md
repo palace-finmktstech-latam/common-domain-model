@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `List getWhoMaySubstitute()`
 - `CounterpartyRoleEnum getDisputingParty()`
-- `List getSubstitutionBeSpokeTerms()`
+- `List getWhoMaySubstitute()`
 - `List getSubstitutionTriggerEvents()`
+- `List getSubstitutionBeSpokeTerms()`
 
 #### Other Methods
 

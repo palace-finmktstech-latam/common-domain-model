@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Boolean doEvaluate(Observable arg0)`
 - `Boolean assignOutput(Boolean arg0, Observable arg1)`
+- `Boolean doEvaluate(Observable arg0)`
 

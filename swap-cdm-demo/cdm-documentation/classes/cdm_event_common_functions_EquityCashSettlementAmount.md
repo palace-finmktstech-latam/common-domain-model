@@ -27,10 +27,10 @@
 
 - `MapperS receiver(TradeState arg0, Date arg1)`
 - `Transfer evaluate(TradeState arg0, Date arg1)`
-- `MapperS payer(TradeState arg0, Date arg1)`
 - `TransferBuilder doEvaluate(TradeState arg0, Date arg1)`
-- `MapperS equityPerformancePayout(TradeState arg0, Date arg1)`
+- `MapperS payer(TradeState arg0, Date arg1)`
 - `MapperS equityPerformance1(TradeState arg0, Date arg1)`
+- `MapperS equityPerformancePayout(TradeState arg0, Date arg1)`
 - `MapperS payout(TradeState arg0, Date arg1)`
 
 ### Annotations

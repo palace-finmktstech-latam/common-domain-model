@@ -22,13 +22,13 @@
 
 #### Getter Methods
 
-- `List getFloorRateSchedule()`
+- `Schedule getFloatingRateMultiplierSchedule()`
 - `List getSpreadSchedule()`
+- `List getFloorRateSchedule()`
 - `List getCapRateSchedule()`
 - `RateTreatmentEnum getRateTreatment()`
-- `FloatingRateIndexEnum getFloatingRateIndex()`
 - `Period getIndexTenor()`
-- `Schedule getFloatingRateMultiplierSchedule()`
+- `FloatingRateIndexEnum getFloatingRateIndex()`
 
 #### Other Methods
 

@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `MarginCallInstructionTypeBuilder setCallType(CallTypeEnum arg0)`
 - `MarginCallInstructionTypeBuilder setVisibilityIndicator(Boolean arg0)`
+- `MarginCallInstructionTypeBuilder setCallType(CallTypeEnum arg0)`
 
 #### Other Methods
 

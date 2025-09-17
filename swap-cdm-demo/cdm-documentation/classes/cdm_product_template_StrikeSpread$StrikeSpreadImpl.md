@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `BigDecimal getUpperStrikeNumberOfOptions()`
 - `OptionStrike getUpperStrike()`
+- `BigDecimal getUpperStrikeNumberOfOptions()`
 
 #### Other Methods
 

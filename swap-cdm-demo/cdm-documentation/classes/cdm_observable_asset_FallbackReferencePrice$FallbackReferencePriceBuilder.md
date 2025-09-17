@@ -15,29 +15,29 @@
 
 #### Setter Methods
 
-- `FallbackReferencePriceBuilder setFallBackSettlementRateOptionValue(List arg0)`
+- `FallbackReferencePriceBuilder setValuationPostponement(ValuationPostponement arg0)`
 - `FallbackReferencePriceBuilder setCalculationAgentDetermination(CalculationAgent arg0)`
+- `FallbackReferencePriceBuilder setFallBackSettlementRateOptionValue(List arg0)`
 - `FallbackReferencePriceBuilder setFallBackSettlementRateOption(List arg0)`
 - `FallbackReferencePriceBuilder setFallbackSurveyValuationPostponement(Boolean arg0)`
-- `FallbackReferencePriceBuilder setValuationPostponement(ValuationPostponement arg0)`
 
 #### Getter Methods
 
+- `ValuationPostponementBuilder getValuationPostponement()`
 - `List getFallBackSettlementRateOption()`
 - `CalculationAgentBuilder getCalculationAgentDetermination()`
-- `FieldWithMetaSettlementRateOptionEnumBuilder getOrCreateFallBackSettlementRateOption(int arg0)`
-- `CalculationAgentBuilder getOrCreateCalculationAgentDetermination()`
 - `ValuationPostponementBuilder getOrCreateValuationPostponement()`
-- `ValuationPostponementBuilder getValuationPostponement()`
+- `CalculationAgentBuilder getOrCreateCalculationAgentDetermination()`
+- `FieldWithMetaSettlementRateOptionEnumBuilder getOrCreateFallBackSettlementRateOption(int arg0)`
 
 #### Adder Methods
 
+- `FallbackReferencePriceBuilder addFallBackSettlementRateOption(List arg0)`
 - `FallbackReferencePriceBuilder addFallBackSettlementRateOption(FieldWithMetaSettlementRateOptionEnum arg0)`
 - `FallbackReferencePriceBuilder addFallBackSettlementRateOption(FieldWithMetaSettlementRateOptionEnum arg0, int arg1)`
-- `FallbackReferencePriceBuilder addFallBackSettlementRateOption(List arg0)`
+- `FallbackReferencePriceBuilder addFallBackSettlementRateOptionValue(SettlementRateOptionEnum arg0, int arg1)`
 - `FallbackReferencePriceBuilder addFallBackSettlementRateOptionValue(SettlementRateOptionEnum arg0)`
 - `FallbackReferencePriceBuilder addFallBackSettlementRateOptionValue(List arg0)`
-- `FallbackReferencePriceBuilder addFallBackSettlementRateOptionValue(SettlementRateOptionEnum arg0, int arg1)`
 
 #### Other Methods
 

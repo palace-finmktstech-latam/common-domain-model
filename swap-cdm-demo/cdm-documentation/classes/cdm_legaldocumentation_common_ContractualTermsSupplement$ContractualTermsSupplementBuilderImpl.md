@@ -25,15 +25,15 @@
 
 #### Setter Methods
 
-- `ContractualTermsSupplementBuilder setContractualTermsSupplementType(FieldWithMetaContractualSupplementTypeEnum arg0)`
-- `ContractualTermsSupplementBuilder setContractualTermsSupplementTypeValue(ContractualSupplementTypeEnum arg0)`
 - `ContractualTermsSupplementBuilder setPublicationDate(Date arg0)`
+- `ContractualTermsSupplementBuilder setContractualTermsSupplementTypeValue(ContractualSupplementTypeEnum arg0)`
+- `ContractualTermsSupplementBuilder setContractualTermsSupplementType(FieldWithMetaContractualSupplementTypeEnum arg0)`
 
 #### Getter Methods
 
+- `Date getPublicationDate()`
 - `FieldWithMetaContractualSupplementTypeEnumBuilder getOrCreateContractualTermsSupplementType()`
 - `FieldWithMetaContractualSupplementTypeEnumBuilder getContractualTermsSupplementType()`
-- `Date getPublicationDate()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ContractualTermsSupplementBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ContractualTermsSupplementBuilder toBuilder()`
 - `ContractualTermsSupplementBuilder prune()`
+- `ContractualTermsSupplementBuilder toBuilder()`
+- `boolean hasData()`
 

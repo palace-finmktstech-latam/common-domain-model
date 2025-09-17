@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `Boolean getIncurredRecoveryApplicable()`
 - `BigDecimal getAttachmentPoint()`
 - `BigDecimal getExhaustionPoint()`
+- `Boolean getIncurredRecoveryApplicable()`
 
 #### Other Methods
 

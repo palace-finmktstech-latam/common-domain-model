@@ -25,13 +25,13 @@
 
 #### Setter Methods
 
-- `QuasiGovernmentIssuerTypeBuilder setSovereignEntity(Boolean arg0)`
 - `QuasiGovernmentIssuerTypeBuilder setSovereignRecourse(Boolean arg0)`
+- `QuasiGovernmentIssuerTypeBuilder setSovereignEntity(Boolean arg0)`
 
 #### Getter Methods
 
-- `Boolean getSovereignRecourse()`
 - `Boolean getSovereignEntity()`
+- `Boolean getSovereignRecourse()`
 
 #### Other Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `QuasiGovernmentIssuerTypeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `QuasiGovernmentIssuerTypeBuilder toBuilder()`
 - `QuasiGovernmentIssuerTypeBuilder prune()`
+- `QuasiGovernmentIssuerTypeBuilder toBuilder()`
+- `boolean hasData()`
 

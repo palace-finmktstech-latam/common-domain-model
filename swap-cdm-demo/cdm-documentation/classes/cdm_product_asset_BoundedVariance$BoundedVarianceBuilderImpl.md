@@ -27,17 +27,17 @@
 
 #### Setter Methods
 
-- `BoundedVarianceBuilder setDaysInRangeAdjustment(Boolean arg0)`
 - `BoundedVarianceBuilder setRealisedVarianceMethod(RealisedVarianceMethodEnum arg0)`
+- `BoundedVarianceBuilder setDaysInRangeAdjustment(Boolean arg0)`
 - `BoundedVarianceBuilder setUpperBarrier(BigDecimal arg0)`
 - `BoundedVarianceBuilder setLowerBarrier(BigDecimal arg0)`
 
 #### Getter Methods
 
-- `BigDecimal getLowerBarrier()`
+- `RealisedVarianceMethodEnum getRealisedVarianceMethod()`
 - `Boolean getDaysInRangeAdjustment()`
 - `BigDecimal getUpperBarrier()`
-- `RealisedVarianceMethodEnum getRealisedVarianceMethod()`
+- `BigDecimal getLowerBarrier()`
 
 #### Other Methods
 
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BoundedVarianceBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BoundedVarianceBuilder toBuilder()`
 - `BoundedVarianceBuilder prune()`
+- `BoundedVarianceBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -25,14 +25,14 @@
 
 #### Setter Methods
 
-- `StrikeSpreadBuilder setUpperStrikeNumberOfOptions(BigDecimal arg0)`
 - `StrikeSpreadBuilder setUpperStrike(OptionStrike arg0)`
+- `StrikeSpreadBuilder setUpperStrikeNumberOfOptions(BigDecimal arg0)`
 
 #### Getter Methods
 
-- `BigDecimal getUpperStrikeNumberOfOptions()`
 - `OptionStrikeBuilder getUpperStrike()`
 - `OptionStrikeBuilder getOrCreateUpperStrike()`
+- `BigDecimal getUpperStrikeNumberOfOptions()`
 
 #### Other Methods
 
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `StrikeSpreadBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `StrikeSpreadBuilder toBuilder()`
 - `StrikeSpreadBuilder prune()`
+- `StrikeSpreadBuilder toBuilder()`
+- `boolean hasData()`
 

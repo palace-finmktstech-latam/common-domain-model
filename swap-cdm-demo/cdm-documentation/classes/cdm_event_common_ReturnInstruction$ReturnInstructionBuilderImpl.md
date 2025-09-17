@@ -33,9 +33,9 @@
 
 #### Adder Methods
 
-- `ReturnInstructionBuilder addQuantity(Quantity arg0, int arg1)`
 - `ReturnInstructionBuilder addQuantity(List arg0)`
 - `ReturnInstructionBuilder addQuantity(Quantity arg0)`
+- `ReturnInstructionBuilder addQuantity(Quantity arg0, int arg1)`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReturnInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReturnInstructionBuilder toBuilder()`
 - `ReturnInstructionBuilder prune()`
+- `ReturnInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

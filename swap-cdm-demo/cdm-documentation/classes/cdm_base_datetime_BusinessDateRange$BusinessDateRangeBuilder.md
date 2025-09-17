@@ -15,10 +15,10 @@
 
 #### Setter Methods
 
-- `BusinessDateRangeBuilder setStartDate(Date arg0)`
-- `BusinessDateRangeBuilder setEndDate(Date arg0)`
-- `BusinessDateRangeBuilder setBusinessDayConvention(BusinessDayConventionEnum arg0)`
 - `BusinessDateRangeBuilder setBusinessCenters(BusinessCenters arg0)`
+- `BusinessDateRangeBuilder setBusinessDayConvention(BusinessDayConventionEnum arg0)`
+- `BusinessDateRangeBuilder setEndDate(Date arg0)`
+- `BusinessDateRangeBuilder setStartDate(Date arg0)`
 
 #### Getter Methods
 

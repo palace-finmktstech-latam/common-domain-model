@@ -26,9 +26,9 @@
 
 #### Setter Methods
 
+- `QuotedCurrencyPairBuilder setCurrency2Value(String arg0)`
 - `QuotedCurrencyPairBuilder setCurrency1(FieldWithMetaString arg0)`
 - `QuotedCurrencyPairBuilder setCurrency1Value(String arg0)`
-- `QuotedCurrencyPairBuilder setCurrency2Value(String arg0)`
 - `QuotedCurrencyPairBuilder setCurrency2(FieldWithMetaString arg0)`
 - `QuotedCurrencyPairBuilder setQuoteBasis(QuoteBasisEnum arg0)`
 
@@ -36,8 +36,8 @@
 
 - `FieldWithMetaStringBuilder getOrCreateCurrency1()`
 - `FieldWithMetaStringBuilder getOrCreateCurrency2()`
-- `FieldWithMetaStringBuilder getCurrency1()`
 - `FieldWithMetaStringBuilder getCurrency2()`
+- `FieldWithMetaStringBuilder getCurrency1()`
 - `QuoteBasisEnum getQuoteBasis()`
 
 #### Other Methods
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `QuotedCurrencyPairBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `QuotedCurrencyPairBuilder toBuilder()`
 - `QuotedCurrencyPairBuilder prune()`
+- `QuotedCurrencyPairBuilder toBuilder()`
+- `boolean hasData()`
 

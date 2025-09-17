@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `FloatingRateIndex getFloatingRateIndex()`
 - `InflationIndex getInflationIndex()`
+- `FloatingRateIndex getFloatingRateIndex()`
 
 #### Other Methods
 

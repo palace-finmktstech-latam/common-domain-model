@@ -22,12 +22,12 @@
 
 #### Getter Methods
 
-- `CreditRatingDebt getDebt()`
+- `FieldWithMetaString getNotation()`
 - `CreditRatingAgencyEnum getAgency()`
 - `FieldWithMetaString getScale()`
+- `CreditRatingDebt getDebt()`
 - `CreditRatingOutlookEnum getOutlook()`
 - `CreditRatingCreditWatchEnum getCreditWatch()`
-- `FieldWithMetaString getNotation()`
 
 #### Other Methods
 

@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `CashBuilder doEvaluate(Cash arg0, CurrencyCodeEnum arg1)`
 - `CashBuilder assignOutput(CashBuilder arg0, Cash arg1, CurrencyCodeEnum arg2)`
+- `CashBuilder doEvaluate(Cash arg0, CurrencyCodeEnum arg1)`
 

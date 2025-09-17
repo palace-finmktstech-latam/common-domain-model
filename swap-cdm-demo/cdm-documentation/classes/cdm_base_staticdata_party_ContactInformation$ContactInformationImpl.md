@@ -23,9 +23,9 @@
 #### Getter Methods
 
 - `List getAddress()`
-- `List getTelephone()`
 - `List getEmail()`
 - `List getWebPage()`
+- `List getTelephone()`
 
 #### Other Methods
 

@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MeasureBaseBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MeasureBaseBuilder toBuilder()`
 - `MeasureBaseBuilder prune()`
+- `MeasureBaseBuilder toBuilder()`
+- `boolean hasData()`
 

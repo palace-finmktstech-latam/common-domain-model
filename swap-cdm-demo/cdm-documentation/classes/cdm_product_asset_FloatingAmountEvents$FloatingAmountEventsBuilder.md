@@ -15,21 +15,21 @@
 
 #### Setter Methods
 
-- `FloatingAmountEventsBuilder setFailureToPayPrincipal(Boolean arg0)`
-- `FloatingAmountEventsBuilder setWritedown(Boolean arg0)`
-- `FloatingAmountEventsBuilder setImpliedWritedown(Boolean arg0)`
 - `FloatingAmountEventsBuilder setInterestShortfall(InterestShortFall arg0)`
 - `FloatingAmountEventsBuilder setAdditionalFixedPayments(AdditionalFixedPayments arg0)`
+- `FloatingAmountEventsBuilder setImpliedWritedown(Boolean arg0)`
+- `FloatingAmountEventsBuilder setWritedown(Boolean arg0)`
+- `FloatingAmountEventsBuilder setFailureToPayPrincipal(Boolean arg0)`
 - `FloatingAmountEventsBuilder setFloatingAmountProvisions(FloatingAmountProvisions arg0)`
 
 #### Getter Methods
 
-- `AdditionalFixedPaymentsBuilder getAdditionalFixedPayments()`
-- `InterestShortFallBuilder getOrCreateInterestShortfall()`
-- `FloatingAmountProvisionsBuilder getOrCreateFloatingAmountProvisions()`
-- `AdditionalFixedPaymentsBuilder getOrCreateAdditionalFixedPayments()`
 - `InterestShortFallBuilder getInterestShortfall()`
 - `FloatingAmountProvisionsBuilder getFloatingAmountProvisions()`
+- `AdditionalFixedPaymentsBuilder getOrCreateAdditionalFixedPayments()`
+- `FloatingAmountProvisionsBuilder getOrCreateFloatingAmountProvisions()`
+- `InterestShortFallBuilder getOrCreateInterestShortfall()`
+- `AdditionalFixedPaymentsBuilder getAdditionalFixedPayments()`
 
 #### Other Methods
 

@@ -31,8 +31,8 @@
 #### Getter Methods
 
 - `TransferBuilder getOrCreateSummaryTransfer()`
-- `RecordAmountTypeEnum getSummaryAmountType()`
 - `TransferBuilder getSummaryTransfer()`
+- `RecordAmountTypeEnum getSummaryAmountType()`
 
 #### Other Methods
 
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BillingSummaryBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BillingSummaryBuilder toBuilder()`
 - `BillingSummaryBuilder prune()`
+- `BillingSummaryBuilder toBuilder()`
+- `boolean hasData()`
 

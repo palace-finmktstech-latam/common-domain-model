@@ -20,6 +20,6 @@
 
 #### Other Methods
 
-- `List filterMappingsToTradableProduct()`
 - `void mapBasic(Path arg0, Optional arg1, RosettaModelObjectBuilder arg2)`
+- `List filterMappingsToTradableProduct()`
 

@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `FloatingRateIndexIdentification getFro()`
 - `FloatingRateIndexCalculationDefaults getCalculationDefaults()`
+- `FloatingRateIndexIdentification getFro()`
 
 #### Other Methods
 

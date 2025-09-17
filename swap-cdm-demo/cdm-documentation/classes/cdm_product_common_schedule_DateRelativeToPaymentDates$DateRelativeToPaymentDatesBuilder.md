@@ -28,8 +28,8 @@
 - `DateRelativeToPaymentDatesBuilder addPaymentDatesReference(List arg0)`
 - `DateRelativeToPaymentDatesBuilder addPaymentDatesReference(ReferenceWithMetaPaymentDates arg0, int arg1)`
 - `DateRelativeToPaymentDatesBuilder addPaymentDatesReference(ReferenceWithMetaPaymentDates arg0)`
-- `DateRelativeToPaymentDatesBuilder addPaymentDatesReferenceValue(List arg0)`
 - `DateRelativeToPaymentDatesBuilder addPaymentDatesReferenceValue(PaymentDates arg0, int arg1)`
+- `DateRelativeToPaymentDatesBuilder addPaymentDatesReferenceValue(List arg0)`
 - `DateRelativeToPaymentDatesBuilder addPaymentDatesReferenceValue(PaymentDates arg0)`
 
 #### Other Methods

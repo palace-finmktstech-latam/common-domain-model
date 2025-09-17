@@ -16,9 +16,9 @@
 #### Setter Methods
 
 - `ClosedStateBuilder setState(ClosedStateEnum arg0)`
-- `ClosedStateBuilder setEffectiveDate(Date arg0)`
-- `ClosedStateBuilder setLastPaymentDate(Date arg0)`
 - `ClosedStateBuilder setActivityDate(Date arg0)`
+- `ClosedStateBuilder setLastPaymentDate(Date arg0)`
+- `ClosedStateBuilder setEffectiveDate(Date arg0)`
 
 #### Other Methods
 

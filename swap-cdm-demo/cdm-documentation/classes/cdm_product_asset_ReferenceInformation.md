@@ -20,10 +20,10 @@
 
 - `Class getType()`
 - `Boolean getAllGuarantees()`
+- `LegalEntity getReferenceEntity()`
+- `Price getReferencePrice()`
 - `List getReferenceObligation()`
 - `Boolean getNoReferenceObligation()`
-- `Price getReferencePrice()`
-- `LegalEntity getReferenceEntity()`
 - `Boolean getReferencePolicy()`
 - `Boolean getSecuredList()`
 - `Boolean getUnknownReferenceObligation()`

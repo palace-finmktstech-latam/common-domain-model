@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `DateRange getCalculationPeriod()`
 - `CalculationScheduleDeliveryPeriods getDeliveryPeriod()`
 - `DateRange getFixingPeriod()`
+- `DateRange getCalculationPeriod()`
 - `Date getPaymentDate()`
 
 #### Other Methods

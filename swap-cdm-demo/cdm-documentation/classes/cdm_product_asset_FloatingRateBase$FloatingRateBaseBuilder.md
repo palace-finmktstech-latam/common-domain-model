@@ -16,25 +16,25 @@
 
 #### Setter Methods
 
-- `FloatingRateBaseBuilder setSpreadSchedule(SpreadSchedule arg0)`
-- `FloatingRateBaseBuilder setFloorRateSchedule(StrikeSchedule arg0)`
+- `FloatingRateBaseBuilder setMeta(MetaFields arg0)`
 - `FloatingRateBaseBuilder setCapRateSchedule(StrikeSchedule arg0)`
+- `FloatingRateBaseBuilder setFloorRateSchedule(StrikeSchedule arg0)`
+- `FloatingRateBaseBuilder setSpreadSchedule(SpreadSchedule arg0)`
 - `FloatingRateBaseBuilder setRateOptionValue(InterestRateIndex arg0)`
 - `FloatingRateBaseBuilder setRateOption(ReferenceWithMetaInterestRateIndex arg0)`
-- `FloatingRateBaseBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
-- `StrikeScheduleBuilder getFloorRateSchedule()`
-- `SpreadScheduleBuilder getSpreadSchedule()`
-- `StrikeScheduleBuilder getCapRateSchedule()`
 - `MetaFieldsBuilder getOrCreateMeta()`
 - `ReferenceWithMetaInterestRateIndexBuilder getRateOption()`
-- `SpreadScheduleBuilder getOrCreateSpreadSchedule()`
+- `MetaFieldsBuilder getMeta()`
 - `StrikeScheduleBuilder getOrCreateCapRateSchedule()`
+- `SpreadScheduleBuilder getOrCreateSpreadSchedule()`
 - `ReferenceWithMetaInterestRateIndexBuilder getOrCreateRateOption()`
 - `StrikeScheduleBuilder getOrCreateFloorRateSchedule()`
-- `MetaFieldsBuilder getMeta()`
+- `SpreadScheduleBuilder getSpreadSchedule()`
+- `StrikeScheduleBuilder getFloorRateSchedule()`
+- `StrikeScheduleBuilder getCapRateSchedule()`
 
 #### Other Methods
 

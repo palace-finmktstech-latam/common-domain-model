@@ -19,9 +19,9 @@
 
 #### Adder Methods
 
-- `DateTimeListBuilder addDateTime(ZonedDateTime arg0)`
 - `DateTimeListBuilder addDateTime(List arg0)`
 - `DateTimeListBuilder addDateTime(ZonedDateTime arg0, int arg1)`
+- `DateTimeListBuilder addDateTime(ZonedDateTime arg0)`
 
 #### Other Methods
 

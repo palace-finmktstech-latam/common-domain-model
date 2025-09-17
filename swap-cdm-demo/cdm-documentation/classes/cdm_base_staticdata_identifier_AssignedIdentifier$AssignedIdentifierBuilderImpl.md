@@ -26,8 +26,8 @@
 #### Setter Methods
 
 - `AssignedIdentifierBuilder setVersion(Integer arg0)`
-- `AssignedIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
 - `AssignedIdentifierBuilder setIdentifierValue(String arg0)`
+- `AssignedIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
 
 #### Getter Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AssignedIdentifierBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AssignedIdentifierBuilder toBuilder()`
 - `AssignedIdentifierBuilder prune()`
+- `AssignedIdentifierBuilder toBuilder()`
+- `boolean hasData()`
 

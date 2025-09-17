@@ -33,9 +33,9 @@
 
 #### Adder Methods
 
-- `CreditLimitInformationBuilder addLimitApplicable(LimitApplicableExtended arg0)`
 - `CreditLimitInformationBuilder addLimitApplicable(LimitApplicableExtended arg0, int arg1)`
 - `CreditLimitInformationBuilder addLimitApplicable(List arg0)`
+- `CreditLimitInformationBuilder addLimitApplicable(LimitApplicableExtended arg0)`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CreditLimitInformationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CreditLimitInformationBuilder toBuilder()`
 - `CreditLimitInformationBuilder prune()`
+- `CreditLimitInformationBuilder toBuilder()`
+- `boolean hasData()`
 

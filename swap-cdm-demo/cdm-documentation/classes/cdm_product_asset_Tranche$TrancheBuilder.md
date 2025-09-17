@@ -15,9 +15,9 @@
 
 #### Setter Methods
 
-- `TrancheBuilder setIncurredRecoveryApplicable(Boolean arg0)`
 - `TrancheBuilder setExhaustionPoint(BigDecimal arg0)`
 - `TrancheBuilder setAttachmentPoint(BigDecimal arg0)`
+- `TrancheBuilder setIncurredRecoveryApplicable(Boolean arg0)`
 
 #### Other Methods
 

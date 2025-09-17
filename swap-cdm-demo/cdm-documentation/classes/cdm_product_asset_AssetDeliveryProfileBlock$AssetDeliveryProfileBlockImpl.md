@@ -24,9 +24,9 @@
 
 - `List getDayOfWeek()`
 - `LocalTime getStartTime()`
-- `LocalTime getEndTime()`
-- `Quantity getDeliveryCapacity()`
 - `Price getPriceTimeIntervalQuantity()`
+- `Quantity getDeliveryCapacity()`
+- `LocalTime getEndTime()`
 
 #### Other Methods
 

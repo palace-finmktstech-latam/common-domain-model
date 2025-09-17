@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `TelephoneNumberBuilder setTelephoneNumberType(TelephoneTypeEnum arg0)`
 - `TelephoneNumberBuilder setNumber(String arg0)`
+- `TelephoneNumberBuilder setTelephoneNumberType(TelephoneTypeEnum arg0)`
 
 #### Other Methods
 

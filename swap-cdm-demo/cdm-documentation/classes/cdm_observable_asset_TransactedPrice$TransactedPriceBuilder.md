@@ -17,8 +17,8 @@
 
 - `TransactedPriceBuilder setQuotationStyle(QuotationStyleEnum arg0)`
 - `TransactedPriceBuilder setMarketFixedRate(BigDecimal arg0)`
-- `TransactedPriceBuilder setInitialPoints(BigDecimal arg0)`
 - `TransactedPriceBuilder setMarketPrice(BigDecimal arg0)`
+- `TransactedPriceBuilder setInitialPoints(BigDecimal arg0)`
 
 #### Other Methods
 

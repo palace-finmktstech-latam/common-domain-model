@@ -23,9 +23,9 @@
 #### Getter Methods
 
 - `Date getAdjustedCashSettlementPaymentDate()`
+- `Date getAdjustedCashSettlementValuationDate()`
 - `Date getAdjustedRelevantSwapEffectiveDate()`
 - `Date getAdjustedExerciseFeePaymentDate()`
-- `Date getAdjustedCashSettlementValuationDate()`
 - `Date getAdjustedExerciseDate()`
 - `MetaFields getMeta()`
 

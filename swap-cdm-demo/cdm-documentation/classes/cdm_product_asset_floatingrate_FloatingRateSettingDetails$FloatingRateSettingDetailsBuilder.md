@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
+- `FloatingRateSettingDetailsBuilder setResetDate(Date arg0)`
+- `FloatingRateSettingDetailsBuilder setObservationDate(Date arg0)`
 - `FloatingRateSettingDetailsBuilder setCalculationDetails(CalculatedRateDetails arg0)`
 - `FloatingRateSettingDetailsBuilder setFloatingRate(BigDecimal arg0)`
-- `FloatingRateSettingDetailsBuilder setObservationDate(Date arg0)`
-- `FloatingRateSettingDetailsBuilder setResetDate(Date arg0)`
 
 #### Getter Methods
 
-- `CalculatedRateDetailsBuilder getCalculationDetails()`
 - `CalculatedRateDetailsBuilder getOrCreateCalculationDetails()`
+- `CalculatedRateDetailsBuilder getCalculationDetails()`
 
 #### Other Methods
 

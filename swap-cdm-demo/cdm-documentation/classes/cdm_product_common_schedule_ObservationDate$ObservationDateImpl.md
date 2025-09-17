@@ -25,8 +25,8 @@
 - `Date getAdjustedDate()`
 - `Date getUnadjustedDate()`
 - `BigDecimal getWeight()`
-- `String getObservationReference()`
 - `MetaFields getMeta()`
+- `String getObservationReference()`
 
 #### Other Methods
 

@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaQuotedCurrencyPairBuilder setValue(QuotedCurrencyPair arg0)`
-- `ReferenceWithMetaQuotedCurrencyPairBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaQuotedCurrencyPairBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaQuotedCurrencyPairBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaQuotedCurrencyPairBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaQuotedCurrencyPairBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

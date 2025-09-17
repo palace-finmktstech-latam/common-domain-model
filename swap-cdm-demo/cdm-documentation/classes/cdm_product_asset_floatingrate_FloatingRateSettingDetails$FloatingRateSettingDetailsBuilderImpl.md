@@ -27,18 +27,18 @@
 
 #### Setter Methods
 
+- `FloatingRateSettingDetailsBuilder setResetDate(Date arg0)`
+- `FloatingRateSettingDetailsBuilder setObservationDate(Date arg0)`
 - `FloatingRateSettingDetailsBuilder setCalculationDetails(CalculatedRateDetails arg0)`
 - `FloatingRateSettingDetailsBuilder setFloatingRate(BigDecimal arg0)`
-- `FloatingRateSettingDetailsBuilder setObservationDate(Date arg0)`
-- `FloatingRateSettingDetailsBuilder setResetDate(Date arg0)`
 
 #### Getter Methods
 
-- `Date getObservationDate()`
-- `BigDecimal getFloatingRate()`
-- `CalculatedRateDetailsBuilder getCalculationDetails()`
 - `Date getResetDate()`
+- `Date getObservationDate()`
 - `CalculatedRateDetailsBuilder getOrCreateCalculationDetails()`
+- `CalculatedRateDetailsBuilder getCalculationDetails()`
+- `BigDecimal getFloatingRate()`
 
 #### Other Methods
 
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FloatingRateSettingDetailsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FloatingRateSettingDetailsBuilder toBuilder()`
 - `FloatingRateSettingDetailsBuilder prune()`
+- `FloatingRateSettingDetailsBuilder toBuilder()`
+- `boolean hasData()`
 

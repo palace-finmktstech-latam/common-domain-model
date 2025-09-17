@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `CollateralValuationTreatmentBuilder setMarginPercentage(BigDecimal arg0)`
 - `CollateralValuationTreatmentBuilder setHaircutPercentage(BigDecimal arg0)`
+- `CollateralValuationTreatmentBuilder setMarginPercentage(BigDecimal arg0)`
 - `CollateralValuationTreatmentBuilder setFxHaircutPercentage(BigDecimal arg0)`
 - `CollateralValuationTreatmentBuilder setAdditionalHaircutPercentage(BigDecimal arg0)`
 

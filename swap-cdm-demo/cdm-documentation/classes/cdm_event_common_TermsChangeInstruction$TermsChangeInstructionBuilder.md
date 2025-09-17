@@ -16,14 +16,14 @@
 #### Setter Methods
 
 - `TermsChangeInstructionBuilder setAncillaryParty(List arg0)`
-- `TermsChangeInstructionBuilder setAdjustment(NotionalAdjustmentEnum arg0)`
 - `TermsChangeInstructionBuilder setProduct(NonTransferableProduct arg0)`
+- `TermsChangeInstructionBuilder setAdjustment(NotionalAdjustmentEnum arg0)`
 
 #### Getter Methods
 
+- `List getAncillaryParty()`
 - `AncillaryPartyBuilder getOrCreateAncillaryParty(int arg0)`
 - `NonTransferableProductBuilder getOrCreateProduct()`
-- `List getAncillaryParty()`
 - `NonTransferableProductBuilder getProduct()`
 
 #### Adder Methods

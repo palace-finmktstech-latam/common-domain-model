@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `ContractFormationInstructionBuilder doEvaluate(List arg0)`
 - `ContractFormationInstructionBuilder assignOutput(ContractFormationInstructionBuilder arg0, List arg1)`
+- `ContractFormationInstructionBuilder doEvaluate(List arg0)`
 

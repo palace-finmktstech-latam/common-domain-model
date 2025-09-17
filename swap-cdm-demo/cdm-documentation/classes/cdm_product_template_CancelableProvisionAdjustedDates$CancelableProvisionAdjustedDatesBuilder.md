@@ -25,8 +25,8 @@
 #### Adder Methods
 
 - `CancelableProvisionAdjustedDatesBuilder addCancellationEvent(List arg0)`
-- `CancelableProvisionAdjustedDatesBuilder addCancellationEvent(CancellationEvent arg0, int arg1)`
 - `CancelableProvisionAdjustedDatesBuilder addCancellationEvent(CancellationEvent arg0)`
+- `CancelableProvisionAdjustedDatesBuilder addCancellationEvent(CancellationEvent arg0, int arg1)`
 
 #### Other Methods
 

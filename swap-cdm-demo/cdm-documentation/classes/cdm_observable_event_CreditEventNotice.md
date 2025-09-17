@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `BusinessCenterEnum getBusinessCenter()`
-- `List getNotifyingParty()`
 - `PubliclyAvailableInformation getPubliclyAvailableInformation()`
+- `List getNotifyingParty()`
+- `BusinessCenterEnum getBusinessCenter()`
 
 #### Other Methods
 

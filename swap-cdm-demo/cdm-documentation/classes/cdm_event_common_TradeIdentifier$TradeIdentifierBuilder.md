@@ -15,18 +15,18 @@
 
 #### Setter Methods
 
-- `TradeIdentifierBuilder setIssuer(FieldWithMetaString arg0)`
 - `TradeIdentifierBuilder setIssuerReferenceValue(Party arg0)`
-- `TradeIdentifierBuilder setIssuerReference(ReferenceWithMetaParty arg0)`
-- `TradeIdentifierBuilder setIdentifierType(TradeIdentifierTypeEnum arg0)`
 - `TradeIdentifierBuilder setIssuerValue(String arg0)`
-- `TradeIdentifierBuilder setAssignedIdentifier(List arg0)`
+- `TradeIdentifierBuilder setIssuer(FieldWithMetaString arg0)`
 - `TradeIdentifierBuilder setMeta(MetaFields arg0)`
+- `TradeIdentifierBuilder setIdentifierType(TradeIdentifierTypeEnum arg0)`
+- `TradeIdentifierBuilder setIssuerReference(ReferenceWithMetaParty arg0)`
+- `TradeIdentifierBuilder setAssignedIdentifier(List arg0)`
 
 #### Adder Methods
 
-- `TradeIdentifierBuilder addAssignedIdentifier(AssignedIdentifier arg0)`
 - `TradeIdentifierBuilder addAssignedIdentifier(AssignedIdentifier arg0, int arg1)`
+- `TradeIdentifierBuilder addAssignedIdentifier(AssignedIdentifier arg0)`
 - `TradeIdentifierBuilder addAssignedIdentifier(List arg0)`
 
 #### Other Methods

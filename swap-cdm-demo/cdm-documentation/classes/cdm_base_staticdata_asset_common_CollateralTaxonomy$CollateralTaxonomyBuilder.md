@@ -20,8 +20,8 @@
 
 #### Getter Methods
 
-- `CollateralTaxonomyValueBuilder getOrCreateTaxonomyValue()`
 - `CollateralTaxonomyValueBuilder getTaxonomyValue()`
+- `CollateralTaxonomyValueBuilder getOrCreateTaxonomyValue()`
 
 #### Other Methods
 

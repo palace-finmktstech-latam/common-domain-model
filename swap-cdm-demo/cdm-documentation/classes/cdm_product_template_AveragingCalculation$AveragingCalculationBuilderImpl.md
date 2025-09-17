@@ -25,15 +25,15 @@
 
 #### Setter Methods
 
-- `AveragingCalculationBuilder setAveragingMethod(AveragingCalculationMethod arg0)`
 - `AveragingCalculationBuilder setPrecision(Rounding arg0)`
+- `AveragingCalculationBuilder setAveragingMethod(AveragingCalculationMethod arg0)`
 
 #### Getter Methods
 
-- `AveragingCalculationMethodBuilder getOrCreateAveragingMethod()`
-- `RoundingBuilder getOrCreatePrecision()`
 - `AveragingCalculationMethodBuilder getAveragingMethod()`
 - `RoundingBuilder getPrecision()`
+- `AveragingCalculationMethodBuilder getOrCreateAveragingMethod()`
+- `RoundingBuilder getOrCreatePrecision()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AveragingCalculationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AveragingCalculationBuilder toBuilder()`
 - `AveragingCalculationBuilder prune()`
+- `AveragingCalculationBuilder toBuilder()`
+- `boolean hasData()`
 

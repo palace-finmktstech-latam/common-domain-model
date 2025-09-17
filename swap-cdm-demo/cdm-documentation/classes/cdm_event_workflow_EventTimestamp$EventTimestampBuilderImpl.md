@@ -30,8 +30,8 @@
 
 #### Getter Methods
 
-- `ZonedDateTime getDateTime()`
 - `EventTimestampQualificationEnum getQualification()`
+- `ZonedDateTime getDateTime()`
 
 #### Other Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `EventTimestampBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `EventTimestampBuilder toBuilder()`
 - `EventTimestampBuilder prune()`
+- `EventTimestampBuilder toBuilder()`
+- `boolean hasData()`
 

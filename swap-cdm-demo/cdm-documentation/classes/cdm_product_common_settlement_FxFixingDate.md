@@ -19,13 +19,13 @@
 #### Getter Methods
 
 - `Class getType()`
-- `BusinessDayConventionEnum getBusinessDayConvention()`
 - `BusinessCenters getBusinessCenters()`
+- `BusinessDayConventionEnum getBusinessDayConvention()`
 - `AdjustableOrRelativeDate getFxFixingDate()`
-- `DateRelativeToValuationDates getDateRelativeToValuationDates()`
-- `DateRelativeToPaymentDates getDateRelativeToPaymentDates()`
-- `DateRelativeToCalculationPeriodDates getDateRelativeToCalculationPeriodDates()`
 - `ReferenceWithMetaBusinessCenters getBusinessCentersReference()`
+- `DateRelativeToPaymentDates getDateRelativeToPaymentDates()`
+- `DateRelativeToValuationDates getDateRelativeToValuationDates()`
+- `DateRelativeToCalculationPeriodDates getDateRelativeToCalculationPeriodDates()`
 
 #### Other Methods
 

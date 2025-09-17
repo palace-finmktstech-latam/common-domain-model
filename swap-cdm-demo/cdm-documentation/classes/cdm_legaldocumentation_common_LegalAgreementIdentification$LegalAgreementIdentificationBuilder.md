@@ -16,9 +16,9 @@
 #### Setter Methods
 
 - `LegalAgreementIdentificationBuilder setGoverningLaw(GoverningLawEnum arg0)`
-- `LegalAgreementIdentificationBuilder setAgreementName(AgreementName arg0)`
-- `LegalAgreementIdentificationBuilder setPublisher(LegalAgreementPublisherEnum arg0)`
 - `LegalAgreementIdentificationBuilder setVintage(Integer arg0)`
+- `LegalAgreementIdentificationBuilder setPublisher(LegalAgreementPublisherEnum arg0)`
+- `LegalAgreementIdentificationBuilder setAgreementName(AgreementName arg0)`
 
 #### Getter Methods
 

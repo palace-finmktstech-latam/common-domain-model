@@ -20,9 +20,9 @@
 #### Getter Methods
 
 - `Class getType()`
+- `MetaFields getMeta()`
 - `Lineage getLineage()`
 - `List getPositions()`
-- `MetaFields getMeta()`
 
 #### Other Methods
 

@@ -15,11 +15,11 @@
 
 #### Other Methods
 
-- `List doEvaluate(SettlementPayout arg0)`
 - `List assignOutput(List arg0, SettlementPayout arg1)`
+- `List doEvaluate(SettlementPayout arg0)`
+- `MapperS priceLegPayerReceiver(SettlementPayout arg0)`
+- `MapperS priceLegCurrency(SettlementPayout arg0)`
+- `MapperS priceLegAmount(SettlementPayout arg0)`
 - `MapperS assetLeg(SettlementPayout arg0)`
 - `MapperS priceLeg(SettlementPayout arg0)`
-- `MapperS priceLegAmount(SettlementPayout arg0)`
-- `MapperS priceLegCurrency(SettlementPayout arg0)`
-- `MapperS priceLegPayerReceiver(SettlementPayout arg0)`
 

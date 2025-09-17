@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaFixedRateSpecificationBuilder setValue(FixedRateSpecification arg0)`
-- `ReferenceWithMetaFixedRateSpecificationBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaFixedRateSpecificationBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaFixedRateSpecificationBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaFixedRateSpecificationBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaFixedRateSpecificationBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaFixedRateSpecificationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaFixedRateSpecificationBuilder toBuilder()`
 - `ReferenceWithMetaFixedRateSpecificationBuilder prune()`
+- `ReferenceWithMetaFixedRateSpecificationBuilder toBuilder()`
+- `boolean hasData()`
 

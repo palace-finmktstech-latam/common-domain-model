@@ -26,17 +26,17 @@
 
 #### Setter Methods
 
-- `DividendTermsBuilder setManufacturedIncomeRequirement(DividendPayoutRatio arg0)`
-- `DividendTermsBuilder setMinimumBillingAmount(Money arg0)`
 - `DividendTermsBuilder setDividendEntitlement(DividendEntitlementEnum arg0)`
+- `DividendTermsBuilder setMinimumBillingAmount(Money arg0)`
+- `DividendTermsBuilder setManufacturedIncomeRequirement(DividendPayoutRatio arg0)`
 
 #### Getter Methods
 
 - `DividendPayoutRatioBuilder getOrCreateManufacturedIncomeRequirement()`
-- `MoneyBuilder getOrCreateMinimumBillingAmount()`
-- `DividendPayoutRatioBuilder getManufacturedIncomeRequirement()`
-- `MoneyBuilder getMinimumBillingAmount()`
 - `DividendEntitlementEnum getDividendEntitlement()`
+- `MoneyBuilder getMinimumBillingAmount()`
+- `DividendPayoutRatioBuilder getManufacturedIncomeRequirement()`
+- `MoneyBuilder getOrCreateMinimumBillingAmount()`
 
 #### Other Methods
 
@@ -44,7 +44,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DividendTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DividendTermsBuilder toBuilder()`
 - `DividendTermsBuilder prune()`
+- `DividendTermsBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -29,11 +29,11 @@
 - `MapperS category(FloatingRateSpecification arg0)`
 - `FloatingRateIndexProcessingTypeEnum doEvaluate(FloatingRateSpecification arg0)`
 - `MapperS idxStyle(FloatingRateSpecification arg0)`
+- `MapperS definitionProcessingType(FloatingRateSpecification arg0)`
 - `MapperS floatingRateDefinition(FloatingRateSpecification arg0)`
 - `MapperS calcDefaults(FloatingRateSpecification arg0)`
-- `MapperS processingCategory(FloatingRateSpecification arg0)`
 - `MapperS calcProcessingType(FloatingRateSpecification arg0)`
-- `MapperS definitionProcessingType(FloatingRateSpecification arg0)`
+- `MapperS processingCategory(FloatingRateSpecification arg0)`
 
 ### Annotations
 

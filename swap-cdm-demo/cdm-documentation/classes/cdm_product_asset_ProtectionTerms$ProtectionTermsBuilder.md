@@ -16,21 +16,21 @@
 
 #### Setter Methods
 
-- `ProtectionTermsBuilder setCreditEvents(CreditEvents arg0)`
-- `ProtectionTermsBuilder setFloatingAmountEvents(FloatingAmountEvents arg0)`
-- `ProtectionTermsBuilder setObligations(Obligations arg0)`
 - `ProtectionTermsBuilder setMeta(MetaFields arg0)`
+- `ProtectionTermsBuilder setObligations(Obligations arg0)`
+- `ProtectionTermsBuilder setFloatingAmountEvents(FloatingAmountEvents arg0)`
+- `ProtectionTermsBuilder setCreditEvents(CreditEvents arg0)`
 
 #### Getter Methods
 
-- `FloatingAmountEventsBuilder getFloatingAmountEvents()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `CreditEventsBuilder getOrCreateCreditEvents()`
-- `ObligationsBuilder getOrCreateObligations()`
-- `FloatingAmountEventsBuilder getOrCreateFloatingAmountEvents()`
-- `CreditEventsBuilder getCreditEvents()`
 - `MetaFieldsBuilder getMeta()`
+- `CreditEventsBuilder getCreditEvents()`
+- `ObligationsBuilder getOrCreateObligations()`
+- `CreditEventsBuilder getOrCreateCreditEvents()`
+- `FloatingAmountEventsBuilder getOrCreateFloatingAmountEvents()`
 - `ObligationsBuilder getObligations()`
+- `FloatingAmountEventsBuilder getFloatingAmountEvents()`
 
 #### Other Methods
 

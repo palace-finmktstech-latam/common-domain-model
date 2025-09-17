@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `String getPriceSourceHeading()`
 - `String getPriceSourceLocation()`
 - `LocalTime getPriceSourceTime()`
+- `String getPriceSourceHeading()`
 - `FieldWithMetaString getPricePublisher()`
 
 #### Other Methods

@@ -12,14 +12,14 @@
 
 **Key Methods:**
 - `getDocumentation(Path arg0)` → `List` [Getter]
-- `getOtherAgreement(Path arg0)` → `Optional` [Getter]
-- `getBrokerConfirmation(Path arg0)` → `Optional` [Getter]
-- `getConfirmation(Path arg0)` → `Optional` [Getter]
-- `getCreditSupportAgreement(Path arg0)` → `Optional` [Getter]
 - `setContractualParty(LegalAgreementBuilder arg0)` → `void` [Setter]
-- `getMasterAgreement(Path arg0)` → `Optional` [Getter]
 - `getMasterConfirmation(Path arg0)` → `Optional` [Getter]
+- `getBrokerConfirmation(Path arg0)` → `Optional` [Getter]
+- `getCreditSupportAgreement(Path arg0)` → `Optional` [Getter]
+- `getMasterAgreement(Path arg0)` → `Optional` [Getter]
+- `getConfirmation(Path arg0)` → `Optional` [Getter]
 - `setAgreementType(LegalAgreementBuilder arg0, LegalAgreementTypeEnum arg1)` → `Optional` [Setter]
+- `getOtherAgreement(Path arg0)` → `Optional` [Getter]
 
 ### DocumentationMappingProcessor
 **Extends:** `MappingProcessor` 
@@ -32,11 +32,11 @@
 
 **Key Methods:**
 - `setQuantity(QuantityScheduleBuilder arg0, Path arg1)` → `void` [Setter]
-- `getTransferInstruction(Path arg0)` → `Optional` [Getter]
-- `getIncomingPartyChangeInstruction(Path arg0)` → `Optional` [Getter]
-- `getIncomingQuantityChangeInstruction(Path arg0)` → `Optional` [Getter]
-- `getOutgoingQuantityChangeInstruction(Path arg0)` → `Optional` [Getter]
 - `setAsset(AssetBuilder arg0, Path arg1)` → `void` [Setter]
+- `getTransferInstruction(Path arg0)` → `Optional` [Getter]
+- `getOutgoingQuantityChangeInstruction(Path arg0)` → `Optional` [Getter]
+- `getIncomingQuantityChangeInstruction(Path arg0)` → `Optional` [Getter]
+- `getIncomingPartyChangeInstruction(Path arg0)` → `Optional` [Getter]
 
 ### NovationPartyMappingProcessor
 **Extends:** `PartyMappingProcessor` 

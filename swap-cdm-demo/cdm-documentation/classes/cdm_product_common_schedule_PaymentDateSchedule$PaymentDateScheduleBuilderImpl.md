@@ -37,9 +37,9 @@
 
 #### Adder Methods
 
-- `PaymentDateScheduleBuilder addInterimPaymentDates(List arg0)`
-- `PaymentDateScheduleBuilder addInterimPaymentDates(AdjustableRelativeOrPeriodicDates arg0)`
 - `PaymentDateScheduleBuilder addInterimPaymentDates(AdjustableRelativeOrPeriodicDates arg0, int arg1)`
+- `PaymentDateScheduleBuilder addInterimPaymentDates(AdjustableRelativeOrPeriodicDates arg0)`
+- `PaymentDateScheduleBuilder addInterimPaymentDates(List arg0)`
 
 #### Other Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PaymentDateScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PaymentDateScheduleBuilder toBuilder()`
 - `PaymentDateScheduleBuilder prune()`
+- `PaymentDateScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

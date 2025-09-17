@@ -20,10 +20,10 @@
 #### Getter Methods
 
 - `Class getType()`
+- `MetaFields getMeta()`
 - `List getBusinessCenter()`
 - `List getCommodityBusinessCalendar()`
 - `ReferenceWithMetaBusinessCenters getBusinessCentersReference()`
-- `MetaFields getMeta()`
 
 #### Other Methods
 

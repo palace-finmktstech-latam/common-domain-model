@@ -19,11 +19,11 @@
 #### Getter Methods
 
 - `Class getType()`
-- `SpecialPurposeVehicleIssuerType getSpecialPurposeVehicleType()`
-- `RegionalGovernmentIssuerType getRegionalGovernmentType()`
 - `IssuerTypeEnum getIssuerType()`
+- `RegionalGovernmentIssuerType getRegionalGovernmentType()`
 - `SupraNationalIssuerTypeEnum getSupraNationalType()`
 - `QuasiGovernmentIssuerType getQuasiGovernmentType()`
+- `SpecialPurposeVehicleIssuerType getSpecialPurposeVehicleType()`
 
 #### Other Methods
 

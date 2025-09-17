@@ -28,13 +28,13 @@
 #### Getter Methods
 
 - `InflationCalculationMethodEnum getCalculationMethod()`
-- `Boolean getFallbackBondApplicable()`
 - `FieldWithMetaString getMainPublication()`
-- `FieldWithMetaInterpolationMethodEnum getInterpolationMethod()`
-- `FieldWithMetaString getIndexSource()`
-- `InflationCalculationStyleEnum getCalculationStyle()`
-- `BigDecimal getInitialIndexLevel()`
 - `Offset getInflationLag()`
+- `FieldWithMetaString getIndexSource()`
+- `BigDecimal getInitialIndexLevel()`
+- `FieldWithMetaInterpolationMethodEnum getInterpolationMethod()`
+- `InflationCalculationStyleEnum getCalculationStyle()`
+- `Boolean getFallbackBondApplicable()`
 - `FinalPrincipalExchangeCalculationEnum getFinalPrincipalExchangeCalculation()`
 
 #### Other Methods

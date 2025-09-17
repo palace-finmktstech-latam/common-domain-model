@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `CreditRatingAgencyEnum getReferenceAgency()`
-- `CreditNotationMismatchResolutionEnum getMismatchResolution()`
-- `QuantifierEnum getCondition()`
 - `List getCreditNotation()`
+- `CreditNotationMismatchResolutionEnum getMismatchResolution()`
+- `CreditRatingAgencyEnum getReferenceAgency()`
+- `QuantifierEnum getCondition()`
 
 #### Other Methods
 

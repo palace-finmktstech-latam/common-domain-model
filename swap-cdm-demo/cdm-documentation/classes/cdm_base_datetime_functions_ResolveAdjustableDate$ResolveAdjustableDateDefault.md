@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Date doEvaluate(AdjustableOrRelativeDate arg0)`
 - `Date assignOutput(Date arg0, AdjustableOrRelativeDate arg1)`
+- `Date doEvaluate(AdjustableOrRelativeDate arg0)`
 

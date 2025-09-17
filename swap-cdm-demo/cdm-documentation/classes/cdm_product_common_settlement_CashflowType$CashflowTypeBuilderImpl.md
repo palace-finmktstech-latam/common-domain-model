@@ -26,16 +26,16 @@
 
 #### Setter Methods
 
-- `CashflowTypeBuilder setCashPrice(CashPrice arg0)`
 - `CashflowTypeBuilder setPriceExpression(PriceExpressionEnum arg0)`
+- `CashflowTypeBuilder setCashPrice(CashPrice arg0)`
 - `CashflowTypeBuilder setCashflowType(ScheduledTransferEnum arg0)`
 
 #### Getter Methods
 
-- `CashPriceBuilder getOrCreateCashPrice()`
-- `CashPriceBuilder getCashPrice()`
 - `PriceExpressionEnum getPriceExpression()`
+- `CashPriceBuilder getCashPrice()`
 - `ScheduledTransferEnum getCashflowType()`
+- `CashPriceBuilder getOrCreateCashPrice()`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CashflowTypeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CashflowTypeBuilder toBuilder()`
 - `CashflowTypeBuilder prune()`
+- `CashflowTypeBuilder toBuilder()`
+- `boolean hasData()`
 

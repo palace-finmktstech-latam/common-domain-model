@@ -15,16 +15,16 @@
 
 #### Setter Methods
 
+- `FailureToPayBuilder setApplicable(Boolean arg0)`
 - `FailureToPayBuilder setPaymentRequirement(Money arg0)`
 - `FailureToPayBuilder setGracePeriodExtension(GracePeriodExtension arg0)`
-- `FailureToPayBuilder setApplicable(Boolean arg0)`
 
 #### Getter Methods
 
 - `GracePeriodExtensionBuilder getGracePeriodExtension()`
 - `MoneyBuilder getPaymentRequirement()`
-- `MoneyBuilder getOrCreatePaymentRequirement()`
 - `GracePeriodExtensionBuilder getOrCreateGracePeriodExtension()`
+- `MoneyBuilder getOrCreatePaymentRequirement()`
 
 #### Other Methods
 

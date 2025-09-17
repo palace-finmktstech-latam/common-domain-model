@@ -15,10 +15,10 @@
 
 #### Setter Methods
 
-- `InterestShortFallBuilder setRateSource(FieldWithMetaFloatingRateIndexEnum arg0)`
-- `InterestShortFallBuilder setInterestShortfallCap(InterestShortfallCapEnum arg0)`
-- `InterestShortFallBuilder setCompounding(Boolean arg0)`
 - `InterestShortFallBuilder setRateSourceValue(FloatingRateIndexEnum arg0)`
+- `InterestShortFallBuilder setRateSource(FieldWithMetaFloatingRateIndexEnum arg0)`
+- `InterestShortFallBuilder setCompounding(Boolean arg0)`
+- `InterestShortFallBuilder setInterestShortfallCap(InterestShortfallCapEnum arg0)`
 
 #### Getter Methods
 

@@ -36,7 +36,7 @@
 - `String toString()`
 - `int hashCode()`
 - `OffsetCalculationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `OffsetCalculationBuilder toBuilder()`
 - `OffsetCalculationBuilder prune()`
+- `OffsetCalculationBuilder toBuilder()`
+- `boolean hasData()`
 

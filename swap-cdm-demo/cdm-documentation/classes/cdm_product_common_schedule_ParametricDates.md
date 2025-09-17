@@ -20,10 +20,10 @@
 
 - `Class getType()`
 - `List getDayOfWeek()`
+- `BigDecimal getDayFrequency()`
+- `DayDistributionEnum getDayDistribution()`
 - `BusinessCenters getBusinessCenters()`
 - `DayTypeEnum getDayType()`
-- `DayDistributionEnum getDayDistribution()`
-- `BigDecimal getDayFrequency()`
 - `Lag getLag()`
 
 #### Other Methods

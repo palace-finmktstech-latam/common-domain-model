@@ -32,16 +32,16 @@
 
 #### Getter Methods
 
-- `CounterpartyBuilder getOrCreateCounterparty(int arg0)`
-- `Boolean getClauseLibrary()`
-- `AgreementBuilder getOrCreateAgreement()`
-- `AgreementBuilder getAgreement()`
 - `List getCounterparty()`
+- `CounterpartyBuilder getOrCreateCounterparty(int arg0)`
+- `AgreementBuilder getOrCreateAgreement()`
+- `Boolean getClauseLibrary()`
+- `AgreementBuilder getAgreement()`
 
 #### Adder Methods
 
-- `AgreementTermsBuilder addCounterparty(Counterparty arg0, int arg1)`
 - `AgreementTermsBuilder addCounterparty(Counterparty arg0)`
+- `AgreementTermsBuilder addCounterparty(Counterparty arg0, int arg1)`
 - `AgreementTermsBuilder addCounterparty(List arg0)`
 
 #### Other Methods
@@ -50,7 +50,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AgreementTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AgreementTermsBuilder toBuilder()`
 - `AgreementTermsBuilder prune()`
+- `AgreementTermsBuilder toBuilder()`
+- `boolean hasData()`
 

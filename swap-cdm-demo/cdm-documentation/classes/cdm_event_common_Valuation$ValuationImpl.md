@@ -24,9 +24,9 @@
 
 - `ValuationTypeEnum getMethod()`
 - `ZonedDateTime getTimestamp()`
-- `ValuationSourceEnum getSource()`
-- `Price getPriceComponent()`
 - `PriceTimingEnum getValuationTiming()`
+- `Price getPriceComponent()`
+- `ValuationSourceEnum getSource()`
 - `BigDecimal getDelta()`
 - `Money getAmount()`
 

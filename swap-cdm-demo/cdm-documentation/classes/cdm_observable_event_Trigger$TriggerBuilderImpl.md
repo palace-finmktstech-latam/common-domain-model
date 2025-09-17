@@ -30,27 +30,27 @@
 
 - `TriggerBuilder setLevel(List arg0)`
 - `TriggerBuilder setTriggerTimeType(TriggerTimeTypeEnum arg0)`
-- `TriggerBuilder setTriggerType(TriggerTypeEnum arg0)`
-- `TriggerBuilder setCreditEventsReference(ReferenceWithMetaCreditEvents arg0)`
 - `TriggerBuilder setCreditEvents(CreditEvents arg0)`
+- `TriggerBuilder setCreditEventsReference(ReferenceWithMetaCreditEvents arg0)`
+- `TriggerBuilder setTriggerType(TriggerTypeEnum arg0)`
 - `TriggerBuilder setCreditEventsReferenceValue(CreditEvents arg0)`
 
 #### Getter Methods
 
 - `List getLevel()`
+- `CreditEventsBuilder getCreditEvents()`
+- `CreditEventsBuilder getOrCreateCreditEvents()`
+- `PriceScheduleBuilder getOrCreateLevel(int arg0)`
 - `TriggerTimeTypeEnum getTriggerTimeType()`
 - `ReferenceWithMetaCreditEventsBuilder getCreditEventsReference()`
-- `PriceScheduleBuilder getOrCreateLevel(int arg0)`
 - `TriggerTypeEnum getTriggerType()`
-- `CreditEventsBuilder getOrCreateCreditEvents()`
 - `ReferenceWithMetaCreditEventsBuilder getOrCreateCreditEventsReference()`
-- `CreditEventsBuilder getCreditEvents()`
 
 #### Adder Methods
 
-- `TriggerBuilder addLevel(List arg0)`
-- `TriggerBuilder addLevel(PriceSchedule arg0)`
 - `TriggerBuilder addLevel(PriceSchedule arg0, int arg1)`
+- `TriggerBuilder addLevel(PriceSchedule arg0)`
+- `TriggerBuilder addLevel(List arg0)`
 
 #### Other Methods
 
@@ -58,7 +58,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TriggerBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TriggerBuilder toBuilder()`
 - `TriggerBuilder prune()`
+- `TriggerBuilder toBuilder()`
+- `boolean hasData()`
 

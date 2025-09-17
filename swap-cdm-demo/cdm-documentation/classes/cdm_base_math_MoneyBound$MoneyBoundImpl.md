@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `Boolean getInclusive()`
 - `Money getMoney()`
+- `Boolean getInclusive()`
 
 #### Other Methods
 

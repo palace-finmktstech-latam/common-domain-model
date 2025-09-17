@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `List doEvaluate(AdjustableRelativeOrPeriodicDates arg0)`
 - `List assignOutput(List arg0, AdjustableRelativeOrPeriodicDates arg1)`
+- `List doEvaluate(AdjustableRelativeOrPeriodicDates arg0)`
 

@@ -15,9 +15,9 @@
 
 #### Setter Methods
 
-- `AssetIdentifierBuilder setIdentifierType(AssetIdTypeEnum arg0)`
-- `AssetIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
 - `AssetIdentifierBuilder setIdentifierValue(String arg0)`
+- `AssetIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
+- `AssetIdentifierBuilder setIdentifierType(AssetIdTypeEnum arg0)`
 
 #### Getter Methods
 

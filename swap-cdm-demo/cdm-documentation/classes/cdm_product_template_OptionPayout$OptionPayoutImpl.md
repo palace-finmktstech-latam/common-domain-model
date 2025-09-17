@@ -27,14 +27,14 @@
 
 #### Getter Methods
 
-- `OptionStrike getStrike()`
 - `Underlier getUnderlier()`
-- `CalculationSchedule getSchedule()`
-- `AssetDeliveryInformation getDelivery()`
-- `BuyerSeller getBuyerSeller()`
-- `ExerciseTerms getExerciseTerms()`
 - `OptionFeature getFeature()`
 - `ObservationTerms getObservationTerms()`
+- `OptionStrike getStrike()`
+- `ExerciseTerms getExerciseTerms()`
+- `AssetDeliveryInformation getDelivery()`
+- `BuyerSeller getBuyerSeller()`
+- `CalculationSchedule getSchedule()`
 - `OptionTypeEnum getOptionType()`
 
 #### Other Methods

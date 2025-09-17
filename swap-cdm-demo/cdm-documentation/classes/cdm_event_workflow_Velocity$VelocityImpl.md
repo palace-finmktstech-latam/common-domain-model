@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `PeriodTimeEnum getPeriod()`
 - `Integer getPeriodMultiplier()`
+- `PeriodTimeEnum getPeriod()`
 
 #### Other Methods
 

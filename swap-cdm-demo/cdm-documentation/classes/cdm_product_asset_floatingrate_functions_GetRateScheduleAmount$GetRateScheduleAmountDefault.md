@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `BigDecimal doEvaluate(RateSchedule arg0, Date arg1)`
 - `BigDecimal assignOutput(BigDecimal arg0, RateSchedule arg1, Date arg2)`
+- `BigDecimal doEvaluate(RateSchedule arg0, Date arg1)`
 

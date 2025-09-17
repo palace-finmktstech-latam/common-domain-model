@@ -33,8 +33,8 @@
 
 #### Adder Methods
 
-- `MasterAgreementScheduleBuilder addClause(MasterAgreementClause arg0, int arg1)`
 - `MasterAgreementScheduleBuilder addClause(List arg0)`
+- `MasterAgreementScheduleBuilder addClause(MasterAgreementClause arg0, int arg1)`
 - `MasterAgreementScheduleBuilder addClause(MasterAgreementClause arg0)`
 
 #### Other Methods
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MasterAgreementScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MasterAgreementScheduleBuilder toBuilder()`
 - `MasterAgreementScheduleBuilder prune()`
+- `MasterAgreementScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

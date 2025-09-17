@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `Price getObservedValue()`
 - `ObservationIdentifier getObservationIdentifier()`
+- `Price getObservedValue()`
 - `MetaFields getMeta()`
 
 #### Other Methods

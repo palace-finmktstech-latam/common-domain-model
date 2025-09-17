@@ -19,8 +19,8 @@
 
 #### Getter Methods
 
-- `AdjustableOrRelativeDateBuilder getOrCreateExpirationDateTwo()`
 - `AdjustableOrRelativeDateBuilder getExpirationDateTwo()`
+- `AdjustableOrRelativeDateBuilder getOrCreateExpirationDateTwo()`
 
 #### Other Methods
 

@@ -24,10 +24,10 @@
 
 - `Date getAgreementDate()`
 - `Date getEffectiveDate()`
-- `List getContractualParty()`
-- `List getAttachment()`
-- `List getOtherParty()`
 - `LegalAgreementIdentification getLegalAgreementIdentification()`
+- `List getAttachment()`
+- `List getContractualParty()`
+- `List getOtherParty()`
 - `List getIdentifier()`
 
 #### Other Methods

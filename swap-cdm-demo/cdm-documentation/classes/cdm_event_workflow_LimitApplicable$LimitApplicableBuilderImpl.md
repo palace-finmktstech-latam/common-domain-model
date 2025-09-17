@@ -31,27 +31,27 @@
 #### Setter Methods
 
 - `LimitApplicableBuilder setCurrency(FieldWithMetaString arg0)`
-- `LimitApplicableBuilder setLimitTypeValue(CreditLimitTypeEnum arg0)`
+- `LimitApplicableBuilder setCurrencyValue(String arg0)`
 - `LimitApplicableBuilder setClipSize(Integer arg0)`
 - `LimitApplicableBuilder setUtilization(CreditLimitUtilisation arg0)`
-- `LimitApplicableBuilder setAmountUtilized(BigDecimal arg0)`
-- `LimitApplicableBuilder setAmountRemaining(BigDecimal arg0)`
+- `LimitApplicableBuilder setLimitTypeValue(CreditLimitTypeEnum arg0)`
 - `LimitApplicableBuilder setVelocity(Velocity arg0)`
+- `LimitApplicableBuilder setAmountUtilized(BigDecimal arg0)`
 - `LimitApplicableBuilder setLimitType(FieldWithMetaCreditLimitTypeEnum arg0)`
-- `LimitApplicableBuilder setCurrencyValue(String arg0)`
+- `LimitApplicableBuilder setAmountRemaining(BigDecimal arg0)`
 
 #### Getter Methods
 
 - `FieldWithMetaStringBuilder getCurrency()`
-- `Integer getClipSize()`
-- `BigDecimal getAmountUtilized()`
 - `FieldWithMetaCreditLimitTypeEnumBuilder getLimitType()`
+- `Integer getClipSize()`
 - `CreditLimitUtilisationBuilder getUtilization()`
 - `BigDecimal getAmountRemaining()`
-- `FieldWithMetaCreditLimitTypeEnumBuilder getOrCreateLimitType()`
+- `BigDecimal getAmountUtilized()`
 - `VelocityBuilder getVelocity()`
-- `VelocityBuilder getOrCreateVelocity()`
 - `CreditLimitUtilisationBuilder getOrCreateUtilization()`
+- `VelocityBuilder getOrCreateVelocity()`
+- `FieldWithMetaCreditLimitTypeEnumBuilder getOrCreateLimitType()`
 - `FieldWithMetaStringBuilder getOrCreateCurrency()`
 
 #### Other Methods
@@ -60,7 +60,7 @@
 - `String toString()`
 - `int hashCode()`
 - `LimitApplicableBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `LimitApplicableBuilder toBuilder()`
 - `LimitApplicableBuilder prune()`
+- `LimitApplicableBuilder toBuilder()`
+- `boolean hasData()`
 

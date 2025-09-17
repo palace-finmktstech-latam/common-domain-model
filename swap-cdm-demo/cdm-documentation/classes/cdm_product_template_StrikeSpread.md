@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `BigDecimal getUpperStrikeNumberOfOptions()`
 - `OptionStrike getUpperStrike()`
+- `BigDecimal getUpperStrikeNumberOfOptions()`
 
 #### Other Methods
 

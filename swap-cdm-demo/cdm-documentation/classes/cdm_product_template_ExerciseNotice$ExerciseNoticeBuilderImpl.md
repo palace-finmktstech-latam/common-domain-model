@@ -28,15 +28,15 @@
 
 - `ExerciseNoticeBuilder setBusinessCenterValue(BusinessCenterEnum arg0)`
 - `ExerciseNoticeBuilder setBusinessCenter(FieldWithMetaBusinessCenterEnum arg0)`
-- `ExerciseNoticeBuilder setExerciseNoticeReceiver(AncillaryRoleEnum arg0)`
 - `ExerciseNoticeBuilder setExerciseNoticeGiver(ExerciseNoticeGiverEnum arg0)`
+- `ExerciseNoticeBuilder setExerciseNoticeReceiver(AncillaryRoleEnum arg0)`
 
 #### Getter Methods
 
+- `FieldWithMetaBusinessCenterEnumBuilder getBusinessCenter()`
 - `FieldWithMetaBusinessCenterEnumBuilder getOrCreateBusinessCenter()`
 - `AncillaryRoleEnum getExerciseNoticeReceiver()`
 - `ExerciseNoticeGiverEnum getExerciseNoticeGiver()`
-- `FieldWithMetaBusinessCenterEnumBuilder getBusinessCenter()`
 
 #### Other Methods
 
@@ -44,7 +44,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ExerciseNoticeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ExerciseNoticeBuilder toBuilder()`
 - `ExerciseNoticeBuilder prune()`
+- `ExerciseNoticeBuilder toBuilder()`
+- `boolean hasData()`
 

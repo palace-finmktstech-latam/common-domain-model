@@ -22,12 +22,12 @@
 
 #### Getter Methods
 
+- `MetaFields getMeta()`
+- `Boolean getInitialPayment()`
 - `Boolean getIntermediatePayment()`
 - `Boolean getFinalPayment()`
-- `Boolean getInitialPayment()`
-- `List getVaryingLegNotionalCurrency()`
 - `PrincipalPaymentSchedule getPrincipalPaymentSchedule()`
-- `MetaFields getMeta()`
+- `List getVaryingLegNotionalCurrency()`
 
 #### Other Methods
 

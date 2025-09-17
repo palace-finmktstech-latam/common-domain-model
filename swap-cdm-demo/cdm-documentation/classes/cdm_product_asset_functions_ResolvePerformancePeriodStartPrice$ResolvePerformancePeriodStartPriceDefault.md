@@ -15,7 +15,7 @@
 
 #### Other Methods
 
-- `PriceScheduleBuilder doEvaluate(PerformancePayout arg0, List arg1, Observable arg2, Date arg3)`
 - `PriceScheduleBuilder assignOutput(PriceScheduleBuilder arg0, PerformancePayout arg1, List arg2, Observable arg3, Date arg4)`
+- `PriceScheduleBuilder doEvaluate(PerformancePayout arg0, List arg1, Observable arg2, Date arg3)`
 - `MapperC adjustedValuationDates1(PerformancePayout arg0, List arg1, Observable arg2, Date arg3)`
 

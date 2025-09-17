@@ -28,35 +28,35 @@
 
 #### Setter Methods
 
-- `AvailableInventoryBuilder setPartyRole(List arg0)`
-- `AvailableInventoryBuilder setMessageInformation(MessageInformation arg0)`
 - `AvailableInventoryBuilder setAvailableInventoryRecord(List arg0)`
+- `AvailableInventoryBuilder setMessageInformation(MessageInformation arg0)`
 - `AvailableInventoryBuilder setAvailableInventoryType(AvailableInventoryTypeEnum arg0)`
 - `AvailableInventoryBuilder setParty(List arg0)`
+- `AvailableInventoryBuilder setPartyRole(List arg0)`
 
 #### Getter Methods
 
-- `PartyRoleBuilder getOrCreatePartyRole(int arg0)`
-- `AvailableInventoryRecordBuilder getOrCreateAvailableInventoryRecord(int arg0)`
-- `List getAvailableInventoryRecord()`
-- `AvailableInventoryTypeEnum getAvailableInventoryType()`
-- `MessageInformationBuilder getMessageInformation()`
 - `List getPartyRole()`
 - `List getParty()`
-- `MessageInformationBuilder getOrCreateMessageInformation()`
+- `List getAvailableInventoryRecord()`
+- `AvailableInventoryRecordBuilder getOrCreateAvailableInventoryRecord(int arg0)`
+- `AvailableInventoryTypeEnum getAvailableInventoryType()`
 - `PartyBuilder getOrCreateParty(int arg0)`
+- `MessageInformationBuilder getMessageInformation()`
+- `MessageInformationBuilder getOrCreateMessageInformation()`
+- `PartyRoleBuilder getOrCreatePartyRole(int arg0)`
 
 #### Adder Methods
 
-- `AvailableInventoryBuilder addParty(List arg0)`
+- `AvailableInventoryBuilder addPartyRole(PartyRole arg0)`
+- `AvailableInventoryBuilder addPartyRole(PartyRole arg0, int arg1)`
+- `AvailableInventoryBuilder addPartyRole(List arg0)`
 - `AvailableInventoryBuilder addParty(Party arg0)`
 - `AvailableInventoryBuilder addParty(Party arg0, int arg1)`
-- `AvailableInventoryBuilder addPartyRole(List arg0)`
-- `AvailableInventoryBuilder addPartyRole(PartyRole arg0, int arg1)`
-- `AvailableInventoryBuilder addPartyRole(PartyRole arg0)`
+- `AvailableInventoryBuilder addParty(List arg0)`
+- `AvailableInventoryBuilder addAvailableInventoryRecord(AvailableInventoryRecord arg0, int arg1)`
 - `AvailableInventoryBuilder addAvailableInventoryRecord(AvailableInventoryRecord arg0)`
 - `AvailableInventoryBuilder addAvailableInventoryRecord(List arg0)`
-- `AvailableInventoryBuilder addAvailableInventoryRecord(AvailableInventoryRecord arg0, int arg1)`
 
 #### Other Methods
 
@@ -64,7 +64,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AvailableInventoryBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AvailableInventoryBuilder toBuilder()`
 - `AvailableInventoryBuilder prune()`
+- `AvailableInventoryBuilder toBuilder()`
+- `boolean hasData()`
 

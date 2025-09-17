@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `LegalEntity getLegalEntity()`
 - `AncillaryRoleEnum getAncillaryParty()`
+- `LegalEntity getLegalEntity()`
 
 #### Other Methods
 

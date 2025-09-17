@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `NumberRangeBuilder setLowerBound(NumberBound arg0)`
 - `NumberRangeBuilder setUpperBound(NumberBound arg0)`
+- `NumberRangeBuilder setLowerBound(NumberBound arg0)`
 
 #### Getter Methods
 
-- `NumberBoundBuilder getOrCreateUpperBound()`
-- `NumberBoundBuilder getOrCreateLowerBound()`
-- `NumberBoundBuilder getLowerBound()`
 - `NumberBoundBuilder getUpperBound()`
+- `NumberBoundBuilder getLowerBound()`
+- `NumberBoundBuilder getOrCreateLowerBound()`
+- `NumberBoundBuilder getOrCreateUpperBound()`
 
 #### Other Methods
 

@@ -32,9 +32,9 @@
 
 #### Getter Methods
 
+- `TradeBuilder getOrCreateTrade()`
 - `TimeZoneBuilder getPricingTime()`
 - `FloatingRateIndexEnum getDiscountingIndex()`
-- `TradeBuilder getOrCreateTrade()`
 - `TimeZoneBuilder getOrCreatePricingTime()`
 - `TradeBuilder getTrade()`
 
@@ -44,7 +44,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TradePricingReportBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TradePricingReportBuilder toBuilder()`
 - `TradePricingReportBuilder prune()`
+- `TradePricingReportBuilder toBuilder()`
+- `boolean hasData()`
 

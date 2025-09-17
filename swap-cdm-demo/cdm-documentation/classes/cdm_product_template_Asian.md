@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `BigDecimal getStrikeFactor()`
 - `AveragingPeriod getAveragingPeriodOut()`
 - `AveragingInOutEnum getAveragingInOut()`
+- `BigDecimal getStrikeFactor()`
 - `AveragingPeriod getAveragingPeriodIn()`
 
 #### Other Methods

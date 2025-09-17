@@ -18,8 +18,8 @@
 **Key Methods:**
 - `setValue(DayCountFractionEnum arg0)` → `FieldWithMetaDayCountFractionEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaDayCountFractionEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaDayCountFractionEnumBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -35,8 +35,8 @@
 - `setValue(DayCountFractionEnum arg0)` → `FieldWithMetaDayCountFractionEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaDayCountFractionEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaDayCountFractionEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaDayCountFractionEnumBuilder` [Setter]
 
 ### FieldWithMetaDayCountFractionEnumImpl
 **Implements:** `FieldWithMetaDayCountFractionEnum` 

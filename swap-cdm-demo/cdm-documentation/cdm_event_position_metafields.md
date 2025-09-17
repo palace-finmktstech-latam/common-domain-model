@@ -10,8 +10,8 @@
 - `getValue()` → `PortfolioState` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaPortfolioState` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaPortfolioStateBuilder
@@ -21,11 +21,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `PortfolioStateBuilder` [Getter]
 - `setValue(PortfolioState arg0)` → `ReferenceWithMetaPortfolioStateBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaPortfolioStateBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaPortfolioStateBuilder` [Setter]
 - `getOrCreateValue()` → `PortfolioStateBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaPortfolioStateBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaPortfolioStateBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaPortfolioStateBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -43,12 +43,12 @@
 - `getValue()` → `PortfolioStateBuilder` [Getter]
 - `setValue(PortfolioState arg0)` → `ReferenceWithMetaPortfolioStateBuilder` [Setter]
 - `build()` → `ReferenceWithMetaPortfolioState` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaPortfolioStateBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaPortfolioStateBuilder` [Setter]
 - `getOrCreateValue()` → `PortfolioStateBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaPortfolioStateBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaPortfolioStateBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaPortfolioStateBuilder` [Setter]
 
 ### ReferenceWithMetaPortfolioStateImpl
 **Implements:** `ReferenceWithMetaPortfolioState` 
@@ -57,8 +57,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `PortfolioState` [Getter]
 - `build()` → `ReferenceWithMetaPortfolioState` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaPortfolioStateBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaPortfolioStateMeta

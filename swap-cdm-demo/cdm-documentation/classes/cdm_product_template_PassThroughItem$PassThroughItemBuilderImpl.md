@@ -30,8 +30,8 @@
 
 #### Getter Methods
 
-- `PayerReceiverBuilder getPayerReceiver()`
 - `PayerReceiverBuilder getOrCreatePayerReceiver()`
+- `PayerReceiverBuilder getPayerReceiver()`
 - `BigDecimal getPassThroughPercentage()`
 
 #### Other Methods
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PassThroughItemBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PassThroughItemBuilder toBuilder()`
 - `PassThroughItemBuilder prune()`
+- `PassThroughItemBuilder toBuilder()`
+- `boolean hasData()`
 

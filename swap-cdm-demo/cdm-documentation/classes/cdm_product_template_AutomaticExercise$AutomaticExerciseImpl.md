@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `Boolean getIsApplicable()`
 - `BigDecimal getThresholdRate()`
+- `Boolean getIsApplicable()`
 
 #### Other Methods
 

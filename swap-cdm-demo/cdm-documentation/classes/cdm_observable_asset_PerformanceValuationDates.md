@@ -20,11 +20,11 @@
 #### Getter Methods
 
 - `Class getType()`
+- `AdjustableRelativeOrPeriodicDates getValuationDates()`
 - `BusinessCenterTime getValuationTime()`
 - `TimeTypeEnum getValuationTimeType()`
 - `AdjustableOrRelativeDate getValuationDate()`
 - `DeterminationMethodEnum getDeterminationMethod()`
-- `AdjustableRelativeOrPeriodicDates getValuationDates()`
 - `MetaFields getMeta()`
 
 #### Other Methods

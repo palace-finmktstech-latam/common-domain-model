@@ -22,12 +22,12 @@
 
 #### Getter Methods
 
-- `BigDecimal getAggregateValue()`
 - `CalculatedRateObservations getObservations()`
+- `BigDecimal getAggregateValue()`
 - `BigDecimal getCalculatedRate()`
-- `List getWeightedRates()`
-- `List getCompoundedGrowth()`
 - `List getGrowthFactor()`
+- `List getCompoundedGrowth()`
+- `List getWeightedRates()`
 - `BigDecimal getAggregateWeight()`
 
 #### Other Methods

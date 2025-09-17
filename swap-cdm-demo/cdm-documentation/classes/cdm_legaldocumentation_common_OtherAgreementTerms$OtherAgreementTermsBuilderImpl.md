@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `OtherAgreementTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `OtherAgreementTermsBuilder toBuilder()`
 - `OtherAgreementTermsBuilder prune()`
+- `OtherAgreementTermsBuilder toBuilder()`
+- `boolean hasData()`
 

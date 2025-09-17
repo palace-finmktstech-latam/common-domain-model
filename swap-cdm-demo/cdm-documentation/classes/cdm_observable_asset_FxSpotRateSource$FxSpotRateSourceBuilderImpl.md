@@ -30,10 +30,10 @@
 
 #### Getter Methods
 
-- `InformationSourceBuilder getSecondarySource()`
 - `InformationSourceBuilder getPrimarySource()`
-- `InformationSourceBuilder getOrCreatePrimarySource()`
 - `InformationSourceBuilder getOrCreateSecondarySource()`
+- `InformationSourceBuilder getOrCreatePrimarySource()`
+- `InformationSourceBuilder getSecondarySource()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FxSpotRateSourceBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FxSpotRateSourceBuilder toBuilder()`
 - `FxSpotRateSourceBuilder prune()`
+- `FxSpotRateSourceBuilder toBuilder()`
+- `boolean hasData()`
 

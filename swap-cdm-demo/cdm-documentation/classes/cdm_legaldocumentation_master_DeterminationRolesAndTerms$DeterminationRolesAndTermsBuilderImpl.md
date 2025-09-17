@@ -22,7 +22,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DeterminationRolesAndTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DeterminationRolesAndTermsBuilder toBuilder()`
 - `DeterminationRolesAndTermsBuilder prune()`
+- `DeterminationRolesAndTermsBuilder toBuilder()`
+- `boolean hasData()`
 

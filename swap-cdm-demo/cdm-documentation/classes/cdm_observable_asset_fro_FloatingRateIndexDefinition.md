@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `FloatingRateIndexIdentification getFro()`
 - `FloatingRateIndexCalculationDefaults getCalculationDefaults()`
+- `FloatingRateIndexIdentification getFro()`
 
 #### Other Methods
 

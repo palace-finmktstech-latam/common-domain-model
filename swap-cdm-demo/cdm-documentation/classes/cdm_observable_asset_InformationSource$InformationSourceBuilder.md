@@ -15,18 +15,18 @@
 
 #### Setter Methods
 
-- `InformationSourceBuilder setSourcePage(FieldWithMetaString arg0)`
-- `InformationSourceBuilder setSourceProvider(FieldWithMetaInformationProviderEnum arg0)`
-- `InformationSourceBuilder setSourceProviderValue(InformationProviderEnum arg0)`
-- `InformationSourceBuilder setSourcePageValue(String arg0)`
 - `InformationSourceBuilder setSourcePageHeading(String arg0)`
+- `InformationSourceBuilder setSourcePageValue(String arg0)`
+- `InformationSourceBuilder setSourceProvider(FieldWithMetaInformationProviderEnum arg0)`
+- `InformationSourceBuilder setSourcePage(FieldWithMetaString arg0)`
+- `InformationSourceBuilder setSourceProviderValue(InformationProviderEnum arg0)`
 
 #### Getter Methods
 
-- `FieldWithMetaInformationProviderEnumBuilder getSourceProvider()`
 - `FieldWithMetaStringBuilder getSourcePage()`
 - `FieldWithMetaStringBuilder getOrCreateSourcePage()`
 - `FieldWithMetaInformationProviderEnumBuilder getOrCreateSourceProvider()`
+- `FieldWithMetaInformationProviderEnumBuilder getSourceProvider()`
 
 #### Other Methods
 

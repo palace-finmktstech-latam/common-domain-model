@@ -28,24 +28,24 @@
 
 #### Setter Methods
 
-- `MandatoryEarlyTerminationBuilder setCalculationAgent(CalculationAgent arg0)`
 - `MandatoryEarlyTerminationBuilder setMandatoryEarlyTerminationAdjustedDates(MandatoryEarlyTerminationAdjustedDates arg0)`
 - `MandatoryEarlyTerminationBuilder setMandatoryEarlyTerminationDate(AdjustableDate arg0)`
-- `MandatoryEarlyTerminationBuilder setCashSettlement(SettlementTerms arg0)`
 - `MandatoryEarlyTerminationBuilder setMeta(MetaFields arg0)`
+- `MandatoryEarlyTerminationBuilder setCalculationAgent(CalculationAgent arg0)`
+- `MandatoryEarlyTerminationBuilder setCashSettlement(SettlementTerms arg0)`
 
 #### Getter Methods
 
-- `CalculationAgentBuilder getCalculationAgent()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `AdjustableDateBuilder getMandatoryEarlyTerminationDate()`
 - `MandatoryEarlyTerminationAdjustedDatesBuilder getMandatoryEarlyTerminationAdjustedDates()`
 - `AdjustableDateBuilder getOrCreateMandatoryEarlyTerminationDate()`
+- `AdjustableDateBuilder getMandatoryEarlyTerminationDate()`
+- `MetaFieldsBuilder getMeta()`
+- `MandatoryEarlyTerminationAdjustedDatesBuilder getOrCreateMandatoryEarlyTerminationAdjustedDates()`
+- `CalculationAgentBuilder getCalculationAgent()`
 - `SettlementTermsBuilder getCashSettlement()`
 - `CalculationAgentBuilder getOrCreateCalculationAgent()`
 - `SettlementTermsBuilder getOrCreateCashSettlement()`
-- `MandatoryEarlyTerminationAdjustedDatesBuilder getOrCreateMandatoryEarlyTerminationAdjustedDates()`
-- `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
 
@@ -53,7 +53,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MandatoryEarlyTerminationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MandatoryEarlyTerminationBuilder toBuilder()`
 - `MandatoryEarlyTerminationBuilder prune()`
+- `MandatoryEarlyTerminationBuilder toBuilder()`
+- `boolean hasData()`
 

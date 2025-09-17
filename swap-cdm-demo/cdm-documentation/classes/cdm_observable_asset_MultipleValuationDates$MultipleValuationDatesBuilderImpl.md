@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MultipleValuationDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MultipleValuationDatesBuilder toBuilder()`
 - `MultipleValuationDatesBuilder prune()`
+- `MultipleValuationDatesBuilder toBuilder()`
+- `boolean hasData()`
 

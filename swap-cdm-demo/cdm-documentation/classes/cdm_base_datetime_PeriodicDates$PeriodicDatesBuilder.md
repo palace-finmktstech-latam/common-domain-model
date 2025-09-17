@@ -15,22 +15,22 @@
 
 #### Setter Methods
 
-- `PeriodicDatesBuilder setStartDate(AdjustableOrRelativeDate arg0)`
-- `PeriodicDatesBuilder setEndDate(AdjustableOrRelativeDate arg0)`
-- `PeriodicDatesBuilder setDayType(DayTypeEnum arg0)`
 - `PeriodicDatesBuilder setPeriodDatesAdjustments(BusinessDayAdjustments arg0)`
 - `PeriodicDatesBuilder setPeriodFrequency(CalculationPeriodFrequency arg0)`
+- `PeriodicDatesBuilder setDayType(DayTypeEnum arg0)`
+- `PeriodicDatesBuilder setEndDate(AdjustableOrRelativeDate arg0)`
+- `PeriodicDatesBuilder setStartDate(AdjustableOrRelativeDate arg0)`
 
 #### Getter Methods
 
-- `AdjustableOrRelativeDateBuilder getStartDate()`
-- `AdjustableOrRelativeDateBuilder getEndDate()`
-- `BusinessDayAdjustmentsBuilder getPeriodDatesAdjustments()`
 - `CalculationPeriodFrequencyBuilder getPeriodFrequency()`
-- `CalculationPeriodFrequencyBuilder getOrCreatePeriodFrequency()`
+- `BusinessDayAdjustmentsBuilder getPeriodDatesAdjustments()`
 - `AdjustableOrRelativeDateBuilder getOrCreateEndDate()`
+- `CalculationPeriodFrequencyBuilder getOrCreatePeriodFrequency()`
 - `AdjustableOrRelativeDateBuilder getOrCreateStartDate()`
 - `BusinessDayAdjustmentsBuilder getOrCreatePeriodDatesAdjustments()`
+- `AdjustableOrRelativeDateBuilder getEndDate()`
+- `AdjustableOrRelativeDateBuilder getStartDate()`
 
 #### Other Methods
 

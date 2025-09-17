@@ -28,14 +28,14 @@
 
 #### Getter Methods
 
-- `WorkflowStepBuilder getOrCreateSteps(int arg0)`
 - `List getSteps()`
+- `WorkflowStepBuilder getOrCreateSteps(int arg0)`
 
 #### Adder Methods
 
 - `WorkflowBuilder addSteps(List arg0)`
-- `WorkflowBuilder addSteps(WorkflowStep arg0, int arg1)`
 - `WorkflowBuilder addSteps(WorkflowStep arg0)`
+- `WorkflowBuilder addSteps(WorkflowStep arg0, int arg1)`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `WorkflowBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `WorkflowBuilder toBuilder()`
 - `WorkflowBuilder prune()`
+- `WorkflowBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -25,14 +25,14 @@
 
 #### Setter Methods
 
-- `PeriodBoundBuilder setInclusive(Boolean arg0)`
 - `PeriodBoundBuilder setPeriod(Period arg0)`
+- `PeriodBoundBuilder setInclusive(Boolean arg0)`
 
 #### Getter Methods
 
+- `PeriodBuilder getPeriod()`
 - `Boolean getInclusive()`
 - `PeriodBuilder getOrCreatePeriod()`
-- `PeriodBuilder getPeriod()`
 
 #### Other Methods
 
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PeriodBoundBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PeriodBoundBuilder toBuilder()`
 - `PeriodBoundBuilder prune()`
+- `PeriodBoundBuilder toBuilder()`
+- `boolean hasData()`
 

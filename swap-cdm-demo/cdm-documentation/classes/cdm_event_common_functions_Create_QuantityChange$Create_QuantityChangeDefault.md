@@ -15,11 +15,11 @@
 
 #### Other Methods
 
-- `TradeStateBuilder doEvaluate(QuantityChangeInstruction arg0, TradeState arg1)`
 - `TradeStateBuilder assignOutput(TradeStateBuilder arg0, QuantityChangeInstruction arg1, TradeState arg2)`
 - `MapperC newTradeLots(QuantityChangeInstruction arg0, TradeState arg1)`
-- `MapperC newPriceQuantity(QuantityChangeInstruction arg0, TradeState arg1)`
 - `MapperS tradeLotExists(QuantityChangeInstruction arg0, TradeState arg1)`
+- `MapperC newPriceQuantity(QuantityChangeInstruction arg0, TradeState arg1)`
+- `TradeStateBuilder doEvaluate(QuantityChangeInstruction arg0, TradeState arg1)`
 - `MapperS trade(QuantityChangeInstruction arg0, TradeState arg1)`
 - `MapperC tradeLot(QuantityChangeInstruction arg0, TradeState arg1)`
 

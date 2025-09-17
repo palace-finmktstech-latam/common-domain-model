@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaCreditLimitTypeEnumBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaCreditLimitTypeEnumBuilder toBuilder()`
 - `FieldWithMetaCreditLimitTypeEnumBuilder prune()`
+- `FieldWithMetaCreditLimitTypeEnumBuilder toBuilder()`
+- `boolean hasData()`
 

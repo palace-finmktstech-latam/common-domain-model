@@ -15,23 +15,23 @@
 
 #### Setter Methods
 
-- `AssetTypeBuilder setDebtType(DebtType arg0)`
-- `AssetTypeBuilder setEquityType(EquityTypeEnum arg0)`
-- `AssetTypeBuilder setFundType(FundProductTypeEnum arg0)`
+- `AssetTypeBuilder setAssetType(AssetTypeEnum arg0)`
 - `AssetTypeBuilder setOtherAssetType(List arg0)`
 - `AssetTypeBuilder setSecurityType(InstrumentTypeEnum arg0)`
-- `AssetTypeBuilder setAssetType(AssetTypeEnum arg0)`
+- `AssetTypeBuilder setEquityType(EquityTypeEnum arg0)`
+- `AssetTypeBuilder setFundType(FundProductTypeEnum arg0)`
+- `AssetTypeBuilder setDebtType(DebtType arg0)`
 
 #### Getter Methods
 
-- `DebtTypeBuilder getOrCreateDebtType()`
 - `DebtTypeBuilder getDebtType()`
+- `DebtTypeBuilder getOrCreateDebtType()`
 
 #### Adder Methods
 
-- `AssetTypeBuilder addOtherAssetType(String arg0)`
 - `AssetTypeBuilder addOtherAssetType(String arg0, int arg1)`
 - `AssetTypeBuilder addOtherAssetType(List arg0)`
+- `AssetTypeBuilder addOtherAssetType(String arg0)`
 
 #### Other Methods
 

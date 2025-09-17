@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `AveragingCalculationMethodEnum getCalculationMethod()`
 - `Boolean getIsWeighted()`
+- `AveragingCalculationMethodEnum getCalculationMethod()`
 
 #### Other Methods
 

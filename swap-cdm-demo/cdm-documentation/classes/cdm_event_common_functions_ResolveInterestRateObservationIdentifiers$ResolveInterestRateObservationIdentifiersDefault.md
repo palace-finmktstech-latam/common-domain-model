@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `ObservationIdentifierBuilder doEvaluate(InterestRatePayout arg0, Date arg1)`
 - `ObservationIdentifierBuilder assignOutput(ObservationIdentifierBuilder arg0, InterestRatePayout arg1, Date arg2)`
+- `ObservationIdentifierBuilder doEvaluate(InterestRatePayout arg0, Date arg1)`
 

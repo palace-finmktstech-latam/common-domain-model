@@ -20,11 +20,11 @@
 
 - `Class getType()`
 - `FieldWithMetaString getCurrency()`
-- `Integer getClipSize()`
-- `BigDecimal getAmountUtilized()`
 - `FieldWithMetaCreditLimitTypeEnum getLimitType()`
+- `Integer getClipSize()`
 - `CreditLimitUtilisation getUtilization()`
 - `BigDecimal getAmountRemaining()`
+- `BigDecimal getAmountUtilized()`
 - `Velocity getVelocity()`
 
 #### Other Methods

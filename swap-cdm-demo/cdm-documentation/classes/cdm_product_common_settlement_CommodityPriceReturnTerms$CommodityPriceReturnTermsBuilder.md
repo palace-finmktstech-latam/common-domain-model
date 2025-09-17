@@ -15,18 +15,18 @@
 
 #### Setter Methods
 
-- `CommodityPriceReturnTermsBuilder setRounding(Rounding arg0)`
-- `CommodityPriceReturnTermsBuilder setRollFeature(RollFeature arg0)`
 - `CommodityPriceReturnTermsBuilder setConversionFactor(BigDecimal arg0)`
+- `CommodityPriceReturnTermsBuilder setRollFeature(RollFeature arg0)`
+- `CommodityPriceReturnTermsBuilder setRounding(Rounding arg0)`
 - `CommodityPriceReturnTermsBuilder setSpread(SpreadSchedule arg0)`
 
 #### Getter Methods
 
 - `RoundingBuilder getOrCreateRounding()`
-- `RollFeatureBuilder getOrCreateRollFeature()`
-- `SpreadScheduleBuilder getOrCreateSpread()`
-- `RollFeatureBuilder getRollFeature()`
 - `RoundingBuilder getRounding()`
+- `RollFeatureBuilder getRollFeature()`
+- `SpreadScheduleBuilder getOrCreateSpread()`
+- `RollFeatureBuilder getOrCreateRollFeature()`
 - `SpreadScheduleBuilder getSpread()`
 
 #### Other Methods

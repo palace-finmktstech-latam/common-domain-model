@@ -22,7 +22,7 @@
 - `String toString()`
 - `int hashCode()`
 - `RepresentationsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `RepresentationsBuilder toBuilder()`
 - `RepresentationsBuilder prune()`
+- `RepresentationsBuilder toBuilder()`
+- `boolean hasData()`
 

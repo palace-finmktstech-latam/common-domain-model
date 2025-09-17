@@ -33,40 +33,40 @@
 
 #### Setter Methods
 
-- `ExtraordinaryEventsBuilder setMergerEvents(EquityCorporateEvents arg0)`
+- `ExtraordinaryEventsBuilder setAdditionalBespokeTerms(List arg0)`
 - `ExtraordinaryEventsBuilder setTenderOfferEvents(EquityCorporateEvents arg0)`
 - `ExtraordinaryEventsBuilder setIndexAdjustmentEvents(IndexAdjustmentEvents arg0)`
-- `ExtraordinaryEventsBuilder setRepresentations(Representations arg0)`
-- `ExtraordinaryEventsBuilder setDelisting(NationalizationOrInsolvencyOrDelistingEventEnum arg0)`
-- `ExtraordinaryEventsBuilder setAdditionalBespokeTerms(List arg0)`
 - `ExtraordinaryEventsBuilder setFailureToDeliver(Boolean arg0)`
-- `ExtraordinaryEventsBuilder setAdditionalDisruptionEvents(AdditionalDisruptionEvents arg0)`
+- `ExtraordinaryEventsBuilder setMergerEvents(EquityCorporateEvents arg0)`
+- `ExtraordinaryEventsBuilder setDelisting(NationalizationOrInsolvencyOrDelistingEventEnum arg0)`
+- `ExtraordinaryEventsBuilder setRepresentations(Representations arg0)`
 - `ExtraordinaryEventsBuilder setCompositionOfCombinedConsideration(Boolean arg0)`
+- `ExtraordinaryEventsBuilder setAdditionalDisruptionEvents(AdditionalDisruptionEvents arg0)`
 - `ExtraordinaryEventsBuilder setNationalizationOrInsolvency(NationalizationOrInsolvencyOrDelistingEventEnum arg0)`
 
 #### Getter Methods
 
+- `AdditionalDisruptionEventsBuilder getAdditionalDisruptionEvents()`
 - `Boolean getCompositionOfCombinedConsideration()`
 - `NationalizationOrInsolvencyOrDelistingEventEnum getNationalizationOrInsolvency()`
 - `IndexAdjustmentEventsBuilder getIndexAdjustmentEvents()`
-- `NationalizationOrInsolvencyOrDelistingEventEnum getDelisting()`
-- `EquityCorporateEventsBuilder getTenderOfferEvents()`
 - `RepresentationsBuilder getRepresentations()`
-- `List getAdditionalBespokeTerms()`
+- `EquityCorporateEventsBuilder getTenderOfferEvents()`
 - `EquityCorporateEventsBuilder getMergerEvents()`
 - `Boolean getFailureToDeliver()`
+- `List getAdditionalBespokeTerms()`
+- `NationalizationOrInsolvencyOrDelistingEventEnum getDelisting()`
 - `EquityCorporateEventsBuilder getOrCreateMergerEvents()`
 - `RepresentationsBuilder getOrCreateRepresentations()`
-- `AdditionalDisruptionEventsBuilder getAdditionalDisruptionEvents()`
-- `ClauseBuilder getOrCreateAdditionalBespokeTerms(int arg0)`
-- `EquityCorporateEventsBuilder getOrCreateTenderOfferEvents()`
 - `IndexAdjustmentEventsBuilder getOrCreateIndexAdjustmentEvents()`
+- `ClauseBuilder getOrCreateAdditionalBespokeTerms(int arg0)`
 - `AdditionalDisruptionEventsBuilder getOrCreateAdditionalDisruptionEvents()`
+- `EquityCorporateEventsBuilder getOrCreateTenderOfferEvents()`
 
 #### Adder Methods
 
-- `ExtraordinaryEventsBuilder addAdditionalBespokeTerms(Clause arg0)`
 - `ExtraordinaryEventsBuilder addAdditionalBespokeTerms(List arg0)`
+- `ExtraordinaryEventsBuilder addAdditionalBespokeTerms(Clause arg0)`
 - `ExtraordinaryEventsBuilder addAdditionalBespokeTerms(Clause arg0, int arg1)`
 
 #### Other Methods
@@ -75,7 +75,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ExtraordinaryEventsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ExtraordinaryEventsBuilder toBuilder()`
 - `ExtraordinaryEventsBuilder prune()`
+- `ExtraordinaryEventsBuilder toBuilder()`
+- `boolean hasData()`
 

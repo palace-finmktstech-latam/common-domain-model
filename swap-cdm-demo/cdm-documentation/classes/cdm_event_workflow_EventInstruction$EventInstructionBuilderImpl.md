@@ -29,29 +29,29 @@
 
 #### Setter Methods
 
-- `EventInstructionBuilder setIntent(EventIntentEnum arg0)`
-- `EventInstructionBuilder setEffectiveDate(Date arg0)`
 - `EventInstructionBuilder setEventDate(Date arg0)`
-- `EventInstructionBuilder setCorporateActionIntent(CorporateActionTypeEnum arg0)`
+- `EventInstructionBuilder setIntent(EventIntentEnum arg0)`
 - `EventInstructionBuilder setPackageInformation(IdentifiedList arg0)`
+- `EventInstructionBuilder setCorporateActionIntent(CorporateActionTypeEnum arg0)`
 - `EventInstructionBuilder setInstruction(List arg0)`
+- `EventInstructionBuilder setEffectiveDate(Date arg0)`
 
 #### Getter Methods
 
 - `Date getEffectiveDate()`
-- `List getInstruction()`
-- `CorporateActionTypeEnum getCorporateActionIntent()`
-- `IdentifiedListBuilder getPackageInformation()`
-- `Date getEventDate()`
 - `IdentifiedListBuilder getOrCreatePackageInformation()`
-- `InstructionBuilder getOrCreateInstruction(int arg0)`
+- `IdentifiedListBuilder getPackageInformation()`
+- `CorporateActionTypeEnum getCorporateActionIntent()`
+- `List getInstruction()`
+- `Date getEventDate()`
 - `EventIntentEnum getIntent()`
+- `InstructionBuilder getOrCreateInstruction(int arg0)`
 
 #### Adder Methods
 
-- `EventInstructionBuilder addInstruction(Instruction arg0, int arg1)`
 - `EventInstructionBuilder addInstruction(List arg0)`
 - `EventInstructionBuilder addInstruction(Instruction arg0)`
+- `EventInstructionBuilder addInstruction(Instruction arg0, int arg1)`
 
 #### Other Methods
 
@@ -59,7 +59,7 @@
 - `String toString()`
 - `int hashCode()`
 - `EventInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `EventInstructionBuilder toBuilder()`
 - `EventInstructionBuilder prune()`
+- `EventInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

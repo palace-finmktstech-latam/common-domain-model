@@ -40,36 +40,36 @@
 
 - `ExtendibleProvisionBuilder setExtensionPeriod(AdjustableRelativeOrPeriodicDates arg0)`
 - `ExtendibleProvisionBuilder setExtensionTerm(RelativeDateOffset arg0)`
-- `ExtendibleProvisionBuilder setExerciseTerms(ExerciseTerms arg0)`
 - `ExtendibleProvisionBuilder setExtendibleProvisionAdjustedDates(ExtendibleProvisionAdjustedDates arg0)`
-- `ExtendibleProvisionBuilder setFollowUpConfirmation(Boolean arg0)`
+- `ExtendibleProvisionBuilder setExerciseTerms(ExerciseTerms arg0)`
 - `ExtendibleProvisionBuilder setExerciseNotice(ExerciseNotice arg0)`
-- `ExtendibleProvisionBuilder setCallingParty(CallingPartyEnum arg0)`
+- `ExtendibleProvisionBuilder setFollowUpConfirmation(Boolean arg0)`
 - `ExtendibleProvisionBuilder setNoticeDeadlineDateTime(ZonedDateTime arg0)`
 - `ExtendibleProvisionBuilder setNoticeDeadlinePeriod(RelativeDateOffset arg0)`
-- `ExtendibleProvisionBuilder setSeller(CounterpartyRoleEnum arg0)`
-- `ExtendibleProvisionBuilder setBuyer(CounterpartyRoleEnum arg0)`
+- `ExtendibleProvisionBuilder setCallingParty(CallingPartyEnum arg0)`
 - `ExtendibleProvisionBuilder setSinglePartyOption(PartyRole arg0)`
+- `ExtendibleProvisionBuilder setBuyer(CounterpartyRoleEnum arg0)`
+- `ExtendibleProvisionBuilder setSeller(CounterpartyRoleEnum arg0)`
 
 #### Getter Methods
 
-- `RelativeDateOffsetBuilder getOrCreateExtensionTerm()`
 - `AdjustableRelativeOrPeriodicDatesBuilder getOrCreateExtensionPeriod()`
-- `ExerciseTermsBuilder getOrCreateExerciseTerms()`
-- `PartyRoleBuilder getSinglePartyOption()`
+- `RelativeDateOffsetBuilder getOrCreateExtensionTerm()`
+- `ExtendibleProvisionAdjustedDatesBuilder getOrCreateExtendibleProvisionAdjustedDates()`
 - `ExerciseTermsBuilder getExerciseTerms()`
-- `Boolean getFollowUpConfirmation()`
+- `PartyRoleBuilder getSinglePartyOption()`
 - `RelativeDateOffsetBuilder getExtensionTerm()`
 - `ExerciseNoticeBuilder getExerciseNotice()`
-- `AdjustableRelativeOrPeriodicDatesBuilder getExtensionPeriod()`
+- `Boolean getFollowUpConfirmation()`
 - `CallingPartyEnum getCallingParty()`
-- `ExtendibleProvisionAdjustedDatesBuilder getOrCreateExtendibleProvisionAdjustedDates()`
-- `PartyRoleBuilder getOrCreateSinglePartyOption()`
+- `AdjustableRelativeOrPeriodicDatesBuilder getExtensionPeriod()`
+- `ExerciseTermsBuilder getOrCreateExerciseTerms()`
+- `ExtendibleProvisionAdjustedDatesBuilder getExtendibleProvisionAdjustedDates()`
 - `ExerciseNoticeBuilder getOrCreateExerciseNotice()`
+- `RelativeDateOffsetBuilder getOrCreateNoticeDeadlinePeriod()`
 - `RelativeDateOffsetBuilder getNoticeDeadlinePeriod()`
 - `ZonedDateTime getNoticeDeadlineDateTime()`
-- `RelativeDateOffsetBuilder getOrCreateNoticeDeadlinePeriod()`
-- `ExtendibleProvisionAdjustedDatesBuilder getExtendibleProvisionAdjustedDates()`
+- `PartyRoleBuilder getOrCreateSinglePartyOption()`
 
 #### Other Methods
 
@@ -77,7 +77,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ExtendibleProvisionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ExtendibleProvisionBuilder toBuilder()`
 - `ExtendibleProvisionBuilder prune()`
+- `ExtendibleProvisionBuilder toBuilder()`
+- `boolean hasData()`
 

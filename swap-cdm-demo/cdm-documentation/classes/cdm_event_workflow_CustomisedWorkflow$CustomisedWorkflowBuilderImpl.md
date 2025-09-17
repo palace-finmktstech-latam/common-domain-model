@@ -25,8 +25,8 @@
 
 #### Setter Methods
 
-- `CustomisedWorkflowBuilder setItemValue(String arg0)`
 - `CustomisedWorkflowBuilder setItemName(String arg0)`
+- `CustomisedWorkflowBuilder setItemValue(String arg0)`
 
 #### Getter Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CustomisedWorkflowBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CustomisedWorkflowBuilder toBuilder()`
 - `CustomisedWorkflowBuilder prune()`
+- `CustomisedWorkflowBuilder toBuilder()`
+- `boolean hasData()`
 

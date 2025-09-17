@@ -20,13 +20,13 @@
 
 - `Class getType()`
 - `CalculationAgent getCalculationAgent()`
-- `BuyerSeller getSinglePartyOption()`
 - `ExerciseTerms getExerciseTerms()`
-- `Boolean getFollowUpConfirmation()`
+- `BuyerSeller getSinglePartyOption()`
 - `List getExerciseNotice()`
-- `OptionalEarlyTerminationAdjustedDates getOptionalEarlyTerminationAdjustedDates()`
-- `SettlementTerms getCashSettlement()`
+- `Boolean getFollowUpConfirmation()`
 - `Boolean getMutualEarlyTermination()`
+- `SettlementTerms getCashSettlement()`
+- `OptionalEarlyTerminationAdjustedDates getOptionalEarlyTerminationAdjustedDates()`
 
 #### Other Methods
 

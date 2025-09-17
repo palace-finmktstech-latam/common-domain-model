@@ -15,14 +15,14 @@
 
 #### Other Methods
 
-- `Boolean doEvaluate(BusinessEvent arg0)`
 - `Boolean assignOutput(Boolean arg0, BusinessEvent arg1)`
-- `MapperS openEconomicTerms(BusinessEvent arg0)`
-- `MapperS beforeTrade(BusinessEvent arg0)`
-- `MapperS beforeEconomicterms(BusinessEvent arg0)`
-- `MapperC closedTradeState(BusinessEvent arg0)`
-- `MapperS afterTradeCollateralQuantity(BusinessEvent arg0)`
 - `MapperS beforeTradeCollateralQuantity(BusinessEvent arg0)`
-- `MapperC openTrades(BusinessEvent arg0)`
+- `MapperS afterTradeCollateralQuantity(BusinessEvent arg0)`
+- `Boolean doEvaluate(BusinessEvent arg0)`
+- `MapperS openEconomicTerms(BusinessEvent arg0)`
+- `MapperS beforeEconomicterms(BusinessEvent arg0)`
+- `MapperS beforeTrade(BusinessEvent arg0)`
 - `MapperS afterTrade(BusinessEvent arg0)`
+- `MapperC openTrades(BusinessEvent arg0)`
+- `MapperC closedTradeState(BusinessEvent arg0)`
 

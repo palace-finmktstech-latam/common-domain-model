@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `Boolean getPartialCashSettlement()`
 - `Boolean getApplicable()`
+- `Boolean getPartialCashSettlement()`
 
 #### Other Methods
 

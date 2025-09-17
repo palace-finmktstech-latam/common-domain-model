@@ -20,16 +20,16 @@
 #### Getter Methods
 
 - `Class getType()`
-- `String getFirstName()`
-- `List getMiddleName()`
-- `Date getDateOfBirth()`
-- `List getPersonId()`
-- `String getHonorific()`
 - `ContactInformation getContactInformation()`
+- `MetaFields getMeta()`
 - `List getInitial()`
 - `String getSurname()`
 - `String getSuffix()`
-- `MetaFields getMeta()`
+- `List getPersonId()`
+- `List getMiddleName()`
+- `String getHonorific()`
+- `String getFirstName()`
+- `Date getDateOfBirth()`
 
 #### Other Methods
 

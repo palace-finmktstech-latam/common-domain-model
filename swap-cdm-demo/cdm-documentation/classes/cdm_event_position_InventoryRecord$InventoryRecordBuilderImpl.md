@@ -25,15 +25,15 @@
 
 #### Setter Methods
 
-- `InventoryRecordBuilder setSecurity(Security arg0)`
 - `InventoryRecordBuilder setIdentifer(AssignedIdentifier arg0)`
+- `InventoryRecordBuilder setSecurity(Security arg0)`
 
 #### Getter Methods
 
 - `SecurityBuilder getSecurity()`
+- `SecurityBuilder getOrCreateSecurity()`
 - `AssignedIdentifierBuilder getOrCreateIdentifer()`
 - `AssignedIdentifierBuilder getIdentifer()`
-- `SecurityBuilder getOrCreateSecurity()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `InventoryRecordBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `InventoryRecordBuilder toBuilder()`
 - `InventoryRecordBuilder prune()`
+- `InventoryRecordBuilder toBuilder()`
+- `boolean hasData()`
 

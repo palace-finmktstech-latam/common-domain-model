@@ -22,15 +22,15 @@
 
 #### Getter Methods
 
-- `Boolean getFixedSettlement()`
-- `CashSettlementMethodEnum getCashSettlementMethod()`
-- `ValuationMethod getValuationMethod()`
-- `Money getCashSettlementAmount()`
-- `BigDecimal getRecoveryFactor()`
 - `BusinessCenterTime getValuationTime()`
 - `ValuationDate getValuationDate()`
-- `Boolean getAccruedInterest()`
 - `MetaFields getMeta()`
+- `Money getCashSettlementAmount()`
+- `BigDecimal getRecoveryFactor()`
+- `Boolean getFixedSettlement()`
+- `ValuationMethod getValuationMethod()`
+- `CashSettlementMethodEnum getCashSettlementMethod()`
+- `Boolean getAccruedInterest()`
 
 #### Other Methods
 

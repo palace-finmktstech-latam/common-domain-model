@@ -24,9 +24,9 @@
 
 - `MapperS transfer(TradeState arg0, Money arg1, SettlementDate arg2)`
 - `PrimitiveInstruction evaluate(TradeState arg0, Money arg1, SettlementDate arg2)`
-- `PrimitiveInstructionBuilder doEvaluate(TradeState arg0, Money arg1, SettlementDate arg2)`
 - `MapperS payerReceiver(TradeState arg0, Money arg1, SettlementDate arg2)`
 - `MapperS interestRatePayout(TradeState arg0, Money arg1, SettlementDate arg2)`
+- `PrimitiveInstructionBuilder doEvaluate(TradeState arg0, Money arg1, SettlementDate arg2)`
 
 ### Annotations
 

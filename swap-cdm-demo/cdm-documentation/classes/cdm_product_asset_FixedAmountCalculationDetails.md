@@ -21,8 +21,8 @@
 - `Class getType()`
 - `BigDecimal getYearFraction()`
 - `BigDecimal getFixedRate()`
-- `BigDecimal getCalculatedAmount()`
 - `CalculationPeriodBase getCalculationPeriod()`
+- `BigDecimal getCalculatedAmount()`
 - `Money getCalculationPeriodNotionalAmount()`
 
 #### Other Methods

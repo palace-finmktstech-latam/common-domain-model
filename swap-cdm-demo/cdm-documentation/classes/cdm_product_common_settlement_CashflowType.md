@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `CashPrice getCashPrice()`
 - `PriceExpressionEnum getPriceExpression()`
+- `CashPrice getCashPrice()`
 - `ScheduledTransferEnum getCashflowType()`
 
 #### Other Methods

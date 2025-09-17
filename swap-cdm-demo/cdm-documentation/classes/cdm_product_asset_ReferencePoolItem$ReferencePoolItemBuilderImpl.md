@@ -28,27 +28,27 @@
 
 #### Setter Methods
 
-- `ReferencePoolItemBuilder setReferencePair(ReferencePair arg0)`
 - `ReferencePoolItemBuilder setConstituentWeight(ConstituentWeight arg0)`
+- `ReferencePoolItemBuilder setReferencePair(ReferencePair arg0)`
 - `ReferencePoolItemBuilder setProtectionTermsReference(ReferenceWithMetaProtectionTerms arg0)`
-- `ReferencePoolItemBuilder setProtectionTermsReferenceValue(ProtectionTerms arg0)`
+- `ReferencePoolItemBuilder setPhysicalSettlementTermsReference(ReferenceWithMetaPhysicalSettlementTerms arg0)`
 - `ReferencePoolItemBuilder setCashSettlementTermsReference(ReferenceWithMetaCashSettlementTerms arg0)`
 - `ReferencePoolItemBuilder setCashSettlementTermsReferenceValue(CashSettlementTerms arg0)`
-- `ReferencePoolItemBuilder setPhysicalSettlementTermsReference(ReferenceWithMetaPhysicalSettlementTerms arg0)`
+- `ReferencePoolItemBuilder setProtectionTermsReferenceValue(ProtectionTerms arg0)`
 - `ReferencePoolItemBuilder setPhysicalSettlementTermsReferenceValue(PhysicalSettlementTerms arg0)`
 
 #### Getter Methods
 
-- `ConstituentWeightBuilder getConstituentWeight()`
-- `ReferencePairBuilder getReferencePair()`
-- `ReferencePairBuilder getOrCreateReferencePair()`
-- `ReferenceWithMetaCashSettlementTermsBuilder getOrCreateCashSettlementTermsReference()`
-- `ReferenceWithMetaProtectionTermsBuilder getProtectionTermsReference()`
-- `ReferenceWithMetaProtectionTermsBuilder getOrCreateProtectionTermsReference()`
-- `ConstituentWeightBuilder getOrCreateConstituentWeight()`
-- `ReferenceWithMetaCashSettlementTermsBuilder getCashSettlementTermsReference()`
-- `ReferenceWithMetaPhysicalSettlementTermsBuilder getPhysicalSettlementTermsReference()`
 - `ReferenceWithMetaPhysicalSettlementTermsBuilder getOrCreatePhysicalSettlementTermsReference()`
+- `ConstituentWeightBuilder getConstituentWeight()`
+- `ReferencePairBuilder getOrCreateReferencePair()`
+- `ReferencePairBuilder getReferencePair()`
+- `ReferenceWithMetaProtectionTermsBuilder getProtectionTermsReference()`
+- `ReferenceWithMetaCashSettlementTermsBuilder getCashSettlementTermsReference()`
+- `ConstituentWeightBuilder getOrCreateConstituentWeight()`
+- `ReferenceWithMetaProtectionTermsBuilder getOrCreateProtectionTermsReference()`
+- `ReferenceWithMetaCashSettlementTermsBuilder getOrCreateCashSettlementTermsReference()`
+- `ReferenceWithMetaPhysicalSettlementTermsBuilder getPhysicalSettlementTermsReference()`
 
 #### Other Methods
 
@@ -56,7 +56,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferencePoolItemBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferencePoolItemBuilder toBuilder()`
 - `ReferencePoolItemBuilder prune()`
+- `ReferencePoolItemBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ResourceLengthBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ResourceLengthBuilder toBuilder()`
 - `ResourceLengthBuilder prune()`
+- `ResourceLengthBuilder toBuilder()`
+- `boolean hasData()`
 

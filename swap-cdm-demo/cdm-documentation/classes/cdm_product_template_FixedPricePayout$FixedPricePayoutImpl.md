@@ -27,9 +27,9 @@
 
 #### Getter Methods
 
+- `PaymentDates getPaymentDates()`
 - `CalculationSchedule getSchedule()`
 - `FixedPrice getFixedPrice()`
-- `PaymentDates getPaymentDates()`
 
 #### Other Methods
 

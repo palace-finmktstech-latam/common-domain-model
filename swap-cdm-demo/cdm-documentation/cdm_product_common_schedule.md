@@ -50,9 +50,9 @@
 - `setValue(BigDecimal arg0)` → `AmountScheduleBuilder` [Setter]
 - `getCurrency()` → `List` [Getter]
 - `setCurrency(List arg0)` → `AmountScheduleBuilder` [Setter]
+- `setCurrencyValue(List arg0)` → `AmountScheduleBuilder` [Setter]
 - `setDatedValue(List arg0)` → `AmountScheduleBuilder` [Setter]
 - `getOrCreateCurrency(int arg0)` → `FieldWithMetaStringBuilder` [Getter]
-- `setCurrencyValue(List arg0)` → `AmountScheduleBuilder` [Setter]
 
 ### AveragingObservationList
 **Implements:** `RosettaModelObject` 
@@ -86,15 +86,15 @@
 
 **Key Methods:**
 - `getSchedule()` → `List` [Getter]
-- `setSchedule(List arg0)` → `AveragingPeriodBuilder` [Setter]
 - `getOrCreateSchedule(int arg0)` → `AveragingScheduleBuilder` [Getter]
+- `setSchedule(List arg0)` → `AveragingPeriodBuilder` [Setter]
+- `setAveragingDateTimes(DateTimeList arg0)` → `AveragingPeriodBuilder` [Setter]
 - `setMarketDisruptionValue(MarketDisruptionEnum arg0)` → `AveragingPeriodBuilder` [Setter]
 - `setMarketDisruption(FieldWithMetaMarketDisruptionEnum arg0)` → `AveragingPeriodBuilder` [Setter]
 - `setAveragingObservations(AveragingObservationList arg0)` → `AveragingPeriodBuilder` [Setter]
-- `setAveragingDateTimes(DateTimeList arg0)` → `AveragingPeriodBuilder` [Setter]
-- `getOrCreateMarketDisruption()` → `FieldWithMetaMarketDisruptionEnumBuilder` [Getter]
-- `getOrCreateAveragingObservations()` → `AveragingObservationListBuilder` [Getter]
-- `getOrCreateAveragingDateTimes()` → `DateTimeListBuilder` [Getter]
+- `getMarketDisruption()` → `FieldWithMetaMarketDisruptionEnumBuilder` [Getter]
+- `getAveragingObservations()` → `AveragingObservationListBuilder` [Getter]
+- `getAveragingDateTimes()` → `DateTimeListBuilder` [Getter]
 
 ### CalculationPeriod
 **Implements:** `CalculationPeriodBase` 
@@ -102,14 +102,14 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CalculationPeriod` [Builder]
-- `getNotionalAmount()` → `BigDecimal` [Getter]
-- `getFixedRate()` → `BigDecimal` [Getter]
+- `getForecastRate()` → `BigDecimal` [Getter]
+- `getUnadjustedEndDate()` → `Date` [Getter]
+- `getFloatingRateDefinition()` → `FloatingRateDefinition` [Getter]
 - `getDayCountYearFraction()` → `BigDecimal` [Getter]
+- `getUnadjustedStartDate()` → `Date` [Getter]
 - `getForecastAmount()` → `Money` [Getter]
 - `getFxLinkedNotionalAmount()` → `FxLinkedNotionalAmount` [Getter]
-- `getFloatingRateDefinition()` → `FloatingRateDefinition` [Getter]
-- `getUnadjustedStartDate()` → `Date` [Getter]
-- `getUnadjustedEndDate()` → `Date` [Getter]
+- `getCalculationPeriodNumberOfDays()` → `Integer` [Getter]
 
 ### CalculationPeriodBase
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -117,34 +117,34 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CalculationPeriodBase` [Builder]
-- `getAdjustedStartDate()` → `Date` [Getter]
-- `getAdjustedEndDate()` → `Date` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getAdjustedEndDate()` → `Date` [Getter]
+- `getAdjustedStartDate()` → `Date` [Getter]
 
 ### CalculationPeriodBaseBuilder
 **Implements:** `CalculationPeriodBase` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `setAdjustedEndDate(Date arg0)` → `CalculationPeriodBaseBuilder` [Setter]
-- `setAdjustedStartDate(Date arg0)` → `CalculationPeriodBaseBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `CalculationPeriodBaseBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `CalculationPeriodBaseBuilder` [Setter]
+- `setAdjustedStartDate(Date arg0)` → `CalculationPeriodBaseBuilder` [Setter]
+- `setAdjustedEndDate(Date arg0)` → `CalculationPeriodBaseBuilder` [Setter]
 
 ### CalculationPeriodBuilder
 **Implements:** `CalculationPeriod` `CalculationPeriodBase$CalculationPeriodBaseBuilder` 
 
 **Key Methods:**
-- `setFixedRate(BigDecimal arg0)` → `CalculationPeriodBuilder` [Setter]
-- `setAdjustedEndDate(Date arg0)` → `CalculationPeriodBuilder` [Setter]
-- `setAdjustedStartDate(Date arg0)` → `CalculationPeriodBuilder` [Setter]
+- `setMeta(MetaFields arg0)` → `CalculationPeriodBuilder` [Setter]
 - `getOrCreateForecastAmount()` → `MoneyBuilder` [Getter]
-- `getForecastAmount()` → `MoneyBuilder` [Getter]
-- `getFxLinkedNotionalAmount()` → `FxLinkedNotionalAmountBuilder` [Getter]
-- `getFloatingRateDefinition()` → `FloatingRateDefinitionBuilder` [Getter]
-- `setUnadjustedStartDate(Date arg0)` → `CalculationPeriodBuilder` [Setter]
+- `setFxLinkedNotionalAmount(FxLinkedNotionalAmount arg0)` → `CalculationPeriodBuilder` [Setter]
+- `setForecastRate(BigDecimal arg0)` → `CalculationPeriodBuilder` [Setter]
+- `setForecastAmount(Money arg0)` → `CalculationPeriodBuilder` [Setter]
 - `setNotionalAmount(BigDecimal arg0)` → `CalculationPeriodBuilder` [Setter]
+- `setFloatingRateDefinition(FloatingRateDefinition arg0)` → `CalculationPeriodBuilder` [Setter]
+- `getFloatingRateDefinition()` → `FloatingRateDefinitionBuilder` [Getter]
 - `setUnadjustedEndDate(Date arg0)` → `CalculationPeriodBuilder` [Setter]
+- `setDayCountYearFraction(BigDecimal arg0)` → `CalculationPeriodBuilder` [Setter]
 
 ### CalculationPeriodData
 **Implements:** `RosettaModelObject` 
@@ -152,23 +152,23 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CalculationPeriodData` [Builder]
-- `getStartDate()` → `Date` [Getter]
-- `getDaysInPeriod()` → `Integer` [Getter]
-- `getDaysInLeapYearPeriod()` → `Integer` [Getter]
-- `getIsFirstPeriod()` → `Boolean` [Getter]
-- `getIsLastPeriod()` → `Boolean` [Getter]
 - `getEndDate()` → `Date` [Getter]
+- `getDaysInLeapYearPeriod()` → `Integer` [Getter]
+- `getStartDate()` → `Date` [Getter]
+- `getIsFirstPeriod()` → `Boolean` [Getter]
+- `getDaysInPeriod()` → `Integer` [Getter]
+- `getIsLastPeriod()` → `Boolean` [Getter]
 
 ### CalculationPeriodDataBuilder
 **Implements:** `CalculationPeriodData` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setStartDate(Date arg0)` → `CalculationPeriodDataBuilder` [Setter]
-- `setDaysInLeapYearPeriod(Integer arg0)` → `CalculationPeriodDataBuilder` [Setter]
-- `setDaysInPeriod(Integer arg0)` → `CalculationPeriodDataBuilder` [Setter]
-- `setIsLastPeriod(Boolean arg0)` → `CalculationPeriodDataBuilder` [Setter]
-- `setIsFirstPeriod(Boolean arg0)` → `CalculationPeriodDataBuilder` [Setter]
 - `setEndDate(Date arg0)` → `CalculationPeriodDataBuilder` [Setter]
+- `setDaysInPeriod(Integer arg0)` → `CalculationPeriodDataBuilder` [Setter]
+- `setDaysInLeapYearPeriod(Integer arg0)` → `CalculationPeriodDataBuilder` [Setter]
+- `setStartDate(Date arg0)` → `CalculationPeriodDataBuilder` [Setter]
+- `setIsFirstPeriod(Boolean arg0)` → `CalculationPeriodDataBuilder` [Setter]
+- `setIsLastPeriod(Boolean arg0)` → `CalculationPeriodDataBuilder` [Setter]
 
 ### CalculationPeriodDates
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -176,29 +176,29 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CalculationPeriodDates` [Builder]
-- `getFirstPeriodStartDate()` → `AdjustableOrRelativeDate` [Getter]
-- `getStubPeriodType()` → `StubPeriodTypeEnum` [Getter]
 - `getEffectiveDate()` → `AdjustableOrRelativeDate` [Getter]
 - `getTerminationDate()` → `AdjustableOrRelativeDate` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getStubPeriodType()` → `StubPeriodTypeEnum` [Getter]
+- `getFirstPeriodStartDate()` → `AdjustableOrRelativeDate` [Getter]
 - `getFirstRegularPeriodStartDate()` → `Date` [Getter]
 - `getFirstCompoundingPeriodEndDate()` → `Date` [Getter]
-- `getCalculationPeriodDatesAdjustments()` → `BusinessDayAdjustments` [Getter]
-- `getCalculationPeriodFrequency()` → `CalculationPeriodFrequency` [Getter]
+- `getLastRegularPeriodEndDate()` → `Date` [Getter]
 
 ### CalculationPeriodDatesBuilder
 **Implements:** `CalculationPeriodDates` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `setEffectiveDate(AdjustableOrRelativeDate arg0)` → `CalculationPeriodDatesBuilder` [Setter]
-- `getFirstPeriodStartDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
-- `getOrCreateTerminationDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
-- `getOrCreateEffectiveDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
-- `getEffectiveDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setTerminationDate(AdjustableOrRelativeDate arg0)` → `CalculationPeriodDatesBuilder` [Setter]
+- `getEffectiveDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `getTerminationDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
-- `setStubPeriodType(StubPeriodTypeEnum arg0)` → `CalculationPeriodDatesBuilder` [Setter]
+- `setTerminationDate(AdjustableOrRelativeDate arg0)` → `CalculationPeriodDatesBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `CalculationPeriodDatesBuilder` [Setter]
+- `getOrCreateCalculationPeriodDatesAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
 - `setFirstPeriodStartDate(AdjustableOrRelativeDate arg0)` → `CalculationPeriodDatesBuilder` [Setter]
+- `setStubPeriodType(StubPeriodTypeEnum arg0)` → `CalculationPeriodDatesBuilder` [Setter]
+- `setLastRegularPeriodEndDate(Date arg0)` → `CalculationPeriodDatesBuilder` [Setter]
 
 ### DateRelativeToCalculationPeriodDates
 **Implements:** `RosettaModelObject` 
@@ -212,9 +212,9 @@
 **Implements:** `DateRelativeToCalculationPeriodDates` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `getOrCreateCalculationPeriodDatesReference(int arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 - `getCalculationPeriodDatesReference()` → `List` [Getter]
 - `setCalculationPeriodDatesReference(List arg0)` → `DateRelativeToCalculationPeriodDatesBuilder` [Setter]
-- `getOrCreateCalculationPeriodDatesReference(int arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 - `setCalculationPeriodDatesReferenceValue(List arg0)` → `DateRelativeToCalculationPeriodDatesBuilder` [Setter]
 
 ### DateRelativeToPaymentDates
@@ -229,8 +229,8 @@
 **Implements:** `DateRelativeToPaymentDates` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setPaymentDatesReference(List arg0)` → `DateRelativeToPaymentDatesBuilder` [Setter]
 - `getPaymentDatesReference()` → `List` [Getter]
+- `setPaymentDatesReference(List arg0)` → `DateRelativeToPaymentDatesBuilder` [Setter]
 - `getOrCreatePaymentDatesReference(int arg0)` → `ReferenceWithMetaPaymentDatesBuilder` [Getter]
 - `setPaymentDatesReferenceValue(List arg0)` → `DateRelativeToPaymentDatesBuilder` [Setter]
 
@@ -268,12 +268,12 @@
 - `setBusinessDayConvention(BusinessDayConventionEnum arg0)` → `FinalCalculationPeriodDateAdjustmentBuilder` [Setter]
 - `getSwapStreamReference()` → `ReferenceWithMetaInterestRatePayoutBuilder` [Getter]
 - `setSwapStreamReference(ReferenceWithMetaInterestRatePayout arg0)` → `FinalCalculationPeriodDateAdjustmentBuilder` [Setter]
-- `setSwapStreamReferenceValue(InterestRatePayout arg0)` → `FinalCalculationPeriodDateAdjustmentBuilder` [Setter]
 - `getOrCreateSwapStreamReference()` → `ReferenceWithMetaInterestRatePayoutBuilder` [Getter]
+- `setSwapStreamReferenceValue(InterestRatePayout arg0)` → `FinalCalculationPeriodDateAdjustmentBuilder` [Setter]
 - `getRelevantUnderlyingDateReference()` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Getter]
-- `getOrCreateRelevantUnderlyingDateReference()` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Getter]
-- `setRelevantUnderlyingDateReferenceValue(AdjustableOrRelativeDates arg0)` → `FinalCalculationPeriodDateAdjustmentBuilder` [Setter]
 - `setRelevantUnderlyingDateReference(ReferenceWithMetaAdjustableOrRelativeDates arg0)` → `FinalCalculationPeriodDateAdjustmentBuilder` [Setter]
+- `setRelevantUnderlyingDateReferenceValue(AdjustableOrRelativeDates arg0)` → `FinalCalculationPeriodDateAdjustmentBuilder` [Setter]
+- `getOrCreateRelevantUnderlyingDateReference()` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Getter]
 
 ### FxLinkedNotionalAmount
 **Implements:** `RosettaModelObject` 
@@ -281,19 +281,19 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `FxLinkedNotionalAmount` [Builder]
-- `getNotionalAmount()` → `BigDecimal` [Getter]
 - `getResetDate()` → `Date` [Getter]
 - `getObservedFxSpotRate()` → `BigDecimal` [Getter]
 - `getAdjustedFxSpotFixingDate()` → `Date` [Getter]
+- `getNotionalAmount()` → `BigDecimal` [Getter]
 
 ### FxLinkedNotionalAmountBuilder
 **Implements:** `FxLinkedNotionalAmount` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `setResetDate(Date arg0)` → `FxLinkedNotionalAmountBuilder` [Setter]
 - `setNotionalAmount(BigDecimal arg0)` → `FxLinkedNotionalAmountBuilder` [Setter]
 - `setObservedFxSpotRate(BigDecimal arg0)` → `FxLinkedNotionalAmountBuilder` [Setter]
 - `setAdjustedFxSpotFixingDate(Date arg0)` → `FxLinkedNotionalAmountBuilder` [Setter]
-- `setResetDate(Date arg0)` → `FxLinkedNotionalAmountBuilder` [Setter]
 
 ### FxLinkedNotionalSchedule
 **Implements:** `RosettaModelObject` 
@@ -301,26 +301,26 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `FxLinkedNotionalSchedule` [Builder]
-- `getVaryingNotionalFixingDates()` → `RelativeDateOffset` [Getter]
 - `getFxSpotRateSource()` → `FxSpotRateSource` [Getter]
 - `getFixingTime()` → `BusinessCenterTime` [Getter]
-- `getVaryingNotionalInterimExchangePaymentDates()` → `RelativeDateOffset` [Getter]
 - `getVaryingNotionalCurrency()` → `FieldWithMetaString` [Getter]
+- `getVaryingNotionalInterimExchangePaymentDates()` → `RelativeDateOffset` [Getter]
+- `getVaryingNotionalFixingDates()` → `RelativeDateOffset` [Getter]
 
 ### FxLinkedNotionalScheduleBuilder
 **Implements:** `FxLinkedNotionalSchedule` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getOrCreateFxSpotRateSource()` → `FxSpotRateSourceBuilder` [Getter]
-- `getOrCreateVaryingNotionalCurrency()` → `FieldWithMetaStringBuilder` [Getter]
-- `getOrCreateVaryingNotionalFixingDates()` → `RelativeDateOffsetBuilder` [Getter]
-- `getVaryingNotionalFixingDates()` → `RelativeDateOffsetBuilder` [Getter]
-- `setVaryingNotionalCurrencyValue(String arg0)` → `FxLinkedNotionalScheduleBuilder` [Setter]
-- `setVaryingNotionalFixingDates(RelativeDateOffset arg0)` → `FxLinkedNotionalScheduleBuilder` [Setter]
 - `getFxSpotRateSource()` → `FxSpotRateSourceBuilder` [Getter]
-- `setFixingTime(BusinessCenterTime arg0)` → `FxLinkedNotionalScheduleBuilder` [Setter]
 - `getFixingTime()` → `BusinessCenterTimeBuilder` [Getter]
+- `setFixingTime(BusinessCenterTime arg0)` → `FxLinkedNotionalScheduleBuilder` [Setter]
+- `getOrCreateFixingTime()` → `BusinessCenterTimeBuilder` [Getter]
 - `setFxSpotRateSource(FxSpotRateSource arg0)` → `FxLinkedNotionalScheduleBuilder` [Setter]
+- `getOrCreateFxSpotRateSource()` → `FxSpotRateSourceBuilder` [Getter]
+- `getVaryingNotionalCurrency()` → `FieldWithMetaStringBuilder` [Getter]
+- `setVaryingNotionalCurrency(FieldWithMetaString arg0)` → `FxLinkedNotionalScheduleBuilder` [Setter]
+- `getOrCreateVaryingNotionalInterimExchangePaymentDates()` → `RelativeDateOffsetBuilder` [Getter]
+- `setVaryingNotionalInterimExchangePaymentDates(RelativeDateOffset arg0)` → `FxLinkedNotionalScheduleBuilder` [Setter]
 
 ### InitialFixingDate
 **Implements:** `RosettaModelObject` 
@@ -353,11 +353,11 @@
 **Implements:** `Lag` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getLagDuration()` → `OffsetBuilder` [Getter]
 - `getOrCreateLagDuration()` → `OffsetBuilder` [Getter]
 - `setLagDuration(Offset arg0)` → `LagBuilder` [Setter]
-- `getOrCreateFirstObservationDateOffset()` → `OffsetBuilder` [Getter]
+- `getLagDuration()` → `OffsetBuilder` [Getter]
 - `setFirstObservationDateOffset(Offset arg0)` → `LagBuilder` [Setter]
+- `getOrCreateFirstObservationDateOffset()` → `OffsetBuilder` [Getter]
 - `getFirstObservationDateOffset()` → `OffsetBuilder` [Getter]
 
 ### ObservationDate
@@ -369,20 +369,20 @@
 - `getAdjustedDate()` → `Date` [Getter]
 - `getUnadjustedDate()` → `Date` [Getter]
 - `getWeight()` → `BigDecimal` [Getter]
-- `getObservationReference()` → `String` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getObservationReference()` → `String` [Getter]
 
 ### ObservationDateBuilder
 **Implements:** `ObservationDate` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
+- `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `ObservationDateBuilder` [Setter]
+- `setObservationReference(String arg0)` → `ObservationDateBuilder` [Setter]
 - `setUnadjustedDate(Date arg0)` → `ObservationDateBuilder` [Setter]
 - `setAdjustedDate(Date arg0)` → `ObservationDateBuilder` [Setter]
-- `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setObservationReference(String arg0)` → `ObservationDateBuilder` [Setter]
 - `setWeight(BigDecimal arg0)` → `ObservationDateBuilder` [Setter]
-- `setMeta(MetaFields arg0)` → `ObservationDateBuilder` [Setter]
-- `getMeta()` → `MetaFieldsBuilder` [Getter]
 
 ### ObservationDates
 **Implements:** `RosettaModelObject` 
@@ -390,20 +390,20 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ObservationDates` [Builder]
-- `getObservationSchedule()` → `ObservationSchedule` [Getter]
 - `getPeriodicSchedule()` → `PeriodicDates` [Getter]
+- `getObservationSchedule()` → `ObservationSchedule` [Getter]
 - `getParametricDates()` → `ParametricDates` [Getter]
 
 ### ObservationDatesBuilder
 **Implements:** `ObservationDates` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getOrCreateParametricDates()` → `ParametricDatesBuilder` [Getter]
+- `getPeriodicSchedule()` → `PeriodicDatesBuilder` [Getter]
 - `getObservationSchedule()` → `ObservationScheduleBuilder` [Getter]
 - `setPeriodicSchedule(PeriodicDates arg0)` → `ObservationDatesBuilder` [Setter]
-- `setObservationSchedule(ObservationSchedule arg0)` → `ObservationDatesBuilder` [Setter]
-- `getPeriodicSchedule()` → `PeriodicDatesBuilder` [Getter]
 - `getParametricDates()` → `ParametricDatesBuilder` [Getter]
+- `setObservationSchedule(ObservationSchedule arg0)` → `ObservationDatesBuilder` [Setter]
+- `getOrCreateParametricDates()` → `ParametricDatesBuilder` [Getter]
 - `setParametricDates(ParametricDates arg0)` → `ObservationDatesBuilder` [Setter]
 - `getOrCreatePeriodicSchedule()` → `PeriodicDatesBuilder` [Getter]
 - `getOrCreateObservationSchedule()` → `ObservationScheduleBuilder` [Getter]
@@ -414,19 +414,19 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ObservationSchedule` [Builder]
-- `getObservationDate()` → `List` [Getter]
 - `getDateAdjustments()` → `BusinessDayAdjustments` [Getter]
+- `getObservationDate()` → `List` [Getter]
 
 ### ObservationScheduleBuilder
 **Implements:** `ObservationSchedule` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getObservationDate()` → `List` [Getter]
-- `setDateAdjustments(BusinessDayAdjustments arg0)` → `ObservationScheduleBuilder` [Setter]
-- `getOrCreateDateAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
 - `setObservationDate(List arg0)` → `ObservationScheduleBuilder` [Setter]
 - `getOrCreateObservationDate(int arg0)` → `ObservationDateBuilder` [Getter]
+- `getOrCreateDateAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
+- `setDateAdjustments(BusinessDayAdjustments arg0)` → `ObservationScheduleBuilder` [Setter]
 - `getDateAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
+- `getObservationDate()` → `List` [Getter]
 
 ### ObservationTerms
 **Implements:** `RosettaModelObject` 
@@ -434,28 +434,28 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ObservationTerms` [Builder]
+- `getPrecision()` → `Rounding` [Getter]
+- `getInformationSource()` → `FxSpotRateSource` [Getter]
 - `getObservationTime()` → `BusinessCenterTime` [Getter]
 - `getObservationTimeType()` → `TimeTypeEnum` [Getter]
-- `getInformationSource()` → `FxSpotRateSource` [Getter]
-- `getNumberOfObservationDates()` → `Integer` [Getter]
-- `getPrecision()` → `Rounding` [Getter]
-- `getCalculationPeriodDates()` → `CalculationPeriodDates` [Getter]
 - `getObservationDates()` → `ObservationDates` [Getter]
+- `getNumberOfObservationDates()` → `Integer` [Getter]
+- `getCalculationPeriodDates()` → `CalculationPeriodDates` [Getter]
 
 ### ObservationTermsBuilder
 **Implements:** `ObservationTerms` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getOrCreateObservationTime()` → `BusinessCenterTimeBuilder` [Getter]
-- `getOrCreatePrecision()` → `RoundingBuilder` [Getter]
-- `setPrecision(Rounding arg0)` → `ObservationTermsBuilder` [Setter]
-- `getObservationTime()` → `BusinessCenterTimeBuilder` [Getter]
+- `getPrecision()` → `RoundingBuilder` [Getter]
+- `getInformationSource()` → `FxSpotRateSourceBuilder` [Getter]
 - `setObservationTime(BusinessCenterTime arg0)` → `ObservationTermsBuilder` [Setter]
 - `setInformationSource(FxSpotRateSource arg0)` → `ObservationTermsBuilder` [Setter]
-- `getInformationSource()` → `FxSpotRateSourceBuilder` [Getter]
 - `setCalculationPeriodDates(CalculationPeriodDates arg0)` → `ObservationTermsBuilder` [Setter]
-- `setObservationTimeType(TimeTypeEnum arg0)` → `ObservationTermsBuilder` [Setter]
 - `setObservationDates(ObservationDates arg0)` → `ObservationTermsBuilder` [Setter]
+- `setObservationTimeType(TimeTypeEnum arg0)` → `ObservationTermsBuilder` [Setter]
+- `getOrCreateCalculationPeriodDates()` → `CalculationPeriodDatesBuilder` [Getter]
+- `getOrCreateObservationDates()` → `ObservationDatesBuilder` [Getter]
+- `setNumberOfObservationDates(Integer arg0)` → `ObservationTermsBuilder` [Setter]
 
 ### ParametricDates
 **Implements:** `RosettaModelObject` 
@@ -464,10 +464,10 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `ParametricDates` [Builder]
 - `getDayOfWeek()` → `List` [Getter]
+- `getDayFrequency()` → `BigDecimal` [Getter]
+- `getDayDistribution()` → `DayDistributionEnum` [Getter]
 - `getBusinessCenters()` → `BusinessCenters` [Getter]
 - `getDayType()` → `DayTypeEnum` [Getter]
-- `getDayDistribution()` → `DayDistributionEnum` [Getter]
-- `getDayFrequency()` → `BigDecimal` [Getter]
 - `getLag()` → `Lag` [Getter]
 
 ### ParametricDatesBuilder
@@ -475,15 +475,15 @@
 
 **Key Methods:**
 - `setDayOfWeek(List arg0)` → `ParametricDatesBuilder` [Setter]
-- `setBusinessCenters(BusinessCenters arg0)` → `ParametricDatesBuilder` [Setter]
+- `setDayDistribution(DayDistributionEnum arg0)` → `ParametricDatesBuilder` [Setter]
+- `getOrCreateLag()` → `LagBuilder` [Getter]
+- `setDayFrequency(BigDecimal arg0)` → `ParametricDatesBuilder` [Setter]
 - `getOrCreateBusinessCenters()` → `BusinessCentersBuilder` [Getter]
+- `setBusinessCenters(BusinessCenters arg0)` → `ParametricDatesBuilder` [Setter]
 - `getBusinessCenters()` → `BusinessCentersBuilder` [Getter]
 - `setDayType(DayTypeEnum arg0)` → `ParametricDatesBuilder` [Setter]
-- `setDayDistribution(DayDistributionEnum arg0)` → `ParametricDatesBuilder` [Setter]
-- `setDayFrequency(BigDecimal arg0)` → `ParametricDatesBuilder` [Setter]
-- `getOrCreateLag()` → `LagBuilder` [Getter]
-- `setLag(Lag arg0)` → `ParametricDatesBuilder` [Setter]
 - `getLag()` → `LagBuilder` [Getter]
+- `setLag(Lag arg0)` → `ParametricDatesBuilder` [Setter]
 
 ### PaymentCalculationPeriod
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -491,29 +491,29 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `PaymentCalculationPeriod` [Builder]
-- `getCalculationPeriod()` → `List` [Getter]
-- `getAdjustedPaymentDate()` → `Date` [Getter]
-- `getFixedPaymentAmount()` → `Money` [Getter]
-- `getPresentValueAmount()` → `Money` [Getter]
-- `getForecastPaymentAmount()` → `Money` [Getter]
-- `getUnadjustedPaymentDate()` → `Date` [Getter]
-- `getDiscountFactor()` → `BigDecimal` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getForecastPaymentAmount()` → `Money` [Getter]
+- `getPresentValueAmount()` → `Money` [Getter]
+- `getFixedPaymentAmount()` → `Money` [Getter]
+- `getDiscountFactor()` → `BigDecimal` [Getter]
+- `getUnadjustedPaymentDate()` → `Date` [Getter]
+- `getAdjustedPaymentDate()` → `Date` [Getter]
+- `getCalculationPeriod()` → `List` [Getter]
 
 ### PaymentCalculationPeriodBuilder
 **Implements:** `PaymentCalculationPeriod` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `setCalculationPeriod(List arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
-- `getCalculationPeriod()` → `List` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
 - `setAdjustedPaymentDate(Date arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
-- `setPresentValueAmount(Money arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
-- `getFixedPaymentAmount()` → `MoneyBuilder` [Getter]
-- `setFixedPaymentAmount(Money arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
-- `setForecastPaymentAmount(Money arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
+- `getForecastPaymentAmount()` → `MoneyBuilder` [Getter]
 - `getPresentValueAmount()` → `MoneyBuilder` [Getter]
+- `getFixedPaymentAmount()` → `MoneyBuilder` [Getter]
 - `setUnadjustedPaymentDate(Date arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
+- `setForecastPaymentAmount(Money arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
+- `setPresentValueAmount(Money arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
 
 ### PaymentDateSchedule
 **Implements:** `RosettaModelObject` 
@@ -528,9 +528,9 @@
 **Implements:** `PaymentDateSchedule` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setInterimPaymentDates(List arg0)` → `PaymentDateScheduleBuilder` [Setter]
 - `getInterimPaymentDates()` → `List` [Getter]
 - `getFinalPaymentDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
+- `setInterimPaymentDates(List arg0)` → `PaymentDateScheduleBuilder` [Setter]
 - `setFinalPaymentDate(AdjustableOrRelativeDate arg0)` → `PaymentDateScheduleBuilder` [Setter]
 - `getOrCreateFinalPaymentDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `getOrCreateInterimPaymentDates(int arg0)` → `AdjustableRelativeOrPeriodicDatesBuilder` [Getter]
@@ -541,27 +541,27 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `PaymentDates` [Builder]
+- `getMeta()` → `MetaFields` [Getter]
+- `getPayRelativeTo()` → `PayRelativeToEnum` [Getter]
+- `getPaymentDaysOffset()` → `Offset` [Getter]
 - `getPaymentFrequency()` → `Frequency` [Getter]
 - `getFirstPaymentDate()` → `Date` [Getter]
-- `getPayRelativeTo()` → `PayRelativeToEnum` [Getter]
 - `getPaymentDateSchedule()` → `PaymentDateSchedule` [Getter]
-- `getPaymentDatesAdjustments()` → `BusinessDayAdjustments` [Getter]
 - `getLastRegularPaymentDate()` → `Date` [Getter]
-- `getPaymentDaysOffset()` → `Offset` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
+- `getPaymentDatesAdjustments()` → `BusinessDayAdjustments` [Getter]
 
 ### PaymentDatesBuilder
 **Implements:** `PaymentDates` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `PaymentDatesBuilder` [Setter]
+- `getPaymentDaysOffset()` → `OffsetBuilder` [Getter]
 - `getPaymentFrequency()` → `FrequencyBuilder` [Getter]
-- `setPaymentDatesAdjustments(BusinessDayAdjustments arg0)` → `PaymentDatesBuilder` [Setter]
 - `getPaymentDateSchedule()` → `PaymentDateScheduleBuilder` [Getter]
 - `getPaymentDatesAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
-- `setFirstPaymentDate(Date arg0)` → `PaymentDatesBuilder` [Setter]
 - `setLastRegularPaymentDate(Date arg0)` → `PaymentDatesBuilder` [Setter]
-- `setPaymentDaysOffset(Offset arg0)` → `PaymentDatesBuilder` [Setter]
 - `setPaymentFrequency(Frequency arg0)` → `PaymentDatesBuilder` [Setter]
 - `setPaymentDateSchedule(PaymentDateSchedule arg0)` → `PaymentDatesBuilder` [Setter]
 
@@ -578,9 +578,9 @@
 
 **Key Methods:**
 - `getOrCreatePrice()` → `ReferenceWithMetaPriceScheduleBuilder` [Getter]
+- `getPrice()` → `ReferenceWithMetaPriceScheduleBuilder` [Getter]
 - `setPriceValue(PriceSchedule arg0)` → `RateScheduleBuilder` [Setter]
 - `setPrice(ReferenceWithMetaPriceSchedule arg0)` → `RateScheduleBuilder` [Setter]
-- `getPrice()` → `ReferenceWithMetaPriceScheduleBuilder` [Getter]
 
 ### ResetDates
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -588,29 +588,29 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ResetDates` [Builder]
-- `getResetFrequency()` → `ResetFrequency` [Getter]
-- `getFinalFixingDate()` → `AdjustableDate` [Getter]
-- `getRateCutOffDaysOffset()` → `Offset` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
 - `getFixingDates()` → `RelativeDateOffset` [Getter]
-- `getResetDatesAdjustments()` → `BusinessDayAdjustments` [Getter]
 - `getInitialFixingDate()` → `InitialFixingDate` [Getter]
 - `getResetRelativeTo()` → `ResetRelativeToEnum` [Getter]
-- `getCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDates` [Getter]
+- `getFinalFixingDate()` → `AdjustableDate` [Getter]
+- `getRateCutOffDaysOffset()` → `Offset` [Getter]
+- `getResetFrequency()` → `ResetFrequency` [Getter]
+- `getResetDatesAdjustments()` → `BusinessDayAdjustments` [Getter]
 
 ### ResetDatesBuilder
 **Implements:** `ResetDates` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `getResetFrequency()` → `ResetFrequencyBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `ResetDatesBuilder` [Setter]
+- `getFixingDates()` → `RelativeDateOffsetBuilder` [Getter]
+- `getInitialFixingDate()` → `InitialFixingDateBuilder` [Getter]
 - `getFinalFixingDate()` → `AdjustableDateBuilder` [Getter]
 - `getRateCutOffDaysOffset()` → `OffsetBuilder` [Getter]
-- `getFixingDates()` → `RelativeDateOffsetBuilder` [Getter]
+- `getResetFrequency()` → `ResetFrequencyBuilder` [Getter]
 - `getResetDatesAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
-- `getInitialFixingDate()` → `InitialFixingDateBuilder` [Getter]
-- `getOrCreateFixingDates()` → `RelativeDateOffsetBuilder` [Getter]
-- `setInitialFixingDate(InitialFixingDate arg0)` → `ResetDatesBuilder` [Setter]
-- `getOrCreateResetFrequency()` → `ResetFrequencyBuilder` [Getter]
+- `getOrCreateFinalFixingDate()` → `AdjustableDateBuilder` [Getter]
 
 ### ResetFrequency
 **Implements:** `Frequency` 
@@ -624,10 +624,10 @@
 **Implements:** `ResetFrequency` `Frequency$FrequencyBuilder` 
 
 **Key Methods:**
+- `setMeta(MetaFields arg0)` → `ResetFrequencyBuilder` [Setter]
+- `setWeeklyRollConvention(WeeklyRollConventionEnum arg0)` → `ResetFrequencyBuilder` [Setter]
 - `setPeriod(PeriodExtendedEnum arg0)` → `ResetFrequencyBuilder` [Setter]
 - `setPeriodMultiplier(Integer arg0)` → `ResetFrequencyBuilder` [Setter]
-- `setWeeklyRollConvention(WeeklyRollConventionEnum arg0)` → `ResetFrequencyBuilder` [Setter]
-- `setMeta(MetaFields arg0)` → `ResetFrequencyBuilder` [Setter]
 
 ### StubCalculationPeriodAmount
 **Implements:** `RosettaModelObject` 
@@ -635,23 +635,23 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `StubCalculationPeriodAmount` [Builder]
-- `getFinalStub()` → `StubValue` [Getter]
 - `getInitialStub()` → `StubValue` [Getter]
+- `getFinalStub()` → `StubValue` [Getter]
 - `getCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDates` [Getter]
 
 ### StubCalculationPeriodAmountBuilder
 **Implements:** `StubCalculationPeriodAmount` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getFinalStub()` → `StubValueBuilder` [Getter]
 - `getInitialStub()` → `StubValueBuilder` [Getter]
+- `getFinalStub()` → `StubValueBuilder` [Getter]
 - `getOrCreateInitialStub()` → `StubValueBuilder` [Getter]
-- `setFinalStub(StubValue arg0)` → `StubCalculationPeriodAmountBuilder` [Setter]
-- `getOrCreateFinalStub()` → `StubValueBuilder` [Getter]
 - `setInitialStub(StubValue arg0)` → `StubCalculationPeriodAmountBuilder` [Setter]
+- `getOrCreateFinalStub()` → `StubValueBuilder` [Getter]
+- `setFinalStub(StubValue arg0)` → `StubCalculationPeriodAmountBuilder` [Setter]
+- `getOrCreateCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 - `getCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 - `setCalculationPeriodDatesReference(ReferenceWithMetaCalculationPeriodDates arg0)` → `StubCalculationPeriodAmountBuilder` [Setter]
-- `getOrCreateCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 - `setCalculationPeriodDatesReferenceValue(CalculationPeriodDates arg0)` → `StubCalculationPeriodAmountBuilder` [Setter]
 
 ### StubPeriod
@@ -660,23 +660,23 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `StubPeriod` [Builder]
-- `getFinalStub()` → `StubValue` [Getter]
 - `getInitialStub()` → `StubValue` [Getter]
+- `getFinalStub()` → `StubValue` [Getter]
 - `getCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDates` [Getter]
 
 ### StubPeriodBuilder
 **Implements:** `StubPeriod` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getFinalStub()` → `StubValueBuilder` [Getter]
 - `getInitialStub()` → `StubValueBuilder` [Getter]
+- `getFinalStub()` → `StubValueBuilder` [Getter]
 - `getOrCreateInitialStub()` → `StubValueBuilder` [Getter]
-- `setFinalStub(StubValue arg0)` → `StubPeriodBuilder` [Setter]
-- `getOrCreateFinalStub()` → `StubValueBuilder` [Getter]
 - `setInitialStub(StubValue arg0)` → `StubPeriodBuilder` [Setter]
+- `getOrCreateFinalStub()` → `StubValueBuilder` [Getter]
+- `setFinalStub(StubValue arg0)` → `StubPeriodBuilder` [Setter]
+- `getOrCreateCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 - `getCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 - `setCalculationPeriodDatesReference(ReferenceWithMetaCalculationPeriodDates arg0)` → `StubPeriodBuilder` [Setter]
-- `getOrCreateCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 - `setCalculationPeriodDatesReferenceValue(CalculationPeriodDates arg0)` → `StubPeriodBuilder` [Setter]
 
 ### WeightedAveragingObservation
@@ -685,8 +685,8 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `WeightedAveragingObservation` [Builder]
-- `getDateTime()` → `ZonedDateTime` [Getter]
 - `getWeight()` → `BigDecimal` [Getter]
+- `getDateTime()` → `ZonedDateTime` [Getter]
 - `getObservationNumber()` → `Integer` [Getter]
 
 ### WeightedAveragingObservationBuilder
@@ -711,9 +711,9 @@
 - `build()` → `AmountSchedule` [Builder]
 - `getCurrency()` → `List` [Getter]
 - `setCurrency(List arg0)` → `AmountScheduleBuilder` [Setter]
+- `setCurrencyValue(List arg0)` → `AmountScheduleBuilder` [Setter]
 - `setDatedValue(List arg0)` → `AmountScheduleBuilder` [Setter]
 - `getOrCreateCurrency(int arg0)` → `FieldWithMetaStringBuilder` [Getter]
-- `setCurrencyValue(List arg0)` → `AmountScheduleBuilder` [Setter]
 
 ### AmountScheduleImpl
 **Extends:** `Schedule$ScheduleImpl` 
@@ -756,22 +756,22 @@
 **Key Methods:**
 - `build()` → `AveragingPeriod` [Builder]
 - `getSchedule()` → `List` [Getter]
-- `setSchedule(List arg0)` → `AveragingPeriodBuilder` [Setter]
 - `getOrCreateSchedule(int arg0)` → `AveragingScheduleBuilder` [Getter]
+- `setSchedule(List arg0)` → `AveragingPeriodBuilder` [Setter]
+- `setAveragingDateTimes(DateTimeList arg0)` → `AveragingPeriodBuilder` [Setter]
 - `setMarketDisruptionValue(MarketDisruptionEnum arg0)` → `AveragingPeriodBuilder` [Setter]
 - `setMarketDisruption(FieldWithMetaMarketDisruptionEnum arg0)` → `AveragingPeriodBuilder` [Setter]
 - `setAveragingObservations(AveragingObservationList arg0)` → `AveragingPeriodBuilder` [Setter]
-- `setAveragingDateTimes(DateTimeList arg0)` → `AveragingPeriodBuilder` [Setter]
-- `getOrCreateMarketDisruption()` → `FieldWithMetaMarketDisruptionEnumBuilder` [Getter]
-- `getOrCreateAveragingObservations()` → `AveragingObservationListBuilder` [Getter]
+- `getMarketDisruption()` → `FieldWithMetaMarketDisruptionEnumBuilder` [Getter]
+- `getAveragingObservations()` → `AveragingObservationListBuilder` [Getter]
 
 ### AveragingPeriodImpl
 **Implements:** `AveragingPeriod` 
 
 **Key Methods:**
 - `build()` → `AveragingPeriod` [Builder]
-- `getSchedule()` → `List` [Getter]
 - `setBuilderFields(AveragingPeriodBuilder arg0)` → `void` [Setter]
+- `getSchedule()` → `List` [Getter]
 - `getMarketDisruption()` → `FieldWithMetaMarketDisruptionEnum` [Getter]
 - `getAveragingObservations()` → `AveragingObservationList` [Getter]
 - `getAveragingDateTimes()` → `DateTimeList` [Getter]
@@ -786,23 +786,23 @@
 
 **Key Methods:**
 - `build()` → `CalculationPeriodBase` [Builder]
-- `getAdjustedStartDate()` → `Date` [Getter]
-- `setAdjustedEndDate(Date arg0)` → `CalculationPeriodBaseBuilder` [Setter]
-- `getAdjustedEndDate()` → `Date` [Getter]
-- `setAdjustedStartDate(Date arg0)` → `CalculationPeriodBaseBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `CalculationPeriodBaseBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `CalculationPeriodBaseBuilder` [Setter]
+- `getAdjustedEndDate()` → `Date` [Getter]
+- `getAdjustedStartDate()` → `Date` [Getter]
+- `setAdjustedStartDate(Date arg0)` → `CalculationPeriodBaseBuilder` [Setter]
+- `setAdjustedEndDate(Date arg0)` → `CalculationPeriodBaseBuilder` [Setter]
 
 ### CalculationPeriodBaseImpl
 **Implements:** `CalculationPeriodBase` 
 
 **Key Methods:**
 - `build()` → `CalculationPeriodBase` [Builder]
-- `getAdjustedStartDate()` → `Date` [Getter]
-- `getAdjustedEndDate()` → `Date` [Getter]
 - `setBuilderFields(CalculationPeriodBaseBuilder arg0)` → `void` [Setter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getAdjustedEndDate()` → `Date` [Getter]
+- `getAdjustedStartDate()` → `Date` [Getter]
 
 ### CalculationPeriodBuilderImpl
 **Extends:** `CalculationPeriodBase$CalculationPeriodBaseBuilderImpl` 
@@ -822,15 +822,15 @@
 
 **Key Methods:**
 - `build()` → `CalculationPeriod` [Builder]
-- `setFixedRate(BigDecimal arg0)` → `CalculationPeriodBuilder` [Setter]
-- `getNotionalAmount()` → `BigDecimal` [Getter]
-- `getFixedRate()` → `BigDecimal` [Getter]
-- `setAdjustedEndDate(Date arg0)` → `CalculationPeriodBuilder` [Setter]
-- `setAdjustedStartDate(Date arg0)` → `CalculationPeriodBuilder` [Setter]
-- `getDayCountYearFraction()` → `BigDecimal` [Getter]
+- `setMeta(MetaFields arg0)` → `CalculationPeriodBuilder` [Setter]
+- `getForecastRate()` → `BigDecimal` [Getter]
 - `getOrCreateForecastAmount()` → `MoneyBuilder` [Getter]
-- `getForecastAmount()` → `MoneyBuilder` [Getter]
-- `getFxLinkedNotionalAmount()` → `FxLinkedNotionalAmountBuilder` [Getter]
+- `setFxLinkedNotionalAmount(FxLinkedNotionalAmount arg0)` → `CalculationPeriodBuilder` [Setter]
+- `getUnadjustedEndDate()` → `Date` [Getter]
+- `setForecastRate(BigDecimal arg0)` → `CalculationPeriodBuilder` [Setter]
+- `setForecastAmount(Money arg0)` → `CalculationPeriodBuilder` [Setter]
+- `setNotionalAmount(BigDecimal arg0)` → `CalculationPeriodBuilder` [Setter]
+- `setFloatingRateDefinition(FloatingRateDefinition arg0)` → `CalculationPeriodBuilder` [Setter]
 
 ### CalculationPeriodDataBuilderImpl
 **Implements:** `CalculationPeriodData$CalculationPeriodDataBuilder` 
@@ -845,28 +845,28 @@
 
 **Key Methods:**
 - `build()` → `CalculationPeriodData` [Builder]
-- `getStartDate()` → `Date` [Getter]
-- `getDaysInPeriod()` → `Integer` [Getter]
+- `setEndDate(Date arg0)` → `CalculationPeriodDataBuilder` [Setter]
+- `getEndDate()` → `Date` [Getter]
 - `getDaysInLeapYearPeriod()` → `Integer` [Getter]
-- `getIsFirstPeriod()` → `Boolean` [Getter]
-- `getIsLastPeriod()` → `Boolean` [Getter]
-- `setStartDate(Date arg0)` → `CalculationPeriodDataBuilder` [Setter]
-- `setDaysInLeapYearPeriod(Integer arg0)` → `CalculationPeriodDataBuilder` [Setter]
 - `setDaysInPeriod(Integer arg0)` → `CalculationPeriodDataBuilder` [Setter]
-- `setIsLastPeriod(Boolean arg0)` → `CalculationPeriodDataBuilder` [Setter]
+- `getStartDate()` → `Date` [Getter]
+- `getIsFirstPeriod()` → `Boolean` [Getter]
+- `setDaysInLeapYearPeriod(Integer arg0)` → `CalculationPeriodDataBuilder` [Setter]
+- `getDaysInPeriod()` → `Integer` [Getter]
+- `setStartDate(Date arg0)` → `CalculationPeriodDataBuilder` [Setter]
 
 ### CalculationPeriodDataImpl
 **Implements:** `CalculationPeriodData` 
 
 **Key Methods:**
 - `build()` → `CalculationPeriodData` [Builder]
-- `getStartDate()` → `Date` [Getter]
-- `getDaysInPeriod()` → `Integer` [Getter]
-- `getDaysInLeapYearPeriod()` → `Integer` [Getter]
-- `getIsFirstPeriod()` → `Boolean` [Getter]
-- `getIsLastPeriod()` → `Boolean` [Getter]
-- `getEndDate()` → `Date` [Getter]
 - `setBuilderFields(CalculationPeriodDataBuilder arg0)` → `void` [Setter]
+- `getEndDate()` → `Date` [Getter]
+- `getDaysInLeapYearPeriod()` → `Integer` [Getter]
+- `getStartDate()` → `Date` [Getter]
+- `getIsFirstPeriod()` → `Boolean` [Getter]
+- `getDaysInPeriod()` → `Integer` [Getter]
+- `getIsLastPeriod()` → `Boolean` [Getter]
 
 ### CalculationPeriodDatesBuilderImpl
 **Implements:** `CalculationPeriodDates$CalculationPeriodDatesBuilder` 
@@ -885,30 +885,30 @@
 
 **Key Methods:**
 - `build()` → `CalculationPeriodDates` [Builder]
-- `setEffectiveDate(AdjustableOrRelativeDate arg0)` → `CalculationPeriodDatesBuilder` [Setter]
-- `getFirstPeriodStartDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
-- `getStubPeriodType()` → `StubPeriodTypeEnum` [Getter]
-- `getOrCreateTerminationDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
-- `getOrCreateEffectiveDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
-- `getEffectiveDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setTerminationDate(AdjustableOrRelativeDate arg0)` → `CalculationPeriodDatesBuilder` [Setter]
+- `getEffectiveDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `getTerminationDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
+- `setTerminationDate(AdjustableOrRelativeDate arg0)` → `CalculationPeriodDatesBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `CalculationPeriodDatesBuilder` [Setter]
+- `getOrCreateCalculationPeriodDatesAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
+- `setFirstPeriodStartDate(AdjustableOrRelativeDate arg0)` → `CalculationPeriodDatesBuilder` [Setter]
+- `setStubPeriodType(StubPeriodTypeEnum arg0)` → `CalculationPeriodDatesBuilder` [Setter]
 
 ### CalculationPeriodDatesImpl
 **Implements:** `CalculationPeriodDates` 
 
 **Key Methods:**
 - `build()` → `CalculationPeriodDates` [Builder]
-- `getFirstPeriodStartDate()` → `AdjustableOrRelativeDate` [Getter]
-- `getStubPeriodType()` → `StubPeriodTypeEnum` [Getter]
-- `getEffectiveDate()` → `AdjustableOrRelativeDate` [Getter]
 - `setBuilderFields(CalculationPeriodDatesBuilder arg0)` → `void` [Setter]
+- `getEffectiveDate()` → `AdjustableOrRelativeDate` [Getter]
 - `getTerminationDate()` → `AdjustableOrRelativeDate` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getStubPeriodType()` → `StubPeriodTypeEnum` [Getter]
+- `getFirstPeriodStartDate()` → `AdjustableOrRelativeDate` [Getter]
 - `getFirstRegularPeriodStartDate()` → `Date` [Getter]
 - `getFirstCompoundingPeriodEndDate()` → `Date` [Getter]
-- `getCalculationPeriodDatesAdjustments()` → `BusinessDayAdjustments` [Getter]
-- `getCalculationPeriodFrequency()` → `CalculationPeriodFrequency` [Getter]
+- `getLastRegularPeriodEndDate()` → `Date` [Getter]
 
 ### CalculationPeriodImpl
 **Extends:** `CalculationPeriodBase$CalculationPeriodBaseImpl` 
@@ -916,15 +916,15 @@
 
 **Key Methods:**
 - `build()` → `CalculationPeriod` [Builder]
-- `getNotionalAmount()` → `BigDecimal` [Getter]
-- `getFixedRate()` → `BigDecimal` [Getter]
 - `setBuilderFields(CalculationPeriodBuilder arg0)` → `void` [Setter]
+- `getForecastRate()` → `BigDecimal` [Getter]
+- `getUnadjustedEndDate()` → `Date` [Getter]
+- `getFloatingRateDefinition()` → `FloatingRateDefinition` [Getter]
 - `getDayCountYearFraction()` → `BigDecimal` [Getter]
+- `getUnadjustedStartDate()` → `Date` [Getter]
 - `getForecastAmount()` → `Money` [Getter]
 - `getFxLinkedNotionalAmount()` → `FxLinkedNotionalAmount` [Getter]
-- `getFloatingRateDefinition()` → `FloatingRateDefinition` [Getter]
-- `getUnadjustedStartDate()` → `Date` [Getter]
-- `getUnadjustedEndDate()` → `Date` [Getter]
+- `getCalculationPeriodNumberOfDays()` → `Integer` [Getter]
 
 ### DateRelativeToCalculationPeriodDatesBuilderImpl
 **Implements:** `DateRelativeToCalculationPeriodDates$DateRelativeToCalculationPeriodDatesBuilder` 
@@ -934,9 +934,9 @@
 
 **Key Methods:**
 - `build()` → `DateRelativeToCalculationPeriodDates` [Builder]
+- `getOrCreateCalculationPeriodDatesReference(int arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 - `getCalculationPeriodDatesReference()` → `List` [Getter]
 - `setCalculationPeriodDatesReference(List arg0)` → `DateRelativeToCalculationPeriodDatesBuilder` [Setter]
-- `getOrCreateCalculationPeriodDatesReference(int arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 - `setCalculationPeriodDatesReferenceValue(List arg0)` → `DateRelativeToCalculationPeriodDatesBuilder` [Setter]
 
 ### DateRelativeToCalculationPeriodDatesImpl
@@ -955,8 +955,8 @@
 
 **Key Methods:**
 - `build()` → `DateRelativeToPaymentDates` [Builder]
-- `setPaymentDatesReference(List arg0)` → `DateRelativeToPaymentDatesBuilder` [Setter]
 - `getPaymentDatesReference()` → `List` [Getter]
+- `setPaymentDatesReference(List arg0)` → `DateRelativeToPaymentDatesBuilder` [Setter]
 - `getOrCreatePaymentDatesReference(int arg0)` → `ReferenceWithMetaPaymentDatesBuilder` [Getter]
 - `setPaymentDatesReferenceValue(List arg0)` → `DateRelativeToPaymentDatesBuilder` [Setter]
 
@@ -999,14 +999,14 @@
 
 **Key Methods:**
 - `build()` → `FinalCalculationPeriodDateAdjustment` [Builder]
-- `getBusinessDayConvention()` → `BusinessDayConventionEnum` [Getter]
 - `setBusinessDayConvention(BusinessDayConventionEnum arg0)` → `FinalCalculationPeriodDateAdjustmentBuilder` [Setter]
+- `getBusinessDayConvention()` → `BusinessDayConventionEnum` [Getter]
 - `getSwapStreamReference()` → `ReferenceWithMetaInterestRatePayoutBuilder` [Getter]
 - `setSwapStreamReference(ReferenceWithMetaInterestRatePayout arg0)` → `FinalCalculationPeriodDateAdjustmentBuilder` [Setter]
-- `setSwapStreamReferenceValue(InterestRatePayout arg0)` → `FinalCalculationPeriodDateAdjustmentBuilder` [Setter]
 - `getOrCreateSwapStreamReference()` → `ReferenceWithMetaInterestRatePayoutBuilder` [Getter]
+- `setSwapStreamReferenceValue(InterestRatePayout arg0)` → `FinalCalculationPeriodDateAdjustmentBuilder` [Setter]
 - `getRelevantUnderlyingDateReference()` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Getter]
-- `getOrCreateRelevantUnderlyingDateReference()` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Getter]
+- `setRelevantUnderlyingDateReference(ReferenceWithMetaAdjustableOrRelativeDates arg0)` → `FinalCalculationPeriodDateAdjustmentBuilder` [Setter]
 - `setRelevantUnderlyingDateReferenceValue(AdjustableOrRelativeDates arg0)` → `FinalCalculationPeriodDateAdjustmentBuilder` [Setter]
 
 ### FinalCalculationPeriodDateAdjustmentImpl
@@ -1014,9 +1014,9 @@
 
 **Key Methods:**
 - `build()` → `FinalCalculationPeriodDateAdjustment` [Builder]
+- `setBuilderFields(FinalCalculationPeriodDateAdjustmentBuilder arg0)` → `void` [Setter]
 - `getBusinessDayConvention()` → `BusinessDayConventionEnum` [Getter]
 - `getSwapStreamReference()` → `ReferenceWithMetaInterestRatePayout` [Getter]
-- `setBuilderFields(FinalCalculationPeriodDateAdjustmentBuilder arg0)` → `void` [Setter]
 - `getRelevantUnderlyingDateReference()` → `ReferenceWithMetaAdjustableOrRelativeDates` [Getter]
 
 ### FxLinkedNotionalAmountBuilderImpl
@@ -1030,25 +1030,25 @@
 
 **Key Methods:**
 - `build()` → `FxLinkedNotionalAmount` [Builder]
-- `getNotionalAmount()` → `BigDecimal` [Getter]
 - `getResetDate()` → `Date` [Getter]
+- `setResetDate(Date arg0)` → `FxLinkedNotionalAmountBuilder` [Setter]
 - `setNotionalAmount(BigDecimal arg0)` → `FxLinkedNotionalAmountBuilder` [Setter]
 - `getObservedFxSpotRate()` → `BigDecimal` [Getter]
 - `setObservedFxSpotRate(BigDecimal arg0)` → `FxLinkedNotionalAmountBuilder` [Setter]
-- `getAdjustedFxSpotFixingDate()` → `Date` [Getter]
 - `setAdjustedFxSpotFixingDate(Date arg0)` → `FxLinkedNotionalAmountBuilder` [Setter]
-- `setResetDate(Date arg0)` → `FxLinkedNotionalAmountBuilder` [Setter]
+- `getAdjustedFxSpotFixingDate()` → `Date` [Getter]
+- `getNotionalAmount()` → `BigDecimal` [Getter]
 
 ### FxLinkedNotionalAmountImpl
 **Implements:** `FxLinkedNotionalAmount` 
 
 **Key Methods:**
 - `build()` → `FxLinkedNotionalAmount` [Builder]
-- `getNotionalAmount()` → `BigDecimal` [Getter]
-- `getResetDate()` → `Date` [Getter]
 - `setBuilderFields(FxLinkedNotionalAmountBuilder arg0)` → `void` [Setter]
+- `getResetDate()` → `Date` [Getter]
 - `getObservedFxSpotRate()` → `BigDecimal` [Getter]
 - `getAdjustedFxSpotFixingDate()` → `Date` [Getter]
+- `getNotionalAmount()` → `BigDecimal` [Getter]
 
 ### FxLinkedNotionalScheduleBuilderImpl
 **Implements:** `FxLinkedNotionalSchedule$FxLinkedNotionalScheduleBuilder` 
@@ -1062,15 +1062,15 @@
 
 **Key Methods:**
 - `build()` → `FxLinkedNotionalSchedule` [Builder]
-- `getOrCreateFxSpotRateSource()` → `FxSpotRateSourceBuilder` [Getter]
-- `getOrCreateVaryingNotionalCurrency()` → `FieldWithMetaStringBuilder` [Getter]
-- `getOrCreateVaryingNotionalFixingDates()` → `RelativeDateOffsetBuilder` [Getter]
-- `getVaryingNotionalFixingDates()` → `RelativeDateOffsetBuilder` [Getter]
-- `setVaryingNotionalCurrencyValue(String arg0)` → `FxLinkedNotionalScheduleBuilder` [Setter]
-- `setVaryingNotionalFixingDates(RelativeDateOffset arg0)` → `FxLinkedNotionalScheduleBuilder` [Setter]
 - `getFxSpotRateSource()` → `FxSpotRateSourceBuilder` [Getter]
-- `setFixingTime(BusinessCenterTime arg0)` → `FxLinkedNotionalScheduleBuilder` [Setter]
 - `getFixingTime()` → `BusinessCenterTimeBuilder` [Getter]
+- `setFixingTime(BusinessCenterTime arg0)` → `FxLinkedNotionalScheduleBuilder` [Setter]
+- `getOrCreateFixingTime()` → `BusinessCenterTimeBuilder` [Getter]
+- `setFxSpotRateSource(FxSpotRateSource arg0)` → `FxLinkedNotionalScheduleBuilder` [Setter]
+- `getOrCreateFxSpotRateSource()` → `FxSpotRateSourceBuilder` [Getter]
+- `getVaryingNotionalCurrency()` → `FieldWithMetaStringBuilder` [Getter]
+- `setVaryingNotionalCurrency(FieldWithMetaString arg0)` → `FxLinkedNotionalScheduleBuilder` [Setter]
+- `getOrCreateVaryingNotionalInterimExchangePaymentDates()` → `RelativeDateOffsetBuilder` [Getter]
 
 ### FxLinkedNotionalScheduleImpl
 **Implements:** `FxLinkedNotionalSchedule` 
@@ -1078,11 +1078,11 @@
 **Key Methods:**
 - `build()` → `FxLinkedNotionalSchedule` [Builder]
 - `setBuilderFields(FxLinkedNotionalScheduleBuilder arg0)` → `void` [Setter]
-- `getVaryingNotionalFixingDates()` → `RelativeDateOffset` [Getter]
 - `getFxSpotRateSource()` → `FxSpotRateSource` [Getter]
 - `getFixingTime()` → `BusinessCenterTime` [Getter]
-- `getVaryingNotionalInterimExchangePaymentDates()` → `RelativeDateOffset` [Getter]
 - `getVaryingNotionalCurrency()` → `FieldWithMetaString` [Getter]
+- `getVaryingNotionalInterimExchangePaymentDates()` → `RelativeDateOffset` [Getter]
+- `getVaryingNotionalFixingDates()` → `RelativeDateOffset` [Getter]
 
 ### InitialFixingDateBuilderImpl
 **Implements:** `InitialFixingDate$InitialFixingDateBuilder` 
@@ -1117,11 +1117,11 @@
 
 **Key Methods:**
 - `build()` → `Lag` [Builder]
-- `getLagDuration()` → `OffsetBuilder` [Getter]
 - `getOrCreateLagDuration()` → `OffsetBuilder` [Getter]
 - `setLagDuration(Offset arg0)` → `LagBuilder` [Setter]
-- `getOrCreateFirstObservationDateOffset()` → `OffsetBuilder` [Getter]
+- `getLagDuration()` → `OffsetBuilder` [Getter]
 - `setFirstObservationDateOffset(Offset arg0)` → `LagBuilder` [Setter]
+- `getOrCreateFirstObservationDateOffset()` → `OffsetBuilder` [Getter]
 - `getFirstObservationDateOffset()` → `OffsetBuilder` [Getter]
 
 ### LagImpl
@@ -1145,15 +1145,15 @@
 
 **Key Methods:**
 - `build()` → `ObservationDate` [Builder]
-- `setUnadjustedDate(Date arg0)` → `ObservationDateBuilder` [Setter]
-- `setAdjustedDate(Date arg0)` → `ObservationDateBuilder` [Setter]
 - `getAdjustedDate()` → `Date` [Getter]
 - `getUnadjustedDate()` → `Date` [Getter]
-- `getWeight()` → `BigDecimal` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getWeight()` → `BigDecimal` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `ObservationDateBuilder` [Setter]
 - `setObservationReference(String arg0)` → `ObservationDateBuilder` [Setter]
 - `getObservationReference()` → `String` [Getter]
-- `setWeight(BigDecimal arg0)` → `ObservationDateBuilder` [Setter]
+- `setUnadjustedDate(Date arg0)` → `ObservationDateBuilder` [Setter]
 
 ### ObservationDateImpl
 **Implements:** `ObservationDate` 
@@ -1162,10 +1162,10 @@
 - `build()` → `ObservationDate` [Builder]
 - `getAdjustedDate()` → `Date` [Getter]
 - `getUnadjustedDate()` → `Date` [Getter]
-- `getWeight()` → `BigDecimal` [Getter]
 - `setBuilderFields(ObservationDateBuilder arg0)` → `void` [Setter]
-- `getObservationReference()` → `String` [Getter]
+- `getWeight()` → `BigDecimal` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getObservationReference()` → `String` [Getter]
 
 ### ObservationDatesBuilderImpl
 **Implements:** `ObservationDates$ObservationDatesBuilder` 
@@ -1177,12 +1177,12 @@
 
 **Key Methods:**
 - `build()` → `ObservationDates` [Builder]
-- `getOrCreateParametricDates()` → `ParametricDatesBuilder` [Getter]
+- `getPeriodicSchedule()` → `PeriodicDatesBuilder` [Getter]
 - `getObservationSchedule()` → `ObservationScheduleBuilder` [Getter]
 - `setPeriodicSchedule(PeriodicDates arg0)` → `ObservationDatesBuilder` [Setter]
-- `setObservationSchedule(ObservationSchedule arg0)` → `ObservationDatesBuilder` [Setter]
-- `getPeriodicSchedule()` → `PeriodicDatesBuilder` [Getter]
 - `getParametricDates()` → `ParametricDatesBuilder` [Getter]
+- `setObservationSchedule(ObservationSchedule arg0)` → `ObservationDatesBuilder` [Setter]
+- `getOrCreateParametricDates()` → `ParametricDatesBuilder` [Getter]
 - `setParametricDates(ParametricDates arg0)` → `ObservationDatesBuilder` [Setter]
 - `getOrCreatePeriodicSchedule()` → `PeriodicDatesBuilder` [Getter]
 - `getOrCreateObservationSchedule()` → `ObservationScheduleBuilder` [Getter]
@@ -1193,8 +1193,8 @@
 **Key Methods:**
 - `build()` → `ObservationDates` [Builder]
 - `setBuilderFields(ObservationDatesBuilder arg0)` → `void` [Setter]
-- `getObservationSchedule()` → `ObservationSchedule` [Getter]
 - `getPeriodicSchedule()` → `PeriodicDates` [Getter]
+- `getObservationSchedule()` → `ObservationSchedule` [Getter]
 - `getParametricDates()` → `ParametricDates` [Getter]
 
 ### ObservationScheduleBuilderImpl
@@ -1206,21 +1206,21 @@
 
 **Key Methods:**
 - `build()` → `ObservationSchedule` [Builder]
-- `getObservationDate()` → `List` [Getter]
-- `setDateAdjustments(BusinessDayAdjustments arg0)` → `ObservationScheduleBuilder` [Setter]
-- `getOrCreateDateAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
 - `setObservationDate(List arg0)` → `ObservationScheduleBuilder` [Setter]
 - `getOrCreateObservationDate(int arg0)` → `ObservationDateBuilder` [Getter]
+- `getOrCreateDateAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
+- `setDateAdjustments(BusinessDayAdjustments arg0)` → `ObservationScheduleBuilder` [Setter]
 - `getDateAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
+- `getObservationDate()` → `List` [Getter]
 
 ### ObservationScheduleImpl
 **Implements:** `ObservationSchedule` 
 
 **Key Methods:**
 - `build()` → `ObservationSchedule` [Builder]
-- `getObservationDate()` → `List` [Getter]
 - `setBuilderFields(ObservationScheduleBuilder arg0)` → `void` [Setter]
 - `getDateAdjustments()` → `BusinessDayAdjustments` [Getter]
+- `getObservationDate()` → `List` [Getter]
 
 ### ObservationTermsBuilderImpl
 **Implements:** `ObservationTerms$ObservationTermsBuilder` 
@@ -1236,29 +1236,29 @@
 
 **Key Methods:**
 - `build()` → `ObservationTerms` [Builder]
-- `getOrCreateObservationTime()` → `BusinessCenterTimeBuilder` [Getter]
-- `getOrCreatePrecision()` → `RoundingBuilder` [Getter]
-- `setPrecision(Rounding arg0)` → `ObservationTermsBuilder` [Setter]
-- `getObservationTime()` → `BusinessCenterTimeBuilder` [Getter]
-- `getObservationTimeType()` → `TimeTypeEnum` [Getter]
+- `getPrecision()` → `RoundingBuilder` [Getter]
+- `getInformationSource()` → `FxSpotRateSourceBuilder` [Getter]
 - `setObservationTime(BusinessCenterTime arg0)` → `ObservationTermsBuilder` [Setter]
 - `setInformationSource(FxSpotRateSource arg0)` → `ObservationTermsBuilder` [Setter]
-- `getInformationSource()` → `FxSpotRateSourceBuilder` [Getter]
 - `setCalculationPeriodDates(CalculationPeriodDates arg0)` → `ObservationTermsBuilder` [Setter]
+- `setObservationDates(ObservationDates arg0)` → `ObservationTermsBuilder` [Setter]
+- `setObservationTimeType(TimeTypeEnum arg0)` → `ObservationTermsBuilder` [Setter]
+- `getOrCreateCalculationPeriodDates()` → `CalculationPeriodDatesBuilder` [Getter]
+- `getOrCreateObservationDates()` → `ObservationDatesBuilder` [Getter]
 
 ### ObservationTermsImpl
 **Implements:** `ObservationTerms` 
 
 **Key Methods:**
 - `build()` → `ObservationTerms` [Builder]
+- `setBuilderFields(ObservationTermsBuilder arg0)` → `void` [Setter]
+- `getPrecision()` → `Rounding` [Getter]
+- `getInformationSource()` → `FxSpotRateSource` [Getter]
 - `getObservationTime()` → `BusinessCenterTime` [Getter]
 - `getObservationTimeType()` → `TimeTypeEnum` [Getter]
-- `setBuilderFields(ObservationTermsBuilder arg0)` → `void` [Setter]
-- `getInformationSource()` → `FxSpotRateSource` [Getter]
-- `getNumberOfObservationDates()` → `Integer` [Getter]
-- `getPrecision()` → `Rounding` [Getter]
-- `getCalculationPeriodDates()` → `CalculationPeriodDates` [Getter]
 - `getObservationDates()` → `ObservationDates` [Getter]
+- `getNumberOfObservationDates()` → `Integer` [Getter]
+- `getCalculationPeriodDates()` → `CalculationPeriodDates` [Getter]
 
 ### ParametricDatesBuilderImpl
 **Implements:** `ParametricDates$ParametricDatesBuilder` 
@@ -1275,13 +1275,13 @@
 - `build()` → `ParametricDates` [Builder]
 - `getDayOfWeek()` → `List` [Getter]
 - `setDayOfWeek(List arg0)` → `ParametricDatesBuilder` [Setter]
-- `setBusinessCenters(BusinessCenters arg0)` → `ParametricDatesBuilder` [Setter]
-- `getOrCreateBusinessCenters()` → `BusinessCentersBuilder` [Getter]
-- `getBusinessCenters()` → `BusinessCentersBuilder` [Getter]
-- `setDayType(DayTypeEnum arg0)` → `ParametricDatesBuilder` [Setter]
-- `getDayType()` → `DayTypeEnum` [Getter]
 - `setDayDistribution(DayDistributionEnum arg0)` → `ParametricDatesBuilder` [Setter]
+- `getOrCreateLag()` → `LagBuilder` [Getter]
+- `getDayFrequency()` → `BigDecimal` [Getter]
 - `getDayDistribution()` → `DayDistributionEnum` [Getter]
+- `setDayFrequency(BigDecimal arg0)` → `ParametricDatesBuilder` [Setter]
+- `getOrCreateBusinessCenters()` → `BusinessCentersBuilder` [Getter]
+- `setBusinessCenters(BusinessCenters arg0)` → `ParametricDatesBuilder` [Setter]
 
 ### ParametricDatesImpl
 **Implements:** `ParametricDates` 
@@ -1289,11 +1289,11 @@
 **Key Methods:**
 - `build()` → `ParametricDates` [Builder]
 - `getDayOfWeek()` → `List` [Getter]
+- `setBuilderFields(ParametricDatesBuilder arg0)` → `void` [Setter]
+- `getDayFrequency()` → `BigDecimal` [Getter]
+- `getDayDistribution()` → `DayDistributionEnum` [Getter]
 - `getBusinessCenters()` → `BusinessCenters` [Getter]
 - `getDayType()` → `DayTypeEnum` [Getter]
-- `setBuilderFields(ParametricDatesBuilder arg0)` → `void` [Setter]
-- `getDayDistribution()` → `DayDistributionEnum` [Getter]
-- `getDayFrequency()` → `BigDecimal` [Getter]
 - `getLag()` → `Lag` [Getter]
 
 ### PaymentCalculationPeriodBuilderImpl
@@ -1311,14 +1311,14 @@
 
 **Key Methods:**
 - `build()` → `PaymentCalculationPeriod` [Builder]
-- `setCalculationPeriod(List arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
-- `getCalculationPeriod()` → `List` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
 - `setAdjustedPaymentDate(Date arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
-- `setPresentValueAmount(Money arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
-- `getAdjustedPaymentDate()` → `Date` [Getter]
+- `getForecastPaymentAmount()` → `MoneyBuilder` [Getter]
+- `getPresentValueAmount()` → `MoneyBuilder` [Getter]
 - `getFixedPaymentAmount()` → `MoneyBuilder` [Getter]
-- `setFixedPaymentAmount(Money arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
+- `setUnadjustedPaymentDate(Date arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
 - `setForecastPaymentAmount(Money arg0)` → `PaymentCalculationPeriodBuilder` [Setter]
 
 ### PaymentCalculationPeriodImpl
@@ -1326,15 +1326,15 @@
 
 **Key Methods:**
 - `build()` → `PaymentCalculationPeriod` [Builder]
-- `getCalculationPeriod()` → `List` [Getter]
 - `setBuilderFields(PaymentCalculationPeriodBuilder arg0)` → `void` [Setter]
-- `getAdjustedPaymentDate()` → `Date` [Getter]
-- `getFixedPaymentAmount()` → `Money` [Getter]
-- `getPresentValueAmount()` → `Money` [Getter]
-- `getForecastPaymentAmount()` → `Money` [Getter]
-- `getUnadjustedPaymentDate()` → `Date` [Getter]
-- `getDiscountFactor()` → `BigDecimal` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getForecastPaymentAmount()` → `Money` [Getter]
+- `getPresentValueAmount()` → `Money` [Getter]
+- `getFixedPaymentAmount()` → `Money` [Getter]
+- `getDiscountFactor()` → `BigDecimal` [Getter]
+- `getUnadjustedPaymentDate()` → `Date` [Getter]
+- `getAdjustedPaymentDate()` → `Date` [Getter]
+- `getCalculationPeriod()` → `List` [Getter]
 
 ### PaymentDateScheduleBuilderImpl
 **Implements:** `PaymentDateSchedule$PaymentDateScheduleBuilder` 
@@ -1345,9 +1345,9 @@
 
 **Key Methods:**
 - `build()` → `PaymentDateSchedule` [Builder]
-- `setInterimPaymentDates(List arg0)` → `PaymentDateScheduleBuilder` [Setter]
 - `getInterimPaymentDates()` → `List` [Getter]
 - `getFinalPaymentDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
+- `setInterimPaymentDates(List arg0)` → `PaymentDateScheduleBuilder` [Setter]
 - `setFinalPaymentDate(AdjustableOrRelativeDate arg0)` → `PaymentDateScheduleBuilder` [Setter]
 - `getOrCreateFinalPaymentDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `getOrCreateInterimPaymentDates(int arg0)` → `AdjustableRelativeOrPeriodicDatesBuilder` [Getter]
@@ -1377,14 +1377,14 @@
 **Key Methods:**
 - `build()` → `PaymentDates` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `PaymentDatesBuilder` [Setter]
+- `getPayRelativeTo()` → `PayRelativeToEnum` [Getter]
+- `getPaymentDaysOffset()` → `OffsetBuilder` [Getter]
 - `getPaymentFrequency()` → `FrequencyBuilder` [Getter]
 - `getFirstPaymentDate()` → `Date` [Getter]
-- `setPaymentDatesAdjustments(BusinessDayAdjustments arg0)` → `PaymentDatesBuilder` [Setter]
-- `getPayRelativeTo()` → `PayRelativeToEnum` [Getter]
 - `getPaymentDateSchedule()` → `PaymentDateScheduleBuilder` [Getter]
-- `getPaymentDatesAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
-- `setFirstPaymentDate(Date arg0)` → `PaymentDatesBuilder` [Setter]
-- `setLastRegularPaymentDate(Date arg0)` → `PaymentDatesBuilder` [Setter]
+- `getLastRegularPaymentDate()` → `Date` [Getter]
 
 ### PaymentDatesImpl
 **Implements:** `PaymentDates` 
@@ -1392,14 +1392,14 @@
 **Key Methods:**
 - `build()` → `PaymentDates` [Builder]
 - `setBuilderFields(PaymentDatesBuilder arg0)` → `void` [Setter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getPayRelativeTo()` → `PayRelativeToEnum` [Getter]
+- `getPaymentDaysOffset()` → `Offset` [Getter]
 - `getPaymentFrequency()` → `Frequency` [Getter]
 - `getFirstPaymentDate()` → `Date` [Getter]
-- `getPayRelativeTo()` → `PayRelativeToEnum` [Getter]
 - `getPaymentDateSchedule()` → `PaymentDateSchedule` [Getter]
-- `getPaymentDatesAdjustments()` → `BusinessDayAdjustments` [Getter]
 - `getLastRegularPaymentDate()` → `Date` [Getter]
-- `getPaymentDaysOffset()` → `Offset` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
+- `getPaymentDatesAdjustments()` → `BusinessDayAdjustments` [Getter]
 
 ### RateScheduleBuilderImpl
 **Implements:** `RateSchedule$RateScheduleBuilder` 
@@ -1410,9 +1410,9 @@
 **Key Methods:**
 - `build()` → `RateSchedule` [Builder]
 - `getOrCreatePrice()` → `ReferenceWithMetaPriceScheduleBuilder` [Getter]
+- `getPrice()` → `ReferenceWithMetaPriceScheduleBuilder` [Getter]
 - `setPriceValue(PriceSchedule arg0)` → `RateScheduleBuilder` [Setter]
 - `setPrice(ReferenceWithMetaPriceSchedule arg0)` → `RateScheduleBuilder` [Setter]
-- `getPrice()` → `ReferenceWithMetaPriceScheduleBuilder` [Getter]
 
 ### RateScheduleImpl
 **Implements:** `RateSchedule` 
@@ -1439,14 +1439,14 @@
 **Key Methods:**
 - `build()` → `ResetDates` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `getResetFrequency()` → `ResetFrequencyBuilder` [Getter]
-- `getFinalFixingDate()` → `AdjustableDateBuilder` [Getter]
-- `getRateCutOffDaysOffset()` → `OffsetBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `ResetDatesBuilder` [Setter]
 - `getFixingDates()` → `RelativeDateOffsetBuilder` [Getter]
-- `getResetDatesAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
 - `getInitialFixingDate()` → `InitialFixingDateBuilder` [Getter]
 - `getResetRelativeTo()` → `ResetRelativeToEnum` [Getter]
-- `getOrCreateFixingDates()` → `RelativeDateOffsetBuilder` [Getter]
+- `getFinalFixingDate()` → `AdjustableDateBuilder` [Getter]
+- `getRateCutOffDaysOffset()` → `OffsetBuilder` [Getter]
+- `getResetFrequency()` → `ResetFrequencyBuilder` [Getter]
 
 ### ResetDatesImpl
 **Implements:** `ResetDates` 
@@ -1454,14 +1454,14 @@
 **Key Methods:**
 - `build()` → `ResetDates` [Builder]
 - `setBuilderFields(ResetDatesBuilder arg0)` → `void` [Setter]
-- `getResetFrequency()` → `ResetFrequency` [Getter]
-- `getFinalFixingDate()` → `AdjustableDate` [Getter]
-- `getRateCutOffDaysOffset()` → `Offset` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
 - `getFixingDates()` → `RelativeDateOffset` [Getter]
-- `getResetDatesAdjustments()` → `BusinessDayAdjustments` [Getter]
 - `getInitialFixingDate()` → `InitialFixingDate` [Getter]
 - `getResetRelativeTo()` → `ResetRelativeToEnum` [Getter]
-- `getCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDates` [Getter]
+- `getFinalFixingDate()` → `AdjustableDate` [Getter]
+- `getRateCutOffDaysOffset()` → `Offset` [Getter]
+- `getResetFrequency()` → `ResetFrequency` [Getter]
+- `getResetDatesAdjustments()` → `BusinessDayAdjustments` [Getter]
 
 ### ResetFrequencyBuilderImpl
 **Extends:** `Frequency$FrequencyBuilderImpl` 
@@ -1472,11 +1472,11 @@
 
 **Key Methods:**
 - `build()` → `ResetFrequency` [Builder]
-- `setPeriod(PeriodExtendedEnum arg0)` → `ResetFrequencyBuilder` [Setter]
-- `setPeriodMultiplier(Integer arg0)` → `ResetFrequencyBuilder` [Setter]
+- `setMeta(MetaFields arg0)` → `ResetFrequencyBuilder` [Setter]
 - `getWeeklyRollConvention()` → `WeeklyRollConventionEnum` [Getter]
 - `setWeeklyRollConvention(WeeklyRollConventionEnum arg0)` → `ResetFrequencyBuilder` [Setter]
-- `setMeta(MetaFields arg0)` → `ResetFrequencyBuilder` [Setter]
+- `setPeriod(PeriodExtendedEnum arg0)` → `ResetFrequencyBuilder` [Setter]
+- `setPeriodMultiplier(Integer arg0)` → `ResetFrequencyBuilder` [Setter]
 
 ### ResetFrequencyImpl
 **Extends:** `Frequency$FrequencyImpl` 
@@ -1497,15 +1497,15 @@
 
 **Key Methods:**
 - `build()` → `StubCalculationPeriodAmount` [Builder]
-- `getFinalStub()` → `StubValueBuilder` [Getter]
 - `getInitialStub()` → `StubValueBuilder` [Getter]
+- `getFinalStub()` → `StubValueBuilder` [Getter]
 - `getOrCreateInitialStub()` → `StubValueBuilder` [Getter]
-- `setFinalStub(StubValue arg0)` → `StubCalculationPeriodAmountBuilder` [Setter]
-- `getOrCreateFinalStub()` → `StubValueBuilder` [Getter]
 - `setInitialStub(StubValue arg0)` → `StubCalculationPeriodAmountBuilder` [Setter]
+- `getOrCreateFinalStub()` → `StubValueBuilder` [Getter]
+- `setFinalStub(StubValue arg0)` → `StubCalculationPeriodAmountBuilder` [Setter]
+- `getOrCreateCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 - `getCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 - `setCalculationPeriodDatesReference(ReferenceWithMetaCalculationPeriodDates arg0)` → `StubCalculationPeriodAmountBuilder` [Setter]
-- `getOrCreateCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 
 ### StubCalculationPeriodAmountImpl
 **Implements:** `StubCalculationPeriodAmount` 
@@ -1513,8 +1513,8 @@
 **Key Methods:**
 - `build()` → `StubCalculationPeriodAmount` [Builder]
 - `setBuilderFields(StubCalculationPeriodAmountBuilder arg0)` → `void` [Setter]
-- `getFinalStub()` → `StubValue` [Getter]
 - `getInitialStub()` → `StubValue` [Getter]
+- `getFinalStub()` → `StubValue` [Getter]
 - `getCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDates` [Getter]
 
 ### StubPeriodBuilderImpl
@@ -1527,15 +1527,15 @@
 
 **Key Methods:**
 - `build()` → `StubPeriod` [Builder]
-- `getFinalStub()` → `StubValueBuilder` [Getter]
 - `getInitialStub()` → `StubValueBuilder` [Getter]
+- `getFinalStub()` → `StubValueBuilder` [Getter]
 - `getOrCreateInitialStub()` → `StubValueBuilder` [Getter]
-- `setFinalStub(StubValue arg0)` → `StubPeriodBuilder` [Setter]
-- `getOrCreateFinalStub()` → `StubValueBuilder` [Getter]
 - `setInitialStub(StubValue arg0)` → `StubPeriodBuilder` [Setter]
+- `getOrCreateFinalStub()` → `StubValueBuilder` [Getter]
+- `setFinalStub(StubValue arg0)` → `StubPeriodBuilder` [Setter]
+- `getOrCreateCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 - `getCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 - `setCalculationPeriodDatesReference(ReferenceWithMetaCalculationPeriodDates arg0)` → `StubPeriodBuilder` [Setter]
-- `getOrCreateCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Getter]
 
 ### StubPeriodImpl
 **Implements:** `StubPeriod` 
@@ -1543,8 +1543,8 @@
 **Key Methods:**
 - `build()` → `StubPeriod` [Builder]
 - `setBuilderFields(StubPeriodBuilder arg0)` → `void` [Setter]
-- `getFinalStub()` → `StubValue` [Getter]
 - `getInitialStub()` → `StubValue` [Getter]
+- `getFinalStub()` → `StubValue` [Getter]
 - `getCalculationPeriodDatesReference()` → `ReferenceWithMetaCalculationPeriodDates` [Getter]
 
 ### WeightedAveragingObservationBuilderImpl
@@ -1557,9 +1557,9 @@
 
 **Key Methods:**
 - `build()` → `WeightedAveragingObservation` [Builder]
-- `getDateTime()` → `ZonedDateTime` [Getter]
-- `setDateTime(ZonedDateTime arg0)` → `WeightedAveragingObservationBuilder` [Setter]
 - `getWeight()` → `BigDecimal` [Getter]
+- `setDateTime(ZonedDateTime arg0)` → `WeightedAveragingObservationBuilder` [Setter]
+- `getDateTime()` → `ZonedDateTime` [Getter]
 - `getObservationNumber()` → `Integer` [Getter]
 - `setObservationNumber(Integer arg0)` → `WeightedAveragingObservationBuilder` [Setter]
 - `setWeight(BigDecimal arg0)` → `WeightedAveragingObservationBuilder` [Setter]
@@ -1569,8 +1569,8 @@
 
 **Key Methods:**
 - `build()` → `WeightedAveragingObservation` [Builder]
-- `getDateTime()` → `ZonedDateTime` [Getter]
-- `getWeight()` → `BigDecimal` [Getter]
 - `setBuilderFields(WeightedAveragingObservationBuilder arg0)` → `void` [Setter]
+- `getWeight()` → `BigDecimal` [Getter]
+- `getDateTime()` → `ZonedDateTime` [Getter]
 - `getObservationNumber()` → `Integer` [Getter]
 

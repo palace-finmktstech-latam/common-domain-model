@@ -16,10 +16,10 @@
 #### Setter Methods
 
 - `CommodityReferenceFrameworkBuilder setCurrency(FieldWithMetaString arg0)`
-- `CommodityReferenceFrameworkBuilder setWeatherUnit(WeatherUnitEnum arg0)`
-- `CommodityReferenceFrameworkBuilder setCapacityUnit(CapacityUnitEnum arg0)`
-- `CommodityReferenceFrameworkBuilder setCurrencyValue(String arg0)`
 - `CommodityReferenceFrameworkBuilder setCommodityName(String arg0)`
+- `CommodityReferenceFrameworkBuilder setCurrencyValue(String arg0)`
+- `CommodityReferenceFrameworkBuilder setCapacityUnit(CapacityUnitEnum arg0)`
+- `CommodityReferenceFrameworkBuilder setWeatherUnit(WeatherUnitEnum arg0)`
 
 #### Getter Methods
 

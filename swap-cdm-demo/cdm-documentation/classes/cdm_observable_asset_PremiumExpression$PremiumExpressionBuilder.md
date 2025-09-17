@@ -15,9 +15,9 @@
 
 #### Setter Methods
 
-- `PremiumExpressionBuilder setPremiumType(PremiumTypeEnum arg0)`
-- `PremiumExpressionBuilder setPricePerOption(Money arg0)`
 - `PremiumExpressionBuilder setPercentageOfNotional(BigDecimal arg0)`
+- `PremiumExpressionBuilder setPricePerOption(Money arg0)`
+- `PremiumExpressionBuilder setPremiumType(PremiumTypeEnum arg0)`
 
 #### Getter Methods
 

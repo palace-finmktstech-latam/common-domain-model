@@ -27,21 +27,21 @@
 
 #### Setter Methods
 
-- `PersonIdentifierBuilder setIdentifierType(PersonIdentifierTypeEnum arg0)`
-- `PersonIdentifierBuilder setCountryValue(String arg0)`
-- `PersonIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
 - `PersonIdentifierBuilder setIdentifierValue(String arg0)`
-- `PersonIdentifierBuilder setCountry(FieldWithMetaString arg0)`
+- `PersonIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
 - `PersonIdentifierBuilder setMeta(MetaFields arg0)`
+- `PersonIdentifierBuilder setCountry(FieldWithMetaString arg0)`
+- `PersonIdentifierBuilder setCountryValue(String arg0)`
+- `PersonIdentifierBuilder setIdentifierType(PersonIdentifierTypeEnum arg0)`
 
 #### Getter Methods
 
 - `FieldWithMetaStringBuilder getCountry()`
-- `FieldWithMetaStringBuilder getOrCreateCountry()`
 - `PersonIdentifierTypeEnum getIdentifierType()`
 - `FieldWithMetaStringBuilder getOrCreateIdentifier()`
 - `MetaFieldsBuilder getOrCreateMeta()`
 - `MetaFieldsBuilder getMeta()`
+- `FieldWithMetaStringBuilder getOrCreateCountry()`
 - `FieldWithMetaStringBuilder getIdentifier()`
 
 #### Other Methods
@@ -50,7 +50,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PersonIdentifierBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PersonIdentifierBuilder toBuilder()`
 - `PersonIdentifierBuilder prune()`
+- `PersonIdentifierBuilder toBuilder()`
+- `boolean hasData()`
 

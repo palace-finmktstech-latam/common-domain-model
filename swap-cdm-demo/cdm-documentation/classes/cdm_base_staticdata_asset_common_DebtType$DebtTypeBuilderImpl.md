@@ -30,14 +30,14 @@
 
 #### Getter Methods
 
-- `DebtEconomicsBuilder getOrCreateDebtEconomics(int arg0)`
-- `List getDebtEconomics()`
 - `DebtClassEnum getDebtClass()`
+- `List getDebtEconomics()`
+- `DebtEconomicsBuilder getOrCreateDebtEconomics(int arg0)`
 
 #### Adder Methods
 
-- `DebtTypeBuilder addDebtEconomics(List arg0)`
 - `DebtTypeBuilder addDebtEconomics(DebtEconomics arg0, int arg1)`
+- `DebtTypeBuilder addDebtEconomics(List arg0)`
 - `DebtTypeBuilder addDebtEconomics(DebtEconomics arg0)`
 
 #### Other Methods
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DebtTypeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DebtTypeBuilder toBuilder()`
 - `DebtTypeBuilder prune()`
+- `DebtTypeBuilder toBuilder()`
+- `boolean hasData()`
 

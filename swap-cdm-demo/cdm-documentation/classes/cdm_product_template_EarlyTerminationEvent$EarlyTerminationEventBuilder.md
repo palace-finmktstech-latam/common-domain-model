@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `EarlyTerminationEventBuilder setAdjustedEarlyTerminationDate(Date arg0)`
-- `EarlyTerminationEventBuilder setAdjustedCashSettlementValuationDate(Date arg0)`
-- `EarlyTerminationEventBuilder setAdjustedExerciseFeePaymentDate(Date arg0)`
 - `EarlyTerminationEventBuilder setAdjustedCashSettlementPaymentDate(Date arg0)`
+- `EarlyTerminationEventBuilder setAdjustedExerciseFeePaymentDate(Date arg0)`
+- `EarlyTerminationEventBuilder setAdjustedCashSettlementValuationDate(Date arg0)`
 - `EarlyTerminationEventBuilder setAdjustedExerciseDate(Date arg0)`
 - `EarlyTerminationEventBuilder setMeta(MetaFields arg0)`
 

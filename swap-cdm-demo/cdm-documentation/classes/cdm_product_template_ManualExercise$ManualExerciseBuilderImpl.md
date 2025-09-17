@@ -31,8 +31,8 @@
 #### Getter Methods
 
 - `ExerciseNoticeBuilder getExerciseNotice()`
-- `ExerciseNoticeBuilder getOrCreateExerciseNotice()`
 - `Boolean getFallbackExercise()`
+- `ExerciseNoticeBuilder getOrCreateExerciseNotice()`
 
 #### Other Methods
 
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ManualExerciseBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ManualExerciseBuilder toBuilder()`
 - `ManualExerciseBuilder prune()`
+- `ManualExerciseBuilder toBuilder()`
+- `boolean hasData()`
 

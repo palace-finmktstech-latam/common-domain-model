@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `MultipleCreditNotations getCreditNotations()`
 - `CreditNotation getCreditNotation()`
+- `MultipleCreditNotations getCreditNotations()`
 
 #### Other Methods
 

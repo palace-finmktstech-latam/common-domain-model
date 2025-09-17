@@ -20,8 +20,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Period getExerciseFrequency()`
 - `Period getEarliestExerciseDateTenor()`
+- `Period getExerciseFrequency()`
 - `MetaFields getMeta()`
 
 #### Other Methods

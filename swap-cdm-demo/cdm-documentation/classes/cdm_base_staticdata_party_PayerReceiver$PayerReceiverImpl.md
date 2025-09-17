@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `CounterpartyRoleEnum getPayer()`
 - `CounterpartyRoleEnum getReceiver()`
+- `CounterpartyRoleEnum getPayer()`
 
 #### Other Methods
 

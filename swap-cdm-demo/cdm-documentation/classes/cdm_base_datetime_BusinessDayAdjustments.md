@@ -20,9 +20,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `BusinessDayConventionEnum getBusinessDayConvention()`
-- `BusinessCenters getBusinessCenters()`
 - `MetaFields getMeta()`
+- `BusinessCenters getBusinessCenters()`
+- `BusinessDayConventionEnum getBusinessDayConvention()`
 
 #### Other Methods
 

@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Date doEvaluate(EconomicTerms arg0)`
 - `Date assignOutput(Date arg0, EconomicTerms arg1)`
+- `Date doEvaluate(EconomicTerms arg0)`
 

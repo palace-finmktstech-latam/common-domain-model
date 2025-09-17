@@ -21,8 +21,8 @@
 - `Class getType()`
 - `FieldWithMetaString getMessageId()`
 - `List getSentTo()`
-- `List getCopyTo()`
 - `FieldWithMetaString getSentBy()`
+- `List getCopyTo()`
 
 #### Other Methods
 

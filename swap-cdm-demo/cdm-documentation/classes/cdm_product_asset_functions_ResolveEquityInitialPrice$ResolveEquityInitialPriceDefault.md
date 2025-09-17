@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `PriceScheduleBuilder doEvaluate(List arg0)`
 - `PriceScheduleBuilder assignOutput(PriceScheduleBuilder arg0, List arg1)`
+- `PriceScheduleBuilder doEvaluate(List arg0)`
 

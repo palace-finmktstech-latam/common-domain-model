@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `List getLotIdentifier()`
 - `List getPriceQuantity()`
+- `List getLotIdentifier()`
 
 #### Other Methods
 

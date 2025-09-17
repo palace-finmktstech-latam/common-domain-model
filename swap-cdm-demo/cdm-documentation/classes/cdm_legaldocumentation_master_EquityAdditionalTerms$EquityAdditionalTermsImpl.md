@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `ExtraordinaryEvents getExtraordinaryEvents()`
 - `List getDeterminationTerms()`
 - `UnderlierSubstitutionProvision getSubstitutionProvision()`
+- `ExtraordinaryEvents getExtraordinaryEvents()`
 
 #### Other Methods
 

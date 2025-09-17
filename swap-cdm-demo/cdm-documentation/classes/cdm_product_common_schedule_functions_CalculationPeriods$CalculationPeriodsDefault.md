@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `List doEvaluate(CalculationPeriodDates arg0)`
 - `List assignOutput(List arg0, CalculationPeriodDates arg1)`
+- `List doEvaluate(CalculationPeriodDates arg0)`
 

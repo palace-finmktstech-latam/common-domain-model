@@ -17,13 +17,13 @@
 
 - `ExerciseNoticeBuilder setBusinessCenterValue(BusinessCenterEnum arg0)`
 - `ExerciseNoticeBuilder setBusinessCenter(FieldWithMetaBusinessCenterEnum arg0)`
-- `ExerciseNoticeBuilder setExerciseNoticeReceiver(AncillaryRoleEnum arg0)`
 - `ExerciseNoticeBuilder setExerciseNoticeGiver(ExerciseNoticeGiverEnum arg0)`
+- `ExerciseNoticeBuilder setExerciseNoticeReceiver(AncillaryRoleEnum arg0)`
 
 #### Getter Methods
 
-- `FieldWithMetaBusinessCenterEnumBuilder getOrCreateBusinessCenter()`
 - `FieldWithMetaBusinessCenterEnumBuilder getBusinessCenter()`
+- `FieldWithMetaBusinessCenterEnumBuilder getOrCreateBusinessCenter()`
 
 #### Other Methods
 

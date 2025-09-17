@@ -27,21 +27,21 @@
 
 #### Setter Methods
 
-- `DeliveryDateParametersBuilder setDeliveryDateRollConvention(Offset arg0)`
-- `DeliveryDateParametersBuilder setDeliveryDateExpirationConvention(Offset arg0)`
 - `DeliveryDateParametersBuilder setDeliveryDate(AdjustableDate arg0)`
 - `DeliveryDateParametersBuilder setDeliveryNearby(Offset arg0)`
+- `DeliveryDateParametersBuilder setDeliveryDateRollConvention(Offset arg0)`
+- `DeliveryDateParametersBuilder setDeliveryDateExpirationConvention(Offset arg0)`
 
 #### Getter Methods
 
-- `OffsetBuilder getOrCreateDeliveryDateRollConvention()`
-- `OffsetBuilder getDeliveryDateExpirationConvention()`
-- `OffsetBuilder getDeliveryDateRollConvention()`
+- `OffsetBuilder getOrCreateDeliveryDateExpirationConvention()`
 - `OffsetBuilder getDeliveryNearby()`
 - `AdjustableDateBuilder getDeliveryDate()`
-- `AdjustableDateBuilder getOrCreateDeliveryDate()`
 - `OffsetBuilder getOrCreateDeliveryNearby()`
-- `OffsetBuilder getOrCreateDeliveryDateExpirationConvention()`
+- `AdjustableDateBuilder getOrCreateDeliveryDate()`
+- `OffsetBuilder getDeliveryDateRollConvention()`
+- `OffsetBuilder getOrCreateDeliveryDateRollConvention()`
+- `OffsetBuilder getDeliveryDateExpirationConvention()`
 
 #### Other Methods
 
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DeliveryDateParametersBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DeliveryDateParametersBuilder toBuilder()`
 - `DeliveryDateParametersBuilder prune()`
+- `DeliveryDateParametersBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -38,7 +38,7 @@
 - `String toString()`
 - `int hashCode()`
 - `RateScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `RateScheduleBuilder toBuilder()`
 - `RateScheduleBuilder prune()`
+- `RateScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

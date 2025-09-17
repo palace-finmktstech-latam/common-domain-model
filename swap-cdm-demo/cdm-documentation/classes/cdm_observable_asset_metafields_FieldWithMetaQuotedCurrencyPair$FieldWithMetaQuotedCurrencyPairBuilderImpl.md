@@ -31,8 +31,8 @@
 #### Getter Methods
 
 - `QuotedCurrencyPairBuilder getValue()`
-- `QuotedCurrencyPairBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `QuotedCurrencyPairBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaQuotedCurrencyPairBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaQuotedCurrencyPairBuilder toBuilder()`
 - `FieldWithMetaQuotedCurrencyPairBuilder prune()`
+- `FieldWithMetaQuotedCurrencyPairBuilder toBuilder()`
+- `boolean hasData()`
 

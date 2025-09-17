@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `MoneyBuilder doEvaluate(Quantity arg0)`
 - `MoneyBuilder assignOutput(MoneyBuilder arg0, Quantity arg1)`
+- `MoneyBuilder doEvaluate(Quantity arg0)`
 

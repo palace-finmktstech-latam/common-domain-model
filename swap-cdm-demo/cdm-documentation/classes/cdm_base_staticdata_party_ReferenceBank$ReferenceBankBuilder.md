@@ -15,9 +15,9 @@
 
 #### Setter Methods
 
+- `ReferenceBankBuilder setReferenceBankName(String arg0)`
 - `ReferenceBankBuilder setReferenceBankId(FieldWithMetaString arg0)`
 - `ReferenceBankBuilder setReferenceBankIdValue(String arg0)`
-- `ReferenceBankBuilder setReferenceBankName(String arg0)`
 
 #### Getter Methods
 

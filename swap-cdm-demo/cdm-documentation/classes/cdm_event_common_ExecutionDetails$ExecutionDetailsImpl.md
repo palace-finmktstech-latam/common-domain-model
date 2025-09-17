@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `IdentifiedList getPackageReference()`
 - `ExecutionTypeEnum getExecutionType()`
+- `IdentifiedList getPackageReference()`
 - `LegalEntity getExecutionVenue()`
 - `MetaFields getMeta()`
 

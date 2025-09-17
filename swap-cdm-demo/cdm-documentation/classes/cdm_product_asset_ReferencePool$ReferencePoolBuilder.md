@@ -25,8 +25,8 @@
 #### Adder Methods
 
 - `ReferencePoolBuilder addReferencePoolItem(List arg0)`
-- `ReferencePoolBuilder addReferencePoolItem(ReferencePoolItem arg0, int arg1)`
 - `ReferencePoolBuilder addReferencePoolItem(ReferencePoolItem arg0)`
+- `ReferencePoolBuilder addReferencePoolItem(ReferencePoolItem arg0, int arg1)`
 
 #### Other Methods
 

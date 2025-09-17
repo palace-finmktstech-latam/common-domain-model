@@ -27,11 +27,11 @@
 
 #### Getter Methods
 
-- `LocalDateTime getOpenDateTime()`
-- `TradableProduct getPositionBase()`
-- `List getPositionIdentifier()`
-- `List getTradeReference()`
 - `List getPartyRole()`
+- `List getTradeReference()`
+- `TradableProduct getPositionBase()`
+- `LocalDateTime getOpenDateTime()`
+- `List getPositionIdentifier()`
 - `List getParty()`
 
 #### Other Methods

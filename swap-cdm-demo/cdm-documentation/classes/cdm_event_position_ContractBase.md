@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
+- `ReferenceWithMetaExecutionDetails getExecutionDetails()`
 - `ReferenceWithMetaContractDetails getContractDetails()`
 - `ReferenceWithMetaCollateral getCollateral()`
-- `ReferenceWithMetaExecutionDetails getExecutionDetails()`
 
 #### Other Methods
 

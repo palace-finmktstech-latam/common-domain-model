@@ -25,10 +25,10 @@
 - `FloatingRateSettingDetails evaluate(InterestRatePayout arg0, CalculationPeriodBase arg1, FloatingRateIndexProcessingTypeEnum arg2)`
 - `FloatingRateSettingDetailsBuilder doEvaluate(InterestRatePayout arg0, CalculationPeriodBase arg1, FloatingRateIndexProcessingTypeEnum arg2)`
 - `MapperS resetDates(InterestRatePayout arg0, CalculationPeriodBase arg1, FloatingRateIndexProcessingTypeEnum arg2)`
-- `MapperS rateDef(InterestRatePayout arg0, CalculationPeriodBase arg1, FloatingRateIndexProcessingTypeEnum arg2)`
 - `MapperS dayCount(InterestRatePayout arg0, CalculationPeriodBase arg1, FloatingRateIndexProcessingTypeEnum arg2)`
 - `MapperS calcParams(InterestRatePayout arg0, CalculationPeriodBase arg1, FloatingRateIndexProcessingTypeEnum arg2)`
 - `MapperS fro(InterestRatePayout arg0, CalculationPeriodBase arg1, FloatingRateIndexProcessingTypeEnum arg2)`
+- `MapperS rateDef(InterestRatePayout arg0, CalculationPeriodBase arg1, FloatingRateIndexProcessingTypeEnum arg2)`
 
 ### Annotations
 

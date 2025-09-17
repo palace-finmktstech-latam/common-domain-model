@@ -22,8 +22,8 @@
 #### Getter Methods
 
 - `Optional getPrincipalPayment(Path arg0, Path arg1)`
-- `LocalDate getAdjustedOrUnadjustedDate(PrincipalPayment arg0)`
 - `LinkedList getPrincipalPayments(Path arg0)`
+- `LocalDate getAdjustedOrUnadjustedDate(PrincipalPayment arg0)`
 
 #### Other Methods
 

@@ -24,8 +24,8 @@
 
 - `String getComment()`
 - `List getPartyCustomisedWorkflow()`
-- `WarehouseIdentityEnum getWarehouseIdentity()`
 - `WorkflowStatusEnum getWorkflowStatus()`
+- `WarehouseIdentityEnum getWarehouseIdentity()`
 
 #### Other Methods
 

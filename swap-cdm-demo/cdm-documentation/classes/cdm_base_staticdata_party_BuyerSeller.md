@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `CounterpartyRoleEnum getSeller()`
 - `CounterpartyRoleEnum getBuyer()`
+- `CounterpartyRoleEnum getSeller()`
 
 #### Other Methods
 

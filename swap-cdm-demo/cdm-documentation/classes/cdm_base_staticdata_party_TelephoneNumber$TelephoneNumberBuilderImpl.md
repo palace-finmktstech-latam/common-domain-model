@@ -25,8 +25,8 @@
 
 #### Setter Methods
 
-- `TelephoneNumberBuilder setTelephoneNumberType(TelephoneTypeEnum arg0)`
 - `TelephoneNumberBuilder setNumber(String arg0)`
+- `TelephoneNumberBuilder setTelephoneNumberType(TelephoneTypeEnum arg0)`
 
 #### Getter Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TelephoneNumberBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TelephoneNumberBuilder toBuilder()`
 - `TelephoneNumberBuilder prune()`
+- `TelephoneNumberBuilder toBuilder()`
+- `boolean hasData()`
 

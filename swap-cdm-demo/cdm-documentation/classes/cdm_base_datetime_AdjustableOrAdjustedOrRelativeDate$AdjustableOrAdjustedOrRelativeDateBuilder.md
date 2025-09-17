@@ -23,12 +23,12 @@
 
 #### Getter Methods
 
-- `BusinessDayAdjustmentsBuilder getOrCreateDateAdjustments()`
 - `FieldWithMetaDateBuilder getAdjustedDate()`
-- `FieldWithMetaDateBuilder getOrCreateAdjustedDate()`
-- `RelativeDateOffsetBuilder getOrCreateRelativeDate()`
 - `RelativeDateOffsetBuilder getRelativeDate()`
+- `BusinessDayAdjustmentsBuilder getOrCreateDateAdjustments()`
+- `FieldWithMetaDateBuilder getOrCreateAdjustedDate()`
 - `BusinessDayAdjustmentsBuilder getDateAdjustments()`
+- `RelativeDateOffsetBuilder getOrCreateRelativeDate()`
 
 #### Other Methods
 

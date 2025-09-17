@@ -25,13 +25,13 @@
 
 #### Setter Methods
 
-- `DateRangeBuilder setStartDate(Date arg0)`
 - `DateRangeBuilder setEndDate(Date arg0)`
+- `DateRangeBuilder setStartDate(Date arg0)`
 
 #### Getter Methods
 
-- `Date getStartDate()`
 - `Date getEndDate()`
+- `Date getStartDate()`
 
 #### Other Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DateRangeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DateRangeBuilder toBuilder()`
 - `DateRangeBuilder prune()`
+- `DateRangeBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -15,18 +15,18 @@
 
 #### Setter Methods
 
-- `ExerciseProcedureBuilder setManualExercise(ManualExercise arg0)`
 - `ExerciseProcedureBuilder setFollowUpConfirmation(Boolean arg0)`
+- `ExerciseProcedureBuilder setAutomaticExercise(AutomaticExercise arg0)`
+- `ExerciseProcedureBuilder setManualExercise(ManualExercise arg0)`
 - `ExerciseProcedureBuilder setLimitedRightToConfirm(Boolean arg0)`
 - `ExerciseProcedureBuilder setSplitTicket(Boolean arg0)`
-- `ExerciseProcedureBuilder setAutomaticExercise(AutomaticExercise arg0)`
 
 #### Getter Methods
 
-- `AutomaticExerciseBuilder getOrCreateAutomaticExercise()`
 - `ManualExerciseBuilder getOrCreateManualExercise()`
 - `ManualExerciseBuilder getManualExercise()`
 - `AutomaticExerciseBuilder getAutomaticExercise()`
+- `AutomaticExerciseBuilder getOrCreateAutomaticExercise()`
 
 #### Other Methods
 

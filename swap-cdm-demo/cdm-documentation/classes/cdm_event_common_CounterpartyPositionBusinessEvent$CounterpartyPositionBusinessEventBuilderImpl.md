@@ -29,23 +29,23 @@
 
 #### Setter Methods
 
-- `CounterpartyPositionBusinessEventBuilder setIntent(PositionEventIntentEnum arg0)`
-- `CounterpartyPositionBusinessEventBuilder setEffectiveDate(Date arg0)`
 - `CounterpartyPositionBusinessEventBuilder setEventDate(Date arg0)`
-- `CounterpartyPositionBusinessEventBuilder setCorporateActionIntent(CorporateActionTypeEnum arg0)`
+- `CounterpartyPositionBusinessEventBuilder setIntent(PositionEventIntentEnum arg0)`
 - `CounterpartyPositionBusinessEventBuilder setPackageInformation(IdentifiedList arg0)`
+- `CounterpartyPositionBusinessEventBuilder setCorporateActionIntent(CorporateActionTypeEnum arg0)`
 - `CounterpartyPositionBusinessEventBuilder setAfter(List arg0)`
+- `CounterpartyPositionBusinessEventBuilder setEffectiveDate(Date arg0)`
 
 #### Getter Methods
 
 - `Date getEffectiveDate()`
-- `CounterpartyPositionStateBuilder getOrCreateAfter(int arg0)`
-- `CorporateActionTypeEnum getCorporateActionIntent()`
-- `IdentifiedListBuilder getPackageInformation()`
-- `Date getEventDate()`
 - `IdentifiedListBuilder getOrCreatePackageInformation()`
+- `IdentifiedListBuilder getPackageInformation()`
+- `CorporateActionTypeEnum getCorporateActionIntent()`
+- `Date getEventDate()`
 - `List getAfter()`
 - `PositionEventIntentEnum getIntent()`
+- `CounterpartyPositionStateBuilder getOrCreateAfter(int arg0)`
 
 #### Adder Methods
 
@@ -59,7 +59,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CounterpartyPositionBusinessEventBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CounterpartyPositionBusinessEventBuilder toBuilder()`
 - `CounterpartyPositionBusinessEventBuilder prune()`
+- `CounterpartyPositionBusinessEventBuilder toBuilder()`
+- `boolean hasData()`
 

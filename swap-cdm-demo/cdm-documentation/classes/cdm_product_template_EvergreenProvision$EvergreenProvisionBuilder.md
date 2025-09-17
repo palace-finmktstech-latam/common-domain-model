@@ -15,25 +15,25 @@
 
 #### Setter Methods
 
-- `EvergreenProvisionBuilder setFinalPeriodFeeAdjustment(Price arg0)`
 - `EvergreenProvisionBuilder setExtensionFrequency(AdjustableRelativeOrPeriodicDates arg0)`
 - `EvergreenProvisionBuilder setNoticePeriod(RelativeDateOffset arg0)`
+- `EvergreenProvisionBuilder setFinalPeriodFeeAdjustment(Price arg0)`
 - `EvergreenProvisionBuilder setNoticeDeadlineDateTime(ZonedDateTime arg0)`
 - `EvergreenProvisionBuilder setNoticeDeadlinePeriod(RelativeDateOffset arg0)`
 - `EvergreenProvisionBuilder setSinglePartyOption(PartyRole arg0)`
 
 #### Getter Methods
 
-- `PartyRoleBuilder getSinglePartyOption()`
-- `RelativeDateOffsetBuilder getNoticePeriod()`
-- `AdjustableRelativeOrPeriodicDatesBuilder getExtensionFrequency()`
 - `RelativeDateOffsetBuilder getOrCreateNoticePeriod()`
-- `PartyRoleBuilder getOrCreateSinglePartyOption()`
-- `PriceBuilder getOrCreateFinalPeriodFeeAdjustment()`
 - `AdjustableRelativeOrPeriodicDatesBuilder getOrCreateExtensionFrequency()`
-- `RelativeDateOffsetBuilder getNoticeDeadlinePeriod()`
-- `RelativeDateOffsetBuilder getOrCreateNoticeDeadlinePeriod()`
+- `PriceBuilder getOrCreateFinalPeriodFeeAdjustment()`
+- `PartyRoleBuilder getSinglePartyOption()`
+- `AdjustableRelativeOrPeriodicDatesBuilder getExtensionFrequency()`
+- `RelativeDateOffsetBuilder getNoticePeriod()`
 - `PriceBuilder getFinalPeriodFeeAdjustment()`
+- `RelativeDateOffsetBuilder getOrCreateNoticeDeadlinePeriod()`
+- `RelativeDateOffsetBuilder getNoticeDeadlinePeriod()`
+- `PartyRoleBuilder getOrCreateSinglePartyOption()`
 
 #### Other Methods
 

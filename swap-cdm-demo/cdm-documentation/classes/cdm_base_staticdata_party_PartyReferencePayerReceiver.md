@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
+- `ReferenceWithMetaAccount getReceiverAccountReference()`
 - `ReferenceWithMetaParty getPayerPartyReference()`
 - `ReferenceWithMetaParty getReceiverPartyReference()`
 - `ReferenceWithMetaAccount getPayerAccountReference()`
-- `ReferenceWithMetaAccount getReceiverAccountReference()`
 
 #### Other Methods
 

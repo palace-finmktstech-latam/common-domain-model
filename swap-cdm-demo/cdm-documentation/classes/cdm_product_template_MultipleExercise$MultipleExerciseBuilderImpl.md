@@ -30,18 +30,18 @@
 
 #### Setter Methods
 
-- `MultipleExerciseBuilder setMinimumNumberOfOptions(Integer arg0)`
-- `MultipleExerciseBuilder setIntegralMultipleAmount(BigDecimal arg0)`
 - `MultipleExerciseBuilder setMinimumNotionalAmount(BigDecimal arg0)`
 - `MultipleExerciseBuilder setNotionaReference(ReferenceWithMetaMoney arg0)`
 - `MultipleExerciseBuilder setNotionaReferenceValue(Money arg0)`
+- `MultipleExerciseBuilder setMinimumNumberOfOptions(Integer arg0)`
+- `MultipleExerciseBuilder setIntegralMultipleAmount(BigDecimal arg0)`
 - `MultipleExerciseBuilder setMaximumNotionalAmount(BigDecimal arg0)`
 - `MultipleExerciseBuilder setMaximumNumberOfOptions(Integer arg0)`
 
 #### Getter Methods
 
-- `Integer getMaximumNumberOfOptions()`
 - `BigDecimal getMaximumNotionalAmount()`
+- `Integer getMaximumNumberOfOptions()`
 
 #### Other Methods
 
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MultipleExerciseBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MultipleExerciseBuilder toBuilder()`
 - `MultipleExerciseBuilder prune()`
+- `MultipleExerciseBuilder toBuilder()`
+- `boolean hasData()`
 

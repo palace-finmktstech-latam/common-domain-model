@@ -18,8 +18,8 @@
 **Key Methods:**
 - `setValue(FloatingRateIndexEnum arg0)` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Setter]
 
 ### FieldWithMetaInflationRateIndexEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -37,8 +37,8 @@
 **Key Methods:**
 - `setValue(InflationRateIndexEnum arg0)` → `FieldWithMetaInflationRateIndexEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaInflationRateIndexEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaInflationRateIndexEnumBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -54,8 +54,8 @@
 - `setValue(FloatingRateIndexEnum arg0)` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaFloatingRateIndexEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Setter]
 
 ### FieldWithMetaFloatingRateIndexEnumImpl
 **Implements:** `FieldWithMetaFloatingRateIndexEnum` 
@@ -81,8 +81,8 @@
 - `setValue(InflationRateIndexEnum arg0)` → `FieldWithMetaInflationRateIndexEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaInflationRateIndexEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaInflationRateIndexEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaInflationRateIndexEnumBuilder` [Setter]
 
 ### FieldWithMetaInflationRateIndexEnumImpl
 **Implements:** `FieldWithMetaInflationRateIndexEnum` 

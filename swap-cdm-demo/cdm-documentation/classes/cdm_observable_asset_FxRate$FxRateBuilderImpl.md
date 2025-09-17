@@ -25,14 +25,14 @@
 
 #### Setter Methods
 
-- `FxRateBuilder setRate(BigDecimal arg0)`
 - `FxRateBuilder setQuotedCurrencyPair(QuotedCurrencyPair arg0)`
+- `FxRateBuilder setRate(BigDecimal arg0)`
 
 #### Getter Methods
 
 - `QuotedCurrencyPairBuilder getQuotedCurrencyPair()`
-- `BigDecimal getRate()`
 - `QuotedCurrencyPairBuilder getOrCreateQuotedCurrencyPair()`
+- `BigDecimal getRate()`
 
 #### Other Methods
 
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FxRateBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FxRateBuilder toBuilder()`
 - `FxRateBuilder prune()`
+- `FxRateBuilder toBuilder()`
+- `boolean hasData()`
 

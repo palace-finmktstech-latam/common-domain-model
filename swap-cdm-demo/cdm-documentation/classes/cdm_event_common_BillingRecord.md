@@ -19,11 +19,11 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Date getRecordEndDate()`
 - `ReferenceWithMetaTradeState getTradeState()`
 - `Date getRecordStartDate()`
-- `Money getMinimumFee()`
+- `Date getRecordEndDate()`
 - `Transfer getRecordTransfer()`
+- `Money getMinimumFee()`
 
 #### Other Methods
 

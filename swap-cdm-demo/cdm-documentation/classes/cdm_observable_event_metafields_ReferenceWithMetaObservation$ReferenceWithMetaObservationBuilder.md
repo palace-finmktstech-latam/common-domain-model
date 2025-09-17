@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaObservationBuilder setValue(Observation arg0)`
-- `ReferenceWithMetaObservationBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaObservationBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaObservationBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaObservationBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaObservationBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

@@ -25,16 +25,16 @@
 
 #### Setter Methods
 
+- `DividendPaymentDateBuilder setDividendDateValue(AdjustableOrRelativeDate arg0)`
 - `DividendPaymentDateBuilder setDividendDate(ReferenceWithMetaAdjustableOrRelativeDate arg0)`
 - `DividendPaymentDateBuilder setDividendDateReference(DividendDateReference arg0)`
-- `DividendPaymentDateBuilder setDividendDateValue(AdjustableOrRelativeDate arg0)`
 
 #### Getter Methods
 
-- `DividendDateReferenceBuilder getOrCreateDividendDateReference()`
 - `ReferenceWithMetaAdjustableOrRelativeDateBuilder getOrCreateDividendDate()`
-- `DividendDateReferenceBuilder getDividendDateReference()`
 - `ReferenceWithMetaAdjustableOrRelativeDateBuilder getDividendDate()`
+- `DividendDateReferenceBuilder getDividendDateReference()`
+- `DividendDateReferenceBuilder getOrCreateDividendDateReference()`
 
 #### Other Methods
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DividendPaymentDateBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DividendPaymentDateBuilder toBuilder()`
 - `DividendPaymentDateBuilder prune()`
+- `DividendPaymentDateBuilder toBuilder()`
+- `boolean hasData()`
 

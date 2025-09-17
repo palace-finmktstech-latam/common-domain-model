@@ -22,12 +22,12 @@
 
 #### Getter Methods
 
-- `AdditionalFixedPayments getAdditionalFixedPayments()`
 - `InterestShortFall getInterestShortfall()`
 - `FloatingAmountProvisions getFloatingAmountProvisions()`
-- `Boolean getWritedown()`
 - `Boolean getFailureToPayPrincipal()`
 - `Boolean getImpliedWritedown()`
+- `Boolean getWritedown()`
+- `AdditionalFixedPayments getAdditionalFixedPayments()`
 
 #### Other Methods
 

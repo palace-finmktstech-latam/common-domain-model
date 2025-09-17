@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Boolean doEvaluate(List arg0, CompareOp arg1, List arg2, UnitType arg3)`
 - `Boolean assignOutput(Boolean arg0, List arg1, CompareOp arg2, List arg3, UnitType arg4)`
+- `Boolean doEvaluate(List arg0, CompareOp arg1, List arg2, UnitType arg3)`
 

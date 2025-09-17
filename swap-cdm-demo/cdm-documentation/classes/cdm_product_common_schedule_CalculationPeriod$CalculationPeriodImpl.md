@@ -27,16 +27,16 @@
 
 #### Getter Methods
 
-- `BigDecimal getNotionalAmount()`
-- `BigDecimal getFixedRate()`
+- `BigDecimal getForecastRate()`
+- `Date getUnadjustedEndDate()`
+- `FloatingRateDefinition getFloatingRateDefinition()`
 - `BigDecimal getDayCountYearFraction()`
+- `Date getUnadjustedStartDate()`
 - `Money getForecastAmount()`
 - `FxLinkedNotionalAmount getFxLinkedNotionalAmount()`
-- `FloatingRateDefinition getFloatingRateDefinition()`
-- `Date getUnadjustedStartDate()`
-- `Date getUnadjustedEndDate()`
-- `BigDecimal getForecastRate()`
 - `Integer getCalculationPeriodNumberOfDays()`
+- `BigDecimal getNotionalAmount()`
+- `BigDecimal getFixedRate()`
 
 #### Other Methods
 

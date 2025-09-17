@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `Offset getPaymentDateOffset()`
 - `DividendDateReferenceEnum getDateReference()`
+- `Offset getPaymentDateOffset()`
 
 #### Other Methods
 

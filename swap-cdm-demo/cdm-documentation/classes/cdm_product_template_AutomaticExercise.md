@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Boolean getIsApplicable()`
 - `BigDecimal getThresholdRate()`
+- `Boolean getIsApplicable()`
 
 #### Other Methods
 

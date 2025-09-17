@@ -30,9 +30,9 @@
 
 #### Getter Methods
 
+- `ContactElectionBuilder getOrCreatePrimaryNotices()`
 - `List getAdditionalNotices()`
 - `ContactElectionBuilder getPrimaryNotices()`
-- `ContactElectionBuilder getOrCreatePrimaryNotices()`
 - `PartyContactInformationBuilder getOrCreateAdditionalNotices(int arg0)`
 
 #### Adder Methods
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AddressForNoticesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AddressForNoticesBuilder toBuilder()`
 - `AddressForNoticesBuilder prune()`
+- `AddressForNoticesBuilder toBuilder()`
+- `boolean hasData()`
 

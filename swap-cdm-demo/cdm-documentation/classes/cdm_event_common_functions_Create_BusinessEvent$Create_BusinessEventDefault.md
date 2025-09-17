@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `BusinessEventBuilder doEvaluate(List arg0, EventIntentEnum arg1, Date arg2, Date arg3)`
 - `BusinessEventBuilder assignOutput(BusinessEventBuilder arg0, List arg1, EventIntentEnum arg2, Date arg3, Date arg4)`
+- `BusinessEventBuilder doEvaluate(List arg0, EventIntentEnum arg1, Date arg2, Date arg3)`
 

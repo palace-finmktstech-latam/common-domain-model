@@ -21,11 +21,11 @@
 
 #### Getter Methods
 
-- `AdjustableOrAdjustedOrRelativeDateBuilder getSettlementDate()`
 - `NonNegativeQuantityBuilder getQuantity()`
+- `AssetBuilder getOrCreateAsset()`
 - `AdjustableOrAdjustedOrRelativeDateBuilder getOrCreateSettlementDate()`
 - `NonNegativeQuantityBuilder getOrCreateQuantity()`
-- `AssetBuilder getOrCreateAsset()`
+- `AdjustableOrAdjustedOrRelativeDateBuilder getSettlementDate()`
 - `AssetBuilder getAsset()`
 
 #### Other Methods

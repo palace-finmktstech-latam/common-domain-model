@@ -27,17 +27,17 @@
 #### Setter Methods
 
 - `RelatedPartyBuilder setRole(PartyRoleEnum arg0)`
-- `RelatedPartyBuilder setPartyReferenceValue(Party arg0)`
 - `RelatedPartyBuilder setPartyReference(ReferenceWithMetaParty arg0)`
-- `RelatedPartyBuilder setAccountReference(ReferenceWithMetaAccount arg0)`
+- `RelatedPartyBuilder setPartyReferenceValue(Party arg0)`
 - `RelatedPartyBuilder setAccountReferenceValue(Account arg0)`
+- `RelatedPartyBuilder setAccountReference(ReferenceWithMetaAccount arg0)`
 
 #### Getter Methods
 
+- `ReferenceWithMetaAccountBuilder getOrCreateAccountReference()`
 - `PartyRoleEnum getRole()`
 - `ReferenceWithMetaPartyBuilder getPartyReference()`
 - `ReferenceWithMetaPartyBuilder getOrCreatePartyReference()`
-- `ReferenceWithMetaAccountBuilder getOrCreateAccountReference()`
 - `ReferenceWithMetaAccountBuilder getAccountReference()`
 
 #### Other Methods
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `RelatedPartyBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `RelatedPartyBuilder toBuilder()`
 - `RelatedPartyBuilder prune()`
+- `RelatedPartyBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `List doEvaluate(NonNegativeQuantitySchedule arg0, Date arg1)`
 - `List assignOutput(List arg0, NonNegativeQuantitySchedule arg1, Date arg2)`
+- `List doEvaluate(NonNegativeQuantitySchedule arg0, Date arg1)`
 

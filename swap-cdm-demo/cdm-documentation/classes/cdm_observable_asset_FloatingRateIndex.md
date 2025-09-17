@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `FieldWithMetaFloatingRateIndexEnum getFloatingRateIndex()`
 - `Period getIndexTenor()`
+- `FieldWithMetaFloatingRateIndexEnum getFloatingRateIndex()`
 
 #### Other Methods
 

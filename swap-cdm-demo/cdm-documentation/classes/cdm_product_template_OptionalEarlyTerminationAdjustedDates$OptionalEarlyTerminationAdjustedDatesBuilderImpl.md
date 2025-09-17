@@ -28,14 +28,14 @@
 
 #### Getter Methods
 
-- `EarlyTerminationEventBuilder getOrCreateEarlyTerminationEvent(int arg0)`
 - `List getEarlyTerminationEvent()`
+- `EarlyTerminationEventBuilder getOrCreateEarlyTerminationEvent(int arg0)`
 
 #### Adder Methods
 
-- `OptionalEarlyTerminationAdjustedDatesBuilder addEarlyTerminationEvent(EarlyTerminationEvent arg0, int arg1)`
-- `OptionalEarlyTerminationAdjustedDatesBuilder addEarlyTerminationEvent(EarlyTerminationEvent arg0)`
 - `OptionalEarlyTerminationAdjustedDatesBuilder addEarlyTerminationEvent(List arg0)`
+- `OptionalEarlyTerminationAdjustedDatesBuilder addEarlyTerminationEvent(EarlyTerminationEvent arg0)`
+- `OptionalEarlyTerminationAdjustedDatesBuilder addEarlyTerminationEvent(EarlyTerminationEvent arg0, int arg1)`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `OptionalEarlyTerminationAdjustedDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `OptionalEarlyTerminationAdjustedDatesBuilder toBuilder()`
 - `OptionalEarlyTerminationAdjustedDatesBuilder prune()`
+- `OptionalEarlyTerminationAdjustedDatesBuilder toBuilder()`
+- `boolean hasData()`
 

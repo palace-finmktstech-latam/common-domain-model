@@ -29,24 +29,24 @@
 
 #### Setter Methods
 
-- `FloatingAmountEventsBuilder setFailureToPayPrincipal(Boolean arg0)`
-- `FloatingAmountEventsBuilder setWritedown(Boolean arg0)`
-- `FloatingAmountEventsBuilder setImpliedWritedown(Boolean arg0)`
 - `FloatingAmountEventsBuilder setInterestShortfall(InterestShortFall arg0)`
 - `FloatingAmountEventsBuilder setAdditionalFixedPayments(AdditionalFixedPayments arg0)`
+- `FloatingAmountEventsBuilder setImpliedWritedown(Boolean arg0)`
+- `FloatingAmountEventsBuilder setWritedown(Boolean arg0)`
+- `FloatingAmountEventsBuilder setFailureToPayPrincipal(Boolean arg0)`
 - `FloatingAmountEventsBuilder setFloatingAmountProvisions(FloatingAmountProvisions arg0)`
 
 #### Getter Methods
 
-- `AdditionalFixedPaymentsBuilder getAdditionalFixedPayments()`
-- `InterestShortFallBuilder getOrCreateInterestShortfall()`
-- `FloatingAmountProvisionsBuilder getOrCreateFloatingAmountProvisions()`
-- `AdditionalFixedPaymentsBuilder getOrCreateAdditionalFixedPayments()`
 - `InterestShortFallBuilder getInterestShortfall()`
 - `FloatingAmountProvisionsBuilder getFloatingAmountProvisions()`
-- `Boolean getWritedown()`
 - `Boolean getFailureToPayPrincipal()`
 - `Boolean getImpliedWritedown()`
+- `Boolean getWritedown()`
+- `AdditionalFixedPaymentsBuilder getOrCreateAdditionalFixedPayments()`
+- `FloatingAmountProvisionsBuilder getOrCreateFloatingAmountProvisions()`
+- `InterestShortFallBuilder getOrCreateInterestShortfall()`
+- `AdditionalFixedPaymentsBuilder getAdditionalFixedPayments()`
 
 #### Other Methods
 
@@ -54,7 +54,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FloatingAmountEventsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FloatingAmountEventsBuilder toBuilder()`
 - `FloatingAmountEventsBuilder prune()`
+- `FloatingAmountEventsBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `InformationSource getSecondarySource()`
 - `InformationSource getPrimarySource()`
+- `InformationSource getSecondarySource()`
 
 #### Other Methods
 

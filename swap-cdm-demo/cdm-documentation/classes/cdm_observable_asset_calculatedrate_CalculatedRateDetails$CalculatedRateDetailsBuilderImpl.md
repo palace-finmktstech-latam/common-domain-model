@@ -30,36 +30,36 @@
 
 #### Setter Methods
 
-- `CalculatedRateDetailsBuilder setCalculatedRate(BigDecimal arg0)`
 - `CalculatedRateDetailsBuilder setObservations(CalculatedRateObservations arg0)`
-- `CalculatedRateDetailsBuilder setAggregateValue(BigDecimal arg0)`
-- `CalculatedRateDetailsBuilder setAggregateWeight(BigDecimal arg0)`
-- `CalculatedRateDetailsBuilder setGrowthFactor(List arg0)`
+- `CalculatedRateDetailsBuilder setCalculatedRate(BigDecimal arg0)`
 - `CalculatedRateDetailsBuilder setCompoundedGrowth(List arg0)`
 - `CalculatedRateDetailsBuilder setWeightedRates(List arg0)`
+- `CalculatedRateDetailsBuilder setAggregateWeight(BigDecimal arg0)`
+- `CalculatedRateDetailsBuilder setGrowthFactor(List arg0)`
+- `CalculatedRateDetailsBuilder setAggregateValue(BigDecimal arg0)`
 
 #### Getter Methods
 
-- `BigDecimal getAggregateValue()`
 - `CalculatedRateObservationsBuilder getObservations()`
-- `BigDecimal getCalculatedRate()`
+- `BigDecimal getAggregateValue()`
 - `CalculatedRateObservationsBuilder getOrCreateObservations()`
-- `List getWeightedRates()`
-- `List getCompoundedGrowth()`
+- `BigDecimal getCalculatedRate()`
 - `List getGrowthFactor()`
+- `List getCompoundedGrowth()`
+- `List getWeightedRates()`
 - `BigDecimal getAggregateWeight()`
 
 #### Adder Methods
 
-- `CalculatedRateDetailsBuilder addGrowthFactor(BigDecimal arg0)`
+- `CalculatedRateDetailsBuilder addWeightedRates(BigDecimal arg0)`
+- `CalculatedRateDetailsBuilder addWeightedRates(BigDecimal arg0, int arg1)`
+- `CalculatedRateDetailsBuilder addWeightedRates(List arg0)`
 - `CalculatedRateDetailsBuilder addGrowthFactor(List arg0)`
 - `CalculatedRateDetailsBuilder addGrowthFactor(BigDecimal arg0, int arg1)`
+- `CalculatedRateDetailsBuilder addGrowthFactor(BigDecimal arg0)`
+- `CalculatedRateDetailsBuilder addCompoundedGrowth(List arg0)`
 - `CalculatedRateDetailsBuilder addCompoundedGrowth(BigDecimal arg0, int arg1)`
 - `CalculatedRateDetailsBuilder addCompoundedGrowth(BigDecimal arg0)`
-- `CalculatedRateDetailsBuilder addCompoundedGrowth(List arg0)`
-- `CalculatedRateDetailsBuilder addWeightedRates(List arg0)`
-- `CalculatedRateDetailsBuilder addWeightedRates(BigDecimal arg0, int arg1)`
-- `CalculatedRateDetailsBuilder addWeightedRates(BigDecimal arg0)`
 
 #### Other Methods
 
@@ -67,7 +67,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CalculatedRateDetailsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CalculatedRateDetailsBuilder toBuilder()`
 - `CalculatedRateDetailsBuilder prune()`
+- `CalculatedRateDetailsBuilder toBuilder()`
+- `boolean hasData()`
 

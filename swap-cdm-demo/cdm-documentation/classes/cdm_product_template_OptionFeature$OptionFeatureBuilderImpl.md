@@ -29,26 +29,26 @@
 
 #### Setter Methods
 
-- `OptionFeatureBuilder setBarrier(Barrier arg0)`
-- `OptionFeatureBuilder setKnock(Knock arg0)`
 - `OptionFeatureBuilder setFxFeature(List arg0)`
 - `OptionFeatureBuilder setStrategyFeature(StrategyFeature arg0)`
 - `OptionFeatureBuilder setPassThrough(PassThrough arg0)`
 - `OptionFeatureBuilder setAveragingFeature(AveragingCalculation arg0)`
+- `OptionFeatureBuilder setBarrier(Barrier arg0)`
+- `OptionFeatureBuilder setKnock(Knock arg0)`
 
 #### Getter Methods
 
-- `StrategyFeatureBuilder getStrategyFeature()`
-- `AveragingCalculationBuilder getAveragingFeature()`
-- `List getFxFeature()`
-- `PassThroughBuilder getPassThrough()`
-- `BarrierBuilder getOrCreateBarrier()`
-- `StrategyFeatureBuilder getOrCreateStrategyFeature()`
 - `AveragingCalculationBuilder getOrCreateAveragingFeature()`
 - `FxFeatureBuilder getOrCreateFxFeature(int arg0)`
 - `BarrierBuilder getBarrier()`
 - `KnockBuilder getKnock()`
+- `StrategyFeatureBuilder getStrategyFeature()`
+- `List getFxFeature()`
+- `AveragingCalculationBuilder getAveragingFeature()`
+- `PassThroughBuilder getPassThrough()`
+- `BarrierBuilder getOrCreateBarrier()`
 - `PassThroughBuilder getOrCreatePassThrough()`
+- `StrategyFeatureBuilder getOrCreateStrategyFeature()`
 - `KnockBuilder getOrCreateKnock()`
 
 #### Adder Methods
@@ -63,7 +63,7 @@
 - `String toString()`
 - `int hashCode()`
 - `OptionFeatureBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `OptionFeatureBuilder toBuilder()`
 - `OptionFeatureBuilder prune()`
+- `OptionFeatureBuilder toBuilder()`
+- `boolean hasData()`
 

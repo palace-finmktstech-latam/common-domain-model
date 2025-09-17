@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaGoverningLawEnumBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaGoverningLawEnumBuilder toBuilder()`
 - `FieldWithMetaGoverningLawEnumBuilder prune()`
+- `FieldWithMetaGoverningLawEnumBuilder toBuilder()`
+- `boolean hasData()`
 

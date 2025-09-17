@@ -15,19 +15,19 @@
 
 #### Setter Methods
 
+- `EquityUnderlierProvisionsBuilder setLocalJurisdiction(FieldWithMetaString arg0)`
+- `EquityUnderlierProvisionsBuilder setRelevantJurisdiction(FieldWithMetaString arg0)`
+- `EquityUnderlierProvisionsBuilder setLocalJurisdictionValue(String arg0)`
 - `EquityUnderlierProvisionsBuilder setMultipleExchangeIndexAnnexFallback(Boolean arg0)`
 - `EquityUnderlierProvisionsBuilder setComponentSecurityIndexAnnexFallback(Boolean arg0)`
 - `EquityUnderlierProvisionsBuilder setRelevantJurisdictionValue(String arg0)`
-- `EquityUnderlierProvisionsBuilder setRelevantJurisdiction(FieldWithMetaString arg0)`
-- `EquityUnderlierProvisionsBuilder setLocalJurisdictionValue(String arg0)`
-- `EquityUnderlierProvisionsBuilder setLocalJurisdiction(FieldWithMetaString arg0)`
 
 #### Getter Methods
 
+- `FieldWithMetaStringBuilder getRelevantJurisdiction()`
+- `FieldWithMetaStringBuilder getLocalJurisdiction()`
 - `FieldWithMetaStringBuilder getOrCreateLocalJurisdiction()`
 - `FieldWithMetaStringBuilder getOrCreateRelevantJurisdiction()`
-- `FieldWithMetaStringBuilder getLocalJurisdiction()`
-- `FieldWithMetaStringBuilder getRelevantJurisdiction()`
 
 #### Other Methods
 

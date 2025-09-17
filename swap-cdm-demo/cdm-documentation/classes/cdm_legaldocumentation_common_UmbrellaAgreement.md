@@ -20,8 +20,8 @@
 
 - `Class getType()`
 - `String getLanguage()`
-- `Boolean getIsApplicable()`
 - `List getParties()`
+- `Boolean getIsApplicable()`
 
 #### Other Methods
 

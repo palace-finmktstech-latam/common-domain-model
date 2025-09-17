@@ -36,7 +36,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BillingSummaryInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BillingSummaryInstructionBuilder toBuilder()`
 - `BillingSummaryInstructionBuilder prune()`
+- `BillingSummaryInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -21,10 +21,10 @@
 
 #### Getter Methods
 
+- `List getCounterparty()`
 - `CounterpartyBuilder getOrCreateCounterparty(int arg0)`
 - `AgreementBuilder getOrCreateAgreement()`
 - `AgreementBuilder getAgreement()`
-- `List getCounterparty()`
 
 #### Adder Methods
 

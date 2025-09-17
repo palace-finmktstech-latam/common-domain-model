@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `List getDebtEconomics()`
 - `DebtClassEnum getDebtClass()`
+- `List getDebtEconomics()`
 
 #### Other Methods
 

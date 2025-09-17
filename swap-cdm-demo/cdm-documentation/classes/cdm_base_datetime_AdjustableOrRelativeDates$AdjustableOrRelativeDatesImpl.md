@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
+- `MetaFields getMeta()`
 - `AdjustableDates getAdjustableDates()`
 - `RelativeDates getRelativeDates()`
-- `MetaFields getMeta()`
 
 #### Other Methods
 

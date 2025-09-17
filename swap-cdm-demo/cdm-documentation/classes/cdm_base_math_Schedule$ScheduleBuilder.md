@@ -25,9 +25,9 @@
 
 #### Adder Methods
 
-- `ScheduleBuilder addDatedValue(List arg0)`
-- `ScheduleBuilder addDatedValue(DatedValue arg0, int arg1)`
 - `ScheduleBuilder addDatedValue(DatedValue arg0)`
+- `ScheduleBuilder addDatedValue(DatedValue arg0, int arg1)`
+- `ScheduleBuilder addDatedValue(List arg0)`
 
 #### Other Methods
 

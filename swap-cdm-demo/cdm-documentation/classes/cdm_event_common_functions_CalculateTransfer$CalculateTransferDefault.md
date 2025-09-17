@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `List doEvaluate(CalculateTransferInstruction arg0)`
 - `List assignOutput(List arg0, CalculateTransferInstruction arg1)`
+- `List doEvaluate(CalculateTransferInstruction arg0)`
 

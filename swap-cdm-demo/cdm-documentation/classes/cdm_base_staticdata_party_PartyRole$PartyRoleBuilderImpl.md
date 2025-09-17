@@ -27,18 +27,18 @@
 #### Setter Methods
 
 - `PartyRoleBuilder setRole(PartyRoleEnum arg0)`
-- `PartyRoleBuilder setPartyReferenceValue(Party arg0)`
 - `PartyRoleBuilder setOwnershipPartyReference(ReferenceWithMetaParty arg0)`
-- `PartyRoleBuilder setOwnershipPartyReferenceValue(Party arg0)`
 - `PartyRoleBuilder setPartyReference(ReferenceWithMetaParty arg0)`
+- `PartyRoleBuilder setPartyReferenceValue(Party arg0)`
+- `PartyRoleBuilder setOwnershipPartyReferenceValue(Party arg0)`
 
 #### Getter Methods
 
 - `PartyRoleEnum getRole()`
 - `ReferenceWithMetaPartyBuilder getPartyReference()`
+- `ReferenceWithMetaPartyBuilder getOwnershipPartyReference()`
 - `ReferenceWithMetaPartyBuilder getOrCreatePartyReference()`
 - `ReferenceWithMetaPartyBuilder getOrCreateOwnershipPartyReference()`
-- `ReferenceWithMetaPartyBuilder getOwnershipPartyReference()`
 
 #### Other Methods
 
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PartyRoleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PartyRoleBuilder toBuilder()`
 - `PartyRoleBuilder prune()`
+- `PartyRoleBuilder toBuilder()`
+- `boolean hasData()`
 

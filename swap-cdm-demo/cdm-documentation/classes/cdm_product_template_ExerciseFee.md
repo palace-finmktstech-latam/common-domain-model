@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `BigDecimal getFeeRate()`
-- `ReferenceWithMetaMoney getNotionalReference()`
 - `RelativeDateOffset getFeePaymentDate()`
+- `ReferenceWithMetaMoney getNotionalReference()`
 - `BigDecimal getFeeAmount()`
+- `BigDecimal getFeeRate()`
 
 #### Other Methods
 

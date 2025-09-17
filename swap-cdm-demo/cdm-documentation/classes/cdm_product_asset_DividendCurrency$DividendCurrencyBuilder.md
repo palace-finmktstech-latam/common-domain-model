@@ -16,17 +16,17 @@
 #### Setter Methods
 
 - `DividendCurrencyBuilder setCurrency(FieldWithMetaString arg0)`
-- `DividendCurrencyBuilder setDeterminationMethod(DeterminationMethodEnum arg0)`
 - `DividendCurrencyBuilder setCurrencyValue(String arg0)`
+- `DividendCurrencyBuilder setDeterminationMethod(DeterminationMethodEnum arg0)`
 - `DividendCurrencyBuilder setCurrencyReference(ReferenceWithMetaString arg0)`
 - `DividendCurrencyBuilder setCurrencyReferenceValue(String arg0)`
 
 #### Getter Methods
 
 - `FieldWithMetaStringBuilder getCurrency()`
+- `ReferenceWithMetaStringBuilder getCurrencyReference()`
 - `ReferenceWithMetaStringBuilder getOrCreateCurrencyReference()`
 - `FieldWithMetaStringBuilder getOrCreateCurrency()`
-- `ReferenceWithMetaStringBuilder getCurrencyReference()`
 
 #### Other Methods
 

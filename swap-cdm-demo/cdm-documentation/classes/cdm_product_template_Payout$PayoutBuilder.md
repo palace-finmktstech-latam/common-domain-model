@@ -16,36 +16,36 @@
 
 #### Setter Methods
 
-- `PayoutBuilder setAssetPayout(AssetPayout arg0)`
-- `PayoutBuilder setCommodityPayout(CommodityPayout arg0)`
-- `PayoutBuilder setOptionPayout(OptionPayout arg0)`
-- `PayoutBuilder setCreditDefaultPayout(CreditDefaultPayout arg0)`
-- `PayoutBuilder setSettlementPayout(SettlementPayout arg0)`
-- `PayoutBuilder setFixedPricePayout(FixedPricePayout arg0)`
-- `PayoutBuilder setInterestRatePayout(InterestRatePayout arg0)`
-- `PayoutBuilder setPerformancePayout(PerformancePayout arg0)`
 - `PayoutBuilder setMeta(MetaFields arg0)`
+- `PayoutBuilder setOptionPayout(OptionPayout arg0)`
+- `PayoutBuilder setSettlementPayout(SettlementPayout arg0)`
+- `PayoutBuilder setCommodityPayout(CommodityPayout arg0)`
+- `PayoutBuilder setFixedPricePayout(FixedPricePayout arg0)`
+- `PayoutBuilder setCreditDefaultPayout(CreditDefaultPayout arg0)`
+- `PayoutBuilder setAssetPayout(AssetPayout arg0)`
+- `PayoutBuilder setPerformancePayout(PerformancePayout arg0)`
+- `PayoutBuilder setInterestRatePayout(InterestRatePayout arg0)`
 
 #### Getter Methods
 
 - `CreditDefaultPayoutBuilder getCreditDefaultPayout()`
-- `AssetPayoutBuilder getOrCreateAssetPayout()`
-- `CommodityPayoutBuilder getOrCreateCommodityPayout()`
-- `OptionPayoutBuilder getOrCreateOptionPayout()`
 - `MetaFieldsBuilder getOrCreateMeta()`
 - `InterestRatePayoutBuilder getInterestRatePayout()`
-- `CreditDefaultPayoutBuilder getOrCreateCreditDefaultPayout()`
-- `PerformancePayoutBuilder getOrCreatePerformancePayout()`
-- `FixedPricePayoutBuilder getOrCreateFixedPricePayout()`
-- `InterestRatePayoutBuilder getOrCreateInterestRatePayout()`
-- `SettlementPayoutBuilder getOrCreateSettlementPayout()`
 - `MetaFieldsBuilder getMeta()`
+- `AssetPayoutBuilder getOrCreateAssetPayout()`
+- `CommodityPayoutBuilder getOrCreateCommodityPayout()`
+- `InterestRatePayoutBuilder getOrCreateInterestRatePayout()`
+- `FixedPricePayoutBuilder getOrCreateFixedPricePayout()`
+- `PerformancePayoutBuilder getOrCreatePerformancePayout()`
+- `CreditDefaultPayoutBuilder getOrCreateCreditDefaultPayout()`
+- `OptionPayoutBuilder getOrCreateOptionPayout()`
+- `AssetPayoutBuilder getAssetPayout()`
 - `CommodityPayoutBuilder getCommodityPayout()`
+- `OptionPayoutBuilder getOptionPayout()`
+- `FixedPricePayoutBuilder getFixedPricePayout()`
 - `PerformancePayoutBuilder getPerformancePayout()`
 - `SettlementPayoutBuilder getSettlementPayout()`
-- `AssetPayoutBuilder getAssetPayout()`
-- `FixedPricePayoutBuilder getFixedPricePayout()`
-- `OptionPayoutBuilder getOptionPayout()`
+- `SettlementPayoutBuilder getOrCreateSettlementPayout()`
 
 #### Other Methods
 

@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaPriceScheduleBuilder setValue(PriceSchedule arg0)`
-- `ReferenceWithMetaPriceScheduleBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaPriceScheduleBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaPriceScheduleBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaPriceScheduleBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaPriceScheduleBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaPriceScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaPriceScheduleBuilder toBuilder()`
 - `ReferenceWithMetaPriceScheduleBuilder prune()`
+- `ReferenceWithMetaPriceScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

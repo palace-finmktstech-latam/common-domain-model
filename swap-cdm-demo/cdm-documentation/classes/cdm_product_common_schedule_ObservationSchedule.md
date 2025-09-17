@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `List getObservationDate()`
 - `BusinessDayAdjustments getDateAdjustments()`
+- `List getObservationDate()`
 
 #### Other Methods
 

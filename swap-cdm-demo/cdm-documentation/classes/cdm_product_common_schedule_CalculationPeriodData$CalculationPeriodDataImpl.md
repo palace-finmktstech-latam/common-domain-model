@@ -22,12 +22,12 @@
 
 #### Getter Methods
 
-- `Date getStartDate()`
-- `Integer getDaysInPeriod()`
-- `Integer getDaysInLeapYearPeriod()`
-- `Boolean getIsFirstPeriod()`
-- `Boolean getIsLastPeriod()`
 - `Date getEndDate()`
+- `Integer getDaysInLeapYearPeriod()`
+- `Date getStartDate()`
+- `Boolean getIsFirstPeriod()`
+- `Integer getDaysInPeriod()`
+- `Boolean getIsLastPeriod()`
 
 #### Other Methods
 

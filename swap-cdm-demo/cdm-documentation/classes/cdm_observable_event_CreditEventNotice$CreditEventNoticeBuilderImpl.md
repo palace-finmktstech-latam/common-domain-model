@@ -26,22 +26,22 @@
 
 #### Setter Methods
 
+- `CreditEventNoticeBuilder setPubliclyAvailableInformation(PubliclyAvailableInformation arg0)`
 - `CreditEventNoticeBuilder setBusinessCenter(BusinessCenterEnum arg0)`
 - `CreditEventNoticeBuilder setNotifyingParty(List arg0)`
-- `CreditEventNoticeBuilder setPubliclyAvailableInformation(PubliclyAvailableInformation arg0)`
 
 #### Getter Methods
 
-- `BusinessCenterEnum getBusinessCenter()`
-- `List getNotifyingParty()`
-- `PubliclyAvailableInformationBuilder getOrCreatePubliclyAvailableInformation()`
 - `PubliclyAvailableInformationBuilder getPubliclyAvailableInformation()`
+- `PubliclyAvailableInformationBuilder getOrCreatePubliclyAvailableInformation()`
+- `List getNotifyingParty()`
+- `BusinessCenterEnum getBusinessCenter()`
 
 #### Adder Methods
 
+- `CreditEventNoticeBuilder addNotifyingParty(CounterpartyRoleEnum arg0)`
 - `CreditEventNoticeBuilder addNotifyingParty(CounterpartyRoleEnum arg0, int arg1)`
 - `CreditEventNoticeBuilder addNotifyingParty(List arg0)`
-- `CreditEventNoticeBuilder addNotifyingParty(CounterpartyRoleEnum arg0)`
 
 #### Other Methods
 
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CreditEventNoticeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CreditEventNoticeBuilder toBuilder()`
 - `CreditEventNoticeBuilder prune()`
+- `CreditEventNoticeBuilder toBuilder()`
+- `boolean hasData()`
 

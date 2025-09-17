@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `Date getAdjustedExtendedTerminationDate()`
 - `Date getAdjustedExerciseDate()`
 - `MetaFields getMeta()`
+- `Date getAdjustedExtendedTerminationDate()`
 
 #### Other Methods
 

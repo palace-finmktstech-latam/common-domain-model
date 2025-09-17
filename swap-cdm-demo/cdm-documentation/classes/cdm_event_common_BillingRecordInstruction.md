@@ -20,10 +20,10 @@
 
 - `Class getType()`
 - `Date getSettlementDate()`
-- `Date getRecordEndDate()`
 - `ReferenceWithMetaTradeState getTradeState()`
 - `List getObservation()`
 - `Date getRecordStartDate()`
+- `Date getRecordEndDate()`
 
 #### Other Methods
 

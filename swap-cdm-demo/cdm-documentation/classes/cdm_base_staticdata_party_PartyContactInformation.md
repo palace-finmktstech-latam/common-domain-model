@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `List getBusinessUnit()`
 - `ContactInformation getContactInformation()`
-- `ReferenceWithMetaParty getPartyReference()`
+- `List getBusinessUnit()`
 - `List getPerson()`
+- `ReferenceWithMetaParty getPartyReference()`
 - `String getAdditionalInformation()`
 
 #### Other Methods

@@ -22,15 +22,15 @@
 #### Getter Methods
 
 - `FieldWithMetaStringBuilder getName()`
-- `FieldWithMetaStringBuilder getOrCreateName()`
 - `List getClassification()`
+- `FieldWithMetaStringBuilder getOrCreateName()`
 - `TaxonomyClassificationBuilder getOrCreateClassification(int arg0)`
 
 #### Adder Methods
 
 - `TaxonomyValueBuilder addClassification(TaxonomyClassification arg0, int arg1)`
-- `TaxonomyValueBuilder addClassification(List arg0)`
 - `TaxonomyValueBuilder addClassification(TaxonomyClassification arg0)`
+- `TaxonomyValueBuilder addClassification(List arg0)`
 
 #### Other Methods
 

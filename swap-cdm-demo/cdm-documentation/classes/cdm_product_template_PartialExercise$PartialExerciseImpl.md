@@ -24,8 +24,8 @@
 
 - `ReferenceWithMetaMoney getNotionaReference()`
 - `BigDecimal getIntegralMultipleAmount()`
-- `BigDecimal getMinimumNotionalAmount()`
 - `Integer getMinimumNumberOfOptions()`
+- `BigDecimal getMinimumNotionalAmount()`
 
 #### Other Methods
 

@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `LegalAgreementPublisherEnum getPublisher()`
 - `AgreementName getAgreementName()`
-- `Integer getVintage()`
 - `GoverningLawEnum getGoverningLaw()`
+- `Integer getVintage()`
+- `LegalAgreementPublisherEnum getPublisher()`
 
 #### Other Methods
 

@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `AssetDeliveryPeriodsBuilder setStartDate(Date arg0)`
 - `AssetDeliveryPeriodsBuilder setEndDate(Date arg0)`
+- `AssetDeliveryPeriodsBuilder setStartDate(Date arg0)`
 - `AssetDeliveryPeriodsBuilder setProfile(List arg0)`
 
 #### Getter Methods

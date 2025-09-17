@@ -26,18 +26,18 @@
 
 #### Setter Methods
 
-- `AdjustableOrRelativeDatesBuilder setAdjustableDates(AdjustableDates arg0)`
-- `AdjustableOrRelativeDatesBuilder setRelativeDates(RelativeDates arg0)`
 - `AdjustableOrRelativeDatesBuilder setMeta(MetaFields arg0)`
+- `AdjustableOrRelativeDatesBuilder setRelativeDates(RelativeDates arg0)`
+- `AdjustableOrRelativeDatesBuilder setAdjustableDates(AdjustableDates arg0)`
 
 #### Getter Methods
 
-- `AdjustableDatesBuilder getAdjustableDates()`
-- `RelativeDatesBuilder getRelativeDates()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `MetaFieldsBuilder getMeta()`
 - `AdjustableDatesBuilder getOrCreateAdjustableDates()`
 - `RelativeDatesBuilder getOrCreateRelativeDates()`
-- `MetaFieldsBuilder getMeta()`
+- `AdjustableDatesBuilder getAdjustableDates()`
+- `RelativeDatesBuilder getRelativeDates()`
 
 #### Other Methods
 
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AdjustableOrRelativeDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AdjustableOrRelativeDatesBuilder toBuilder()`
 - `AdjustableOrRelativeDatesBuilder prune()`
+- `AdjustableOrRelativeDatesBuilder toBuilder()`
+- `boolean hasData()`
 

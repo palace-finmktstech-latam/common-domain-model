@@ -16,18 +16,18 @@
 #### Setter Methods
 
 - `LimitApplicableExtendedBuilder setCurrency(FieldWithMetaString arg0)`
-- `LimitApplicableExtendedBuilder setLimitTypeValue(CreditLimitTypeEnum arg0)`
-- `LimitApplicableExtendedBuilder setClipSize(Integer arg0)`
-- `LimitApplicableExtendedBuilder setUtilization(CreditLimitUtilisation arg0)`
-- `LimitApplicableExtendedBuilder setAmountUtilized(BigDecimal arg0)`
-- `LimitApplicableExtendedBuilder setAmountRemaining(BigDecimal arg0)`
-- `LimitApplicableExtendedBuilder setVelocity(Velocity arg0)`
-- `LimitApplicableExtendedBuilder setLimitLevel(FieldWithMetaLimitLevelEnum arg0)`
-- `LimitApplicableExtendedBuilder setLimitImpactDueToTrade(BigDecimal arg0)`
-- `LimitApplicableExtendedBuilder setLimitType(FieldWithMetaCreditLimitTypeEnum arg0)`
-- `LimitApplicableExtendedBuilder setLimitAmount(BigDecimal arg0)`
-- `LimitApplicableExtendedBuilder setLimitLevelValue(LimitLevelEnum arg0)`
 - `LimitApplicableExtendedBuilder setCurrencyValue(String arg0)`
+- `LimitApplicableExtendedBuilder setLimitImpactDueToTrade(BigDecimal arg0)`
+- `LimitApplicableExtendedBuilder setClipSize(Integer arg0)`
+- `LimitApplicableExtendedBuilder setLimitAmount(BigDecimal arg0)`
+- `LimitApplicableExtendedBuilder setLimitLevel(FieldWithMetaLimitLevelEnum arg0)`
+- `LimitApplicableExtendedBuilder setUtilization(CreditLimitUtilisation arg0)`
+- `LimitApplicableExtendedBuilder setLimitTypeValue(CreditLimitTypeEnum arg0)`
+- `LimitApplicableExtendedBuilder setLimitLevelValue(LimitLevelEnum arg0)`
+- `LimitApplicableExtendedBuilder setVelocity(Velocity arg0)`
+- `LimitApplicableExtendedBuilder setAmountUtilized(BigDecimal arg0)`
+- `LimitApplicableExtendedBuilder setLimitType(FieldWithMetaCreditLimitTypeEnum arg0)`
+- `LimitApplicableExtendedBuilder setAmountRemaining(BigDecimal arg0)`
 
 #### Getter Methods
 

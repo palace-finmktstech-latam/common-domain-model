@@ -26,12 +26,12 @@
 #### Other Methods
 
 - `List evaluate(ExerciseInstruction arg0, TradeState arg1)`
-- `List doEvaluate(ExerciseInstruction arg0, TradeState arg1)`
-- `MapperS optionPayout(ExerciseInstruction arg0, TradeState arg1)`
-- `MapperS resultProduct(ExerciseInstruction arg0, TradeState arg1)`
-- `MapperS productWithDirection(ExerciseInstruction arg0, TradeState arg1)`
 - `MapperS execution(ExerciseInstruction arg0, TradeState arg1)`
+- `List doEvaluate(ExerciseInstruction arg0, TradeState arg1)`
 - `MapperS underlier(ExerciseInstruction arg0, TradeState arg1)`
+- `MapperS optionPayout(ExerciseInstruction arg0, TradeState arg1)`
+- `MapperS productWithDirection(ExerciseInstruction arg0, TradeState arg1)`
+- `MapperS resultProduct(ExerciseInstruction arg0, TradeState arg1)`
 
 ### Annotations
 

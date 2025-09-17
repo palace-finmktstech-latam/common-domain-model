@@ -28,8 +28,8 @@
 #### Getter Methods
 
 - `String getEventQualifier()`
-- `List getAfter()`
 - `MetaFields getMeta()`
+- `List getAfter()`
 
 #### Other Methods
 

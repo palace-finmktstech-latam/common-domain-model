@@ -27,21 +27,21 @@
 
 #### Setter Methods
 
-- `ReferencePairBuilder setReferenceObligation(ReferenceObligation arg0)`
-- `ReferencePairBuilder setReferenceEntity(LegalEntity arg0)`
-- `ReferencePairBuilder setNoReferenceObligation(Boolean arg0)`
-- `ReferencePairBuilder setEntityType(FieldWithMetaEntityTypeEnum arg0)`
 - `ReferencePairBuilder setEntityTypeValue(EntityTypeEnum arg0)`
+- `ReferencePairBuilder setEntityType(FieldWithMetaEntityTypeEnum arg0)`
+- `ReferencePairBuilder setReferenceObligation(ReferenceObligation arg0)`
+- `ReferencePairBuilder setNoReferenceObligation(Boolean arg0)`
+- `ReferencePairBuilder setReferenceEntity(LegalEntity arg0)`
 
 #### Getter Methods
 
-- `LegalEntityBuilder getOrCreateReferenceEntity()`
-- `FieldWithMetaEntityTypeEnumBuilder getEntityType()`
-- `FieldWithMetaEntityTypeEnumBuilder getOrCreateEntityType()`
+- `LegalEntityBuilder getReferenceEntity()`
 - `ReferenceObligationBuilder getReferenceObligation()`
 - `Boolean getNoReferenceObligation()`
-- `LegalEntityBuilder getReferenceEntity()`
+- `FieldWithMetaEntityTypeEnumBuilder getOrCreateEntityType()`
+- `FieldWithMetaEntityTypeEnumBuilder getEntityType()`
 - `ReferenceObligationBuilder getOrCreateReferenceObligation()`
+- `LegalEntityBuilder getOrCreateReferenceEntity()`
 
 #### Other Methods
 
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferencePairBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferencePairBuilder toBuilder()`
 - `ReferencePairBuilder prune()`
+- `ReferencePairBuilder toBuilder()`
+- `boolean hasData()`
 

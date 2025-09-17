@@ -25,15 +25,15 @@
 
 #### Setter Methods
 
-- `BusinessCenterTimeBuilder setHourMinuteTime(LocalTime arg0)`
 - `BusinessCenterTimeBuilder setBusinessCenterValue(BusinessCenterEnum arg0)`
+- `BusinessCenterTimeBuilder setHourMinuteTime(LocalTime arg0)`
 - `BusinessCenterTimeBuilder setBusinessCenter(FieldWithMetaBusinessCenterEnum arg0)`
 
 #### Getter Methods
 
+- `FieldWithMetaBusinessCenterEnumBuilder getBusinessCenter()`
 - `FieldWithMetaBusinessCenterEnumBuilder getOrCreateBusinessCenter()`
 - `LocalTime getHourMinuteTime()`
-- `FieldWithMetaBusinessCenterEnumBuilder getBusinessCenter()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BusinessCenterTimeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BusinessCenterTimeBuilder toBuilder()`
 - `BusinessCenterTimeBuilder prune()`
+- `BusinessCenterTimeBuilder toBuilder()`
+- `boolean hasData()`
 

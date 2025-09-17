@@ -31,8 +31,8 @@
 #### Getter Methods
 
 - `InflationIndexBuilder getOrCreateInflationIndex()`
-- `FloatingRateIndexBuilder getFloatingRateIndex()`
 - `InflationIndexBuilder getInflationIndex()`
+- `FloatingRateIndexBuilder getFloatingRateIndex()`
 - `FloatingRateIndexBuilder getOrCreateFloatingRateIndex()`
 
 #### Other Methods
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `InterestRateIndexBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `InterestRateIndexBuilder toBuilder()`
 - `InterestRateIndexBuilder prune()`
+- `InterestRateIndexBuilder toBuilder()`
+- `boolean hasData()`
 

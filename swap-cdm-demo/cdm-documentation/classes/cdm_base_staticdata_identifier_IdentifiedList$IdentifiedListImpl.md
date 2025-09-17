@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `Identifier getListId()`
-- `Price getPrice()`
 - `List getComponentId()`
 - `MetaFields getMeta()`
+- `Identifier getListId()`
+- `Price getPrice()`
 
 #### Other Methods
 

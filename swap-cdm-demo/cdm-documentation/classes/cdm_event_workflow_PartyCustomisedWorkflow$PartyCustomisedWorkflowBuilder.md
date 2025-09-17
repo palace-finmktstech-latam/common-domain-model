@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `PartyCustomisedWorkflowBuilder setCustomisedWorkflow(List arg0)`
 - `PartyCustomisedWorkflowBuilder setPartyName(String arg0)`
-- `PartyCustomisedWorkflowBuilder setPartyReferenceValue(Party arg0)`
+- `PartyCustomisedWorkflowBuilder setCustomisedWorkflow(List arg0)`
 - `PartyCustomisedWorkflowBuilder setPartyReference(ReferenceWithMetaParty arg0)`
+- `PartyCustomisedWorkflowBuilder setPartyReferenceValue(Party arg0)`
 
 #### Getter Methods
 
-- `List getCustomisedWorkflow()`
 - `ReferenceWithMetaPartyBuilder getPartyReference()`
+- `List getCustomisedWorkflow()`
 - `ReferenceWithMetaPartyBuilder getOrCreatePartyReference()`
 - `CustomisedWorkflowBuilder getOrCreateCustomisedWorkflow(int arg0)`
 

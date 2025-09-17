@@ -15,21 +15,21 @@
 
 #### Setter Methods
 
-- `StubValueBuilder setFloatingRate(List arg0)`
-- `StubValueBuilder setStubRate(BigDecimal arg0)`
 - `StubValueBuilder setStubAmount(Money arg0)`
+- `StubValueBuilder setStubRate(BigDecimal arg0)`
+- `StubValueBuilder setFloatingRate(List arg0)`
 
 #### Getter Methods
 
-- `List getFloatingRate()`
-- `StubFloatingRateBuilder getOrCreateFloatingRate(int arg0)`
-- `MoneyBuilder getOrCreateStubAmount()`
 - `MoneyBuilder getStubAmount()`
+- `MoneyBuilder getOrCreateStubAmount()`
+- `StubFloatingRateBuilder getOrCreateFloatingRate(int arg0)`
+- `List getFloatingRate()`
 
 #### Adder Methods
 
-- `StubValueBuilder addFloatingRate(StubFloatingRate arg0)`
 - `StubValueBuilder addFloatingRate(StubFloatingRate arg0, int arg1)`
+- `StubValueBuilder addFloatingRate(StubFloatingRate arg0)`
 - `StubValueBuilder addFloatingRate(List arg0)`
 
 #### Other Methods

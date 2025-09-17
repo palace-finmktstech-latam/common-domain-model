@@ -21,8 +21,8 @@
 - `Class getType()`
 - `BigDecimal getRawRate()`
 - `FloatingRateProcessingParameters getProcessingParameters()`
-- `BigDecimal getProcessedRate()`
 - `BigDecimal getSpreadExclusiveRate()`
+- `BigDecimal getProcessedRate()`
 
 #### Other Methods
 

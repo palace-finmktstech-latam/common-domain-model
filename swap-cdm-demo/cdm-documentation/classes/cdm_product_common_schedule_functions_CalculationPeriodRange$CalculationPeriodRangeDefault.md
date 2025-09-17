@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `CalculationPeriodDataBuilder doEvaluate(Date arg0, Date arg1, BusinessDayAdjustments arg2)`
 - `CalculationPeriodDataBuilder assignOutput(CalculationPeriodDataBuilder arg0, Date arg1, Date arg2, BusinessDayAdjustments arg3)`
+- `CalculationPeriodDataBuilder doEvaluate(Date arg0, Date arg1, BusinessDayAdjustments arg2)`
 

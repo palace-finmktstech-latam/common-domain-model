@@ -6,9 +6,9 @@
 **Extends:** `MappingProcessor` 
 
 **Key Methods:**
-- `isBasketConstituentSynonymPath(Path arg0)` → `boolean` [Getter]
-- `getBasketConstituentSynonymPathMappings()` → `List` [Getter]
 - `isDividendPayoutRatioSet()` → `boolean` [Getter]
+- `getBasketConstituentSynonymPathMappings()` → `List` [Getter]
+- `isBasketConstituentSynonymPath(Path arg0)` → `boolean` [Getter]
 
 ### ExtraordinaryDividendsPartyMappingProcessor
 **Extends:** `MappingProcessor` 

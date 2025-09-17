@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `PeriodEnum getPeriod()`
 - `Integer getPeriodMultiplier()`
 - `MetaFields getMeta()`
+- `PeriodEnum getPeriod()`
 
 #### Other Methods
 

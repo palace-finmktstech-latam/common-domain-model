@@ -15,10 +15,10 @@
 
 #### Setter Methods
 
-- `AncillaryPartyBuilder setOnBehalfOf(CounterpartyRoleEnum arg0)`
 - `AncillaryPartyBuilder setRole(AncillaryRoleEnum arg0)`
-- `AncillaryPartyBuilder setPartyReferenceValue(List arg0)`
+- `AncillaryPartyBuilder setOnBehalfOf(CounterpartyRoleEnum arg0)`
 - `AncillaryPartyBuilder setPartyReference(List arg0)`
+- `AncillaryPartyBuilder setPartyReferenceValue(List arg0)`
 
 #### Getter Methods
 
@@ -27,11 +27,11 @@
 
 #### Adder Methods
 
+- `AncillaryPartyBuilder addPartyReferenceValue(List arg0)`
 - `AncillaryPartyBuilder addPartyReferenceValue(Party arg0, int arg1)`
 - `AncillaryPartyBuilder addPartyReferenceValue(Party arg0)`
-- `AncillaryPartyBuilder addPartyReferenceValue(List arg0)`
-- `AncillaryPartyBuilder addPartyReference(List arg0)`
 - `AncillaryPartyBuilder addPartyReference(ReferenceWithMetaParty arg0, int arg1)`
+- `AncillaryPartyBuilder addPartyReference(List arg0)`
 - `AncillaryPartyBuilder addPartyReference(ReferenceWithMetaParty arg0)`
 
 #### Other Methods

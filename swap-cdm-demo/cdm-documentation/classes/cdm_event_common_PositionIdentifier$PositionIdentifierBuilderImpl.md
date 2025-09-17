@@ -29,13 +29,13 @@
 
 #### Setter Methods
 
-- `PositionIdentifierBuilder setIssuer(FieldWithMetaString arg0)`
 - `PositionIdentifierBuilder setIssuerReferenceValue(Party arg0)`
-- `PositionIdentifierBuilder setIssuerReference(ReferenceWithMetaParty arg0)`
-- `PositionIdentifierBuilder setIdentifierType(TradeIdentifierTypeEnum arg0)`
 - `PositionIdentifierBuilder setIssuerValue(String arg0)`
-- `PositionIdentifierBuilder setAssignedIdentifier(List arg0)`
+- `PositionIdentifierBuilder setIssuer(FieldWithMetaString arg0)`
 - `PositionIdentifierBuilder setMeta(MetaFields arg0)`
+- `PositionIdentifierBuilder setIdentifierType(TradeIdentifierTypeEnum arg0)`
+- `PositionIdentifierBuilder setIssuerReference(ReferenceWithMetaParty arg0)`
+- `PositionIdentifierBuilder setAssignedIdentifier(List arg0)`
 
 #### Getter Methods
 
@@ -53,7 +53,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PositionIdentifierBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PositionIdentifierBuilder toBuilder()`
 - `PositionIdentifierBuilder prune()`
+- `PositionIdentifierBuilder toBuilder()`
+- `boolean hasData()`
 

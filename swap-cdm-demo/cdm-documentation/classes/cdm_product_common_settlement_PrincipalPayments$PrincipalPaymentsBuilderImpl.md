@@ -29,28 +29,28 @@
 
 #### Setter Methods
 
-- `PrincipalPaymentsBuilder setInitialPayment(Boolean arg0)`
-- `PrincipalPaymentsBuilder setIntermediatePayment(Boolean arg0)`
-- `PrincipalPaymentsBuilder setFinalPayment(Boolean arg0)`
-- `PrincipalPaymentsBuilder setVaryingLegNotionalCurrency(List arg0)`
-- `PrincipalPaymentsBuilder setPrincipalPaymentSchedule(PrincipalPaymentSchedule arg0)`
 - `PrincipalPaymentsBuilder setMeta(MetaFields arg0)`
+- `PrincipalPaymentsBuilder setInitialPayment(Boolean arg0)`
+- `PrincipalPaymentsBuilder setFinalPayment(Boolean arg0)`
+- `PrincipalPaymentsBuilder setIntermediatePayment(Boolean arg0)`
+- `PrincipalPaymentsBuilder setPrincipalPaymentSchedule(PrincipalPaymentSchedule arg0)`
+- `PrincipalPaymentsBuilder setVaryingLegNotionalCurrency(List arg0)`
 
 #### Getter Methods
 
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `PrincipalPaymentScheduleBuilder getOrCreatePrincipalPaymentSchedule()`
+- `MetaFieldsBuilder getMeta()`
+- `Boolean getInitialPayment()`
 - `Boolean getIntermediatePayment()`
 - `Boolean getFinalPayment()`
-- `Boolean getInitialPayment()`
-- `List getVaryingLegNotionalCurrency()`
 - `PrincipalPaymentScheduleBuilder getPrincipalPaymentSchedule()`
-- `MetaFieldsBuilder getMeta()`
+- `List getVaryingLegNotionalCurrency()`
+- `PrincipalPaymentScheduleBuilder getOrCreatePrincipalPaymentSchedule()`
 
 #### Adder Methods
 
-- `PrincipalPaymentsBuilder addVaryingLegNotionalCurrency(String arg0, int arg1)`
 - `PrincipalPaymentsBuilder addVaryingLegNotionalCurrency(String arg0)`
+- `PrincipalPaymentsBuilder addVaryingLegNotionalCurrency(String arg0, int arg1)`
 - `PrincipalPaymentsBuilder addVaryingLegNotionalCurrency(List arg0)`
 
 #### Other Methods
@@ -59,7 +59,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PrincipalPaymentsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PrincipalPaymentsBuilder toBuilder()`
 - `PrincipalPaymentsBuilder prune()`
+- `PrincipalPaymentsBuilder toBuilder()`
+- `boolean hasData()`
 

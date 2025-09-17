@@ -15,7 +15,7 @@
 
 #### Other Methods
 
-- `Boolean doEvaluate(TradeLot arg0, CompareOp arg1, TradeLot arg2)`
 - `Boolean assignOutput(Boolean arg0, TradeLot arg1, CompareOp arg2, TradeLot arg3)`
+- `Boolean doEvaluate(TradeLot arg0, CompareOp arg1, TradeLot arg2)`
 - `MapperC unitOfAmounts(TradeLot arg0, CompareOp arg1, TradeLot arg2)`
 

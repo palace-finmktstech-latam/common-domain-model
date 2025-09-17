@@ -20,8 +20,8 @@
 
 - `Class getType()`
 - `Index getIndex()`
-- `Basket getBasket()`
 - `Asset getAsset()`
+- `Basket getBasket()`
 
 #### Other Methods
 

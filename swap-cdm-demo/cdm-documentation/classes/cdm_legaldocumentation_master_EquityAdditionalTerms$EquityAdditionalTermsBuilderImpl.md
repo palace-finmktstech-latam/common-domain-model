@@ -32,18 +32,18 @@
 
 #### Getter Methods
 
-- `ExtraordinaryEventsBuilder getExtraordinaryEvents()`
 - `List getDeterminationTerms()`
 - `UnderlierSubstitutionProvisionBuilder getSubstitutionProvision()`
+- `ExtraordinaryEventsBuilder getExtraordinaryEvents()`
+- `UnderlierSubstitutionProvisionBuilder getOrCreateSubstitutionProvision()`
 - `ExtraordinaryEventsBuilder getOrCreateExtraordinaryEvents()`
 - `DeterminationRolesAndTermsBuilder getOrCreateDeterminationTerms(int arg0)`
-- `UnderlierSubstitutionProvisionBuilder getOrCreateSubstitutionProvision()`
 
 #### Adder Methods
 
-- `EquityAdditionalTermsBuilder addDeterminationTerms(List arg0)`
-- `EquityAdditionalTermsBuilder addDeterminationTerms(DeterminationRolesAndTerms arg0, int arg1)`
 - `EquityAdditionalTermsBuilder addDeterminationTerms(DeterminationRolesAndTerms arg0)`
+- `EquityAdditionalTermsBuilder addDeterminationTerms(DeterminationRolesAndTerms arg0, int arg1)`
+- `EquityAdditionalTermsBuilder addDeterminationTerms(List arg0)`
 
 #### Other Methods
 
@@ -51,7 +51,7 @@
 - `String toString()`
 - `int hashCode()`
 - `EquityAdditionalTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `EquityAdditionalTermsBuilder toBuilder()`
 - `EquityAdditionalTermsBuilder prune()`
+- `EquityAdditionalTermsBuilder toBuilder()`
+- `boolean hasData()`
 

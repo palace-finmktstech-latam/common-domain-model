@@ -22,13 +22,13 @@
 
 #### Getter Methods
 
-- `TerminationProvision getTerminationProvision()`
-- `Boolean getNonStandardisedTerms()`
-- `CalculationAgent getCalculationAgent()`
+- `Collateral getCollateral()`
 - `AdjustableOrRelativeDate getEffectiveDate()`
 - `AdjustableOrRelativeDate getTerminationDate()`
-- `Collateral getCollateral()`
 - `List getPayout()`
+- `CalculationAgent getCalculationAgent()`
+- `TerminationProvision getTerminationProvision()`
+- `Boolean getNonStandardisedTerms()`
 - `BusinessDayAdjustments getDateAdjustments()`
 
 #### Other Methods

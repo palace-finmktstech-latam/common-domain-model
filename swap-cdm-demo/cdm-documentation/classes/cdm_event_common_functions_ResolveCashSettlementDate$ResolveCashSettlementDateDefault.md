@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Date doEvaluate(TradeState arg0)`
 - `Date assignOutput(Date arg0, TradeState arg1)`
+- `Date doEvaluate(TradeState arg0)`
 

@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `List doEvaluate(BigDecimal arg0, List arg1)`
 - `List assignOutput(List arg0, BigDecimal arg1, List arg2)`
+- `List doEvaluate(BigDecimal arg0, List arg1)`
 

@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Money getAmountBaseCurrency()`
 - `CollateralStatusEnum getCollateralBalanceStatus()`
+- `Money getAmountBaseCurrency()`
 - `HaircutIndicatorEnum getHaircutIndicator()`
 - `PartyReferencePayerReceiver getPayerReceiver()`
 

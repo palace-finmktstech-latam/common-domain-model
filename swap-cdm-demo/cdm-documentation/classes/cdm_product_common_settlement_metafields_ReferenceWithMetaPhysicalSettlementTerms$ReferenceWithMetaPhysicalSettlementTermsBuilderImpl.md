@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaPhysicalSettlementTermsBuilder setValue(PhysicalSettlementTerms arg0)`
-- `ReferenceWithMetaPhysicalSettlementTermsBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaPhysicalSettlementTermsBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaPhysicalSettlementTermsBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaPhysicalSettlementTermsBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaPhysicalSettlementTermsBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaPhysicalSettlementTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaPhysicalSettlementTermsBuilder toBuilder()`
 - `ReferenceWithMetaPhysicalSettlementTermsBuilder prune()`
+- `ReferenceWithMetaPhysicalSettlementTermsBuilder toBuilder()`
+- `boolean hasData()`
 

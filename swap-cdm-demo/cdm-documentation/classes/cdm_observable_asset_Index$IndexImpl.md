@@ -23,9 +23,9 @@
 #### Getter Methods
 
 - `FieldWithMetaInterestRateIndex getInterestRateIndex()`
-- `EquityIndex getEquityIndex()`
 - `OtherIndex getOtherIndex()`
 - `CreditIndex getCreditIndex()`
+- `EquityIndex getEquityIndex()`
 - `ForeignExchangeRateIndex getForeignExchangeRateIndex()`
 
 #### Other Methods

@@ -26,9 +26,9 @@ public class JsonParserTest {
             System.out.println("Effective Date: " + xccySwap.getHeader().getEffectiveDate().getDate().format(DATE_FORMAT));
             System.out.println("Termination Date: " + xccySwap.getHeader().getTerminationDate().getDate().format(DATE_FORMAT));
             System.out.println("Party 1: " + xccySwap.getHeader().getParty1().getPartyName() +
-                              " (" + xccySwap.getHeader().getParty1().getRole() + ")");
+                              " (" + xccySwap.getHeader().getParty1().getPartyId() + ")");
             System.out.println("Party 2: " + xccySwap.getHeader().getParty2().getPartyName() +
-                              " (" + xccySwap.getHeader().getParty2().getRole() + ")");
+                              " (" + xccySwap.getHeader().getParty2().getPartyId() + ")");
 
             System.out.println("\nLegs:");
             for (LegParameters leg : xccySwap.getLegs()) {

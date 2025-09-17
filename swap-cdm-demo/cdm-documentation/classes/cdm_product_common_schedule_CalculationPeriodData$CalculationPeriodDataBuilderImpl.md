@@ -29,21 +29,21 @@
 
 #### Setter Methods
 
-- `CalculationPeriodDataBuilder setStartDate(Date arg0)`
-- `CalculationPeriodDataBuilder setDaysInLeapYearPeriod(Integer arg0)`
-- `CalculationPeriodDataBuilder setDaysInPeriod(Integer arg0)`
-- `CalculationPeriodDataBuilder setIsLastPeriod(Boolean arg0)`
-- `CalculationPeriodDataBuilder setIsFirstPeriod(Boolean arg0)`
 - `CalculationPeriodDataBuilder setEndDate(Date arg0)`
+- `CalculationPeriodDataBuilder setDaysInPeriod(Integer arg0)`
+- `CalculationPeriodDataBuilder setDaysInLeapYearPeriod(Integer arg0)`
+- `CalculationPeriodDataBuilder setStartDate(Date arg0)`
+- `CalculationPeriodDataBuilder setIsFirstPeriod(Boolean arg0)`
+- `CalculationPeriodDataBuilder setIsLastPeriod(Boolean arg0)`
 
 #### Getter Methods
 
-- `Date getStartDate()`
-- `Integer getDaysInPeriod()`
-- `Integer getDaysInLeapYearPeriod()`
-- `Boolean getIsFirstPeriod()`
-- `Boolean getIsLastPeriod()`
 - `Date getEndDate()`
+- `Integer getDaysInLeapYearPeriod()`
+- `Date getStartDate()`
+- `Boolean getIsFirstPeriod()`
+- `Integer getDaysInPeriod()`
+- `Boolean getIsLastPeriod()`
 
 #### Other Methods
 
@@ -51,7 +51,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CalculationPeriodDataBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CalculationPeriodDataBuilder toBuilder()`
 - `CalculationPeriodDataBuilder prune()`
+- `CalculationPeriodDataBuilder toBuilder()`
+- `boolean hasData()`
 

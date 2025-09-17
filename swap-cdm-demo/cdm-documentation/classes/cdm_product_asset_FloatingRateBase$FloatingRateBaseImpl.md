@@ -22,11 +22,11 @@
 
 #### Getter Methods
 
-- `StrikeSchedule getFloorRateSchedule()`
-- `SpreadSchedule getSpreadSchedule()`
-- `StrikeSchedule getCapRateSchedule()`
 - `ReferenceWithMetaInterestRateIndex getRateOption()`
 - `MetaFields getMeta()`
+- `SpreadSchedule getSpreadSchedule()`
+- `StrikeSchedule getFloorRateSchedule()`
+- `StrikeSchedule getCapRateSchedule()`
 
 #### Other Methods
 

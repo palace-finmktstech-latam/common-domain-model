@@ -20,17 +20,17 @@
 
 #### Getter Methods
 
-- `List getCalculationPeriodDatesReference()`
 - `ReferenceWithMetaCalculationPeriodDatesBuilder getOrCreateCalculationPeriodDatesReference(int arg0)`
+- `List getCalculationPeriodDatesReference()`
 
 #### Adder Methods
 
-- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReferenceValue(CalculationPeriodDates arg0, int arg1)`
-- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReferenceValue(List arg0)`
-- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReferenceValue(CalculationPeriodDates arg0)`
+- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReference(ReferenceWithMetaCalculationPeriodDates arg0)`
 - `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReference(List arg0)`
 - `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReference(ReferenceWithMetaCalculationPeriodDates arg0, int arg1)`
-- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReference(ReferenceWithMetaCalculationPeriodDates arg0)`
+- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReferenceValue(CalculationPeriodDates arg0)`
+- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReferenceValue(List arg0)`
+- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReferenceValue(CalculationPeriodDates arg0, int arg1)`
 
 #### Other Methods
 

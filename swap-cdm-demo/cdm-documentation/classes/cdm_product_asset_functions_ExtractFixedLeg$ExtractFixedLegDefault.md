@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `InterestRatePayoutBuilder doEvaluate(List arg0)`
 - `InterestRatePayoutBuilder assignOutput(InterestRatePayoutBuilder arg0, List arg1)`
+- `InterestRatePayoutBuilder doEvaluate(List arg0)`
 

@@ -25,13 +25,13 @@
 
 #### Setter Methods
 
-- `DeterminationMethodologyBuilder setAveragingMethod(AveragingCalculationMethodEnum arg0)`
 - `DeterminationMethodologyBuilder setDeterminationMethod(DeterminationMethodEnum arg0)`
+- `DeterminationMethodologyBuilder setAveragingMethod(AveragingCalculationMethodEnum arg0)`
 
 #### Getter Methods
 
-- `DeterminationMethodEnum getDeterminationMethod()`
 - `AveragingCalculationMethodEnum getAveragingMethod()`
+- `DeterminationMethodEnum getDeterminationMethod()`
 
 #### Other Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DeterminationMethodologyBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DeterminationMethodologyBuilder toBuilder()`
 - `DeterminationMethodologyBuilder prune()`
+- `DeterminationMethodologyBuilder toBuilder()`
+- `boolean hasData()`
 

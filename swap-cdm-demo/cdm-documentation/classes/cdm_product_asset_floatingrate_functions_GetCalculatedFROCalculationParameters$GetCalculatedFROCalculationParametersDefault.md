@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `FloatingRateCalculationParametersBuilder doEvaluate(ResetDates arg0, CalculationMethodEnum arg1)`
 - `FloatingRateCalculationParametersBuilder assignOutput(FloatingRateCalculationParametersBuilder arg0, ResetDates arg1, CalculationMethodEnum arg2)`
+- `FloatingRateCalculationParametersBuilder doEvaluate(ResetDates arg0, CalculationMethodEnum arg1)`
 

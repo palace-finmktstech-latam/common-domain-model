@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaBusinessDayAdjustmentsBuilder setValue(BusinessDayAdjustments arg0)`
-- `ReferenceWithMetaBusinessDayAdjustmentsBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaBusinessDayAdjustmentsBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaBusinessDayAdjustmentsBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaBusinessDayAdjustmentsBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaBusinessDayAdjustmentsBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaBusinessDayAdjustmentsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaBusinessDayAdjustmentsBuilder toBuilder()`
 - `ReferenceWithMetaBusinessDayAdjustmentsBuilder prune()`
+- `ReferenceWithMetaBusinessDayAdjustmentsBuilder toBuilder()`
+- `boolean hasData()`
 

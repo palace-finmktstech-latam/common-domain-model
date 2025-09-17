@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `ResetBuilder doEvaluate(AssetPayout arg0, List arg1, Date arg2)`
 - `ResetBuilder assignOutput(ResetBuilder arg0, AssetPayout arg1, List arg2, Date arg3)`
+- `ResetBuilder doEvaluate(AssetPayout arg0, List arg1, Date arg2)`
 

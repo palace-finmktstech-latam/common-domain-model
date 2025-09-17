@@ -15,22 +15,22 @@
 
 #### Setter Methods
 
+- `ObservationIdentifierBuilder setObservationDate(Date arg0)`
+- `ObservationIdentifierBuilder setObservable(Observable arg0)`
 - `ObservationIdentifierBuilder setObservationTime(TimeZone arg0)`
 - `ObservationIdentifierBuilder setInformationSource(InformationSource arg0)`
-- `ObservationIdentifierBuilder setObservable(Observable arg0)`
-- `ObservationIdentifierBuilder setObservationDate(Date arg0)`
 - `ObservationIdentifierBuilder setDeterminationMethodology(DeterminationMethodology arg0)`
 
 #### Getter Methods
 
-- `ObservableBuilder getOrCreateObservable()`
-- `TimeZoneBuilder getOrCreateObservationTime()`
 - `ObservableBuilder getObservable()`
-- `TimeZoneBuilder getObservationTime()`
-- `InformationSourceBuilder getInformationSource()`
-- `InformationSourceBuilder getOrCreateInformationSource()`
-- `DeterminationMethodologyBuilder getDeterminationMethodology()`
+- `ObservableBuilder getOrCreateObservable()`
 - `DeterminationMethodologyBuilder getOrCreateDeterminationMethodology()`
+- `InformationSourceBuilder getInformationSource()`
+- `TimeZoneBuilder getObservationTime()`
+- `TimeZoneBuilder getOrCreateObservationTime()`
+- `DeterminationMethodologyBuilder getDeterminationMethodology()`
+- `InformationSourceBuilder getOrCreateInformationSource()`
 
 #### Other Methods
 

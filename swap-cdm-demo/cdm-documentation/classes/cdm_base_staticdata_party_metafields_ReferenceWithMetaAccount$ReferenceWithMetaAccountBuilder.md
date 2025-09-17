@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaAccountBuilder setValue(Account arg0)`
-- `ReferenceWithMetaAccountBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaAccountBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaAccountBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaAccountBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaAccountBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

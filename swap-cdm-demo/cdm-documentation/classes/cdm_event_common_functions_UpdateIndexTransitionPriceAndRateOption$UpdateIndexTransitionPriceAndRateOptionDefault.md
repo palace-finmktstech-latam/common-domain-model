@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `PriceQuantityBuilder doEvaluate(PriceQuantity arg0, PriceQuantity arg1)`
 - `PriceQuantityBuilder assignOutput(PriceQuantityBuilder arg0, PriceQuantity arg1, PriceQuantity arg2)`
+- `PriceQuantityBuilder doEvaluate(PriceQuantity arg0, PriceQuantity arg1)`
 

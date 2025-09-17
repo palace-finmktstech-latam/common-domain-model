@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `NonTransferableProductBuilder doEvaluate(Underlier arg0, PayerReceiver arg1)`
 - `NonTransferableProductBuilder assignOutput(NonTransferableProductBuilder arg0, Underlier arg1, PayerReceiver arg2)`
+- `NonTransferableProductBuilder doEvaluate(Underlier arg0, PayerReceiver arg1)`
 

@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `TransactedPrice getTransactedPrice()`
 - `GeneralTerms getGeneralTerms()`
 - `List getProtectionTerms()`
+- `TransactedPrice getTransactedPrice()`
 
 #### Other Methods
 

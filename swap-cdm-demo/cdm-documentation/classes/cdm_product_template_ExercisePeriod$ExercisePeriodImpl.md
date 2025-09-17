@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `Period getExerciseFrequency()`
 - `Period getEarliestExerciseDateTenor()`
+- `Period getExerciseFrequency()`
 - `MetaFields getMeta()`
 
 #### Other Methods

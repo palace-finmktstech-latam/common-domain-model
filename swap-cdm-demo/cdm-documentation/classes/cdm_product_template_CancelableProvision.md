@@ -19,19 +19,19 @@
 #### Getter Methods
 
 - `Class getType()`
+- `AdjustableOrRelativeDates getEffectiveDate()`
 - `ExerciseTerms getExerciseTerms()`
-- `Boolean getFollowUpConfirmation()`
 - `Period getEffectivePeriod()`
 - `ExerciseNotice getExerciseNotice()`
-- `BusinessCenterTime getLatestCancelationTime()`
-- `Transfer getInitialFee()`
 - `AdjustableOrRelativeDate getEarliestDate()`
 - `AdjustableOrRelativeDate getExpirationDate()`
+- `Boolean getFollowUpConfirmation()`
 - `CallingPartyEnum getCallingParty()`
-- `AdjustableOrRelativeDates getEffectiveDate()`
-- `List getFinalCalculationPeriodDateAdjustment()`
-- `CancelableProvisionAdjustedDates getCancelableProvisionAdjustedDates()`
+- `BusinessCenterTime getLatestCancelationTime()`
+- `Transfer getInitialFee()`
 - `BusinessCenterTime getEarliestCancellationTime()`
+- `CancelableProvisionAdjustedDates getCancelableProvisionAdjustedDates()`
+- `List getFinalCalculationPeriodDateAdjustment()`
 
 #### Other Methods
 

@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `ConstituentWeightBuilder setOpenUnits(BigDecimal arg0)`
 - `ConstituentWeightBuilder setBasketPercentage(BigDecimal arg0)`
+- `ConstituentWeightBuilder setOpenUnits(BigDecimal arg0)`
 
 #### Other Methods
 

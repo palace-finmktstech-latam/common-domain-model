@@ -10,8 +10,8 @@
 - `getValue()` → `CollateralPortfolio` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaCollateralPortfolio` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaCollateralPortfolioBuilder
@@ -21,11 +21,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `CollateralPortfolioBuilder` [Getter]
 - `setValue(CollateralPortfolio arg0)` → `ReferenceWithMetaCollateralPortfolioBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaCollateralPortfolioBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaCollateralPortfolioBuilder` [Setter]
 - `getOrCreateValue()` → `CollateralPortfolioBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaCollateralPortfolioBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaCollateralPortfolioBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaCollateralPortfolioBuilder` [Setter]
 
 ### ReferenceWithMetaContractDetails
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -35,8 +35,8 @@
 - `getValue()` → `ContractDetails` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaContractDetails` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaContractDetailsBuilder
@@ -46,11 +46,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `ContractDetailsBuilder` [Getter]
 - `setValue(ContractDetails arg0)` → `ReferenceWithMetaContractDetailsBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaContractDetailsBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaContractDetailsBuilder` [Setter]
 - `getOrCreateValue()` → `ContractDetailsBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaContractDetailsBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaContractDetailsBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaContractDetailsBuilder` [Setter]
 
 ### ReferenceWithMetaExecutionDetails
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -60,8 +60,8 @@
 - `getValue()` → `ExecutionDetails` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaExecutionDetails` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaExecutionDetailsBuilder
@@ -71,11 +71,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `ExecutionDetailsBuilder` [Getter]
 - `setValue(ExecutionDetails arg0)` → `ReferenceWithMetaExecutionDetailsBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaExecutionDetailsBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaExecutionDetailsBuilder` [Setter]
 - `getOrCreateValue()` → `ExecutionDetailsBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaExecutionDetailsBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaExecutionDetailsBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaExecutionDetailsBuilder` [Setter]
 
 ### ReferenceWithMetaTrade
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -85,8 +85,8 @@
 - `getValue()` → `Trade` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaTrade` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaTradeBuilder
@@ -96,11 +96,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `TradeBuilder` [Getter]
 - `setValue(Trade arg0)` → `ReferenceWithMetaTradeBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaTradeBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaTradeBuilder` [Setter]
 - `getOrCreateValue()` → `TradeBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaTradeBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaTradeBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaTradeBuilder` [Setter]
 
 ### ReferenceWithMetaTradeState
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -110,8 +110,8 @@
 - `getValue()` → `TradeState` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaTradeState` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaTradeStateBuilder
@@ -121,11 +121,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `TradeStateBuilder` [Getter]
 - `setValue(TradeState arg0)` → `ReferenceWithMetaTradeStateBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaTradeStateBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaTradeStateBuilder` [Setter]
 - `getOrCreateValue()` → `TradeStateBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaTradeStateBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaTradeStateBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaTradeStateBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -143,12 +143,12 @@
 - `getValue()` → `CollateralPortfolioBuilder` [Getter]
 - `setValue(CollateralPortfolio arg0)` → `ReferenceWithMetaCollateralPortfolioBuilder` [Setter]
 - `build()` → `ReferenceWithMetaCollateralPortfolio` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaCollateralPortfolioBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaCollateralPortfolioBuilder` [Setter]
 - `getOrCreateValue()` → `CollateralPortfolioBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaCollateralPortfolioBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaCollateralPortfolioBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaCollateralPortfolioBuilder` [Setter]
 
 ### ReferenceWithMetaCollateralPortfolioImpl
 **Implements:** `ReferenceWithMetaCollateralPortfolio` 
@@ -157,8 +157,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `CollateralPortfolio` [Getter]
 - `build()` → `ReferenceWithMetaCollateralPortfolio` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaCollateralPortfolioBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaCollateralPortfolioMeta
@@ -178,12 +178,12 @@
 - `getValue()` → `ContractDetailsBuilder` [Getter]
 - `setValue(ContractDetails arg0)` → `ReferenceWithMetaContractDetailsBuilder` [Setter]
 - `build()` → `ReferenceWithMetaContractDetails` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaContractDetailsBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaContractDetailsBuilder` [Setter]
 - `getOrCreateValue()` → `ContractDetailsBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaContractDetailsBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaContractDetailsBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaContractDetailsBuilder` [Setter]
 
 ### ReferenceWithMetaContractDetailsImpl
 **Implements:** `ReferenceWithMetaContractDetails` 
@@ -192,8 +192,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `ContractDetails` [Getter]
 - `build()` → `ReferenceWithMetaContractDetails` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaContractDetailsBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaContractDetailsMeta
@@ -213,12 +213,12 @@
 - `getValue()` → `ExecutionDetailsBuilder` [Getter]
 - `setValue(ExecutionDetails arg0)` → `ReferenceWithMetaExecutionDetailsBuilder` [Setter]
 - `build()` → `ReferenceWithMetaExecutionDetails` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaExecutionDetailsBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaExecutionDetailsBuilder` [Setter]
 - `getOrCreateValue()` → `ExecutionDetailsBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaExecutionDetailsBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaExecutionDetailsBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaExecutionDetailsBuilder` [Setter]
 
 ### ReferenceWithMetaExecutionDetailsImpl
 **Implements:** `ReferenceWithMetaExecutionDetails` 
@@ -227,8 +227,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `ExecutionDetails` [Getter]
 - `build()` → `ReferenceWithMetaExecutionDetails` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaExecutionDetailsBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaExecutionDetailsMeta
@@ -248,12 +248,12 @@
 - `getValue()` → `TradeBuilder` [Getter]
 - `setValue(Trade arg0)` → `ReferenceWithMetaTradeBuilder` [Setter]
 - `build()` → `ReferenceWithMetaTrade` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaTradeBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaTradeBuilder` [Setter]
 - `getOrCreateValue()` → `TradeBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaTradeBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaTradeBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaTradeBuilder` [Setter]
 
 ### ReferenceWithMetaTradeImpl
 **Implements:** `ReferenceWithMetaTrade` 
@@ -262,8 +262,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `Trade` [Getter]
 - `build()` → `ReferenceWithMetaTrade` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaTradeBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaTradeMeta
@@ -283,12 +283,12 @@
 - `getValue()` → `TradeStateBuilder` [Getter]
 - `setValue(TradeState arg0)` → `ReferenceWithMetaTradeStateBuilder` [Setter]
 - `build()` → `ReferenceWithMetaTradeState` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaTradeStateBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaTradeStateBuilder` [Setter]
 - `getOrCreateValue()` → `TradeStateBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaTradeStateBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaTradeStateBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaTradeStateBuilder` [Setter]
 
 ### ReferenceWithMetaTradeStateImpl
 **Implements:** `ReferenceWithMetaTradeState` 
@@ -297,8 +297,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `TradeState` [Getter]
 - `build()` → `ReferenceWithMetaTradeState` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaTradeStateBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaTradeStateMeta

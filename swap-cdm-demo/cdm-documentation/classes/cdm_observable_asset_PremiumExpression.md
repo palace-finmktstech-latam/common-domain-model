@@ -20,8 +20,8 @@
 
 - `Class getType()`
 - `BigDecimal getPercentageOfNotional()`
-- `Money getPricePerOption()`
 - `PremiumTypeEnum getPremiumType()`
+- `Money getPricePerOption()`
 
 #### Other Methods
 

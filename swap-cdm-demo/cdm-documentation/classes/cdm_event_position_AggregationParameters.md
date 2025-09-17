@@ -19,13 +19,13 @@
 #### Getter Methods
 
 - `Class getType()`
-- `List getProductQualifier()`
-- `ZonedDateTime getDateTime()`
-- `PositionStatusEnum getPositionStatus()`
-- `Boolean getTotalPosition()`
 - `List getTradeReference()`
-- `List getProduct()`
 - `List getParty()`
+- `List getProduct()`
+- `ZonedDateTime getDateTime()`
+- `List getProductQualifier()`
+- `Boolean getTotalPosition()`
+- `PositionStatusEnum getPositionStatus()`
 
 #### Other Methods
 

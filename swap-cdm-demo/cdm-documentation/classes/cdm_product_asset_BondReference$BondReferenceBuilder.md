@@ -15,16 +15,16 @@
 
 #### Setter Methods
 
-- `BondReferenceBuilder setConditionPrecedentBond(Boolean arg0)`
 - `BondReferenceBuilder setDiscrepancyClause(Boolean arg0)`
+- `BondReferenceBuilder setConditionPrecedentBond(Boolean arg0)`
 - `BondReferenceBuilder setCouponRate(FixedRateSpecification arg0)`
 - `BondReferenceBuilder setBond(Security arg0)`
 
 #### Getter Methods
 
-- `FixedRateSpecificationBuilder getCouponRate()`
 - `SecurityBuilder getOrCreateBond()`
 - `FixedRateSpecificationBuilder getOrCreateCouponRate()`
+- `FixedRateSpecificationBuilder getCouponRate()`
 - `SecurityBuilder getBond()`
 
 #### Other Methods

@@ -25,15 +25,15 @@
 
 #### Setter Methods
 
-- `KnockBuilder setKnockOut(TriggerEvent arg0)`
 - `KnockBuilder setKnockIn(TriggerEvent arg0)`
+- `KnockBuilder setKnockOut(TriggerEvent arg0)`
 
 #### Getter Methods
 
-- `TriggerEventBuilder getKnockIn()`
-- `TriggerEventBuilder getOrCreateKnockOut()`
-- `TriggerEventBuilder getOrCreateKnockIn()`
 - `TriggerEventBuilder getKnockOut()`
+- `TriggerEventBuilder getKnockIn()`
+- `TriggerEventBuilder getOrCreateKnockIn()`
+- `TriggerEventBuilder getOrCreateKnockOut()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `KnockBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `KnockBuilder toBuilder()`
 - `KnockBuilder prune()`
+- `KnockBuilder toBuilder()`
+- `boolean hasData()`
 

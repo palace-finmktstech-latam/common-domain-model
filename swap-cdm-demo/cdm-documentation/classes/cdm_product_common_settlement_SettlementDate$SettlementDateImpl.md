@@ -22,13 +22,13 @@
 
 #### Getter Methods
 
-- `Boolean getPaymentDelay()`
-- `BusinessDateRange getBusinessDateRange()`
-- `Date getValueDate()`
-- `AdjustableDates getAdjustableDates()`
+- `MetaFields getMeta()`
 - `Integer getCashSettlementBusinessDays()`
 - `AdjustableOrAdjustedOrRelativeDate getAdjustableOrRelativeDate()`
-- `MetaFields getMeta()`
+- `Boolean getPaymentDelay()`
+- `AdjustableDates getAdjustableDates()`
+- `BusinessDateRange getBusinessDateRange()`
+- `Date getValueDate()`
 
 #### Other Methods
 

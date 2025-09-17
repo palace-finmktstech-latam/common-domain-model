@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaExecutionDetailsBuilder setValue(ExecutionDetails arg0)`
-- `ReferenceWithMetaExecutionDetailsBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaExecutionDetailsBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaExecutionDetailsBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaExecutionDetailsBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaExecutionDetailsBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

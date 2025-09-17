@@ -32,8 +32,8 @@
 
 #### Getter Methods
 
-- `ZonedDateTime getDateTime()`
 - `BigDecimal getWeight()`
+- `ZonedDateTime getDateTime()`
 - `Integer getObservationNumber()`
 
 #### Other Methods
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `WeightedAveragingObservationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `WeightedAveragingObservationBuilder toBuilder()`
 - `WeightedAveragingObservationBuilder prune()`
+- `WeightedAveragingObservationBuilder toBuilder()`
+- `boolean hasData()`
 

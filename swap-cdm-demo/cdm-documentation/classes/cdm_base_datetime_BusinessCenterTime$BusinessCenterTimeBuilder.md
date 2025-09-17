@@ -15,14 +15,14 @@
 
 #### Setter Methods
 
-- `BusinessCenterTimeBuilder setHourMinuteTime(LocalTime arg0)`
 - `BusinessCenterTimeBuilder setBusinessCenterValue(BusinessCenterEnum arg0)`
+- `BusinessCenterTimeBuilder setHourMinuteTime(LocalTime arg0)`
 - `BusinessCenterTimeBuilder setBusinessCenter(FieldWithMetaBusinessCenterEnum arg0)`
 
 #### Getter Methods
 
-- `FieldWithMetaBusinessCenterEnumBuilder getOrCreateBusinessCenter()`
 - `FieldWithMetaBusinessCenterEnumBuilder getBusinessCenter()`
+- `FieldWithMetaBusinessCenterEnumBuilder getOrCreateBusinessCenter()`
 
 #### Other Methods
 

@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `Date getRateRecordDate()`
-- `List getObservations()`
 - `Price getResetValue()`
 - `Date getResetDate()`
+- `Date getRateRecordDate()`
+- `List getObservations()`
 - `AveragingCalculation getAveragingMethodology()`
 - `MetaFields getMeta()`
 

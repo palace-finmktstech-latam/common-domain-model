@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Date getObservationDate()`
-- `BigDecimal getFloatingRate()`
-- `CalculatedRateDetails getCalculationDetails()`
 - `Date getResetDate()`
+- `Date getObservationDate()`
+- `CalculatedRateDetails getCalculationDetails()`
+- `BigDecimal getFloatingRate()`
 
 #### Other Methods
 

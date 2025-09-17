@@ -15,25 +15,25 @@
 
 #### Setter Methods
 
+- `FloatingAmountCalculationDetailsBuilder setCalculatedAmount(BigDecimal arg0)`
 - `FloatingAmountCalculationDetailsBuilder setCalculationPeriod(CalculationPeriodBase arg0)`
 - `FloatingAmountCalculationDetailsBuilder setYearFraction(BigDecimal arg0)`
-- `FloatingAmountCalculationDetailsBuilder setCalculatedAmount(BigDecimal arg0)`
+- `FloatingAmountCalculationDetailsBuilder setCalculationPeriodNotionalAmount(Money arg0)`
+- `FloatingAmountCalculationDetailsBuilder setSpreadExclusiveCalculatedAMount(BigDecimal arg0)`
+- `FloatingAmountCalculationDetailsBuilder setAppliedRate(BigDecimal arg0)`
 - `FloatingAmountCalculationDetailsBuilder setProcessingDetails(FloatingRateProcessingDetails arg0)`
 - `FloatingAmountCalculationDetailsBuilder setFloatingRate(FloatingRateSettingDetails arg0)`
-- `FloatingAmountCalculationDetailsBuilder setAppliedRate(BigDecimal arg0)`
-- `FloatingAmountCalculationDetailsBuilder setSpreadExclusiveCalculatedAMount(BigDecimal arg0)`
-- `FloatingAmountCalculationDetailsBuilder setCalculationPeriodNotionalAmount(Money arg0)`
 
 #### Getter Methods
 
-- `FloatingRateSettingDetailsBuilder getFloatingRate()`
 - `CalculationPeriodBaseBuilder getCalculationPeriod()`
-- `FloatingRateProcessingDetailsBuilder getProcessingDetails()`
-- `FloatingRateSettingDetailsBuilder getOrCreateFloatingRate()`
+- `CalculationPeriodBaseBuilder getOrCreateCalculationPeriod()`
+- `MoneyBuilder getCalculationPeriodNotionalAmount()`
 - `MoneyBuilder getOrCreateCalculationPeriodNotionalAmount()`
 - `FloatingRateProcessingDetailsBuilder getOrCreateProcessingDetails()`
-- `MoneyBuilder getCalculationPeriodNotionalAmount()`
-- `CalculationPeriodBaseBuilder getOrCreateCalculationPeriod()`
+- `FloatingRateSettingDetailsBuilder getOrCreateFloatingRate()`
+- `FloatingRateSettingDetailsBuilder getFloatingRate()`
+- `FloatingRateProcessingDetailsBuilder getProcessingDetails()`
 
 #### Other Methods
 

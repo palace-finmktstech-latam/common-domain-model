@@ -28,21 +28,21 @@
 
 #### Setter Methods
 
-- `ExerciseProcedureBuilder setManualExercise(ManualExercise arg0)`
 - `ExerciseProcedureBuilder setFollowUpConfirmation(Boolean arg0)`
+- `ExerciseProcedureBuilder setAutomaticExercise(AutomaticExercise arg0)`
+- `ExerciseProcedureBuilder setManualExercise(ManualExercise arg0)`
 - `ExerciseProcedureBuilder setLimitedRightToConfirm(Boolean arg0)`
 - `ExerciseProcedureBuilder setSplitTicket(Boolean arg0)`
-- `ExerciseProcedureBuilder setAutomaticExercise(AutomaticExercise arg0)`
 
 #### Getter Methods
 
 - `Boolean getFollowUpConfirmation()`
-- `AutomaticExerciseBuilder getOrCreateAutomaticExercise()`
-- `ManualExerciseBuilder getOrCreateManualExercise()`
 - `Boolean getLimitedRightToConfirm()`
+- `ManualExerciseBuilder getOrCreateManualExercise()`
 - `ManualExerciseBuilder getManualExercise()`
 - `Boolean getSplitTicket()`
 - `AutomaticExerciseBuilder getAutomaticExercise()`
+- `AutomaticExerciseBuilder getOrCreateAutomaticExercise()`
 
 #### Other Methods
 
@@ -50,7 +50,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ExerciseProcedureBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ExerciseProcedureBuilder toBuilder()`
 - `ExerciseProcedureBuilder prune()`
+- `ExerciseProcedureBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -21,9 +21,9 @@
 
 - `State getState()`
 - `Class getType()`
-- `List getResetHistory()`
-- `List getTransferHistory()`
 - `List getObservationHistory()`
+- `List getTransferHistory()`
+- `List getResetHistory()`
 - `List getValuationHistory()`
 - `Trade getTrade()`
 - `MetaFields getMeta()`

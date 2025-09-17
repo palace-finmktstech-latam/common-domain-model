@@ -15,17 +15,17 @@
 
 #### Setter Methods
 
-- `AsianBuilder setAveragingPeriodIn(AveragingPeriod arg0)`
 - `AsianBuilder setAveragingInOut(AveragingInOutEnum arg0)`
-- `AsianBuilder setAveragingPeriodOut(AveragingPeriod arg0)`
+- `AsianBuilder setAveragingPeriodIn(AveragingPeriod arg0)`
 - `AsianBuilder setStrikeFactor(BigDecimal arg0)`
+- `AsianBuilder setAveragingPeriodOut(AveragingPeriod arg0)`
 
 #### Getter Methods
 
-- `AveragingPeriodBuilder getOrCreateAveragingPeriodIn()`
-- `AveragingPeriodBuilder getOrCreateAveragingPeriodOut()`
 - `AveragingPeriodBuilder getAveragingPeriodOut()`
 - `AveragingPeriodBuilder getAveragingPeriodIn()`
+- `AveragingPeriodBuilder getOrCreateAveragingPeriodIn()`
+- `AveragingPeriodBuilder getOrCreateAveragingPeriodOut()`
 
 #### Other Methods
 

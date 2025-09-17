@@ -18,7 +18,7 @@
 - `MapperS end(InterestRatePayout arg0, DayCountFractionEnum arg1, CalculationPeriodBase arg2)`
 - `MapperS start(InterestRatePayout arg0, DayCountFractionEnum arg1, CalculationPeriodBase arg2)`
 - `MapperS termination(InterestRatePayout arg0, DayCountFractionEnum arg1, CalculationPeriodBase arg2)`
-- `BigDecimal doEvaluate(InterestRatePayout arg0, DayCountFractionEnum arg1, CalculationPeriodBase arg2)`
 - `BigDecimal assignOutput(BigDecimal arg0, InterestRatePayout arg1, DayCountFractionEnum arg2, CalculationPeriodBase arg3)`
+- `BigDecimal doEvaluate(InterestRatePayout arg0, DayCountFractionEnum arg1, CalculationPeriodBase arg2)`
 - `MapperS periodsInYear1(InterestRatePayout arg0, DayCountFractionEnum arg1, CalculationPeriodBase arg2)`
 

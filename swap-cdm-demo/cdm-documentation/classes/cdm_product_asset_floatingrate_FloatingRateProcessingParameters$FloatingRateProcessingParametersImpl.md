@@ -23,13 +23,13 @@
 #### Getter Methods
 
 - `BigDecimal getMultiplier()`
-- `Price getInitialRate()`
-- `Rounding getRounding()`
-- `BigDecimal getFloorRate()`
-- `BigDecimal getSpread()`
-- `BigDecimal getCapRate()`
 - `RateTreatmentEnum getTreatment()`
+- `BigDecimal getFloorRate()`
+- `Rounding getRounding()`
 - `NegativeInterestRateTreatmentEnum getNegativeTreatment()`
+- `Price getInitialRate()`
+- `BigDecimal getCapRate()`
+- `BigDecimal getSpread()`
 
 #### Other Methods
 

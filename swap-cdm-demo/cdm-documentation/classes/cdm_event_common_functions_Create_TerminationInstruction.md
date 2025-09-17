@@ -21,9 +21,9 @@
 #### Other Methods
 
 - `PrimitiveInstruction evaluate(TradeState arg0)`
-- `PrimitiveInstructionBuilder doEvaluate(TradeState arg0)`
 - `MapperS changePriceQuantity(TradeState arg0)`
 - `MapperC changeQuantity(TradeState arg0)`
+- `PrimitiveInstructionBuilder doEvaluate(TradeState arg0)`
 
 ### Annotations
 

@@ -15,14 +15,14 @@
 
 #### Setter Methods
 
+- `SubstitutionProvisionsBuilder setNumberOfSubstitutionsAllowed(Integer arg0)`
 - `SubstitutionProvisionsBuilder setNoticeDeadlineDateTime(ZonedDateTime arg0)`
 - `SubstitutionProvisionsBuilder setNoticeDeadlinePeriod(Period arg0)`
-- `SubstitutionProvisionsBuilder setNumberOfSubstitutionsAllowed(Integer arg0)`
 
 #### Getter Methods
 
-- `PeriodBuilder getNoticeDeadlinePeriod()`
 - `PeriodBuilder getOrCreateNoticeDeadlinePeriod()`
+- `PeriodBuilder getNoticeDeadlinePeriod()`
 
 #### Other Methods
 

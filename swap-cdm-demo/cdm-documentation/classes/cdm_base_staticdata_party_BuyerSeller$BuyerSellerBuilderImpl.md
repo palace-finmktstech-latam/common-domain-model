@@ -25,13 +25,13 @@
 
 #### Setter Methods
 
-- `BuyerSellerBuilder setSeller(CounterpartyRoleEnum arg0)`
 - `BuyerSellerBuilder setBuyer(CounterpartyRoleEnum arg0)`
+- `BuyerSellerBuilder setSeller(CounterpartyRoleEnum arg0)`
 
 #### Getter Methods
 
-- `CounterpartyRoleEnum getSeller()`
 - `CounterpartyRoleEnum getBuyer()`
+- `CounterpartyRoleEnum getSeller()`
 
 #### Other Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BuyerSellerBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BuyerSellerBuilder toBuilder()`
 - `BuyerSellerBuilder prune()`
+- `BuyerSellerBuilder toBuilder()`
+- `boolean hasData()`
 

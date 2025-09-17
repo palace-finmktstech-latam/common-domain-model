@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `BusinessCenters getAdditionalBusinessDays()`
 - `ObservationPeriodDatesEnum getCalculationBase()`
+- `BusinessCenters getAdditionalBusinessDays()`
 - `Integer getOffsetDays()`
 
 #### Other Methods

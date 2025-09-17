@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `String getPriceSourceHeading()`
 - `String getPriceSourceLocation()`
 - `LocalTime getPriceSourceTime()`
+- `String getPriceSourceHeading()`
 - `FieldWithMetaString getPricePublisher()`
 
 #### Other Methods

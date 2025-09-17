@@ -15,16 +15,16 @@
 
 #### Setter Methods
 
-- `DividendTermsBuilder setManufacturedIncomeRequirement(DividendPayoutRatio arg0)`
-- `DividendTermsBuilder setMinimumBillingAmount(Money arg0)`
 - `DividendTermsBuilder setDividendEntitlement(DividendEntitlementEnum arg0)`
+- `DividendTermsBuilder setMinimumBillingAmount(Money arg0)`
+- `DividendTermsBuilder setManufacturedIncomeRequirement(DividendPayoutRatio arg0)`
 
 #### Getter Methods
 
 - `DividendPayoutRatioBuilder getOrCreateManufacturedIncomeRequirement()`
-- `MoneyBuilder getOrCreateMinimumBillingAmount()`
-- `DividendPayoutRatioBuilder getManufacturedIncomeRequirement()`
 - `MoneyBuilder getMinimumBillingAmount()`
+- `DividendPayoutRatioBuilder getManufacturedIncomeRequirement()`
+- `MoneyBuilder getOrCreateMinimumBillingAmount()`
 
 #### Other Methods
 

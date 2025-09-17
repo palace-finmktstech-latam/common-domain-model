@@ -25,21 +25,21 @@
 
 #### Setter Methods
 
-- `ObservationScheduleBuilder setDateAdjustments(BusinessDayAdjustments arg0)`
 - `ObservationScheduleBuilder setObservationDate(List arg0)`
+- `ObservationScheduleBuilder setDateAdjustments(BusinessDayAdjustments arg0)`
 
 #### Getter Methods
 
-- `List getObservationDate()`
-- `BusinessDayAdjustmentsBuilder getOrCreateDateAdjustments()`
 - `ObservationDateBuilder getOrCreateObservationDate(int arg0)`
+- `BusinessDayAdjustmentsBuilder getOrCreateDateAdjustments()`
 - `BusinessDayAdjustmentsBuilder getDateAdjustments()`
+- `List getObservationDate()`
 
 #### Adder Methods
 
+- `ObservationScheduleBuilder addObservationDate(ObservationDate arg0)`
 - `ObservationScheduleBuilder addObservationDate(ObservationDate arg0, int arg1)`
 - `ObservationScheduleBuilder addObservationDate(List arg0)`
-- `ObservationScheduleBuilder addObservationDate(ObservationDate arg0)`
 
 #### Other Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ObservationScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ObservationScheduleBuilder toBuilder()`
 - `ObservationScheduleBuilder prune()`
+- `ObservationScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

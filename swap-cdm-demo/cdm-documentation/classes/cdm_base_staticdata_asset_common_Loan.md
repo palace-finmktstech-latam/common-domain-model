@@ -19,11 +19,11 @@
 #### Getter Methods
 
 - `Class getType()`
-- `FieldWithMetaString getFacilityType()`
-- `Date getCreditAgreementDate()`
-- `List getBorrower()`
-- `FieldWithMetaString getTranche()`
 - `FieldWithMetaString getLien()`
+- `FieldWithMetaString getTranche()`
+- `FieldWithMetaString getFacilityType()`
+- `List getBorrower()`
+- `Date getCreditAgreementDate()`
 
 #### Other Methods
 

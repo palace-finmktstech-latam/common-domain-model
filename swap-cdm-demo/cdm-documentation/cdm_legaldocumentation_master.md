@@ -419,28 +419,28 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `AdditionalDisruptionEvents` [Builder]
-- `getDeterminingParty()` → `AncillaryRoleEnum` [Getter]
 - `getIncreasedCostOfStockBorrow()` → `Boolean` [Getter]
-- `getAdditionalBespokeTerms()` → `List` [Getter]
 - `getFailureToDeliver()` → `Boolean` [Getter]
-- `getChangeInLaw()` → `Boolean` [Getter]
+- `getAdditionalBespokeTerms()` → `List` [Getter]
 - `getLossOfStockBorrow()` → `Boolean` [Getter]
+- `getMaximumStockLoanRate()` → `BigDecimal` [Getter]
+- `getForeignOwnershipEvent()` → `Boolean` [Getter]
+- `getInsolvencyFiling()` → `Boolean` [Getter]
 - `getHedgingDisruption()` → `Boolean` [Getter]
-- `getIncreasedCostOfHedging()` → `Boolean` [Getter]
 
 ### AdditionalDisruptionEventsBuilder
 **Implements:** `AdditionalDisruptionEvents` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
 - `getAdditionalBespokeTerms()` → `List` [Getter]
-- `setDeterminingParty(AncillaryRoleEnum arg0)` → `AdditionalDisruptionEventsBuilder` [Setter]
 - `setAdditionalBespokeTerms(List arg0)` → `AdditionalDisruptionEventsBuilder` [Setter]
 - `setFailureToDeliver(Boolean arg0)` → `AdditionalDisruptionEventsBuilder` [Setter]
-- `setInitialStockLoanRate(BigDecimal arg0)` → `AdditionalDisruptionEventsBuilder` [Setter]
 - `setLossOfStockBorrow(Boolean arg0)` → `AdditionalDisruptionEventsBuilder` [Setter]
+- `setInitialStockLoanRate(BigDecimal arg0)` → `AdditionalDisruptionEventsBuilder` [Setter]
 - `setInsolvencyFiling(Boolean arg0)` → `AdditionalDisruptionEventsBuilder` [Setter]
-- `setHedgingDisruption(Boolean arg0)` → `AdditionalDisruptionEventsBuilder` [Setter]
 - `setForeignOwnershipEvent(Boolean arg0)` → `AdditionalDisruptionEventsBuilder` [Setter]
+- `setMaximumStockLoanRate(BigDecimal arg0)` → `AdditionalDisruptionEventsBuilder` [Setter]
+- `setHedgingDisruption(Boolean arg0)` → `AdditionalDisruptionEventsBuilder` [Setter]
 - `setIncreasedCostOfHedging(Boolean arg0)` → `AdditionalDisruptionEventsBuilder` [Setter]
 
 ### Clause
@@ -459,9 +459,9 @@
 **Key Methods:**
 - `setIdentifier(String arg0)` → `ClauseBuilder` [Setter]
 - `setTerms(String arg0)` → `ClauseBuilder` [Setter]
+- `setSubcomponents(List arg0)` → `ClauseBuilder` [Setter]
 - `getSubcomponents()` → `List` [Getter]
 - `getOrCreateSubcomponents(int arg0)` → `ClauseBuilder` [Getter]
-- `setSubcomponents(List arg0)` → `ClauseBuilder` [Setter]
 
 ### DeterminationRolesAndTerms
 **Implements:** `RosettaModelObject` 
@@ -479,23 +479,23 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `EquityAdditionalTerms` [Builder]
-- `getExtraordinaryEvents()` → `ExtraordinaryEvents` [Getter]
 - `getDeterminationTerms()` → `List` [Getter]
 - `getSubstitutionProvision()` → `UnderlierSubstitutionProvision` [Getter]
+- `getExtraordinaryEvents()` → `ExtraordinaryEvents` [Getter]
 
 ### EquityAdditionalTermsBuilder
 **Implements:** `EquityAdditionalTerms` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getExtraordinaryEvents()` → `ExtraordinaryEventsBuilder` [Getter]
 - `getDeterminationTerms()` → `List` [Getter]
 - `getSubstitutionProvision()` → `UnderlierSubstitutionProvisionBuilder` [Getter]
+- `getExtraordinaryEvents()` → `ExtraordinaryEventsBuilder` [Getter]
 - `setExtraordinaryEvents(ExtraordinaryEvents arg0)` → `EquityAdditionalTermsBuilder` [Setter]
 - `setSubstitutionProvision(UnderlierSubstitutionProvision arg0)` → `EquityAdditionalTermsBuilder` [Setter]
 - `setDeterminationTerms(List arg0)` → `EquityAdditionalTermsBuilder` [Setter]
+- `getOrCreateSubstitutionProvision()` → `UnderlierSubstitutionProvisionBuilder` [Getter]
 - `getOrCreateExtraordinaryEvents()` → `ExtraordinaryEventsBuilder` [Getter]
 - `getOrCreateDeterminationTerms(int arg0)` → `DeterminationRolesAndTermsBuilder` [Getter]
-- `getOrCreateSubstitutionProvision()` → `UnderlierSubstitutionProvisionBuilder` [Getter]
 
 ### EquityCorporateEvents
 **Implements:** `RosettaModelObject` 
@@ -523,27 +523,27 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `EquitySwapMasterConfirmation2018` [Builder]
-- `getPricingMethodElection()` → `PriceReturnTerms` [Getter]
 - `getTypeOfSwapElection()` → `ReturnTypeEnum` [Getter]
 - `getValuationDates()` → `ValuationDates` [Getter]
-- `getLinearInterpolationElection()` → `InterpolationMethodEnum` [Getter]
 - `getEquityCashSettlementDates()` → `PaymentDates` [Getter]
 - `getSettlementTerms()` → `SettlementTerms` [Getter]
+- `getPricingMethodElection()` → `PriceReturnTerms` [Getter]
+- `getLinearInterpolationElection()` → `InterpolationMethodEnum` [Getter]
 
 ### EquitySwapMasterConfirmation2018Builder
 **Implements:** `EquitySwapMasterConfirmation2018` `EquityMasterConfirmation$EquityMasterConfirmationBuilder` 
 
 **Key Methods:**
-- `getPricingMethodElection()` → `PriceReturnTermsBuilder` [Getter]
-- `getOrCreateSettlementTerms()` → `SettlementTermsBuilder` [Getter]
-- `setValuationDates(ValuationDates arg0)` → `EquitySwapMasterConfirmation2018Builder` [Setter]
-- `setSettlementTerms(SettlementTerms arg0)` → `EquitySwapMasterConfirmation2018Builder` [Setter]
 - `getValuationDates()` → `ValuationDatesBuilder` [Getter]
-- `getOrCreateValuationDates()` → `ValuationDatesBuilder` [Getter]
+- `setSettlementTerms(SettlementTerms arg0)` → `EquitySwapMasterConfirmation2018Builder` [Setter]
+- `setValuationDates(ValuationDates arg0)` → `EquitySwapMasterConfirmation2018Builder` [Setter]
 - `setTypeOfSwapElection(ReturnTypeEnum arg0)` → `EquitySwapMasterConfirmation2018Builder` [Setter]
 - `setPricingMethodElection(PriceReturnTerms arg0)` → `EquitySwapMasterConfirmation2018Builder` [Setter]
+- `getOrCreateValuationDates()` → `ValuationDatesBuilder` [Getter]
+- `getOrCreateSettlementTerms()` → `SettlementTermsBuilder` [Getter]
 - `getEquityCashSettlementDates()` → `PaymentDatesBuilder` [Getter]
 - `getSettlementTerms()` → `SettlementTermsBuilder` [Getter]
+- `getPricingMethodElection()` → `PriceReturnTermsBuilder` [Getter]
 
 ### ExtraordinaryEvents
 **Implements:** `RosettaModelObject` 
@@ -551,29 +551,29 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ExtraordinaryEvents` [Builder]
+- `getAdditionalDisruptionEvents()` → `AdditionalDisruptionEvents` [Getter]
 - `getCompositionOfCombinedConsideration()` → `Boolean` [Getter]
 - `getNationalizationOrInsolvency()` → `NationalizationOrInsolvencyOrDelistingEventEnum` [Getter]
 - `getIndexAdjustmentEvents()` → `IndexAdjustmentEvents` [Getter]
-- `getDelisting()` → `NationalizationOrInsolvencyOrDelistingEventEnum` [Getter]
-- `getTenderOfferEvents()` → `EquityCorporateEvents` [Getter]
 - `getRepresentations()` → `Representations` [Getter]
-- `getAdditionalBespokeTerms()` → `List` [Getter]
+- `getTenderOfferEvents()` → `EquityCorporateEvents` [Getter]
 - `getMergerEvents()` → `EquityCorporateEvents` [Getter]
+- `getFailureToDeliver()` → `Boolean` [Getter]
 
 ### ExtraordinaryEventsBuilder
 **Implements:** `ExtraordinaryEvents` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `getAdditionalDisruptionEvents()` → `AdditionalDisruptionEventsBuilder` [Getter]
 - `getIndexAdjustmentEvents()` → `IndexAdjustmentEventsBuilder` [Getter]
-- `getTenderOfferEvents()` → `EquityCorporateEventsBuilder` [Getter]
 - `getRepresentations()` → `RepresentationsBuilder` [Getter]
-- `getAdditionalBespokeTerms()` → `List` [Getter]
+- `getTenderOfferEvents()` → `EquityCorporateEventsBuilder` [Getter]
 - `getMergerEvents()` → `EquityCorporateEventsBuilder` [Getter]
-- `getOrCreateMergerEvents()` → `EquityCorporateEventsBuilder` [Getter]
-- `getOrCreateRepresentations()` → `RepresentationsBuilder` [Getter]
-- `setMergerEvents(EquityCorporateEvents arg0)` → `ExtraordinaryEventsBuilder` [Setter]
+- `getAdditionalBespokeTerms()` → `List` [Getter]
+- `setAdditionalBespokeTerms(List arg0)` → `ExtraordinaryEventsBuilder` [Setter]
 - `setTenderOfferEvents(EquityCorporateEvents arg0)` → `ExtraordinaryEventsBuilder` [Setter]
 - `setIndexAdjustmentEvents(IndexAdjustmentEvents arg0)` → `ExtraordinaryEventsBuilder` [Setter]
+- `setFailureToDeliver(Boolean arg0)` → `ExtraordinaryEventsBuilder` [Setter]
 
 ### FxAdditionalTerms
 **Implements:** `RosettaModelObject` 
@@ -603,9 +603,9 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `MasterAgreementClause` [Builder]
 - `getVariant()` → `List` [Getter]
+- `getCounterparty()` → `List` [Getter]
 - `getIdentifer()` → `MasterAgreementClauseIdentifierEnum` [Getter]
 - `getOtherParty()` → `List` [Getter]
-- `getCounterparty()` → `List` [Getter]
 
 ### MasterAgreementClauseBuilder
 **Implements:** `MasterAgreementClause` `RosettaModelObjectBuilder` 
@@ -615,8 +615,8 @@
 - `getVariant()` → `List` [Getter]
 - `setVariant(List arg0)` → `MasterAgreementClauseBuilder` [Setter]
 - `setCounterparty(List arg0)` → `MasterAgreementClauseBuilder` [Setter]
-- `setOtherParty(List arg0)` → `MasterAgreementClauseBuilder` [Setter]
 - `setIdentifer(MasterAgreementClauseIdentifierEnum arg0)` → `MasterAgreementClauseBuilder` [Setter]
+- `setOtherParty(List arg0)` → `MasterAgreementClauseBuilder` [Setter]
 - `getOrCreateVariant(int arg0)` → `MasterAgreementClauseVariantBuilder` [Getter]
 
 ### MasterAgreementClauseVariant
@@ -626,9 +626,9 @@
 - `getName()` → `String` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `MasterAgreementClauseVariant` [Builder]
-- `getOtherParty()` → `List` [Getter]
-- `getVariableSet()` → `List` [Getter]
 - `getCounterparty()` → `List` [Getter]
+- `getVariableSet()` → `List` [Getter]
+- `getOtherParty()` → `List` [Getter]
 - `getIdentifier()` → `MasterAgreementVariantIdentifierEnum` [Getter]
 
 ### MasterAgreementClauseVariantBuilder
@@ -636,12 +636,12 @@
 
 **Key Methods:**
 - `setName(String arg0)` → `MasterAgreementClauseVariantBuilder` [Setter]
-- `setCounterparty(List arg0)` → `MasterAgreementClauseVariantBuilder` [Setter]
-- `setOtherParty(List arg0)` → `MasterAgreementClauseVariantBuilder` [Setter]
 - `setIdentifier(MasterAgreementVariantIdentifierEnum arg0)` → `MasterAgreementClauseVariantBuilder` [Setter]
+- `setCounterparty(List arg0)` → `MasterAgreementClauseVariantBuilder` [Setter]
 - `setVariableSet(List arg0)` → `MasterAgreementClauseVariantBuilder` [Setter]
 - `getOrCreateVariableSet(int arg0)` → `MasterAgreementVariableSetBuilder` [Getter]
 - `getVariableSet()` → `List` [Getter]
+- `setOtherParty(List arg0)` → `MasterAgreementClauseVariantBuilder` [Setter]
 
 ### MasterAgreementSchedule
 **Implements:** `RosettaModelObject` 
@@ -705,27 +705,27 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `TransactionAdditionalTerms` [Builder]
-- `getCreditAdditionalTerms()` → `String` [Getter]
 - `getEquityAdditionalTerms()` → `EquityAdditionalTerms` [Getter]
-- `getForeignExchangeAdditionalTerms()` → `FxAdditionalTerms` [Getter]
+- `getCreditAdditionalTerms()` → `String` [Getter]
 - `getDigitalAssetAdditionalTerms()` → `String` [Getter]
-- `getCommoditiesAdditionalTerms()` → `String` [Getter]
+- `getForeignExchangeAdditionalTerms()` → `FxAdditionalTerms` [Getter]
 - `getInterestRateAdditionalTerms()` → `String` [Getter]
+- `getCommoditiesAdditionalTerms()` → `String` [Getter]
 
 ### TransactionAdditionalTermsBuilder
 **Implements:** `TransactionAdditionalTerms` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
 - `getEquityAdditionalTerms()` → `EquityAdditionalTermsBuilder` [Getter]
-- `getForeignExchangeAdditionalTerms()` → `FxAdditionalTermsBuilder` [Getter]
-- `setEquityAdditionalTerms(EquityAdditionalTerms arg0)` → `TransactionAdditionalTermsBuilder` [Setter]
 - `setCreditAdditionalTerms(String arg0)` → `TransactionAdditionalTermsBuilder` [Setter]
+- `setEquityAdditionalTerms(EquityAdditionalTerms arg0)` → `TransactionAdditionalTermsBuilder` [Setter]
+- `getForeignExchangeAdditionalTerms()` → `FxAdditionalTermsBuilder` [Getter]
 - `setDigitalAssetAdditionalTerms(String arg0)` → `TransactionAdditionalTermsBuilder` [Setter]
-- `getOrCreateForeignExchangeAdditionalTerms()` → `FxAdditionalTermsBuilder` [Getter]
-- `setCommoditiesAdditionalTerms(String arg0)` → `TransactionAdditionalTermsBuilder` [Setter]
 - `setInterestRateAdditionalTerms(String arg0)` → `TransactionAdditionalTermsBuilder` [Setter]
-- `getOrCreateEquityAdditionalTerms()` → `EquityAdditionalTermsBuilder` [Getter]
+- `setCommoditiesAdditionalTerms(String arg0)` → `TransactionAdditionalTermsBuilder` [Setter]
 - `setForeignExchangeAdditionalTerms(FxAdditionalTerms arg0)` → `TransactionAdditionalTermsBuilder` [Setter]
+- `getOrCreateEquityAdditionalTerms()` → `EquityAdditionalTermsBuilder` [Getter]
+- `getOrCreateForeignExchangeAdditionalTerms()` → `FxAdditionalTermsBuilder` [Getter]
 
 ### UnderlierSubstitutionProvision
 **Implements:** `RosettaModelObject` 
@@ -733,23 +733,23 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `UnderlierSubstitutionProvision` [Builder]
-- `getWhoMaySubstitute()` → `List` [Getter]
 - `getDisputingParty()` → `CounterpartyRoleEnum` [Getter]
-- `getSubstitutionBeSpokeTerms()` → `List` [Getter]
+- `getWhoMaySubstitute()` → `List` [Getter]
 - `getSubstitutionTriggerEvents()` → `List` [Getter]
+- `getSubstitutionBeSpokeTerms()` → `List` [Getter]
 
 ### UnderlierSubstitutionProvisionBuilder
 **Implements:** `UnderlierSubstitutionProvision` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setWhoMaySubstitute(List arg0)` → `UnderlierSubstitutionProvisionBuilder` [Setter]
 - `setDisputingParty(CounterpartyRoleEnum arg0)` → `UnderlierSubstitutionProvisionBuilder` [Setter]
-- `getSubstitutionBeSpokeTerms()` → `List` [Getter]
+- `setWhoMaySubstitute(List arg0)` → `UnderlierSubstitutionProvisionBuilder` [Setter]
 - `getSubstitutionTriggerEvents()` → `List` [Getter]
 - `getOrCreateSubstitutionBeSpokeTerms(int arg0)` → `ClauseBuilder` [Getter]
+- `setSubstitutionBeSpokeTerms(List arg0)` → `UnderlierSubstitutionProvisionBuilder` [Setter]
 - `getOrCreateSubstitutionTriggerEvents(int arg0)` → `ExtraordinaryEventsBuilder` [Getter]
 - `setSubstitutionTriggerEvents(List arg0)` → `UnderlierSubstitutionProvisionBuilder` [Setter]
-- `setSubstitutionBeSpokeTerms(List arg0)` → `UnderlierSubstitutionProvisionBuilder` [Setter]
+- `getSubstitutionBeSpokeTerms()` → `List` [Getter]
 
 ## Concrete Classes
 
@@ -772,30 +772,30 @@
 
 **Key Methods:**
 - `build()` → `AdditionalDisruptionEvents` [Builder]
-- `getDeterminingParty()` → `AncillaryRoleEnum` [Getter]
 - `getIncreasedCostOfStockBorrow()` → `Boolean` [Getter]
-- `getAdditionalBespokeTerms()` → `List` [Getter]
 - `getFailureToDeliver()` → `Boolean` [Getter]
-- `getChangeInLaw()` → `Boolean` [Getter]
+- `getAdditionalBespokeTerms()` → `List` [Getter]
 - `getLossOfStockBorrow()` → `Boolean` [Getter]
+- `getMaximumStockLoanRate()` → `BigDecimal` [Getter]
+- `getForeignOwnershipEvent()` → `Boolean` [Getter]
+- `getInsolvencyFiling()` → `Boolean` [Getter]
 - `getHedgingDisruption()` → `Boolean` [Getter]
 - `getIncreasedCostOfHedging()` → `Boolean` [Getter]
-- `getInitialStockLoanRate()` → `BigDecimal` [Getter]
 
 ### AdditionalDisruptionEventsImpl
 **Implements:** `AdditionalDisruptionEvents` 
 
 **Key Methods:**
 - `build()` → `AdditionalDisruptionEvents` [Builder]
-- `getDeterminingParty()` → `AncillaryRoleEnum` [Getter]
 - `setBuilderFields(AdditionalDisruptionEventsBuilder arg0)` → `void` [Setter]
 - `getIncreasedCostOfStockBorrow()` → `Boolean` [Getter]
-- `getAdditionalBespokeTerms()` → `List` [Getter]
 - `getFailureToDeliver()` → `Boolean` [Getter]
-- `getChangeInLaw()` → `Boolean` [Getter]
+- `getAdditionalBespokeTerms()` → `List` [Getter]
 - `getLossOfStockBorrow()` → `Boolean` [Getter]
+- `getMaximumStockLoanRate()` → `BigDecimal` [Getter]
+- `getForeignOwnershipEvent()` → `Boolean` [Getter]
+- `getInsolvencyFiling()` → `Boolean` [Getter]
 - `getHedgingDisruption()` → `Boolean` [Getter]
-- `getIncreasedCostOfHedging()` → `Boolean` [Getter]
 
 ### ClauseBuilderImpl
 **Implements:** `Clause$ClauseBuilder` 
@@ -808,11 +808,11 @@
 **Key Methods:**
 - `build()` → `Clause` [Builder]
 - `setIdentifier(String arg0)` → `ClauseBuilder` [Setter]
-- `setTerms(String arg0)` → `ClauseBuilder` [Setter]
 - `getTerms()` → `String` [Getter]
+- `setTerms(String arg0)` → `ClauseBuilder` [Setter]
+- `setSubcomponents(List arg0)` → `ClauseBuilder` [Setter]
 - `getSubcomponents()` → `List` [Getter]
 - `getOrCreateSubcomponents(int arg0)` → `ClauseBuilder` [Getter]
-- `setSubcomponents(List arg0)` → `ClauseBuilder` [Setter]
 - `getIdentifier()` → `String` [Getter]
 
 ### ClauseImpl
@@ -848,25 +848,25 @@
 
 **Key Methods:**
 - `build()` → `EquityAdditionalTerms` [Builder]
-- `getExtraordinaryEvents()` → `ExtraordinaryEventsBuilder` [Getter]
 - `getDeterminationTerms()` → `List` [Getter]
 - `getSubstitutionProvision()` → `UnderlierSubstitutionProvisionBuilder` [Getter]
+- `getExtraordinaryEvents()` → `ExtraordinaryEventsBuilder` [Getter]
 - `setExtraordinaryEvents(ExtraordinaryEvents arg0)` → `EquityAdditionalTermsBuilder` [Setter]
 - `setSubstitutionProvision(UnderlierSubstitutionProvision arg0)` → `EquityAdditionalTermsBuilder` [Setter]
 - `setDeterminationTerms(List arg0)` → `EquityAdditionalTermsBuilder` [Setter]
+- `getOrCreateSubstitutionProvision()` → `UnderlierSubstitutionProvisionBuilder` [Getter]
 - `getOrCreateExtraordinaryEvents()` → `ExtraordinaryEventsBuilder` [Getter]
 - `getOrCreateDeterminationTerms(int arg0)` → `DeterminationRolesAndTermsBuilder` [Getter]
-- `getOrCreateSubstitutionProvision()` → `UnderlierSubstitutionProvisionBuilder` [Getter]
 
 ### EquityAdditionalTermsImpl
 **Implements:** `EquityAdditionalTerms` 
 
 **Key Methods:**
 - `build()` → `EquityAdditionalTerms` [Builder]
-- `getExtraordinaryEvents()` → `ExtraordinaryEvents` [Getter]
 - `setBuilderFields(EquityAdditionalTermsBuilder arg0)` → `void` [Setter]
 - `getDeterminationTerms()` → `List` [Getter]
 - `getSubstitutionProvision()` → `UnderlierSubstitutionProvision` [Getter]
+- `getExtraordinaryEvents()` → `ExtraordinaryEvents` [Getter]
 
 ### EquityCorporateEventsBuilderImpl
 **Implements:** `EquityCorporateEvents$EquityCorporateEventsBuilder` 
@@ -910,15 +910,15 @@
 
 **Key Methods:**
 - `build()` → `EquitySwapMasterConfirmation2018` [Builder]
-- `getPricingMethodElection()` → `PriceReturnTermsBuilder` [Getter]
-- `getOrCreateSettlementTerms()` → `SettlementTermsBuilder` [Getter]
-- `setValuationDates(ValuationDates arg0)` → `EquitySwapMasterConfirmation2018Builder` [Setter]
 - `getTypeOfSwapElection()` → `ReturnTypeEnum` [Getter]
-- `setSettlementTerms(SettlementTerms arg0)` → `EquitySwapMasterConfirmation2018Builder` [Setter]
 - `getValuationDates()` → `ValuationDatesBuilder` [Getter]
-- `getOrCreateValuationDates()` → `ValuationDatesBuilder` [Getter]
-- `getLinearInterpolationElection()` → `InterpolationMethodEnum` [Getter]
+- `setSettlementTerms(SettlementTerms arg0)` → `EquitySwapMasterConfirmation2018Builder` [Setter]
+- `setValuationDates(ValuationDates arg0)` → `EquitySwapMasterConfirmation2018Builder` [Setter]
 - `setTypeOfSwapElection(ReturnTypeEnum arg0)` → `EquitySwapMasterConfirmation2018Builder` [Setter]
+- `setPricingMethodElection(PriceReturnTerms arg0)` → `EquitySwapMasterConfirmation2018Builder` [Setter]
+- `getOrCreateValuationDates()` → `ValuationDatesBuilder` [Getter]
+- `getOrCreateSettlementTerms()` → `SettlementTermsBuilder` [Getter]
+- `getEquityCashSettlementDates()` → `PaymentDatesBuilder` [Getter]
 
 ### EquitySwapMasterConfirmation2018Impl
 **Extends:** `EquityMasterConfirmation$EquityMasterConfirmationImpl` 
@@ -926,13 +926,13 @@
 
 **Key Methods:**
 - `build()` → `EquitySwapMasterConfirmation2018` [Builder]
-- `getPricingMethodElection()` → `PriceReturnTerms` [Getter]
 - `setBuilderFields(EquitySwapMasterConfirmation2018Builder arg0)` → `void` [Setter]
 - `getTypeOfSwapElection()` → `ReturnTypeEnum` [Getter]
 - `getValuationDates()` → `ValuationDates` [Getter]
-- `getLinearInterpolationElection()` → `InterpolationMethodEnum` [Getter]
 - `getEquityCashSettlementDates()` → `PaymentDates` [Getter]
 - `getSettlementTerms()` → `SettlementTerms` [Getter]
+- `getPricingMethodElection()` → `PriceReturnTerms` [Getter]
+- `getLinearInterpolationElection()` → `InterpolationMethodEnum` [Getter]
 
 ### ExtraordinaryEventsBuilderImpl
 **Implements:** `ExtraordinaryEvents$ExtraordinaryEventsBuilder` 
@@ -951,15 +951,15 @@
 
 **Key Methods:**
 - `build()` → `ExtraordinaryEvents` [Builder]
+- `getAdditionalDisruptionEvents()` → `AdditionalDisruptionEventsBuilder` [Getter]
 - `getCompositionOfCombinedConsideration()` → `Boolean` [Getter]
 - `getNationalizationOrInsolvency()` → `NationalizationOrInsolvencyOrDelistingEventEnum` [Getter]
 - `getIndexAdjustmentEvents()` → `IndexAdjustmentEventsBuilder` [Getter]
-- `getDelisting()` → `NationalizationOrInsolvencyOrDelistingEventEnum` [Getter]
-- `getTenderOfferEvents()` → `EquityCorporateEventsBuilder` [Getter]
 - `getRepresentations()` → `RepresentationsBuilder` [Getter]
-- `getAdditionalBespokeTerms()` → `List` [Getter]
+- `getTenderOfferEvents()` → `EquityCorporateEventsBuilder` [Getter]
 - `getMergerEvents()` → `EquityCorporateEventsBuilder` [Getter]
 - `getFailureToDeliver()` → `Boolean` [Getter]
+- `getAdditionalBespokeTerms()` → `List` [Getter]
 
 ### ExtraordinaryEventsImpl
 **Implements:** `ExtraordinaryEvents` 
@@ -967,14 +967,14 @@
 **Key Methods:**
 - `build()` → `ExtraordinaryEvents` [Builder]
 - `setBuilderFields(ExtraordinaryEventsBuilder arg0)` → `void` [Setter]
+- `getAdditionalDisruptionEvents()` → `AdditionalDisruptionEvents` [Getter]
 - `getCompositionOfCombinedConsideration()` → `Boolean` [Getter]
 - `getNationalizationOrInsolvency()` → `NationalizationOrInsolvencyOrDelistingEventEnum` [Getter]
 - `getIndexAdjustmentEvents()` → `IndexAdjustmentEvents` [Getter]
-- `getDelisting()` → `NationalizationOrInsolvencyOrDelistingEventEnum` [Getter]
-- `getTenderOfferEvents()` → `EquityCorporateEvents` [Getter]
 - `getRepresentations()` → `Representations` [Getter]
-- `getAdditionalBespokeTerms()` → `List` [Getter]
+- `getTenderOfferEvents()` → `EquityCorporateEvents` [Getter]
 - `getMergerEvents()` → `EquityCorporateEvents` [Getter]
+- `getFailureToDeliver()` → `Boolean` [Getter]
 
 ### FxAdditionalTermsBuilderImpl
 **Implements:** `FxAdditionalTerms$FxAdditionalTermsBuilder` 
@@ -1018,11 +1018,11 @@
 - `build()` → `MasterAgreementClause` [Builder]
 - `getVariant()` → `List` [Getter]
 - `setVariant(List arg0)` → `MasterAgreementClauseBuilder` [Setter]
+- `getCounterparty()` → `List` [Getter]
 - `setCounterparty(List arg0)` → `MasterAgreementClauseBuilder` [Setter]
-- `setOtherParty(List arg0)` → `MasterAgreementClauseBuilder` [Setter]
 - `setIdentifer(MasterAgreementClauseIdentifierEnum arg0)` → `MasterAgreementClauseBuilder` [Setter]
 - `getIdentifer()` → `MasterAgreementClauseIdentifierEnum` [Getter]
-- `getOtherParty()` → `List` [Getter]
+- `setOtherParty(List arg0)` → `MasterAgreementClauseBuilder` [Setter]
 
 ### MasterAgreementClauseImpl
 **Implements:** `MasterAgreementClause` 
@@ -1032,9 +1032,9 @@
 - `build()` → `MasterAgreementClause` [Builder]
 - `getVariant()` → `List` [Getter]
 - `setBuilderFields(MasterAgreementClauseBuilder arg0)` → `void` [Setter]
+- `getCounterparty()` → `List` [Getter]
 - `getIdentifer()` → `MasterAgreementClauseIdentifierEnum` [Getter]
 - `getOtherParty()` → `List` [Getter]
-- `getCounterparty()` → `List` [Getter]
 
 ### MasterAgreementClauseVariantBuilderImpl
 **Implements:** `MasterAgreementClauseVariant$MasterAgreementClauseVariantBuilder` 
@@ -1050,13 +1050,13 @@
 - `getName()` → `String` [Getter]
 - `setName(String arg0)` → `MasterAgreementClauseVariantBuilder` [Setter]
 - `build()` → `MasterAgreementClauseVariant` [Builder]
-- `setCounterparty(List arg0)` → `MasterAgreementClauseVariantBuilder` [Setter]
-- `setOtherParty(List arg0)` → `MasterAgreementClauseVariantBuilder` [Setter]
 - `setIdentifier(MasterAgreementVariantIdentifierEnum arg0)` → `MasterAgreementClauseVariantBuilder` [Setter]
-- `getOtherParty()` → `List` [Getter]
+- `getCounterparty()` → `List` [Getter]
+- `setCounterparty(List arg0)` → `MasterAgreementClauseVariantBuilder` [Setter]
 - `setVariableSet(List arg0)` → `MasterAgreementClauseVariantBuilder` [Setter]
 - `getOrCreateVariableSet(int arg0)` → `MasterAgreementVariableSetBuilder` [Getter]
 - `getVariableSet()` → `List` [Getter]
+- `setOtherParty(List arg0)` → `MasterAgreementClauseVariantBuilder` [Setter]
 
 ### MasterAgreementClauseVariantImpl
 **Implements:** `MasterAgreementClauseVariant` 
@@ -1065,9 +1065,9 @@
 - `getName()` → `String` [Getter]
 - `build()` → `MasterAgreementClauseVariant` [Builder]
 - `setBuilderFields(MasterAgreementClauseVariantBuilder arg0)` → `void` [Setter]
-- `getOtherParty()` → `List` [Getter]
-- `getVariableSet()` → `List` [Getter]
 - `getCounterparty()` → `List` [Getter]
+- `getVariableSet()` → `List` [Getter]
+- `getOtherParty()` → `List` [Getter]
 - `getIdentifier()` → `MasterAgreementVariantIdentifierEnum` [Getter]
 
 ### MasterAgreementScheduleBuilderImpl
@@ -1157,14 +1157,14 @@
 
 **Key Methods:**
 - `build()` → `TransactionAdditionalTerms` [Builder]
-- `getCreditAdditionalTerms()` → `String` [Getter]
 - `getEquityAdditionalTerms()` → `EquityAdditionalTermsBuilder` [Getter]
-- `getForeignExchangeAdditionalTerms()` → `FxAdditionalTermsBuilder` [Getter]
-- `getDigitalAssetAdditionalTerms()` → `String` [Getter]
-- `getCommoditiesAdditionalTerms()` → `String` [Getter]
-- `getInterestRateAdditionalTerms()` → `String` [Getter]
-- `setEquityAdditionalTerms(EquityAdditionalTerms arg0)` → `TransactionAdditionalTermsBuilder` [Setter]
 - `setCreditAdditionalTerms(String arg0)` → `TransactionAdditionalTermsBuilder` [Setter]
+- `setEquityAdditionalTerms(EquityAdditionalTerms arg0)` → `TransactionAdditionalTermsBuilder` [Setter]
+- `getCreditAdditionalTerms()` → `String` [Getter]
+- `getDigitalAssetAdditionalTerms()` → `String` [Getter]
+- `getForeignExchangeAdditionalTerms()` → `FxAdditionalTermsBuilder` [Getter]
+- `getInterestRateAdditionalTerms()` → `String` [Getter]
+- `getCommoditiesAdditionalTerms()` → `String` [Getter]
 - `setDigitalAssetAdditionalTerms(String arg0)` → `TransactionAdditionalTermsBuilder` [Setter]
 
 ### TransactionAdditionalTermsImpl
@@ -1172,13 +1172,13 @@
 
 **Key Methods:**
 - `build()` → `TransactionAdditionalTerms` [Builder]
-- `getCreditAdditionalTerms()` → `String` [Getter]
-- `getEquityAdditionalTerms()` → `EquityAdditionalTerms` [Getter]
 - `setBuilderFields(TransactionAdditionalTermsBuilder arg0)` → `void` [Setter]
-- `getForeignExchangeAdditionalTerms()` → `FxAdditionalTerms` [Getter]
+- `getEquityAdditionalTerms()` → `EquityAdditionalTerms` [Getter]
+- `getCreditAdditionalTerms()` → `String` [Getter]
 - `getDigitalAssetAdditionalTerms()` → `String` [Getter]
-- `getCommoditiesAdditionalTerms()` → `String` [Getter]
+- `getForeignExchangeAdditionalTerms()` → `FxAdditionalTerms` [Getter]
 - `getInterestRateAdditionalTerms()` → `String` [Getter]
+- `getCommoditiesAdditionalTerms()` → `String` [Getter]
 
 ### UnderlierSubstitutionProvisionBuilderImpl
 **Implements:** `UnderlierSubstitutionProvision$UnderlierSubstitutionProvisionBuilder` 
@@ -1191,13 +1191,13 @@
 
 **Key Methods:**
 - `build()` → `UnderlierSubstitutionProvision` [Builder]
-- `getWhoMaySubstitute()` → `List` [Getter]
 - `getDisputingParty()` → `CounterpartyRoleEnum` [Getter]
-- `setWhoMaySubstitute(List arg0)` → `UnderlierSubstitutionProvisionBuilder` [Setter]
 - `setDisputingParty(CounterpartyRoleEnum arg0)` → `UnderlierSubstitutionProvisionBuilder` [Setter]
-- `getSubstitutionBeSpokeTerms()` → `List` [Getter]
+- `setWhoMaySubstitute(List arg0)` → `UnderlierSubstitutionProvisionBuilder` [Setter]
+- `getWhoMaySubstitute()` → `List` [Getter]
 - `getSubstitutionTriggerEvents()` → `List` [Getter]
 - `getOrCreateSubstitutionBeSpokeTerms(int arg0)` → `ClauseBuilder` [Getter]
+- `setSubstitutionBeSpokeTerms(List arg0)` → `UnderlierSubstitutionProvisionBuilder` [Setter]
 - `getOrCreateSubstitutionTriggerEvents(int arg0)` → `ExtraordinaryEventsBuilder` [Getter]
 - `setSubstitutionTriggerEvents(List arg0)` → `UnderlierSubstitutionProvisionBuilder` [Setter]
 
@@ -1207,8 +1207,8 @@
 **Key Methods:**
 - `build()` → `UnderlierSubstitutionProvision` [Builder]
 - `setBuilderFields(UnderlierSubstitutionProvisionBuilder arg0)` → `void` [Setter]
-- `getWhoMaySubstitute()` → `List` [Getter]
 - `getDisputingParty()` → `CounterpartyRoleEnum` [Getter]
-- `getSubstitutionBeSpokeTerms()` → `List` [Getter]
+- `getWhoMaySubstitute()` → `List` [Getter]
 - `getSubstitutionTriggerEvents()` → `List` [Getter]
+- `getSubstitutionBeSpokeTerms()` → `List` [Getter]
 

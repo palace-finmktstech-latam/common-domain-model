@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `Date getAdjustedEarlyTerminationDate()`
 - `Date getAdjustedCashSettlementPaymentDate()`
 - `Date getAdjustedCashSettlementValuationDate()`
+- `Date getAdjustedEarlyTerminationDate()`
 
 #### Other Methods
 

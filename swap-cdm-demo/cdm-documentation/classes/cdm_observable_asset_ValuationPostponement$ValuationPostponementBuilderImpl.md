@@ -36,7 +36,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ValuationPostponementBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ValuationPostponementBuilder toBuilder()`
 - `ValuationPostponementBuilder prune()`
+- `ValuationPostponementBuilder toBuilder()`
+- `boolean hasData()`
 

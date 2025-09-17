@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaCollateralPortfolioBuilder setValue(CollateralPortfolio arg0)`
-- `ReferenceWithMetaCollateralPortfolioBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaCollateralPortfolioBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaCollateralPortfolioBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaCollateralPortfolioBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaCollateralPortfolioBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

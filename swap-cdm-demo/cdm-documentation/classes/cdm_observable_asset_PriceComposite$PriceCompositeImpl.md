@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `BigDecimal getBaseValue()`
-- `PriceOperandEnum getOperandType()`
 - `ArithmeticOperationEnum getArithmeticOperator()`
+- `PriceOperandEnum getOperandType()`
+- `BigDecimal getBaseValue()`
 - `BigDecimal getOperand()`
 
 #### Other Methods

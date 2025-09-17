@@ -16,8 +16,8 @@
 #### Setter Methods
 
 - `AdditionalFixedPaymentsBuilder setWritedownReimbursement(Boolean arg0)`
-- `AdditionalFixedPaymentsBuilder setInterestShortfallReimbursement(Boolean arg0)`
 - `AdditionalFixedPaymentsBuilder setPrincipalShortfallReimbursement(Boolean arg0)`
+- `AdditionalFixedPaymentsBuilder setInterestShortfallReimbursement(Boolean arg0)`
 
 #### Other Methods
 

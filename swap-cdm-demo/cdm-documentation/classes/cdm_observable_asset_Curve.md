@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `InterestRateCurve getInterestRateCurve()`
 - `FieldWithMetaCommodityReferencePriceEnum getCommodityCurve()`
+- `InterestRateCurve getInterestRateCurve()`
 
 #### Other Methods
 

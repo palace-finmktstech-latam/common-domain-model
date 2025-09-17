@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `List getCounterparty()`
-- `List getAncillaryParty()`
-- `List getTradeLot()`
 - `NotionalAdjustmentEnum getAdjustment()`
+- `List getCounterparty()`
+- `List getTradeLot()`
+- `List getAncillaryParty()`
 - `NonTransferableProduct getProduct()`
 
 #### Other Methods

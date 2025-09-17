@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `DeterminationMethodEnum getDeterminationMethod()`
 - `RelativeDateOffset getRelativeDate()`
+- `DeterminationMethodEnum getDeterminationMethod()`
 - `FxSpotRateSource getFxSpotRateSource()`
 - `BusinessCenterTime getFixingTime()`
 

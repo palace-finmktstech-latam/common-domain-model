@@ -30,8 +30,8 @@
 
 #### Getter Methods
 
-- `OffsetBuilder getLagDuration()`
 - `OffsetBuilder getOrCreateLagDuration()`
+- `OffsetBuilder getLagDuration()`
 - `OffsetBuilder getOrCreateFirstObservationDateOffset()`
 - `OffsetBuilder getFirstObservationDateOffset()`
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `LagBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `LagBuilder toBuilder()`
 - `LagBuilder prune()`
+- `LagBuilder toBuilder()`
+- `boolean hasData()`
 

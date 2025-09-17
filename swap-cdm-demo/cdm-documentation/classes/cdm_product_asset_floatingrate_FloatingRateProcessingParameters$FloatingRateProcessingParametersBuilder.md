@@ -16,20 +16,20 @@
 #### Setter Methods
 
 - `FloatingRateProcessingParametersBuilder setMultiplier(BigDecimal arg0)`
-- `FloatingRateProcessingParametersBuilder setRounding(Rounding arg0)`
-- `FloatingRateProcessingParametersBuilder setFloorRate(BigDecimal arg0)`
+- `FloatingRateProcessingParametersBuilder setTreatment(RateTreatmentEnum arg0)`
 - `FloatingRateProcessingParametersBuilder setInitialRate(Price arg0)`
+- `FloatingRateProcessingParametersBuilder setFloorRate(BigDecimal arg0)`
+- `FloatingRateProcessingParametersBuilder setRounding(Rounding arg0)`
+- `FloatingRateProcessingParametersBuilder setNegativeTreatment(NegativeInterestRateTreatmentEnum arg0)`
 - `FloatingRateProcessingParametersBuilder setSpread(BigDecimal arg0)`
 - `FloatingRateProcessingParametersBuilder setCapRate(BigDecimal arg0)`
-- `FloatingRateProcessingParametersBuilder setTreatment(RateTreatmentEnum arg0)`
-- `FloatingRateProcessingParametersBuilder setNegativeTreatment(NegativeInterestRateTreatmentEnum arg0)`
 
 #### Getter Methods
 
-- `PriceBuilder getInitialRate()`
+- `PriceBuilder getOrCreateInitialRate()`
 - `RoundingBuilder getOrCreateRounding()`
 - `RoundingBuilder getRounding()`
-- `PriceBuilder getOrCreateInitialRate()`
+- `PriceBuilder getInitialRate()`
 
 #### Other Methods
 

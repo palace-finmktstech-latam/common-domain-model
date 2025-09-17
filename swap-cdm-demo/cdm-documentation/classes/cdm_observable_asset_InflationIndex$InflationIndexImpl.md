@@ -27,8 +27,8 @@
 
 #### Getter Methods
 
-- `FieldWithMetaInflationRateIndexEnum getInflationRateIndex()`
 - `Period getIndexTenor()`
+- `FieldWithMetaInflationRateIndexEnum getInflationRateIndex()`
 
 #### Other Methods
 

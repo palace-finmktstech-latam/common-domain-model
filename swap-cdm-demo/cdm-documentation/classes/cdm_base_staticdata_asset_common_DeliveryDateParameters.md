@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Offset getDeliveryDateExpirationConvention()`
-- `Offset getDeliveryDateRollConvention()`
 - `Offset getDeliveryNearby()`
 - `AdjustableDate getDeliveryDate()`
+- `Offset getDeliveryDateRollConvention()`
+- `Offset getDeliveryDateExpirationConvention()`
 
 #### Other Methods
 

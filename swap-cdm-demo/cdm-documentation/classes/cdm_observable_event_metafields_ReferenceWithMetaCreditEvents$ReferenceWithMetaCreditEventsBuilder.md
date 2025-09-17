@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaCreditEventsBuilder setValue(CreditEvents arg0)`
-- `ReferenceWithMetaCreditEventsBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaCreditEventsBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaCreditEventsBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaCreditEventsBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaCreditEventsBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

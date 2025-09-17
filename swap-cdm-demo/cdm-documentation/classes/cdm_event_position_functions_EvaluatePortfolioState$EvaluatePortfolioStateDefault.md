@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `PortfolioStateBuilder doEvaluate(Portfolio arg0)`
 - `PortfolioStateBuilder assignOutput(PortfolioStateBuilder arg0, Portfolio arg1)`
+- `PortfolioStateBuilder doEvaluate(Portfolio arg0)`
 

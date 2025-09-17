@@ -18,14 +18,14 @@
 - `NonNegativeQuantityBuilder setValue(BigDecimal arg0)`
 - `NonNegativeQuantityBuilder setMultiplier(Measure arg0)`
 - `NonNegativeQuantityBuilder setDatedValue(List arg0)`
-- `NonNegativeQuantityBuilder setFrequency(Frequency arg0)`
 - `NonNegativeQuantityBuilder setUnit(UnitType arg0)`
+- `NonNegativeQuantityBuilder setFrequency(Frequency arg0)`
 
 #### Adder Methods
 
 - `NonNegativeQuantityBuilder addDatedValue(List arg0)`
-- `NonNegativeQuantityBuilder addDatedValue(DatedValue arg0, int arg1)`
 - `NonNegativeQuantityBuilder addDatedValue(DatedValue arg0)`
+- `NonNegativeQuantityBuilder addDatedValue(DatedValue arg0, int arg1)`
 
 #### Other Methods
 

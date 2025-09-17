@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `TaxonomySourceEnum getTaxonomySource()`
 - `CollateralTaxonomyValue getTaxonomyValue()`
+- `TaxonomySourceEnum getTaxonomySource()`
 
 #### Other Methods
 

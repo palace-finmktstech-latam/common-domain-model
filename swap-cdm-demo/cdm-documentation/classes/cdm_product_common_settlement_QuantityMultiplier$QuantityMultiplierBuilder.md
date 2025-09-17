@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `QuantityMultiplierBuilder setFxLinkedNotionalSchedule(FxLinkedNotionalSchedule arg0)`
 - `QuantityMultiplierBuilder setMultiplierValue(BigDecimal arg0)`
+- `QuantityMultiplierBuilder setFxLinkedNotionalSchedule(FxLinkedNotionalSchedule arg0)`
 
 #### Getter Methods
 

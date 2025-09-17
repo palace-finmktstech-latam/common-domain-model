@@ -20,9 +20,9 @@
 
 - `String getName()`
 - `Class getType()`
-- `List getOtherParty()`
-- `List getVariableSet()`
 - `List getCounterparty()`
+- `List getVariableSet()`
+- `List getOtherParty()`
 - `MasterAgreementVariantIdentifierEnum getIdentifier()`
 
 #### Other Methods

@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `BillingSummaryBuilder doEvaluate(List arg0)`
 - `BillingSummaryBuilder assignOutput(BillingSummaryBuilder arg0, List arg1)`
+- `BillingSummaryBuilder doEvaluate(List arg0)`
 

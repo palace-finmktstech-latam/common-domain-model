@@ -23,11 +23,11 @@
 
 - `List evaluate(SettlementPayout arg0)`
 - `List doEvaluate(SettlementPayout arg0)`
+- `MapperS priceLegPayerReceiver(SettlementPayout arg0)`
+- `MapperS priceLegCurrency(SettlementPayout arg0)`
+- `MapperS priceLegAmount(SettlementPayout arg0)`
 - `MapperS assetLeg(SettlementPayout arg0)`
 - `MapperS priceLeg(SettlementPayout arg0)`
-- `MapperS priceLegAmount(SettlementPayout arg0)`
-- `MapperS priceLegCurrency(SettlementPayout arg0)`
-- `MapperS priceLegPayerReceiver(SettlementPayout arg0)`
 
 ### Annotations
 

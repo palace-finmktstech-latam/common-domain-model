@@ -27,21 +27,21 @@
 
 #### Setter Methods
 
-- `CommodityProductDefinitionBuilder setExchangeIdValue(String arg0)`
-- `CommodityProductDefinitionBuilder setExchangeId(FieldWithMetaString arg0)`
-- `CommodityProductDefinitionBuilder setReferenceFramework(CommodityReferenceFramework arg0)`
 - `CommodityProductDefinitionBuilder setPriceSource(PriceSource arg0)`
+- `CommodityProductDefinitionBuilder setExchangeId(FieldWithMetaString arg0)`
 - `CommodityProductDefinitionBuilder setCommodityInfoPublisher(CommodityInformationPublisherEnum arg0)`
+- `CommodityProductDefinitionBuilder setReferenceFramework(CommodityReferenceFramework arg0)`
+- `CommodityProductDefinitionBuilder setExchangeIdValue(String arg0)`
 
 #### Getter Methods
 
-- `CommodityReferenceFrameworkBuilder getOrCreateReferenceFramework()`
-- `PriceSourceBuilder getOrCreatePriceSource()`
-- `FieldWithMetaStringBuilder getOrCreateExchangeId()`
-- `CommodityReferenceFrameworkBuilder getReferenceFramework()`
 - `FieldWithMetaStringBuilder getExchangeId()`
 - `CommodityInformationPublisherEnum getCommodityInfoPublisher()`
 - `PriceSourceBuilder getPriceSource()`
+- `FieldWithMetaStringBuilder getOrCreateExchangeId()`
+- `CommodityReferenceFrameworkBuilder getReferenceFramework()`
+- `PriceSourceBuilder getOrCreatePriceSource()`
+- `CommodityReferenceFrameworkBuilder getOrCreateReferenceFramework()`
 
 #### Other Methods
 
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CommodityProductDefinitionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CommodityProductDefinitionBuilder toBuilder()`
 - `CommodityProductDefinitionBuilder prune()`
+- `CommodityProductDefinitionBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -21,8 +21,8 @@
 - `Class getType()`
 - `BigDecimal getInitialPoints()`
 - `QuotationStyleEnum getQuotationStyle()`
-- `BigDecimal getMarketPrice()`
 - `BigDecimal getMarketFixedRate()`
+- `BigDecimal getMarketPrice()`
 
 #### Other Methods
 

@@ -19,14 +19,14 @@
 
 #### Getter Methods
 
-- `WorkflowStepBuilder getOrCreateSteps(int arg0)`
 - `List getSteps()`
+- `WorkflowStepBuilder getOrCreateSteps(int arg0)`
 
 #### Adder Methods
 
-- `WorkflowBuilder addSteps(WorkflowStep arg0, int arg1)`
 - `WorkflowBuilder addSteps(List arg0)`
 - `WorkflowBuilder addSteps(WorkflowStep arg0)`
+- `WorkflowBuilder addSteps(WorkflowStep arg0, int arg1)`
 
 #### Other Methods
 

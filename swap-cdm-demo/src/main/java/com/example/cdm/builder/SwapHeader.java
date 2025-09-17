@@ -7,6 +7,7 @@ import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
 @JsonDeserialize(builder = SwapHeader.Builder.class)
 public class SwapHeader {
     private final String tradeId;
+    private final String tradeIdType;
     private final DateWithAdjustment tradeDate;
     private final DateWithAdjustment effectiveDate;
     private final DateWithAdjustment terminationDate;
@@ -15,6 +16,7 @@ public class SwapHeader {
 
     private SwapHeader(Builder builder) {
         this.tradeId = builder.tradeId;
+        this.tradeIdType = builder.tradeIdType;
         this.tradeDate = builder.tradeDate;
         this.effectiveDate = builder.effectiveDate;
         this.terminationDate = builder.terminationDate;
@@ -24,6 +26,10 @@ public class SwapHeader {
 
     public String getTradeId() {
         return tradeId;
+    }
+
+    public String getTradeIdType() {
+        return tradeIdType;
     }
 
     public DateWithAdjustment getTradeDate() {
@@ -53,6 +59,7 @@ public class SwapHeader {
     @JsonPOJOBuilder(withPrefix = "")
     public static class Builder {
         private String tradeId;
+        private String tradeIdType;
         private DateWithAdjustment tradeDate;
         private DateWithAdjustment effectiveDate;
         private DateWithAdjustment terminationDate;
@@ -62,6 +69,12 @@ public class SwapHeader {
         @JsonProperty("tradeId")
         public Builder tradeId(String tradeId) {
             this.tradeId = tradeId;
+            return this;
+        }
+
+        @JsonProperty("tradeIdType")
+        public Builder tradeIdType(String tradeIdType) {
+            this.tradeIdType = tradeIdType;
             return this;
         }
 

@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `List getFxRate()`
 - `FxSpotRateSource getFxSpotRateSource()`
 - `BusinessCenterTime getFixingTime()`
+- `List getFxRate()`
 
 #### Other Methods
 

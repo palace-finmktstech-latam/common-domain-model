@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `StrikeSpreadBuilder setUpperStrikeNumberOfOptions(BigDecimal arg0)`
 - `StrikeSpreadBuilder setUpperStrike(OptionStrike arg0)`
+- `StrikeSpreadBuilder setUpperStrikeNumberOfOptions(BigDecimal arg0)`
 
 #### Getter Methods
 

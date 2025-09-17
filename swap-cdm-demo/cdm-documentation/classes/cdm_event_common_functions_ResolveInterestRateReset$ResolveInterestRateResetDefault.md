@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `ResetBuilder doEvaluate(List arg0, Observation arg1, Date arg2, Date arg3)`
 - `ResetBuilder assignOutput(ResetBuilder arg0, List arg1, Observation arg2, Date arg3, Date arg4)`
+- `ResetBuilder doEvaluate(List arg0, Observation arg1, Date arg2, Date arg3)`
 

@@ -27,20 +27,20 @@
 
 #### Setter Methods
 
-- `ExposureBuilder setAggregateValue(Money arg0)`
 - `ExposureBuilder setCalculationDateTime(ZonedDateTime arg0)`
-- `ExposureBuilder setTradePortfolio(ReferenceWithMetaPortfolioState arg0)`
 - `ExposureBuilder setValuationDateTime(ZonedDateTime arg0)`
 - `ExposureBuilder setTradePortfolioValue(PortfolioState arg0)`
+- `ExposureBuilder setTradePortfolio(ReferenceWithMetaPortfolioState arg0)`
+- `ExposureBuilder setAggregateValue(Money arg0)`
 
 #### Getter Methods
 
-- `MoneyBuilder getAggregateValue()`
+- `ReferenceWithMetaPortfolioStateBuilder getTradePortfolio()`
 - `ZonedDateTime getValuationDateTime()`
 - `ZonedDateTime getCalculationDateTime()`
-- `ReferenceWithMetaPortfolioStateBuilder getTradePortfolio()`
-- `MoneyBuilder getOrCreateAggregateValue()`
+- `MoneyBuilder getAggregateValue()`
 - `ReferenceWithMetaPortfolioStateBuilder getOrCreateTradePortfolio()`
+- `MoneyBuilder getOrCreateAggregateValue()`
 
 #### Other Methods
 
@@ -48,7 +48,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ExposureBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ExposureBuilder toBuilder()`
 - `ExposureBuilder prune()`
+- `ExposureBuilder toBuilder()`
+- `boolean hasData()`
 

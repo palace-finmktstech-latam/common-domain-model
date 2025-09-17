@@ -27,9 +27,9 @@
 
 #### Getter Methods
 
+- `MarginCallResponseTypeEnum getMarginResponseType()`
 - `Money getAgreedAmountBaseCurrency()`
 - `List getMarginCallResponseAction()`
-- `MarginCallResponseTypeEnum getMarginResponseType()`
 
 #### Other Methods
 

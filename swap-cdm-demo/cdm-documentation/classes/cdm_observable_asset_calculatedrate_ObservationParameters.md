@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `BigDecimal getObservationFloorRate()`
 - `BigDecimal getObservationCapRate()`
+- `BigDecimal getObservationFloorRate()`
 
 #### Other Methods
 

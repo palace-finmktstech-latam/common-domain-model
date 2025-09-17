@@ -21,8 +21,8 @@
 
 #### Getter Methods
 
-- `PriceSourceDisruptionBuilder getPriceSourceDisruption()`
 - `FieldWithMetaSettlementRateOptionEnumBuilder getSettlementRateOption()`
+- `PriceSourceDisruptionBuilder getPriceSourceDisruption()`
 - `FieldWithMetaSettlementRateOptionEnumBuilder getOrCreateSettlementRateOption()`
 - `PriceSourceDisruptionBuilder getOrCreatePriceSourceDisruption()`
 

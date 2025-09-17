@@ -29,17 +29,17 @@
 
 #### Getter Methods
 
-- `List getCalculationPeriodDatesReference()`
 - `ReferenceWithMetaCalculationPeriodDatesBuilder getOrCreateCalculationPeriodDatesReference(int arg0)`
+- `List getCalculationPeriodDatesReference()`
 
 #### Adder Methods
 
-- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReferenceValue(CalculationPeriodDates arg0)`
-- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReferenceValue(CalculationPeriodDates arg0, int arg1)`
-- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReferenceValue(List arg0)`
-- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReference(ReferenceWithMetaCalculationPeriodDates arg0)`
 - `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReference(List arg0)`
 - `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReference(ReferenceWithMetaCalculationPeriodDates arg0, int arg1)`
+- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReference(ReferenceWithMetaCalculationPeriodDates arg0)`
+- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReferenceValue(CalculationPeriodDates arg0, int arg1)`
+- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReferenceValue(List arg0)`
+- `DateRelativeToCalculationPeriodDatesBuilder addCalculationPeriodDatesReferenceValue(CalculationPeriodDates arg0)`
 
 #### Other Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DateRelativeToCalculationPeriodDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DateRelativeToCalculationPeriodDatesBuilder toBuilder()`
 - `DateRelativeToCalculationPeriodDatesBuilder prune()`
+- `DateRelativeToCalculationPeriodDatesBuilder toBuilder()`
+- `boolean hasData()`
 

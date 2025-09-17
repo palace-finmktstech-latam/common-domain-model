@@ -28,17 +28,17 @@
 #### Setter Methods
 
 - `LegalAgreementIdentificationBuilder setGoverningLaw(GoverningLawEnum arg0)`
-- `LegalAgreementIdentificationBuilder setAgreementName(AgreementName arg0)`
-- `LegalAgreementIdentificationBuilder setPublisher(LegalAgreementPublisherEnum arg0)`
 - `LegalAgreementIdentificationBuilder setVintage(Integer arg0)`
+- `LegalAgreementIdentificationBuilder setPublisher(LegalAgreementPublisherEnum arg0)`
+- `LegalAgreementIdentificationBuilder setAgreementName(AgreementName arg0)`
 
 #### Getter Methods
 
-- `LegalAgreementPublisherEnum getPublisher()`
 - `AgreementNameBuilder getAgreementName()`
-- `Integer getVintage()`
-- `GoverningLawEnum getGoverningLaw()`
 - `AgreementNameBuilder getOrCreateAgreementName()`
+- `GoverningLawEnum getGoverningLaw()`
+- `Integer getVintage()`
+- `LegalAgreementPublisherEnum getPublisher()`
 
 #### Other Methods
 
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `LegalAgreementIdentificationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `LegalAgreementIdentificationBuilder toBuilder()`
 - `LegalAgreementIdentificationBuilder prune()`
+- `LegalAgreementIdentificationBuilder toBuilder()`
+- `boolean hasData()`
 

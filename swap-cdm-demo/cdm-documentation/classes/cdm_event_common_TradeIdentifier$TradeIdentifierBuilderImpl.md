@@ -29,13 +29,13 @@
 
 #### Setter Methods
 
-- `TradeIdentifierBuilder setIssuer(FieldWithMetaString arg0)`
 - `TradeIdentifierBuilder setIssuerReferenceValue(Party arg0)`
-- `TradeIdentifierBuilder setIssuerReference(ReferenceWithMetaParty arg0)`
-- `TradeIdentifierBuilder setIdentifierType(TradeIdentifierTypeEnum arg0)`
 - `TradeIdentifierBuilder setIssuerValue(String arg0)`
-- `TradeIdentifierBuilder setAssignedIdentifier(List arg0)`
+- `TradeIdentifierBuilder setIssuer(FieldWithMetaString arg0)`
 - `TradeIdentifierBuilder setMeta(MetaFields arg0)`
+- `TradeIdentifierBuilder setIdentifierType(TradeIdentifierTypeEnum arg0)`
+- `TradeIdentifierBuilder setIssuerReference(ReferenceWithMetaParty arg0)`
+- `TradeIdentifierBuilder setAssignedIdentifier(List arg0)`
 
 #### Getter Methods
 
@@ -53,7 +53,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TradeIdentifierBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TradeIdentifierBuilder toBuilder()`
 - `TradeIdentifierBuilder prune()`
+- `TradeIdentifierBuilder toBuilder()`
+- `boolean hasData()`
 

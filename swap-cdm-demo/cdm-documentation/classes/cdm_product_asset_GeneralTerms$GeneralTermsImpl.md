@@ -22,12 +22,12 @@
 
 #### Getter Methods
 
-- `List getAdditionalTerm()`
 - `ReferenceInformation getReferenceInformation()`
+- `CreditIndex getIndexReferenceInformation()`
 - `Boolean getSubstitution()`
 - `Boolean getModifiedEquityDelivery()`
 - `BasketReferenceInformation getBasketReferenceInformation()`
-- `CreditIndex getIndexReferenceInformation()`
+- `List getAdditionalTerm()`
 
 #### Other Methods
 

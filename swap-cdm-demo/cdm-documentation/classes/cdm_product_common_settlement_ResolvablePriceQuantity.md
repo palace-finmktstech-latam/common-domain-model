@@ -21,13 +21,13 @@
 
 - `Class getType()`
 - `Boolean getReset()`
-- `Quantity getResolvedQuantity()`
+- `MetaFields getMeta()`
+- `ReferenceWithMetaNonNegativeQuantitySchedule getQuantitySchedule()`
 - `QuantityMultiplier getQuantityMultiplier()`
+- `ReferenceWithMetaResolvablePriceQuantity getQuantityReference()`
+- `Quantity getResolvedQuantity()`
 - `FutureValueAmount getFutureValueNotional()`
 - `List getPriceSchedule()`
-- `ReferenceWithMetaResolvablePriceQuantity getQuantityReference()`
-- `ReferenceWithMetaNonNegativeQuantitySchedule getQuantitySchedule()`
-- `MetaFields getMeta()`
 
 #### Other Methods
 

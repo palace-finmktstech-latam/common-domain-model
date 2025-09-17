@@ -30,26 +30,26 @@
 
 #### Setter Methods
 
-- `PhysicalSettlementTermsBuilder setEscrow(Boolean arg0)`
+- `PhysicalSettlementTermsBuilder setMeta(MetaFields arg0)`
 - `PhysicalSettlementTermsBuilder setDeliverableObligations(DeliverableObligations arg0)`
+- `PhysicalSettlementTermsBuilder setSixtyBusinessDaySettlementCap(Boolean arg0)`
+- `PhysicalSettlementTermsBuilder setPredeterminedClearingOrganizationParty(AncillaryRoleEnum arg0)`
 - `PhysicalSettlementTermsBuilder setPhysicalSettlementPeriod(PhysicalSettlementPeriod arg0)`
 - `PhysicalSettlementTermsBuilder setClearedPhysicalSettlement(Boolean arg0)`
-- `PhysicalSettlementTermsBuilder setPredeterminedClearingOrganizationParty(AncillaryRoleEnum arg0)`
-- `PhysicalSettlementTermsBuilder setSixtyBusinessDaySettlementCap(Boolean arg0)`
-- `PhysicalSettlementTermsBuilder setMeta(MetaFields arg0)`
+- `PhysicalSettlementTermsBuilder setEscrow(Boolean arg0)`
 
 #### Getter Methods
 
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `DeliverableObligationsBuilder getOrCreateDeliverableObligations()`
-- `PhysicalSettlementPeriodBuilder getOrCreatePhysicalSettlementPeriod()`
-- `AncillaryRoleEnum getPredeterminedClearingOrganizationParty()`
+- `PhysicalSettlementPeriodBuilder getPhysicalSettlementPeriod()`
+- `MetaFieldsBuilder getMeta()`
+- `DeliverableObligationsBuilder getDeliverableObligations()`
+- `Boolean getEscrow()`
 - `Boolean getSixtyBusinessDaySettlementCap()`
 - `Boolean getClearedPhysicalSettlement()`
-- `Boolean getEscrow()`
-- `PhysicalSettlementPeriodBuilder getPhysicalSettlementPeriod()`
-- `DeliverableObligationsBuilder getDeliverableObligations()`
-- `MetaFieldsBuilder getMeta()`
+- `AncillaryRoleEnum getPredeterminedClearingOrganizationParty()`
+- `PhysicalSettlementPeriodBuilder getOrCreatePhysicalSettlementPeriod()`
+- `DeliverableObligationsBuilder getOrCreateDeliverableObligations()`
 
 #### Other Methods
 
@@ -57,7 +57,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PhysicalSettlementTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PhysicalSettlementTermsBuilder toBuilder()`
 - `PhysicalSettlementTermsBuilder prune()`
+- `PhysicalSettlementTermsBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -16,12 +16,12 @@
 #### Getter Methods
 
 - `List getDocumentation(Path arg0)`
-- `Optional getOtherAgreement(Path arg0)`
+- `Optional getMasterConfirmation(Path arg0)`
 - `Optional getBrokerConfirmation(Path arg0)`
-- `Optional getConfirmation(Path arg0)`
 - `Optional getCreditSupportAgreement(Path arg0)`
 - `Optional getMasterAgreement(Path arg0)`
-- `Optional getMasterConfirmation(Path arg0)`
+- `Optional getConfirmation(Path arg0)`
+- `Optional getOtherAgreement(Path arg0)`
 
 #### Other Methods
 

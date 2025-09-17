@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaBasketConstituentBuilder setValue(BasketConstituent arg0)`
-- `ReferenceWithMetaBasketConstituentBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaBasketConstituentBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaBasketConstituentBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaBasketConstituentBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaBasketConstituentBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

@@ -16,10 +16,10 @@
 #### Setter Methods
 
 - `MasterAgreementClauseVariantBuilder setName(String arg0)`
-- `MasterAgreementClauseVariantBuilder setCounterparty(List arg0)`
-- `MasterAgreementClauseVariantBuilder setOtherParty(List arg0)`
 - `MasterAgreementClauseVariantBuilder setIdentifier(MasterAgreementVariantIdentifierEnum arg0)`
+- `MasterAgreementClauseVariantBuilder setCounterparty(List arg0)`
 - `MasterAgreementClauseVariantBuilder setVariableSet(List arg0)`
+- `MasterAgreementClauseVariantBuilder setOtherParty(List arg0)`
 
 #### Getter Methods
 
@@ -28,15 +28,15 @@
 
 #### Adder Methods
 
+- `MasterAgreementClauseVariantBuilder addCounterparty(CounterpartyRoleEnum arg0)`
 - `MasterAgreementClauseVariantBuilder addCounterparty(CounterpartyRoleEnum arg0, int arg1)`
 - `MasterAgreementClauseVariantBuilder addCounterparty(List arg0)`
-- `MasterAgreementClauseVariantBuilder addCounterparty(CounterpartyRoleEnum arg0)`
-- `MasterAgreementClauseVariantBuilder addOtherParty(PartyRoleEnum arg0)`
-- `MasterAgreementClauseVariantBuilder addOtherParty(List arg0)`
-- `MasterAgreementClauseVariantBuilder addOtherParty(PartyRoleEnum arg0, int arg1)`
-- `MasterAgreementClauseVariantBuilder addVariableSet(List arg0)`
 - `MasterAgreementClauseVariantBuilder addVariableSet(MasterAgreementVariableSet arg0, int arg1)`
 - `MasterAgreementClauseVariantBuilder addVariableSet(MasterAgreementVariableSet arg0)`
+- `MasterAgreementClauseVariantBuilder addVariableSet(List arg0)`
+- `MasterAgreementClauseVariantBuilder addOtherParty(PartyRoleEnum arg0, int arg1)`
+- `MasterAgreementClauseVariantBuilder addOtherParty(PartyRoleEnum arg0)`
+- `MasterAgreementClauseVariantBuilder addOtherParty(List arg0)`
 
 #### Other Methods
 

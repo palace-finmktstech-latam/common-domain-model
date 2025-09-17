@@ -25,8 +25,8 @@
 
 #### Setter Methods
 
-- `NumberBoundBuilder setInclusive(Boolean arg0)`
 - `NumberBoundBuilder setNumber(BigDecimal arg0)`
+- `NumberBoundBuilder setInclusive(Boolean arg0)`
 
 #### Getter Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `NumberBoundBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `NumberBoundBuilder toBuilder()`
 - `NumberBoundBuilder prune()`
+- `NumberBoundBuilder toBuilder()`
+- `boolean hasData()`
 

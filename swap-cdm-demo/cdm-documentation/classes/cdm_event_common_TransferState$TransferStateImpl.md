@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `Transfer getTransfer()`
 - `TransferStatusEnum getTransferStatus()`
+- `Transfer getTransfer()`
 - `MetaFields getMeta()`
 
 #### Other Methods

@@ -25,9 +25,9 @@
 
 #### Setter Methods
 
-- `AssetIdentifierBuilder setIdentifierType(AssetIdTypeEnum arg0)`
-- `AssetIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
 - `AssetIdentifierBuilder setIdentifierValue(String arg0)`
+- `AssetIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
+- `AssetIdentifierBuilder setIdentifierType(AssetIdTypeEnum arg0)`
 
 #### Getter Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AssetIdentifierBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AssetIdentifierBuilder toBuilder()`
 - `AssetIdentifierBuilder prune()`
+- `AssetIdentifierBuilder toBuilder()`
+- `boolean hasData()`
 

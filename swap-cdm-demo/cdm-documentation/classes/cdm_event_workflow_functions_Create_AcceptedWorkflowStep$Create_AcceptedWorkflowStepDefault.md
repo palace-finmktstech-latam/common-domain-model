@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `WorkflowStepBuilder doEvaluate(MessageInformation arg0, List arg1, List arg2, List arg3, List arg4, WorkflowStep arg5, BusinessEvent arg6)`
 - `WorkflowStepBuilder assignOutput(WorkflowStepBuilder arg0, MessageInformation arg1, List arg2, List arg3, List arg4, List arg5, WorkflowStep arg6, BusinessEvent arg7)`
+- `WorkflowStepBuilder doEvaluate(MessageInformation arg0, List arg1, List arg2, List arg3, List arg4, WorkflowStep arg5, BusinessEvent arg6)`
 

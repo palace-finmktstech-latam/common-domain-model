@@ -21,12 +21,12 @@
 
 #### Getter Methods
 
-- `PerformanceValuationDatesBuilder getInitialValuationDate()`
 - `PerformanceValuationDatesBuilder getFinalValuationDate()`
 - `PerformanceValuationDatesBuilder getInterimValuationDate()`
-- `PerformanceValuationDatesBuilder getOrCreateInterimValuationDate()`
 - `PerformanceValuationDatesBuilder getOrCreateFinalValuationDate()`
+- `PerformanceValuationDatesBuilder getOrCreateInterimValuationDate()`
 - `PerformanceValuationDatesBuilder getOrCreateInitialValuationDate()`
+- `PerformanceValuationDatesBuilder getInitialValuationDate()`
 
 #### Other Methods
 

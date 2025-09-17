@@ -15,9 +15,9 @@
 
 #### Setter Methods
 
-- `AssetDeliveryProfileBuilder setBlock(List arg0)`
-- `AssetDeliveryProfileBuilder setLoadType(LoadTypeEnum arg0)`
 - `AssetDeliveryProfileBuilder setBankHolidaysTreatment(BankHolidayTreatmentEnum arg0)`
+- `AssetDeliveryProfileBuilder setLoadType(LoadTypeEnum arg0)`
+- `AssetDeliveryProfileBuilder setBlock(List arg0)`
 
 #### Getter Methods
 
@@ -26,9 +26,9 @@
 
 #### Adder Methods
 
+- `AssetDeliveryProfileBuilder addBlock(List arg0)`
 - `AssetDeliveryProfileBuilder addBlock(AssetDeliveryProfileBlock arg0, int arg1)`
 - `AssetDeliveryProfileBuilder addBlock(AssetDeliveryProfileBlock arg0)`
-- `AssetDeliveryProfileBuilder addBlock(List arg0)`
 
 #### Other Methods
 

@@ -18,10 +18,10 @@
 **Key Methods:**
 - `getValue()` → `BasketConstituentBuilder` [Getter]
 - `setValue(BasketConstituent arg0)` → `FieldWithMetaBasketConstituentBuilder` [Setter]
-- `getOrCreateValue()` → `BasketConstituentBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaBasketConstituentBuilder` [Setter]
+- `getOrCreateValue()` → `BasketConstituentBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaBasketConstituentBuilder` [Setter]
 
 ### FieldWithMetaCommodityReferencePriceEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -39,8 +39,8 @@
 **Key Methods:**
 - `setValue(CommodityReferencePriceEnum arg0)` → `FieldWithMetaCommodityReferencePriceEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaCommodityReferencePriceEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaCommodityReferencePriceEnumBuilder` [Setter]
 
 ### FieldWithMetaCreditNotation
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -58,10 +58,10 @@
 **Key Methods:**
 - `getValue()` → `CreditNotationBuilder` [Getter]
 - `setValue(CreditNotation arg0)` → `FieldWithMetaCreditNotationBuilder` [Setter]
-- `getOrCreateValue()` → `CreditNotationBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaCreditNotationBuilder` [Setter]
+- `getOrCreateValue()` → `CreditNotationBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaCreditNotationBuilder` [Setter]
 
 ### FieldWithMetaInformationProviderEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -79,8 +79,8 @@
 **Key Methods:**
 - `setValue(InformationProviderEnum arg0)` → `FieldWithMetaInformationProviderEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaInformationProviderEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaInformationProviderEnumBuilder` [Setter]
 
 ### FieldWithMetaInterestRateIndex
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -98,10 +98,10 @@
 **Key Methods:**
 - `getValue()` → `InterestRateIndexBuilder` [Getter]
 - `setValue(InterestRateIndex arg0)` → `FieldWithMetaInterestRateIndexBuilder` [Setter]
-- `getOrCreateValue()` → `InterestRateIndexBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaInterestRateIndexBuilder` [Setter]
+- `getOrCreateValue()` → `InterestRateIndexBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaInterestRateIndexBuilder` [Setter]
 
 ### FieldWithMetaInterpolationMethodEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -119,8 +119,8 @@
 **Key Methods:**
 - `setValue(InterpolationMethodEnum arg0)` → `FieldWithMetaInterpolationMethodEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaInterpolationMethodEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaInterpolationMethodEnumBuilder` [Setter]
 
 ### FieldWithMetaObservable
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -138,10 +138,10 @@
 **Key Methods:**
 - `getValue()` → `ObservableBuilder` [Getter]
 - `setValue(Observable arg0)` → `FieldWithMetaObservableBuilder` [Setter]
-- `getOrCreateValue()` → `ObservableBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaObservableBuilder` [Setter]
+- `getOrCreateValue()` → `ObservableBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaObservableBuilder` [Setter]
 
 ### FieldWithMetaPriceSchedule
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -159,10 +159,10 @@
 **Key Methods:**
 - `getValue()` → `PriceScheduleBuilder` [Getter]
 - `setValue(PriceSchedule arg0)` → `FieldWithMetaPriceScheduleBuilder` [Setter]
-- `getOrCreateValue()` → `PriceScheduleBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaPriceScheduleBuilder` [Setter]
+- `getOrCreateValue()` → `PriceScheduleBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaPriceScheduleBuilder` [Setter]
 
 ### FieldWithMetaQuotedCurrencyPair
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -180,10 +180,10 @@
 **Key Methods:**
 - `getValue()` → `QuotedCurrencyPairBuilder` [Getter]
 - `setValue(QuotedCurrencyPair arg0)` → `FieldWithMetaQuotedCurrencyPairBuilder` [Setter]
-- `getOrCreateValue()` → `QuotedCurrencyPairBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaQuotedCurrencyPairBuilder` [Setter]
+- `getOrCreateValue()` → `QuotedCurrencyPairBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaQuotedCurrencyPairBuilder` [Setter]
 
 ### FieldWithMetaSettlementRateOptionEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -201,8 +201,8 @@
 **Key Methods:**
 - `setValue(SettlementRateOptionEnum arg0)` → `FieldWithMetaSettlementRateOptionEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaSettlementRateOptionEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaSettlementRateOptionEnumBuilder` [Setter]
 
 ### ReferenceWithMetaBasketConstituent
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -212,8 +212,8 @@
 - `getValue()` → `BasketConstituent` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaBasketConstituent` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaBasketConstituentBuilder
@@ -223,11 +223,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `BasketConstituentBuilder` [Getter]
 - `setValue(BasketConstituent arg0)` → `ReferenceWithMetaBasketConstituentBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaBasketConstituentBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaBasketConstituentBuilder` [Setter]
 - `getOrCreateValue()` → `BasketConstituentBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaBasketConstituentBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaBasketConstituentBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaBasketConstituentBuilder` [Setter]
 
 ### ReferenceWithMetaInterestRateIndex
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -237,8 +237,8 @@
 - `getValue()` → `InterestRateIndex` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaInterestRateIndex` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaInterestRateIndexBuilder
@@ -248,11 +248,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `InterestRateIndexBuilder` [Getter]
 - `setValue(InterestRateIndex arg0)` → `ReferenceWithMetaInterestRateIndexBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaInterestRateIndexBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaInterestRateIndexBuilder` [Setter]
 - `getOrCreateValue()` → `InterestRateIndexBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaInterestRateIndexBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaInterestRateIndexBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaInterestRateIndexBuilder` [Setter]
 
 ### ReferenceWithMetaMoney
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -262,8 +262,8 @@
 - `getValue()` → `Money` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaMoney` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaMoneyBuilder
@@ -273,11 +273,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `MoneyBuilder` [Getter]
 - `setValue(Money arg0)` → `ReferenceWithMetaMoneyBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaMoneyBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaMoneyBuilder` [Setter]
 - `getOrCreateValue()` → `MoneyBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaMoneyBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaMoneyBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaMoneyBuilder` [Setter]
 
 ### ReferenceWithMetaObservable
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -287,8 +287,8 @@
 - `getValue()` → `Observable` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaObservable` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaObservableBuilder
@@ -298,11 +298,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `ObservableBuilder` [Getter]
 - `setValue(Observable arg0)` → `ReferenceWithMetaObservableBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaObservableBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaObservableBuilder` [Setter]
 - `getOrCreateValue()` → `ObservableBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaObservableBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaObservableBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaObservableBuilder` [Setter]
 
 ### ReferenceWithMetaPerformanceValuationDates
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -312,8 +312,8 @@
 - `getValue()` → `PerformanceValuationDates` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaPerformanceValuationDates` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaPerformanceValuationDatesBuilder
@@ -323,11 +323,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `PerformanceValuationDatesBuilder` [Getter]
 - `setValue(PerformanceValuationDates arg0)` → `ReferenceWithMetaPerformanceValuationDatesBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaPerformanceValuationDatesBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaPerformanceValuationDatesBuilder` [Setter]
 - `getOrCreateValue()` → `PerformanceValuationDatesBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaPerformanceValuationDatesBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaPerformanceValuationDatesBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaPerformanceValuationDatesBuilder` [Setter]
 
 ### ReferenceWithMetaPriceSchedule
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -337,8 +337,8 @@
 - `getValue()` → `PriceSchedule` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaPriceSchedule` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaPriceScheduleBuilder
@@ -348,11 +348,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `PriceScheduleBuilder` [Getter]
 - `setValue(PriceSchedule arg0)` → `ReferenceWithMetaPriceScheduleBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaPriceScheduleBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaPriceScheduleBuilder` [Setter]
 - `getOrCreateValue()` → `PriceScheduleBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaPriceScheduleBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaPriceScheduleBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaPriceScheduleBuilder` [Setter]
 
 ### ReferenceWithMetaQuotedCurrencyPair
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -362,8 +362,8 @@
 - `getValue()` → `QuotedCurrencyPair` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaQuotedCurrencyPair` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaQuotedCurrencyPairBuilder
@@ -373,11 +373,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `QuotedCurrencyPairBuilder` [Getter]
 - `setValue(QuotedCurrencyPair arg0)` → `ReferenceWithMetaQuotedCurrencyPairBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaQuotedCurrencyPairBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaQuotedCurrencyPairBuilder` [Setter]
 - `getOrCreateValue()` → `QuotedCurrencyPairBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaQuotedCurrencyPairBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaQuotedCurrencyPairBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaQuotedCurrencyPairBuilder` [Setter]
 
 ### ReferenceWithMetaRateObservation
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -387,8 +387,8 @@
 - `getValue()` → `RateObservation` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaRateObservation` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaRateObservationBuilder
@@ -398,11 +398,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `RateObservationBuilder` [Getter]
 - `setValue(RateObservation arg0)` → `ReferenceWithMetaRateObservationBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaRateObservationBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaRateObservationBuilder` [Setter]
 - `getOrCreateValue()` → `RateObservationBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaRateObservationBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaRateObservationBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaRateObservationBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -417,10 +417,10 @@
 - `getValue()` → `BasketConstituentBuilder` [Getter]
 - `setValue(BasketConstituent arg0)` → `FieldWithMetaBasketConstituentBuilder` [Setter]
 - `build()` → `FieldWithMetaBasketConstituent` [Builder]
-- `getOrCreateValue()` → `BasketConstituentBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaBasketConstituentBuilder` [Setter]
+- `getOrCreateValue()` → `BasketConstituentBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaBasketConstituentBuilder` [Setter]
 
 ### FieldWithMetaBasketConstituentImpl
 **Implements:** `FieldWithMetaBasketConstituent` 
@@ -446,8 +446,8 @@
 - `setValue(CommodityReferencePriceEnum arg0)` → `FieldWithMetaCommodityReferencePriceEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaCommodityReferencePriceEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaCommodityReferencePriceEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaCommodityReferencePriceEnumBuilder` [Setter]
 
 ### FieldWithMetaCommodityReferencePriceEnumImpl
 **Implements:** `FieldWithMetaCommodityReferencePriceEnum` 
@@ -472,10 +472,10 @@
 - `getValue()` → `CreditNotationBuilder` [Getter]
 - `setValue(CreditNotation arg0)` → `FieldWithMetaCreditNotationBuilder` [Setter]
 - `build()` → `FieldWithMetaCreditNotation` [Builder]
-- `getOrCreateValue()` → `CreditNotationBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaCreditNotationBuilder` [Setter]
+- `getOrCreateValue()` → `CreditNotationBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaCreditNotationBuilder` [Setter]
 
 ### FieldWithMetaCreditNotationImpl
 **Implements:** `FieldWithMetaCreditNotation` 
@@ -501,8 +501,8 @@
 - `setValue(InformationProviderEnum arg0)` → `FieldWithMetaInformationProviderEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaInformationProviderEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaInformationProviderEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaInformationProviderEnumBuilder` [Setter]
 
 ### FieldWithMetaInformationProviderEnumImpl
 **Implements:** `FieldWithMetaInformationProviderEnum` 
@@ -527,10 +527,10 @@
 - `getValue()` → `InterestRateIndexBuilder` [Getter]
 - `setValue(InterestRateIndex arg0)` → `FieldWithMetaInterestRateIndexBuilder` [Setter]
 - `build()` → `FieldWithMetaInterestRateIndex` [Builder]
-- `getOrCreateValue()` → `InterestRateIndexBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaInterestRateIndexBuilder` [Setter]
+- `getOrCreateValue()` → `InterestRateIndexBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaInterestRateIndexBuilder` [Setter]
 
 ### FieldWithMetaInterestRateIndexImpl
 **Implements:** `FieldWithMetaInterestRateIndex` 
@@ -556,8 +556,8 @@
 - `setValue(InterpolationMethodEnum arg0)` → `FieldWithMetaInterpolationMethodEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaInterpolationMethodEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaInterpolationMethodEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaInterpolationMethodEnumBuilder` [Setter]
 
 ### FieldWithMetaInterpolationMethodEnumImpl
 **Implements:** `FieldWithMetaInterpolationMethodEnum` 
@@ -582,10 +582,10 @@
 - `getValue()` → `ObservableBuilder` [Getter]
 - `setValue(Observable arg0)` → `FieldWithMetaObservableBuilder` [Setter]
 - `build()` → `FieldWithMetaObservable` [Builder]
-- `getOrCreateValue()` → `ObservableBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaObservableBuilder` [Setter]
+- `getOrCreateValue()` → `ObservableBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaObservableBuilder` [Setter]
 
 ### FieldWithMetaObservableImpl
 **Implements:** `FieldWithMetaObservable` 
@@ -610,10 +610,10 @@
 - `getValue()` → `PriceScheduleBuilder` [Getter]
 - `setValue(PriceSchedule arg0)` → `FieldWithMetaPriceScheduleBuilder` [Setter]
 - `build()` → `FieldWithMetaPriceSchedule` [Builder]
-- `getOrCreateValue()` → `PriceScheduleBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaPriceScheduleBuilder` [Setter]
+- `getOrCreateValue()` → `PriceScheduleBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaPriceScheduleBuilder` [Setter]
 
 ### FieldWithMetaPriceScheduleImpl
 **Implements:** `FieldWithMetaPriceSchedule` 
@@ -638,10 +638,10 @@
 - `getValue()` → `QuotedCurrencyPairBuilder` [Getter]
 - `setValue(QuotedCurrencyPair arg0)` → `FieldWithMetaQuotedCurrencyPairBuilder` [Setter]
 - `build()` → `FieldWithMetaQuotedCurrencyPair` [Builder]
-- `getOrCreateValue()` → `QuotedCurrencyPairBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaQuotedCurrencyPairBuilder` [Setter]
+- `getOrCreateValue()` → `QuotedCurrencyPairBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaQuotedCurrencyPairBuilder` [Setter]
 
 ### FieldWithMetaQuotedCurrencyPairImpl
 **Implements:** `FieldWithMetaQuotedCurrencyPair` 
@@ -667,8 +667,8 @@
 - `setValue(SettlementRateOptionEnum arg0)` → `FieldWithMetaSettlementRateOptionEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaSettlementRateOptionEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaSettlementRateOptionEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaSettlementRateOptionEnumBuilder` [Setter]
 
 ### FieldWithMetaSettlementRateOptionEnumImpl
 **Implements:** `FieldWithMetaSettlementRateOptionEnum` 
@@ -696,12 +696,12 @@
 - `getValue()` → `BasketConstituentBuilder` [Getter]
 - `setValue(BasketConstituent arg0)` → `ReferenceWithMetaBasketConstituentBuilder` [Setter]
 - `build()` → `ReferenceWithMetaBasketConstituent` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaBasketConstituentBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaBasketConstituentBuilder` [Setter]
 - `getOrCreateValue()` → `BasketConstituentBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaBasketConstituentBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaBasketConstituentBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaBasketConstituentBuilder` [Setter]
 
 ### ReferenceWithMetaBasketConstituentImpl
 **Implements:** `ReferenceWithMetaBasketConstituent` 
@@ -710,8 +710,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `BasketConstituent` [Getter]
 - `build()` → `ReferenceWithMetaBasketConstituent` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaBasketConstituentBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaBasketConstituentMeta
@@ -731,12 +731,12 @@
 - `getValue()` → `InterestRateIndexBuilder` [Getter]
 - `setValue(InterestRateIndex arg0)` → `ReferenceWithMetaInterestRateIndexBuilder` [Setter]
 - `build()` → `ReferenceWithMetaInterestRateIndex` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaInterestRateIndexBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaInterestRateIndexBuilder` [Setter]
 - `getOrCreateValue()` → `InterestRateIndexBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaInterestRateIndexBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaInterestRateIndexBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaInterestRateIndexBuilder` [Setter]
 
 ### ReferenceWithMetaInterestRateIndexImpl
 **Implements:** `ReferenceWithMetaInterestRateIndex` 
@@ -745,8 +745,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `InterestRateIndex` [Getter]
 - `build()` → `ReferenceWithMetaInterestRateIndex` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaInterestRateIndexBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaInterestRateIndexMeta
@@ -766,12 +766,12 @@
 - `getValue()` → `MoneyBuilder` [Getter]
 - `setValue(Money arg0)` → `ReferenceWithMetaMoneyBuilder` [Setter]
 - `build()` → `ReferenceWithMetaMoney` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaMoneyBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaMoneyBuilder` [Setter]
 - `getOrCreateValue()` → `MoneyBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaMoneyBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaMoneyBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaMoneyBuilder` [Setter]
 
 ### ReferenceWithMetaMoneyImpl
 **Implements:** `ReferenceWithMetaMoney` 
@@ -780,8 +780,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `Money` [Getter]
 - `build()` → `ReferenceWithMetaMoney` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaMoneyBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaMoneyMeta
@@ -801,12 +801,12 @@
 - `getValue()` → `ObservableBuilder` [Getter]
 - `setValue(Observable arg0)` → `ReferenceWithMetaObservableBuilder` [Setter]
 - `build()` → `ReferenceWithMetaObservable` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaObservableBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaObservableBuilder` [Setter]
 - `getOrCreateValue()` → `ObservableBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaObservableBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaObservableBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaObservableBuilder` [Setter]
 
 ### ReferenceWithMetaObservableImpl
 **Implements:** `ReferenceWithMetaObservable` 
@@ -815,8 +815,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `Observable` [Getter]
 - `build()` → `ReferenceWithMetaObservable` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaObservableBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaObservableMeta
@@ -836,12 +836,12 @@
 - `getValue()` → `PerformanceValuationDatesBuilder` [Getter]
 - `setValue(PerformanceValuationDates arg0)` → `ReferenceWithMetaPerformanceValuationDatesBuilder` [Setter]
 - `build()` → `ReferenceWithMetaPerformanceValuationDates` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaPerformanceValuationDatesBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaPerformanceValuationDatesBuilder` [Setter]
 - `getOrCreateValue()` → `PerformanceValuationDatesBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaPerformanceValuationDatesBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaPerformanceValuationDatesBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaPerformanceValuationDatesBuilder` [Setter]
 
 ### ReferenceWithMetaPerformanceValuationDatesImpl
 **Implements:** `ReferenceWithMetaPerformanceValuationDates` 
@@ -850,8 +850,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `PerformanceValuationDates` [Getter]
 - `build()` → `ReferenceWithMetaPerformanceValuationDates` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaPerformanceValuationDatesBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaPerformanceValuationDatesMeta
@@ -871,12 +871,12 @@
 - `getValue()` → `PriceScheduleBuilder` [Getter]
 - `setValue(PriceSchedule arg0)` → `ReferenceWithMetaPriceScheduleBuilder` [Setter]
 - `build()` → `ReferenceWithMetaPriceSchedule` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaPriceScheduleBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaPriceScheduleBuilder` [Setter]
 - `getOrCreateValue()` → `PriceScheduleBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaPriceScheduleBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaPriceScheduleBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaPriceScheduleBuilder` [Setter]
 
 ### ReferenceWithMetaPriceScheduleImpl
 **Implements:** `ReferenceWithMetaPriceSchedule` 
@@ -885,8 +885,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `PriceSchedule` [Getter]
 - `build()` → `ReferenceWithMetaPriceSchedule` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaPriceScheduleBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaPriceScheduleMeta
@@ -906,12 +906,12 @@
 - `getValue()` → `QuotedCurrencyPairBuilder` [Getter]
 - `setValue(QuotedCurrencyPair arg0)` → `ReferenceWithMetaQuotedCurrencyPairBuilder` [Setter]
 - `build()` → `ReferenceWithMetaQuotedCurrencyPair` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaQuotedCurrencyPairBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaQuotedCurrencyPairBuilder` [Setter]
 - `getOrCreateValue()` → `QuotedCurrencyPairBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaQuotedCurrencyPairBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaQuotedCurrencyPairBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaQuotedCurrencyPairBuilder` [Setter]
 
 ### ReferenceWithMetaQuotedCurrencyPairImpl
 **Implements:** `ReferenceWithMetaQuotedCurrencyPair` 
@@ -920,8 +920,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `QuotedCurrencyPair` [Getter]
 - `build()` → `ReferenceWithMetaQuotedCurrencyPair` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaQuotedCurrencyPairBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaQuotedCurrencyPairMeta
@@ -941,12 +941,12 @@
 - `getValue()` → `RateObservationBuilder` [Getter]
 - `setValue(RateObservation arg0)` → `ReferenceWithMetaRateObservationBuilder` [Setter]
 - `build()` → `ReferenceWithMetaRateObservation` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaRateObservationBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaRateObservationBuilder` [Setter]
 - `getOrCreateValue()` → `RateObservationBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaRateObservationBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaRateObservationBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaRateObservationBuilder` [Setter]
 
 ### ReferenceWithMetaRateObservationImpl
 **Implements:** `ReferenceWithMetaRateObservation` 
@@ -955,8 +955,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `RateObservation` [Getter]
 - `build()` → `ReferenceWithMetaRateObservation` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaRateObservationBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaRateObservationMeta

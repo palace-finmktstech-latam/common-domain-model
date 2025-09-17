@@ -17,36 +17,36 @@
 #### Setter Methods
 
 - `CollateralBuilder setPortfolioIdentifier(List arg0)`
-- `CollateralBuilder setCollateralProvisions(CollateralProvisions arg0)`
-- `CollateralBuilder setIndependentAmount(IndependentAmount arg0)`
-- `CollateralBuilder setCollateralPortfolioValue(List arg0)`
-- `CollateralBuilder setCollateralPortfolio(List arg0)`
 - `CollateralBuilder setMeta(MetaFields arg0)`
+- `CollateralBuilder setCollateralPortfolio(List arg0)`
+- `CollateralBuilder setCollateralPortfolioValue(List arg0)`
+- `CollateralBuilder setIndependentAmount(IndependentAmount arg0)`
+- `CollateralBuilder setCollateralProvisions(CollateralProvisions arg0)`
 
 #### Getter Methods
 
-- `List getPortfolioIdentifier()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `List getCollateralPortfolio()`
+- `List getPortfolioIdentifier()`
+- `IdentifierBuilder getOrCreatePortfolioIdentifier(int arg0)`
+- `MetaFieldsBuilder getMeta()`
+- `CollateralProvisionsBuilder getCollateralProvisions()`
+- `IndependentAmountBuilder getIndependentAmount()`
 - `ReferenceWithMetaCollateralPortfolioBuilder getOrCreateCollateralPortfolio(int arg0)`
 - `CollateralProvisionsBuilder getOrCreateCollateralProvisions()`
 - `IndependentAmountBuilder getOrCreateIndependentAmount()`
-- `MetaFieldsBuilder getMeta()`
-- `IndependentAmountBuilder getIndependentAmount()`
-- `CollateralProvisionsBuilder getCollateralProvisions()`
-- `IdentifierBuilder getOrCreatePortfolioIdentifier(int arg0)`
+- `List getCollateralPortfolio()`
 
 #### Adder Methods
 
-- `CollateralBuilder addCollateralPortfolio(ReferenceWithMetaCollateralPortfolio arg0)`
-- `CollateralBuilder addCollateralPortfolio(List arg0)`
-- `CollateralBuilder addCollateralPortfolio(ReferenceWithMetaCollateralPortfolio arg0, int arg1)`
-- `CollateralBuilder addPortfolioIdentifier(Identifier arg0, int arg1)`
-- `CollateralBuilder addPortfolioIdentifier(Identifier arg0)`
 - `CollateralBuilder addPortfolioIdentifier(List arg0)`
-- `CollateralBuilder addCollateralPortfolioValue(CollateralPortfolio arg0, int arg1)`
+- `CollateralBuilder addPortfolioIdentifier(Identifier arg0)`
+- `CollateralBuilder addPortfolioIdentifier(Identifier arg0, int arg1)`
+- `CollateralBuilder addCollateralPortfolio(ReferenceWithMetaCollateralPortfolio arg0, int arg1)`
+- `CollateralBuilder addCollateralPortfolio(List arg0)`
+- `CollateralBuilder addCollateralPortfolio(ReferenceWithMetaCollateralPortfolio arg0)`
 - `CollateralBuilder addCollateralPortfolioValue(CollateralPortfolio arg0)`
 - `CollateralBuilder addCollateralPortfolioValue(List arg0)`
+- `CollateralBuilder addCollateralPortfolioValue(CollateralPortfolio arg0, int arg1)`
 
 #### Other Methods
 

@@ -19,15 +19,15 @@
 #### Getter Methods
 
 - `Class getType()`
-- `PricingDates getPricingDates()`
 - `Underlier getUnderlier()`
-- `CalculationSchedule getSchedule()`
-- `AssetDeliveryInformation getDelivery()`
-- `AveragingCalculation getAveragingFeature()`
-- `FxFeature getFxFeature()`
 - `CommodityPriceReturnTerms getCommodityPriceReturnTerms()`
 - `PaymentDates getPaymentDates()`
+- `AssetDeliveryInformation getDelivery()`
+- `CalculationSchedule getSchedule()`
+- `FxFeature getFxFeature()`
+- `AveragingCalculation getAveragingFeature()`
 - `CalculationPeriodDates getCalculationPeriodDates()`
+- `PricingDates getPricingDates()`
 
 #### Other Methods
 

@@ -28,23 +28,23 @@
 
 #### Setter Methods
 
+- `WorkflowStepApprovalBuilder setTimestamp(EventTimestamp arg0)`
+- `WorkflowStepApprovalBuilder setMeta(MetaFields arg0)`
 - `WorkflowStepApprovalBuilder setApproved(Boolean arg0)`
 - `WorkflowStepApprovalBuilder setPartyValue(Party arg0)`
 - `WorkflowStepApprovalBuilder setRejectedReason(String arg0)`
-- `WorkflowStepApprovalBuilder setTimestamp(EventTimestamp arg0)`
 - `WorkflowStepApprovalBuilder setParty(ReferenceWithMetaParty arg0)`
-- `WorkflowStepApprovalBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
 - `EventTimestampBuilder getTimestamp()`
+- `MetaFieldsBuilder getOrCreateMeta()`
+- `MetaFieldsBuilder getMeta()`
+- `ReferenceWithMetaPartyBuilder getParty()`
 - `EventTimestampBuilder getOrCreateTimestamp()`
 - `String getRejectedReason()`
 - `Boolean getApproved()`
-- `MetaFieldsBuilder getOrCreateMeta()`
-- `ReferenceWithMetaPartyBuilder getParty()`
 - `ReferenceWithMetaPartyBuilder getOrCreateParty()`
-- `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
 
@@ -52,7 +52,7 @@
 - `String toString()`
 - `int hashCode()`
 - `WorkflowStepApprovalBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `WorkflowStepApprovalBuilder toBuilder()`
 - `WorkflowStepApprovalBuilder prune()`
+- `WorkflowStepApprovalBuilder toBuilder()`
+- `boolean hasData()`
 

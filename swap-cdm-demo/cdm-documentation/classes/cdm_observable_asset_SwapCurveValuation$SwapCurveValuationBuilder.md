@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `SwapCurveValuationBuilder setFloatingRateIndex(FloatingRateIndexEnum arg0)`
 - `SwapCurveValuationBuilder setSide(QuotationSideEnum arg0)`
 - `SwapCurveValuationBuilder setIndexTenor(Period arg0)`
+- `SwapCurveValuationBuilder setFloatingRateIndex(FloatingRateIndexEnum arg0)`
 - `SwapCurveValuationBuilder setSpread(BigDecimal arg0)`
 
 #### Getter Methods
 
-- `PeriodBuilder getIndexTenor()`
 - `PeriodBuilder getOrCreateIndexTenor()`
+- `PeriodBuilder getIndexTenor()`
 
 #### Other Methods
 

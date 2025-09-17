@@ -31,8 +31,8 @@
 
 #### Getter Methods
 
-- `PriceSourceDisruptionBuilder getPriceSourceDisruption()`
 - `FieldWithMetaSettlementRateOptionEnumBuilder getSettlementRateOption()`
+- `PriceSourceDisruptionBuilder getPriceSourceDisruption()`
 - `FieldWithMetaSettlementRateOptionEnumBuilder getOrCreateSettlementRateOption()`
 - `PriceSourceDisruptionBuilder getOrCreatePriceSourceDisruption()`
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `SettlementRateOptionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `SettlementRateOptionBuilder toBuilder()`
 - `SettlementRateOptionBuilder prune()`
+- `SettlementRateOptionBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -16,11 +16,11 @@
 
 #### Setter Methods
 
+- `ObservationDateBuilder setMeta(MetaFields arg0)`
+- `ObservationDateBuilder setObservationReference(String arg0)`
 - `ObservationDateBuilder setUnadjustedDate(Date arg0)`
 - `ObservationDateBuilder setAdjustedDate(Date arg0)`
-- `ObservationDateBuilder setObservationReference(String arg0)`
 - `ObservationDateBuilder setWeight(BigDecimal arg0)`
-- `ObservationDateBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 

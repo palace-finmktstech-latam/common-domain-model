@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `ObservationParametersBuilder setObservationCapRate(BigDecimal arg0)`
 - `ObservationParametersBuilder setObservationFloorRate(BigDecimal arg0)`
+- `ObservationParametersBuilder setObservationCapRate(BigDecimal arg0)`
 
 #### Other Methods
 

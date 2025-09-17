@@ -26,8 +26,8 @@
 
 - `ObservationIdentifier evaluate(PerformancePayout arg0, Date arg1)`
 - `ObservationIdentifierBuilder doEvaluate(PerformancePayout arg0, Date arg1)`
-- `MapperS valuationDates(PerformancePayout arg0, Date arg1)`
 - `MapperS adjustedFinalValuationDate(PerformancePayout arg0, Date arg1)`
+- `MapperS valuationDates(PerformancePayout arg0, Date arg1)`
 
 ### Annotations
 

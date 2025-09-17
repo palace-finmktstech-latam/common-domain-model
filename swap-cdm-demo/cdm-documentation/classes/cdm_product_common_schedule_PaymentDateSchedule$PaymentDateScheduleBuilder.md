@@ -27,9 +27,9 @@
 
 #### Adder Methods
 
-- `PaymentDateScheduleBuilder addInterimPaymentDates(List arg0)`
-- `PaymentDateScheduleBuilder addInterimPaymentDates(AdjustableRelativeOrPeriodicDates arg0, int arg1)`
 - `PaymentDateScheduleBuilder addInterimPaymentDates(AdjustableRelativeOrPeriodicDates arg0)`
+- `PaymentDateScheduleBuilder addInterimPaymentDates(AdjustableRelativeOrPeriodicDates arg0, int arg1)`
+- `PaymentDateScheduleBuilder addInterimPaymentDates(List arg0)`
 
 #### Other Methods
 

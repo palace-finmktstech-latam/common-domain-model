@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `void setSchemeAndIdentifierType(AssetIdentifierBuilder arg0, FieldWithMetaStringBuilder arg1, String arg2)`
 - `void setSchemeAndIdentifierType(AssetIdentifierBuilder arg0, FieldWithMetaStringBuilder arg1, Path arg2, Path arg3)`
+- `void setSchemeAndIdentifierType(AssetIdentifierBuilder arg0, FieldWithMetaStringBuilder arg1, String arg2)`
 
 #### Getter Methods
 

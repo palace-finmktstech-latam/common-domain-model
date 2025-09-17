@@ -20,16 +20,16 @@
 
 #### Getter Methods
 
+- `ContactElectionBuilder getOrCreatePrimaryNotices()`
 - `List getAdditionalNotices()`
 - `ContactElectionBuilder getPrimaryNotices()`
-- `ContactElectionBuilder getOrCreatePrimaryNotices()`
 - `PartyContactInformationBuilder getOrCreateAdditionalNotices(int arg0)`
 
 #### Adder Methods
 
-- `AddressForNoticesBuilder addAdditionalNotices(List arg0)`
-- `AddressForNoticesBuilder addAdditionalNotices(PartyContactInformation arg0)`
 - `AddressForNoticesBuilder addAdditionalNotices(PartyContactInformation arg0, int arg1)`
+- `AddressForNoticesBuilder addAdditionalNotices(PartyContactInformation arg0)`
+- `AddressForNoticesBuilder addAdditionalNotices(List arg0)`
 
 #### Other Methods
 

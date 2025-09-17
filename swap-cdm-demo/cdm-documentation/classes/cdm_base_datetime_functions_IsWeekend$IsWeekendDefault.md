@@ -15,7 +15,7 @@
 
 #### Other Methods
 
-- `Boolean doEvaluate(Date arg0, List arg1)`
 - `Boolean assignOutput(Boolean arg0, Date arg1, List arg2)`
+- `Boolean doEvaluate(Date arg0, List arg1)`
 - `MapperS dayOfWeek1(Date arg0, List arg1)`
 

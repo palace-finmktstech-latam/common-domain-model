@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `DividendDateReference getDividendDateReference()`
 - `ReferenceWithMetaAdjustableOrRelativeDate getDividendDate()`
+- `DividendDateReference getDividendDateReference()`
 
 #### Other Methods
 

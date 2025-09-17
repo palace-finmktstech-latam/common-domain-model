@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Boolean doEvaluate(List arg0, CompareOp arg1, BigDecimal arg2)`
 - `Boolean assignOutput(Boolean arg0, List arg1, CompareOp arg2, BigDecimal arg3)`
+- `Boolean doEvaluate(List arg0, CompareOp arg1, BigDecimal arg2)`
 

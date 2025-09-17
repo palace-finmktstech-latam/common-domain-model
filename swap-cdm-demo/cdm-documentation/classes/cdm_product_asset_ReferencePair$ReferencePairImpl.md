@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `FieldWithMetaEntityTypeEnum getEntityType()`
+- `LegalEntity getReferenceEntity()`
 - `ReferenceObligation getReferenceObligation()`
 - `Boolean getNoReferenceObligation()`
-- `LegalEntity getReferenceEntity()`
+- `FieldWithMetaEntityTypeEnum getEntityType()`
 
 #### Other Methods
 

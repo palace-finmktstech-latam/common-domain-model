@@ -15,14 +15,14 @@
 
 #### Setter Methods
 
-- `VarianceCapFloorBuilder setVarianceCap(Boolean arg0)`
 - `VarianceCapFloorBuilder setUnadjustedVarianceCap(BigDecimal arg0)`
 - `VarianceCapFloorBuilder setBoundedVariance(BoundedVariance arg0)`
+- `VarianceCapFloorBuilder setVarianceCap(Boolean arg0)`
 
 #### Getter Methods
 
-- `BoundedVarianceBuilder getOrCreateBoundedVariance()`
 - `BoundedVarianceBuilder getBoundedVariance()`
+- `BoundedVarianceBuilder getOrCreateBoundedVariance()`
 
 #### Other Methods
 

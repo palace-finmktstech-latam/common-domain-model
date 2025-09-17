@@ -22,13 +22,13 @@
 
 #### Getter Methods
 
-- `TradeState getAlphaContract()`
+- `Boolean getIsOpenOffer()`
+- `Party getClearerParty2()`
 - `Party getClearingParty()`
 - `Party getClearerParty1()`
-- `Party getClearerParty2()`
-- `Boolean getIsOpenOffer()`
-- `Party getParty1()`
+- `TradeState getAlphaContract()`
 - `Party getParty2()`
+- `Party getParty1()`
 
 #### Other Methods
 

@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `AdjustableOrAdjustedOrRelativeDate getSettlementDate()`
 - `NonNegativeQuantity getQuantity()`
+- `AdjustableOrAdjustedOrRelativeDate getSettlementDate()`
 - `Asset getAsset()`
 
 #### Other Methods

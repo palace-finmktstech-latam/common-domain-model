@@ -31,22 +31,22 @@
 #### Setter Methods
 
 - `ValuationBuilder setMethod(ValuationTypeEnum arg0)`
-- `ValuationBuilder setTimestamp(ZonedDateTime arg0)`
-- `ValuationBuilder setValuationTiming(PriceTimingEnum arg0)`
 - `ValuationBuilder setPriceComponent(Price arg0)`
+- `ValuationBuilder setValuationTiming(PriceTimingEnum arg0)`
+- `ValuationBuilder setTimestamp(ZonedDateTime arg0)`
 - `ValuationBuilder setSource(ValuationSourceEnum arg0)`
-- `ValuationBuilder setDelta(BigDecimal arg0)`
 - `ValuationBuilder setAmount(Money arg0)`
+- `ValuationBuilder setDelta(BigDecimal arg0)`
 
 #### Getter Methods
 
 - `ValuationTypeEnum getMethod()`
 - `ZonedDateTime getTimestamp()`
-- `ValuationSourceEnum getSource()`
 - `MoneyBuilder getOrCreateAmount()`
-- `PriceBuilder getPriceComponent()`
 - `PriceBuilder getOrCreatePriceComponent()`
 - `PriceTimingEnum getValuationTiming()`
+- `PriceBuilder getPriceComponent()`
+- `ValuationSourceEnum getSource()`
 - `BigDecimal getDelta()`
 - `MoneyBuilder getAmount()`
 
@@ -56,7 +56,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ValuationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ValuationBuilder toBuilder()`
 - `ValuationBuilder prune()`
+- `ValuationBuilder toBuilder()`
+- `boolean hasData()`
 

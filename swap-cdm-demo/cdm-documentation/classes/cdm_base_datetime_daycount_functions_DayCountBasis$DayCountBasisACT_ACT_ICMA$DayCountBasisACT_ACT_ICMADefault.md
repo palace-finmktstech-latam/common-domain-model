@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Integer doEvaluate(DayCountFractionEnum arg0)`
 - `Integer assignOutput(Integer arg0, DayCountFractionEnum arg1)`
+- `Integer doEvaluate(DayCountFractionEnum arg0)`
 

@@ -16,21 +16,21 @@
 #### Setter Methods
 
 - `CollateralProvisionsBuilder setCollateralType(CollateralTypeEnum arg0)`
-- `CollateralProvisionsBuilder setEligibleCollateral(List arg0)`
 - `CollateralProvisionsBuilder setSubstitutionProvisions(SubstitutionProvisions arg0)`
+- `CollateralProvisionsBuilder setEligibleCollateral(List arg0)`
 
 #### Getter Methods
 
 - `List getEligibleCollateral()`
-- `SubstitutionProvisionsBuilder getSubstitutionProvisions()`
-- `SubstitutionProvisionsBuilder getOrCreateSubstitutionProvisions()`
 - `EligibleCollateralCriteriaBuilder getOrCreateEligibleCollateral(int arg0)`
+- `SubstitutionProvisionsBuilder getOrCreateSubstitutionProvisions()`
+- `SubstitutionProvisionsBuilder getSubstitutionProvisions()`
 
 #### Adder Methods
 
 - `CollateralProvisionsBuilder addEligibleCollateral(List arg0)`
-- `CollateralProvisionsBuilder addEligibleCollateral(EligibleCollateralCriteria arg0, int arg1)`
 - `CollateralProvisionsBuilder addEligibleCollateral(EligibleCollateralCriteria arg0)`
+- `CollateralProvisionsBuilder addEligibleCollateral(EligibleCollateralCriteria arg0, int arg1)`
 
 #### Other Methods
 

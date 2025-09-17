@@ -30,8 +30,8 @@
 
 #### Getter Methods
 
-- `AveragingCalculationMethodEnum getCalculationMethod()`
 - `Boolean getIsWeighted()`
+- `AveragingCalculationMethodEnum getCalculationMethod()`
 
 #### Other Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AveragingCalculationMethodBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AveragingCalculationMethodBuilder toBuilder()`
 - `AveragingCalculationMethodBuilder prune()`
+- `AveragingCalculationMethodBuilder toBuilder()`
+- `boolean hasData()`
 

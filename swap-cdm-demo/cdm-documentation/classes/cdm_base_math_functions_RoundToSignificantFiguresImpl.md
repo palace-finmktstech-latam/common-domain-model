@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `BigDecimal doEvaluate(BigDecimal arg0, Integer arg1, RoundingDirectionEnum arg2)`
 - `RoundingMode toRoundingMode(RoundingDirectionEnum arg0)`
+- `BigDecimal doEvaluate(BigDecimal arg0, Integer arg1, RoundingDirectionEnum arg2)`
 

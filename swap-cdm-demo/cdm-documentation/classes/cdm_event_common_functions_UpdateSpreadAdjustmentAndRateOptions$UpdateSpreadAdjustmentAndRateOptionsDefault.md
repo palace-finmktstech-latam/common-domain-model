@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `TradeStateBuilder doEvaluate(TradeState arg0, List arg1)`
 - `TradeStateBuilder assignOutput(TradeStateBuilder arg0, TradeState arg1, List arg2)`
+- `TradeStateBuilder doEvaluate(TradeState arg0, List arg1)`
 

@@ -23,9 +23,9 @@
 #### Getter Methods
 
 - `FieldWithMetaString getCurrency()`
-- `WeatherUnitEnum getWeatherUnit()`
-- `CapacityUnitEnum getCapacityUnit()`
 - `FinancialUnitEnum getFinancialUnit()`
+- `CapacityUnitEnum getCapacityUnit()`
+- `WeatherUnitEnum getWeatherUnit()`
 
 #### Other Methods
 

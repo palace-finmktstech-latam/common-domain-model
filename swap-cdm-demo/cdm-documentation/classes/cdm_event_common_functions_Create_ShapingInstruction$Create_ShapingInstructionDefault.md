@@ -15,7 +15,7 @@
 
 #### Other Methods
 
-- `PrimitiveInstructionBuilder doEvaluate(TradeState arg0, List arg1, Identifier arg2)`
 - `PrimitiveInstructionBuilder assignOutput(PrimitiveInstructionBuilder arg0, TradeState arg1, List arg2, Identifier arg3)`
+- `PrimitiveInstructionBuilder doEvaluate(TradeState arg0, List arg1, Identifier arg2)`
 - `MapperC componentId(TradeState arg0, List arg1, Identifier arg2)`
 

@@ -31,28 +31,28 @@
 - `MasterAgreementClauseBuilder setName(String arg0)`
 - `MasterAgreementClauseBuilder setVariant(List arg0)`
 - `MasterAgreementClauseBuilder setCounterparty(List arg0)`
-- `MasterAgreementClauseBuilder setOtherParty(List arg0)`
 - `MasterAgreementClauseBuilder setIdentifer(MasterAgreementClauseIdentifierEnum arg0)`
+- `MasterAgreementClauseBuilder setOtherParty(List arg0)`
 
 #### Getter Methods
 
 - `String getName()`
 - `List getVariant()`
+- `List getCounterparty()`
 - `MasterAgreementClauseIdentifierEnum getIdentifer()`
 - `List getOtherParty()`
 - `MasterAgreementClauseVariantBuilder getOrCreateVariant(int arg0)`
-- `List getCounterparty()`
 
 #### Adder Methods
 
-- `MasterAgreementClauseBuilder addCounterparty(CounterpartyRoleEnum arg0)`
 - `MasterAgreementClauseBuilder addCounterparty(CounterpartyRoleEnum arg0, int arg1)`
 - `MasterAgreementClauseBuilder addCounterparty(List arg0)`
+- `MasterAgreementClauseBuilder addCounterparty(CounterpartyRoleEnum arg0)`
 - `MasterAgreementClauseBuilder addOtherParty(PartyRoleEnum arg0, int arg1)`
-- `MasterAgreementClauseBuilder addOtherParty(List arg0)`
 - `MasterAgreementClauseBuilder addOtherParty(PartyRoleEnum arg0)`
-- `MasterAgreementClauseBuilder addVariant(MasterAgreementClauseVariant arg0, int arg1)`
+- `MasterAgreementClauseBuilder addOtherParty(List arg0)`
 - `MasterAgreementClauseBuilder addVariant(List arg0)`
+- `MasterAgreementClauseBuilder addVariant(MasterAgreementClauseVariant arg0, int arg1)`
 - `MasterAgreementClauseBuilder addVariant(MasterAgreementClauseVariant arg0)`
 
 #### Other Methods
@@ -61,7 +61,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MasterAgreementClauseBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MasterAgreementClauseBuilder toBuilder()`
 - `MasterAgreementClauseBuilder prune()`
+- `MasterAgreementClauseBuilder toBuilder()`
+- `boolean hasData()`
 

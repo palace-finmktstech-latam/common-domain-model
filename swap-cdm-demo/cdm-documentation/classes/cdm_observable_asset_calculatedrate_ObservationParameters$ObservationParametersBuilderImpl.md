@@ -25,13 +25,13 @@
 
 #### Setter Methods
 
-- `ObservationParametersBuilder setObservationCapRate(BigDecimal arg0)`
 - `ObservationParametersBuilder setObservationFloorRate(BigDecimal arg0)`
+- `ObservationParametersBuilder setObservationCapRate(BigDecimal arg0)`
 
 #### Getter Methods
 
-- `BigDecimal getObservationFloorRate()`
 - `BigDecimal getObservationCapRate()`
+- `BigDecimal getObservationFloorRate()`
 
 #### Other Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ObservationParametersBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ObservationParametersBuilder toBuilder()`
 - `ObservationParametersBuilder prune()`
+- `ObservationParametersBuilder toBuilder()`
+- `boolean hasData()`
 

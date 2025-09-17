@@ -36,7 +36,7 @@
 - `String toString()`
 - `int hashCode()`
 - `SpecialPurposeVehicleIssuerTypeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `SpecialPurposeVehicleIssuerTypeBuilder toBuilder()`
 - `SpecialPurposeVehicleIssuerTypeBuilder prune()`
+- `SpecialPurposeVehicleIssuerTypeBuilder toBuilder()`
+- `boolean hasData()`
 

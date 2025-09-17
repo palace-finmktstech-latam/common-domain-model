@@ -28,13 +28,13 @@
 #### Other Methods
 
 - `Boolean evaluate(BusinessEvent arg0)`
-- `Boolean doEvaluate(BusinessEvent arg0)`
 - `MapperS instruction(BusinessEvent arg0)`
-- `MapperS closedTradeState(BusinessEvent arg0)`
-- `MapperC openTradeStates(BusinessEvent arg0)`
 - `MapperS beforeTradeState(BusinessEvent arg0)`
 - `MapperC openTradeNoExecutionDetails(BusinessEvent arg0)`
+- `Boolean doEvaluate(BusinessEvent arg0)`
 - `MapperC packageRef(BusinessEvent arg0)`
+- `MapperC openTradeStates(BusinessEvent arg0)`
+- `MapperS closedTradeState(BusinessEvent arg0)`
 
 ### Annotations
 

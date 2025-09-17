@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
+- `List getCollateralBalance()`
 - `ReferenceWithMetaLegalAgreement getLegalAgreement()`
 - `Identifier getPortfolioIdentifier()`
-- `List getCollateralBalance()`
 - `List getCollateralPosition()`
 - `MetaFields getMeta()`
 

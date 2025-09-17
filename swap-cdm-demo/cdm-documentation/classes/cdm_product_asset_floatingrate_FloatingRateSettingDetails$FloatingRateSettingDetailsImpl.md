@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `Date getObservationDate()`
-- `BigDecimal getFloatingRate()`
-- `CalculatedRateDetails getCalculationDetails()`
 - `Date getResetDate()`
+- `Date getObservationDate()`
+- `CalculatedRateDetails getCalculationDetails()`
+- `BigDecimal getFloatingRate()`
 
 #### Other Methods
 

@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaQuotedCurrencyPairBuilder setValue(QuotedCurrencyPair arg0)`
-- `ReferenceWithMetaQuotedCurrencyPairBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaQuotedCurrencyPairBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaQuotedCurrencyPairBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaQuotedCurrencyPairBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaQuotedCurrencyPairBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaQuotedCurrencyPairBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaQuotedCurrencyPairBuilder toBuilder()`
 - `ReferenceWithMetaQuotedCurrencyPairBuilder prune()`
+- `ReferenceWithMetaQuotedCurrencyPairBuilder toBuilder()`
+- `boolean hasData()`
 

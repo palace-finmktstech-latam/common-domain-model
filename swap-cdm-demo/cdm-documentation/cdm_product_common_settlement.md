@@ -73,23 +73,23 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `AssetFlowBase` [Builder]
-- `getSettlementDate()` → `AdjustableOrAdjustedOrRelativeDate` [Getter]
 - `getQuantity()` → `NonNegativeQuantity` [Getter]
+- `getSettlementDate()` → `AdjustableOrAdjustedOrRelativeDate` [Getter]
 - `getAsset()` → `Asset` [Getter]
 
 ### AssetFlowBaseBuilder
 **Implements:** `AssetFlowBase` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getSettlementDate()` → `AdjustableOrAdjustedOrRelativeDateBuilder` [Getter]
 - `getQuantity()` → `NonNegativeQuantityBuilder` [Getter]
-- `getOrCreateSettlementDate()` → `AdjustableOrAdjustedOrRelativeDateBuilder` [Getter]
 - `setSettlementDate(AdjustableOrAdjustedOrRelativeDate arg0)` → `AssetFlowBaseBuilder` [Setter]
-- `getOrCreateQuantity()` → `NonNegativeQuantityBuilder` [Getter]
 - `setQuantity(NonNegativeQuantity arg0)` → `AssetFlowBaseBuilder` [Setter]
 - `getOrCreateAsset()` → `AssetBuilder` [Getter]
-- `setAsset(Asset arg0)` → `AssetFlowBaseBuilder` [Setter]
+- `getOrCreateSettlementDate()` → `AdjustableOrAdjustedOrRelativeDateBuilder` [Getter]
+- `getOrCreateQuantity()` → `NonNegativeQuantityBuilder` [Getter]
+- `getSettlementDate()` → `AdjustableOrAdjustedOrRelativeDateBuilder` [Getter]
 - `getAsset()` → `AssetBuilder` [Getter]
+- `setAsset(Asset arg0)` → `AssetFlowBaseBuilder` [Setter]
 
 ### CashSettlementTerms
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -97,29 +97,29 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CashSettlementTerms` [Builder]
-- `getFixedSettlement()` → `Boolean` [Getter]
-- `getCashSettlementMethod()` → `CashSettlementMethodEnum` [Getter]
-- `getValuationMethod()` → `ValuationMethod` [Getter]
-- `getCashSettlementAmount()` → `Money` [Getter]
-- `getRecoveryFactor()` → `BigDecimal` [Getter]
 - `getValuationTime()` → `BusinessCenterTime` [Getter]
 - `getValuationDate()` → `ValuationDate` [Getter]
-- `getAccruedInterest()` → `Boolean` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getCashSettlementAmount()` → `Money` [Getter]
+- `getRecoveryFactor()` → `BigDecimal` [Getter]
+- `getFixedSettlement()` → `Boolean` [Getter]
+- `getValuationMethod()` → `ValuationMethod` [Getter]
+- `getCashSettlementMethod()` → `CashSettlementMethodEnum` [Getter]
 
 ### CashSettlementTermsBuilder
 **Implements:** `CashSettlementTerms` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setRecoveryFactor(BigDecimal arg0)` → `CashSettlementTermsBuilder` [Setter]
-- `setAccruedInterest(Boolean arg0)` → `CashSettlementTermsBuilder` [Setter]
-- `setCashSettlementAmount(Money arg0)` → `CashSettlementTermsBuilder` [Setter]
+- `getValuationTime()` → `BusinessCenterTimeBuilder` [Getter]
+- `getValuationDate()` → `ValuationDateBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `CashSettlementTermsBuilder` [Setter]
+- `setValuationTime(BusinessCenterTime arg0)` → `CashSettlementTermsBuilder` [Setter]
+- `getOrCreateValuationTime()` → `BusinessCenterTimeBuilder` [Getter]
+- `setValuationDate(ValuationDate arg0)` → `CashSettlementTermsBuilder` [Setter]
+- `getOrCreateValuationDate()` → `ValuationDateBuilder` [Getter]
 - `setValuationMethod(ValuationMethod arg0)` → `CashSettlementTermsBuilder` [Setter]
-- `setCashSettlementMethod(CashSettlementMethodEnum arg0)` → `CashSettlementTermsBuilder` [Setter]
-- `setFixedSettlement(Boolean arg0)` → `CashSettlementTermsBuilder` [Setter]
-- `getValuationMethod()` → `ValuationMethodBuilder` [Getter]
-- `getCashSettlementAmount()` → `MoneyBuilder` [Getter]
-- `getOrCreateValuationMethod()` → `ValuationMethodBuilder` [Getter]
 
 ### Cashflow
 **Implements:** `AssetFlowBase` 
@@ -135,15 +135,15 @@
 **Implements:** `Cashflow` `AssetFlowBase$AssetFlowBaseBuilder` 
 
 **Key Methods:**
-- `getPayerReceiver()` → `PayerReceiverBuilder` [Getter]
+- `setPayerReceiver(PayerReceiver arg0)` → `CashflowBuilder` [Setter]
 - `setSettlementDate(AdjustableOrAdjustedOrRelativeDate arg0)` → `CashflowBuilder` [Setter]
 - `getOrCreatePayerReceiver()` → `PayerReceiverBuilder` [Getter]
 - `setQuantity(NonNegativeQuantity arg0)` → `CashflowBuilder` [Setter]
-- `setPayerReceiver(PayerReceiver arg0)` → `CashflowBuilder` [Setter]
-- `getOrCreatePaymentDiscounting()` → `PaymentDiscountingBuilder` [Getter]
-- `setCashflowType(CashflowType arg0)` → `CashflowBuilder` [Setter]
+- `getPayerReceiver()` → `PayerReceiverBuilder` [Getter]
 - `setAsset(Asset arg0)` → `CashflowBuilder` [Setter]
+- `getOrCreateCashflowType()` → `CashflowTypeBuilder` [Getter]
 - `getCashflowType()` → `CashflowTypeBuilder` [Getter]
+- `getPaymentDiscounting()` → `PaymentDiscountingBuilder` [Getter]
 - `setPaymentDiscounting(PaymentDiscounting arg0)` → `CashflowBuilder` [Setter]
 
 ### CashflowType
@@ -152,19 +152,19 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CashflowType` [Builder]
-- `getCashPrice()` → `CashPrice` [Getter]
 - `getPriceExpression()` → `PriceExpressionEnum` [Getter]
+- `getCashPrice()` → `CashPrice` [Getter]
 - `getCashflowType()` → `ScheduledTransferEnum` [Getter]
 
 ### CashflowTypeBuilder
 **Implements:** `CashflowType` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getOrCreateCashPrice()` → `CashPriceBuilder` [Getter]
 - `getCashPrice()` → `CashPriceBuilder` [Getter]
-- `setCashPrice(CashPrice arg0)` → `CashflowTypeBuilder` [Setter]
 - `setPriceExpression(PriceExpressionEnum arg0)` → `CashflowTypeBuilder` [Setter]
+- `setCashPrice(CashPrice arg0)` → `CashflowTypeBuilder` [Setter]
 - `setCashflowType(ScheduledTransferEnum arg0)` → `CashflowTypeBuilder` [Setter]
+- `getOrCreateCashPrice()` → `CashPriceBuilder` [Getter]
 
 ### CommodityPriceReturnTerms
 **Implements:** `RosettaModelObject` 
@@ -172,25 +172,25 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CommodityPriceReturnTerms` [Builder]
-- `getConversionFactor()` → `BigDecimal` [Getter]
-- `getRollFeature()` → `RollFeature` [Getter]
 - `getRounding()` → `Rounding` [Getter]
+- `getRollFeature()` → `RollFeature` [Getter]
+- `getConversionFactor()` → `BigDecimal` [Getter]
 - `getSpread()` → `SpreadSchedule` [Getter]
 
 ### CommodityPriceReturnTermsBuilder
 **Implements:** `CommodityPriceReturnTerms` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setRounding(Rounding arg0)` → `CommodityPriceReturnTermsBuilder` [Setter]
-- `getOrCreateRounding()` → `RoundingBuilder` [Getter]
-- `getOrCreateRollFeature()` → `RollFeatureBuilder` [Getter]
-- `getOrCreateSpread()` → `SpreadScheduleBuilder` [Getter]
-- `getRollFeature()` → `RollFeatureBuilder` [Getter]
-- `getRounding()` → `RoundingBuilder` [Getter]
-- `setRollFeature(RollFeature arg0)` → `CommodityPriceReturnTermsBuilder` [Setter]
 - `setConversionFactor(BigDecimal arg0)` → `CommodityPriceReturnTermsBuilder` [Setter]
-- `getSpread()` → `SpreadScheduleBuilder` [Getter]
+- `getOrCreateRounding()` → `RoundingBuilder` [Getter]
+- `getRounding()` → `RoundingBuilder` [Getter]
+- `getRollFeature()` → `RollFeatureBuilder` [Getter]
+- `getOrCreateSpread()` → `SpreadScheduleBuilder` [Getter]
+- `setRollFeature(RollFeature arg0)` → `CommodityPriceReturnTermsBuilder` [Setter]
+- `getOrCreateRollFeature()` → `RollFeatureBuilder` [Getter]
+- `setRounding(Rounding arg0)` → `CommodityPriceReturnTermsBuilder` [Setter]
 - `setSpread(SpreadSchedule arg0)` → `CommodityPriceReturnTermsBuilder` [Setter]
+- `getSpread()` → `SpreadScheduleBuilder` [Getter]
 
 ### ComputedAmount
 **Implements:** `RosettaModelObject` 
@@ -208,9 +208,9 @@
 **Key Methods:**
 - `getCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrency(FieldWithMetaString arg0)` → `ComputedAmountBuilder` [Setter]
-- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrencyValue(String arg0)` → `ComputedAmountBuilder` [Setter]
 - `setAmount(BigDecimal arg0)` → `ComputedAmountBuilder` [Setter]
+- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCallFunction(String arg0)` → `ComputedAmountBuilder` [Setter]
 
 ### DeliverableObligations
@@ -219,29 +219,29 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `DeliverableObligations` [Builder]
-- `getListed()` → `Boolean` [Getter]
-- `getAcceleratedOrMatured()` → `Boolean` [Getter]
-- `getCategory()` → `ObligationCategoryEnum` [Getter]
-- `getDirectLoanParticipation()` → `LoanParticipation` [Getter]
-- `getExcluded()` → `String` [Getter]
-- `getOthReferenceEntityObligations()` → `String` [Getter]
-- `getIndirectLoanParticipation()` → `LoanParticipation` [Getter]
+- `getGeneralFundObligationLiability()` → `Boolean` [Getter]
+- `getRevenueObligationLiability()` → `Boolean` [Getter]
 - `getFullFaithAndCreditObLiability()` → `Boolean` [Getter]
+- `getAccruedInterest()` → `Boolean` [Getter]
+- `getNotDomesticLaw()` → `Boolean` [Getter]
+- `getNotContingent()` → `Boolean` [Getter]
+- `getSpecifiedCurrency()` → `SpecifiedCurrency` [Getter]
+- `getNotDomesticIssuance()` → `Boolean` [Getter]
 
 ### DeliverableObligationsBuilder
 **Implements:** `DeliverableObligations` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getDirectLoanParticipation()` → `LoanParticipationBuilder` [Getter]
-- `setListed(Boolean arg0)` → `DeliverableObligationsBuilder` [Setter]
+- `setAccruedInterest(Boolean arg0)` → `DeliverableObligationsBuilder` [Setter]
 - `getOrCreateAssignableLoan()` → `PCDeliverableObligationCharacBuilder` [Getter]
-- `setNotContingent(Boolean arg0)` → `DeliverableObligationsBuilder` [Setter]
-- `setNotDomesticCurrency(NotDomesticCurrency arg0)` → `DeliverableObligationsBuilder` [Setter]
-- `setNotSubordinated(Boolean arg0)` → `DeliverableObligationsBuilder` [Setter]
-- `setCategory(ObligationCategoryEnum arg0)` → `DeliverableObligationsBuilder` [Setter]
-- `setNotDomesticLaw(Boolean arg0)` → `DeliverableObligationsBuilder` [Setter]
-- `setNotDomesticIssuance(Boolean arg0)` → `DeliverableObligationsBuilder` [Setter]
+- `setConsentRequiredLoan(PCDeliverableObligationCharac arg0)` → `DeliverableObligationsBuilder` [Setter]
+- `setMaximumMaturity(Period arg0)` → `DeliverableObligationsBuilder` [Setter]
+- `setAcceleratedOrMatured(Boolean arg0)` → `DeliverableObligationsBuilder` [Setter]
 - `setSpecifiedCurrency(SpecifiedCurrency arg0)` → `DeliverableObligationsBuilder` [Setter]
+- `setNotSovereignLender(Boolean arg0)` → `DeliverableObligationsBuilder` [Setter]
+- `setCategory(ObligationCategoryEnum arg0)` → `DeliverableObligationsBuilder` [Setter]
+- `setNotBearer(Boolean arg0)` → `DeliverableObligationsBuilder` [Setter]
+- `setNotSubordinated(Boolean arg0)` → `DeliverableObligationsBuilder` [Setter]
 
 ### FixedPrice
 **Implements:** `RosettaModelObject` 
@@ -256,9 +256,9 @@
 
 **Key Methods:**
 - `getOrCreatePrice()` → `ReferenceWithMetaPriceScheduleBuilder` [Getter]
+- `getPrice()` → `ReferenceWithMetaPriceScheduleBuilder` [Getter]
 - `setPriceValue(PriceSchedule arg0)` → `FixedPriceBuilder` [Setter]
 - `setPrice(ReferenceWithMetaPriceSchedule arg0)` → `FixedPriceBuilder` [Setter]
-- `getPrice()` → `ReferenceWithMetaPriceScheduleBuilder` [Getter]
 
 ### FxFixingDate
 **Implements:** `Offset` 
@@ -266,28 +266,28 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `FxFixingDate` [Builder]
-- `getBusinessDayConvention()` → `BusinessDayConventionEnum` [Getter]
 - `getBusinessCenters()` → `BusinessCenters` [Getter]
+- `getBusinessDayConvention()` → `BusinessDayConventionEnum` [Getter]
 - `getFxFixingDate()` → `AdjustableOrRelativeDate` [Getter]
-- `getDateRelativeToValuationDates()` → `DateRelativeToValuationDates` [Getter]
-- `getDateRelativeToPaymentDates()` → `DateRelativeToPaymentDates` [Getter]
-- `getDateRelativeToCalculationPeriodDates()` → `DateRelativeToCalculationPeriodDates` [Getter]
 - `getBusinessCentersReference()` → `ReferenceWithMetaBusinessCenters` [Getter]
+- `getDateRelativeToPaymentDates()` → `DateRelativeToPaymentDates` [Getter]
+- `getDateRelativeToValuationDates()` → `DateRelativeToValuationDates` [Getter]
+- `getDateRelativeToCalculationPeriodDates()` → `DateRelativeToCalculationPeriodDates` [Getter]
 
 ### FxFixingDateBuilder
 **Implements:** `FxFixingDate` `Offset$OffsetBuilder` 
 
 **Key Methods:**
-- `setBusinessDayConvention(BusinessDayConventionEnum arg0)` → `FxFixingDateBuilder` [Setter]
-- `setBusinessCenters(BusinessCenters arg0)` → `FxFixingDateBuilder` [Setter]
+- `getOrCreateDateRelativeToCalculationPeriodDates()` → `DateRelativeToCalculationPeriodDatesBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FxFixingDateBuilder` [Setter]
 - `getOrCreateBusinessCenters()` → `BusinessCentersBuilder` [Getter]
+- `setBusinessCenters(BusinessCenters arg0)` → `FxFixingDateBuilder` [Setter]
 - `getBusinessCenters()` → `BusinessCentersBuilder` [Getter]
+- `setBusinessDayConvention(BusinessDayConventionEnum arg0)` → `FxFixingDateBuilder` [Setter]
 - `setDayType(DayTypeEnum arg0)` → `FxFixingDateBuilder` [Setter]
-- `getFxFixingDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `getOrCreateFxFixingDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
+- `getFxFixingDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `setFxFixingDate(AdjustableOrRelativeDate arg0)` → `FxFixingDateBuilder` [Setter]
-- `getOrCreateDateRelativeToPaymentDates()` → `DateRelativeToPaymentDatesBuilder` [Getter]
-- `getDateRelativeToValuationDates()` → `DateRelativeToValuationDatesBuilder` [Getter]
 
 ### LoanParticipation
 **Implements:** `PCDeliverableObligationCharac` 
@@ -301,9 +301,9 @@
 **Implements:** `LoanParticipation` `PCDeliverableObligationCharac$PCDeliverableObligationCharacBuilder` 
 
 **Key Methods:**
+- `setApplicable(Boolean arg0)` → `LoanParticipationBuilder` [Setter]
 - `setPartialCashSettlement(Boolean arg0)` → `LoanParticipationBuilder` [Setter]
 - `setQualifyingParticipationSeller(String arg0)` → `LoanParticipationBuilder` [Setter]
-- `setApplicable(Boolean arg0)` → `LoanParticipationBuilder` [Setter]
 
 ### PCDeliverableObligationCharac
 **Implements:** `RosettaModelObject` 
@@ -311,15 +311,15 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `PCDeliverableObligationCharac` [Builder]
-- `getPartialCashSettlement()` → `Boolean` [Getter]
 - `getApplicable()` → `Boolean` [Getter]
+- `getPartialCashSettlement()` → `Boolean` [Getter]
 
 ### PCDeliverableObligationCharacBuilder
 **Implements:** `PCDeliverableObligationCharac` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setPartialCashSettlement(Boolean arg0)` → `PCDeliverableObligationCharacBuilder` [Setter]
 - `setApplicable(Boolean arg0)` → `PCDeliverableObligationCharacBuilder` [Setter]
+- `setPartialCashSettlement(Boolean arg0)` → `PCDeliverableObligationCharacBuilder` [Setter]
 
 ### PaymentDetail
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -327,24 +327,24 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `PaymentDetail` [Builder]
+- `getMeta()` → `MetaFields` [Getter]
 - `getPaymentDate()` → `AdjustableOrRelativeDate` [Getter]
 - `getPaymentRule()` → `PaymentRule` [Getter]
 - `getPaymentAmount()` → `Money` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
 
 ### PaymentDetailBuilder
 **Implements:** `PaymentDetail` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `PaymentDetailBuilder` [Setter]
+- `getOrCreatePaymentRule()` → `PaymentRuleBuilder` [Getter]
 - `setPaymentAmount(Money arg0)` → `PaymentDetailBuilder` [Setter]
 - `getPaymentDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
-- `getOrCreatePaymentRule()` → `PaymentRuleBuilder` [Getter]
-- `getOrCreatePaymentAmount()` → `MoneyBuilder` [Getter]
 - `setPaymentDate(AdjustableOrRelativeDate arg0)` → `PaymentDetailBuilder` [Setter]
-- `getPaymentRule()` → `PaymentRuleBuilder` [Getter]
-- `getOrCreatePaymentDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `setPaymentRule(PaymentRule arg0)` → `PaymentDetailBuilder` [Setter]
+- `getPaymentRule()` → `PaymentRuleBuilder` [Getter]
 - `getPaymentAmount()` → `MoneyBuilder` [Getter]
 
 ### PaymentDiscounting
@@ -360,8 +360,8 @@
 **Implements:** `PaymentDiscounting` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setPresentValueAmount(Money arg0)` → `PaymentDiscountingBuilder` [Setter]
 - `getPresentValueAmount()` → `MoneyBuilder` [Getter]
+- `setPresentValueAmount(Money arg0)` → `PaymentDiscountingBuilder` [Setter]
 - `setDiscountFactor(BigDecimal arg0)` → `PaymentDiscountingBuilder` [Setter]
 - `getOrCreatePresentValueAmount()` → `MoneyBuilder` [Getter]
 
@@ -378,8 +378,8 @@
 
 **Key Methods:**
 - `getPercentageRule()` → `PercentageRuleBuilder` [Getter]
-- `getOrCreatePercentageRule()` → `PercentageRuleBuilder` [Getter]
 - `setPercentageRule(PercentageRule arg0)` → `PaymentRuleBuilder` [Setter]
+- `getOrCreatePercentageRule()` → `PercentageRuleBuilder` [Getter]
 
 ### PayoutBase
 **Implements:** `RosettaModelObject` 
@@ -387,25 +387,25 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `PayoutBase` [Builder]
+- `getPayerReceiver()` → `PayerReceiver` [Getter]
 - `getPriceQuantity()` → `ResolvablePriceQuantity` [Getter]
 - `getPrincipalPayment()` → `PrincipalPayments` [Getter]
-- `getPayerReceiver()` → `PayerReceiver` [Getter]
 - `getSettlementTerms()` → `SettlementTerms` [Getter]
 
 ### PayoutBaseBuilder
 **Implements:** `PayoutBase` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getPriceQuantity()` → `ResolvablePriceQuantityBuilder` [Getter]
-- `getOrCreateSettlementTerms()` → `SettlementTermsBuilder` [Getter]
-- `getPrincipalPayment()` → `PrincipalPaymentsBuilder` [Getter]
-- `setPrincipalPayment(PrincipalPayments arg0)` → `PayoutBaseBuilder` [Setter]
-- `getPayerReceiver()` → `PayerReceiverBuilder` [Getter]
-- `getOrCreatePayerReceiver()` → `PayerReceiverBuilder` [Getter]
 - `setPayerReceiver(PayerReceiver arg0)` → `PayoutBaseBuilder` [Setter]
-- `getOrCreatePrincipalPayment()` → `PrincipalPaymentsBuilder` [Getter]
+- `getOrCreatePayerReceiver()` → `PayerReceiverBuilder` [Getter]
+- `getPayerReceiver()` → `PayerReceiverBuilder` [Getter]
+- `getPriceQuantity()` → `ResolvablePriceQuantityBuilder` [Getter]
+- `setPriceQuantity(ResolvablePriceQuantity arg0)` → `PayoutBaseBuilder` [Setter]
 - `getOrCreatePriceQuantity()` → `ResolvablePriceQuantityBuilder` [Getter]
 - `setSettlementTerms(SettlementTerms arg0)` → `PayoutBaseBuilder` [Setter]
+- `getPrincipalPayment()` → `PrincipalPaymentsBuilder` [Getter]
+- `getOrCreateSettlementTerms()` → `SettlementTermsBuilder` [Getter]
+- `setPrincipalPayment(PrincipalPayments arg0)` → `PayoutBaseBuilder` [Setter]
 
 ### PercentageRule
 **Implements:** `RosettaModelObject` 
@@ -420,11 +420,11 @@
 **Implements:** `PercentageRule` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `getNotionalAmountReference()` → `ReferenceWithMetaMoneyBuilder` [Getter]
+- `setNotionalAmountReference(ReferenceWithMetaMoney arg0)` → `PercentageRuleBuilder` [Setter]
+- `setPaymentPercent(BigDecimal arg0)` → `PercentageRuleBuilder` [Setter]
 - `getOrCreateNotionalAmountReference()` → `ReferenceWithMetaMoneyBuilder` [Getter]
 - `setNotionalAmountReferenceValue(Money arg0)` → `PercentageRuleBuilder` [Setter]
-- `getNotionalAmountReference()` → `ReferenceWithMetaMoneyBuilder` [Getter]
-- `setPaymentPercent(BigDecimal arg0)` → `PercentageRuleBuilder` [Setter]
-- `setNotionalAmountReference(ReferenceWithMetaMoney arg0)` → `PercentageRuleBuilder` [Setter]
 
 ### PhysicalSettlementPeriod
 **Implements:** `RosettaModelObject` 
@@ -450,28 +450,28 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `PhysicalSettlementTerms` [Builder]
-- `getPredeterminedClearingOrganizationParty()` → `AncillaryRoleEnum` [Getter]
+- `getPhysicalSettlementPeriod()` → `PhysicalSettlementPeriod` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getDeliverableObligations()` → `DeliverableObligations` [Getter]
+- `getEscrow()` → `Boolean` [Getter]
 - `getSixtyBusinessDaySettlementCap()` → `Boolean` [Getter]
 - `getClearedPhysicalSettlement()` → `Boolean` [Getter]
-- `getEscrow()` → `Boolean` [Getter]
-- `getPhysicalSettlementPeriod()` → `PhysicalSettlementPeriod` [Getter]
-- `getDeliverableObligations()` → `DeliverableObligations` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
+- `getPredeterminedClearingOrganizationParty()` → `AncillaryRoleEnum` [Getter]
 
 ### PhysicalSettlementTermsBuilder
 **Implements:** `PhysicalSettlementTerms` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `setEscrow(Boolean arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setDeliverableObligations(DeliverableObligations arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
-- `getOrCreateDeliverableObligations()` → `DeliverableObligationsBuilder` [Getter]
-- `setPhysicalSettlementPeriod(PhysicalSettlementPeriod arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
-- `setClearedPhysicalSettlement(Boolean arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
-- `setPredeterminedClearingOrganizationParty(AncillaryRoleEnum arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
-- `getOrCreatePhysicalSettlementPeriod()` → `PhysicalSettlementPeriodBuilder` [Getter]
-- `setSixtyBusinessDaySettlementCap(Boolean arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
 - `getPhysicalSettlementPeriod()` → `PhysicalSettlementPeriodBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
+- `setDeliverableObligations(DeliverableObligations arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
+- `getDeliverableObligations()` → `DeliverableObligationsBuilder` [Getter]
+- `getOrCreatePhysicalSettlementPeriod()` → `PhysicalSettlementPeriodBuilder` [Getter]
+- `getOrCreateDeliverableObligations()` → `DeliverableObligationsBuilder` [Getter]
+- `setSixtyBusinessDaySettlementCap(Boolean arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
+- `setPredeterminedClearingOrganizationParty(AncillaryRoleEnum arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
 
 ### PricingDates
 **Implements:** `RosettaModelObject` 
@@ -479,19 +479,19 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `PricingDates` [Builder]
-- `getSpecifiedDates()` → `List` [Getter]
 - `getParametricDates()` → `ParametricDates` [Getter]
+- `getSpecifiedDates()` → `List` [Getter]
 
 ### PricingDatesBuilder
 **Implements:** `PricingDates` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getSpecifiedDates()` → `List` [Getter]
-- `getOrCreateSpecifiedDates(int arg0)` → `AdjustableDatesBuilder` [Getter]
-- `setSpecifiedDates(List arg0)` → `PricingDatesBuilder` [Setter]
-- `getOrCreateParametricDates()` → `ParametricDatesBuilder` [Getter]
 - `getParametricDates()` → `ParametricDatesBuilder` [Getter]
+- `getOrCreateParametricDates()` → `ParametricDatesBuilder` [Getter]
 - `setParametricDates(ParametricDates arg0)` → `PricingDatesBuilder` [Setter]
+- `getOrCreateSpecifiedDates(int arg0)` → `AdjustableDatesBuilder` [Getter]
+- `getSpecifiedDates()` → `List` [Getter]
+- `setSpecifiedDates(List arg0)` → `PricingDatesBuilder` [Setter]
 
 ### PrincipalPayment
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -500,26 +500,26 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `PrincipalPayment` [Builder]
 - `getPayerReceiver()` → `PayerReceiver` [Getter]
-- `getPresentValuePrincipalAmount()` → `Money` [Getter]
-- `getDiscountFactor()` → `BigDecimal` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getDiscountFactor()` → `BigDecimal` [Getter]
 - `getPrincipalPaymentDate()` → `AdjustableDate` [Getter]
 - `getPrincipalAmount()` → `Money` [Getter]
+- `getPresentValuePrincipalAmount()` → `Money` [Getter]
 
 ### PrincipalPaymentBuilder
 **Implements:** `PrincipalPayment` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `getPayerReceiver()` → `PayerReceiverBuilder` [Getter]
-- `getOrCreatePayerReceiver()` → `PayerReceiverBuilder` [Getter]
 - `setPayerReceiver(PayerReceiver arg0)` → `PrincipalPaymentBuilder` [Setter]
+- `getOrCreatePayerReceiver()` → `PayerReceiverBuilder` [Getter]
+- `getPayerReceiver()` → `PayerReceiverBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `getPresentValuePrincipalAmount()` → `MoneyBuilder` [Getter]
-- `getOrCreatePrincipalPaymentDate()` → `AdjustableDateBuilder` [Getter]
-- `setPresentValuePrincipalAmount(Money arg0)` → `PrincipalPaymentBuilder` [Setter]
-- `getOrCreatePresentValuePrincipalAmount()` → `MoneyBuilder` [Getter]
-- `setDiscountFactor(BigDecimal arg0)` → `PrincipalPaymentBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
 - `setMeta(MetaFields arg0)` → `PrincipalPaymentBuilder` [Setter]
+- `setDiscountFactor(BigDecimal arg0)` → `PrincipalPaymentBuilder` [Setter]
+- `setPrincipalAmount(Money arg0)` → `PrincipalPaymentBuilder` [Setter]
+- `getPrincipalPaymentDate()` → `AdjustableDateBuilder` [Getter]
+- `getPrincipalAmount()` → `MoneyBuilder` [Getter]
 
 ### PrincipalPaymentSchedule
 **Implements:** `RosettaModelObject` 
@@ -535,15 +535,15 @@
 **Implements:** `PrincipalPaymentSchedule` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getInitialPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
-- `getFinalPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
-- `setFinalPrincipalPayment(PrincipalPayment arg0)` → `PrincipalPaymentScheduleBuilder` [Setter]
 - `setInitialPrincipalPayment(PrincipalPayment arg0)` → `PrincipalPaymentScheduleBuilder` [Setter]
-- `getOrCreateFinalPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
-- `getOrCreateInitialPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
+- `getInitialPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
+- `setFinalPrincipalPayment(PrincipalPayment arg0)` → `PrincipalPaymentScheduleBuilder` [Setter]
+- `getFinalPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
 - `getOrCreateIntermediatePrincipalPayment()` → `AdjustableRelativeOrPeriodicDatesBuilder` [Getter]
 - `getIntermediatePrincipalPayment()` → `AdjustableRelativeOrPeriodicDatesBuilder` [Getter]
+- `getOrCreateInitialPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
 - `setIntermediatePrincipalPayment(AdjustableRelativeOrPeriodicDates arg0)` → `PrincipalPaymentScheduleBuilder` [Setter]
+- `getOrCreateFinalPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
 
 ### PrincipalPayments
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -551,27 +551,27 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `PrincipalPayments` [Builder]
+- `getMeta()` → `MetaFields` [Getter]
+- `getInitialPayment()` → `Boolean` [Getter]
 - `getIntermediatePayment()` → `Boolean` [Getter]
 - `getFinalPayment()` → `Boolean` [Getter]
-- `getInitialPayment()` → `Boolean` [Getter]
-- `getVaryingLegNotionalCurrency()` → `List` [Getter]
 - `getPrincipalPaymentSchedule()` → `PrincipalPaymentSchedule` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
+- `getVaryingLegNotionalCurrency()` → `List` [Getter]
 
 ### PrincipalPaymentsBuilder
 **Implements:** `PrincipalPayments` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `setInitialPayment(Boolean arg0)` → `PrincipalPaymentsBuilder` [Setter]
-- `setIntermediatePayment(Boolean arg0)` → `PrincipalPaymentsBuilder` [Setter]
-- `setFinalPayment(Boolean arg0)` → `PrincipalPaymentsBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setVaryingLegNotionalCurrency(List arg0)` → `PrincipalPaymentsBuilder` [Setter]
-- `setPrincipalPaymentSchedule(PrincipalPaymentSchedule arg0)` → `PrincipalPaymentsBuilder` [Setter]
-- `getOrCreatePrincipalPaymentSchedule()` → `PrincipalPaymentScheduleBuilder` [Getter]
-- `getPrincipalPaymentSchedule()` → `PrincipalPaymentScheduleBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `PrincipalPaymentsBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `PrincipalPaymentsBuilder` [Setter]
+- `getPrincipalPaymentSchedule()` → `PrincipalPaymentScheduleBuilder` [Getter]
+- `setInitialPayment(Boolean arg0)` → `PrincipalPaymentsBuilder` [Setter]
+- `setFinalPayment(Boolean arg0)` → `PrincipalPaymentsBuilder` [Setter]
+- `setIntermediatePayment(Boolean arg0)` → `PrincipalPaymentsBuilder` [Setter]
+- `getOrCreatePrincipalPaymentSchedule()` → `PrincipalPaymentScheduleBuilder` [Getter]
+- `setPrincipalPaymentSchedule(PrincipalPaymentSchedule arg0)` → `PrincipalPaymentsBuilder` [Setter]
+- `setVaryingLegNotionalCurrency(List arg0)` → `PrincipalPaymentsBuilder` [Setter]
 
 ### QuantityMultiplier
 **Implements:** `RosettaModelObject` 
@@ -579,17 +579,17 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `QuantityMultiplier` [Builder]
-- `getFxLinkedNotionalSchedule()` → `FxLinkedNotionalSchedule` [Getter]
 - `getMultiplierValue()` → `BigDecimal` [Getter]
+- `getFxLinkedNotionalSchedule()` → `FxLinkedNotionalSchedule` [Getter]
 
 ### QuantityMultiplierBuilder
 **Implements:** `QuantityMultiplier` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getOrCreateFxLinkedNotionalSchedule()` → `FxLinkedNotionalScheduleBuilder` [Getter]
-- `setFxLinkedNotionalSchedule(FxLinkedNotionalSchedule arg0)` → `QuantityMultiplierBuilder` [Setter]
-- `getFxLinkedNotionalSchedule()` → `FxLinkedNotionalScheduleBuilder` [Getter]
 - `setMultiplierValue(BigDecimal arg0)` → `QuantityMultiplierBuilder` [Setter]
+- `setFxLinkedNotionalSchedule(FxLinkedNotionalSchedule arg0)` → `QuantityMultiplierBuilder` [Setter]
+- `getOrCreateFxLinkedNotionalSchedule()` → `FxLinkedNotionalScheduleBuilder` [Getter]
+- `getFxLinkedNotionalSchedule()` → `FxLinkedNotionalScheduleBuilder` [Getter]
 
 ### ResolvablePriceQuantity
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -598,28 +598,28 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `ResolvablePriceQuantity` [Builder]
 - `getReset()` → `Boolean` [Getter]
-- `getResolvedQuantity()` → `Quantity` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getQuantitySchedule()` → `ReferenceWithMetaNonNegativeQuantitySchedule` [Getter]
 - `getQuantityMultiplier()` → `QuantityMultiplier` [Getter]
+- `getQuantityReference()` → `ReferenceWithMetaResolvablePriceQuantity` [Getter]
+- `getResolvedQuantity()` → `Quantity` [Getter]
 - `getFutureValueNotional()` → `FutureValueAmount` [Getter]
 - `getPriceSchedule()` → `List` [Getter]
-- `getQuantityReference()` → `ReferenceWithMetaResolvablePriceQuantity` [Getter]
-- `getQuantitySchedule()` → `ReferenceWithMetaNonNegativeQuantitySchedule` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
 
 ### ResolvablePriceQuantityBuilder
 **Implements:** `ResolvablePriceQuantity` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `setReset(Boolean arg0)` → `ResolvablePriceQuantityBuilder` [Setter]
-- `getResolvedQuantity()` → `QuantityBuilder` [Getter]
-- `getQuantityMultiplier()` → `QuantityMultiplierBuilder` [Getter]
-- `getFutureValueNotional()` → `FutureValueAmountBuilder` [Getter]
-- `getPriceSchedule()` → `List` [Getter]
-- `getQuantityReference()` → `ReferenceWithMetaResolvablePriceQuantityBuilder` [Getter]
-- `getQuantitySchedule()` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `setReset(Boolean arg0)` → `ResolvablePriceQuantityBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `ResolvablePriceQuantityBuilder` [Setter]
 - `getOrCreateQuantitySchedule()` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Getter]
-- `getOrCreateFutureValueNotional()` → `FutureValueAmountBuilder` [Getter]
+- `setFutureValueNotional(FutureValueAmount arg0)` → `ResolvablePriceQuantityBuilder` [Setter]
+- `setPriceScheduleValue(List arg0)` → `ResolvablePriceQuantityBuilder` [Setter]
+- `setResolvedQuantity(Quantity arg0)` → `ResolvablePriceQuantityBuilder` [Setter]
+- `setQuantitySchedule(ReferenceWithMetaNonNegativeQuantitySchedule arg0)` → `ResolvablePriceQuantityBuilder` [Setter]
+- `setQuantityReferenceValue(ResolvablePriceQuantity arg0)` → `ResolvablePriceQuantityBuilder` [Setter]
 
 ### RollFeature
 **Implements:** `RosettaModelObject` 
@@ -635,9 +635,9 @@
 
 **Key Methods:**
 - `setRollSourceCalendar(RollSourceCalendarEnum arg0)` → `RollFeatureBuilder` [Setter]
+- `getDeliveryDateRollConvention()` → `OffsetBuilder` [Getter]
 - `getOrCreateDeliveryDateRollConvention()` → `OffsetBuilder` [Getter]
 - `setDeliveryDateRollConvention(Offset arg0)` → `RollFeatureBuilder` [Setter]
-- `getDeliveryDateRollConvention()` → `OffsetBuilder` [Getter]
 
 ### SettlementBase
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -645,29 +645,29 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `SettlementBase` [Builder]
-- `getSettlementProvision()` → `SettlementProvision` [Getter]
+- `getSettlementDate()` → `SettlementDate` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getSettlementCurrency()` → `FieldWithMetaString` [Getter]
 - `getTransferSettlementType()` → `TransferSettlementEnum` [Getter]
+- `getSettlementProvision()` → `SettlementProvision` [Getter]
 - `getStandardSettlementStyle()` → `StandardSettlementStyleEnum` [Getter]
 - `getSettlementType()` → `SettlementTypeEnum` [Getter]
 - `getSettlementCentre()` → `SettlementCentreEnum` [Getter]
-- `getSettlementDate()` → `SettlementDate` [Getter]
-- `getSettlementCurrency()` → `FieldWithMetaString` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
 
 ### SettlementBaseBuilder
 **Implements:** `SettlementBase` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `getSettlementProvision()` → `SettlementProvisionBuilder` [Getter]
-- `getSettlementDate()` → `SettlementDateBuilder` [Getter]
-- `getOrCreateSettlementDate()` → `SettlementDateBuilder` [Getter]
 - `setSettlementDate(SettlementDate arg0)` → `SettlementBaseBuilder` [Setter]
+- `getOrCreateSettlementDate()` → `SettlementDateBuilder` [Getter]
+- `getSettlementDate()` → `SettlementDateBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setSettlementType(SettlementTypeEnum arg0)` → `SettlementBaseBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `SettlementBaseBuilder` [Setter]
 - `setTransferSettlementType(TransferSettlementEnum arg0)` → `SettlementBaseBuilder` [Setter]
-- `setSettlementProvision(SettlementProvision arg0)` → `SettlementBaseBuilder` [Setter]
-- `setSettlementCurrency(FieldWithMetaString arg0)` → `SettlementBaseBuilder` [Setter]
+- `setStandardSettlementStyle(StandardSettlementStyleEnum arg0)` → `SettlementBaseBuilder` [Setter]
 - `setSettlementCurrencyValue(String arg0)` → `SettlementBaseBuilder` [Setter]
+- `setSettlementCurrency(FieldWithMetaString arg0)` → `SettlementBaseBuilder` [Setter]
 
 ### SettlementDate
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -675,28 +675,28 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `SettlementDate` [Builder]
-- `getPaymentDelay()` → `Boolean` [Getter]
-- `getBusinessDateRange()` → `BusinessDateRange` [Getter]
-- `getValueDate()` → `Date` [Getter]
-- `getAdjustableDates()` → `AdjustableDates` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
 - `getCashSettlementBusinessDays()` → `Integer` [Getter]
 - `getAdjustableOrRelativeDate()` → `AdjustableOrAdjustedOrRelativeDate` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
+- `getPaymentDelay()` → `Boolean` [Getter]
+- `getAdjustableDates()` → `AdjustableDates` [Getter]
+- `getBusinessDateRange()` → `BusinessDateRange` [Getter]
+- `getValueDate()` → `Date` [Getter]
 
 ### SettlementDateBuilder
 **Implements:** `SettlementDate` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `getBusinessDateRange()` → `BusinessDateRangeBuilder` [Getter]
-- `getAdjustableDates()` → `AdjustableDatesBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `SettlementDateBuilder` [Setter]
 - `setPaymentDelay(Boolean arg0)` → `SettlementDateBuilder` [Setter]
 - `getOrCreateAdjustableDates()` → `AdjustableDatesBuilder` [Getter]
 - `setAdjustableDates(AdjustableDates arg0)` → `SettlementDateBuilder` [Setter]
-- `getOrCreateBusinessDateRange()` → `BusinessDateRangeBuilder` [Getter]
-- `setAdjustableOrRelativeDate(AdjustableOrAdjustedOrRelativeDate arg0)` → `SettlementDateBuilder` [Setter]
-- `getOrCreateAdjustableOrRelativeDate()` → `AdjustableOrAdjustedOrRelativeDateBuilder` [Getter]
-- `setCashSettlementBusinessDays(Integer arg0)` → `SettlementDateBuilder` [Setter]
+- `setValueDate(Date arg0)` → `SettlementDateBuilder` [Setter]
+- `getAdjustableOrRelativeDate()` → `AdjustableOrAdjustedOrRelativeDateBuilder` [Getter]
+- `getAdjustableDates()` → `AdjustableDatesBuilder` [Getter]
+- `getBusinessDateRange()` → `BusinessDateRangeBuilder` [Getter]
 
 ### SettlementProvision
 **Implements:** `RosettaModelObject` 
@@ -711,8 +711,8 @@
 
 **Key Methods:**
 - `getShapingProvisions()` → `ShapingProvisionBuilder` [Getter]
-- `getOrCreateShapingProvisions()` → `ShapingProvisionBuilder` [Getter]
 - `setShapingProvisions(ShapingProvision arg0)` → `SettlementProvisionBuilder` [Setter]
+- `getOrCreateShapingProvisions()` → `ShapingProvisionBuilder` [Getter]
 
 ### SettlementTerms
 **Implements:** `SettlementBase` 
@@ -728,15 +728,15 @@
 
 **Key Methods:**
 - `setSettlementDate(SettlementDate arg0)` → `SettlementTermsBuilder` [Setter]
-- `setSettlementType(SettlementTypeEnum arg0)` → `SettlementTermsBuilder` [Setter]
+- `getCashSettlementTerms()` → `List` [Getter]
+- `setMeta(MetaFields arg0)` → `SettlementTermsBuilder` [Setter]
 - `setTransferSettlementType(TransferSettlementEnum arg0)` → `SettlementTermsBuilder` [Setter]
-- `setSettlementProvision(SettlementProvision arg0)` → `SettlementTermsBuilder` [Setter]
-- `setSettlementCurrency(FieldWithMetaString arg0)` → `SettlementTermsBuilder` [Setter]
-- `setSettlementCurrencyValue(String arg0)` → `SettlementTermsBuilder` [Setter]
-- `setCashSettlementTerms(List arg0)` → `SettlementTermsBuilder` [Setter]
-- `setSettlementCentre(SettlementCentreEnum arg0)` → `SettlementTermsBuilder` [Setter]
 - `setStandardSettlementStyle(StandardSettlementStyleEnum arg0)` → `SettlementTermsBuilder` [Setter]
 - `setPhysicalSettlementTerms(PhysicalSettlementTerms arg0)` → `SettlementTermsBuilder` [Setter]
+- `setCashSettlementTerms(List arg0)` → `SettlementTermsBuilder` [Setter]
+- `setSettlementCurrencyValue(String arg0)` → `SettlementTermsBuilder` [Setter]
+- `setSettlementCurrency(FieldWithMetaString arg0)` → `SettlementTermsBuilder` [Setter]
+- `setSettlementCentre(SettlementCentreEnum arg0)` → `SettlementTermsBuilder` [Setter]
 
 ### ShapingProvision
 **Implements:** `RosettaModelObject` 
@@ -750,8 +750,8 @@
 **Implements:** `ShapingProvision` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getShapeSchedule()` → `List` [Getter]
 - `setShapeSchedule(List arg0)` → `ShapingProvisionBuilder` [Setter]
+- `getShapeSchedule()` → `List` [Getter]
 - `getOrCreateShapeSchedule(int arg0)` → `MoneyBuilder` [Getter]
 
 ### ValuationDate
@@ -760,26 +760,26 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ValuationDate` [Builder]
-- `getFxFixingDate()` → `FxFixingDate` [Getter]
+- `getValuationDate()` → `RelativeDateOffset` [Getter]
+- `getFxFixingSchedule()` → `AdjustableDates` [Getter]
 - `getMultipleValuationDates()` → `MultipleValuationDates` [Getter]
 - `getSingleValuationDate()` → `SingleValuationDate` [Getter]
-- `getFxFixingSchedule()` → `AdjustableDates` [Getter]
-- `getValuationDate()` → `RelativeDateOffset` [Getter]
+- `getFxFixingDate()` → `FxFixingDate` [Getter]
 
 ### ValuationDateBuilder
 **Implements:** `ValuationDate` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getFxFixingDate()` → `FxFixingDateBuilder` [Getter]
-- `setMultipleValuationDates(MultipleValuationDates arg0)` → `ValuationDateBuilder` [Setter]
-- `getMultipleValuationDates()` → `MultipleValuationDatesBuilder` [Getter]
-- `getOrCreateFxFixingDate()` → `FxFixingDateBuilder` [Getter]
-- `getSingleValuationDate()` → `SingleValuationDateBuilder` [Getter]
-- `setFxFixingDate(FxFixingDate arg0)` → `ValuationDateBuilder` [Setter]
-- `setFxFixingSchedule(AdjustableDates arg0)` → `ValuationDateBuilder` [Setter]
+- `getValuationDate()` → `RelativeDateOffsetBuilder` [Getter]
+- `setValuationDate(RelativeDateOffset arg0)` → `ValuationDateBuilder` [Setter]
+- `getOrCreateValuationDate()` → `RelativeDateOffsetBuilder` [Getter]
 - `getFxFixingSchedule()` → `AdjustableDatesBuilder` [Getter]
-- `setSingleValuationDate(SingleValuationDate arg0)` → `ValuationDateBuilder` [Setter]
-- `getOrCreateSingleValuationDate()` → `SingleValuationDateBuilder` [Getter]
+- `getMultipleValuationDates()` → `MultipleValuationDatesBuilder` [Getter]
+- `getSingleValuationDate()` → `SingleValuationDateBuilder` [Getter]
+- `getOrCreateFxFixingDate()` → `FxFixingDateBuilder` [Getter]
+- `setMultipleValuationDates(MultipleValuationDates arg0)` → `ValuationDateBuilder` [Setter]
+- `setFxFixingSchedule(AdjustableDates arg0)` → `ValuationDateBuilder` [Setter]
+- `getFxFixingDate()` → `FxFixingDateBuilder` [Getter]
 
 ## Concrete Classes
 
@@ -793,24 +793,24 @@
 
 **Key Methods:**
 - `build()` → `AssetFlowBase` [Builder]
-- `getSettlementDate()` → `AdjustableOrAdjustedOrRelativeDateBuilder` [Getter]
 - `getQuantity()` → `NonNegativeQuantityBuilder` [Getter]
-- `getOrCreateSettlementDate()` → `AdjustableOrAdjustedOrRelativeDateBuilder` [Getter]
 - `setSettlementDate(AdjustableOrAdjustedOrRelativeDate arg0)` → `AssetFlowBaseBuilder` [Setter]
-- `getOrCreateQuantity()` → `NonNegativeQuantityBuilder` [Getter]
 - `setQuantity(NonNegativeQuantity arg0)` → `AssetFlowBaseBuilder` [Setter]
 - `getOrCreateAsset()` → `AssetBuilder` [Getter]
-- `setAsset(Asset arg0)` → `AssetFlowBaseBuilder` [Setter]
+- `getOrCreateSettlementDate()` → `AdjustableOrAdjustedOrRelativeDateBuilder` [Getter]
+- `getOrCreateQuantity()` → `NonNegativeQuantityBuilder` [Getter]
+- `getSettlementDate()` → `AdjustableOrAdjustedOrRelativeDateBuilder` [Getter]
 - `getAsset()` → `AssetBuilder` [Getter]
+- `setAsset(Asset arg0)` → `AssetFlowBaseBuilder` [Setter]
 
 ### AssetFlowBaseImpl
 **Implements:** `AssetFlowBase` 
 
 **Key Methods:**
 - `build()` → `AssetFlowBase` [Builder]
-- `getSettlementDate()` → `AdjustableOrAdjustedOrRelativeDate` [Getter]
 - `getQuantity()` → `NonNegativeQuantity` [Getter]
 - `setBuilderFields(AssetFlowBaseBuilder arg0)` → `void` [Setter]
+- `getSettlementDate()` → `AdjustableOrAdjustedOrRelativeDate` [Getter]
 - `getAsset()` → `Asset` [Getter]
 
 ### CashSettlementTermsBuilderImpl
@@ -830,14 +830,14 @@
 **Key Methods:**
 - `build()` → `CashSettlementTerms` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setRecoveryFactor(BigDecimal arg0)` → `CashSettlementTermsBuilder` [Setter]
-- `setAccruedInterest(Boolean arg0)` → `CashSettlementTermsBuilder` [Setter]
-- `setCashSettlementAmount(Money arg0)` → `CashSettlementTermsBuilder` [Setter]
-- `setValuationMethod(ValuationMethod arg0)` → `CashSettlementTermsBuilder` [Setter]
-- `setCashSettlementMethod(CashSettlementMethodEnum arg0)` → `CashSettlementTermsBuilder` [Setter]
-- `setFixedSettlement(Boolean arg0)` → `CashSettlementTermsBuilder` [Setter]
-- `getFixedSettlement()` → `Boolean` [Getter]
-- `getCashSettlementMethod()` → `CashSettlementMethodEnum` [Getter]
+- `getValuationTime()` → `BusinessCenterTimeBuilder` [Getter]
+- `getValuationDate()` → `ValuationDateBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `CashSettlementTermsBuilder` [Setter]
+- `setValuationTime(BusinessCenterTime arg0)` → `CashSettlementTermsBuilder` [Setter]
+- `getOrCreateValuationTime()` → `BusinessCenterTimeBuilder` [Getter]
+- `setValuationDate(ValuationDate arg0)` → `CashSettlementTermsBuilder` [Setter]
+- `getOrCreateValuationDate()` → `ValuationDateBuilder` [Getter]
 
 ### CashSettlementTermsImpl
 **Implements:** `CashSettlementTerms` 
@@ -845,14 +845,14 @@
 **Key Methods:**
 - `build()` → `CashSettlementTerms` [Builder]
 - `setBuilderFields(CashSettlementTermsBuilder arg0)` → `void` [Setter]
-- `getFixedSettlement()` → `Boolean` [Getter]
-- `getCashSettlementMethod()` → `CashSettlementMethodEnum` [Getter]
-- `getValuationMethod()` → `ValuationMethod` [Getter]
-- `getCashSettlementAmount()` → `Money` [Getter]
-- `getRecoveryFactor()` → `BigDecimal` [Getter]
 - `getValuationTime()` → `BusinessCenterTime` [Getter]
 - `getValuationDate()` → `ValuationDate` [Getter]
-- `getAccruedInterest()` → `Boolean` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getCashSettlementAmount()` → `Money` [Getter]
+- `getRecoveryFactor()` → `BigDecimal` [Getter]
+- `getFixedSettlement()` → `Boolean` [Getter]
+- `getValuationMethod()` → `ValuationMethod` [Getter]
+- `getCashSettlementMethod()` → `CashSettlementMethodEnum` [Getter]
 
 ### CashflowBuilderImpl
 **Extends:** `AssetFlowBase$AssetFlowBaseBuilderImpl` 
@@ -865,15 +865,15 @@
 
 **Key Methods:**
 - `build()` → `Cashflow` [Builder]
-- `getPayerReceiver()` → `PayerReceiverBuilder` [Getter]
+- `setPayerReceiver(PayerReceiver arg0)` → `CashflowBuilder` [Setter]
 - `setSettlementDate(AdjustableOrAdjustedOrRelativeDate arg0)` → `CashflowBuilder` [Setter]
 - `getOrCreatePayerReceiver()` → `PayerReceiverBuilder` [Getter]
 - `setQuantity(NonNegativeQuantity arg0)` → `CashflowBuilder` [Setter]
-- `setPayerReceiver(PayerReceiver arg0)` → `CashflowBuilder` [Setter]
-- `getOrCreatePaymentDiscounting()` → `PaymentDiscountingBuilder` [Getter]
-- `setCashflowType(CashflowType arg0)` → `CashflowBuilder` [Setter]
+- `getPayerReceiver()` → `PayerReceiverBuilder` [Getter]
 - `setAsset(Asset arg0)` → `CashflowBuilder` [Setter]
+- `getOrCreateCashflowType()` → `CashflowTypeBuilder` [Getter]
 - `getCashflowType()` → `CashflowTypeBuilder` [Getter]
+- `getPaymentDiscounting()` → `PaymentDiscountingBuilder` [Getter]
 
 ### CashflowImpl
 **Extends:** `AssetFlowBase$AssetFlowBaseImpl` 
@@ -881,8 +881,8 @@
 
 **Key Methods:**
 - `build()` → `Cashflow` [Builder]
-- `getPayerReceiver()` → `PayerReceiver` [Getter]
 - `setBuilderFields(CashflowBuilder arg0)` → `void` [Setter]
+- `getPayerReceiver()` → `PayerReceiver` [Getter]
 - `getCashflowType()` → `CashflowType` [Getter]
 - `getPaymentDiscounting()` → `PaymentDiscounting` [Getter]
 
@@ -896,21 +896,21 @@
 
 **Key Methods:**
 - `build()` → `CashflowType` [Builder]
-- `getOrCreateCashPrice()` → `CashPriceBuilder` [Getter]
-- `getCashPrice()` → `CashPriceBuilder` [Getter]
 - `getPriceExpression()` → `PriceExpressionEnum` [Getter]
-- `setCashPrice(CashPrice arg0)` → `CashflowTypeBuilder` [Setter]
+- `getCashPrice()` → `CashPriceBuilder` [Getter]
 - `setPriceExpression(PriceExpressionEnum arg0)` → `CashflowTypeBuilder` [Setter]
-- `setCashflowType(ScheduledTransferEnum arg0)` → `CashflowTypeBuilder` [Setter]
+- `setCashPrice(CashPrice arg0)` → `CashflowTypeBuilder` [Setter]
 - `getCashflowType()` → `ScheduledTransferEnum` [Getter]
+- `setCashflowType(ScheduledTransferEnum arg0)` → `CashflowTypeBuilder` [Setter]
+- `getOrCreateCashPrice()` → `CashPriceBuilder` [Getter]
 
 ### CashflowTypeImpl
 **Implements:** `CashflowType` 
 
 **Key Methods:**
 - `build()` → `CashflowType` [Builder]
-- `getCashPrice()` → `CashPrice` [Getter]
 - `getPriceExpression()` → `PriceExpressionEnum` [Getter]
+- `getCashPrice()` → `CashPrice` [Getter]
 - `setBuilderFields(CashflowTypeBuilder arg0)` → `void` [Setter]
 - `getCashflowType()` → `ScheduledTransferEnum` [Getter]
 
@@ -925,25 +925,25 @@
 
 **Key Methods:**
 - `build()` → `CommodityPriceReturnTerms` [Builder]
-- `getConversionFactor()` → `BigDecimal` [Getter]
-- `setRounding(Rounding arg0)` → `CommodityPriceReturnTermsBuilder` [Setter]
-- `getOrCreateRounding()` → `RoundingBuilder` [Getter]
-- `getOrCreateRollFeature()` → `RollFeatureBuilder` [Getter]
-- `getOrCreateSpread()` → `SpreadScheduleBuilder` [Getter]
-- `getRollFeature()` → `RollFeatureBuilder` [Getter]
-- `getRounding()` → `RoundingBuilder` [Getter]
-- `setRollFeature(RollFeature arg0)` → `CommodityPriceReturnTermsBuilder` [Setter]
 - `setConversionFactor(BigDecimal arg0)` → `CommodityPriceReturnTermsBuilder` [Setter]
+- `getOrCreateRounding()` → `RoundingBuilder` [Getter]
+- `getRounding()` → `RoundingBuilder` [Getter]
+- `getRollFeature()` → `RollFeatureBuilder` [Getter]
+- `getOrCreateSpread()` → `SpreadScheduleBuilder` [Getter]
+- `setRollFeature(RollFeature arg0)` → `CommodityPriceReturnTermsBuilder` [Setter]
+- `getOrCreateRollFeature()` → `RollFeatureBuilder` [Getter]
+- `setRounding(Rounding arg0)` → `CommodityPriceReturnTermsBuilder` [Setter]
+- `getConversionFactor()` → `BigDecimal` [Getter]
 
 ### CommodityPriceReturnTermsImpl
 **Implements:** `CommodityPriceReturnTerms` 
 
 **Key Methods:**
 - `build()` → `CommodityPriceReturnTerms` [Builder]
-- `getConversionFactor()` → `BigDecimal` [Getter]
 - `setBuilderFields(CommodityPriceReturnTermsBuilder arg0)` → `void` [Setter]
-- `getRollFeature()` → `RollFeature` [Getter]
 - `getRounding()` → `Rounding` [Getter]
+- `getRollFeature()` → `RollFeature` [Getter]
+- `getConversionFactor()` → `BigDecimal` [Getter]
 - `getSpread()` → `SpreadSchedule` [Getter]
 
 ### ComputedAmountBuilderImpl
@@ -958,10 +958,10 @@
 - `build()` → `ComputedAmount` [Builder]
 - `getCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrency(FieldWithMetaString arg0)` → `ComputedAmountBuilder` [Setter]
-- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrencyValue(String arg0)` → `ComputedAmountBuilder` [Setter]
 - `setAmount(BigDecimal arg0)` → `ComputedAmountBuilder` [Setter]
 - `getAmount()` → `BigDecimal` [Getter]
+- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `getCallFunction()` → `String` [Getter]
 - `setCallFunction(String arg0)` → `ComputedAmountBuilder` [Setter]
 
@@ -1005,30 +1005,30 @@
 
 **Key Methods:**
 - `build()` → `DeliverableObligations` [Builder]
-- `getListed()` → `Boolean` [Getter]
-- `getAcceleratedOrMatured()` → `Boolean` [Getter]
-- `getCategory()` → `ObligationCategoryEnum` [Getter]
-- `getDirectLoanParticipation()` → `LoanParticipationBuilder` [Getter]
-- `getExcluded()` → `String` [Getter]
-- `setListed(Boolean arg0)` → `DeliverableObligationsBuilder` [Setter]
+- `getGeneralFundObligationLiability()` → `Boolean` [Getter]
+- `getRevenueObligationLiability()` → `Boolean` [Getter]
+- `getFullFaithAndCreditObLiability()` → `Boolean` [Getter]
+- `setAccruedInterest(Boolean arg0)` → `DeliverableObligationsBuilder` [Setter]
 - `getOrCreateAssignableLoan()` → `PCDeliverableObligationCharacBuilder` [Getter]
-- `setNotContingent(Boolean arg0)` → `DeliverableObligationsBuilder` [Setter]
-- `setNotDomesticCurrency(NotDomesticCurrency arg0)` → `DeliverableObligationsBuilder` [Setter]
+- `setConsentRequiredLoan(PCDeliverableObligationCharac arg0)` → `DeliverableObligationsBuilder` [Setter]
+- `setMaximumMaturity(Period arg0)` → `DeliverableObligationsBuilder` [Setter]
+- `setAcceleratedOrMatured(Boolean arg0)` → `DeliverableObligationsBuilder` [Setter]
+- `setSpecifiedCurrency(SpecifiedCurrency arg0)` → `DeliverableObligationsBuilder` [Setter]
 
 ### DeliverableObligationsImpl
 **Implements:** `DeliverableObligations` 
 
 **Key Methods:**
 - `build()` → `DeliverableObligations` [Builder]
-- `getListed()` → `Boolean` [Getter]
-- `getAcceleratedOrMatured()` → `Boolean` [Getter]
-- `getCategory()` → `ObligationCategoryEnum` [Getter]
-- `getDirectLoanParticipation()` → `LoanParticipation` [Getter]
-- `getExcluded()` → `String` [Getter]
 - `setBuilderFields(DeliverableObligationsBuilder arg0)` → `void` [Setter]
-- `getOthReferenceEntityObligations()` → `String` [Getter]
-- `getIndirectLoanParticipation()` → `LoanParticipation` [Getter]
+- `getGeneralFundObligationLiability()` → `Boolean` [Getter]
+- `getRevenueObligationLiability()` → `Boolean` [Getter]
 - `getFullFaithAndCreditObLiability()` → `Boolean` [Getter]
+- `getAccruedInterest()` → `Boolean` [Getter]
+- `getNotDomesticLaw()` → `Boolean` [Getter]
+- `getNotContingent()` → `Boolean` [Getter]
+- `getSpecifiedCurrency()` → `SpecifiedCurrency` [Getter]
+- `getNotDomesticIssuance()` → `Boolean` [Getter]
 
 ### FixedPriceBuilderImpl
 **Implements:** `FixedPrice$FixedPriceBuilder` 
@@ -1039,9 +1039,9 @@
 **Key Methods:**
 - `build()` → `FixedPrice` [Builder]
 - `getOrCreatePrice()` → `ReferenceWithMetaPriceScheduleBuilder` [Getter]
+- `getPrice()` → `ReferenceWithMetaPriceScheduleBuilder` [Getter]
 - `setPriceValue(PriceSchedule arg0)` → `FixedPriceBuilder` [Setter]
 - `setPrice(ReferenceWithMetaPriceSchedule arg0)` → `FixedPriceBuilder` [Setter]
-- `getPrice()` → `ReferenceWithMetaPriceScheduleBuilder` [Getter]
 
 ### FixedPriceImpl
 **Implements:** `FixedPrice` 
@@ -1066,15 +1066,15 @@
 
 **Key Methods:**
 - `build()` → `FxFixingDate` [Builder]
-- `getBusinessDayConvention()` → `BusinessDayConventionEnum` [Getter]
-- `setBusinessDayConvention(BusinessDayConventionEnum arg0)` → `FxFixingDateBuilder` [Setter]
-- `setBusinessCenters(BusinessCenters arg0)` → `FxFixingDateBuilder` [Setter]
+- `getOrCreateDateRelativeToCalculationPeriodDates()` → `DateRelativeToCalculationPeriodDatesBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FxFixingDateBuilder` [Setter]
 - `getOrCreateBusinessCenters()` → `BusinessCentersBuilder` [Getter]
+- `setBusinessCenters(BusinessCenters arg0)` → `FxFixingDateBuilder` [Setter]
 - `getBusinessCenters()` → `BusinessCentersBuilder` [Getter]
+- `setBusinessDayConvention(BusinessDayConventionEnum arg0)` → `FxFixingDateBuilder` [Setter]
+- `getBusinessDayConvention()` → `BusinessDayConventionEnum` [Getter]
 - `setDayType(DayTypeEnum arg0)` → `FxFixingDateBuilder` [Setter]
-- `getFxFixingDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `getOrCreateFxFixingDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
-- `setFxFixingDate(AdjustableOrRelativeDate arg0)` → `FxFixingDateBuilder` [Setter]
 
 ### FxFixingDateImpl
 **Extends:** `Offset$OffsetImpl` 
@@ -1082,14 +1082,14 @@
 
 **Key Methods:**
 - `build()` → `FxFixingDate` [Builder]
-- `getBusinessDayConvention()` → `BusinessDayConventionEnum` [Getter]
-- `getBusinessCenters()` → `BusinessCenters` [Getter]
 - `setBuilderFields(FxFixingDateBuilder arg0)` → `void` [Setter]
+- `getBusinessCenters()` → `BusinessCenters` [Getter]
+- `getBusinessDayConvention()` → `BusinessDayConventionEnum` [Getter]
 - `getFxFixingDate()` → `AdjustableOrRelativeDate` [Getter]
-- `getDateRelativeToValuationDates()` → `DateRelativeToValuationDates` [Getter]
-- `getDateRelativeToPaymentDates()` → `DateRelativeToPaymentDates` [Getter]
-- `getDateRelativeToCalculationPeriodDates()` → `DateRelativeToCalculationPeriodDates` [Getter]
 - `getBusinessCentersReference()` → `ReferenceWithMetaBusinessCenters` [Getter]
+- `getDateRelativeToPaymentDates()` → `DateRelativeToPaymentDates` [Getter]
+- `getDateRelativeToValuationDates()` → `DateRelativeToValuationDates` [Getter]
+- `getDateRelativeToCalculationPeriodDates()` → `DateRelativeToCalculationPeriodDates` [Getter]
 
 ### LoanParticipationBuilderImpl
 **Extends:** `PCDeliverableObligationCharac$PCDeliverableObligationCharacBuilderImpl` 
@@ -1100,10 +1100,10 @@
 
 **Key Methods:**
 - `build()` → `LoanParticipation` [Builder]
-- `setPartialCashSettlement(Boolean arg0)` → `LoanParticipationBuilder` [Setter]
-- `setQualifyingParticipationSeller(String arg0)` → `LoanParticipationBuilder` [Setter]
-- `getQualifyingParticipationSeller()` → `String` [Getter]
 - `setApplicable(Boolean arg0)` → `LoanParticipationBuilder` [Setter]
+- `setPartialCashSettlement(Boolean arg0)` → `LoanParticipationBuilder` [Setter]
+- `getQualifyingParticipationSeller()` → `String` [Getter]
+- `setQualifyingParticipationSeller(String arg0)` → `LoanParticipationBuilder` [Setter]
 
 ### LoanParticipationImpl
 **Extends:** `PCDeliverableObligationCharac$PCDeliverableObligationCharacImpl` 
@@ -1123,10 +1123,10 @@
 
 **Key Methods:**
 - `build()` → `PCDeliverableObligationCharac` [Builder]
-- `setPartialCashSettlement(Boolean arg0)` → `PCDeliverableObligationCharacBuilder` [Setter]
 - `setApplicable(Boolean arg0)` → `PCDeliverableObligationCharacBuilder` [Setter]
-- `getPartialCashSettlement()` → `Boolean` [Getter]
+- `setPartialCashSettlement(Boolean arg0)` → `PCDeliverableObligationCharacBuilder` [Setter]
 - `getApplicable()` → `Boolean` [Getter]
+- `getPartialCashSettlement()` → `Boolean` [Getter]
 
 ### PCDeliverableObligationCharacImpl
 **Implements:** `PCDeliverableObligationCharac` 
@@ -1134,8 +1134,8 @@
 **Key Methods:**
 - `build()` → `PCDeliverableObligationCharac` [Builder]
 - `setBuilderFields(PCDeliverableObligationCharacBuilder arg0)` → `void` [Setter]
-- `getPartialCashSettlement()` → `Boolean` [Getter]
 - `getApplicable()` → `Boolean` [Getter]
+- `getPartialCashSettlement()` → `Boolean` [Getter]
 
 ### PaymentDetailBuilderImpl
 **Implements:** `PaymentDetail$PaymentDetailBuilder` 
@@ -1149,14 +1149,14 @@
 **Key Methods:**
 - `build()` → `PaymentDetail` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `PaymentDetailBuilder` [Setter]
+- `getOrCreatePaymentRule()` → `PaymentRuleBuilder` [Getter]
 - `setPaymentAmount(Money arg0)` → `PaymentDetailBuilder` [Setter]
 - `getPaymentDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
-- `getOrCreatePaymentRule()` → `PaymentRuleBuilder` [Getter]
-- `getOrCreatePaymentAmount()` → `MoneyBuilder` [Getter]
 - `setPaymentDate(AdjustableOrRelativeDate arg0)` → `PaymentDetailBuilder` [Setter]
-- `getPaymentRule()` → `PaymentRuleBuilder` [Getter]
-- `getOrCreatePaymentDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `setPaymentRule(PaymentRule arg0)` → `PaymentDetailBuilder` [Setter]
+- `getPaymentRule()` → `PaymentRuleBuilder` [Getter]
 
 ### PaymentDetailImpl
 **Implements:** `PaymentDetail` 
@@ -1164,10 +1164,10 @@
 **Key Methods:**
 - `build()` → `PaymentDetail` [Builder]
 - `setBuilderFields(PaymentDetailBuilder arg0)` → `void` [Setter]
+- `getMeta()` → `MetaFields` [Getter]
 - `getPaymentDate()` → `AdjustableOrRelativeDate` [Getter]
 - `getPaymentRule()` → `PaymentRule` [Getter]
 - `getPaymentAmount()` → `Money` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
 
 ### PaymentDiscountingBuilderImpl
 **Implements:** `PaymentDiscounting$PaymentDiscountingBuilder` 
@@ -1178,10 +1178,10 @@
 
 **Key Methods:**
 - `build()` → `PaymentDiscounting` [Builder]
-- `setPresentValueAmount(Money arg0)` → `PaymentDiscountingBuilder` [Setter]
 - `getPresentValueAmount()` → `MoneyBuilder` [Getter]
-- `setDiscountFactor(BigDecimal arg0)` → `PaymentDiscountingBuilder` [Setter]
+- `setPresentValueAmount(Money arg0)` → `PaymentDiscountingBuilder` [Setter]
 - `getDiscountFactor()` → `BigDecimal` [Getter]
+- `setDiscountFactor(BigDecimal arg0)` → `PaymentDiscountingBuilder` [Setter]
 - `getOrCreatePresentValueAmount()` → `MoneyBuilder` [Getter]
 
 ### PaymentDiscountingImpl
@@ -1202,8 +1202,8 @@
 **Key Methods:**
 - `build()` → `PaymentRule` [Builder]
 - `getPercentageRule()` → `PercentageRuleBuilder` [Getter]
-- `getOrCreatePercentageRule()` → `PercentageRuleBuilder` [Getter]
 - `setPercentageRule(PercentageRule arg0)` → `PaymentRuleBuilder` [Setter]
+- `getOrCreatePercentageRule()` → `PercentageRuleBuilder` [Getter]
 
 ### PaymentRuleImpl
 **Implements:** `PaymentRule` 
@@ -1224,25 +1224,25 @@
 
 **Key Methods:**
 - `build()` → `PayoutBase` [Builder]
-- `getPriceQuantity()` → `ResolvablePriceQuantityBuilder` [Getter]
-- `getOrCreateSettlementTerms()` → `SettlementTermsBuilder` [Getter]
-- `getPrincipalPayment()` → `PrincipalPaymentsBuilder` [Getter]
-- `setPrincipalPayment(PrincipalPayments arg0)` → `PayoutBaseBuilder` [Setter]
-- `getPayerReceiver()` → `PayerReceiverBuilder` [Getter]
-- `getOrCreatePayerReceiver()` → `PayerReceiverBuilder` [Getter]
 - `setPayerReceiver(PayerReceiver arg0)` → `PayoutBaseBuilder` [Setter]
-- `getOrCreatePrincipalPayment()` → `PrincipalPaymentsBuilder` [Getter]
+- `getOrCreatePayerReceiver()` → `PayerReceiverBuilder` [Getter]
+- `getPayerReceiver()` → `PayerReceiverBuilder` [Getter]
+- `getPriceQuantity()` → `ResolvablePriceQuantityBuilder` [Getter]
+- `setPriceQuantity(ResolvablePriceQuantity arg0)` → `PayoutBaseBuilder` [Setter]
 - `getOrCreatePriceQuantity()` → `ResolvablePriceQuantityBuilder` [Getter]
+- `setSettlementTerms(SettlementTerms arg0)` → `PayoutBaseBuilder` [Setter]
+- `getPrincipalPayment()` → `PrincipalPaymentsBuilder` [Getter]
+- `getOrCreateSettlementTerms()` → `SettlementTermsBuilder` [Getter]
 
 ### PayoutBaseImpl
 **Implements:** `PayoutBase` 
 
 **Key Methods:**
 - `build()` → `PayoutBase` [Builder]
+- `setBuilderFields(PayoutBaseBuilder arg0)` → `void` [Setter]
+- `getPayerReceiver()` → `PayerReceiver` [Getter]
 - `getPriceQuantity()` → `ResolvablePriceQuantity` [Getter]
 - `getPrincipalPayment()` → `PrincipalPayments` [Getter]
-- `getPayerReceiver()` → `PayerReceiver` [Getter]
-- `setBuilderFields(PayoutBaseBuilder arg0)` → `void` [Setter]
 - `getSettlementTerms()` → `SettlementTerms` [Getter]
 
 ### PercentageRuleBuilderImpl
@@ -1254,12 +1254,12 @@
 
 **Key Methods:**
 - `build()` → `PercentageRule` [Builder]
-- `getOrCreateNotionalAmountReference()` → `ReferenceWithMetaMoneyBuilder` [Getter]
-- `setNotionalAmountReferenceValue(Money arg0)` → `PercentageRuleBuilder` [Setter]
 - `getPaymentPercent()` → `BigDecimal` [Getter]
 - `getNotionalAmountReference()` → `ReferenceWithMetaMoneyBuilder` [Getter]
-- `setPaymentPercent(BigDecimal arg0)` → `PercentageRuleBuilder` [Setter]
 - `setNotionalAmountReference(ReferenceWithMetaMoney arg0)` → `PercentageRuleBuilder` [Setter]
+- `setPaymentPercent(BigDecimal arg0)` → `PercentageRuleBuilder` [Setter]
+- `getOrCreateNotionalAmountReference()` → `ReferenceWithMetaMoneyBuilder` [Getter]
+- `setNotionalAmountReferenceValue(Money arg0)` → `PercentageRuleBuilder` [Setter]
 
 ### PercentageRuleImpl
 **Implements:** `PercentageRule` 
@@ -1280,11 +1280,11 @@
 
 **Key Methods:**
 - `build()` → `PhysicalSettlementPeriod` [Builder]
-- `getBusinessDays()` → `Integer` [Getter]
-- `getMaximumBusinessDays()` → `Integer` [Getter]
 - `setBusinessDays(Integer arg0)` → `PhysicalSettlementPeriodBuilder` [Setter]
 - `setMaximumBusinessDays(Integer arg0)` → `PhysicalSettlementPeriodBuilder` [Setter]
 - `setBusinessDaysNotSpecified(Boolean arg0)` → `PhysicalSettlementPeriodBuilder` [Setter]
+- `getBusinessDays()` → `Integer` [Getter]
+- `getMaximumBusinessDays()` → `Integer` [Getter]
 - `getBusinessDaysNotSpecified()` → `Boolean` [Getter]
 
 ### PhysicalSettlementPeriodImpl
@@ -1292,9 +1292,9 @@
 
 **Key Methods:**
 - `build()` → `PhysicalSettlementPeriod` [Builder]
+- `setBuilderFields(PhysicalSettlementPeriodBuilder arg0)` → `void` [Setter]
 - `getBusinessDays()` → `Integer` [Getter]
 - `getMaximumBusinessDays()` → `Integer` [Getter]
-- `setBuilderFields(PhysicalSettlementPeriodBuilder arg0)` → `void` [Setter]
 - `getBusinessDaysNotSpecified()` → `Boolean` [Getter]
 
 ### PhysicalSettlementTermsBuilderImpl
@@ -1311,15 +1311,15 @@
 
 **Key Methods:**
 - `build()` → `PhysicalSettlementTerms` [Builder]
-- `setEscrow(Boolean arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getPhysicalSettlementPeriod()` → `PhysicalSettlementPeriodBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
 - `setDeliverableObligations(DeliverableObligations arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
-- `getOrCreateDeliverableObligations()` → `DeliverableObligationsBuilder` [Getter]
-- `setPhysicalSettlementPeriod(PhysicalSettlementPeriod arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
-- `setClearedPhysicalSettlement(Boolean arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
-- `setPredeterminedClearingOrganizationParty(AncillaryRoleEnum arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
-- `getOrCreatePhysicalSettlementPeriod()` → `PhysicalSettlementPeriodBuilder` [Getter]
-- `setSixtyBusinessDaySettlementCap(Boolean arg0)` → `PhysicalSettlementTermsBuilder` [Setter]
+- `getDeliverableObligations()` → `DeliverableObligationsBuilder` [Getter]
+- `getEscrow()` → `Boolean` [Getter]
+- `getSixtyBusinessDaySettlementCap()` → `Boolean` [Getter]
+- `getClearedPhysicalSettlement()` → `Boolean` [Getter]
 
 ### PhysicalSettlementTermsImpl
 **Implements:** `PhysicalSettlementTerms` 
@@ -1327,13 +1327,13 @@
 **Key Methods:**
 - `build()` → `PhysicalSettlementTerms` [Builder]
 - `setBuilderFields(PhysicalSettlementTermsBuilder arg0)` → `void` [Setter]
-- `getPredeterminedClearingOrganizationParty()` → `AncillaryRoleEnum` [Getter]
+- `getPhysicalSettlementPeriod()` → `PhysicalSettlementPeriod` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getDeliverableObligations()` → `DeliverableObligations` [Getter]
+- `getEscrow()` → `Boolean` [Getter]
 - `getSixtyBusinessDaySettlementCap()` → `Boolean` [Getter]
 - `getClearedPhysicalSettlement()` → `Boolean` [Getter]
-- `getEscrow()` → `Boolean` [Getter]
-- `getPhysicalSettlementPeriod()` → `PhysicalSettlementPeriod` [Getter]
-- `getDeliverableObligations()` → `DeliverableObligations` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
+- `getPredeterminedClearingOrganizationParty()` → `AncillaryRoleEnum` [Getter]
 
 ### PricingDatesBuilderImpl
 **Implements:** `PricingDates$PricingDatesBuilder` 
@@ -1344,12 +1344,12 @@
 
 **Key Methods:**
 - `build()` → `PricingDates` [Builder]
-- `getSpecifiedDates()` → `List` [Getter]
-- `getOrCreateSpecifiedDates(int arg0)` → `AdjustableDatesBuilder` [Getter]
-- `setSpecifiedDates(List arg0)` → `PricingDatesBuilder` [Setter]
-- `getOrCreateParametricDates()` → `ParametricDatesBuilder` [Getter]
 - `getParametricDates()` → `ParametricDatesBuilder` [Getter]
+- `getOrCreateParametricDates()` → `ParametricDatesBuilder` [Getter]
 - `setParametricDates(ParametricDates arg0)` → `PricingDatesBuilder` [Setter]
+- `getOrCreateSpecifiedDates(int arg0)` → `AdjustableDatesBuilder` [Getter]
+- `getSpecifiedDates()` → `List` [Getter]
+- `setSpecifiedDates(List arg0)` → `PricingDatesBuilder` [Setter]
 
 ### PricingDatesImpl
 **Implements:** `PricingDates` 
@@ -1357,8 +1357,8 @@
 **Key Methods:**
 - `build()` → `PricingDates` [Builder]
 - `setBuilderFields(PricingDatesBuilder arg0)` → `void` [Setter]
-- `getSpecifiedDates()` → `List` [Getter]
 - `getParametricDates()` → `ParametricDates` [Getter]
+- `getSpecifiedDates()` → `List` [Getter]
 
 ### PrincipalPaymentBuilderImpl
 **Implements:** `PrincipalPayment$PrincipalPaymentBuilder` 
@@ -1373,28 +1373,28 @@
 
 **Key Methods:**
 - `build()` → `PrincipalPayment` [Builder]
-- `getPayerReceiver()` → `PayerReceiverBuilder` [Getter]
-- `getOrCreatePayerReceiver()` → `PayerReceiverBuilder` [Getter]
 - `setPayerReceiver(PayerReceiver arg0)` → `PrincipalPaymentBuilder` [Setter]
+- `getOrCreatePayerReceiver()` → `PayerReceiverBuilder` [Getter]
+- `getPayerReceiver()` → `PayerReceiverBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `getPresentValuePrincipalAmount()` → `MoneyBuilder` [Getter]
-- `getOrCreatePrincipalPaymentDate()` → `AdjustableDateBuilder` [Getter]
-- `setPresentValuePrincipalAmount(Money arg0)` → `PrincipalPaymentBuilder` [Setter]
-- `getOrCreatePresentValuePrincipalAmount()` → `MoneyBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `PrincipalPaymentBuilder` [Setter]
+- `getDiscountFactor()` → `BigDecimal` [Getter]
 - `setDiscountFactor(BigDecimal arg0)` → `PrincipalPaymentBuilder` [Setter]
+- `setPrincipalAmount(Money arg0)` → `PrincipalPaymentBuilder` [Setter]
 
 ### PrincipalPaymentImpl
 **Implements:** `PrincipalPayment` 
 
 **Key Methods:**
 - `build()` → `PrincipalPayment` [Builder]
-- `getPayerReceiver()` → `PayerReceiver` [Getter]
 - `setBuilderFields(PrincipalPaymentBuilder arg0)` → `void` [Setter]
-- `getPresentValuePrincipalAmount()` → `Money` [Getter]
-- `getDiscountFactor()` → `BigDecimal` [Getter]
+- `getPayerReceiver()` → `PayerReceiver` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getDiscountFactor()` → `BigDecimal` [Getter]
 - `getPrincipalPaymentDate()` → `AdjustableDate` [Getter]
 - `getPrincipalAmount()` → `Money` [Getter]
+- `getPresentValuePrincipalAmount()` → `Money` [Getter]
 
 ### PrincipalPaymentScheduleBuilderImpl
 **Implements:** `PrincipalPaymentSchedule$PrincipalPaymentScheduleBuilder` 
@@ -1406,24 +1406,24 @@
 
 **Key Methods:**
 - `build()` → `PrincipalPaymentSchedule` [Builder]
-- `getInitialPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
-- `getFinalPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
-- `setFinalPrincipalPayment(PrincipalPayment arg0)` → `PrincipalPaymentScheduleBuilder` [Setter]
 - `setInitialPrincipalPayment(PrincipalPayment arg0)` → `PrincipalPaymentScheduleBuilder` [Setter]
-- `getOrCreateFinalPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
-- `getOrCreateInitialPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
+- `getInitialPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
+- `setFinalPrincipalPayment(PrincipalPayment arg0)` → `PrincipalPaymentScheduleBuilder` [Setter]
+- `getFinalPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
 - `getOrCreateIntermediatePrincipalPayment()` → `AdjustableRelativeOrPeriodicDatesBuilder` [Getter]
 - `getIntermediatePrincipalPayment()` → `AdjustableRelativeOrPeriodicDatesBuilder` [Getter]
+- `getOrCreateInitialPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
 - `setIntermediatePrincipalPayment(AdjustableRelativeOrPeriodicDates arg0)` → `PrincipalPaymentScheduleBuilder` [Setter]
+- `getOrCreateFinalPrincipalPayment()` → `PrincipalPaymentBuilder` [Getter]
 
 ### PrincipalPaymentScheduleImpl
 **Implements:** `PrincipalPaymentSchedule` 
 
 **Key Methods:**
 - `build()` → `PrincipalPaymentSchedule` [Builder]
+- `setBuilderFields(PrincipalPaymentScheduleBuilder arg0)` → `void` [Setter]
 - `getInitialPrincipalPayment()` → `PrincipalPayment` [Getter]
 - `getFinalPrincipalPayment()` → `PrincipalPayment` [Getter]
-- `setBuilderFields(PrincipalPaymentScheduleBuilder arg0)` → `void` [Setter]
 - `getIntermediatePrincipalPayment()` → `AdjustableRelativeOrPeriodicDates` [Getter]
 
 ### PrincipalPaymentsBuilderImpl
@@ -1439,15 +1439,15 @@
 
 **Key Methods:**
 - `build()` → `PrincipalPayments` [Builder]
-- `setInitialPayment(Boolean arg0)` → `PrincipalPaymentsBuilder` [Setter]
-- `setIntermediatePayment(Boolean arg0)` → `PrincipalPaymentsBuilder` [Setter]
-- `setFinalPayment(Boolean arg0)` → `PrincipalPaymentsBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setVaryingLegNotionalCurrency(List arg0)` → `PrincipalPaymentsBuilder` [Setter]
-- `setPrincipalPaymentSchedule(PrincipalPaymentSchedule arg0)` → `PrincipalPaymentsBuilder` [Setter]
-- `getOrCreatePrincipalPaymentSchedule()` → `PrincipalPaymentScheduleBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `PrincipalPaymentsBuilder` [Setter]
+- `getInitialPayment()` → `Boolean` [Getter]
 - `getIntermediatePayment()` → `Boolean` [Getter]
 - `getFinalPayment()` → `Boolean` [Getter]
+- `getPrincipalPaymentSchedule()` → `PrincipalPaymentScheduleBuilder` [Getter]
+- `getVaryingLegNotionalCurrency()` → `List` [Getter]
+- `setInitialPayment(Boolean arg0)` → `PrincipalPaymentsBuilder` [Setter]
 
 ### PrincipalPaymentsImpl
 **Implements:** `PrincipalPayments` 
@@ -1455,12 +1455,12 @@
 **Key Methods:**
 - `build()` → `PrincipalPayments` [Builder]
 - `setBuilderFields(PrincipalPaymentsBuilder arg0)` → `void` [Setter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getInitialPayment()` → `Boolean` [Getter]
 - `getIntermediatePayment()` → `Boolean` [Getter]
 - `getFinalPayment()` → `Boolean` [Getter]
-- `getInitialPayment()` → `Boolean` [Getter]
-- `getVaryingLegNotionalCurrency()` → `List` [Getter]
 - `getPrincipalPaymentSchedule()` → `PrincipalPaymentSchedule` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
+- `getVaryingLegNotionalCurrency()` → `List` [Getter]
 
 ### QuantityMultiplierBuilderImpl
 **Implements:** `QuantityMultiplier$QuantityMultiplierBuilder` 
@@ -1471,11 +1471,11 @@
 
 **Key Methods:**
 - `build()` → `QuantityMultiplier` [Builder]
-- `getOrCreateFxLinkedNotionalSchedule()` → `FxLinkedNotionalScheduleBuilder` [Getter]
-- `setFxLinkedNotionalSchedule(FxLinkedNotionalSchedule arg0)` → `QuantityMultiplierBuilder` [Setter]
-- `getFxLinkedNotionalSchedule()` → `FxLinkedNotionalScheduleBuilder` [Getter]
-- `getMultiplierValue()` → `BigDecimal` [Getter]
 - `setMultiplierValue(BigDecimal arg0)` → `QuantityMultiplierBuilder` [Setter]
+- `getMultiplierValue()` → `BigDecimal` [Getter]
+- `setFxLinkedNotionalSchedule(FxLinkedNotionalSchedule arg0)` → `QuantityMultiplierBuilder` [Setter]
+- `getOrCreateFxLinkedNotionalSchedule()` → `FxLinkedNotionalScheduleBuilder` [Getter]
+- `getFxLinkedNotionalSchedule()` → `FxLinkedNotionalScheduleBuilder` [Getter]
 
 ### QuantityMultiplierImpl
 **Implements:** `QuantityMultiplier` 
@@ -1483,8 +1483,8 @@
 **Key Methods:**
 - `build()` → `QuantityMultiplier` [Builder]
 - `setBuilderFields(QuantityMultiplierBuilder arg0)` → `void` [Setter]
-- `getFxLinkedNotionalSchedule()` → `FxLinkedNotionalSchedule` [Getter]
 - `getMultiplierValue()` → `BigDecimal` [Getter]
+- `getFxLinkedNotionalSchedule()` → `FxLinkedNotionalSchedule` [Getter]
 
 ### ResolvablePriceQuantityBuilderImpl
 **Implements:** `ResolvablePriceQuantity$ResolvablePriceQuantityBuilder` 
@@ -1501,30 +1501,30 @@
 
 **Key Methods:**
 - `build()` → `ResolvablePriceQuantity` [Builder]
-- `setReset(Boolean arg0)` → `ResolvablePriceQuantityBuilder` [Setter]
-- `getReset()` → `Boolean` [Getter]
-- `getResolvedQuantity()` → `QuantityBuilder` [Getter]
-- `getQuantityMultiplier()` → `QuantityMultiplierBuilder` [Getter]
-- `getFutureValueNotional()` → `FutureValueAmountBuilder` [Getter]
-- `getPriceSchedule()` → `List` [Getter]
-- `getQuantityReference()` → `ReferenceWithMetaResolvablePriceQuantityBuilder` [Getter]
-- `getQuantitySchedule()` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getReset()` → `Boolean` [Getter]
+- `setReset(Boolean arg0)` → `ResolvablePriceQuantityBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `ResolvablePriceQuantityBuilder` [Setter]
+- `getOrCreateQuantitySchedule()` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Getter]
+- `setFutureValueNotional(FutureValueAmount arg0)` → `ResolvablePriceQuantityBuilder` [Setter]
+- `setPriceScheduleValue(List arg0)` → `ResolvablePriceQuantityBuilder` [Setter]
+- `setResolvedQuantity(Quantity arg0)` → `ResolvablePriceQuantityBuilder` [Setter]
 
 ### ResolvablePriceQuantityImpl
 **Implements:** `ResolvablePriceQuantity` 
 
 **Key Methods:**
 - `build()` → `ResolvablePriceQuantity` [Builder]
+- `setBuilderFields(ResolvablePriceQuantityBuilder arg0)` → `void` [Setter]
 - `getReset()` → `Boolean` [Getter]
-- `getResolvedQuantity()` → `Quantity` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getQuantitySchedule()` → `ReferenceWithMetaNonNegativeQuantitySchedule` [Getter]
 - `getQuantityMultiplier()` → `QuantityMultiplier` [Getter]
+- `getQuantityReference()` → `ReferenceWithMetaResolvablePriceQuantity` [Getter]
+- `getResolvedQuantity()` → `Quantity` [Getter]
 - `getFutureValueNotional()` → `FutureValueAmount` [Getter]
 - `getPriceSchedule()` → `List` [Getter]
-- `getQuantityReference()` → `ReferenceWithMetaResolvablePriceQuantity` [Getter]
-- `getQuantitySchedule()` → `ReferenceWithMetaNonNegativeQuantitySchedule` [Getter]
-- `setBuilderFields(ResolvablePriceQuantityBuilder arg0)` → `void` [Setter]
-- `getMeta()` → `MetaFields` [Getter]
 
 ### RollFeatureBuilderImpl
 **Implements:** `RollFeature$RollFeatureBuilder` 
@@ -1537,9 +1537,9 @@
 - `build()` → `RollFeature` [Builder]
 - `getRollSourceCalendar()` → `RollSourceCalendarEnum` [Getter]
 - `setRollSourceCalendar(RollSourceCalendarEnum arg0)` → `RollFeatureBuilder` [Setter]
+- `getDeliveryDateRollConvention()` → `OffsetBuilder` [Getter]
 - `getOrCreateDeliveryDateRollConvention()` → `OffsetBuilder` [Getter]
 - `setDeliveryDateRollConvention(Offset arg0)` → `RollFeatureBuilder` [Setter]
-- `getDeliveryDateRollConvention()` → `OffsetBuilder` [Getter]
 
 ### RollFeatureImpl
 **Implements:** `RollFeature` 
@@ -1565,30 +1565,30 @@
 
 **Key Methods:**
 - `build()` → `SettlementBase` [Builder]
-- `getSettlementProvision()` → `SettlementProvisionBuilder` [Getter]
-- `getTransferSettlementType()` → `TransferSettlementEnum` [Getter]
-- `getStandardSettlementStyle()` → `StandardSettlementStyleEnum` [Getter]
-- `getSettlementType()` → `SettlementTypeEnum` [Getter]
-- `getSettlementCentre()` → `SettlementCentreEnum` [Getter]
-- `getSettlementDate()` → `SettlementDateBuilder` [Getter]
-- `getOrCreateSettlementDate()` → `SettlementDateBuilder` [Getter]
 - `setSettlementDate(SettlementDate arg0)` → `SettlementBaseBuilder` [Setter]
+- `getOrCreateSettlementDate()` → `SettlementDateBuilder` [Getter]
+- `getSettlementDate()` → `SettlementDateBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `SettlementBaseBuilder` [Setter]
+- `setTransferSettlementType(TransferSettlementEnum arg0)` → `SettlementBaseBuilder` [Setter]
+- `setStandardSettlementStyle(StandardSettlementStyleEnum arg0)` → `SettlementBaseBuilder` [Setter]
+- `setSettlementCurrencyValue(String arg0)` → `SettlementBaseBuilder` [Setter]
 
 ### SettlementBaseImpl
 **Implements:** `SettlementBase` 
 
 **Key Methods:**
 - `build()` → `SettlementBase` [Builder]
-- `getSettlementProvision()` → `SettlementProvision` [Getter]
+- `setBuilderFields(SettlementBaseBuilder arg0)` → `void` [Setter]
+- `getSettlementDate()` → `SettlementDate` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getSettlementCurrency()` → `FieldWithMetaString` [Getter]
 - `getTransferSettlementType()` → `TransferSettlementEnum` [Getter]
+- `getSettlementProvision()` → `SettlementProvision` [Getter]
 - `getStandardSettlementStyle()` → `StandardSettlementStyleEnum` [Getter]
 - `getSettlementType()` → `SettlementTypeEnum` [Getter]
 - `getSettlementCentre()` → `SettlementCentreEnum` [Getter]
-- `getSettlementDate()` → `SettlementDate` [Getter]
-- `setBuilderFields(SettlementBaseBuilder arg0)` → `void` [Setter]
-- `getSettlementCurrency()` → `FieldWithMetaString` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
 
 ### SettlementDateBuilderImpl
 **Implements:** `SettlementDate$SettlementDateBuilder` 
@@ -1604,29 +1604,29 @@
 
 **Key Methods:**
 - `build()` → `SettlementDate` [Builder]
-- `getPaymentDelay()` → `Boolean` [Getter]
-- `getBusinessDateRange()` → `BusinessDateRangeBuilder` [Getter]
-- `getValueDate()` → `Date` [Getter]
-- `getAdjustableDates()` → `AdjustableDatesBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `SettlementDateBuilder` [Setter]
 - `setPaymentDelay(Boolean arg0)` → `SettlementDateBuilder` [Setter]
 - `getOrCreateAdjustableDates()` → `AdjustableDatesBuilder` [Getter]
 - `setAdjustableDates(AdjustableDates arg0)` → `SettlementDateBuilder` [Setter]
 - `getCashSettlementBusinessDays()` → `Integer` [Getter]
+- `setValueDate(Date arg0)` → `SettlementDateBuilder` [Setter]
+- `getAdjustableOrRelativeDate()` → `AdjustableOrAdjustedOrRelativeDateBuilder` [Getter]
 
 ### SettlementDateImpl
 **Implements:** `SettlementDate` 
 
 **Key Methods:**
 - `build()` → `SettlementDate` [Builder]
-- `getPaymentDelay()` → `Boolean` [Getter]
-- `getBusinessDateRange()` → `BusinessDateRange` [Getter]
-- `getValueDate()` → `Date` [Getter]
-- `getAdjustableDates()` → `AdjustableDates` [Getter]
 - `setBuilderFields(SettlementDateBuilder arg0)` → `void` [Setter]
+- `getMeta()` → `MetaFields` [Getter]
 - `getCashSettlementBusinessDays()` → `Integer` [Getter]
 - `getAdjustableOrRelativeDate()` → `AdjustableOrAdjustedOrRelativeDate` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
+- `getPaymentDelay()` → `Boolean` [Getter]
+- `getAdjustableDates()` → `AdjustableDates` [Getter]
+- `getBusinessDateRange()` → `BusinessDateRange` [Getter]
+- `getValueDate()` → `Date` [Getter]
 
 ### SettlementProvisionBuilderImpl
 **Implements:** `SettlementProvision$SettlementProvisionBuilder` 
@@ -1637,8 +1637,8 @@
 **Key Methods:**
 - `build()` → `SettlementProvision` [Builder]
 - `getShapingProvisions()` → `ShapingProvisionBuilder` [Getter]
-- `getOrCreateShapingProvisions()` → `ShapingProvisionBuilder` [Getter]
 - `setShapingProvisions(ShapingProvision arg0)` → `SettlementProvisionBuilder` [Setter]
+- `getOrCreateShapingProvisions()` → `ShapingProvisionBuilder` [Getter]
 
 ### SettlementProvisionImpl
 **Implements:** `SettlementProvision` 
@@ -1659,14 +1659,14 @@
 **Key Methods:**
 - `build()` → `SettlementTerms` [Builder]
 - `setSettlementDate(SettlementDate arg0)` → `SettlementTermsBuilder` [Setter]
-- `setSettlementType(SettlementTypeEnum arg0)` → `SettlementTermsBuilder` [Setter]
+- `getCashSettlementTerms()` → `List` [Getter]
+- `setMeta(MetaFields arg0)` → `SettlementTermsBuilder` [Setter]
 - `setTransferSettlementType(TransferSettlementEnum arg0)` → `SettlementTermsBuilder` [Setter]
-- `setSettlementProvision(SettlementProvision arg0)` → `SettlementTermsBuilder` [Setter]
-- `setSettlementCurrency(FieldWithMetaString arg0)` → `SettlementTermsBuilder` [Setter]
-- `setSettlementCurrencyValue(String arg0)` → `SettlementTermsBuilder` [Setter]
-- `setCashSettlementTerms(List arg0)` → `SettlementTermsBuilder` [Setter]
-- `setSettlementCentre(SettlementCentreEnum arg0)` → `SettlementTermsBuilder` [Setter]
 - `setStandardSettlementStyle(StandardSettlementStyleEnum arg0)` → `SettlementTermsBuilder` [Setter]
+- `setPhysicalSettlementTerms(PhysicalSettlementTerms arg0)` → `SettlementTermsBuilder` [Setter]
+- `setCashSettlementTerms(List arg0)` → `SettlementTermsBuilder` [Setter]
+- `setSettlementCurrencyValue(String arg0)` → `SettlementTermsBuilder` [Setter]
+- `setSettlementCurrency(FieldWithMetaString arg0)` → `SettlementTermsBuilder` [Setter]
 
 ### SettlementTermsImpl
 **Extends:** `SettlementBase$SettlementBaseImpl` 
@@ -1686,8 +1686,8 @@
 
 **Key Methods:**
 - `build()` → `ShapingProvision` [Builder]
-- `getShapeSchedule()` → `List` [Getter]
 - `setShapeSchedule(List arg0)` → `ShapingProvisionBuilder` [Setter]
+- `getShapeSchedule()` → `List` [Getter]
 - `getOrCreateShapeSchedule(int arg0)` → `MoneyBuilder` [Getter]
 
 ### ShapingProvisionImpl
@@ -1710,15 +1710,15 @@
 
 **Key Methods:**
 - `build()` → `ValuationDate` [Builder]
-- `getFxFixingDate()` → `FxFixingDateBuilder` [Getter]
-- `setMultipleValuationDates(MultipleValuationDates arg0)` → `ValuationDateBuilder` [Setter]
-- `getMultipleValuationDates()` → `MultipleValuationDatesBuilder` [Getter]
-- `getOrCreateFxFixingDate()` → `FxFixingDateBuilder` [Getter]
-- `getSingleValuationDate()` → `SingleValuationDateBuilder` [Getter]
-- `setFxFixingDate(FxFixingDate arg0)` → `ValuationDateBuilder` [Setter]
-- `setFxFixingSchedule(AdjustableDates arg0)` → `ValuationDateBuilder` [Setter]
+- `getValuationDate()` → `RelativeDateOffsetBuilder` [Getter]
+- `setValuationDate(RelativeDateOffset arg0)` → `ValuationDateBuilder` [Setter]
+- `getOrCreateValuationDate()` → `RelativeDateOffsetBuilder` [Getter]
 - `getFxFixingSchedule()` → `AdjustableDatesBuilder` [Getter]
-- `setSingleValuationDate(SingleValuationDate arg0)` → `ValuationDateBuilder` [Setter]
+- `getMultipleValuationDates()` → `MultipleValuationDatesBuilder` [Getter]
+- `getSingleValuationDate()` → `SingleValuationDateBuilder` [Getter]
+- `getOrCreateFxFixingDate()` → `FxFixingDateBuilder` [Getter]
+- `setMultipleValuationDates(MultipleValuationDates arg0)` → `ValuationDateBuilder` [Setter]
+- `setFxFixingSchedule(AdjustableDates arg0)` → `ValuationDateBuilder` [Setter]
 
 ### ValuationDateImpl
 **Implements:** `ValuationDate` 
@@ -1726,9 +1726,9 @@
 **Key Methods:**
 - `build()` → `ValuationDate` [Builder]
 - `setBuilderFields(ValuationDateBuilder arg0)` → `void` [Setter]
-- `getFxFixingDate()` → `FxFixingDate` [Getter]
+- `getValuationDate()` → `RelativeDateOffset` [Getter]
+- `getFxFixingSchedule()` → `AdjustableDates` [Getter]
 - `getMultipleValuationDates()` → `MultipleValuationDates` [Getter]
 - `getSingleValuationDate()` → `SingleValuationDate` [Getter]
-- `getFxFixingSchedule()` → `AdjustableDates` [Getter]
-- `getValuationDate()` → `RelativeDateOffset` [Getter]
+- `getFxFixingDate()` → `FxFixingDate` [Getter]
 

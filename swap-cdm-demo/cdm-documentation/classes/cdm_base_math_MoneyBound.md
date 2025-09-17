@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Boolean getInclusive()`
 - `Money getMoney()`
+- `Boolean getInclusive()`
 
 #### Other Methods
 

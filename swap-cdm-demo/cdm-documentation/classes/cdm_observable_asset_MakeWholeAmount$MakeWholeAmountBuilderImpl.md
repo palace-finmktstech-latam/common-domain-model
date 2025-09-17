@@ -30,19 +30,19 @@
 
 #### Setter Methods
 
-- `MakeWholeAmountBuilder setFloatingRateIndex(FloatingRateIndexEnum arg0)`
 - `MakeWholeAmountBuilder setSide(QuotationSideEnum arg0)`
-- `MakeWholeAmountBuilder setEarlyCallDate(FieldWithMetaDate arg0)`
-- `MakeWholeAmountBuilder setEarlyCallDateValue(Date arg0)`
 - `MakeWholeAmountBuilder setIndexTenor(Period arg0)`
 - `MakeWholeAmountBuilder setInterpolationMethod(InterpolationMethodEnum arg0)`
+- `MakeWholeAmountBuilder setEarlyCallDateValue(Date arg0)`
+- `MakeWholeAmountBuilder setEarlyCallDate(FieldWithMetaDate arg0)`
+- `MakeWholeAmountBuilder setFloatingRateIndex(FloatingRateIndexEnum arg0)`
 - `MakeWholeAmountBuilder setSpread(BigDecimal arg0)`
 
 #### Getter Methods
 
+- `InterpolationMethodEnum getInterpolationMethod()`
 - `FieldWithMetaDateBuilder getEarlyCallDate()`
 - `FieldWithMetaDateBuilder getOrCreateEarlyCallDate()`
-- `InterpolationMethodEnum getInterpolationMethod()`
 
 #### Other Methods
 
@@ -50,7 +50,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MakeWholeAmountBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MakeWholeAmountBuilder toBuilder()`
 - `MakeWholeAmountBuilder prune()`
+- `MakeWholeAmountBuilder toBuilder()`
+- `boolean hasData()`
 

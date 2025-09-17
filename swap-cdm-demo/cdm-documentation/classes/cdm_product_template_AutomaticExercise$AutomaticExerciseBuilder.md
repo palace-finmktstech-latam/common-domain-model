@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `AutomaticExerciseBuilder setIsApplicable(Boolean arg0)`
 - `AutomaticExerciseBuilder setThresholdRate(BigDecimal arg0)`
+- `AutomaticExerciseBuilder setIsApplicable(Boolean arg0)`
 
 #### Other Methods
 

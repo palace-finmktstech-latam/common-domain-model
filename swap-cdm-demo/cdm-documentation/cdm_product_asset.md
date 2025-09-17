@@ -179,17 +179,17 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `AdditionalFixedPayments` [Builder]
-- `getWritedownReimbursement()` → `Boolean` [Getter]
-- `getInterestShortfallReimbursement()` → `Boolean` [Getter]
 - `getPrincipalShortfallReimbursement()` → `Boolean` [Getter]
+- `getInterestShortfallReimbursement()` → `Boolean` [Getter]
+- `getWritedownReimbursement()` → `Boolean` [Getter]
 
 ### AdditionalFixedPaymentsBuilder
 **Implements:** `AdditionalFixedPayments` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
 - `setWritedownReimbursement(Boolean arg0)` → `AdditionalFixedPaymentsBuilder` [Setter]
-- `setInterestShortfallReimbursement(Boolean arg0)` → `AdditionalFixedPaymentsBuilder` [Setter]
 - `setPrincipalShortfallReimbursement(Boolean arg0)` → `AdditionalFixedPaymentsBuilder` [Setter]
+- `setInterestShortfallReimbursement(Boolean arg0)` → `AdditionalFixedPaymentsBuilder` [Setter]
 
 ### AssetDeliveryInformation
 **Implements:** `RosettaModelObject` 
@@ -206,14 +206,14 @@
 
 **Key Methods:**
 - `getLocation()` → `List` [Getter]
-- `getPeriods()` → `AssetDeliveryPeriodsBuilder` [Getter]
-- `setPeriods(AssetDeliveryPeriods arg0)` → `AssetDeliveryInformationBuilder` [Setter]
-- `getDeliveryCapacity()` → `QuantityBuilder` [Getter]
 - `setLocation(List arg0)` → `AssetDeliveryInformationBuilder` [Setter]
-- `getOrCreatePeriods()` → `AssetDeliveryPeriodsBuilder` [Getter]
+- `getPeriods()` → `AssetDeliveryPeriodsBuilder` [Getter]
 - `setDeliveryCapacity(Quantity arg0)` → `AssetDeliveryInformationBuilder` [Setter]
-- `getOrCreateDeliveryCapacity()` → `QuantityBuilder` [Getter]
+- `getOrCreatePeriods()` → `AssetDeliveryPeriodsBuilder` [Getter]
 - `getOrCreateLocation(int arg0)` → `LocationIdentifierBuilder` [Getter]
+- `getDeliveryCapacity()` → `QuantityBuilder` [Getter]
+- `getOrCreateDeliveryCapacity()` → `QuantityBuilder` [Getter]
+- `setPeriods(AssetDeliveryPeriods arg0)` → `AssetDeliveryInformationBuilder` [Setter]
 
 ### AssetDeliveryPeriods
 **Implements:** `RosettaModelObject` 
@@ -221,19 +221,19 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `AssetDeliveryPeriods` [Builder]
-- `getStartDate()` → `Date` [Getter]
-- `getEndDate()` → `Date` [Getter]
 - `getProfile()` → `List` [Getter]
+- `getEndDate()` → `Date` [Getter]
+- `getStartDate()` → `Date` [Getter]
 
 ### AssetDeliveryPeriodsBuilder
 **Implements:** `AssetDeliveryPeriods` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setStartDate(Date arg0)` → `AssetDeliveryPeriodsBuilder` [Setter]
-- `setEndDate(Date arg0)` → `AssetDeliveryPeriodsBuilder` [Setter]
-- `setProfile(List arg0)` → `AssetDeliveryPeriodsBuilder` [Setter]
 - `getOrCreateProfile(int arg0)` → `AssetDeliveryProfileBuilder` [Getter]
 - `getProfile()` → `List` [Getter]
+- `setEndDate(Date arg0)` → `AssetDeliveryPeriodsBuilder` [Setter]
+- `setStartDate(Date arg0)` → `AssetDeliveryPeriodsBuilder` [Setter]
+- `setProfile(List arg0)` → `AssetDeliveryPeriodsBuilder` [Setter]
 
 ### AssetDeliveryProfile
 **Implements:** `RosettaModelObject` 
@@ -241,8 +241,8 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `AssetDeliveryProfile` [Builder]
-- `getBankHolidaysTreatment()` → `BankHolidayTreatmentEnum` [Getter]
 - `getLoadType()` → `LoadTypeEnum` [Getter]
+- `getBankHolidaysTreatment()` → `BankHolidayTreatmentEnum` [Getter]
 - `getBlock()` → `List` [Getter]
 
 ### AssetDeliveryProfileBlock
@@ -253,9 +253,9 @@
 - `build()` → `AssetDeliveryProfileBlock` [Builder]
 - `getDayOfWeek()` → `List` [Getter]
 - `getStartTime()` → `LocalTime` [Getter]
-- `getEndTime()` → `LocalTime` [Getter]
-- `getDeliveryCapacity()` → `Quantity` [Getter]
 - `getPriceTimeIntervalQuantity()` → `Price` [Getter]
+- `getDeliveryCapacity()` → `Quantity` [Getter]
+- `getEndTime()` → `LocalTime` [Getter]
 
 ### AssetDeliveryProfileBlockBuilder
 **Implements:** `AssetDeliveryProfileBlock` `RosettaModelObjectBuilder` 
@@ -263,23 +263,23 @@
 **Key Methods:**
 - `setDayOfWeek(List arg0)` → `AssetDeliveryProfileBlockBuilder` [Setter]
 - `setStartTime(LocalTime arg0)` → `AssetDeliveryProfileBlockBuilder` [Setter]
-- `setEndTime(LocalTime arg0)` → `AssetDeliveryProfileBlockBuilder` [Setter]
-- `getDeliveryCapacity()` → `QuantityBuilder` [Getter]
-- `setDeliveryCapacity(Quantity arg0)` → `AssetDeliveryProfileBlockBuilder` [Setter]
 - `getPriceTimeIntervalQuantity()` → `PriceBuilder` [Getter]
+- `setDeliveryCapacity(Quantity arg0)` → `AssetDeliveryProfileBlockBuilder` [Setter]
+- `getDeliveryCapacity()` → `QuantityBuilder` [Getter]
 - `getOrCreateDeliveryCapacity()` → `QuantityBuilder` [Getter]
-- `setPriceTimeIntervalQuantity(Price arg0)` → `AssetDeliveryProfileBlockBuilder` [Setter]
 - `getOrCreatePriceTimeIntervalQuantity()` → `PriceBuilder` [Getter]
+- `setPriceTimeIntervalQuantity(Price arg0)` → `AssetDeliveryProfileBlockBuilder` [Setter]
+- `setEndTime(LocalTime arg0)` → `AssetDeliveryProfileBlockBuilder` [Setter]
 
 ### AssetDeliveryProfileBuilder
 **Implements:** `AssetDeliveryProfile` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setBlock(List arg0)` → `AssetDeliveryProfileBuilder` [Setter]
+- `setBankHolidaysTreatment(BankHolidayTreatmentEnum arg0)` → `AssetDeliveryProfileBuilder` [Setter]
 - `getOrCreateBlock(int arg0)` → `AssetDeliveryProfileBlockBuilder` [Getter]
 - `setLoadType(LoadTypeEnum arg0)` → `AssetDeliveryProfileBuilder` [Setter]
-- `setBankHolidaysTreatment(BankHolidayTreatmentEnum arg0)` → `AssetDeliveryProfileBuilder` [Setter]
 - `getBlock()` → `List` [Getter]
+- `setBlock(List arg0)` → `AssetDeliveryProfileBuilder` [Setter]
 
 ### BasketReferenceInformation
 **Implements:** `RosettaModelObject` 
@@ -287,27 +287,27 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `BasketReferenceInformation` [Builder]
-- `getMthToDefault()` → `Integer` [Getter]
-- `getNthToDefault()` → `Integer` [Getter]
-- `getReferencePool()` → `ReferencePool` [Getter]
 - `getBasketName()` → `FieldWithMetaString` [Getter]
 - `getBasketId()` → `List` [Getter]
+- `getReferencePool()` → `ReferencePool` [Getter]
+- `getNthToDefault()` → `Integer` [Getter]
+- `getMthToDefault()` → `Integer` [Getter]
 - `getTranche()` → `Tranche` [Getter]
 
 ### BasketReferenceInformationBuilder
 **Implements:** `BasketReferenceInformation` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getOrCreateTranche()` → `TrancheBuilder` [Getter]
+- `getBasketName()` → `FieldWithMetaStringBuilder` [Getter]
+- `getBasketId()` → `List` [Getter]
+- `getReferencePool()` → `ReferencePoolBuilder` [Getter]
+- `getOrCreateReferencePool()` → `ReferencePoolBuilder` [Getter]
+- `setBasketName(FieldWithMetaString arg0)` → `BasketReferenceInformationBuilder` [Setter]
 - `getOrCreateBasketName()` → `FieldWithMetaStringBuilder` [Getter]
-- `setNthToDefault(Integer arg0)` → `BasketReferenceInformationBuilder` [Setter]
 - `setBasketNameValue(String arg0)` → `BasketReferenceInformationBuilder` [Setter]
+- `getOrCreateBasketId(int arg0)` → `FieldWithMetaStringBuilder` [Getter]
 - `setBasketIdValue(List arg0)` → `BasketReferenceInformationBuilder` [Setter]
 - `setReferencePool(ReferencePool arg0)` → `BasketReferenceInformationBuilder` [Setter]
-- `setBasketId(List arg0)` → `BasketReferenceInformationBuilder` [Setter]
-- `setMthToDefault(Integer arg0)` → `BasketReferenceInformationBuilder` [Setter]
-- `getOrCreateBasketId(int arg0)` → `FieldWithMetaStringBuilder` [Getter]
-- `getOrCreateReferencePool()` → `ReferencePoolBuilder` [Getter]
 
 ### BondReference
 **Implements:** `RosettaModelObject` 
@@ -315,8 +315,8 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `BondReference` [Builder]
-- `getDiscrepancyClause()` → `Boolean` [Getter]
 - `getConditionPrecedentBond()` → `Boolean` [Getter]
+- `getDiscrepancyClause()` → `Boolean` [Getter]
 - `getCouponRate()` → `FixedRateSpecification` [Getter]
 - `getBond()` → `Security` [Getter]
 
@@ -324,11 +324,11 @@
 **Implements:** `BondReference` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getCouponRate()` → `FixedRateSpecificationBuilder` [Getter]
 - `getOrCreateBond()` → `SecurityBuilder` [Getter]
-- `setConditionPrecedentBond(Boolean arg0)` → `BondReferenceBuilder` [Setter]
 - `getOrCreateCouponRate()` → `FixedRateSpecificationBuilder` [Getter]
 - `setDiscrepancyClause(Boolean arg0)` → `BondReferenceBuilder` [Setter]
+- `setConditionPrecedentBond(Boolean arg0)` → `BondReferenceBuilder` [Setter]
+- `getCouponRate()` → `FixedRateSpecificationBuilder` [Getter]
 - `setCouponRate(FixedRateSpecification arg0)` → `BondReferenceBuilder` [Setter]
 - `getBond()` → `SecurityBuilder` [Getter]
 - `setBond(Security arg0)` → `BondReferenceBuilder` [Setter]
@@ -339,15 +339,15 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `BoundedCorrelation` [Builder]
-- `getMinimumBoundaryPercent()` → `BigDecimal` [Getter]
 - `getMaximumBoundaryPercent()` → `BigDecimal` [Getter]
+- `getMinimumBoundaryPercent()` → `BigDecimal` [Getter]
 
 ### BoundedCorrelationBuilder
 **Implements:** `BoundedCorrelation` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setMinimumBoundaryPercent(BigDecimal arg0)` → `BoundedCorrelationBuilder` [Setter]
 - `setMaximumBoundaryPercent(BigDecimal arg0)` → `BoundedCorrelationBuilder` [Setter]
+- `setMinimumBoundaryPercent(BigDecimal arg0)` → `BoundedCorrelationBuilder` [Setter]
 
 ### BoundedVariance
 **Implements:** `RosettaModelObject` 
@@ -355,17 +355,17 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `BoundedVariance` [Builder]
-- `getLowerBarrier()` → `BigDecimal` [Getter]
+- `getRealisedVarianceMethod()` → `RealisedVarianceMethodEnum` [Getter]
 - `getDaysInRangeAdjustment()` → `Boolean` [Getter]
 - `getUpperBarrier()` → `BigDecimal` [Getter]
-- `getRealisedVarianceMethod()` → `RealisedVarianceMethodEnum` [Getter]
+- `getLowerBarrier()` → `BigDecimal` [Getter]
 
 ### BoundedVarianceBuilder
 **Implements:** `BoundedVariance` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setDaysInRangeAdjustment(Boolean arg0)` → `BoundedVarianceBuilder` [Setter]
 - `setRealisedVarianceMethod(RealisedVarianceMethodEnum arg0)` → `BoundedVarianceBuilder` [Setter]
+- `setDaysInRangeAdjustment(Boolean arg0)` → `BoundedVarianceBuilder` [Setter]
 - `setUpperBarrier(BigDecimal arg0)` → `BoundedVarianceBuilder` [Setter]
 - `setLowerBarrier(BigDecimal arg0)` → `BoundedVarianceBuilder` [Setter]
 
@@ -375,22 +375,22 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CalculationScheduleDeliveryPeriods` [Builder]
-- `getDeliveryCapacity()` → `Quantity` [Getter]
 - `getPriceTimeIntervalQuantity()` → `Price` [Getter]
+- `getDeliveryCapacity()` → `Quantity` [Getter]
 
 ### CalculationScheduleDeliveryPeriodsBuilder
 **Implements:** `CalculationScheduleDeliveryPeriods` `AssetDeliveryPeriods$AssetDeliveryPeriodsBuilder` 
 
 **Key Methods:**
-- `setStartDate(Date arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
-- `setEndDate(Date arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
-- `setProfile(List arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
-- `getDeliveryCapacity()` → `QuantityBuilder` [Getter]
-- `setDeliveryCapacity(Quantity arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
 - `getPriceTimeIntervalQuantity()` → `PriceBuilder` [Getter]
+- `setDeliveryCapacity(Quantity arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
+- `setEndDate(Date arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
+- `getDeliveryCapacity()` → `QuantityBuilder` [Getter]
+- `setStartDate(Date arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
 - `getOrCreateDeliveryCapacity()` → `QuantityBuilder` [Getter]
-- `setPriceTimeIntervalQuantity(Price arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
 - `getOrCreatePriceTimeIntervalQuantity()` → `PriceBuilder` [Getter]
+- `setPriceTimeIntervalQuantity(Price arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
+- `setProfile(List arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
 
 ### CashflowRepresentation
 **Implements:** `RosettaModelObject` 
@@ -416,29 +416,29 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CommodityPayout` [Builder]
-- `getPricingDates()` → `PricingDates` [Getter]
 - `getUnderlier()` → `Underlier` [Getter]
-- `getSchedule()` → `CalculationSchedule` [Getter]
-- `getDelivery()` → `AssetDeliveryInformation` [Getter]
-- `getAveragingFeature()` → `AveragingCalculation` [Getter]
-- `getFxFeature()` → `FxFeature` [Getter]
 - `getCommodityPriceReturnTerms()` → `CommodityPriceReturnTerms` [Getter]
 - `getPaymentDates()` → `PaymentDates` [Getter]
+- `getDelivery()` → `AssetDeliveryInformation` [Getter]
+- `getSchedule()` → `CalculationSchedule` [Getter]
+- `getFxFeature()` → `FxFeature` [Getter]
+- `getAveragingFeature()` → `AveragingCalculation` [Getter]
+- `getCalculationPeriodDates()` → `CalculationPeriodDates` [Getter]
 
 ### CommodityPayoutBuilder
 **Implements:** `CommodityPayout` `PayoutBase$PayoutBaseBuilder` 
 
 **Key Methods:**
-- `getPricingDates()` → `PricingDatesBuilder` [Getter]
 - `getOrCreateUnderlier()` → `UnderlierBuilder` [Getter]
 - `getUnderlier()` → `UnderlierBuilder` [Getter]
 - `setUnderlier(Underlier arg0)` → `CommodityPayoutBuilder` [Setter]
-- `getSchedule()` → `CalculationScheduleBuilder` [Getter]
-- `setDelivery(AssetDeliveryInformation arg0)` → `CommodityPayoutBuilder` [Setter]
-- `getDelivery()` → `AssetDeliveryInformationBuilder` [Getter]
-- `setSchedule(CalculationSchedule arg0)` → `CommodityPayoutBuilder` [Setter]
-- `setPrincipalPayment(PrincipalPayments arg0)` → `CommodityPayoutBuilder` [Setter]
-- `getOrCreateSchedule()` → `CalculationScheduleBuilder` [Getter]
+- `setPayerReceiver(PayerReceiver arg0)` → `CommodityPayoutBuilder` [Setter]
+- `getCommodityPriceReturnTerms()` → `CommodityPriceReturnTermsBuilder` [Getter]
+- `getOrCreateAveragingFeature()` → `AveragingCalculationBuilder` [Getter]
+- `setPriceQuantity(ResolvablePriceQuantity arg0)` → `CommodityPayoutBuilder` [Setter]
+- `setSettlementTerms(SettlementTerms arg0)` → `CommodityPayoutBuilder` [Setter]
+- `setPaymentDates(PaymentDates arg0)` → `CommodityPayoutBuilder` [Setter]
+- `getPaymentDates()` → `PaymentDatesBuilder` [Getter]
 
 ### CorrelationReturnTerms
 **Implements:** `ReturnTermsBase` 
@@ -446,24 +446,24 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CorrelationReturnTerms` [Builder]
-- `getCorrelationStrikePrice()` → `Price` [Getter]
 - `getBoundedCorrelation()` → `NumberRange` [Getter]
+- `getCorrelationStrikePrice()` → `Price` [Getter]
 - `getNumberOfDataSeries()` → `Integer` [Getter]
 
 ### CorrelationReturnTermsBuilder
 **Implements:** `CorrelationReturnTerms` `ReturnTermsBase$ReturnTermsBaseBuilder` 
 
 **Key Methods:**
-- `setSharePriceDividendAdjustment(Boolean arg0)` → `CorrelationReturnTermsBuilder` [Setter]
-- `setEquityUnderlierProvisions(EquityUnderlierProvisions arg0)` → `CorrelationReturnTermsBuilder` [Setter]
-- `getCorrelationStrikePrice()` → `PriceBuilder` [Getter]
 - `getBoundedCorrelation()` → `NumberRangeBuilder` [Getter]
+- `setInitialLevel(BigDecimal arg0)` → `CorrelationReturnTermsBuilder` [Setter]
+- `setMeanAdjustment(Boolean arg0)` → `CorrelationReturnTermsBuilder` [Setter]
 - `setNumberOfDataSeries(Integer arg0)` → `CorrelationReturnTermsBuilder` [Setter]
 - `setValuationTerms(ValuationTerms arg0)` → `CorrelationReturnTermsBuilder` [Setter]
-- `setInitialLevel(BigDecimal arg0)` → `CorrelationReturnTermsBuilder` [Setter]
-- `setDividendApplicability(DividendApplicability arg0)` → `CorrelationReturnTermsBuilder` [Setter]
-- `setMeanAdjustment(Boolean arg0)` → `CorrelationReturnTermsBuilder` [Setter]
+- `setAnnualizationFactor(Integer arg0)` → `CorrelationReturnTermsBuilder` [Setter]
 - `setExpectedN(Integer arg0)` → `CorrelationReturnTermsBuilder` [Setter]
+- `setBoundedCorrelation(NumberRange arg0)` → `CorrelationReturnTermsBuilder` [Setter]
+- `setDividendApplicability(DividendApplicability arg0)` → `CorrelationReturnTermsBuilder` [Setter]
+- `getCorrelationStrikePrice()` → `PriceBuilder` [Getter]
 
 ### CreditDefaultPayout
 **Implements:** `PayoutBase` 
@@ -471,24 +471,24 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CreditDefaultPayout` [Builder]
-- `getTransactedPrice()` → `TransactedPrice` [Getter]
 - `getGeneralTerms()` → `GeneralTerms` [Getter]
 - `getProtectionTerms()` → `List` [Getter]
+- `getTransactedPrice()` → `TransactedPrice` [Getter]
 
 ### CreditDefaultPayoutBuilder
 **Implements:** `CreditDefaultPayout` `PayoutBase$PayoutBaseBuilder` 
 
 **Key Methods:**
-- `getTransactedPrice()` → `TransactedPriceBuilder` [Getter]
 - `getGeneralTerms()` → `GeneralTermsBuilder` [Getter]
-- `setPrincipalPayment(PrincipalPayments arg0)` → `CreditDefaultPayoutBuilder` [Setter]
 - `setPayerReceiver(PayerReceiver arg0)` → `CreditDefaultPayoutBuilder` [Setter]
-- `setProtectionTerms(List arg0)` → `CreditDefaultPayoutBuilder` [Setter]
-- `setTransactedPrice(TransactedPrice arg0)` → `CreditDefaultPayoutBuilder` [Setter]
-- `getOrCreateGeneralTerms()` → `GeneralTermsBuilder` [Getter]
-- `getOrCreateProtectionTerms(int arg0)` → `ProtectionTermsBuilder` [Getter]
+- `setPriceQuantity(ResolvablePriceQuantity arg0)` → `CreditDefaultPayoutBuilder` [Setter]
+- `setSettlementTerms(SettlementTerms arg0)` → `CreditDefaultPayoutBuilder` [Setter]
+- `getProtectionTerms()` → `List` [Getter]
+- `setPrincipalPayment(PrincipalPayments arg0)` → `CreditDefaultPayoutBuilder` [Setter]
 - `getOrCreateTransactedPrice()` → `TransactedPriceBuilder` [Getter]
 - `setGeneralTerms(GeneralTerms arg0)` → `CreditDefaultPayoutBuilder` [Setter]
+- `getOrCreateProtectionTerms(int arg0)` → `ProtectionTermsBuilder` [Getter]
+- `setProtectionTerms(List arg0)` → `CreditDefaultPayoutBuilder` [Setter]
 
 ### DiscountingMethod
 **Implements:** `RosettaModelObject` 
@@ -527,13 +527,13 @@
 **Key Methods:**
 - `getCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrency(FieldWithMetaString arg0)` → `DividendCurrencyBuilder` [Setter]
-- `getOrCreateCurrencyReference()` → `ReferenceWithMetaStringBuilder` [Getter]
-- `setDeterminationMethod(DeterminationMethodEnum arg0)` → `DividendCurrencyBuilder` [Setter]
-- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrencyValue(String arg0)` → `DividendCurrencyBuilder` [Setter]
-- `setCurrencyReference(ReferenceWithMetaString arg0)` → `DividendCurrencyBuilder` [Setter]
+- `setDeterminationMethod(DeterminationMethodEnum arg0)` → `DividendCurrencyBuilder` [Setter]
 - `getCurrencyReference()` → `ReferenceWithMetaStringBuilder` [Getter]
+- `setCurrencyReference(ReferenceWithMetaString arg0)` → `DividendCurrencyBuilder` [Setter]
 - `setCurrencyReferenceValue(String arg0)` → `DividendCurrencyBuilder` [Setter]
+- `getOrCreateCurrencyReference()` → `ReferenceWithMetaStringBuilder` [Getter]
+- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 
 ### DividendDateReference
 **Implements:** `RosettaModelObject` 
@@ -541,17 +541,17 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `DividendDateReference` [Builder]
-- `getPaymentDateOffset()` → `Offset` [Getter]
 - `getDateReference()` → `DividendDateReferenceEnum` [Getter]
+- `getPaymentDateOffset()` → `Offset` [Getter]
 
 ### DividendDateReferenceBuilder
 **Implements:** `DividendDateReference` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getOrCreatePaymentDateOffset()` → `OffsetBuilder` [Getter]
-- `getPaymentDateOffset()` → `OffsetBuilder` [Getter]
 - `setDateReference(DividendDateReferenceEnum arg0)` → `DividendDateReferenceBuilder` [Setter]
+- `getPaymentDateOffset()` → `OffsetBuilder` [Getter]
 - `setPaymentDateOffset(Offset arg0)` → `DividendDateReferenceBuilder` [Setter]
+- `getOrCreatePaymentDateOffset()` → `OffsetBuilder` [Getter]
 
 ### DividendPaymentDate
 **Implements:** `RosettaModelObject` 
@@ -559,20 +559,20 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `DividendPaymentDate` [Builder]
-- `getDividendDateReference()` → `DividendDateReference` [Getter]
 - `getDividendDate()` → `ReferenceWithMetaAdjustableOrRelativeDate` [Getter]
+- `getDividendDateReference()` → `DividendDateReference` [Getter]
 
 ### DividendPaymentDateBuilder
 **Implements:** `DividendPaymentDate` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getOrCreateDividendDateReference()` → `DividendDateReferenceBuilder` [Getter]
-- `getOrCreateDividendDate()` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Getter]
-- `getDividendDateReference()` → `DividendDateReferenceBuilder` [Getter]
-- `setDividendDate(ReferenceWithMetaAdjustableOrRelativeDate arg0)` → `DividendPaymentDateBuilder` [Setter]
-- `setDividendDateReference(DividendDateReference arg0)` → `DividendPaymentDateBuilder` [Setter]
 - `setDividendDateValue(AdjustableOrRelativeDate arg0)` → `DividendPaymentDateBuilder` [Setter]
+- `setDividendDate(ReferenceWithMetaAdjustableOrRelativeDate arg0)` → `DividendPaymentDateBuilder` [Setter]
+- `getOrCreateDividendDate()` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Getter]
 - `getDividendDate()` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Getter]
+- `setDividendDateReference(DividendDateReference arg0)` → `DividendPaymentDateBuilder` [Setter]
+- `getDividendDateReference()` → `DividendDateReferenceBuilder` [Getter]
+- `getOrCreateDividendDateReference()` → `DividendDateReferenceBuilder` [Getter]
 
 ### DividendPayoutRatio
 **Implements:** `RosettaModelObject` 
@@ -580,21 +580,21 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `DividendPayoutRatio` [Builder]
-- `getBasketConstituent()` → `ReferenceWithMetaBasketConstituent` [Getter]
-- `getCashRatio()` → `BigDecimal` [Getter]
 - `getTotalRatio()` → `BigDecimal` [Getter]
 - `getNonCashRatio()` → `BigDecimal` [Getter]
+- `getCashRatio()` → `BigDecimal` [Getter]
+- `getBasketConstituent()` → `ReferenceWithMetaBasketConstituent` [Getter]
 
 ### DividendPayoutRatioBuilder
 **Implements:** `DividendPayoutRatio` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getBasketConstituent()` → `ReferenceWithMetaBasketConstituentBuilder` [Getter]
-- `setBasketConstituentValue(BasketConstituent arg0)` → `DividendPayoutRatioBuilder` [Setter]
-- `setBasketConstituent(ReferenceWithMetaBasketConstituent arg0)` → `DividendPayoutRatioBuilder` [Setter]
+- `setTotalRatio(BigDecimal arg0)` → `DividendPayoutRatioBuilder` [Setter]
 - `setCashRatio(BigDecimal arg0)` → `DividendPayoutRatioBuilder` [Setter]
 - `setNonCashRatio(BigDecimal arg0)` → `DividendPayoutRatioBuilder` [Setter]
-- `setTotalRatio(BigDecimal arg0)` → `DividendPayoutRatioBuilder` [Setter]
+- `getBasketConstituent()` → `ReferenceWithMetaBasketConstituentBuilder` [Getter]
+- `setBasketConstituent(ReferenceWithMetaBasketConstituent arg0)` → `DividendPayoutRatioBuilder` [Setter]
+- `setBasketConstituentValue(BasketConstituent arg0)` → `DividendPayoutRatioBuilder` [Setter]
 - `getOrCreateBasketConstituent()` → `ReferenceWithMetaBasketConstituentBuilder` [Getter]
 
 ### DividendPeriod
@@ -603,27 +603,27 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `DividendPeriod` [Builder]
-- `getBasketConstituent()` → `ReferenceWithMetaBasketConstituent` [Getter]
-- `getStartDate()` → `DividendPaymentDate` [Getter]
-- `getEndDate()` → `DividendPaymentDate` [Getter]
 - `getDividendPaymentDate()` → `DividendPaymentDate` [Getter]
 - `getDividendValuationDate()` → `AdjustableOrRelativeDate` [Getter]
 - `getDateAdjustments()` → `BusinessDayAdjustments` [Getter]
+- `getEndDate()` → `DividendPaymentDate` [Getter]
+- `getBasketConstituent()` → `ReferenceWithMetaBasketConstituent` [Getter]
+- `getStartDate()` → `DividendPaymentDate` [Getter]
 
 ### DividendPeriodBuilder
 **Implements:** `DividendPeriod` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getBasketConstituent()` → `ReferenceWithMetaBasketConstituentBuilder` [Getter]
-- `setBasketConstituentValue(BasketConstituent arg0)` → `DividendPeriodBuilder` [Setter]
-- `setBasketConstituent(ReferenceWithMetaBasketConstituent arg0)` → `DividendPeriodBuilder` [Setter]
-- `getStartDate()` → `DividendPaymentDateBuilder` [Getter]
-- `setStartDate(DividendPaymentDate arg0)` → `DividendPeriodBuilder` [Setter]
-- `setEndDate(DividendPaymentDate arg0)` → `DividendPeriodBuilder` [Setter]
-- `getEndDate()` → `DividendPaymentDateBuilder` [Getter]
-- `setDateAdjustments(BusinessDayAdjustments arg0)` → `DividendPeriodBuilder` [Setter]
-- `getOrCreateDateAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
+- `getOrCreateEndDate()` → `DividendPaymentDateBuilder` [Getter]
+- `getOrCreateStartDate()` → `DividendPaymentDateBuilder` [Getter]
+- `getDividendPaymentDate()` → `DividendPaymentDateBuilder` [Getter]
+- `setDividendPaymentDate(DividendPaymentDate arg0)` → `DividendPeriodBuilder` [Setter]
+- `getDividendValuationDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
+- `setDividendValuationDate(AdjustableOrRelativeDate arg0)` → `DividendPeriodBuilder` [Setter]
 - `getOrCreateDividendValuationDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
+- `getOrCreateDividendPaymentDate()` → `DividendPaymentDateBuilder` [Getter]
+- `getOrCreateDateAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
+- `setDateAdjustments(BusinessDayAdjustments arg0)` → `DividendPeriodBuilder` [Setter]
 
 ### DividendReturnTerms
 **Implements:** `RosettaModelObject` 
@@ -631,29 +631,29 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `DividendReturnTerms` [Builder]
-- `getPerformance()` → `String` [Getter]
+- `getExcessDividendAmount()` → `DividendAmountTypeEnum` [Getter]
 - `getDividendPayoutRatio()` → `List` [Getter]
+- `getDividendPeriod()` → `List` [Getter]
 - `getDividendReinvestment()` → `Boolean` [Getter]
 - `getDividendEntitlement()` → `DividendEntitlementEnum` [Getter]
 - `getFirstOrSecondPeriod()` → `DividendPeriodEnum` [Getter]
-- `getExcessDividendAmount()` → `DividendAmountTypeEnum` [Getter]
+- `getDividendCurrency()` → `DividendCurrency` [Getter]
 - `getDividendComposition()` → `DividendCompositionEnum` [Getter]
-- `getDividendPeriod()` → `List` [Getter]
 
 ### DividendReturnTermsBuilder
 **Implements:** `DividendReturnTerms` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setNonCashDividendTreatment(NonCashDividendTreatmentEnum arg0)` → `DividendReturnTermsBuilder` [Setter]
-- `setExtraordinaryDividendsParty(AncillaryRoleEnum arg0)` → `DividendReturnTermsBuilder` [Setter]
-- `getOrCreateDividendCurrency()` → `DividendCurrencyBuilder` [Getter]
-- `getOrCreateDividendPayoutRatio(int arg0)` → `DividendPayoutRatioBuilder` [Getter]
 - `getDividendPayoutRatio()` → `List` [Getter]
 - `getDividendPeriod()` → `List` [Getter]
 - `getDividendCurrency()` → `DividendCurrencyBuilder` [Getter]
 - `setDividendPayoutRatio(List arg0)` → `DividendReturnTermsBuilder` [Setter]
 - `setDividendComposition(DividendCompositionEnum arg0)` → `DividendReturnTermsBuilder` [Setter]
-- `setSpecialDividends(Boolean arg0)` → `DividendReturnTermsBuilder` [Setter]
+- `setDividendCurrency(DividendCurrency arg0)` → `DividendReturnTermsBuilder` [Setter]
+- `setDividendReinvestment(Boolean arg0)` → `DividendReturnTermsBuilder` [Setter]
+- `setDividendEntitlement(DividendEntitlementEnum arg0)` → `DividendReturnTermsBuilder` [Setter]
+- `setFirstOrSecondPeriod(DividendPeriodEnum arg0)` → `DividendReturnTermsBuilder` [Setter]
+- `setMaterialDividend(Boolean arg0)` → `DividendReturnTermsBuilder` [Setter]
 
 ### EquityUnderlierProvisions
 **Implements:** `RosettaModelObject` 
@@ -661,25 +661,25 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `EquityUnderlierProvisions` [Builder]
+- `getRelevantJurisdiction()` → `FieldWithMetaString` [Getter]
+- `getLocalJurisdiction()` → `FieldWithMetaString` [Getter]
 - `getMultipleExchangeIndexAnnexFallback()` → `Boolean` [Getter]
 - `getComponentSecurityIndexAnnexFallback()` → `Boolean` [Getter]
-- `getLocalJurisdiction()` → `FieldWithMetaString` [Getter]
-- `getRelevantJurisdiction()` → `FieldWithMetaString` [Getter]
 
 ### EquityUnderlierProvisionsBuilder
 **Implements:** `EquityUnderlierProvisions` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setMultipleExchangeIndexAnnexFallback(Boolean arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
-- `setComponentSecurityIndexAnnexFallback(Boolean arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
-- `getOrCreateLocalJurisdiction()` → `FieldWithMetaStringBuilder` [Getter]
-- `setRelevantJurisdictionValue(String arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
-- `getOrCreateRelevantJurisdiction()` → `FieldWithMetaStringBuilder` [Getter]
-- `getLocalJurisdiction()` → `FieldWithMetaStringBuilder` [Getter]
 - `getRelevantJurisdiction()` → `FieldWithMetaStringBuilder` [Getter]
+- `getLocalJurisdiction()` → `FieldWithMetaStringBuilder` [Getter]
+- `setLocalJurisdiction(FieldWithMetaString arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
 - `setRelevantJurisdiction(FieldWithMetaString arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
 - `setLocalJurisdictionValue(String arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
-- `setLocalJurisdiction(FieldWithMetaString arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
+- `setMultipleExchangeIndexAnnexFallback(Boolean arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
+- `getOrCreateLocalJurisdiction()` → `FieldWithMetaStringBuilder` [Getter]
+- `setComponentSecurityIndexAnnexFallback(Boolean arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
+- `getOrCreateRelevantJurisdiction()` → `FieldWithMetaStringBuilder` [Getter]
+- `setRelevantJurisdictionValue(String arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
 
 ### FixedAmountCalculationDetails
 **Implements:** `RosettaModelObject` 
@@ -689,23 +689,23 @@
 - `build()` → `FixedAmountCalculationDetails` [Builder]
 - `getYearFraction()` → `BigDecimal` [Getter]
 - `getFixedRate()` → `BigDecimal` [Getter]
-- `getCalculatedAmount()` → `BigDecimal` [Getter]
 - `getCalculationPeriod()` → `CalculationPeriodBase` [Getter]
+- `getCalculatedAmount()` → `BigDecimal` [Getter]
 - `getCalculationPeriodNotionalAmount()` → `Money` [Getter]
 
 ### FixedAmountCalculationDetailsBuilder
 **Implements:** `FixedAmountCalculationDetails` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setFixedRate(BigDecimal arg0)` → `FixedAmountCalculationDetailsBuilder` [Setter]
+- `setCalculatedAmount(BigDecimal arg0)` → `FixedAmountCalculationDetailsBuilder` [Setter]
 - `setCalculationPeriod(CalculationPeriodBase arg0)` → `FixedAmountCalculationDetailsBuilder` [Setter]
 - `setYearFraction(BigDecimal arg0)` → `FixedAmountCalculationDetailsBuilder` [Setter]
-- `setCalculatedAmount(BigDecimal arg0)` → `FixedAmountCalculationDetailsBuilder` [Setter]
+- `setFixedRate(BigDecimal arg0)` → `FixedAmountCalculationDetailsBuilder` [Setter]
 - `getCalculationPeriod()` → `CalculationPeriodBaseBuilder` [Getter]
-- `getOrCreateCalculationPeriodNotionalAmount()` → `MoneyBuilder` [Getter]
-- `getCalculationPeriodNotionalAmount()` → `MoneyBuilder` [Getter]
 - `getOrCreateCalculationPeriod()` → `CalculationPeriodBaseBuilder` [Getter]
+- `getCalculationPeriodNotionalAmount()` → `MoneyBuilder` [Getter]
 - `setCalculationPeriodNotionalAmount(Money arg0)` → `FixedAmountCalculationDetailsBuilder` [Setter]
+- `getOrCreateCalculationPeriodNotionalAmount()` → `MoneyBuilder` [Getter]
 
 ### FixedRateSpecification
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -713,19 +713,19 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `FixedRateSpecification` [Builder]
-- `getRateSchedule()` → `RateSchedule` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getRateSchedule()` → `RateSchedule` [Getter]
 
 ### FixedRateSpecificationBuilder
 **Implements:** `FixedRateSpecification` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `getRateSchedule()` → `RateScheduleBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setRateSchedule(RateSchedule arg0)` → `FixedRateSpecificationBuilder` [Setter]
-- `getOrCreateRateSchedule()` → `RateScheduleBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FixedRateSpecificationBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FixedRateSpecificationBuilder` [Setter]
+- `getOrCreateRateSchedule()` → `RateScheduleBuilder` [Getter]
+- `setRateSchedule(RateSchedule arg0)` → `FixedRateSpecificationBuilder` [Setter]
+- `getRateSchedule()` → `RateScheduleBuilder` [Getter]
 
 ### FloatingAmountEvents
 **Implements:** `RosettaModelObject` 
@@ -733,27 +733,27 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `FloatingAmountEvents` [Builder]
-- `getAdditionalFixedPayments()` → `AdditionalFixedPayments` [Getter]
 - `getInterestShortfall()` → `InterestShortFall` [Getter]
 - `getFloatingAmountProvisions()` → `FloatingAmountProvisions` [Getter]
-- `getWritedown()` → `Boolean` [Getter]
 - `getFailureToPayPrincipal()` → `Boolean` [Getter]
 - `getImpliedWritedown()` → `Boolean` [Getter]
+- `getWritedown()` → `Boolean` [Getter]
+- `getAdditionalFixedPayments()` → `AdditionalFixedPayments` [Getter]
 
 ### FloatingAmountEventsBuilder
 **Implements:** `FloatingAmountEvents` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setFailureToPayPrincipal(Boolean arg0)` → `FloatingAmountEventsBuilder` [Setter]
-- `setWritedown(Boolean arg0)` → `FloatingAmountEventsBuilder` [Setter]
-- `setImpliedWritedown(Boolean arg0)` → `FloatingAmountEventsBuilder` [Setter]
+- `getInterestShortfall()` → `InterestShortFallBuilder` [Getter]
+- `getFloatingAmountProvisions()` → `FloatingAmountProvisionsBuilder` [Getter]
 - `setInterestShortfall(InterestShortFall arg0)` → `FloatingAmountEventsBuilder` [Setter]
 - `setAdditionalFixedPayments(AdditionalFixedPayments arg0)` → `FloatingAmountEventsBuilder` [Setter]
-- `getAdditionalFixedPayments()` → `AdditionalFixedPaymentsBuilder` [Getter]
-- `getOrCreateInterestShortfall()` → `InterestShortFallBuilder` [Getter]
-- `getOrCreateFloatingAmountProvisions()` → `FloatingAmountProvisionsBuilder` [Getter]
-- `getOrCreateAdditionalFixedPayments()` → `AdditionalFixedPaymentsBuilder` [Getter]
+- `setImpliedWritedown(Boolean arg0)` → `FloatingAmountEventsBuilder` [Setter]
+- `setWritedown(Boolean arg0)` → `FloatingAmountEventsBuilder` [Setter]
+- `setFailureToPayPrincipal(Boolean arg0)` → `FloatingAmountEventsBuilder` [Setter]
 - `setFloatingAmountProvisions(FloatingAmountProvisions arg0)` → `FloatingAmountEventsBuilder` [Setter]
+- `getOrCreateAdditionalFixedPayments()` → `AdditionalFixedPaymentsBuilder` [Getter]
+- `getOrCreateFloatingAmountProvisions()` → `FloatingAmountProvisionsBuilder` [Getter]
 
 ### FloatingAmountProvisions
 **Implements:** `RosettaModelObject` 
@@ -768,8 +768,8 @@
 **Implements:** `FloatingAmountProvisions` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setWacCapInterestProvision(Boolean arg0)` → `FloatingAmountProvisionsBuilder` [Setter]
 - `setStepUpProvision(Boolean arg0)` → `FloatingAmountProvisionsBuilder` [Setter]
+- `setWacCapInterestProvision(Boolean arg0)` → `FloatingAmountProvisionsBuilder` [Setter]
 
 ### FloatingRate
 **Implements:** `FloatingRateBase` 
@@ -777,10 +777,10 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `FloatingRate` [Builder]
-- `getFallbackRate()` → `FallbackRateParameters` [Getter]
-- `getCalculationParameters()` → `FloatingRateCalculationParameters` [Getter]
-- `getRateTreatment()` → `RateTreatmentEnum` [Getter]
 - `getFloatingRateMultiplierSchedule()` → `RateSchedule` [Getter]
+- `getCalculationParameters()` → `FloatingRateCalculationParameters` [Getter]
+- `getFallbackRate()` → `FallbackRateParameters` [Getter]
+- `getRateTreatment()` → `RateTreatmentEnum` [Getter]
 
 ### FloatingRateBase
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -788,41 +788,41 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `FloatingRateBase` [Builder]
-- `getFloorRateSchedule()` → `StrikeSchedule` [Getter]
-- `getSpreadSchedule()` → `SpreadSchedule` [Getter]
-- `getCapRateSchedule()` → `StrikeSchedule` [Getter]
 - `getRateOption()` → `ReferenceWithMetaInterestRateIndex` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getSpreadSchedule()` → `SpreadSchedule` [Getter]
+- `getFloorRateSchedule()` → `StrikeSchedule` [Getter]
+- `getCapRateSchedule()` → `StrikeSchedule` [Getter]
 
 ### FloatingRateBaseBuilder
 **Implements:** `FloatingRateBase` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `getFloorRateSchedule()` → `StrikeScheduleBuilder` [Getter]
-- `getSpreadSchedule()` → `SpreadScheduleBuilder` [Getter]
-- `getCapRateSchedule()` → `StrikeScheduleBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
 - `getRateOption()` → `ReferenceWithMetaInterestRateIndexBuilder` [Getter]
-- `setSpreadSchedule(SpreadSchedule arg0)` → `FloatingRateBaseBuilder` [Setter]
-- `getOrCreateSpreadSchedule()` → `SpreadScheduleBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FloatingRateBaseBuilder` [Setter]
+- `setCapRateSchedule(StrikeSchedule arg0)` → `FloatingRateBaseBuilder` [Setter]
 - `getOrCreateCapRateSchedule()` → `StrikeScheduleBuilder` [Getter]
 - `setFloorRateSchedule(StrikeSchedule arg0)` → `FloatingRateBaseBuilder` [Setter]
-- `setCapRateSchedule(StrikeSchedule arg0)` → `FloatingRateBaseBuilder` [Setter]
+- `getOrCreateSpreadSchedule()` → `SpreadScheduleBuilder` [Getter]
+- `setSpreadSchedule(SpreadSchedule arg0)` → `FloatingRateBaseBuilder` [Setter]
+- `setRateOptionValue(InterestRateIndex arg0)` → `FloatingRateBaseBuilder` [Setter]
 
 ### FloatingRateBuilder
 **Implements:** `FloatingRate` `FloatingRateBase$FloatingRateBaseBuilder` 
 
 **Key Methods:**
-- `getFallbackRate()` → `FallbackRateParametersBuilder` [Getter]
-- `getCalculationParameters()` → `FloatingRateCalculationParametersBuilder` [Getter]
-- `setSpreadSchedule(SpreadSchedule arg0)` → `FloatingRateBuilder` [Setter]
+- `setMeta(MetaFields arg0)` → `FloatingRateBuilder` [Setter]
+- `setCapRateSchedule(StrikeSchedule arg0)` → `FloatingRateBuilder` [Setter]
 - `setRateTreatment(RateTreatmentEnum arg0)` → `FloatingRateBuilder` [Setter]
 - `setFloorRateSchedule(StrikeSchedule arg0)` → `FloatingRateBuilder` [Setter]
-- `setCapRateSchedule(StrikeSchedule arg0)` → `FloatingRateBuilder` [Setter]
+- `setSpreadSchedule(SpreadSchedule arg0)` → `FloatingRateBuilder` [Setter]
 - `setFallbackRate(FallbackRateParameters arg0)` → `FloatingRateBuilder` [Setter]
+- `getOrCreateFallbackRate()` → `FallbackRateParametersBuilder` [Getter]
 - `setRateOptionValue(InterestRateIndex arg0)` → `FloatingRateBuilder` [Setter]
-- `setRateOption(ReferenceWithMetaInterestRateIndex arg0)` → `FloatingRateBuilder` [Setter]
 - `setCalculationParameters(FloatingRateCalculationParameters arg0)` → `FloatingRateBuilder` [Setter]
+- `setRateOption(ReferenceWithMetaInterestRateIndex arg0)` → `FloatingRateBuilder` [Setter]
 
 ### FloatingRateDefinition
 **Implements:** `RosettaModelObject` 
@@ -831,26 +831,26 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `FloatingRateDefinition` [Builder]
 - `getCalculatedRate()` → `BigDecimal` [Getter]
-- `getRateObservation()` → `List` [Getter]
 - `getFloatingRateMultiplier()` → `BigDecimal` [Getter]
 - `getFloorRate()` → `List` [Getter]
-- `getSpread()` → `BigDecimal` [Getter]
+- `getRateObservation()` → `List` [Getter]
 - `getCapRate()` → `List` [Getter]
+- `getSpread()` → `BigDecimal` [Getter]
 
 ### FloatingRateDefinitionBuilder
 **Implements:** `FloatingRateDefinition` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getRateObservation()` → `List` [Getter]
-- `getFloorRate()` → `List` [Getter]
-- `setFloorRate(List arg0)` → `FloatingRateDefinitionBuilder` [Setter]
 - `getOrCreateFloorRate(int arg0)` → `StrikeBuilder` [Getter]
-- `setRateObservation(List arg0)` → `FloatingRateDefinitionBuilder` [Setter]
 - `setCalculatedRate(BigDecimal arg0)` → `FloatingRateDefinitionBuilder` [Setter]
-- `getOrCreateRateObservation(int arg0)` → `RateObservationBuilder` [Getter]
+- `setRateObservation(List arg0)` → `FloatingRateDefinitionBuilder` [Setter]
 - `setFloatingRateMultiplier(BigDecimal arg0)` → `FloatingRateDefinitionBuilder` [Setter]
+- `getFloorRate()` → `List` [Getter]
+- `getRateObservation()` → `List` [Getter]
+- `getOrCreateRateObservation(int arg0)` → `RateObservationBuilder` [Getter]
 - `getOrCreateCapRate(int arg0)` → `StrikeBuilder` [Getter]
-- `getCapRate()` → `List` [Getter]
+- `setFloorRate(List arg0)` → `FloatingRateDefinitionBuilder` [Setter]
+- `setSpread(BigDecimal arg0)` → `FloatingRateDefinitionBuilder` [Setter]
 
 ### FloatingRateSpecification
 **Implements:** `FloatingRate` 
@@ -858,25 +858,25 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `FloatingRateSpecification` [Builder]
-- `getFinalRateRounding()` → `Rounding` [Getter]
-- `getInitialRate()` → `Price` [Getter]
-- `getNegativeInterestRateTreatment()` → `NegativeInterestRateTreatmentEnum` [Getter]
 - `getAveragingMethod()` → `AveragingWeightingMethodEnum` [Getter]
+- `getNegativeInterestRateTreatment()` → `NegativeInterestRateTreatmentEnum` [Getter]
+- `getInitialRate()` → `Price` [Getter]
+- `getFinalRateRounding()` → `Rounding` [Getter]
 
 ### FloatingRateSpecificationBuilder
 **Implements:** `FloatingRateSpecification` `FloatingRate$FloatingRateBuilder` 
 
 **Key Methods:**
-- `getFinalRateRounding()` → `RoundingBuilder` [Getter]
-- `getInitialRate()` → `PriceBuilder` [Getter]
-- `setAveragingMethod(AveragingWeightingMethodEnum arg0)` → `FloatingRateSpecificationBuilder` [Setter]
-- `setSpreadSchedule(SpreadSchedule arg0)` → `FloatingRateSpecificationBuilder` [Setter]
+- `setMeta(MetaFields arg0)` → `FloatingRateSpecificationBuilder` [Setter]
+- `setCapRateSchedule(StrikeSchedule arg0)` → `FloatingRateSpecificationBuilder` [Setter]
 - `setRateTreatment(RateTreatmentEnum arg0)` → `FloatingRateSpecificationBuilder` [Setter]
 - `setFloorRateSchedule(StrikeSchedule arg0)` → `FloatingRateSpecificationBuilder` [Setter]
-- `setCapRateSchedule(StrikeSchedule arg0)` → `FloatingRateSpecificationBuilder` [Setter]
+- `setSpreadSchedule(SpreadSchedule arg0)` → `FloatingRateSpecificationBuilder` [Setter]
+- `setFinalRateRounding(Rounding arg0)` → `FloatingRateSpecificationBuilder` [Setter]
 - `setFallbackRate(FallbackRateParameters arg0)` → `FloatingRateSpecificationBuilder` [Setter]
-- `setRateOptionValue(InterestRateIndex arg0)` → `FloatingRateSpecificationBuilder` [Setter]
 - `setInitialRate(Price arg0)` → `FloatingRateSpecificationBuilder` [Setter]
+- `setRateOptionValue(InterestRateIndex arg0)` → `FloatingRateSpecificationBuilder` [Setter]
+- `getOrCreateInitialRate()` → `PriceBuilder` [Getter]
 
 ### ForeignExchange
 **Implements:** `RosettaModelObject` 
@@ -885,22 +885,22 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `ForeignExchange` [Builder]
 - `getExchangedCurrency2()` → `Cashflow` [Getter]
-- `getExchangedCurrency1()` → `Cashflow` [Getter]
 - `getTenorPeriod()` → `Period` [Getter]
+- `getExchangedCurrency1()` → `Cashflow` [Getter]
 
 ### ForeignExchangeBuilder
 **Implements:** `ForeignExchange` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getOrCreateExchangedCurrency2()` → `CashflowBuilder` [Getter]
-- `getOrCreateExchangedCurrency1()` → `CashflowBuilder` [Getter]
-- `getExchangedCurrency2()` → `CashflowBuilder` [Getter]
-- `getExchangedCurrency1()` → `CashflowBuilder` [Getter]
-- `getTenorPeriod()` → `PeriodBuilder` [Getter]
-- `setTenorPeriod(Period arg0)` → `ForeignExchangeBuilder` [Setter]
-- `setExchangedCurrency2(Cashflow arg0)` → `ForeignExchangeBuilder` [Setter]
 - `getOrCreateTenorPeriod()` → `PeriodBuilder` [Getter]
+- `getExchangedCurrency2()` → `CashflowBuilder` [Getter]
+- `getTenorPeriod()` → `PeriodBuilder` [Getter]
+- `getExchangedCurrency1()` → `CashflowBuilder` [Getter]
 - `setExchangedCurrency1(Cashflow arg0)` → `ForeignExchangeBuilder` [Setter]
+- `setExchangedCurrency2(Cashflow arg0)` → `ForeignExchangeBuilder` [Setter]
+- `setTenorPeriod(Period arg0)` → `ForeignExchangeBuilder` [Setter]
+- `getOrCreateExchangedCurrency1()` → `CashflowBuilder` [Getter]
+- `getOrCreateExchangedCurrency2()` → `CashflowBuilder` [Getter]
 
 ### FutureValueAmount
 **Implements:** `RosettaModelObject` 
@@ -909,9 +909,9 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `FutureValueAmount` [Builder]
 - `getCurrency()` → `FieldWithMetaString` [Getter]
-- `getValueDate()` → `Date` [Getter]
 - `getQuantity()` → `ReferenceWithMetaNonNegativeQuantitySchedule` [Getter]
 - `getCalculationPeriodNumberOfDays()` → `Integer` [Getter]
+- `getValueDate()` → `Date` [Getter]
 
 ### FutureValueAmountBuilder
 **Implements:** `FutureValueAmount` `RosettaModelObjectBuilder` 
@@ -920,13 +920,13 @@
 - `getCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrency(FieldWithMetaString arg0)` → `FutureValueAmountBuilder` [Setter]
 - `getQuantity()` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Getter]
-- `getOrCreateQuantity()` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Getter]
 - `setQuantity(ReferenceWithMetaNonNegativeQuantitySchedule arg0)` → `FutureValueAmountBuilder` [Setter]
-- `setQuantityValue(NonNegativeQuantitySchedule arg0)` → `FutureValueAmountBuilder` [Setter]
-- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
+- `getOrCreateQuantity()` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Getter]
 - `setCurrencyValue(String arg0)` → `FutureValueAmountBuilder` [Setter]
+- `setQuantityValue(NonNegativeQuantitySchedule arg0)` → `FutureValueAmountBuilder` [Setter]
 - `setCalculationPeriodNumberOfDays(Integer arg0)` → `FutureValueAmountBuilder` [Setter]
 - `setValueDate(Date arg0)` → `FutureValueAmountBuilder` [Setter]
+- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 
 ### GeneralTerms
 **Implements:** `RosettaModelObject` 
@@ -934,27 +934,27 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `GeneralTerms` [Builder]
-- `getAdditionalTerm()` → `List` [Getter]
 - `getReferenceInformation()` → `ReferenceInformation` [Getter]
+- `getIndexReferenceInformation()` → `CreditIndex` [Getter]
 - `getSubstitution()` → `Boolean` [Getter]
 - `getModifiedEquityDelivery()` → `Boolean` [Getter]
 - `getBasketReferenceInformation()` → `BasketReferenceInformation` [Getter]
-- `getIndexReferenceInformation()` → `CreditIndex` [Getter]
+- `getAdditionalTerm()` → `List` [Getter]
 
 ### GeneralTermsBuilder
 **Implements:** `GeneralTerms` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getAdditionalTerm()` → `List` [Getter]
 - `setReferenceInformation(ReferenceInformation arg0)` → `GeneralTermsBuilder` [Setter]
 - `getReferenceInformation()` → `ReferenceInformationBuilder` [Getter]
-- `getOrCreateAdditionalTerm(int arg0)` → `FieldWithMetaStringBuilder` [Getter]
-- `setAdditionalTermValue(List arg0)` → `GeneralTermsBuilder` [Setter]
-- `setModifiedEquityDelivery(Boolean arg0)` → `GeneralTermsBuilder` [Setter]
+- `getIndexReferenceInformation()` → `CreditIndexBuilder` [Getter]
+- `getOrCreateReferenceInformation()` → `ReferenceInformationBuilder` [Getter]
 - `setAdditionalTerm(List arg0)` → `GeneralTermsBuilder` [Setter]
+- `setModifiedEquityDelivery(Boolean arg0)` → `GeneralTermsBuilder` [Setter]
 - `setSubstitution(Boolean arg0)` → `GeneralTermsBuilder` [Setter]
-- `getOrCreateBasketReferenceInformation()` → `BasketReferenceInformationBuilder` [Getter]
-- `getOrCreateIndexReferenceInformation()` → `CreditIndexBuilder` [Getter]
+- `setAdditionalTermValue(List arg0)` → `GeneralTermsBuilder` [Setter]
+- `getOrCreateAdditionalTerm(int arg0)` → `FieldWithMetaStringBuilder` [Getter]
+- `getBasketReferenceInformation()` → `BasketReferenceInformationBuilder` [Getter]
 
 ### InflationRateSpecification
 **Implements:** `FloatingRateSpecification` 
@@ -963,28 +963,28 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `InflationRateSpecification` [Builder]
 - `getCalculationMethod()` → `InflationCalculationMethodEnum` [Getter]
-- `getFallbackBondApplicable()` → `Boolean` [Getter]
 - `getMainPublication()` → `FieldWithMetaString` [Getter]
-- `getInterpolationMethod()` → `FieldWithMetaInterpolationMethodEnum` [Getter]
-- `getIndexSource()` → `FieldWithMetaString` [Getter]
-- `getCalculationStyle()` → `InflationCalculationStyleEnum` [Getter]
-- `getInitialIndexLevel()` → `BigDecimal` [Getter]
 - `getInflationLag()` → `Offset` [Getter]
+- `getIndexSource()` → `FieldWithMetaString` [Getter]
+- `getInitialIndexLevel()` → `BigDecimal` [Getter]
+- `getInterpolationMethod()` → `FieldWithMetaInterpolationMethodEnum` [Getter]
+- `getCalculationStyle()` → `InflationCalculationStyleEnum` [Getter]
+- `getFallbackBondApplicable()` → `Boolean` [Getter]
 
 ### InflationRateSpecificationBuilder
 **Implements:** `InflationRateSpecification` `FloatingRateSpecification$FloatingRateSpecificationBuilder` 
 
 **Key Methods:**
-- `setAveragingMethod(AveragingWeightingMethodEnum arg0)` → `InflationRateSpecificationBuilder` [Setter]
-- `setCalculationMethod(InflationCalculationMethodEnum arg0)` → `InflationRateSpecificationBuilder` [Setter]
-- `setSpreadSchedule(SpreadSchedule arg0)` → `InflationRateSpecificationBuilder` [Setter]
+- `setMeta(MetaFields arg0)` → `InflationRateSpecificationBuilder` [Setter]
+- `setCapRateSchedule(StrikeSchedule arg0)` → `InflationRateSpecificationBuilder` [Setter]
 - `setRateTreatment(RateTreatmentEnum arg0)` → `InflationRateSpecificationBuilder` [Setter]
 - `setFloorRateSchedule(StrikeSchedule arg0)` → `InflationRateSpecificationBuilder` [Setter]
-- `setCapRateSchedule(StrikeSchedule arg0)` → `InflationRateSpecificationBuilder` [Setter]
+- `setSpreadSchedule(SpreadSchedule arg0)` → `InflationRateSpecificationBuilder` [Setter]
 - `getOrCreateMainPublication()` → `FieldWithMetaStringBuilder` [Getter]
 - `setIndexSourceValue(String arg0)` → `InflationRateSpecificationBuilder` [Setter]
-- `setMainPublication(FieldWithMetaString arg0)` → `InflationRateSpecificationBuilder` [Setter]
-- `setMainPublicationValue(String arg0)` → `InflationRateSpecificationBuilder` [Setter]
+- `getMainPublication()` → `FieldWithMetaStringBuilder` [Getter]
+- `setFinalRateRounding(Rounding arg0)` → `InflationRateSpecificationBuilder` [Setter]
+- `getInflationLag()` → `OffsetBuilder` [Getter]
 
 ### InterestRatePayout
 **Implements:** `PayoutBase` 
@@ -992,29 +992,29 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `InterestRatePayout` [Builder]
-- `getFloatingAmount()` → `String` [Getter]
-- `getPaymentDelay()` → `Boolean` [Getter]
+- `getDayCountFraction()` → `FieldWithMetaDayCountFractionEnum` [Getter]
+- `getPaymentDates()` → `PaymentDates` [Getter]
+- `getRateSpecification()` → `RateSpecification` [Getter]
+- `getCalculationPeriodDates()` → `CalculationPeriodDates` [Getter]
+- `getStubPeriod()` → `StubPeriod` [Getter]
 - `getResetDates()` → `ResetDates` [Getter]
 - `getDiscountingMethod()` → `DiscountingMethod` [Getter]
-- `getCompoundingMethod()` → `CompoundingMethodEnum` [Getter]
-- `getCashflowRepresentation()` → `CashflowRepresentation` [Getter]
-- `getStubPeriod()` → `StubPeriod` [Getter]
 - `getBondReference()` → `BondReference` [Getter]
 
 ### InterestRatePayoutBuilder
 **Implements:** `InterestRatePayout` `PayoutBase$PayoutBaseBuilder` 
 
 **Key Methods:**
-- `getResetDates()` → `ResetDatesBuilder` [Getter]
-- `getDiscountingMethod()` → `DiscountingMethodBuilder` [Getter]
-- `getCashflowRepresentation()` → `CashflowRepresentationBuilder` [Getter]
-- `getStubPeriod()` → `StubPeriodBuilder` [Getter]
-- `getBondReference()` → `BondReferenceBuilder` [Getter]
-- `setPrincipalPayment(PrincipalPayments arg0)` → `InterestRatePayoutBuilder` [Setter]
-- `getRateSpecification()` → `RateSpecificationBuilder` [Getter]
 - `setPayerReceiver(PayerReceiver arg0)` → `InterestRatePayoutBuilder` [Setter]
-- `getPaymentDate()` → `AdjustableDateBuilder` [Getter]
-- `setPaymentDate(AdjustableDate arg0)` → `InterestRatePayoutBuilder` [Setter]
+- `setPriceQuantity(ResolvablePriceQuantity arg0)` → `InterestRatePayoutBuilder` [Setter]
+- `setSettlementTerms(SettlementTerms arg0)` → `InterestRatePayoutBuilder` [Setter]
+- `setPaymentDates(PaymentDates arg0)` → `InterestRatePayoutBuilder` [Setter]
+- `getDayCountFraction()` → `FieldWithMetaDayCountFractionEnumBuilder` [Getter]
+- `getPaymentDates()` → `PaymentDatesBuilder` [Getter]
+- `getOrCreatePaymentDates()` → `PaymentDatesBuilder` [Getter]
+- `getOrCreateResetDates()` → `ResetDatesBuilder` [Getter]
+- `getOrCreateStubPeriod()` → `StubPeriodBuilder` [Getter]
+- `getOrCreateBondReference()` → `BondReferenceBuilder` [Getter]
 
 ### InterestShortFall
 **Implements:** `RosettaModelObject` 
@@ -1030,12 +1030,12 @@
 **Implements:** `InterestShortFall` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setRateSource(FieldWithMetaFloatingRateIndexEnum arg0)` → `InterestShortFallBuilder` [Setter]
-- `getRateSource()` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Getter]
-- `setInterestShortfallCap(InterestShortfallCapEnum arg0)` → `InterestShortFallBuilder` [Setter]
-- `getOrCreateRateSource()` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Getter]
-- `setCompounding(Boolean arg0)` → `InterestShortFallBuilder` [Setter]
 - `setRateSourceValue(FloatingRateIndexEnum arg0)` → `InterestShortFallBuilder` [Setter]
+- `getRateSource()` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Getter]
+- `getOrCreateRateSource()` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Getter]
+- `setRateSource(FieldWithMetaFloatingRateIndexEnum arg0)` → `InterestShortFallBuilder` [Setter]
+- `setCompounding(Boolean arg0)` → `InterestShortFallBuilder` [Setter]
+- `setInterestShortfallCap(InterestShortfallCapEnum arg0)` → `InterestShortFallBuilder` [Setter]
 
 ### PriceReturnTerms
 **Implements:** `RosettaModelObject` 
@@ -1052,8 +1052,8 @@
 
 **Key Methods:**
 - `setReturnType(ReturnTypeEnum arg0)` → `PriceReturnTermsBuilder` [Setter]
-- `setPerformance(String arg0)` → `PriceReturnTermsBuilder` [Setter]
 - `setConversionFactor(BigDecimal arg0)` → `PriceReturnTermsBuilder` [Setter]
+- `setPerformance(String arg0)` → `PriceReturnTermsBuilder` [Setter]
 
 ### ProtectionTerms
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -1061,25 +1061,25 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ProtectionTerms` [Builder]
-- `getFloatingAmountEvents()` → `FloatingAmountEvents` [Getter]
-- `getCreditEvents()` → `CreditEvents` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getCreditEvents()` → `CreditEvents` [Getter]
 - `getObligations()` → `Obligations` [Getter]
+- `getFloatingAmountEvents()` → `FloatingAmountEvents` [Getter]
 
 ### ProtectionTermsBuilder
 **Implements:** `ProtectionTerms` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `getFloatingAmountEvents()` → `FloatingAmountEventsBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `getOrCreateCreditEvents()` → `CreditEventsBuilder` [Getter]
-- `getOrCreateObligations()` → `ObligationsBuilder` [Getter]
-- `setCreditEvents(CreditEvents arg0)` → `ProtectionTermsBuilder` [Setter]
-- `setFloatingAmountEvents(FloatingAmountEvents arg0)` → `ProtectionTermsBuilder` [Setter]
-- `setObligations(Obligations arg0)` → `ProtectionTermsBuilder` [Setter]
-- `getOrCreateFloatingAmountEvents()` → `FloatingAmountEventsBuilder` [Getter]
-- `getCreditEvents()` → `CreditEventsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
 - `setMeta(MetaFields arg0)` → `ProtectionTermsBuilder` [Setter]
+- `getCreditEvents()` → `CreditEventsBuilder` [Getter]
+- `setObligations(Obligations arg0)` → `ProtectionTermsBuilder` [Setter]
+- `getOrCreateObligations()` → `ObligationsBuilder` [Getter]
+- `setFloatingAmountEvents(FloatingAmountEvents arg0)` → `ProtectionTermsBuilder` [Setter]
+- `setCreditEvents(CreditEvents arg0)` → `ProtectionTermsBuilder` [Setter]
+- `getOrCreateCreditEvents()` → `CreditEventsBuilder` [Getter]
+- `getOrCreateFloatingAmountEvents()` → `FloatingAmountEventsBuilder` [Getter]
 
 ### RateSpecification
 **Implements:** `RosettaModelObject` 
@@ -1087,23 +1087,23 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `RateSpecification` [Builder]
-- `getFixedRateSpecification()` → `FixedRateSpecification` [Getter]
 - `getInflationRateSpecification()` → `InflationRateSpecification` [Getter]
 - `getFloatingRateSpecification()` → `FloatingRateSpecification` [Getter]
+- `getFixedRateSpecification()` → `FixedRateSpecification` [Getter]
 
 ### RateSpecificationBuilder
 **Implements:** `RateSpecification` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getFixedRateSpecification()` → `FixedRateSpecificationBuilder` [Getter]
 - `setFixedRateSpecification(FixedRateSpecification arg0)` → `RateSpecificationBuilder` [Setter]
-- `getInflationRateSpecification()` → `InflationRateSpecificationBuilder` [Getter]
-- `getOrCreateInflationRateSpecification()` → `InflationRateSpecificationBuilder` [Getter]
-- `getOrCreateFixedRateSpecification()` → `FixedRateSpecificationBuilder` [Getter]
 - `getOrCreateFloatingRateSpecification()` → `FloatingRateSpecificationBuilder` [Getter]
+- `getOrCreateFixedRateSpecification()` → `FixedRateSpecificationBuilder` [Getter]
+- `getOrCreateInflationRateSpecification()` → `InflationRateSpecificationBuilder` [Getter]
 - `setInflationRateSpecification(InflationRateSpecification arg0)` → `RateSpecificationBuilder` [Setter]
 - `setFloatingRateSpecification(FloatingRateSpecification arg0)` → `RateSpecificationBuilder` [Setter]
+- `getInflationRateSpecification()` → `InflationRateSpecificationBuilder` [Getter]
 - `getFloatingRateSpecification()` → `FloatingRateSpecificationBuilder` [Getter]
+- `getFixedRateSpecification()` → `FixedRateSpecificationBuilder` [Getter]
 
 ### ReferenceInformation
 **Implements:** `RosettaModelObject` 
@@ -1112,10 +1112,10 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceInformation` [Builder]
 - `getAllGuarantees()` → `Boolean` [Getter]
+- `getReferenceEntity()` → `LegalEntity` [Getter]
+- `getReferencePrice()` → `Price` [Getter]
 - `getReferenceObligation()` → `List` [Getter]
 - `getNoReferenceObligation()` → `Boolean` [Getter]
-- `getReferencePrice()` → `Price` [Getter]
-- `getReferenceEntity()` → `LegalEntity` [Getter]
 - `getReferencePolicy()` → `Boolean` [Getter]
 - `getSecuredList()` → `Boolean` [Getter]
 - `getUnknownReferenceObligation()` → `Boolean` [Getter]
@@ -1124,16 +1124,16 @@
 **Implements:** `ReferenceInformation` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `getReferenceEntity()` → `LegalEntityBuilder` [Getter]
+- `getReferencePrice()` → `PriceBuilder` [Getter]
+- `getReferenceObligation()` → `List` [Getter]
+- `setUnknownReferenceObligation(Boolean arg0)` → `ReferenceInformationBuilder` [Setter]
+- `getOrCreateReferenceObligation(int arg0)` → `ReferenceObligationBuilder` [Getter]
+- `setReferenceObligation(List arg0)` → `ReferenceInformationBuilder` [Setter]
+- `setNoReferenceObligation(Boolean arg0)` → `ReferenceInformationBuilder` [Setter]
+- `setAllGuarantees(Boolean arg0)` → `ReferenceInformationBuilder` [Setter]
 - `getOrCreateReferenceEntity()` → `LegalEntityBuilder` [Getter]
 - `getOrCreateReferencePrice()` → `PriceBuilder` [Getter]
-- `setReferencePrice(Price arg0)` → `ReferenceInformationBuilder` [Setter]
-- `setReferenceObligation(List arg0)` → `ReferenceInformationBuilder` [Setter]
-- `setReferenceEntity(LegalEntity arg0)` → `ReferenceInformationBuilder` [Setter]
-- `setReferencePolicy(Boolean arg0)` → `ReferenceInformationBuilder` [Setter]
-- `setAllGuarantees(Boolean arg0)` → `ReferenceInformationBuilder` [Setter]
-- `setSecuredList(Boolean arg0)` → `ReferenceInformationBuilder` [Setter]
-- `setNoReferenceObligation(Boolean arg0)` → `ReferenceInformationBuilder` [Setter]
-- `getReferenceObligation()` → `List` [Getter]
 
 ### ReferenceObligation
 **Implements:** `RosettaModelObject` 
@@ -1141,28 +1141,28 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceObligation` [Builder]
-- `getPrimaryObligor()` → `LegalEntity` [Getter]
-- `getGuarantor()` → `LegalEntity` [Getter]
-- `getGuarantorReference()` → `String` [Getter]
-- `getPrimaryObligorReference()` → `ReferenceWithMetaLegalEntity` [Getter]
-- `getLoan()` → `Loan` [Getter]
 - `getSecurity()` → `Security` [Getter]
+- `getLoan()` → `Loan` [Getter]
 - `getStandardReferenceObligation()` → `Boolean` [Getter]
+- `getPrimaryObligorReference()` → `ReferenceWithMetaLegalEntity` [Getter]
+- `getGuarantor()` → `LegalEntity` [Getter]
+- `getPrimaryObligor()` → `LegalEntity` [Getter]
+- `getGuarantorReference()` → `String` [Getter]
 
 ### ReferenceObligationBuilder
 **Implements:** `ReferenceObligation` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getOrCreateGuarantor()` → `LegalEntityBuilder` [Getter]
-- `getPrimaryObligor()` → `LegalEntityBuilder` [Getter]
-- `setGuarantorReference(String arg0)` → `ReferenceObligationBuilder` [Setter]
-- `getGuarantor()` → `LegalEntityBuilder` [Getter]
+- `getSecurity()` → `SecurityBuilder` [Getter]
+- `getOrCreateSecurity()` → `SecurityBuilder` [Getter]
+- `getLoan()` → `LoanBuilder` [Getter]
+- `setLoan(Loan arg0)` → `ReferenceObligationBuilder` [Setter]
+- `setStandardReferenceObligation(Boolean arg0)` → `ReferenceObligationBuilder` [Setter]
+- `getOrCreatePrimaryObligorReference()` → `ReferenceWithMetaLegalEntityBuilder` [Getter]
+- `setPrimaryObligorReferenceValue(LegalEntity arg0)` → `ReferenceObligationBuilder` [Setter]
 - `setSecurity(Security arg0)` → `ReferenceObligationBuilder` [Setter]
-- `setGuarantor(LegalEntity arg0)` → `ReferenceObligationBuilder` [Setter]
-- `setPrimaryObligorReference(ReferenceWithMetaLegalEntity arg0)` → `ReferenceObligationBuilder` [Setter]
-- `getOrCreatePrimaryObligor()` → `LegalEntityBuilder` [Getter]
-- `setPrimaryObligor(LegalEntity arg0)` → `ReferenceObligationBuilder` [Setter]
 - `getPrimaryObligorReference()` → `ReferenceWithMetaLegalEntityBuilder` [Getter]
+- `setGuarantorReference(String arg0)` → `ReferenceObligationBuilder` [Setter]
 
 ### ReferencePair
 **Implements:** `RosettaModelObject` 
@@ -1170,25 +1170,25 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferencePair` [Builder]
-- `getEntityType()` → `FieldWithMetaEntityTypeEnum` [Getter]
+- `getReferenceEntity()` → `LegalEntity` [Getter]
 - `getReferenceObligation()` → `ReferenceObligation` [Getter]
 - `getNoReferenceObligation()` → `Boolean` [Getter]
-- `getReferenceEntity()` → `LegalEntity` [Getter]
+- `getEntityType()` → `FieldWithMetaEntityTypeEnum` [Getter]
 
 ### ReferencePairBuilder
 **Implements:** `ReferencePair` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getOrCreateReferenceEntity()` → `LegalEntityBuilder` [Getter]
-- `setReferenceObligation(ReferenceObligation arg0)` → `ReferencePairBuilder` [Setter]
-- `setReferenceEntity(LegalEntity arg0)` → `ReferencePairBuilder` [Setter]
-- `setNoReferenceObligation(Boolean arg0)` → `ReferencePairBuilder` [Setter]
-- `setEntityType(FieldWithMetaEntityTypeEnum arg0)` → `ReferencePairBuilder` [Setter]
-- `getEntityType()` → `FieldWithMetaEntityTypeEnumBuilder` [Getter]
+- `getReferenceEntity()` → `LegalEntityBuilder` [Getter]
+- `getReferenceObligation()` → `ReferenceObligationBuilder` [Getter]
 - `getOrCreateEntityType()` → `FieldWithMetaEntityTypeEnumBuilder` [Getter]
 - `setEntityTypeValue(EntityTypeEnum arg0)` → `ReferencePairBuilder` [Setter]
-- `getReferenceObligation()` → `ReferenceObligationBuilder` [Getter]
-- `getReferenceEntity()` → `LegalEntityBuilder` [Getter]
+- `setEntityType(FieldWithMetaEntityTypeEnum arg0)` → `ReferencePairBuilder` [Setter]
+- `getEntityType()` → `FieldWithMetaEntityTypeEnumBuilder` [Getter]
+- `getOrCreateReferenceObligation()` → `ReferenceObligationBuilder` [Getter]
+- `setReferenceObligation(ReferenceObligation arg0)` → `ReferencePairBuilder` [Setter]
+- `setNoReferenceObligation(Boolean arg0)` → `ReferencePairBuilder` [Setter]
+- `getOrCreateReferenceEntity()` → `LegalEntityBuilder` [Getter]
 
 ### ReferencePool
 **Implements:** `RosettaModelObject` 
@@ -1202,8 +1202,8 @@
 **Implements:** `ReferencePool` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setReferencePoolItem(List arg0)` → `ReferencePoolBuilder` [Setter]
 - `getReferencePoolItem()` → `List` [Getter]
+- `setReferencePoolItem(List arg0)` → `ReferencePoolBuilder` [Setter]
 - `getOrCreateReferencePoolItem(int arg0)` → `ReferencePoolItemBuilder` [Getter]
 
 ### ReferencePoolItem
@@ -1222,16 +1222,16 @@
 **Implements:** `ReferencePoolItem` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setReferencePair(ReferencePair arg0)` → `ReferencePoolItemBuilder` [Setter]
+- `getOrCreatePhysicalSettlementTermsReference()` → `ReferenceWithMetaPhysicalSettlementTermsBuilder` [Getter]
 - `getConstituentWeight()` → `ConstituentWeightBuilder` [Getter]
+- `getOrCreateReferencePair()` → `ReferencePairBuilder` [Getter]
 - `getReferencePair()` → `ReferencePairBuilder` [Getter]
 - `setConstituentWeight(ConstituentWeight arg0)` → `ReferencePoolItemBuilder` [Setter]
-- `getOrCreateReferencePair()` → `ReferencePairBuilder` [Getter]
-- `getOrCreateCashSettlementTermsReference()` → `ReferenceWithMetaCashSettlementTermsBuilder` [Getter]
+- `setReferencePair(ReferencePair arg0)` → `ReferencePoolItemBuilder` [Setter]
 - `getProtectionTermsReference()` → `ReferenceWithMetaProtectionTermsBuilder` [Getter]
+- `getCashSettlementTermsReference()` → `ReferenceWithMetaCashSettlementTermsBuilder` [Getter]
 - `setProtectionTermsReference(ReferenceWithMetaProtectionTerms arg0)` → `ReferencePoolItemBuilder` [Setter]
-- `setProtectionTermsReferenceValue(ProtectionTerms arg0)` → `ReferencePoolItemBuilder` [Setter]
-- `getOrCreateProtectionTermsReference()` → `ReferenceWithMetaProtectionTermsBuilder` [Getter]
+- `setPhysicalSettlementTermsReference(ReferenceWithMetaPhysicalSettlementTerms arg0)` → `ReferencePoolItemBuilder` [Setter]
 
 ### ReturnTermsBase
 **Implements:** `RosettaModelObject` 
@@ -1239,29 +1239,29 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ReturnTermsBase` [Builder]
-- `getPerformance()` → `String` [Getter]
-- `getValuationTerms()` → `ValuationTerms` [Getter]
-- `getDividendApplicability()` → `DividendApplicability` [Getter]
-- `getExpectedN()` → `Integer` [Getter]
-- `getAnnualizationFactor()` → `Integer` [Getter]
 - `getMeanAdjustment()` → `Boolean` [Getter]
-- `getInitialLevel()` → `BigDecimal` [Getter]
+- `getExpectedN()` → `Integer` [Getter]
 - `getInitialLevelSource()` → `DeterminationMethodEnum` [Getter]
+- `getAnnualizationFactor()` → `Integer` [Getter]
+- `getValuationTerms()` → `ValuationTerms` [Getter]
+- `getInitialLevel()` → `BigDecimal` [Getter]
+- `getDividendApplicability()` → `DividendApplicability` [Getter]
+- `getEquityUnderlierProvisions()` → `EquityUnderlierProvisions` [Getter]
 
 ### ReturnTermsBaseBuilder
 **Implements:** `ReturnTermsBase` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setSharePriceDividendAdjustment(Boolean arg0)` → `ReturnTermsBaseBuilder` [Setter]
-- `setEquityUnderlierProvisions(EquityUnderlierProvisions arg0)` → `ReturnTermsBaseBuilder` [Setter]
-- `getOrCreateDividendApplicability()` → `DividendApplicabilityBuilder` [Getter]
-- `getOrCreateEquityUnderlierProvisions()` → `EquityUnderlierProvisionsBuilder` [Getter]
 - `getValuationTerms()` → `ValuationTermsBuilder` [Getter]
 - `getDividendApplicability()` → `DividendApplicabilityBuilder` [Getter]
-- `setValuationTerms(ValuationTerms arg0)` → `ReturnTermsBaseBuilder` [Setter]
 - `setInitialLevel(BigDecimal arg0)` → `ReturnTermsBaseBuilder` [Setter]
-- `setDividendApplicability(DividendApplicability arg0)` → `ReturnTermsBaseBuilder` [Setter]
 - `setMeanAdjustment(Boolean arg0)` → `ReturnTermsBaseBuilder` [Setter]
+- `setValuationTerms(ValuationTerms arg0)` → `ReturnTermsBaseBuilder` [Setter]
+- `setAnnualizationFactor(Integer arg0)` → `ReturnTermsBaseBuilder` [Setter]
+- `setExpectedN(Integer arg0)` → `ReturnTermsBaseBuilder` [Setter]
+- `getOrCreateValuationTerms()` → `ValuationTermsBuilder` [Getter]
+- `setDividendApplicability(DividendApplicability arg0)` → `ReturnTermsBaseBuilder` [Setter]
+- `setInitialLevelSource(DeterminationMethodEnum arg0)` → `ReturnTermsBaseBuilder` [Setter]
 
 ### SettledEntityMatrix
 **Implements:** `RosettaModelObject` 
@@ -1269,18 +1269,18 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `SettledEntityMatrix` [Builder]
-- `getMatrixSource()` → `FieldWithMetaSettledEntityMatrixSourceEnum` [Getter]
 - `getPublicationDate()` → `Date` [Getter]
+- `getMatrixSource()` → `FieldWithMetaSettledEntityMatrixSourceEnum` [Getter]
 
 ### SettledEntityMatrixBuilder
 **Implements:** `SettledEntityMatrix` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `setPublicationDate(Date arg0)` → `SettledEntityMatrixBuilder` [Setter]
 - `getMatrixSource()` → `FieldWithMetaSettledEntityMatrixSourceEnumBuilder` [Getter]
 - `setMatrixSource(FieldWithMetaSettledEntityMatrixSourceEnum arg0)` → `SettledEntityMatrixBuilder` [Setter]
-- `getOrCreateMatrixSource()` → `FieldWithMetaSettledEntityMatrixSourceEnumBuilder` [Getter]
 - `setMatrixSourceValue(SettledEntityMatrixSourceEnum arg0)` → `SettledEntityMatrixBuilder` [Setter]
-- `setPublicationDate(Date arg0)` → `SettledEntityMatrixBuilder` [Setter]
+- `getOrCreateMatrixSource()` → `FieldWithMetaSettledEntityMatrixSourceEnumBuilder` [Getter]
 
 ### SpreadSchedule
 **Implements:** `RateSchedule` 
@@ -1295,11 +1295,11 @@
 
 **Key Methods:**
 - `setPriceValue(PriceSchedule arg0)` → `SpreadScheduleBuilder` [Setter]
-- `setPrice(ReferenceWithMetaPriceSchedule arg0)` → `SpreadScheduleBuilder` [Setter]
-- `setSpreadScheduleTypeValue(SpreadScheduleTypeEnum arg0)` → `SpreadScheduleBuilder` [Setter]
 - `setSpreadScheduleType(FieldWithMetaSpreadScheduleTypeEnum arg0)` → `SpreadScheduleBuilder` [Setter]
+- `setSpreadScheduleTypeValue(SpreadScheduleTypeEnum arg0)` → `SpreadScheduleBuilder` [Setter]
 - `getSpreadScheduleType()` → `FieldWithMetaSpreadScheduleTypeEnumBuilder` [Getter]
 - `getOrCreateSpreadScheduleType()` → `FieldWithMetaSpreadScheduleTypeEnumBuilder` [Getter]
+- `setPrice(ReferenceWithMetaPriceSchedule arg0)` → `SpreadScheduleBuilder` [Setter]
 
 ### StubFloatingRate
 **Implements:** `RosettaModelObject` 
@@ -1307,28 +1307,28 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `StubFloatingRate` [Builder]
-- `getFloorRateSchedule()` → `List` [Getter]
+- `getFloatingRateMultiplierSchedule()` → `Schedule` [Getter]
 - `getSpreadSchedule()` → `List` [Getter]
+- `getFloorRateSchedule()` → `List` [Getter]
 - `getCapRateSchedule()` → `List` [Getter]
 - `getRateTreatment()` → `RateTreatmentEnum` [Getter]
-- `getFloatingRateIndex()` → `FloatingRateIndexEnum` [Getter]
 - `getIndexTenor()` → `Period` [Getter]
-- `getFloatingRateMultiplierSchedule()` → `Schedule` [Getter]
+- `getFloatingRateIndex()` → `FloatingRateIndexEnum` [Getter]
 
 ### StubFloatingRateBuilder
 **Implements:** `StubFloatingRate` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getFloorRateSchedule()` → `List` [Getter]
-- `getSpreadSchedule()` → `List` [Getter]
-- `getCapRateSchedule()` → `List` [Getter]
-- `getIndexTenor()` → `PeriodBuilder` [Getter]
-- `setFloatingRateIndex(FloatingRateIndexEnum arg0)` → `StubFloatingRateBuilder` [Setter]
+- `setCapRateSchedule(List arg0)` → `StubFloatingRateBuilder` [Setter]
+- `getOrCreateCapRateSchedule(int arg0)` → `StrikeScheduleBuilder` [Getter]
+- `setRateTreatment(RateTreatmentEnum arg0)` → `StubFloatingRateBuilder` [Setter]
+- `setFloorRateSchedule(List arg0)` → `StubFloatingRateBuilder` [Setter]
+- `getOrCreateSpreadSchedule(int arg0)` → `SpreadScheduleBuilder` [Getter]
 - `setSpreadSchedule(List arg0)` → `StubFloatingRateBuilder` [Setter]
 - `getOrCreateIndexTenor()` → `PeriodBuilder` [Getter]
-- `getOrCreateSpreadSchedule(int arg0)` → `SpreadScheduleBuilder` [Getter]
-- `getOrCreateCapRateSchedule(int arg0)` → `StrikeScheduleBuilder` [Getter]
 - `setIndexTenor(Period arg0)` → `StubFloatingRateBuilder` [Setter]
+- `getOrCreateFloatingRateMultiplierSchedule()` → `ScheduleBuilder` [Getter]
+- `setFloatingRateMultiplierSchedule(Schedule arg0)` → `StubFloatingRateBuilder` [Setter]
 
 ### StubValue
 **Implements:** `RosettaModelObject` 
@@ -1336,21 +1336,21 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `StubValue` [Builder]
-- `getFloatingRate()` → `List` [Getter]
-- `getStubRate()` → `BigDecimal` [Getter]
 - `getStubAmount()` → `Money` [Getter]
+- `getStubRate()` → `BigDecimal` [Getter]
+- `getFloatingRate()` → `List` [Getter]
 
 ### StubValueBuilder
 **Implements:** `StubValue` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getFloatingRate()` → `List` [Getter]
-- `getOrCreateFloatingRate(int arg0)` → `StubFloatingRateBuilder` [Getter]
-- `setFloatingRate(List arg0)` → `StubValueBuilder` [Setter]
-- `setStubRate(BigDecimal arg0)` → `StubValueBuilder` [Setter]
-- `getOrCreateStubAmount()` → `MoneyBuilder` [Getter]
 - `setStubAmount(Money arg0)` → `StubValueBuilder` [Setter]
 - `getStubAmount()` → `MoneyBuilder` [Getter]
+- `setStubRate(BigDecimal arg0)` → `StubValueBuilder` [Setter]
+- `getOrCreateStubAmount()` → `MoneyBuilder` [Getter]
+- `getOrCreateFloatingRate(int arg0)` → `StubFloatingRateBuilder` [Getter]
+- `getFloatingRate()` → `List` [Getter]
+- `setFloatingRate(List arg0)` → `StubValueBuilder` [Setter]
 
 ### Tranche
 **Implements:** `RosettaModelObject` 
@@ -1358,17 +1358,17 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `Tranche` [Builder]
-- `getIncurredRecoveryApplicable()` → `Boolean` [Getter]
 - `getAttachmentPoint()` → `BigDecimal` [Getter]
 - `getExhaustionPoint()` → `BigDecimal` [Getter]
+- `getIncurredRecoveryApplicable()` → `Boolean` [Getter]
 
 ### TrancheBuilder
 **Implements:** `Tranche` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setIncurredRecoveryApplicable(Boolean arg0)` → `TrancheBuilder` [Setter]
 - `setExhaustionPoint(BigDecimal arg0)` → `TrancheBuilder` [Setter]
 - `setAttachmentPoint(BigDecimal arg0)` → `TrancheBuilder` [Setter]
+- `setIncurredRecoveryApplicable(Boolean arg0)` → `TrancheBuilder` [Setter]
 
 ### ValuationTerms
 **Implements:** `RosettaModelObject` 
@@ -1376,27 +1376,27 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ValuationTerms` [Builder]
-- `getMultipleExchangeIndexAnnexFallback()` → `Boolean` [Getter]
-- `getFPVFinalPriceElectionFallback()` → `FPVFinalPriceElectionFallbackEnum` [Getter]
-- `getComponentSecurityIndexAnnexFallback()` → `Boolean` [Getter]
-- `getDividendValuationDates()` → `AdjustableRelativeOrPeriodicDates` [Getter]
 - `getFuturesPriceValuation()` → `Boolean` [Getter]
 - `getOptionsPriceValuation()` → `Boolean` [Getter]
 - `getNumberOfValuationDates()` → `Integer` [Getter]
+- `getDividendValuationDates()` → `AdjustableRelativeOrPeriodicDates` [Getter]
+- `getMultipleExchangeIndexAnnexFallback()` → `Boolean` [Getter]
+- `getFPVFinalPriceElectionFallback()` → `FPVFinalPriceElectionFallbackEnum` [Getter]
+- `getComponentSecurityIndexAnnexFallback()` → `Boolean` [Getter]
 
 ### ValuationTermsBuilder
 **Implements:** `ValuationTerms` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setMultipleExchangeIndexAnnexFallback(Boolean arg0)` → `ValuationTermsBuilder` [Setter]
-- `setComponentSecurityIndexAnnexFallback(Boolean arg0)` → `ValuationTermsBuilder` [Setter]
-- `setFPVFinalPriceElectionFallback(FPVFinalPriceElectionFallbackEnum arg0)` → `ValuationTermsBuilder` [Setter]
-- `getOrCreateDividendValuationDates()` → `AdjustableRelativeOrPeriodicDatesBuilder` [Getter]
 - `getDividendValuationDates()` → `AdjustableRelativeOrPeriodicDatesBuilder` [Getter]
-- `setNumberOfValuationDates(Integer arg0)` → `ValuationTermsBuilder` [Setter]
-- `setDividendValuationDates(AdjustableRelativeOrPeriodicDates arg0)` → `ValuationTermsBuilder` [Setter]
 - `setFuturesPriceValuation(Boolean arg0)` → `ValuationTermsBuilder` [Setter]
 - `setOptionsPriceValuation(Boolean arg0)` → `ValuationTermsBuilder` [Setter]
+- `setNumberOfValuationDates(Integer arg0)` → `ValuationTermsBuilder` [Setter]
+- `setDividendValuationDates(AdjustableRelativeOrPeriodicDates arg0)` → `ValuationTermsBuilder` [Setter]
+- `setFPVFinalPriceElectionFallback(FPVFinalPriceElectionFallbackEnum arg0)` → `ValuationTermsBuilder` [Setter]
+- `setMultipleExchangeIndexAnnexFallback(Boolean arg0)` → `ValuationTermsBuilder` [Setter]
+- `setComponentSecurityIndexAnnexFallback(Boolean arg0)` → `ValuationTermsBuilder` [Setter]
+- `getOrCreateDividendValuationDates()` → `AdjustableRelativeOrPeriodicDatesBuilder` [Getter]
 
 ### VarianceCapFloor
 **Implements:** `RosettaModelObject` 
@@ -1405,18 +1405,18 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `VarianceCapFloor` [Builder]
 - `getVarianceCap()` → `Boolean` [Getter]
-- `getBoundedVariance()` → `BoundedVariance` [Getter]
 - `getUnadjustedVarianceCap()` → `BigDecimal` [Getter]
+- `getBoundedVariance()` → `BoundedVariance` [Getter]
 
 ### VarianceCapFloorBuilder
 **Implements:** `VarianceCapFloor` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setVarianceCap(Boolean arg0)` → `VarianceCapFloorBuilder` [Setter]
 - `setUnadjustedVarianceCap(BigDecimal arg0)` → `VarianceCapFloorBuilder` [Setter]
-- `getOrCreateBoundedVariance()` → `BoundedVarianceBuilder` [Getter]
 - `getBoundedVariance()` → `BoundedVarianceBuilder` [Getter]
+- `getOrCreateBoundedVariance()` → `BoundedVarianceBuilder` [Getter]
 - `setBoundedVariance(BoundedVariance arg0)` → `VarianceCapFloorBuilder` [Setter]
+- `setVarianceCap(Boolean arg0)` → `VarianceCapFloorBuilder` [Setter]
 
 ### VarianceReturnTerms
 **Implements:** `ReturnTermsBase` 
@@ -1424,27 +1424,27 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `VarianceReturnTerms` [Builder]
-- `getVarianceCapFloor()` → `VarianceCapFloor` [Getter]
 - `getVolatilityCapFloor()` → `VolatilityCapFloor` [Getter]
-- `getVarianceStrikePrice()` → `Price` [Getter]
-- `getVegaNotionalAmount()` → `NonNegativeQuantitySchedule` [Getter]
 - `getVolatilityStrikePrice()` → `Price` [Getter]
+- `getVarianceStrikePrice()` → `Price` [Getter]
+- `getVarianceCapFloor()` → `VarianceCapFloor` [Getter]
+- `getVegaNotionalAmount()` → `NonNegativeQuantitySchedule` [Getter]
 - `getExchangeTradedContractNearest()` → `ReferenceWithMetaObservable` [Getter]
 
 ### VarianceReturnTermsBuilder
 **Implements:** `VarianceReturnTerms` `ReturnTermsBase$ReturnTermsBaseBuilder` 
 
 **Key Methods:**
-- `getOrCreateVarianceStrikePrice()` → `PriceBuilder` [Getter]
-- `getOrCreateVolatilityStrikePrice()` → `PriceBuilder` [Getter]
-- `getOrCreateVarianceCapFloor()` → `VarianceCapFloorBuilder` [Getter]
-- `getOrCreateVolatilityCapFloor()` → `VolatilityCapFloorBuilder` [Getter]
-- `setSharePriceDividendAdjustment(Boolean arg0)` → `VarianceReturnTermsBuilder` [Setter]
-- `setEquityUnderlierProvisions(EquityUnderlierProvisions arg0)` → `VarianceReturnTermsBuilder` [Setter]
-- `setExchangeTradedContractNearest(ReferenceWithMetaObservable arg0)` → `VarianceReturnTermsBuilder` [Setter]
-- `setExchangeTradedContractNearestValue(Observable arg0)` → `VarianceReturnTermsBuilder` [Setter]
-- `getOrCreateExchangeTradedContractNearest()` → `ReferenceWithMetaObservableBuilder` [Getter]
-- `getOrCreateVegaNotionalAmount()` → `NonNegativeQuantityScheduleBuilder` [Getter]
+- `getVolatilityCapFloor()` → `VolatilityCapFloorBuilder` [Getter]
+- `getVolatilityStrikePrice()` → `PriceBuilder` [Getter]
+- `setVolatilityStrikePrice(Price arg0)` → `VarianceReturnTermsBuilder` [Setter]
+- `setInitialLevel(BigDecimal arg0)` → `VarianceReturnTermsBuilder` [Setter]
+- `setMeanAdjustment(Boolean arg0)` → `VarianceReturnTermsBuilder` [Setter]
+- `setVolatilityCapFloor(VolatilityCapFloor arg0)` → `VarianceReturnTermsBuilder` [Setter]
+- `setVegaNotionalAmount(NonNegativeQuantitySchedule arg0)` → `VarianceReturnTermsBuilder` [Setter]
+- `setValuationTerms(ValuationTerms arg0)` → `VarianceReturnTermsBuilder` [Setter]
+- `setAnnualizationFactor(Integer arg0)` → `VarianceReturnTermsBuilder` [Setter]
+- `setExpectedN(Integer arg0)` → `VarianceReturnTermsBuilder` [Setter]
 
 ### VolatilityCapFloor
 **Implements:** `RosettaModelObject` 
@@ -1460,9 +1460,9 @@
 **Implements:** `VolatilityCapFloor` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setApplicable(Boolean arg0)` → `VolatilityCapFloorBuilder` [Setter]
-- `setTotalVolatilityCap(BigDecimal arg0)` → `VolatilityCapFloorBuilder` [Setter]
 - `setVolatilityCapFactor(BigDecimal arg0)` → `VolatilityCapFloorBuilder` [Setter]
+- `setTotalVolatilityCap(BigDecimal arg0)` → `VolatilityCapFloorBuilder` [Setter]
+- `setApplicable(Boolean arg0)` → `VolatilityCapFloorBuilder` [Setter]
 
 ### VolatilityReturnTerms
 **Implements:** `ReturnTermsBase` 
@@ -1478,16 +1478,16 @@
 **Implements:** `VolatilityReturnTerms` `ReturnTermsBase$ReturnTermsBaseBuilder` 
 
 **Key Methods:**
-- `getOrCreateVolatilityStrikePrice()` → `PriceBuilder` [Getter]
-- `getOrCreateVolatilityCapFloor()` → `VolatilityCapFloorBuilder` [Getter]
-- `setSharePriceDividendAdjustment(Boolean arg0)` → `VolatilityReturnTermsBuilder` [Setter]
-- `setEquityUnderlierProvisions(EquityUnderlierProvisions arg0)` → `VolatilityReturnTermsBuilder` [Setter]
-- `setExchangeTradedContractNearest(ListedDerivative arg0)` → `VolatilityReturnTermsBuilder` [Setter]
-- `getOrCreateExchangeTradedContractNearest()` → `ListedDerivativeBuilder` [Getter]
 - `getVolatilityCapFloor()` → `VolatilityCapFloorBuilder` [Getter]
 - `getVolatilityStrikePrice()` → `PriceBuilder` [Getter]
-- `setValuationTerms(ValuationTerms arg0)` → `VolatilityReturnTermsBuilder` [Setter]
+- `setVolatilityStrikePrice(Price arg0)` → `VolatilityReturnTermsBuilder` [Setter]
 - `setInitialLevel(BigDecimal arg0)` → `VolatilityReturnTermsBuilder` [Setter]
+- `setMeanAdjustment(Boolean arg0)` → `VolatilityReturnTermsBuilder` [Setter]
+- `setVolatilityCapFloor(VolatilityCapFloor arg0)` → `VolatilityReturnTermsBuilder` [Setter]
+- `setValuationTerms(ValuationTerms arg0)` → `VolatilityReturnTermsBuilder` [Setter]
+- `setAnnualizationFactor(Integer arg0)` → `VolatilityReturnTermsBuilder` [Setter]
+- `setExpectedN(Integer arg0)` → `VolatilityReturnTermsBuilder` [Setter]
+- `setDividendApplicability(DividendApplicability arg0)` → `VolatilityReturnTermsBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -1502,21 +1502,21 @@
 **Key Methods:**
 - `build()` → `AdditionalFixedPayments` [Builder]
 - `setWritedownReimbursement(Boolean arg0)` → `AdditionalFixedPaymentsBuilder` [Setter]
-- `getWritedownReimbursement()` → `Boolean` [Getter]
-- `setInterestShortfallReimbursement(Boolean arg0)` → `AdditionalFixedPaymentsBuilder` [Setter]
 - `setPrincipalShortfallReimbursement(Boolean arg0)` → `AdditionalFixedPaymentsBuilder` [Setter]
-- `getInterestShortfallReimbursement()` → `Boolean` [Getter]
+- `setInterestShortfallReimbursement(Boolean arg0)` → `AdditionalFixedPaymentsBuilder` [Setter]
 - `getPrincipalShortfallReimbursement()` → `Boolean` [Getter]
+- `getInterestShortfallReimbursement()` → `Boolean` [Getter]
+- `getWritedownReimbursement()` → `Boolean` [Getter]
 
 ### AdditionalFixedPaymentsImpl
 **Implements:** `AdditionalFixedPayments` 
 
 **Key Methods:**
 - `build()` → `AdditionalFixedPayments` [Builder]
-- `getWritedownReimbursement()` → `Boolean` [Getter]
 - `setBuilderFields(AdditionalFixedPaymentsBuilder arg0)` → `void` [Setter]
-- `getInterestShortfallReimbursement()` → `Boolean` [Getter]
 - `getPrincipalShortfallReimbursement()` → `Boolean` [Getter]
+- `getInterestShortfallReimbursement()` → `Boolean` [Getter]
+- `getWritedownReimbursement()` → `Boolean` [Getter]
 
 ### AssetDeliveryInformationBuilderImpl
 **Implements:** `AssetDeliveryInformation$AssetDeliveryInformationBuilder` 
@@ -1529,14 +1529,14 @@
 **Key Methods:**
 - `getLocation()` → `List` [Getter]
 - `build()` → `AssetDeliveryInformation` [Builder]
-- `getPeriods()` → `AssetDeliveryPeriodsBuilder` [Getter]
-- `setPeriods(AssetDeliveryPeriods arg0)` → `AssetDeliveryInformationBuilder` [Setter]
-- `getDeliveryCapacity()` → `QuantityBuilder` [Getter]
 - `setLocation(List arg0)` → `AssetDeliveryInformationBuilder` [Setter]
-- `getOrCreatePeriods()` → `AssetDeliveryPeriodsBuilder` [Getter]
+- `getPeriods()` → `AssetDeliveryPeriodsBuilder` [Getter]
 - `setDeliveryCapacity(Quantity arg0)` → `AssetDeliveryInformationBuilder` [Setter]
-- `getOrCreateDeliveryCapacity()` → `QuantityBuilder` [Getter]
+- `getOrCreatePeriods()` → `AssetDeliveryPeriodsBuilder` [Getter]
 - `getOrCreateLocation(int arg0)` → `LocationIdentifierBuilder` [Getter]
+- `getDeliveryCapacity()` → `QuantityBuilder` [Getter]
+- `getOrCreateDeliveryCapacity()` → `QuantityBuilder` [Getter]
+- `setPeriods(AssetDeliveryPeriods arg0)` → `AssetDeliveryInformationBuilder` [Setter]
 
 ### AssetDeliveryInformationImpl
 **Implements:** `AssetDeliveryInformation` 
@@ -1544,9 +1544,9 @@
 **Key Methods:**
 - `getLocation()` → `List` [Getter]
 - `build()` → `AssetDeliveryInformation` [Builder]
+- `setBuilderFields(AssetDeliveryInformationBuilder arg0)` → `void` [Setter]
 - `getPeriods()` → `AssetDeliveryPeriods` [Getter]
 - `getDeliveryCapacity()` → `Quantity` [Getter]
-- `setBuilderFields(AssetDeliveryInformationBuilder arg0)` → `void` [Setter]
 
 ### AssetDeliveryPeriodsBuilderImpl
 **Implements:** `AssetDeliveryPeriods$AssetDeliveryPeriodsBuilder` 
@@ -1558,23 +1558,23 @@
 
 **Key Methods:**
 - `build()` → `AssetDeliveryPeriods` [Builder]
-- `getStartDate()` → `Date` [Getter]
-- `setStartDate(Date arg0)` → `AssetDeliveryPeriodsBuilder` [Setter]
-- `setEndDate(Date arg0)` → `AssetDeliveryPeriodsBuilder` [Setter]
-- `getEndDate()` → `Date` [Getter]
-- `setProfile(List arg0)` → `AssetDeliveryPeriodsBuilder` [Setter]
 - `getOrCreateProfile(int arg0)` → `AssetDeliveryProfileBuilder` [Getter]
 - `getProfile()` → `List` [Getter]
+- `setEndDate(Date arg0)` → `AssetDeliveryPeriodsBuilder` [Setter]
+- `getEndDate()` → `Date` [Getter]
+- `getStartDate()` → `Date` [Getter]
+- `setStartDate(Date arg0)` → `AssetDeliveryPeriodsBuilder` [Setter]
+- `setProfile(List arg0)` → `AssetDeliveryPeriodsBuilder` [Setter]
 
 ### AssetDeliveryPeriodsImpl
 **Implements:** `AssetDeliveryPeriods` 
 
 **Key Methods:**
 - `build()` → `AssetDeliveryPeriods` [Builder]
-- `getStartDate()` → `Date` [Getter]
-- `getEndDate()` → `Date` [Getter]
 - `setBuilderFields(AssetDeliveryPeriodsBuilder arg0)` → `void` [Setter]
 - `getProfile()` → `List` [Getter]
+- `getEndDate()` → `Date` [Getter]
+- `getStartDate()` → `Date` [Getter]
 
 ### AssetDeliveryProfileBlockBuilderImpl
 **Implements:** `AssetDeliveryProfileBlock$AssetDeliveryProfileBlockBuilder` 
@@ -1592,11 +1592,11 @@
 - `setDayOfWeek(List arg0)` → `AssetDeliveryProfileBlockBuilder` [Setter]
 - `getStartTime()` → `LocalTime` [Getter]
 - `setStartTime(LocalTime arg0)` → `AssetDeliveryProfileBlockBuilder` [Setter]
-- `getEndTime()` → `LocalTime` [Getter]
-- `setEndTime(LocalTime arg0)` → `AssetDeliveryProfileBlockBuilder` [Setter]
-- `getDeliveryCapacity()` → `QuantityBuilder` [Getter]
-- `setDeliveryCapacity(Quantity arg0)` → `AssetDeliveryProfileBlockBuilder` [Setter]
 - `getPriceTimeIntervalQuantity()` → `PriceBuilder` [Getter]
+- `setDeliveryCapacity(Quantity arg0)` → `AssetDeliveryProfileBlockBuilder` [Setter]
+- `getDeliveryCapacity()` → `QuantityBuilder` [Getter]
+- `getOrCreateDeliveryCapacity()` → `QuantityBuilder` [Getter]
+- `getOrCreatePriceTimeIntervalQuantity()` → `PriceBuilder` [Getter]
 
 ### AssetDeliveryProfileBlockImpl
 **Implements:** `AssetDeliveryProfileBlock` 
@@ -1604,11 +1604,11 @@
 **Key Methods:**
 - `build()` → `AssetDeliveryProfileBlock` [Builder]
 - `getDayOfWeek()` → `List` [Getter]
-- `getStartTime()` → `LocalTime` [Getter]
-- `getEndTime()` → `LocalTime` [Getter]
-- `getDeliveryCapacity()` → `Quantity` [Getter]
 - `setBuilderFields(AssetDeliveryProfileBlockBuilder arg0)` → `void` [Setter]
+- `getStartTime()` → `LocalTime` [Getter]
 - `getPriceTimeIntervalQuantity()` → `Price` [Getter]
+- `getDeliveryCapacity()` → `Quantity` [Getter]
+- `getEndTime()` → `LocalTime` [Getter]
 
 ### AssetDeliveryProfileBuilderImpl
 **Implements:** `AssetDeliveryProfile$AssetDeliveryProfileBuilder` 
@@ -1620,13 +1620,13 @@
 
 **Key Methods:**
 - `build()` → `AssetDeliveryProfile` [Builder]
-- `setBlock(List arg0)` → `AssetDeliveryProfileBuilder` [Setter]
+- `setBankHolidaysTreatment(BankHolidayTreatmentEnum arg0)` → `AssetDeliveryProfileBuilder` [Setter]
 - `getOrCreateBlock(int arg0)` → `AssetDeliveryProfileBlockBuilder` [Getter]
 - `setLoadType(LoadTypeEnum arg0)` → `AssetDeliveryProfileBuilder` [Setter]
-- `setBankHolidaysTreatment(BankHolidayTreatmentEnum arg0)` → `AssetDeliveryProfileBuilder` [Setter]
-- `getBankHolidaysTreatment()` → `BankHolidayTreatmentEnum` [Getter]
 - `getLoadType()` → `LoadTypeEnum` [Getter]
+- `getBankHolidaysTreatment()` → `BankHolidayTreatmentEnum` [Getter]
 - `getBlock()` → `List` [Getter]
+- `setBlock(List arg0)` → `AssetDeliveryProfileBuilder` [Setter]
 
 ### AssetDeliveryProfileImpl
 **Implements:** `AssetDeliveryProfile` 
@@ -1634,8 +1634,8 @@
 **Key Methods:**
 - `build()` → `AssetDeliveryProfile` [Builder]
 - `setBuilderFields(AssetDeliveryProfileBuilder arg0)` → `void` [Setter]
-- `getBankHolidaysTreatment()` → `BankHolidayTreatmentEnum` [Getter]
 - `getLoadType()` → `LoadTypeEnum` [Getter]
+- `getBankHolidaysTreatment()` → `BankHolidayTreatmentEnum` [Getter]
 - `getBlock()` → `List` [Getter]
 
 ### BasketReferenceInformationBuilderImpl
@@ -1651,27 +1651,27 @@
 
 **Key Methods:**
 - `build()` → `BasketReferenceInformation` [Builder]
-- `getOrCreateTranche()` → `TrancheBuilder` [Getter]
+- `getBasketName()` → `FieldWithMetaStringBuilder` [Getter]
+- `getBasketId()` → `List` [Getter]
+- `getReferencePool()` → `ReferencePoolBuilder` [Getter]
+- `getOrCreateReferencePool()` → `ReferencePoolBuilder` [Getter]
+- `setBasketName(FieldWithMetaString arg0)` → `BasketReferenceInformationBuilder` [Setter]
 - `getOrCreateBasketName()` → `FieldWithMetaStringBuilder` [Getter]
-- `setNthToDefault(Integer arg0)` → `BasketReferenceInformationBuilder` [Setter]
 - `setBasketNameValue(String arg0)` → `BasketReferenceInformationBuilder` [Setter]
+- `getNthToDefault()` → `Integer` [Getter]
 - `getMthToDefault()` → `Integer` [Getter]
-- `setBasketIdValue(List arg0)` → `BasketReferenceInformationBuilder` [Setter]
-- `setReferencePool(ReferencePool arg0)` → `BasketReferenceInformationBuilder` [Setter]
-- `setBasketId(List arg0)` → `BasketReferenceInformationBuilder` [Setter]
-- `setMthToDefault(Integer arg0)` → `BasketReferenceInformationBuilder` [Setter]
 
 ### BasketReferenceInformationImpl
 **Implements:** `BasketReferenceInformation` 
 
 **Key Methods:**
 - `build()` → `BasketReferenceInformation` [Builder]
-- `getMthToDefault()` → `Integer` [Getter]
-- `getNthToDefault()` → `Integer` [Getter]
-- `getReferencePool()` → `ReferencePool` [Getter]
 - `setBuilderFields(BasketReferenceInformationBuilder arg0)` → `void` [Setter]
 - `getBasketName()` → `FieldWithMetaString` [Getter]
 - `getBasketId()` → `List` [Getter]
+- `getReferencePool()` → `ReferencePool` [Getter]
+- `getNthToDefault()` → `Integer` [Getter]
+- `getMthToDefault()` → `Integer` [Getter]
 - `getTranche()` → `Tranche` [Getter]
 
 ### BondReferenceBuilderImpl
@@ -1685,13 +1685,13 @@
 
 **Key Methods:**
 - `build()` → `BondReference` [Builder]
-- `getDiscrepancyClause()` → `Boolean` [Getter]
 - `getConditionPrecedentBond()` → `Boolean` [Getter]
-- `getCouponRate()` → `FixedRateSpecificationBuilder` [Getter]
 - `getOrCreateBond()` → `SecurityBuilder` [Getter]
-- `setConditionPrecedentBond(Boolean arg0)` → `BondReferenceBuilder` [Setter]
 - `getOrCreateCouponRate()` → `FixedRateSpecificationBuilder` [Getter]
+- `getDiscrepancyClause()` → `Boolean` [Getter]
 - `setDiscrepancyClause(Boolean arg0)` → `BondReferenceBuilder` [Setter]
+- `setConditionPrecedentBond(Boolean arg0)` → `BondReferenceBuilder` [Setter]
+- `getCouponRate()` → `FixedRateSpecificationBuilder` [Getter]
 - `setCouponRate(FixedRateSpecification arg0)` → `BondReferenceBuilder` [Setter]
 - `getBond()` → `SecurityBuilder` [Getter]
 
@@ -1701,8 +1701,8 @@
 **Key Methods:**
 - `build()` → `BondReference` [Builder]
 - `setBuilderFields(BondReferenceBuilder arg0)` → `void` [Setter]
-- `getDiscrepancyClause()` → `Boolean` [Getter]
 - `getConditionPrecedentBond()` → `Boolean` [Getter]
+- `getDiscrepancyClause()` → `Boolean` [Getter]
 - `getCouponRate()` → `FixedRateSpecification` [Getter]
 - `getBond()` → `Security` [Getter]
 
@@ -1715,10 +1715,10 @@
 
 **Key Methods:**
 - `build()` → `BoundedCorrelation` [Builder]
-- `getMinimumBoundaryPercent()` → `BigDecimal` [Getter]
-- `getMaximumBoundaryPercent()` → `BigDecimal` [Getter]
-- `setMinimumBoundaryPercent(BigDecimal arg0)` → `BoundedCorrelationBuilder` [Setter]
 - `setMaximumBoundaryPercent(BigDecimal arg0)` → `BoundedCorrelationBuilder` [Setter]
+- `setMinimumBoundaryPercent(BigDecimal arg0)` → `BoundedCorrelationBuilder` [Setter]
+- `getMaximumBoundaryPercent()` → `BigDecimal` [Getter]
+- `getMinimumBoundaryPercent()` → `BigDecimal` [Getter]
 
 ### BoundedCorrelationImpl
 **Implements:** `BoundedCorrelation` 
@@ -1726,8 +1726,8 @@
 **Key Methods:**
 - `build()` → `BoundedCorrelation` [Builder]
 - `setBuilderFields(BoundedCorrelationBuilder arg0)` → `void` [Setter]
-- `getMinimumBoundaryPercent()` → `BigDecimal` [Getter]
 - `getMaximumBoundaryPercent()` → `BigDecimal` [Getter]
+- `getMinimumBoundaryPercent()` → `BigDecimal` [Getter]
 
 ### BoundedVarianceBuilderImpl
 **Implements:** `BoundedVariance$BoundedVarianceBuilder` 
@@ -1740,14 +1740,14 @@
 
 **Key Methods:**
 - `build()` → `BoundedVariance` [Builder]
-- `getLowerBarrier()` → `BigDecimal` [Getter]
+- `getRealisedVarianceMethod()` → `RealisedVarianceMethodEnum` [Getter]
 - `getDaysInRangeAdjustment()` → `Boolean` [Getter]
-- `setDaysInRangeAdjustment(Boolean arg0)` → `BoundedVarianceBuilder` [Setter]
 - `setRealisedVarianceMethod(RealisedVarianceMethodEnum arg0)` → `BoundedVarianceBuilder` [Setter]
+- `getUpperBarrier()` → `BigDecimal` [Getter]
+- `getLowerBarrier()` → `BigDecimal` [Getter]
+- `setDaysInRangeAdjustment(Boolean arg0)` → `BoundedVarianceBuilder` [Setter]
 - `setUpperBarrier(BigDecimal arg0)` → `BoundedVarianceBuilder` [Setter]
 - `setLowerBarrier(BigDecimal arg0)` → `BoundedVarianceBuilder` [Setter]
-- `getUpperBarrier()` → `BigDecimal` [Getter]
-- `getRealisedVarianceMethod()` → `RealisedVarianceMethodEnum` [Getter]
 
 ### BoundedVarianceImpl
 **Implements:** `BoundedVariance` 
@@ -1755,10 +1755,10 @@
 **Key Methods:**
 - `build()` → `BoundedVariance` [Builder]
 - `setBuilderFields(BoundedVarianceBuilder arg0)` → `void` [Setter]
-- `getLowerBarrier()` → `BigDecimal` [Getter]
+- `getRealisedVarianceMethod()` → `RealisedVarianceMethodEnum` [Getter]
 - `getDaysInRangeAdjustment()` → `Boolean` [Getter]
 - `getUpperBarrier()` → `BigDecimal` [Getter]
-- `getRealisedVarianceMethod()` → `RealisedVarianceMethodEnum` [Getter]
+- `getLowerBarrier()` → `BigDecimal` [Getter]
 
 ### CalculationScheduleDeliveryPeriodsBuilderImpl
 **Extends:** `AssetDeliveryPeriods$AssetDeliveryPeriodsBuilderImpl` 
@@ -1770,15 +1770,15 @@
 
 **Key Methods:**
 - `build()` → `CalculationScheduleDeliveryPeriods` [Builder]
-- `setStartDate(Date arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
-- `setEndDate(Date arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
-- `setProfile(List arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
-- `getDeliveryCapacity()` → `QuantityBuilder` [Getter]
-- `setDeliveryCapacity(Quantity arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
 - `getPriceTimeIntervalQuantity()` → `PriceBuilder` [Getter]
+- `setDeliveryCapacity(Quantity arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
+- `setEndDate(Date arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
+- `getDeliveryCapacity()` → `QuantityBuilder` [Getter]
+- `setStartDate(Date arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
 - `getOrCreateDeliveryCapacity()` → `QuantityBuilder` [Getter]
-- `setPriceTimeIntervalQuantity(Price arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
 - `getOrCreatePriceTimeIntervalQuantity()` → `PriceBuilder` [Getter]
+- `setPriceTimeIntervalQuantity(Price arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
+- `setProfile(List arg0)` → `CalculationScheduleDeliveryPeriodsBuilder` [Setter]
 
 ### CalculationScheduleDeliveryPeriodsImpl
 **Extends:** `AssetDeliveryPeriods$AssetDeliveryPeriodsImpl` 
@@ -1786,9 +1786,9 @@
 
 **Key Methods:**
 - `build()` → `CalculationScheduleDeliveryPeriods` [Builder]
-- `getDeliveryCapacity()` → `Quantity` [Getter]
 - `setBuilderFields(CalculationScheduleDeliveryPeriodsBuilder arg0)` → `void` [Setter]
 - `getPriceTimeIntervalQuantity()` → `Price` [Getter]
+- `getDeliveryCapacity()` → `Quantity` [Getter]
 
 ### CashflowRepresentationBuilderImpl
 **Implements:** `CashflowRepresentation$CashflowRepresentationBuilder` 
@@ -1831,15 +1831,15 @@
 
 **Key Methods:**
 - `build()` → `CommodityPayout` [Builder]
-- `getPricingDates()` → `PricingDatesBuilder` [Getter]
 - `getOrCreateUnderlier()` → `UnderlierBuilder` [Getter]
 - `getUnderlier()` → `UnderlierBuilder` [Getter]
 - `setUnderlier(Underlier arg0)` → `CommodityPayoutBuilder` [Setter]
-- `getSchedule()` → `CalculationScheduleBuilder` [Getter]
-- `setDelivery(AssetDeliveryInformation arg0)` → `CommodityPayoutBuilder` [Setter]
-- `getDelivery()` → `AssetDeliveryInformationBuilder` [Getter]
-- `setSchedule(CalculationSchedule arg0)` → `CommodityPayoutBuilder` [Setter]
-- `setPrincipalPayment(PrincipalPayments arg0)` → `CommodityPayoutBuilder` [Setter]
+- `setPayerReceiver(PayerReceiver arg0)` → `CommodityPayoutBuilder` [Setter]
+- `getCommodityPriceReturnTerms()` → `CommodityPriceReturnTermsBuilder` [Getter]
+- `getOrCreateAveragingFeature()` → `AveragingCalculationBuilder` [Getter]
+- `setPriceQuantity(ResolvablePriceQuantity arg0)` → `CommodityPayoutBuilder` [Setter]
+- `setSettlementTerms(SettlementTerms arg0)` → `CommodityPayoutBuilder` [Setter]
+- `setPaymentDates(PaymentDates arg0)` → `CommodityPayoutBuilder` [Setter]
 
 ### CommodityPayoutImpl
 **Extends:** `PayoutBase$PayoutBaseImpl` 
@@ -1847,15 +1847,15 @@
 
 **Key Methods:**
 - `build()` → `CommodityPayout` [Builder]
-- `getPricingDates()` → `PricingDates` [Getter]
 - `getUnderlier()` → `Underlier` [Getter]
-- `getSchedule()` → `CalculationSchedule` [Getter]
-- `getDelivery()` → `AssetDeliveryInformation` [Getter]
-- `getAveragingFeature()` → `AveragingCalculation` [Getter]
-- `getFxFeature()` → `FxFeature` [Getter]
 - `setBuilderFields(CommodityPayoutBuilder arg0)` → `void` [Setter]
 - `getCommodityPriceReturnTerms()` → `CommodityPriceReturnTerms` [Getter]
 - `getPaymentDates()` → `PaymentDates` [Getter]
+- `getDelivery()` → `AssetDeliveryInformation` [Getter]
+- `getSchedule()` → `CalculationSchedule` [Getter]
+- `getFxFeature()` → `FxFeature` [Getter]
+- `getAveragingFeature()` → `AveragingCalculation` [Getter]
+- `getCalculationPeriodDates()` → `CalculationPeriodDates` [Getter]
 
 ### CorrelationReturnTermsBuilderImpl
 **Extends:** `ReturnTermsBase$ReturnTermsBaseBuilderImpl` 
@@ -1868,14 +1868,14 @@
 
 **Key Methods:**
 - `build()` → `CorrelationReturnTerms` [Builder]
-- `setSharePriceDividendAdjustment(Boolean arg0)` → `CorrelationReturnTermsBuilder` [Setter]
-- `setEquityUnderlierProvisions(EquityUnderlierProvisions arg0)` → `CorrelationReturnTermsBuilder` [Setter]
-- `getCorrelationStrikePrice()` → `PriceBuilder` [Getter]
 - `getBoundedCorrelation()` → `NumberRangeBuilder` [Getter]
-- `getNumberOfDataSeries()` → `Integer` [Getter]
+- `setInitialLevel(BigDecimal arg0)` → `CorrelationReturnTermsBuilder` [Setter]
+- `setMeanAdjustment(Boolean arg0)` → `CorrelationReturnTermsBuilder` [Setter]
 - `setNumberOfDataSeries(Integer arg0)` → `CorrelationReturnTermsBuilder` [Setter]
 - `setValuationTerms(ValuationTerms arg0)` → `CorrelationReturnTermsBuilder` [Setter]
-- `setInitialLevel(BigDecimal arg0)` → `CorrelationReturnTermsBuilder` [Setter]
+- `setAnnualizationFactor(Integer arg0)` → `CorrelationReturnTermsBuilder` [Setter]
+- `setExpectedN(Integer arg0)` → `CorrelationReturnTermsBuilder` [Setter]
+- `setBoundedCorrelation(NumberRange arg0)` → `CorrelationReturnTermsBuilder` [Setter]
 - `setDividendApplicability(DividendApplicability arg0)` → `CorrelationReturnTermsBuilder` [Setter]
 
 ### CorrelationReturnTermsImpl
@@ -1885,8 +1885,8 @@
 **Key Methods:**
 - `build()` → `CorrelationReturnTerms` [Builder]
 - `setBuilderFields(CorrelationReturnTermsBuilder arg0)` → `void` [Setter]
-- `getCorrelationStrikePrice()` → `Price` [Getter]
 - `getBoundedCorrelation()` → `NumberRange` [Getter]
+- `getCorrelationStrikePrice()` → `Price` [Getter]
 - `getNumberOfDataSeries()` → `Integer` [Getter]
 
 ### CreditDefaultPayoutBuilderImpl
@@ -1900,15 +1900,15 @@
 
 **Key Methods:**
 - `build()` → `CreditDefaultPayout` [Builder]
-- `getTransactedPrice()` → `TransactedPriceBuilder` [Getter]
 - `getGeneralTerms()` → `GeneralTermsBuilder` [Getter]
-- `setPrincipalPayment(PrincipalPayments arg0)` → `CreditDefaultPayoutBuilder` [Setter]
 - `setPayerReceiver(PayerReceiver arg0)` → `CreditDefaultPayoutBuilder` [Setter]
-- `setProtectionTerms(List arg0)` → `CreditDefaultPayoutBuilder` [Setter]
-- `setTransactedPrice(TransactedPrice arg0)` → `CreditDefaultPayoutBuilder` [Setter]
-- `getOrCreateGeneralTerms()` → `GeneralTermsBuilder` [Getter]
-- `getOrCreateProtectionTerms(int arg0)` → `ProtectionTermsBuilder` [Getter]
+- `setPriceQuantity(ResolvablePriceQuantity arg0)` → `CreditDefaultPayoutBuilder` [Setter]
+- `setSettlementTerms(SettlementTerms arg0)` → `CreditDefaultPayoutBuilder` [Setter]
+- `getProtectionTerms()` → `List` [Getter]
+- `setPrincipalPayment(PrincipalPayments arg0)` → `CreditDefaultPayoutBuilder` [Setter]
 - `getOrCreateTransactedPrice()` → `TransactedPriceBuilder` [Getter]
+- `setGeneralTerms(GeneralTerms arg0)` → `CreditDefaultPayoutBuilder` [Setter]
+- `getOrCreateProtectionTerms(int arg0)` → `ProtectionTermsBuilder` [Getter]
 
 ### CreditDefaultPayoutImpl
 **Extends:** `PayoutBase$PayoutBaseImpl` 
@@ -1916,10 +1916,10 @@
 
 **Key Methods:**
 - `build()` → `CreditDefaultPayout` [Builder]
-- `getTransactedPrice()` → `TransactedPrice` [Getter]
 - `getGeneralTerms()` → `GeneralTerms` [Getter]
 - `setBuilderFields(CreditDefaultPayoutBuilder arg0)` → `void` [Setter]
 - `getProtectionTerms()` → `List` [Getter]
+- `getTransactedPrice()` → `TransactedPrice` [Getter]
 
 ### DiscountingMethodBuilderImpl
 **Implements:** `DiscountingMethod$DiscountingMethodBuilder` 
@@ -1932,9 +1932,9 @@
 **Key Methods:**
 - `build()` → `DiscountingMethod` [Builder]
 - `getDiscountingType()` → `DiscountingTypeEnum` [Getter]
-- `getDiscountRate()` → `BigDecimal` [Getter]
 - `setDiscountingType(DiscountingTypeEnum arg0)` → `DiscountingMethodBuilder` [Setter]
 - `setDiscountRate(BigDecimal arg0)` → `DiscountingMethodBuilder` [Setter]
+- `getDiscountRate()` → `BigDecimal` [Getter]
 - `getDiscountRateDayCountFraction()` → `FieldWithMetaDayCountFractionEnumBuilder` [Getter]
 - `setDiscountRateDayCountFractionValue(DayCountFractionEnum arg0)` → `DiscountingMethodBuilder` [Setter]
 - `getOrCreateDiscountRateDayCountFraction()` → `FieldWithMetaDayCountFractionEnumBuilder` [Getter]
@@ -1962,13 +1962,13 @@
 - `build()` → `DividendCurrency` [Builder]
 - `getCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrency(FieldWithMetaString arg0)` → `DividendCurrencyBuilder` [Setter]
-- `getOrCreateCurrencyReference()` → `ReferenceWithMetaStringBuilder` [Getter]
+- `setCurrencyValue(String arg0)` → `DividendCurrencyBuilder` [Setter]
 - `setDeterminationMethod(DeterminationMethodEnum arg0)` → `DividendCurrencyBuilder` [Setter]
 - `getDeterminationMethod()` → `DeterminationMethodEnum` [Getter]
-- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
-- `setCurrencyValue(String arg0)` → `DividendCurrencyBuilder` [Setter]
-- `setCurrencyReference(ReferenceWithMetaString arg0)` → `DividendCurrencyBuilder` [Setter]
 - `getCurrencyReference()` → `ReferenceWithMetaStringBuilder` [Getter]
+- `setCurrencyReference(ReferenceWithMetaString arg0)` → `DividendCurrencyBuilder` [Setter]
+- `setCurrencyReferenceValue(String arg0)` → `DividendCurrencyBuilder` [Setter]
+- `getOrCreateCurrencyReference()` → `ReferenceWithMetaStringBuilder` [Getter]
 
 ### DividendCurrencyImpl
 **Implements:** `DividendCurrency` 
@@ -1989,11 +1989,11 @@
 
 **Key Methods:**
 - `build()` → `DividendDateReference` [Builder]
-- `getOrCreatePaymentDateOffset()` → `OffsetBuilder` [Getter]
-- `getPaymentDateOffset()` → `OffsetBuilder` [Getter]
 - `setDateReference(DividendDateReferenceEnum arg0)` → `DividendDateReferenceBuilder` [Setter]
-- `setPaymentDateOffset(Offset arg0)` → `DividendDateReferenceBuilder` [Setter]
 - `getDateReference()` → `DividendDateReferenceEnum` [Getter]
+- `getPaymentDateOffset()` → `OffsetBuilder` [Getter]
+- `setPaymentDateOffset(Offset arg0)` → `DividendDateReferenceBuilder` [Setter]
+- `getOrCreatePaymentDateOffset()` → `OffsetBuilder` [Getter]
 
 ### DividendDateReferenceImpl
 **Implements:** `DividendDateReference` 
@@ -2001,8 +2001,8 @@
 **Key Methods:**
 - `build()` → `DividendDateReference` [Builder]
 - `setBuilderFields(DividendDateReferenceBuilder arg0)` → `void` [Setter]
-- `getPaymentDateOffset()` → `Offset` [Getter]
 - `getDateReference()` → `DividendDateReferenceEnum` [Getter]
+- `getPaymentDateOffset()` → `Offset` [Getter]
 
 ### DividendPaymentDateBuilderImpl
 **Implements:** `DividendPaymentDate$DividendPaymentDateBuilder` 
@@ -2013,13 +2013,13 @@
 
 **Key Methods:**
 - `build()` → `DividendPaymentDate` [Builder]
-- `getOrCreateDividendDateReference()` → `DividendDateReferenceBuilder` [Getter]
-- `getOrCreateDividendDate()` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Getter]
-- `getDividendDateReference()` → `DividendDateReferenceBuilder` [Getter]
-- `setDividendDate(ReferenceWithMetaAdjustableOrRelativeDate arg0)` → `DividendPaymentDateBuilder` [Setter]
-- `setDividendDateReference(DividendDateReference arg0)` → `DividendPaymentDateBuilder` [Setter]
 - `setDividendDateValue(AdjustableOrRelativeDate arg0)` → `DividendPaymentDateBuilder` [Setter]
+- `setDividendDate(ReferenceWithMetaAdjustableOrRelativeDate arg0)` → `DividendPaymentDateBuilder` [Setter]
+- `getOrCreateDividendDate()` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Getter]
 - `getDividendDate()` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Getter]
+- `setDividendDateReference(DividendDateReference arg0)` → `DividendPaymentDateBuilder` [Setter]
+- `getDividendDateReference()` → `DividendDateReferenceBuilder` [Getter]
+- `getOrCreateDividendDateReference()` → `DividendDateReferenceBuilder` [Getter]
 
 ### DividendPaymentDateImpl
 **Implements:** `DividendPaymentDate` 
@@ -2027,8 +2027,8 @@
 **Key Methods:**
 - `build()` → `DividendPaymentDate` [Builder]
 - `setBuilderFields(DividendPaymentDateBuilder arg0)` → `void` [Setter]
-- `getDividendDateReference()` → `DividendDateReference` [Getter]
 - `getDividendDate()` → `ReferenceWithMetaAdjustableOrRelativeDate` [Getter]
+- `getDividendDateReference()` → `DividendDateReference` [Getter]
 
 ### DividendPayoutRatioBuilderImpl
 **Implements:** `DividendPayoutRatio$DividendPayoutRatioBuilder` 
@@ -2041,26 +2041,26 @@
 
 **Key Methods:**
 - `build()` → `DividendPayoutRatio` [Builder]
-- `getBasketConstituent()` → `ReferenceWithMetaBasketConstituentBuilder` [Getter]
-- `setBasketConstituentValue(BasketConstituent arg0)` → `DividendPayoutRatioBuilder` [Setter]
-- `setBasketConstituent(ReferenceWithMetaBasketConstituent arg0)` → `DividendPayoutRatioBuilder` [Setter]
-- `getCashRatio()` → `BigDecimal` [Getter]
-- `setCashRatio(BigDecimal arg0)` → `DividendPayoutRatioBuilder` [Setter]
-- `setNonCashRatio(BigDecimal arg0)` → `DividendPayoutRatioBuilder` [Setter]
 - `getTotalRatio()` → `BigDecimal` [Getter]
 - `getNonCashRatio()` → `BigDecimal` [Getter]
 - `setTotalRatio(BigDecimal arg0)` → `DividendPayoutRatioBuilder` [Setter]
+- `setCashRatio(BigDecimal arg0)` → `DividendPayoutRatioBuilder` [Setter]
+- `setNonCashRatio(BigDecimal arg0)` → `DividendPayoutRatioBuilder` [Setter]
+- `getCashRatio()` → `BigDecimal` [Getter]
+- `getBasketConstituent()` → `ReferenceWithMetaBasketConstituentBuilder` [Getter]
+- `setBasketConstituent(ReferenceWithMetaBasketConstituent arg0)` → `DividendPayoutRatioBuilder` [Setter]
+- `setBasketConstituentValue(BasketConstituent arg0)` → `DividendPayoutRatioBuilder` [Setter]
 
 ### DividendPayoutRatioImpl
 **Implements:** `DividendPayoutRatio` 
 
 **Key Methods:**
 - `build()` → `DividendPayoutRatio` [Builder]
-- `getBasketConstituent()` → `ReferenceWithMetaBasketConstituent` [Getter]
 - `setBuilderFields(DividendPayoutRatioBuilder arg0)` → `void` [Setter]
-- `getCashRatio()` → `BigDecimal` [Getter]
 - `getTotalRatio()` → `BigDecimal` [Getter]
 - `getNonCashRatio()` → `BigDecimal` [Getter]
+- `getCashRatio()` → `BigDecimal` [Getter]
+- `getBasketConstituent()` → `ReferenceWithMetaBasketConstituent` [Getter]
 
 ### DividendPeriodBuilderImpl
 **Implements:** `DividendPeriod$DividendPeriodBuilder` 
@@ -2075,14 +2075,14 @@
 
 **Key Methods:**
 - `build()` → `DividendPeriod` [Builder]
-- `getBasketConstituent()` → `ReferenceWithMetaBasketConstituentBuilder` [Getter]
-- `setBasketConstituentValue(BasketConstituent arg0)` → `DividendPeriodBuilder` [Setter]
-- `setBasketConstituent(ReferenceWithMetaBasketConstituent arg0)` → `DividendPeriodBuilder` [Setter]
-- `getStartDate()` → `DividendPaymentDateBuilder` [Getter]
-- `setStartDate(DividendPaymentDate arg0)` → `DividendPeriodBuilder` [Setter]
-- `setEndDate(DividendPaymentDate arg0)` → `DividendPeriodBuilder` [Setter]
-- `getEndDate()` → `DividendPaymentDateBuilder` [Getter]
-- `setDateAdjustments(BusinessDayAdjustments arg0)` → `DividendPeriodBuilder` [Setter]
+- `getOrCreateEndDate()` → `DividendPaymentDateBuilder` [Getter]
+- `getOrCreateStartDate()` → `DividendPaymentDateBuilder` [Getter]
+- `getDividendPaymentDate()` → `DividendPaymentDateBuilder` [Getter]
+- `setDividendPaymentDate(DividendPaymentDate arg0)` → `DividendPeriodBuilder` [Setter]
+- `getDividendValuationDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
+- `setDividendValuationDate(AdjustableOrRelativeDate arg0)` → `DividendPeriodBuilder` [Setter]
+- `getOrCreateDividendValuationDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
+- `getOrCreateDividendPaymentDate()` → `DividendPaymentDateBuilder` [Getter]
 - `getOrCreateDateAdjustments()` → `BusinessDayAdjustmentsBuilder` [Getter]
 
 ### DividendPeriodImpl
@@ -2090,13 +2090,13 @@
 
 **Key Methods:**
 - `build()` → `DividendPeriod` [Builder]
-- `getBasketConstituent()` → `ReferenceWithMetaBasketConstituent` [Getter]
-- `getStartDate()` → `DividendPaymentDate` [Getter]
-- `getEndDate()` → `DividendPaymentDate` [Getter]
 - `setBuilderFields(DividendPeriodBuilder arg0)` → `void` [Setter]
 - `getDividendPaymentDate()` → `DividendPaymentDate` [Getter]
 - `getDividendValuationDate()` → `AdjustableOrRelativeDate` [Getter]
 - `getDateAdjustments()` → `BusinessDayAdjustments` [Getter]
+- `getEndDate()` → `DividendPaymentDate` [Getter]
+- `getBasketConstituent()` → `ReferenceWithMetaBasketConstituent` [Getter]
+- `getStartDate()` → `DividendPaymentDate` [Getter]
 
 ### DividendReturnTermsBuilderImpl
 **Implements:** `DividendReturnTerms$DividendReturnTermsBuilder` 
@@ -2119,30 +2119,30 @@
 
 **Key Methods:**
 - `build()` → `DividendReturnTerms` [Builder]
-- `setNonCashDividendTreatment(NonCashDividendTreatmentEnum arg0)` → `DividendReturnTermsBuilder` [Setter]
-- `setExtraordinaryDividendsParty(AncillaryRoleEnum arg0)` → `DividendReturnTermsBuilder` [Setter]
-- `getOrCreateDividendCurrency()` → `DividendCurrencyBuilder` [Getter]
-- `getPerformance()` → `String` [Getter]
-- `getOrCreateDividendPayoutRatio(int arg0)` → `DividendPayoutRatioBuilder` [Getter]
+- `getExcessDividendAmount()` → `DividendAmountTypeEnum` [Getter]
 - `getDividendPayoutRatio()` → `List` [Getter]
+- `getDividendPeriod()` → `List` [Getter]
 - `getDividendReinvestment()` → `Boolean` [Getter]
 - `getDividendEntitlement()` → `DividendEntitlementEnum` [Getter]
 - `getFirstOrSecondPeriod()` → `DividendPeriodEnum` [Getter]
+- `getDividendCurrency()` → `DividendCurrencyBuilder` [Getter]
+- `getDividendComposition()` → `DividendCompositionEnum` [Getter]
+- `getSpecialDividends()` → `Boolean` [Getter]
 
 ### DividendReturnTermsImpl
 **Implements:** `DividendReturnTerms` 
 
 **Key Methods:**
 - `build()` → `DividendReturnTerms` [Builder]
-- `getPerformance()` → `String` [Getter]
 - `setBuilderFields(DividendReturnTermsBuilder arg0)` → `void` [Setter]
+- `getExcessDividendAmount()` → `DividendAmountTypeEnum` [Getter]
 - `getDividendPayoutRatio()` → `List` [Getter]
+- `getDividendPeriod()` → `List` [Getter]
 - `getDividendReinvestment()` → `Boolean` [Getter]
 - `getDividendEntitlement()` → `DividendEntitlementEnum` [Getter]
 - `getFirstOrSecondPeriod()` → `DividendPeriodEnum` [Getter]
-- `getExcessDividendAmount()` → `DividendAmountTypeEnum` [Getter]
+- `getDividendCurrency()` → `DividendCurrency` [Getter]
 - `getDividendComposition()` → `DividendCompositionEnum` [Getter]
-- `getDividendPeriod()` → `List` [Getter]
 
 ### EquityUnderlierProvisionsBuilderImpl
 **Implements:** `EquityUnderlierProvisions$EquityUnderlierProvisionsBuilder` 
@@ -2155,26 +2155,26 @@
 
 **Key Methods:**
 - `build()` → `EquityUnderlierProvisions` [Builder]
-- `getMultipleExchangeIndexAnnexFallback()` → `Boolean` [Getter]
-- `setMultipleExchangeIndexAnnexFallback(Boolean arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
-- `setComponentSecurityIndexAnnexFallback(Boolean arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
-- `getOrCreateLocalJurisdiction()` → `FieldWithMetaStringBuilder` [Getter]
-- `setRelevantJurisdictionValue(String arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
-- `getOrCreateRelevantJurisdiction()` → `FieldWithMetaStringBuilder` [Getter]
-- `getComponentSecurityIndexAnnexFallback()` → `Boolean` [Getter]
-- `getLocalJurisdiction()` → `FieldWithMetaStringBuilder` [Getter]
 - `getRelevantJurisdiction()` → `FieldWithMetaStringBuilder` [Getter]
+- `getLocalJurisdiction()` → `FieldWithMetaStringBuilder` [Getter]
+- `getMultipleExchangeIndexAnnexFallback()` → `Boolean` [Getter]
+- `getComponentSecurityIndexAnnexFallback()` → `Boolean` [Getter]
+- `setLocalJurisdiction(FieldWithMetaString arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
+- `setRelevantJurisdiction(FieldWithMetaString arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
+- `setLocalJurisdictionValue(String arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
+- `setMultipleExchangeIndexAnnexFallback(Boolean arg0)` → `EquityUnderlierProvisionsBuilder` [Setter]
+- `getOrCreateLocalJurisdiction()` → `FieldWithMetaStringBuilder` [Getter]
 
 ### EquityUnderlierProvisionsImpl
 **Implements:** `EquityUnderlierProvisions` 
 
 **Key Methods:**
 - `build()` → `EquityUnderlierProvisions` [Builder]
-- `getMultipleExchangeIndexAnnexFallback()` → `Boolean` [Getter]
 - `setBuilderFields(EquityUnderlierProvisionsBuilder arg0)` → `void` [Setter]
-- `getComponentSecurityIndexAnnexFallback()` → `Boolean` [Getter]
-- `getLocalJurisdiction()` → `FieldWithMetaString` [Getter]
 - `getRelevantJurisdiction()` → `FieldWithMetaString` [Getter]
+- `getLocalJurisdiction()` → `FieldWithMetaString` [Getter]
+- `getMultipleExchangeIndexAnnexFallback()` → `Boolean` [Getter]
+- `getComponentSecurityIndexAnnexFallback()` → `Boolean` [Getter]
 
 ### FixedAmountCalculationDetailsBuilderImpl
 **Implements:** `FixedAmountCalculationDetails$FixedAmountCalculationDetailsBuilder` 
@@ -2189,25 +2189,25 @@
 **Key Methods:**
 - `build()` → `FixedAmountCalculationDetails` [Builder]
 - `getYearFraction()` → `BigDecimal` [Getter]
-- `setFixedRate(BigDecimal arg0)` → `FixedAmountCalculationDetailsBuilder` [Setter]
-- `getFixedRate()` → `BigDecimal` [Getter]
+- `setCalculatedAmount(BigDecimal arg0)` → `FixedAmountCalculationDetailsBuilder` [Setter]
 - `setCalculationPeriod(CalculationPeriodBase arg0)` → `FixedAmountCalculationDetailsBuilder` [Setter]
 - `setYearFraction(BigDecimal arg0)` → `FixedAmountCalculationDetailsBuilder` [Setter]
-- `setCalculatedAmount(BigDecimal arg0)` → `FixedAmountCalculationDetailsBuilder` [Setter]
-- `getCalculatedAmount()` → `BigDecimal` [Getter]
+- `setFixedRate(BigDecimal arg0)` → `FixedAmountCalculationDetailsBuilder` [Setter]
+- `getFixedRate()` → `BigDecimal` [Getter]
 - `getCalculationPeriod()` → `CalculationPeriodBaseBuilder` [Getter]
-- `getOrCreateCalculationPeriodNotionalAmount()` → `MoneyBuilder` [Getter]
+- `getCalculatedAmount()` → `BigDecimal` [Getter]
+- `getOrCreateCalculationPeriod()` → `CalculationPeriodBaseBuilder` [Getter]
 
 ### FixedAmountCalculationDetailsImpl
 **Implements:** `FixedAmountCalculationDetails` 
 
 **Key Methods:**
 - `build()` → `FixedAmountCalculationDetails` [Builder]
+- `setBuilderFields(FixedAmountCalculationDetailsBuilder arg0)` → `void` [Setter]
 - `getYearFraction()` → `BigDecimal` [Getter]
 - `getFixedRate()` → `BigDecimal` [Getter]
-- `getCalculatedAmount()` → `BigDecimal` [Getter]
 - `getCalculationPeriod()` → `CalculationPeriodBase` [Getter]
-- `setBuilderFields(FixedAmountCalculationDetailsBuilder arg0)` → `void` [Setter]
+- `getCalculatedAmount()` → `BigDecimal` [Getter]
 - `getCalculationPeriodNotionalAmount()` → `Money` [Getter]
 
 ### FixedRateSpecificationBuilderImpl
@@ -2219,21 +2219,21 @@
 
 **Key Methods:**
 - `build()` → `FixedRateSpecification` [Builder]
-- `getRateSchedule()` → `RateScheduleBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setRateSchedule(RateSchedule arg0)` → `FixedRateSpecificationBuilder` [Setter]
-- `getOrCreateRateSchedule()` → `RateScheduleBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FixedRateSpecificationBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FixedRateSpecificationBuilder` [Setter]
+- `getOrCreateRateSchedule()` → `RateScheduleBuilder` [Getter]
+- `setRateSchedule(RateSchedule arg0)` → `FixedRateSpecificationBuilder` [Setter]
+- `getRateSchedule()` → `RateScheduleBuilder` [Getter]
 
 ### FixedRateSpecificationImpl
 **Implements:** `FixedRateSpecification` 
 
 **Key Methods:**
 - `build()` → `FixedRateSpecification` [Builder]
-- `getRateSchedule()` → `RateSchedule` [Getter]
 - `setBuilderFields(FixedRateSpecificationBuilder arg0)` → `void` [Setter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getRateSchedule()` → `RateSchedule` [Getter]
 
 ### FloatingAmountEventsBuilderImpl
 **Implements:** `FloatingAmountEvents$FloatingAmountEventsBuilder` 
@@ -2248,28 +2248,28 @@
 
 **Key Methods:**
 - `build()` → `FloatingAmountEvents` [Builder]
-- `setFailureToPayPrincipal(Boolean arg0)` → `FloatingAmountEventsBuilder` [Setter]
-- `setWritedown(Boolean arg0)` → `FloatingAmountEventsBuilder` [Setter]
-- `setImpliedWritedown(Boolean arg0)` → `FloatingAmountEventsBuilder` [Setter]
+- `getInterestShortfall()` → `InterestShortFallBuilder` [Getter]
+- `getFloatingAmountProvisions()` → `FloatingAmountProvisionsBuilder` [Getter]
 - `setInterestShortfall(InterestShortFall arg0)` → `FloatingAmountEventsBuilder` [Setter]
 - `setAdditionalFixedPayments(AdditionalFixedPayments arg0)` → `FloatingAmountEventsBuilder` [Setter]
-- `getAdditionalFixedPayments()` → `AdditionalFixedPaymentsBuilder` [Getter]
-- `getOrCreateInterestShortfall()` → `InterestShortFallBuilder` [Getter]
-- `getOrCreateFloatingAmountProvisions()` → `FloatingAmountProvisionsBuilder` [Getter]
-- `getOrCreateAdditionalFixedPayments()` → `AdditionalFixedPaymentsBuilder` [Getter]
+- `setImpliedWritedown(Boolean arg0)` → `FloatingAmountEventsBuilder` [Setter]
+- `setWritedown(Boolean arg0)` → `FloatingAmountEventsBuilder` [Setter]
+- `setFailureToPayPrincipal(Boolean arg0)` → `FloatingAmountEventsBuilder` [Setter]
+- `getFailureToPayPrincipal()` → `Boolean` [Getter]
+- `getImpliedWritedown()` → `Boolean` [Getter]
 
 ### FloatingAmountEventsImpl
 **Implements:** `FloatingAmountEvents` 
 
 **Key Methods:**
 - `build()` → `FloatingAmountEvents` [Builder]
-- `getAdditionalFixedPayments()` → `AdditionalFixedPayments` [Getter]
 - `setBuilderFields(FloatingAmountEventsBuilder arg0)` → `void` [Setter]
 - `getInterestShortfall()` → `InterestShortFall` [Getter]
 - `getFloatingAmountProvisions()` → `FloatingAmountProvisions` [Getter]
-- `getWritedown()` → `Boolean` [Getter]
 - `getFailureToPayPrincipal()` → `Boolean` [Getter]
 - `getImpliedWritedown()` → `Boolean` [Getter]
+- `getWritedown()` → `Boolean` [Getter]
+- `getAdditionalFixedPayments()` → `AdditionalFixedPayments` [Getter]
 
 ### FloatingAmountProvisionsBuilderImpl
 **Implements:** `FloatingAmountProvisions$FloatingAmountProvisionsBuilder` 
@@ -2280,9 +2280,9 @@
 
 **Key Methods:**
 - `build()` → `FloatingAmountProvisions` [Builder]
-- `getWacCapInterestProvision()` → `Boolean` [Getter]
-- `setWacCapInterestProvision(Boolean arg0)` → `FloatingAmountProvisionsBuilder` [Setter]
 - `setStepUpProvision(Boolean arg0)` → `FloatingAmountProvisionsBuilder` [Setter]
+- `setWacCapInterestProvision(Boolean arg0)` → `FloatingAmountProvisionsBuilder` [Setter]
+- `getWacCapInterestProvision()` → `Boolean` [Getter]
 - `getStepUpProvision()` → `Boolean` [Getter]
 
 ### FloatingAmountProvisionsImpl
@@ -2290,9 +2290,9 @@
 
 **Key Methods:**
 - `build()` → `FloatingAmountProvisions` [Builder]
+- `setBuilderFields(FloatingAmountProvisionsBuilder arg0)` → `void` [Setter]
 - `getWacCapInterestProvision()` → `Boolean` [Getter]
 - `getStepUpProvision()` → `Boolean` [Getter]
-- `setBuilderFields(FloatingAmountProvisionsBuilder arg0)` → `void` [Setter]
 
 ### FloatingRateBaseBuilderImpl
 **Implements:** `FloatingRateBase$FloatingRateBaseBuilder` 
@@ -2306,27 +2306,27 @@
 
 **Key Methods:**
 - `build()` → `FloatingRateBase` [Builder]
-- `getFloorRateSchedule()` → `StrikeScheduleBuilder` [Getter]
-- `getSpreadSchedule()` → `SpreadScheduleBuilder` [Getter]
-- `getCapRateSchedule()` → `StrikeScheduleBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
 - `getRateOption()` → `ReferenceWithMetaInterestRateIndexBuilder` [Getter]
-- `setSpreadSchedule(SpreadSchedule arg0)` → `FloatingRateBaseBuilder` [Setter]
-- `getOrCreateSpreadSchedule()` → `SpreadScheduleBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FloatingRateBaseBuilder` [Setter]
+- `setCapRateSchedule(StrikeSchedule arg0)` → `FloatingRateBaseBuilder` [Setter]
 - `getOrCreateCapRateSchedule()` → `StrikeScheduleBuilder` [Getter]
 - `setFloorRateSchedule(StrikeSchedule arg0)` → `FloatingRateBaseBuilder` [Setter]
+- `getOrCreateSpreadSchedule()` → `SpreadScheduleBuilder` [Getter]
+- `setSpreadSchedule(SpreadSchedule arg0)` → `FloatingRateBaseBuilder` [Setter]
 
 ### FloatingRateBaseImpl
 **Implements:** `FloatingRateBase` 
 
 **Key Methods:**
 - `build()` → `FloatingRateBase` [Builder]
-- `getFloorRateSchedule()` → `StrikeSchedule` [Getter]
-- `getSpreadSchedule()` → `SpreadSchedule` [Getter]
-- `getCapRateSchedule()` → `StrikeSchedule` [Getter]
 - `setBuilderFields(FloatingRateBaseBuilder arg0)` → `void` [Setter]
 - `getRateOption()` → `ReferenceWithMetaInterestRateIndex` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getSpreadSchedule()` → `SpreadSchedule` [Getter]
+- `getFloorRateSchedule()` → `StrikeSchedule` [Getter]
+- `getCapRateSchedule()` → `StrikeSchedule` [Getter]
 
 ### FloatingRateBuilderImpl
 **Extends:** `FloatingRateBase$FloatingRateBaseBuilderImpl` 
@@ -2340,15 +2340,15 @@
 
 **Key Methods:**
 - `build()` → `FloatingRate` [Builder]
-- `getFallbackRate()` → `FallbackRateParametersBuilder` [Getter]
-- `getCalculationParameters()` → `FloatingRateCalculationParametersBuilder` [Getter]
-- `getRateTreatment()` → `RateTreatmentEnum` [Getter]
-- `setSpreadSchedule(SpreadSchedule arg0)` → `FloatingRateBuilder` [Setter]
+- `setMeta(MetaFields arg0)` → `FloatingRateBuilder` [Setter]
+- `setCapRateSchedule(StrikeSchedule arg0)` → `FloatingRateBuilder` [Setter]
 - `setRateTreatment(RateTreatmentEnum arg0)` → `FloatingRateBuilder` [Setter]
 - `setFloorRateSchedule(StrikeSchedule arg0)` → `FloatingRateBuilder` [Setter]
-- `setCapRateSchedule(StrikeSchedule arg0)` → `FloatingRateBuilder` [Setter]
+- `setSpreadSchedule(SpreadSchedule arg0)` → `FloatingRateBuilder` [Setter]
 - `setFallbackRate(FallbackRateParameters arg0)` → `FloatingRateBuilder` [Setter]
+- `getOrCreateFallbackRate()` → `FallbackRateParametersBuilder` [Getter]
 - `setRateOptionValue(InterestRateIndex arg0)` → `FloatingRateBuilder` [Setter]
+- `setCalculationParameters(FloatingRateCalculationParameters arg0)` → `FloatingRateBuilder` [Setter]
 
 ### FloatingRateDefinitionBuilderImpl
 **Implements:** `FloatingRateDefinition$FloatingRateDefinitionBuilder` 
@@ -2363,14 +2363,14 @@
 
 **Key Methods:**
 - `build()` → `FloatingRateDefinition` [Builder]
-- `getCalculatedRate()` → `BigDecimal` [Getter]
-- `getRateObservation()` → `List` [Getter]
-- `getFloatingRateMultiplier()` → `BigDecimal` [Getter]
-- `getFloorRate()` → `List` [Getter]
-- `setFloorRate(List arg0)` → `FloatingRateDefinitionBuilder` [Setter]
 - `getOrCreateFloorRate(int arg0)` → `StrikeBuilder` [Getter]
-- `setRateObservation(List arg0)` → `FloatingRateDefinitionBuilder` [Setter]
 - `setCalculatedRate(BigDecimal arg0)` → `FloatingRateDefinitionBuilder` [Setter]
+- `setRateObservation(List arg0)` → `FloatingRateDefinitionBuilder` [Setter]
+- `getCalculatedRate()` → `BigDecimal` [Getter]
+- `getFloatingRateMultiplier()` → `BigDecimal` [Getter]
+- `setFloatingRateMultiplier(BigDecimal arg0)` → `FloatingRateDefinitionBuilder` [Setter]
+- `getFloorRate()` → `List` [Getter]
+- `getRateObservation()` → `List` [Getter]
 - `getOrCreateRateObservation(int arg0)` → `RateObservationBuilder` [Getter]
 
 ### FloatingRateDefinitionImpl
@@ -2380,11 +2380,11 @@
 - `build()` → `FloatingRateDefinition` [Builder]
 - `setBuilderFields(FloatingRateDefinitionBuilder arg0)` → `void` [Setter]
 - `getCalculatedRate()` → `BigDecimal` [Getter]
-- `getRateObservation()` → `List` [Getter]
 - `getFloatingRateMultiplier()` → `BigDecimal` [Getter]
 - `getFloorRate()` → `List` [Getter]
-- `getSpread()` → `BigDecimal` [Getter]
+- `getRateObservation()` → `List` [Getter]
 - `getCapRate()` → `List` [Getter]
+- `getSpread()` → `BigDecimal` [Getter]
 
 ### FloatingRateImpl
 **Extends:** `FloatingRateBase$FloatingRateBaseImpl` 
@@ -2392,11 +2392,11 @@
 
 **Key Methods:**
 - `build()` → `FloatingRate` [Builder]
-- `getFallbackRate()` → `FallbackRateParameters` [Getter]
-- `getCalculationParameters()` → `FloatingRateCalculationParameters` [Getter]
-- `getRateTreatment()` → `RateTreatmentEnum` [Getter]
 - `setBuilderFields(FloatingRateBuilder arg0)` → `void` [Setter]
 - `getFloatingRateMultiplierSchedule()` → `RateSchedule` [Getter]
+- `getCalculationParameters()` → `FloatingRateCalculationParameters` [Getter]
+- `getFallbackRate()` → `FallbackRateParameters` [Getter]
+- `getRateTreatment()` → `RateTreatmentEnum` [Getter]
 
 ### FloatingRateSpecificationBuilderImpl
 **Extends:** `FloatingRate$FloatingRateBuilderImpl` 
@@ -2410,15 +2410,15 @@
 
 **Key Methods:**
 - `build()` → `FloatingRateSpecification` [Builder]
-- `getFinalRateRounding()` → `RoundingBuilder` [Getter]
-- `getInitialRate()` → `PriceBuilder` [Getter]
-- `setAveragingMethod(AveragingWeightingMethodEnum arg0)` → `FloatingRateSpecificationBuilder` [Setter]
-- `setSpreadSchedule(SpreadSchedule arg0)` → `FloatingRateSpecificationBuilder` [Setter]
+- `getAveragingMethod()` → `AveragingWeightingMethodEnum` [Getter]
+- `setMeta(MetaFields arg0)` → `FloatingRateSpecificationBuilder` [Setter]
+- `setCapRateSchedule(StrikeSchedule arg0)` → `FloatingRateSpecificationBuilder` [Setter]
 - `setRateTreatment(RateTreatmentEnum arg0)` → `FloatingRateSpecificationBuilder` [Setter]
 - `setFloorRateSchedule(StrikeSchedule arg0)` → `FloatingRateSpecificationBuilder` [Setter]
-- `setCapRateSchedule(StrikeSchedule arg0)` → `FloatingRateSpecificationBuilder` [Setter]
+- `setSpreadSchedule(SpreadSchedule arg0)` → `FloatingRateSpecificationBuilder` [Setter]
+- `setFinalRateRounding(Rounding arg0)` → `FloatingRateSpecificationBuilder` [Setter]
 - `setFallbackRate(FallbackRateParameters arg0)` → `FloatingRateSpecificationBuilder` [Setter]
-- `setRateOptionValue(InterestRateIndex arg0)` → `FloatingRateSpecificationBuilder` [Setter]
+- `setInitialRate(Price arg0)` → `FloatingRateSpecificationBuilder` [Setter]
 
 ### FloatingRateSpecificationImpl
 **Extends:** `FloatingRate$FloatingRateImpl` 
@@ -2426,11 +2426,11 @@
 
 **Key Methods:**
 - `build()` → `FloatingRateSpecification` [Builder]
-- `getFinalRateRounding()` → `Rounding` [Getter]
-- `getInitialRate()` → `Price` [Getter]
 - `setBuilderFields(FloatingRateSpecificationBuilder arg0)` → `void` [Setter]
-- `getNegativeInterestRateTreatment()` → `NegativeInterestRateTreatmentEnum` [Getter]
 - `getAveragingMethod()` → `AveragingWeightingMethodEnum` [Getter]
+- `getNegativeInterestRateTreatment()` → `NegativeInterestRateTreatmentEnum` [Getter]
+- `getInitialRate()` → `Price` [Getter]
+- `getFinalRateRounding()` → `Rounding` [Getter]
 
 ### ForeignExchangeBuilderImpl
 **Implements:** `ForeignExchange$ForeignExchangeBuilder` 
@@ -2442,15 +2442,15 @@
 
 **Key Methods:**
 - `build()` → `ForeignExchange` [Builder]
-- `getOrCreateExchangedCurrency2()` → `CashflowBuilder` [Getter]
-- `getOrCreateExchangedCurrency1()` → `CashflowBuilder` [Getter]
-- `getExchangedCurrency2()` → `CashflowBuilder` [Getter]
-- `getExchangedCurrency1()` → `CashflowBuilder` [Getter]
-- `getTenorPeriod()` → `PeriodBuilder` [Getter]
-- `setTenorPeriod(Period arg0)` → `ForeignExchangeBuilder` [Setter]
-- `setExchangedCurrency2(Cashflow arg0)` → `ForeignExchangeBuilder` [Setter]
 - `getOrCreateTenorPeriod()` → `PeriodBuilder` [Getter]
+- `getExchangedCurrency2()` → `CashflowBuilder` [Getter]
+- `getTenorPeriod()` → `PeriodBuilder` [Getter]
+- `getExchangedCurrency1()` → `CashflowBuilder` [Getter]
 - `setExchangedCurrency1(Cashflow arg0)` → `ForeignExchangeBuilder` [Setter]
+- `setExchangedCurrency2(Cashflow arg0)` → `ForeignExchangeBuilder` [Setter]
+- `setTenorPeriod(Period arg0)` → `ForeignExchangeBuilder` [Setter]
+- `getOrCreateExchangedCurrency1()` → `CashflowBuilder` [Getter]
+- `getOrCreateExchangedCurrency2()` → `CashflowBuilder` [Getter]
 
 ### ForeignExchangeImpl
 **Implements:** `ForeignExchange` 
@@ -2459,8 +2459,8 @@
 - `build()` → `ForeignExchange` [Builder]
 - `setBuilderFields(ForeignExchangeBuilder arg0)` → `void` [Setter]
 - `getExchangedCurrency2()` → `Cashflow` [Getter]
-- `getExchangedCurrency1()` → `Cashflow` [Getter]
 - `getTenorPeriod()` → `Period` [Getter]
+- `getExchangedCurrency1()` → `Cashflow` [Getter]
 
 ### FutureValueAmountBuilderImpl
 **Implements:** `FutureValueAmount$FutureValueAmountBuilder` 
@@ -2475,13 +2475,13 @@
 - `build()` → `FutureValueAmount` [Builder]
 - `getCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrency(FieldWithMetaString arg0)` → `FutureValueAmountBuilder` [Setter]
-- `getValueDate()` → `Date` [Getter]
 - `getQuantity()` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Getter]
-- `getOrCreateQuantity()` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Getter]
 - `setQuantity(ReferenceWithMetaNonNegativeQuantitySchedule arg0)` → `FutureValueAmountBuilder` [Setter]
-- `setQuantityValue(NonNegativeQuantitySchedule arg0)` → `FutureValueAmountBuilder` [Setter]
-- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
+- `getOrCreateQuantity()` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Getter]
 - `setCurrencyValue(String arg0)` → `FutureValueAmountBuilder` [Setter]
+- `setQuantityValue(NonNegativeQuantitySchedule arg0)` → `FutureValueAmountBuilder` [Setter]
+- `getCalculationPeriodNumberOfDays()` → `Integer` [Getter]
+- `setCalculationPeriodNumberOfDays(Integer arg0)` → `FutureValueAmountBuilder` [Setter]
 
 ### FutureValueAmountImpl
 **Implements:** `FutureValueAmount` 
@@ -2489,10 +2489,10 @@
 **Key Methods:**
 - `build()` → `FutureValueAmount` [Builder]
 - `getCurrency()` → `FieldWithMetaString` [Getter]
-- `getValueDate()` → `Date` [Getter]
 - `getQuantity()` → `ReferenceWithMetaNonNegativeQuantitySchedule` [Getter]
 - `setBuilderFields(FutureValueAmountBuilder arg0)` → `void` [Setter]
 - `getCalculationPeriodNumberOfDays()` → `Integer` [Getter]
+- `getValueDate()` → `Date` [Getter]
 
 ### GeneralTermsBuilderImpl
 **Implements:** `GeneralTerms$GeneralTermsBuilder` 
@@ -2507,28 +2507,28 @@
 
 **Key Methods:**
 - `build()` → `GeneralTerms` [Builder]
-- `getAdditionalTerm()` → `List` [Getter]
 - `setReferenceInformation(ReferenceInformation arg0)` → `GeneralTermsBuilder` [Setter]
 - `getReferenceInformation()` → `ReferenceInformationBuilder` [Getter]
-- `getOrCreateAdditionalTerm(int arg0)` → `FieldWithMetaStringBuilder` [Getter]
-- `setAdditionalTermValue(List arg0)` → `GeneralTermsBuilder` [Setter]
-- `setModifiedEquityDelivery(Boolean arg0)` → `GeneralTermsBuilder` [Setter]
+- `getIndexReferenceInformation()` → `CreditIndexBuilder` [Getter]
+- `getOrCreateReferenceInformation()` → `ReferenceInformationBuilder` [Getter]
+- `getSubstitution()` → `Boolean` [Getter]
+- `getModifiedEquityDelivery()` → `Boolean` [Getter]
 - `setAdditionalTerm(List arg0)` → `GeneralTermsBuilder` [Setter]
+- `setModifiedEquityDelivery(Boolean arg0)` → `GeneralTermsBuilder` [Setter]
 - `setSubstitution(Boolean arg0)` → `GeneralTermsBuilder` [Setter]
-- `getOrCreateBasketReferenceInformation()` → `BasketReferenceInformationBuilder` [Getter]
 
 ### GeneralTermsImpl
 **Implements:** `GeneralTerms` 
 
 **Key Methods:**
 - `build()` → `GeneralTerms` [Builder]
-- `getAdditionalTerm()` → `List` [Getter]
-- `getReferenceInformation()` → `ReferenceInformation` [Getter]
 - `setBuilderFields(GeneralTermsBuilder arg0)` → `void` [Setter]
+- `getReferenceInformation()` → `ReferenceInformation` [Getter]
+- `getIndexReferenceInformation()` → `CreditIndex` [Getter]
 - `getSubstitution()` → `Boolean` [Getter]
 - `getModifiedEquityDelivery()` → `Boolean` [Getter]
 - `getBasketReferenceInformation()` → `BasketReferenceInformation` [Getter]
-- `getIndexReferenceInformation()` → `CreditIndex` [Getter]
+- `getAdditionalTerm()` → `List` [Getter]
 
 ### InflationRateSpecificationBuilderImpl
 **Extends:** `FloatingRateSpecification$FloatingRateSpecificationBuilderImpl` 
@@ -2547,15 +2547,15 @@
 
 **Key Methods:**
 - `build()` → `InflationRateSpecification` [Builder]
-- `setAveragingMethod(AveragingWeightingMethodEnum arg0)` → `InflationRateSpecificationBuilder` [Setter]
+- `setMeta(MetaFields arg0)` → `InflationRateSpecificationBuilder` [Setter]
 - `getCalculationMethod()` → `InflationCalculationMethodEnum` [Getter]
-- `setCalculationMethod(InflationCalculationMethodEnum arg0)` → `InflationRateSpecificationBuilder` [Setter]
-- `setSpreadSchedule(SpreadSchedule arg0)` → `InflationRateSpecificationBuilder` [Setter]
+- `setCapRateSchedule(StrikeSchedule arg0)` → `InflationRateSpecificationBuilder` [Setter]
 - `setRateTreatment(RateTreatmentEnum arg0)` → `InflationRateSpecificationBuilder` [Setter]
 - `setFloorRateSchedule(StrikeSchedule arg0)` → `InflationRateSpecificationBuilder` [Setter]
-- `setCapRateSchedule(StrikeSchedule arg0)` → `InflationRateSpecificationBuilder` [Setter]
+- `setSpreadSchedule(SpreadSchedule arg0)` → `InflationRateSpecificationBuilder` [Setter]
 - `getOrCreateMainPublication()` → `FieldWithMetaStringBuilder` [Getter]
-- `getFallbackBondApplicable()` → `Boolean` [Getter]
+- `setIndexSourceValue(String arg0)` → `InflationRateSpecificationBuilder` [Setter]
+- `getMainPublication()` → `FieldWithMetaStringBuilder` [Getter]
 
 ### InflationRateSpecificationImpl
 **Extends:** `FloatingRateSpecification$FloatingRateSpecificationImpl` 
@@ -2563,15 +2563,15 @@
 
 **Key Methods:**
 - `build()` → `InflationRateSpecification` [Builder]
-- `getCalculationMethod()` → `InflationCalculationMethodEnum` [Getter]
 - `setBuilderFields(InflationRateSpecificationBuilder arg0)` → `void` [Setter]
-- `getFallbackBondApplicable()` → `Boolean` [Getter]
+- `getCalculationMethod()` → `InflationCalculationMethodEnum` [Getter]
 - `getMainPublication()` → `FieldWithMetaString` [Getter]
-- `getInterpolationMethod()` → `FieldWithMetaInterpolationMethodEnum` [Getter]
-- `getIndexSource()` → `FieldWithMetaString` [Getter]
-- `getCalculationStyle()` → `InflationCalculationStyleEnum` [Getter]
-- `getInitialIndexLevel()` → `BigDecimal` [Getter]
 - `getInflationLag()` → `Offset` [Getter]
+- `getIndexSource()` → `FieldWithMetaString` [Getter]
+- `getInitialIndexLevel()` → `BigDecimal` [Getter]
+- `getInterpolationMethod()` → `FieldWithMetaInterpolationMethodEnum` [Getter]
+- `getCalculationStyle()` → `InflationCalculationStyleEnum` [Getter]
+- `getFallbackBondApplicable()` → `Boolean` [Getter]
 
 ### InterestRatePayoutBuilderImpl
 **Extends:** `PayoutBase$PayoutBaseBuilderImpl` 
@@ -2596,15 +2596,15 @@
 
 **Key Methods:**
 - `build()` → `InterestRatePayout` [Builder]
-- `getFloatingAmount()` → `String` [Getter]
-- `getPaymentDelay()` → `Boolean` [Getter]
-- `getResetDates()` → `ResetDatesBuilder` [Getter]
-- `getDiscountingMethod()` → `DiscountingMethodBuilder` [Getter]
-- `getCompoundingMethod()` → `CompoundingMethodEnum` [Getter]
-- `getCashflowRepresentation()` → `CashflowRepresentationBuilder` [Getter]
-- `getStubPeriod()` → `StubPeriodBuilder` [Getter]
-- `getBondReference()` → `BondReferenceBuilder` [Getter]
-- `getFixedAmount()` → `String` [Getter]
+- `setPayerReceiver(PayerReceiver arg0)` → `InterestRatePayoutBuilder` [Setter]
+- `setPriceQuantity(ResolvablePriceQuantity arg0)` → `InterestRatePayoutBuilder` [Setter]
+- `setSettlementTerms(SettlementTerms arg0)` → `InterestRatePayoutBuilder` [Setter]
+- `setPaymentDates(PaymentDates arg0)` → `InterestRatePayoutBuilder` [Setter]
+- `getDayCountFraction()` → `FieldWithMetaDayCountFractionEnumBuilder` [Getter]
+- `getPaymentDates()` → `PaymentDatesBuilder` [Getter]
+- `getOrCreatePaymentDates()` → `PaymentDatesBuilder` [Getter]
+- `getOrCreateResetDates()` → `ResetDatesBuilder` [Getter]
+- `getOrCreateStubPeriod()` → `StubPeriodBuilder` [Getter]
 
 ### InterestRatePayoutImpl
 **Extends:** `PayoutBase$PayoutBaseImpl` 
@@ -2612,15 +2612,15 @@
 
 **Key Methods:**
 - `build()` → `InterestRatePayout` [Builder]
-- `getFloatingAmount()` → `String` [Getter]
-- `getPaymentDelay()` → `Boolean` [Getter]
+- `setBuilderFields(InterestRatePayoutBuilder arg0)` → `void` [Setter]
+- `getDayCountFraction()` → `FieldWithMetaDayCountFractionEnum` [Getter]
+- `getPaymentDates()` → `PaymentDates` [Getter]
+- `getRateSpecification()` → `RateSpecification` [Getter]
+- `getCalculationPeriodDates()` → `CalculationPeriodDates` [Getter]
+- `getStubPeriod()` → `StubPeriod` [Getter]
 - `getResetDates()` → `ResetDates` [Getter]
 - `getDiscountingMethod()` → `DiscountingMethod` [Getter]
-- `getCompoundingMethod()` → `CompoundingMethodEnum` [Getter]
-- `getCashflowRepresentation()` → `CashflowRepresentation` [Getter]
-- `getStubPeriod()` → `StubPeriod` [Getter]
 - `getBondReference()` → `BondReference` [Getter]
-- `getFixedAmount()` → `String` [Getter]
 
 ### InterestShortFallBuilderImpl
 **Implements:** `InterestShortFall$InterestShortFallBuilder` 
@@ -2632,13 +2632,13 @@
 
 **Key Methods:**
 - `build()` → `InterestShortFall` [Builder]
-- `setRateSource(FieldWithMetaFloatingRateIndexEnum arg0)` → `InterestShortFallBuilder` [Setter]
-- `getRateSource()` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Getter]
-- `setInterestShortfallCap(InterestShortfallCapEnum arg0)` → `InterestShortFallBuilder` [Setter]
-- `getInterestShortfallCap()` → `InterestShortfallCapEnum` [Getter]
-- `getOrCreateRateSource()` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Getter]
-- `setCompounding(Boolean arg0)` → `InterestShortFallBuilder` [Setter]
 - `setRateSourceValue(FloatingRateIndexEnum arg0)` → `InterestShortFallBuilder` [Setter]
+- `getRateSource()` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Getter]
+- `getOrCreateRateSource()` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Getter]
+- `getInterestShortfallCap()` → `InterestShortfallCapEnum` [Getter]
+- `setRateSource(FieldWithMetaFloatingRateIndexEnum arg0)` → `InterestShortFallBuilder` [Setter]
+- `setCompounding(Boolean arg0)` → `InterestShortFallBuilder` [Setter]
+- `setInterestShortfallCap(InterestShortfallCapEnum arg0)` → `InterestShortFallBuilder` [Setter]
 - `getCompounding()` → `Boolean` [Getter]
 
 ### InterestShortFallImpl
@@ -2646,10 +2646,10 @@
 
 **Key Methods:**
 - `build()` → `InterestShortFall` [Builder]
+- `setBuilderFields(InterestShortFallBuilder arg0)` → `void` [Setter]
 - `getRateSource()` → `FieldWithMetaFloatingRateIndexEnum` [Getter]
 - `getInterestShortfallCap()` → `InterestShortfallCapEnum` [Getter]
 - `getCompounding()` → `Boolean` [Getter]
-- `setBuilderFields(InterestShortFallBuilder arg0)` → `void` [Setter]
 
 ### PriceReturnTermsBuilderImpl
 **Implements:** `PriceReturnTerms$PriceReturnTermsBuilder` 
@@ -2662,11 +2662,11 @@
 **Key Methods:**
 - `getReturnType()` → `ReturnTypeEnum` [Getter]
 - `build()` → `PriceReturnTerms` [Builder]
+- `setReturnType(ReturnTypeEnum arg0)` → `PriceReturnTermsBuilder` [Setter]
+- `setConversionFactor(BigDecimal arg0)` → `PriceReturnTermsBuilder` [Setter]
+- `setPerformance(String arg0)` → `PriceReturnTermsBuilder` [Setter]
 - `getPerformance()` → `String` [Getter]
 - `getConversionFactor()` → `BigDecimal` [Getter]
-- `setReturnType(ReturnTypeEnum arg0)` → `PriceReturnTermsBuilder` [Setter]
-- `setPerformance(String arg0)` → `PriceReturnTermsBuilder` [Setter]
-- `setConversionFactor(BigDecimal arg0)` → `PriceReturnTermsBuilder` [Setter]
 
 ### PriceReturnTermsImpl
 **Implements:** `PriceReturnTerms` 
@@ -2674,9 +2674,9 @@
 **Key Methods:**
 - `getReturnType()` → `ReturnTypeEnum` [Getter]
 - `build()` → `PriceReturnTerms` [Builder]
+- `setBuilderFields(PriceReturnTermsBuilder arg0)` → `void` [Setter]
 - `getPerformance()` → `String` [Getter]
 - `getConversionFactor()` → `BigDecimal` [Getter]
-- `setBuilderFields(PriceReturnTermsBuilder arg0)` → `void` [Setter]
 
 ### ProtectionTermsBuilderImpl
 **Implements:** `ProtectionTerms$ProtectionTermsBuilder` 
@@ -2689,26 +2689,26 @@
 
 **Key Methods:**
 - `build()` → `ProtectionTerms` [Builder]
-- `getFloatingAmountEvents()` → `FloatingAmountEventsBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `getOrCreateCreditEvents()` → `CreditEventsBuilder` [Getter]
-- `getOrCreateObligations()` → `ObligationsBuilder` [Getter]
-- `setCreditEvents(CreditEvents arg0)` → `ProtectionTermsBuilder` [Setter]
-- `setFloatingAmountEvents(FloatingAmountEvents arg0)` → `ProtectionTermsBuilder` [Setter]
-- `setObligations(Obligations arg0)` → `ProtectionTermsBuilder` [Setter]
-- `getOrCreateFloatingAmountEvents()` → `FloatingAmountEventsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `ProtectionTermsBuilder` [Setter]
 - `getCreditEvents()` → `CreditEventsBuilder` [Getter]
+- `setObligations(Obligations arg0)` → `ProtectionTermsBuilder` [Setter]
+- `getOrCreateObligations()` → `ObligationsBuilder` [Getter]
+- `setFloatingAmountEvents(FloatingAmountEvents arg0)` → `ProtectionTermsBuilder` [Setter]
+- `setCreditEvents(CreditEvents arg0)` → `ProtectionTermsBuilder` [Setter]
+- `getOrCreateCreditEvents()` → `CreditEventsBuilder` [Getter]
 
 ### ProtectionTermsImpl
 **Implements:** `ProtectionTerms` 
 
 **Key Methods:**
 - `build()` → `ProtectionTerms` [Builder]
-- `getFloatingAmountEvents()` → `FloatingAmountEvents` [Getter]
 - `setBuilderFields(ProtectionTermsBuilder arg0)` → `void` [Setter]
-- `getCreditEvents()` → `CreditEvents` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getCreditEvents()` → `CreditEvents` [Getter]
 - `getObligations()` → `Obligations` [Getter]
+- `getFloatingAmountEvents()` → `FloatingAmountEvents` [Getter]
 
 ### RateSpecificationBuilderImpl
 **Implements:** `RateSpecification$RateSpecificationBuilder` 
@@ -2720,25 +2720,25 @@
 
 **Key Methods:**
 - `build()` → `RateSpecification` [Builder]
-- `getFixedRateSpecification()` → `FixedRateSpecificationBuilder` [Getter]
 - `setFixedRateSpecification(FixedRateSpecification arg0)` → `RateSpecificationBuilder` [Setter]
-- `getInflationRateSpecification()` → `InflationRateSpecificationBuilder` [Getter]
-- `getOrCreateInflationRateSpecification()` → `InflationRateSpecificationBuilder` [Getter]
-- `getOrCreateFixedRateSpecification()` → `FixedRateSpecificationBuilder` [Getter]
 - `getOrCreateFloatingRateSpecification()` → `FloatingRateSpecificationBuilder` [Getter]
+- `getOrCreateFixedRateSpecification()` → `FixedRateSpecificationBuilder` [Getter]
+- `getOrCreateInflationRateSpecification()` → `InflationRateSpecificationBuilder` [Getter]
 - `setInflationRateSpecification(InflationRateSpecification arg0)` → `RateSpecificationBuilder` [Setter]
 - `setFloatingRateSpecification(FloatingRateSpecification arg0)` → `RateSpecificationBuilder` [Setter]
+- `getInflationRateSpecification()` → `InflationRateSpecificationBuilder` [Getter]
 - `getFloatingRateSpecification()` → `FloatingRateSpecificationBuilder` [Getter]
+- `getFixedRateSpecification()` → `FixedRateSpecificationBuilder` [Getter]
 
 ### RateSpecificationImpl
 **Implements:** `RateSpecification` 
 
 **Key Methods:**
 - `build()` → `RateSpecification` [Builder]
-- `getFixedRateSpecification()` → `FixedRateSpecification` [Getter]
 - `setBuilderFields(RateSpecificationBuilder arg0)` → `void` [Setter]
 - `getInflationRateSpecification()` → `InflationRateSpecification` [Getter]
 - `getFloatingRateSpecification()` → `FloatingRateSpecification` [Getter]
+- `getFixedRateSpecification()` → `FixedRateSpecification` [Getter]
 
 ### ReferenceInformationBuilderImpl
 **Implements:** `ReferenceInformation$ReferenceInformationBuilder` 
@@ -2755,15 +2755,15 @@
 
 **Key Methods:**
 - `build()` → `ReferenceInformation` [Builder]
-- `getOrCreateReferenceEntity()` → `LegalEntityBuilder` [Getter]
-- `getOrCreateReferencePrice()` → `PriceBuilder` [Getter]
-- `setReferencePrice(Price arg0)` → `ReferenceInformationBuilder` [Setter]
-- `setReferenceObligation(List arg0)` → `ReferenceInformationBuilder` [Setter]
-- `setReferenceEntity(LegalEntity arg0)` → `ReferenceInformationBuilder` [Setter]
-- `setReferencePolicy(Boolean arg0)` → `ReferenceInformationBuilder` [Setter]
-- `setAllGuarantees(Boolean arg0)` → `ReferenceInformationBuilder` [Setter]
-- `setSecuredList(Boolean arg0)` → `ReferenceInformationBuilder` [Setter]
-- `setNoReferenceObligation(Boolean arg0)` → `ReferenceInformationBuilder` [Setter]
+- `getAllGuarantees()` → `Boolean` [Getter]
+- `getReferenceEntity()` → `LegalEntityBuilder` [Getter]
+- `getReferencePrice()` → `PriceBuilder` [Getter]
+- `getReferenceObligation()` → `List` [Getter]
+- `getNoReferenceObligation()` → `Boolean` [Getter]
+- `getReferencePolicy()` → `Boolean` [Getter]
+- `getSecuredList()` → `Boolean` [Getter]
+- `getUnknownReferenceObligation()` → `Boolean` [Getter]
+- `setUnknownReferenceObligation(Boolean arg0)` → `ReferenceInformationBuilder` [Setter]
 
 ### ReferenceInformationImpl
 **Implements:** `ReferenceInformation` 
@@ -2771,13 +2771,13 @@
 **Key Methods:**
 - `build()` → `ReferenceInformation` [Builder]
 - `getAllGuarantees()` → `Boolean` [Getter]
+- `setBuilderFields(ReferenceInformationBuilder arg0)` → `void` [Setter]
+- `getReferenceEntity()` → `LegalEntity` [Getter]
+- `getReferencePrice()` → `Price` [Getter]
 - `getReferenceObligation()` → `List` [Getter]
 - `getNoReferenceObligation()` → `Boolean` [Getter]
-- `getReferencePrice()` → `Price` [Getter]
-- `getReferenceEntity()` → `LegalEntity` [Getter]
 - `getReferencePolicy()` → `Boolean` [Getter]
 - `getSecuredList()` → `Boolean` [Getter]
-- `setBuilderFields(ReferenceInformationBuilder arg0)` → `void` [Setter]
 - `getUnknownReferenceObligation()` → `Boolean` [Getter]
 
 ### ReferenceObligationBuilderImpl
@@ -2794,29 +2794,29 @@
 
 **Key Methods:**
 - `build()` → `ReferenceObligation` [Builder]
-- `getOrCreateGuarantor()` → `LegalEntityBuilder` [Getter]
-- `getPrimaryObligor()` → `LegalEntityBuilder` [Getter]
-- `setGuarantorReference(String arg0)` → `ReferenceObligationBuilder` [Setter]
-- `getGuarantor()` → `LegalEntityBuilder` [Getter]
-- `getGuarantorReference()` → `String` [Getter]
+- `getSecurity()` → `SecurityBuilder` [Getter]
+- `getOrCreateSecurity()` → `SecurityBuilder` [Getter]
+- `getLoan()` → `LoanBuilder` [Getter]
+- `setLoan(Loan arg0)` → `ReferenceObligationBuilder` [Setter]
+- `setStandardReferenceObligation(Boolean arg0)` → `ReferenceObligationBuilder` [Setter]
+- `getOrCreatePrimaryObligorReference()` → `ReferenceWithMetaLegalEntityBuilder` [Getter]
+- `getStandardReferenceObligation()` → `Boolean` [Getter]
+- `setPrimaryObligorReferenceValue(LegalEntity arg0)` → `ReferenceObligationBuilder` [Setter]
 - `setSecurity(Security arg0)` → `ReferenceObligationBuilder` [Setter]
-- `setGuarantor(LegalEntity arg0)` → `ReferenceObligationBuilder` [Setter]
-- `setPrimaryObligorReference(ReferenceWithMetaLegalEntity arg0)` → `ReferenceObligationBuilder` [Setter]
-- `getOrCreatePrimaryObligor()` → `LegalEntityBuilder` [Getter]
 
 ### ReferenceObligationImpl
 **Implements:** `ReferenceObligation` 
 
 **Key Methods:**
 - `build()` → `ReferenceObligation` [Builder]
-- `getPrimaryObligor()` → `LegalEntity` [Getter]
-- `getGuarantor()` → `LegalEntity` [Getter]
-- `getGuarantorReference()` → `String` [Getter]
-- `getPrimaryObligorReference()` → `ReferenceWithMetaLegalEntity` [Getter]
-- `getLoan()` → `Loan` [Getter]
 - `setBuilderFields(ReferenceObligationBuilder arg0)` → `void` [Setter]
 - `getSecurity()` → `Security` [Getter]
+- `getLoan()` → `Loan` [Getter]
 - `getStandardReferenceObligation()` → `Boolean` [Getter]
+- `getPrimaryObligorReference()` → `ReferenceWithMetaLegalEntity` [Getter]
+- `getGuarantor()` → `LegalEntity` [Getter]
+- `getPrimaryObligor()` → `LegalEntity` [Getter]
+- `getGuarantorReference()` → `String` [Getter]
 
 ### ReferencePairBuilderImpl
 **Implements:** `ReferencePair$ReferencePairBuilder` 
@@ -2829,26 +2829,26 @@
 
 **Key Methods:**
 - `build()` → `ReferencePair` [Builder]
-- `getOrCreateReferenceEntity()` → `LegalEntityBuilder` [Getter]
-- `setReferenceObligation(ReferenceObligation arg0)` → `ReferencePairBuilder` [Setter]
-- `setReferenceEntity(LegalEntity arg0)` → `ReferencePairBuilder` [Setter]
-- `setNoReferenceObligation(Boolean arg0)` → `ReferencePairBuilder` [Setter]
-- `setEntityType(FieldWithMetaEntityTypeEnum arg0)` → `ReferencePairBuilder` [Setter]
-- `getEntityType()` → `FieldWithMetaEntityTypeEnumBuilder` [Getter]
+- `getReferenceEntity()` → `LegalEntityBuilder` [Getter]
+- `getReferenceObligation()` → `ReferenceObligationBuilder` [Getter]
+- `getNoReferenceObligation()` → `Boolean` [Getter]
 - `getOrCreateEntityType()` → `FieldWithMetaEntityTypeEnumBuilder` [Getter]
 - `setEntityTypeValue(EntityTypeEnum arg0)` → `ReferencePairBuilder` [Setter]
-- `getReferenceObligation()` → `ReferenceObligationBuilder` [Getter]
+- `setEntityType(FieldWithMetaEntityTypeEnum arg0)` → `ReferencePairBuilder` [Setter]
+- `getEntityType()` → `FieldWithMetaEntityTypeEnumBuilder` [Getter]
+- `getOrCreateReferenceObligation()` → `ReferenceObligationBuilder` [Getter]
+- `setReferenceObligation(ReferenceObligation arg0)` → `ReferencePairBuilder` [Setter]
 
 ### ReferencePairImpl
 **Implements:** `ReferencePair` 
 
 **Key Methods:**
 - `build()` → `ReferencePair` [Builder]
-- `getEntityType()` → `FieldWithMetaEntityTypeEnum` [Getter]
+- `setBuilderFields(ReferencePairBuilder arg0)` → `void` [Setter]
+- `getReferenceEntity()` → `LegalEntity` [Getter]
 - `getReferenceObligation()` → `ReferenceObligation` [Getter]
 - `getNoReferenceObligation()` → `Boolean` [Getter]
-- `getReferenceEntity()` → `LegalEntity` [Getter]
-- `setBuilderFields(ReferencePairBuilder arg0)` → `void` [Setter]
+- `getEntityType()` → `FieldWithMetaEntityTypeEnum` [Getter]
 
 ### ReferencePoolBuilderImpl
 **Implements:** `ReferencePool$ReferencePoolBuilder` 
@@ -2858,8 +2858,8 @@
 
 **Key Methods:**
 - `build()` → `ReferencePool` [Builder]
-- `setReferencePoolItem(List arg0)` → `ReferencePoolBuilder` [Setter]
 - `getReferencePoolItem()` → `List` [Getter]
+- `setReferencePoolItem(List arg0)` → `ReferencePoolBuilder` [Setter]
 - `getOrCreateReferencePoolItem(int arg0)` → `ReferencePoolItemBuilder` [Getter]
 
 ### ReferencePoolImpl
@@ -2867,8 +2867,8 @@
 
 **Key Methods:**
 - `build()` → `ReferencePool` [Builder]
-- `getReferencePoolItem()` → `List` [Getter]
 - `setBuilderFields(ReferencePoolBuilder arg0)` → `void` [Setter]
+- `getReferencePoolItem()` → `List` [Getter]
 
 ### ReferencePoolItemBuilderImpl
 **Implements:** `ReferencePoolItem$ReferencePoolItemBuilder` 
@@ -2882,24 +2882,24 @@
 
 **Key Methods:**
 - `build()` → `ReferencePoolItem` [Builder]
-- `setReferencePair(ReferencePair arg0)` → `ReferencePoolItemBuilder` [Setter]
+- `getOrCreatePhysicalSettlementTermsReference()` → `ReferenceWithMetaPhysicalSettlementTermsBuilder` [Getter]
 - `getConstituentWeight()` → `ConstituentWeightBuilder` [Getter]
+- `getOrCreateReferencePair()` → `ReferencePairBuilder` [Getter]
 - `getReferencePair()` → `ReferencePairBuilder` [Getter]
 - `setConstituentWeight(ConstituentWeight arg0)` → `ReferencePoolItemBuilder` [Setter]
-- `getOrCreateReferencePair()` → `ReferencePairBuilder` [Getter]
-- `getOrCreateCashSettlementTermsReference()` → `ReferenceWithMetaCashSettlementTermsBuilder` [Getter]
+- `setReferencePair(ReferencePair arg0)` → `ReferencePoolItemBuilder` [Setter]
 - `getProtectionTermsReference()` → `ReferenceWithMetaProtectionTermsBuilder` [Getter]
+- `getCashSettlementTermsReference()` → `ReferenceWithMetaCashSettlementTermsBuilder` [Getter]
 - `setProtectionTermsReference(ReferenceWithMetaProtectionTerms arg0)` → `ReferencePoolItemBuilder` [Setter]
-- `setProtectionTermsReferenceValue(ProtectionTerms arg0)` → `ReferencePoolItemBuilder` [Setter]
 
 ### ReferencePoolItemImpl
 **Implements:** `ReferencePoolItem` 
 
 **Key Methods:**
 - `build()` → `ReferencePoolItem` [Builder]
+- `setBuilderFields(ReferencePoolItemBuilder arg0)` → `void` [Setter]
 - `getConstituentWeight()` → `ConstituentWeight` [Getter]
 - `getReferencePair()` → `ReferencePair` [Getter]
-- `setBuilderFields(ReferencePoolItemBuilder arg0)` → `void` [Setter]
 - `getProtectionTermsReference()` → `ReferenceWithMetaProtectionTerms` [Getter]
 - `getCashSettlementTermsReference()` → `ReferenceWithMetaCashSettlementTerms` [Getter]
 - `getPhysicalSettlementTermsReference()` → `ReferenceWithMetaPhysicalSettlementTerms` [Getter]
@@ -2921,30 +2921,30 @@
 
 **Key Methods:**
 - `build()` → `ReturnTermsBase` [Builder]
-- `getPerformance()` → `String` [Getter]
-- `setSharePriceDividendAdjustment(Boolean arg0)` → `ReturnTermsBaseBuilder` [Setter]
-- `setEquityUnderlierProvisions(EquityUnderlierProvisions arg0)` → `ReturnTermsBaseBuilder` [Setter]
-- `getOrCreateDividendApplicability()` → `DividendApplicabilityBuilder` [Getter]
-- `getOrCreateEquityUnderlierProvisions()` → `EquityUnderlierProvisionsBuilder` [Getter]
-- `getValuationTerms()` → `ValuationTermsBuilder` [Getter]
-- `getDividendApplicability()` → `DividendApplicabilityBuilder` [Getter]
+- `getMeanAdjustment()` → `Boolean` [Getter]
 - `getExpectedN()` → `Integer` [Getter]
+- `getInitialLevelSource()` → `DeterminationMethodEnum` [Getter]
 - `getAnnualizationFactor()` → `Integer` [Getter]
+- `getValuationTerms()` → `ValuationTermsBuilder` [Getter]
+- `getInitialLevel()` → `BigDecimal` [Getter]
+- `getDividendApplicability()` → `DividendApplicabilityBuilder` [Getter]
+- `setInitialLevel(BigDecimal arg0)` → `ReturnTermsBaseBuilder` [Setter]
+- `setMeanAdjustment(Boolean arg0)` → `ReturnTermsBaseBuilder` [Setter]
 
 ### ReturnTermsBaseImpl
 **Implements:** `ReturnTermsBase` 
 
 **Key Methods:**
 - `build()` → `ReturnTermsBase` [Builder]
-- `getPerformance()` → `String` [Getter]
 - `setBuilderFields(ReturnTermsBaseBuilder arg0)` → `void` [Setter]
-- `getValuationTerms()` → `ValuationTerms` [Getter]
-- `getDividendApplicability()` → `DividendApplicability` [Getter]
-- `getExpectedN()` → `Integer` [Getter]
-- `getAnnualizationFactor()` → `Integer` [Getter]
 - `getMeanAdjustment()` → `Boolean` [Getter]
-- `getInitialLevel()` → `BigDecimal` [Getter]
+- `getExpectedN()` → `Integer` [Getter]
 - `getInitialLevelSource()` → `DeterminationMethodEnum` [Getter]
+- `getAnnualizationFactor()` → `Integer` [Getter]
+- `getValuationTerms()` → `ValuationTerms` [Getter]
+- `getInitialLevel()` → `BigDecimal` [Getter]
+- `getDividendApplicability()` → `DividendApplicability` [Getter]
+- `getEquityUnderlierProvisions()` → `EquityUnderlierProvisions` [Getter]
 
 ### SettledEntityMatrixBuilderImpl
 **Implements:** `SettledEntityMatrix$SettledEntityMatrixBuilder` 
@@ -2955,12 +2955,12 @@
 
 **Key Methods:**
 - `build()` → `SettledEntityMatrix` [Builder]
-- `getMatrixSource()` → `FieldWithMetaSettledEntityMatrixSourceEnumBuilder` [Getter]
-- `setMatrixSource(FieldWithMetaSettledEntityMatrixSourceEnum arg0)` → `SettledEntityMatrixBuilder` [Setter]
-- `getOrCreateMatrixSource()` → `FieldWithMetaSettledEntityMatrixSourceEnumBuilder` [Getter]
-- `setMatrixSourceValue(SettledEntityMatrixSourceEnum arg0)` → `SettledEntityMatrixBuilder` [Setter]
 - `setPublicationDate(Date arg0)` → `SettledEntityMatrixBuilder` [Setter]
 - `getPublicationDate()` → `Date` [Getter]
+- `getMatrixSource()` → `FieldWithMetaSettledEntityMatrixSourceEnumBuilder` [Getter]
+- `setMatrixSource(FieldWithMetaSettledEntityMatrixSourceEnum arg0)` → `SettledEntityMatrixBuilder` [Setter]
+- `setMatrixSourceValue(SettledEntityMatrixSourceEnum arg0)` → `SettledEntityMatrixBuilder` [Setter]
+- `getOrCreateMatrixSource()` → `FieldWithMetaSettledEntityMatrixSourceEnumBuilder` [Getter]
 
 ### SettledEntityMatrixImpl
 **Implements:** `SettledEntityMatrix` 
@@ -2968,8 +2968,8 @@
 **Key Methods:**
 - `build()` → `SettledEntityMatrix` [Builder]
 - `setBuilderFields(SettledEntityMatrixBuilder arg0)` → `void` [Setter]
-- `getMatrixSource()` → `FieldWithMetaSettledEntityMatrixSourceEnum` [Getter]
 - `getPublicationDate()` → `Date` [Getter]
+- `getMatrixSource()` → `FieldWithMetaSettledEntityMatrixSourceEnum` [Getter]
 
 ### SpreadScheduleBuilderImpl
 **Extends:** `RateSchedule$RateScheduleBuilderImpl` 
@@ -2981,11 +2981,11 @@
 **Key Methods:**
 - `build()` → `SpreadSchedule` [Builder]
 - `setPriceValue(PriceSchedule arg0)` → `SpreadScheduleBuilder` [Setter]
-- `setPrice(ReferenceWithMetaPriceSchedule arg0)` → `SpreadScheduleBuilder` [Setter]
-- `setSpreadScheduleTypeValue(SpreadScheduleTypeEnum arg0)` → `SpreadScheduleBuilder` [Setter]
 - `setSpreadScheduleType(FieldWithMetaSpreadScheduleTypeEnum arg0)` → `SpreadScheduleBuilder` [Setter]
+- `setSpreadScheduleTypeValue(SpreadScheduleTypeEnum arg0)` → `SpreadScheduleBuilder` [Setter]
 - `getSpreadScheduleType()` → `FieldWithMetaSpreadScheduleTypeEnumBuilder` [Getter]
 - `getOrCreateSpreadScheduleType()` → `FieldWithMetaSpreadScheduleTypeEnumBuilder` [Getter]
+- `setPrice(ReferenceWithMetaPriceSchedule arg0)` → `SpreadScheduleBuilder` [Setter]
 
 ### SpreadScheduleImpl
 **Extends:** `RateSchedule$RateScheduleImpl` 
@@ -3010,29 +3010,29 @@
 
 **Key Methods:**
 - `build()` → `StubFloatingRate` [Builder]
-- `getFloorRateSchedule()` → `List` [Getter]
-- `getSpreadSchedule()` → `List` [Getter]
-- `getCapRateSchedule()` → `List` [Getter]
-- `getRateTreatment()` → `RateTreatmentEnum` [Getter]
-- `getFloatingRateIndex()` → `FloatingRateIndexEnum` [Getter]
-- `getIndexTenor()` → `PeriodBuilder` [Getter]
-- `setFloatingRateIndex(FloatingRateIndexEnum arg0)` → `StubFloatingRateBuilder` [Setter]
+- `setCapRateSchedule(List arg0)` → `StubFloatingRateBuilder` [Setter]
+- `getOrCreateCapRateSchedule(int arg0)` → `StrikeScheduleBuilder` [Getter]
+- `setRateTreatment(RateTreatmentEnum arg0)` → `StubFloatingRateBuilder` [Setter]
+- `setFloorRateSchedule(List arg0)` → `StubFloatingRateBuilder` [Setter]
+- `getOrCreateSpreadSchedule(int arg0)` → `SpreadScheduleBuilder` [Getter]
 - `setSpreadSchedule(List arg0)` → `StubFloatingRateBuilder` [Setter]
 - `getOrCreateIndexTenor()` → `PeriodBuilder` [Getter]
+- `setIndexTenor(Period arg0)` → `StubFloatingRateBuilder` [Setter]
+- `getOrCreateFloatingRateMultiplierSchedule()` → `ScheduleBuilder` [Getter]
 
 ### StubFloatingRateImpl
 **Implements:** `StubFloatingRate` 
 
 **Key Methods:**
 - `build()` → `StubFloatingRate` [Builder]
-- `getFloorRateSchedule()` → `List` [Getter]
-- `getSpreadSchedule()` → `List` [Getter]
-- `getCapRateSchedule()` → `List` [Getter]
-- `getRateTreatment()` → `RateTreatmentEnum` [Getter]
-- `getFloatingRateIndex()` → `FloatingRateIndexEnum` [Getter]
-- `getIndexTenor()` → `Period` [Getter]
 - `setBuilderFields(StubFloatingRateBuilder arg0)` → `void` [Setter]
 - `getFloatingRateMultiplierSchedule()` → `Schedule` [Getter]
+- `getSpreadSchedule()` → `List` [Getter]
+- `getFloorRateSchedule()` → `List` [Getter]
+- `getCapRateSchedule()` → `List` [Getter]
+- `getRateTreatment()` → `RateTreatmentEnum` [Getter]
+- `getIndexTenor()` → `Period` [Getter]
+- `getFloatingRateIndex()` → `FloatingRateIndexEnum` [Getter]
 
 ### StubValueBuilderImpl
 **Implements:** `StubValue$StubValueBuilder` 
@@ -3044,24 +3044,24 @@
 
 **Key Methods:**
 - `build()` → `StubValue` [Builder]
-- `getFloatingRate()` → `List` [Getter]
-- `getOrCreateFloatingRate(int arg0)` → `StubFloatingRateBuilder` [Getter]
-- `setFloatingRate(List arg0)` → `StubValueBuilder` [Setter]
-- `setStubRate(BigDecimal arg0)` → `StubValueBuilder` [Setter]
-- `getOrCreateStubAmount()` → `MoneyBuilder` [Getter]
-- `getStubRate()` → `BigDecimal` [Getter]
 - `setStubAmount(Money arg0)` → `StubValueBuilder` [Setter]
 - `getStubAmount()` → `MoneyBuilder` [Getter]
+- `setStubRate(BigDecimal arg0)` → `StubValueBuilder` [Setter]
+- `getStubRate()` → `BigDecimal` [Getter]
+- `getOrCreateStubAmount()` → `MoneyBuilder` [Getter]
+- `getOrCreateFloatingRate(int arg0)` → `StubFloatingRateBuilder` [Getter]
+- `getFloatingRate()` → `List` [Getter]
+- `setFloatingRate(List arg0)` → `StubValueBuilder` [Setter]
 
 ### StubValueImpl
 **Implements:** `StubValue` 
 
 **Key Methods:**
 - `build()` → `StubValue` [Builder]
-- `getFloatingRate()` → `List` [Getter]
 - `setBuilderFields(StubValueBuilder arg0)` → `void` [Setter]
-- `getStubRate()` → `BigDecimal` [Getter]
 - `getStubAmount()` → `Money` [Getter]
+- `getStubRate()` → `BigDecimal` [Getter]
+- `getFloatingRate()` → `List` [Getter]
 
 ### TrancheBuilderImpl
 **Implements:** `Tranche$TrancheBuilder` 
@@ -3073,12 +3073,12 @@
 
 **Key Methods:**
 - `build()` → `Tranche` [Builder]
-- `getIncurredRecoveryApplicable()` → `Boolean` [Getter]
-- `setIncurredRecoveryApplicable(Boolean arg0)` → `TrancheBuilder` [Setter]
 - `getAttachmentPoint()` → `BigDecimal` [Getter]
 - `getExhaustionPoint()` → `BigDecimal` [Getter]
 - `setExhaustionPoint(BigDecimal arg0)` → `TrancheBuilder` [Setter]
 - `setAttachmentPoint(BigDecimal arg0)` → `TrancheBuilder` [Setter]
+- `getIncurredRecoveryApplicable()` → `Boolean` [Getter]
+- `setIncurredRecoveryApplicable(Boolean arg0)` → `TrancheBuilder` [Setter]
 
 ### TrancheImpl
 **Implements:** `Tranche` 
@@ -3086,9 +3086,9 @@
 **Key Methods:**
 - `build()` → `Tranche` [Builder]
 - `setBuilderFields(TrancheBuilder arg0)` → `void` [Setter]
-- `getIncurredRecoveryApplicable()` → `Boolean` [Getter]
 - `getAttachmentPoint()` → `BigDecimal` [Getter]
 - `getExhaustionPoint()` → `BigDecimal` [Getter]
+- `getIncurredRecoveryApplicable()` → `Boolean` [Getter]
 
 ### ValuationTermsBuilderImpl
 **Implements:** `ValuationTerms$ValuationTermsBuilder` 
@@ -3104,29 +3104,29 @@
 
 **Key Methods:**
 - `build()` → `ValuationTerms` [Builder]
-- `getMultipleExchangeIndexAnnexFallback()` → `Boolean` [Getter]
-- `setMultipleExchangeIndexAnnexFallback(Boolean arg0)` → `ValuationTermsBuilder` [Setter]
-- `setComponentSecurityIndexAnnexFallback(Boolean arg0)` → `ValuationTermsBuilder` [Setter]
-- `getFPVFinalPriceElectionFallback()` → `FPVFinalPriceElectionFallbackEnum` [Getter]
-- `setFPVFinalPriceElectionFallback(FPVFinalPriceElectionFallbackEnum arg0)` → `ValuationTermsBuilder` [Setter]
-- `getOrCreateDividendValuationDates()` → `AdjustableRelativeOrPeriodicDatesBuilder` [Getter]
-- `getComponentSecurityIndexAnnexFallback()` → `Boolean` [Getter]
-- `getDividendValuationDates()` → `AdjustableRelativeOrPeriodicDatesBuilder` [Getter]
 - `getFuturesPriceValuation()` → `Boolean` [Getter]
+- `getOptionsPriceValuation()` → `Boolean` [Getter]
+- `getNumberOfValuationDates()` → `Integer` [Getter]
+- `getDividendValuationDates()` → `AdjustableRelativeOrPeriodicDatesBuilder` [Getter]
+- `getMultipleExchangeIndexAnnexFallback()` → `Boolean` [Getter]
+- `getFPVFinalPriceElectionFallback()` → `FPVFinalPriceElectionFallbackEnum` [Getter]
+- `getComponentSecurityIndexAnnexFallback()` → `Boolean` [Getter]
+- `setFuturesPriceValuation(Boolean arg0)` → `ValuationTermsBuilder` [Setter]
+- `setOptionsPriceValuation(Boolean arg0)` → `ValuationTermsBuilder` [Setter]
 
 ### ValuationTermsImpl
 **Implements:** `ValuationTerms` 
 
 **Key Methods:**
 - `build()` → `ValuationTerms` [Builder]
-- `getMultipleExchangeIndexAnnexFallback()` → `Boolean` [Getter]
-- `getFPVFinalPriceElectionFallback()` → `FPVFinalPriceElectionFallbackEnum` [Getter]
 - `setBuilderFields(ValuationTermsBuilder arg0)` → `void` [Setter]
-- `getComponentSecurityIndexAnnexFallback()` → `Boolean` [Getter]
-- `getDividendValuationDates()` → `AdjustableRelativeOrPeriodicDates` [Getter]
 - `getFuturesPriceValuation()` → `Boolean` [Getter]
 - `getOptionsPriceValuation()` → `Boolean` [Getter]
 - `getNumberOfValuationDates()` → `Integer` [Getter]
+- `getDividendValuationDates()` → `AdjustableRelativeOrPeriodicDates` [Getter]
+- `getMultipleExchangeIndexAnnexFallback()` → `Boolean` [Getter]
+- `getFPVFinalPriceElectionFallback()` → `FPVFinalPriceElectionFallbackEnum` [Getter]
+- `getComponentSecurityIndexAnnexFallback()` → `Boolean` [Getter]
 
 ### VarianceCapFloorBuilderImpl
 **Implements:** `VarianceCapFloor$VarianceCapFloorBuilder` 
@@ -3138,13 +3138,13 @@
 
 **Key Methods:**
 - `build()` → `VarianceCapFloor` [Builder]
-- `setVarianceCap(Boolean arg0)` → `VarianceCapFloorBuilder` [Setter]
-- `getVarianceCap()` → `Boolean` [Getter]
 - `setUnadjustedVarianceCap(BigDecimal arg0)` → `VarianceCapFloorBuilder` [Setter]
-- `getOrCreateBoundedVariance()` → `BoundedVarianceBuilder` [Getter]
-- `getBoundedVariance()` → `BoundedVarianceBuilder` [Getter]
-- `setBoundedVariance(BoundedVariance arg0)` → `VarianceCapFloorBuilder` [Setter]
+- `getVarianceCap()` → `Boolean` [Getter]
 - `getUnadjustedVarianceCap()` → `BigDecimal` [Getter]
+- `getBoundedVariance()` → `BoundedVarianceBuilder` [Getter]
+- `getOrCreateBoundedVariance()` → `BoundedVarianceBuilder` [Getter]
+- `setBoundedVariance(BoundedVariance arg0)` → `VarianceCapFloorBuilder` [Setter]
+- `setVarianceCap(Boolean arg0)` → `VarianceCapFloorBuilder` [Setter]
 
 ### VarianceCapFloorImpl
 **Implements:** `VarianceCapFloor` 
@@ -3153,8 +3153,8 @@
 - `build()` → `VarianceCapFloor` [Builder]
 - `setBuilderFields(VarianceCapFloorBuilder arg0)` → `void` [Setter]
 - `getVarianceCap()` → `Boolean` [Getter]
-- `getBoundedVariance()` → `BoundedVariance` [Getter]
 - `getUnadjustedVarianceCap()` → `BigDecimal` [Getter]
+- `getBoundedVariance()` → `BoundedVariance` [Getter]
 
 ### VarianceReturnTermsBuilderImpl
 **Extends:** `ReturnTermsBase$ReturnTermsBaseBuilderImpl` 
@@ -3170,15 +3170,15 @@
 
 **Key Methods:**
 - `build()` → `VarianceReturnTerms` [Builder]
-- `getOrCreateVarianceStrikePrice()` → `PriceBuilder` [Getter]
-- `getOrCreateVolatilityStrikePrice()` → `PriceBuilder` [Getter]
-- `getOrCreateVarianceCapFloor()` → `VarianceCapFloorBuilder` [Getter]
-- `getOrCreateVolatilityCapFloor()` → `VolatilityCapFloorBuilder` [Getter]
-- `setSharePriceDividendAdjustment(Boolean arg0)` → `VarianceReturnTermsBuilder` [Setter]
-- `setEquityUnderlierProvisions(EquityUnderlierProvisions arg0)` → `VarianceReturnTermsBuilder` [Setter]
-- `setExchangeTradedContractNearest(ReferenceWithMetaObservable arg0)` → `VarianceReturnTermsBuilder` [Setter]
-- `setExchangeTradedContractNearestValue(Observable arg0)` → `VarianceReturnTermsBuilder` [Setter]
-- `getOrCreateExchangeTradedContractNearest()` → `ReferenceWithMetaObservableBuilder` [Getter]
+- `getVolatilityCapFloor()` → `VolatilityCapFloorBuilder` [Getter]
+- `getVolatilityStrikePrice()` → `PriceBuilder` [Getter]
+- `setVolatilityStrikePrice(Price arg0)` → `VarianceReturnTermsBuilder` [Setter]
+- `setInitialLevel(BigDecimal arg0)` → `VarianceReturnTermsBuilder` [Setter]
+- `setMeanAdjustment(Boolean arg0)` → `VarianceReturnTermsBuilder` [Setter]
+- `setVolatilityCapFloor(VolatilityCapFloor arg0)` → `VarianceReturnTermsBuilder` [Setter]
+- `setVegaNotionalAmount(NonNegativeQuantitySchedule arg0)` → `VarianceReturnTermsBuilder` [Setter]
+- `setValuationTerms(ValuationTerms arg0)` → `VarianceReturnTermsBuilder` [Setter]
+- `setAnnualizationFactor(Integer arg0)` → `VarianceReturnTermsBuilder` [Setter]
 
 ### VarianceReturnTermsImpl
 **Extends:** `ReturnTermsBase$ReturnTermsBaseImpl` 
@@ -3187,11 +3187,11 @@
 **Key Methods:**
 - `build()` → `VarianceReturnTerms` [Builder]
 - `setBuilderFields(VarianceReturnTermsBuilder arg0)` → `void` [Setter]
-- `getVarianceCapFloor()` → `VarianceCapFloor` [Getter]
 - `getVolatilityCapFloor()` → `VolatilityCapFloor` [Getter]
-- `getVarianceStrikePrice()` → `Price` [Getter]
-- `getVegaNotionalAmount()` → `NonNegativeQuantitySchedule` [Getter]
 - `getVolatilityStrikePrice()` → `Price` [Getter]
+- `getVarianceStrikePrice()` → `Price` [Getter]
+- `getVarianceCapFloor()` → `VarianceCapFloor` [Getter]
+- `getVegaNotionalAmount()` → `NonNegativeQuantitySchedule` [Getter]
 - `getExchangeTradedContractNearest()` → `ReferenceWithMetaObservable` [Getter]
 
 ### VolatilityCapFloorBuilderImpl
@@ -3204,11 +3204,11 @@
 
 **Key Methods:**
 - `build()` → `VolatilityCapFloor` [Builder]
-- `getTotalVolatilityCap()` → `BigDecimal` [Getter]
-- `setApplicable(Boolean arg0)` → `VolatilityCapFloorBuilder` [Setter]
-- `setTotalVolatilityCap(BigDecimal arg0)` → `VolatilityCapFloorBuilder` [Setter]
-- `getVolatilityCapFactor()` → `BigDecimal` [Getter]
 - `setVolatilityCapFactor(BigDecimal arg0)` → `VolatilityCapFloorBuilder` [Setter]
+- `setTotalVolatilityCap(BigDecimal arg0)` → `VolatilityCapFloorBuilder` [Setter]
+- `getTotalVolatilityCap()` → `BigDecimal` [Getter]
+- `getVolatilityCapFactor()` → `BigDecimal` [Getter]
+- `setApplicable(Boolean arg0)` → `VolatilityCapFloorBuilder` [Setter]
 - `getApplicable()` → `Boolean` [Getter]
 
 ### VolatilityCapFloorImpl
@@ -3232,15 +3232,15 @@
 
 **Key Methods:**
 - `build()` → `VolatilityReturnTerms` [Builder]
-- `getOrCreateVolatilityStrikePrice()` → `PriceBuilder` [Getter]
-- `getOrCreateVolatilityCapFloor()` → `VolatilityCapFloorBuilder` [Getter]
-- `setSharePriceDividendAdjustment(Boolean arg0)` → `VolatilityReturnTermsBuilder` [Setter]
-- `setEquityUnderlierProvisions(EquityUnderlierProvisions arg0)` → `VolatilityReturnTermsBuilder` [Setter]
-- `setExchangeTradedContractNearest(ListedDerivative arg0)` → `VolatilityReturnTermsBuilder` [Setter]
-- `getOrCreateExchangeTradedContractNearest()` → `ListedDerivativeBuilder` [Getter]
 - `getVolatilityCapFloor()` → `VolatilityCapFloorBuilder` [Getter]
 - `getVolatilityStrikePrice()` → `PriceBuilder` [Getter]
+- `setVolatilityStrikePrice(Price arg0)` → `VolatilityReturnTermsBuilder` [Setter]
+- `setInitialLevel(BigDecimal arg0)` → `VolatilityReturnTermsBuilder` [Setter]
+- `setMeanAdjustment(Boolean arg0)` → `VolatilityReturnTermsBuilder` [Setter]
+- `setVolatilityCapFloor(VolatilityCapFloor arg0)` → `VolatilityReturnTermsBuilder` [Setter]
 - `setValuationTerms(ValuationTerms arg0)` → `VolatilityReturnTermsBuilder` [Setter]
+- `setAnnualizationFactor(Integer arg0)` → `VolatilityReturnTermsBuilder` [Setter]
+- `setExpectedN(Integer arg0)` → `VolatilityReturnTermsBuilder` [Setter]
 
 ### VolatilityReturnTermsImpl
 **Extends:** `ReturnTermsBase$ReturnTermsBaseImpl` 

@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `CreditLimitUtilisationBuilder setExecuted(CreditLimitUtilisationPosition arg0)`
 - `CreditLimitUtilisationBuilder setPending(CreditLimitUtilisationPosition arg0)`
+- `CreditLimitUtilisationBuilder setExecuted(CreditLimitUtilisationPosition arg0)`
 
 #### Getter Methods
 

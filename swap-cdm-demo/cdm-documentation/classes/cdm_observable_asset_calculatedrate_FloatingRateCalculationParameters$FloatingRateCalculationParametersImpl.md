@@ -24,9 +24,9 @@
 
 - `CalculationMethodEnum getCalculationMethod()`
 - `OffsetCalculation getLookbackCalculation()`
-- `ObservationParameters getObservationParameters()`
-- `OffsetCalculation getLockoutCalculation()`
 - `BusinessCenters getApplicableBusinessDays()`
+- `OffsetCalculation getLockoutCalculation()`
+- `ObservationParameters getObservationParameters()`
 - `ObservationShiftCalculation getObservationShiftCalculation()`
 
 #### Other Methods

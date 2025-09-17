@@ -15,8 +15,8 @@
 
 #### Other Methods
 
-- `FloatingRateSettingDetailsBuilder doEvaluate(InterestRatePayout arg0, CalculationPeriodBase arg1)`
 - `FloatingRateSettingDetailsBuilder assignOutput(FloatingRateSettingDetailsBuilder arg0, InterestRatePayout arg1, CalculationPeriodBase arg2)`
-- `MapperS processingType(InterestRatePayout arg0, CalculationPeriodBase arg1)`
+- `FloatingRateSettingDetailsBuilder doEvaluate(InterestRatePayout arg0, CalculationPeriodBase arg1)`
 - `MapperS rateDef(InterestRatePayout arg0, CalculationPeriodBase arg1)`
+- `MapperS processingType(InterestRatePayout arg0, CalculationPeriodBase arg1)`
 

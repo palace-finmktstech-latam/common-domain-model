@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaMasterConfirmationAnnexTypeEnumBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaMasterConfirmationAnnexTypeEnumBuilder toBuilder()`
 - `FieldWithMetaMasterConfirmationAnnexTypeEnumBuilder prune()`
+- `FieldWithMetaMasterConfirmationAnnexTypeEnumBuilder toBuilder()`
+- `boolean hasData()`
 

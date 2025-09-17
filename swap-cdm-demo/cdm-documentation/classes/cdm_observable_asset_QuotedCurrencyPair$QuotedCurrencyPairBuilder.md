@@ -15,9 +15,9 @@
 
 #### Setter Methods
 
+- `QuotedCurrencyPairBuilder setCurrency2Value(String arg0)`
 - `QuotedCurrencyPairBuilder setCurrency1(FieldWithMetaString arg0)`
 - `QuotedCurrencyPairBuilder setCurrency1Value(String arg0)`
-- `QuotedCurrencyPairBuilder setCurrency2Value(String arg0)`
 - `QuotedCurrencyPairBuilder setCurrency2(FieldWithMetaString arg0)`
 - `QuotedCurrencyPairBuilder setQuoteBasis(QuoteBasisEnum arg0)`
 
@@ -25,8 +25,8 @@
 
 - `FieldWithMetaStringBuilder getOrCreateCurrency1()`
 - `FieldWithMetaStringBuilder getOrCreateCurrency2()`
-- `FieldWithMetaStringBuilder getCurrency1()`
 - `FieldWithMetaStringBuilder getCurrency2()`
+- `FieldWithMetaStringBuilder getCurrency1()`
 
 #### Other Methods
 

@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
+- `MetaFields getMeta()`
 - `AdjustableOrRelativeDate getPaymentDate()`
 - `PaymentRule getPaymentRule()`
 - `Money getPaymentAmount()`
-- `MetaFields getMeta()`
 
 #### Other Methods
 

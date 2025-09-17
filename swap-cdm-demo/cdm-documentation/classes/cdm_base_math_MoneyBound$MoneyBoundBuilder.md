@@ -15,13 +15,13 @@
 
 #### Setter Methods
 
-- `MoneyBoundBuilder setInclusive(Boolean arg0)`
 - `MoneyBoundBuilder setMoney(Money arg0)`
+- `MoneyBoundBuilder setInclusive(Boolean arg0)`
 
 #### Getter Methods
 
-- `MoneyBuilder getOrCreateMoney()`
 - `MoneyBuilder getMoney()`
+- `MoneyBuilder getOrCreateMoney()`
 
 #### Other Methods
 

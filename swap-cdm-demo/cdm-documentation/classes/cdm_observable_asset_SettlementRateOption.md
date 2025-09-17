@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `PriceSourceDisruption getPriceSourceDisruption()`
 - `FieldWithMetaSettlementRateOptionEnum getSettlementRateOption()`
+- `PriceSourceDisruption getPriceSourceDisruption()`
 
 #### Other Methods
 

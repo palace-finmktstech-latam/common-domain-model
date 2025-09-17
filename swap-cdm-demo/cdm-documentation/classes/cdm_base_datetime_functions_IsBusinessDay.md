@@ -23,8 +23,8 @@
 
 - `Boolean evaluate(Date arg0, List arg1)`
 - `Boolean doEvaluate(Date arg0, List arg1)`
-- `MapperS holiday(Date arg0, List arg1)`
 - `MapperS weekend(Date arg0, List arg1)`
+- `MapperS holiday(Date arg0, List arg1)`
 
 ### Annotations
 

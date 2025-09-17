@@ -25,16 +25,16 @@
 
 #### Setter Methods
 
+- `ContractualMatrixBuilder setMatrixTypeValue(MatrixTypeEnum arg0)`
+- `ContractualMatrixBuilder setMatrixTermValue(MatrixTermEnum arg0)`
 - `ContractualMatrixBuilder setMatrixTerm(FieldWithMetaMatrixTermEnum arg0)`
 - `ContractualMatrixBuilder setMatrixType(FieldWithMetaMatrixTypeEnum arg0)`
-- `ContractualMatrixBuilder setMatrixTermValue(MatrixTermEnum arg0)`
-- `ContractualMatrixBuilder setMatrixTypeValue(MatrixTypeEnum arg0)`
 
 #### Getter Methods
 
-- `FieldWithMetaMatrixTermEnumBuilder getOrCreateMatrixTerm()`
 - `FieldWithMetaMatrixTermEnumBuilder getMatrixTerm()`
 - `FieldWithMetaMatrixTypeEnumBuilder getOrCreateMatrixType()`
+- `FieldWithMetaMatrixTermEnumBuilder getOrCreateMatrixTerm()`
 - `FieldWithMetaMatrixTypeEnumBuilder getMatrixType()`
 
 #### Other Methods
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ContractualMatrixBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ContractualMatrixBuilder toBuilder()`
 - `ContractualMatrixBuilder prune()`
+- `ContractualMatrixBuilder toBuilder()`
+- `boolean hasData()`
 

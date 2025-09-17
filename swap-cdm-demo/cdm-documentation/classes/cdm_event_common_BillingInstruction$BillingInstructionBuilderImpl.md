@@ -29,34 +29,34 @@
 
 #### Setter Methods
 
-- `BillingInstructionBuilder setBillingSummary(List arg0)`
-- `BillingInstructionBuilder setBillingEndDate(Date arg0)`
+- `BillingInstructionBuilder setBillingRecordInstruction(List arg0)`
 - `BillingInstructionBuilder setBillingStartDate(Date arg0)`
 - `BillingInstructionBuilder setSendingParty(Party arg0)`
 - `BillingInstructionBuilder setReceivingParty(Party arg0)`
-- `BillingInstructionBuilder setBillingRecordInstruction(List arg0)`
+- `BillingInstructionBuilder setBillingSummary(List arg0)`
+- `BillingInstructionBuilder setBillingEndDate(Date arg0)`
 
 #### Getter Methods
 
-- `PartyBuilder getOrCreateSendingParty()`
-- `BillingSummaryInstructionBuilder getOrCreateBillingSummary(int arg0)`
-- `PartyBuilder getOrCreateReceivingParty()`
-- `Date getBillingStartDate()`
 - `List getBillingSummary()`
+- `PartyBuilder getSendingParty()`
 - `PartyBuilder getReceivingParty()`
 - `Date getBillingEndDate()`
-- `PartyBuilder getSendingParty()`
+- `Date getBillingStartDate()`
 - `List getBillingRecordInstruction()`
 - `BillingRecordInstructionBuilder getOrCreateBillingRecordInstruction(int arg0)`
+- `PartyBuilder getOrCreateSendingParty()`
+- `PartyBuilder getOrCreateReceivingParty()`
+- `BillingSummaryInstructionBuilder getOrCreateBillingSummary(int arg0)`
 
 #### Adder Methods
 
+- `BillingInstructionBuilder addBillingRecordInstruction(BillingRecordInstruction arg0, int arg1)`
+- `BillingInstructionBuilder addBillingRecordInstruction(BillingRecordInstruction arg0)`
+- `BillingInstructionBuilder addBillingRecordInstruction(List arg0)`
 - `BillingInstructionBuilder addBillingSummary(List arg0)`
 - `BillingInstructionBuilder addBillingSummary(BillingSummaryInstruction arg0, int arg1)`
 - `BillingInstructionBuilder addBillingSummary(BillingSummaryInstruction arg0)`
-- `BillingInstructionBuilder addBillingRecordInstruction(List arg0)`
-- `BillingInstructionBuilder addBillingRecordInstruction(BillingRecordInstruction arg0, int arg1)`
-- `BillingInstructionBuilder addBillingRecordInstruction(BillingRecordInstruction arg0)`
 
 #### Other Methods
 
@@ -64,7 +64,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BillingInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BillingInstructionBuilder toBuilder()`
 - `BillingInstructionBuilder prune()`
+- `BillingInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -22,15 +22,15 @@
 
 #### Getter Methods
 
-- `ResetFrequency getResetFrequency()`
-- `AdjustableDate getFinalFixingDate()`
-- `Offset getRateCutOffDaysOffset()`
+- `MetaFields getMeta()`
 - `RelativeDateOffset getFixingDates()`
-- `BusinessDayAdjustments getResetDatesAdjustments()`
 - `InitialFixingDate getInitialFixingDate()`
 - `ResetRelativeToEnum getResetRelativeTo()`
+- `AdjustableDate getFinalFixingDate()`
+- `Offset getRateCutOffDaysOffset()`
+- `ResetFrequency getResetFrequency()`
+- `BusinessDayAdjustments getResetDatesAdjustments()`
 - `ReferenceWithMetaCalculationPeriodDates getCalculationPeriodDatesReference()`
-- `MetaFields getMeta()`
 
 #### Other Methods
 

@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaCreditEventsBuilder setValue(CreditEvents arg0)`
-- `ReferenceWithMetaCreditEventsBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaCreditEventsBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaCreditEventsBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaCreditEventsBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaCreditEventsBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaCreditEventsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaCreditEventsBuilder toBuilder()`
 - `ReferenceWithMetaCreditEventsBuilder prune()`
+- `ReferenceWithMetaCreditEventsBuilder toBuilder()`
+- `boolean hasData()`
 

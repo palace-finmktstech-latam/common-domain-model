@@ -32,12 +32,12 @@
 
 #### Getter Methods
 
-- `FixedRateSpecificationBuilder getFixedRateSpecification()`
-- `InflationRateSpecificationBuilder getInflationRateSpecification()`
-- `InflationRateSpecificationBuilder getOrCreateInflationRateSpecification()`
-- `FixedRateSpecificationBuilder getOrCreateFixedRateSpecification()`
 - `FloatingRateSpecificationBuilder getOrCreateFloatingRateSpecification()`
+- `FixedRateSpecificationBuilder getOrCreateFixedRateSpecification()`
+- `InflationRateSpecificationBuilder getOrCreateInflationRateSpecification()`
+- `InflationRateSpecificationBuilder getInflationRateSpecification()`
 - `FloatingRateSpecificationBuilder getFloatingRateSpecification()`
+- `FixedRateSpecificationBuilder getFixedRateSpecification()`
 
 #### Other Methods
 
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `RateSpecificationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `RateSpecificationBuilder toBuilder()`
 - `RateSpecificationBuilder prune()`
+- `RateSpecificationBuilder toBuilder()`
+- `boolean hasData()`
 

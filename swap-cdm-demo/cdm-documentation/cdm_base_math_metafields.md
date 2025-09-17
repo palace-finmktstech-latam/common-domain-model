@@ -18,10 +18,10 @@
 **Key Methods:**
 - `getValue()` → `NonNegativeQuantityScheduleBuilder` [Getter]
 - `setValue(NonNegativeQuantitySchedule arg0)` → `FieldWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
-- `getOrCreateValue()` → `NonNegativeQuantityScheduleBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
+- `getOrCreateValue()` → `NonNegativeQuantityScheduleBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
 
 ### ReferenceWithMetaNonNegativeQuantitySchedule
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -31,8 +31,8 @@
 - `getValue()` → `NonNegativeQuantitySchedule` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaNonNegativeQuantitySchedule` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaNonNegativeQuantityScheduleBuilder
@@ -42,11 +42,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `NonNegativeQuantityScheduleBuilder` [Getter]
 - `setValue(NonNegativeQuantitySchedule arg0)` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
 - `getOrCreateValue()` → `NonNegativeQuantityScheduleBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -61,10 +61,10 @@
 - `getValue()` → `NonNegativeQuantityScheduleBuilder` [Getter]
 - `setValue(NonNegativeQuantitySchedule arg0)` → `FieldWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
 - `build()` → `FieldWithMetaNonNegativeQuantitySchedule` [Builder]
-- `getOrCreateValue()` → `NonNegativeQuantityScheduleBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
+- `getOrCreateValue()` → `NonNegativeQuantityScheduleBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
 
 ### FieldWithMetaNonNegativeQuantityScheduleImpl
 **Implements:** `FieldWithMetaNonNegativeQuantitySchedule` 
@@ -92,12 +92,12 @@
 - `getValue()` → `NonNegativeQuantityScheduleBuilder` [Getter]
 - `setValue(NonNegativeQuantitySchedule arg0)` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
 - `build()` → `ReferenceWithMetaNonNegativeQuantitySchedule` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
 - `getOrCreateValue()` → `NonNegativeQuantityScheduleBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaNonNegativeQuantityScheduleBuilder` [Setter]
 
 ### ReferenceWithMetaNonNegativeQuantityScheduleImpl
 **Implements:** `ReferenceWithMetaNonNegativeQuantitySchedule` 
@@ -106,8 +106,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `NonNegativeQuantitySchedule` [Getter]
 - `build()` → `ReferenceWithMetaNonNegativeQuantitySchedule` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaNonNegativeQuantityScheduleBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaNonNegativeQuantityScheduleMeta

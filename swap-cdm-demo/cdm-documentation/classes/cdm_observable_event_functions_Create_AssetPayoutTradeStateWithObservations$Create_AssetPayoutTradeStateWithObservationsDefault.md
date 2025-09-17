@@ -16,7 +16,7 @@
 #### Other Methods
 
 - `MapperS date(BillingRecordInstruction arg0)`
-- `TradeStateBuilder doEvaluate(BillingRecordInstruction arg0)`
 - `TradeStateBuilder assignOutput(TradeStateBuilder arg0, BillingRecordInstruction arg1)`
 - `MapperS assetPayout(BillingRecordInstruction arg0)`
+- `TradeStateBuilder doEvaluate(BillingRecordInstruction arg0)`
 

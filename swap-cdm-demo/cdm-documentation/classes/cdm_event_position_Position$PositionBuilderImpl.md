@@ -27,28 +27,28 @@
 
 #### Setter Methods
 
-- `PositionBuilder setProduct(Product arg0)`
 - `PositionBuilder setPriceQuantity(List arg0)`
-- `PositionBuilder setTradeReference(ReferenceWithMetaTradeState arg0)`
 - `PositionBuilder setCashBalance(Money arg0)`
+- `PositionBuilder setTradeReference(ReferenceWithMetaTradeState arg0)`
 - `PositionBuilder setTradeReferenceValue(TradeState arg0)`
+- `PositionBuilder setProduct(Product arg0)`
 
 #### Getter Methods
 
 - `List getPriceQuantity()`
-- `ReferenceWithMetaTradeStateBuilder getOrCreateTradeReference()`
-- `PriceQuantityBuilder getOrCreatePriceQuantity(int arg0)`
-- `MoneyBuilder getOrCreateCashBalance()`
-- `ProductBuilder getOrCreateProduct()`
-- `ReferenceWithMetaTradeStateBuilder getTradeReference()`
 - `MoneyBuilder getCashBalance()`
+- `ReferenceWithMetaTradeStateBuilder getTradeReference()`
+- `PriceQuantityBuilder getOrCreatePriceQuantity(int arg0)`
+- `ProductBuilder getOrCreateProduct()`
+- `ReferenceWithMetaTradeStateBuilder getOrCreateTradeReference()`
+- `MoneyBuilder getOrCreateCashBalance()`
 - `ProductBuilder getProduct()`
 
 #### Adder Methods
 
 - `PositionBuilder addPriceQuantity(List arg0)`
-- `PositionBuilder addPriceQuantity(PriceQuantity arg0, int arg1)`
 - `PositionBuilder addPriceQuantity(PriceQuantity arg0)`
+- `PositionBuilder addPriceQuantity(PriceQuantity arg0, int arg1)`
 
 #### Other Methods
 
@@ -56,7 +56,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PositionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PositionBuilder toBuilder()`
 - `PositionBuilder prune()`
+- `PositionBuilder toBuilder()`
+- `boolean hasData()`
 

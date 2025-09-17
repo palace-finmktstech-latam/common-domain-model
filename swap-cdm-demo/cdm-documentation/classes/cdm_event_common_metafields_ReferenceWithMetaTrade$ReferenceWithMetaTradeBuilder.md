@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaTradeBuilder setValue(Trade arg0)`
-- `ReferenceWithMetaTradeBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaTradeBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaTradeBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaTradeBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaTradeBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

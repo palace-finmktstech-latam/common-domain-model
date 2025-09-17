@@ -32,24 +32,24 @@
 
 #### Setter Methods
 
-- `ExerciseFeeScheduleBuilder setReceiver(CounterpartyRoleEnum arg0)`
-- `ExerciseFeeScheduleBuilder setFeeRateSchedule(Schedule arg0)`
+- `ExerciseFeeScheduleBuilder setNotionalReferenceValue(Money arg0)`
 - `ExerciseFeeScheduleBuilder setNotionalReference(ReferenceWithMetaMoney arg0)`
 - `ExerciseFeeScheduleBuilder setFeeAmountSchedule(AmountSchedule arg0)`
+- `ExerciseFeeScheduleBuilder setFeeRateSchedule(Schedule arg0)`
 - `ExerciseFeeScheduleBuilder setFeePaymentDate(RelativeDateOffset arg0)`
-- `ExerciseFeeScheduleBuilder setNotionalReferenceValue(Money arg0)`
+- `ExerciseFeeScheduleBuilder setReceiver(CounterpartyRoleEnum arg0)`
 - `ExerciseFeeScheduleBuilder setPayer(CounterpartyRoleEnum arg0)`
 
 #### Getter Methods
 
+- `ScheduleBuilder getOrCreateFeeRateSchedule()`
+- `RelativeDateOffsetBuilder getFeePaymentDate()`
+- `AmountScheduleBuilder getFeeAmountSchedule()`
+- `ScheduleBuilder getFeeRateSchedule()`
+- `RelativeDateOffsetBuilder getOrCreateFeePaymentDate()`
+- `ReferenceWithMetaMoneyBuilder getNotionalReference()`
 - `ReferenceWithMetaMoneyBuilder getOrCreateNotionalReference()`
 - `AmountScheduleBuilder getOrCreateFeeAmountSchedule()`
-- `ScheduleBuilder getOrCreateFeeRateSchedule()`
-- `ReferenceWithMetaMoneyBuilder getNotionalReference()`
-- `AmountScheduleBuilder getFeeAmountSchedule()`
-- `RelativeDateOffsetBuilder getFeePaymentDate()`
-- `RelativeDateOffsetBuilder getOrCreateFeePaymentDate()`
-- `ScheduleBuilder getFeeRateSchedule()`
 
 #### Other Methods
 
@@ -57,7 +57,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ExerciseFeeScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ExerciseFeeScheduleBuilder toBuilder()`
 - `ExerciseFeeScheduleBuilder prune()`
+- `ExerciseFeeScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

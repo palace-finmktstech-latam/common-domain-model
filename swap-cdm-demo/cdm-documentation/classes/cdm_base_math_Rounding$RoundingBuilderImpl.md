@@ -30,8 +30,8 @@
 
 #### Getter Methods
 
-- `RoundingDirectionEnum getRoundingDirection()`
 - `Integer getPrecision()`
+- `RoundingDirectionEnum getRoundingDirection()`
 
 #### Other Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `RoundingBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `RoundingBuilder toBuilder()`
 - `RoundingBuilder prune()`
+- `RoundingBuilder toBuilder()`
+- `boolean hasData()`
 

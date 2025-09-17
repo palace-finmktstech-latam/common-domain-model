@@ -15,13 +15,13 @@
 
 #### Setter Methods
 
-- `PeriodBoundBuilder setInclusive(Boolean arg0)`
 - `PeriodBoundBuilder setPeriod(Period arg0)`
+- `PeriodBoundBuilder setInclusive(Boolean arg0)`
 
 #### Getter Methods
 
-- `PeriodBuilder getOrCreatePeriod()`
 - `PeriodBuilder getPeriod()`
+- `PeriodBuilder getOrCreatePeriod()`
 
 #### Other Methods
 

@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
+- `FieldWithMetaString getSourcePage()`
 - `String getSourcePageHeading()`
 - `FieldWithMetaInformationProviderEnum getSourceProvider()`
-- `FieldWithMetaString getSourcePage()`
 
 #### Other Methods
 

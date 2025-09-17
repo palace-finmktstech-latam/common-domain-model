@@ -17,10 +17,10 @@
 
 - `MapperS diff(List arg0)`
 - `MapperS active(List arg0)`
-- `List doEvaluate(List arg0)`
 - `List assignOutput(List arg0, List arg1)`
-- `MapperC remainingWeights(List arg0)`
+- `List doEvaluate(List arg0)`
 - `MapperC remainingDates(List arg0)`
+- `MapperC remainingWeights(List arg0)`
 - `MapperS refDate(List arg0)`
 - `MapperS prevDate(List arg0)`
 

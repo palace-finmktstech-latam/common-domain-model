@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `BasketConstituentBuilder getValue()`
-- `BasketConstituentBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `BasketConstituentBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods

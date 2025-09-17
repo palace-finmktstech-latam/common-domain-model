@@ -16,21 +16,21 @@
 #### Setter Methods
 
 - `FxFeatureBuilder setComposite(Composite arg0)`
-- `FxFeatureBuilder setCrossCurrency(Composite arg0)`
 - `FxFeatureBuilder setReferenceCurrency(FieldWithMetaString arg0)`
 - `FxFeatureBuilder setReferenceCurrencyValue(String arg0)`
+- `FxFeatureBuilder setCrossCurrency(Composite arg0)`
 - `FxFeatureBuilder setQuanto(Quanto arg0)`
 
 #### Getter Methods
 
-- `CompositeBuilder getOrCreateComposite()`
 - `CompositeBuilder getComposite()`
-- `QuantoBuilder getOrCreateQuanto()`
 - `FieldWithMetaStringBuilder getReferenceCurrency()`
 - `CompositeBuilder getCrossCurrency()`
+- `QuantoBuilder getOrCreateQuanto()`
 - `CompositeBuilder getOrCreateCrossCurrency()`
-- `QuantoBuilder getQuanto()`
 - `FieldWithMetaStringBuilder getOrCreateReferenceCurrency()`
+- `CompositeBuilder getOrCreateComposite()`
+- `QuantoBuilder getQuanto()`
 
 #### Other Methods
 

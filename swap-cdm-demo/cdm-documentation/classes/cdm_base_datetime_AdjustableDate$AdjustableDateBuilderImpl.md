@@ -28,25 +28,25 @@
 
 #### Setter Methods
 
+- `AdjustableDateBuilder setMeta(MetaFields arg0)`
 - `AdjustableDateBuilder setUnadjustedDate(Date arg0)`
 - `AdjustableDateBuilder setAdjustedDate(FieldWithMetaDate arg0)`
 - `AdjustableDateBuilder setDateAdjustments(BusinessDayAdjustments arg0)`
 - `AdjustableDateBuilder setAdjustedDateValue(Date arg0)`
 - `AdjustableDateBuilder setDateAdjustmentsReference(ReferenceWithMetaBusinessDayAdjustments arg0)`
 - `AdjustableDateBuilder setDateAdjustmentsReferenceValue(BusinessDayAdjustments arg0)`
-- `AdjustableDateBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
-- `BusinessDayAdjustmentsBuilder getOrCreateDateAdjustments()`
 - `FieldWithMetaDateBuilder getAdjustedDate()`
 - `Date getUnadjustedDate()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `FieldWithMetaDateBuilder getOrCreateAdjustedDate()`
-- `ReferenceWithMetaBusinessDayAdjustmentsBuilder getOrCreateDateAdjustmentsReference()`
-- `ReferenceWithMetaBusinessDayAdjustmentsBuilder getDateAdjustmentsReference()`
-- `BusinessDayAdjustmentsBuilder getDateAdjustments()`
 - `MetaFieldsBuilder getMeta()`
+- `BusinessDayAdjustmentsBuilder getOrCreateDateAdjustments()`
+- `FieldWithMetaDateBuilder getOrCreateAdjustedDate()`
+- `BusinessDayAdjustmentsBuilder getDateAdjustments()`
+- `ReferenceWithMetaBusinessDayAdjustmentsBuilder getDateAdjustmentsReference()`
+- `ReferenceWithMetaBusinessDayAdjustmentsBuilder getOrCreateDateAdjustmentsReference()`
 
 #### Other Methods
 
@@ -54,7 +54,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AdjustableDateBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AdjustableDateBuilder toBuilder()`
 - `AdjustableDateBuilder prune()`
+- `AdjustableDateBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -33,35 +33,35 @@
 
 #### Setter Methods
 
-- `CalculationPeriodDatesBuilder setEffectiveDate(AdjustableOrRelativeDate arg0)`
 - `CalculationPeriodDatesBuilder setTerminationDate(AdjustableOrRelativeDate arg0)`
-- `CalculationPeriodDatesBuilder setStubPeriodType(StubPeriodTypeEnum arg0)`
+- `CalculationPeriodDatesBuilder setMeta(MetaFields arg0)`
 - `CalculationPeriodDatesBuilder setFirstPeriodStartDate(AdjustableOrRelativeDate arg0)`
-- `CalculationPeriodDatesBuilder setFirstRegularPeriodStartDate(Date arg0)`
-- `CalculationPeriodDatesBuilder setFirstCompoundingPeriodEndDate(Date arg0)`
-- `CalculationPeriodDatesBuilder setCalculationPeriodDatesAdjustments(BusinessDayAdjustments arg0)`
+- `CalculationPeriodDatesBuilder setStubPeriodType(StubPeriodTypeEnum arg0)`
 - `CalculationPeriodDatesBuilder setLastRegularPeriodEndDate(Date arg0)`
 - `CalculationPeriodDatesBuilder setCalculationPeriodFrequency(CalculationPeriodFrequency arg0)`
-- `CalculationPeriodDatesBuilder setMeta(MetaFields arg0)`
+- `CalculationPeriodDatesBuilder setFirstCompoundingPeriodEndDate(Date arg0)`
+- `CalculationPeriodDatesBuilder setCalculationPeriodDatesAdjustments(BusinessDayAdjustments arg0)`
+- `CalculationPeriodDatesBuilder setFirstRegularPeriodStartDate(Date arg0)`
+- `CalculationPeriodDatesBuilder setEffectiveDate(AdjustableOrRelativeDate arg0)`
 
 #### Getter Methods
 
-- `AdjustableOrRelativeDateBuilder getFirstPeriodStartDate()`
-- `StubPeriodTypeEnum getStubPeriodType()`
-- `AdjustableOrRelativeDateBuilder getOrCreateTerminationDate()`
-- `AdjustableOrRelativeDateBuilder getOrCreateEffectiveDate()`
-- `AdjustableOrRelativeDateBuilder getEffectiveDate()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `AdjustableOrRelativeDateBuilder getEffectiveDate()`
 - `AdjustableOrRelativeDateBuilder getTerminationDate()`
-- `Date getFirstRegularPeriodStartDate()`
-- `Date getFirstCompoundingPeriodEndDate()`
-- `BusinessDayAdjustmentsBuilder getCalculationPeriodDatesAdjustments()`
-- `CalculationPeriodFrequencyBuilder getCalculationPeriodFrequency()`
-- `Date getLastRegularPeriodEndDate()`
+- `MetaFieldsBuilder getMeta()`
+- `BusinessDayAdjustmentsBuilder getOrCreateCalculationPeriodDatesAdjustments()`
 - `CalculationPeriodFrequencyBuilder getOrCreateCalculationPeriodFrequency()`
 - `AdjustableOrRelativeDateBuilder getOrCreateFirstPeriodStartDate()`
-- `BusinessDayAdjustmentsBuilder getOrCreateCalculationPeriodDatesAdjustments()`
-- `MetaFieldsBuilder getMeta()`
+- `AdjustableOrRelativeDateBuilder getOrCreateTerminationDate()`
+- `AdjustableOrRelativeDateBuilder getOrCreateEffectiveDate()`
+- `StubPeriodTypeEnum getStubPeriodType()`
+- `AdjustableOrRelativeDateBuilder getFirstPeriodStartDate()`
+- `Date getFirstRegularPeriodStartDate()`
+- `Date getFirstCompoundingPeriodEndDate()`
+- `Date getLastRegularPeriodEndDate()`
+- `BusinessDayAdjustmentsBuilder getCalculationPeriodDatesAdjustments()`
+- `CalculationPeriodFrequencyBuilder getCalculationPeriodFrequency()`
 
 #### Other Methods
 
@@ -69,7 +69,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CalculationPeriodDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CalculationPeriodDatesBuilder toBuilder()`
 - `CalculationPeriodDatesBuilder prune()`
+- `CalculationPeriodDatesBuilder toBuilder()`
+- `boolean hasData()`
 

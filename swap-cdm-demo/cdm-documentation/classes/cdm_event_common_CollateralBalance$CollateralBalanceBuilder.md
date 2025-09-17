@@ -15,16 +15,16 @@
 
 #### Setter Methods
 
-- `CollateralBalanceBuilder setCollateralBalanceStatus(CollateralStatusEnum arg0)`
 - `CollateralBalanceBuilder setAmountBaseCurrency(Money arg0)`
+- `CollateralBalanceBuilder setCollateralBalanceStatus(CollateralStatusEnum arg0)`
 - `CollateralBalanceBuilder setHaircutIndicator(HaircutIndicatorEnum arg0)`
 - `CollateralBalanceBuilder setPayerReceiver(PartyReferencePayerReceiver arg0)`
 
 #### Getter Methods
 
 - `MoneyBuilder getAmountBaseCurrency()`
-- `PartyReferencePayerReceiverBuilder getPayerReceiver()`
 - `PartyReferencePayerReceiverBuilder getOrCreatePayerReceiver()`
+- `PartyReferencePayerReceiverBuilder getPayerReceiver()`
 - `MoneyBuilder getOrCreateAmountBaseCurrency()`
 
 #### Other Methods

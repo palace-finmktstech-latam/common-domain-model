@@ -25,9 +25,9 @@
 
 #### Adder Methods
 
-- `MarginCallResponseActionBuilder addCollateralPositionComponent(CollateralPosition arg0, int arg1)`
 - `MarginCallResponseActionBuilder addCollateralPositionComponent(List arg0)`
 - `MarginCallResponseActionBuilder addCollateralPositionComponent(CollateralPosition arg0)`
+- `MarginCallResponseActionBuilder addCollateralPositionComponent(CollateralPosition arg0, int arg1)`
 
 #### Other Methods
 

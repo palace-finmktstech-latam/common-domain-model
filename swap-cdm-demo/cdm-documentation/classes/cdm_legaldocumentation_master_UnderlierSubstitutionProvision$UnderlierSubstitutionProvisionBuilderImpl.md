@@ -27,19 +27,19 @@
 
 #### Setter Methods
 
-- `UnderlierSubstitutionProvisionBuilder setWhoMaySubstitute(List arg0)`
 - `UnderlierSubstitutionProvisionBuilder setDisputingParty(CounterpartyRoleEnum arg0)`
-- `UnderlierSubstitutionProvisionBuilder setSubstitutionTriggerEvents(List arg0)`
+- `UnderlierSubstitutionProvisionBuilder setWhoMaySubstitute(List arg0)`
 - `UnderlierSubstitutionProvisionBuilder setSubstitutionBeSpokeTerms(List arg0)`
+- `UnderlierSubstitutionProvisionBuilder setSubstitutionTriggerEvents(List arg0)`
 
 #### Getter Methods
 
-- `List getWhoMaySubstitute()`
 - `CounterpartyRoleEnum getDisputingParty()`
-- `List getSubstitutionBeSpokeTerms()`
+- `List getWhoMaySubstitute()`
 - `List getSubstitutionTriggerEvents()`
 - `ClauseBuilder getOrCreateSubstitutionBeSpokeTerms(int arg0)`
 - `ExtraordinaryEventsBuilder getOrCreateSubstitutionTriggerEvents(int arg0)`
+- `List getSubstitutionBeSpokeTerms()`
 
 #### Adder Methods
 
@@ -49,9 +49,9 @@
 - `UnderlierSubstitutionProvisionBuilder addSubstitutionBeSpokeTerms(Clause arg0)`
 - `UnderlierSubstitutionProvisionBuilder addSubstitutionBeSpokeTerms(Clause arg0, int arg1)`
 - `UnderlierSubstitutionProvisionBuilder addSubstitutionBeSpokeTerms(List arg0)`
+- `UnderlierSubstitutionProvisionBuilder addSubstitutionTriggerEvents(List arg0)`
 - `UnderlierSubstitutionProvisionBuilder addSubstitutionTriggerEvents(ExtraordinaryEvents arg0)`
 - `UnderlierSubstitutionProvisionBuilder addSubstitutionTriggerEvents(ExtraordinaryEvents arg0, int arg1)`
-- `UnderlierSubstitutionProvisionBuilder addSubstitutionTriggerEvents(List arg0)`
 
 #### Other Methods
 
@@ -59,7 +59,7 @@
 - `String toString()`
 - `int hashCode()`
 - `UnderlierSubstitutionProvisionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `UnderlierSubstitutionProvisionBuilder toBuilder()`
 - `UnderlierSubstitutionProvisionBuilder prune()`
+- `UnderlierSubstitutionProvisionBuilder toBuilder()`
+- `boolean hasData()`
 

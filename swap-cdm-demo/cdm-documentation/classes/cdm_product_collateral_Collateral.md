@@ -21,10 +21,10 @@
 
 - `Class getType()`
 - `List getPortfolioIdentifier()`
-- `List getCollateralPortfolio()`
 - `MetaFields getMeta()`
-- `IndependentAmount getIndependentAmount()`
 - `CollateralProvisions getCollateralProvisions()`
+- `IndependentAmount getIndependentAmount()`
+- `List getCollateralPortfolio()`
 
 #### Other Methods
 

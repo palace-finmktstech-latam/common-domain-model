@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PhysicalSettlementPeriodBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PhysicalSettlementPeriodBuilder toBuilder()`
 - `PhysicalSettlementPeriodBuilder prune()`
+- `PhysicalSettlementPeriodBuilder toBuilder()`
+- `boolean hasData()`
 

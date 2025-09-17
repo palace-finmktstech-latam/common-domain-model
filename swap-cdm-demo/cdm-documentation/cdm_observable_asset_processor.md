@@ -21,8 +21,8 @@
 **Extends:** `MappingProcessor` 
 
 **Key Methods:**
-- `getStep(Path arg0, Path arg1, int arg2)` → `Optional` [Getter]
 - `getSteps(Path arg0, Path arg1)` → `List` [Getter]
+- `getStep(Path arg0, Path arg1, int arg2)` → `Optional` [Getter]
 
 ### IndexAssetClassMappingProcessor
 **Extends:** `MappingProcessor` 
@@ -48,10 +48,10 @@
 ### PriceUnitTypeHelper
 
 **Key Methods:**
+- `getPerUnitOfIndexOrShare()` → `FinancialUnitEnum` [Getter]
 - `getPackageSpreadCurrency(Path arg0)` → `Optional` [Getter]
 - `getNonNullMappingId(Path arg0, String arg1)` → `Optional` [Getter]
 - `setFxOptionRateUnits(PriceScheduleBuilder arg0, Path arg1, String arg2)` → `void` [Setter]
-- `getPerUnitOfIndexOrShare()` → `FinancialUnitEnum` [Getter]
 - `getBasePath(Path arg0)` → `Path` [Getter]
 
 ### PriceUnitTypeMappingProcessor
@@ -61,8 +61,8 @@
 **Extends:** `MappingProcessor` 
 
 **Key Methods:**
-- `getCapacityUnitEnum(Path arg0)` → `Optional` [Getter]
 - `getTotalNotionalQuantity(Path arg0, int arg1)` → `Optional` [Getter]
+- `getCapacityUnitEnum(Path arg0)` → `Optional` [Getter]
 
 ### VegaNotionalAmountMappingProcessor
 **Extends:** `VegaNotionalAmountMappingProcessor` 

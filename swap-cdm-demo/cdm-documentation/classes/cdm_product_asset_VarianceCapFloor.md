@@ -20,8 +20,8 @@
 
 - `Class getType()`
 - `Boolean getVarianceCap()`
-- `BoundedVariance getBoundedVariance()`
 - `BigDecimal getUnadjustedVarianceCap()`
+- `BoundedVariance getBoundedVariance()`
 
 #### Other Methods
 

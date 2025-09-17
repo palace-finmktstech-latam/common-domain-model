@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `StubValue getFinalStub()`
 - `StubValue getInitialStub()`
+- `StubValue getFinalStub()`
 - `ReferenceWithMetaCalculationPeriodDates getCalculationPeriodDatesReference()`
 
 #### Other Methods

@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `BigDecimal getNotionalAmount()`
 - `Date getResetDate()`
 - `BigDecimal getObservedFxSpotRate()`
 - `Date getAdjustedFxSpotFixingDate()`
+- `BigDecimal getNotionalAmount()`
 
 #### Other Methods
 

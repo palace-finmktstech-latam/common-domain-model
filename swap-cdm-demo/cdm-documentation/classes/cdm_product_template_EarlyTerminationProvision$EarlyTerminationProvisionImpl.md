@@ -22,11 +22,11 @@
 
 #### Getter Methods
 
+- `MetaFields getMeta()`
 - `Period getMandatoryEarlyTerminationDateTenor()`
+- `ExercisePeriod getOptionalEarlyTerminationParameters()`
 - `MandatoryEarlyTermination getMandatoryEarlyTermination()`
 - `OptionalEarlyTermination getOptionalEarlyTermination()`
-- `ExercisePeriod getOptionalEarlyTerminationParameters()`
-- `MetaFields getMeta()`
 
 #### Other Methods
 

@@ -16,28 +16,28 @@
 
 #### Setter Methods
 
-- `CashSettlementTermsBuilder setRecoveryFactor(BigDecimal arg0)`
-- `CashSettlementTermsBuilder setAccruedInterest(Boolean arg0)`
-- `CashSettlementTermsBuilder setCashSettlementAmount(Money arg0)`
-- `CashSettlementTermsBuilder setValuationMethod(ValuationMethod arg0)`
-- `CashSettlementTermsBuilder setCashSettlementMethod(CashSettlementMethodEnum arg0)`
-- `CashSettlementTermsBuilder setFixedSettlement(Boolean arg0)`
+- `CashSettlementTermsBuilder setMeta(MetaFields arg0)`
 - `CashSettlementTermsBuilder setValuationTime(BusinessCenterTime arg0)`
 - `CashSettlementTermsBuilder setValuationDate(ValuationDate arg0)`
-- `CashSettlementTermsBuilder setMeta(MetaFields arg0)`
+- `CashSettlementTermsBuilder setValuationMethod(ValuationMethod arg0)`
+- `CashSettlementTermsBuilder setCashSettlementAmount(Money arg0)`
+- `CashSettlementTermsBuilder setCashSettlementMethod(CashSettlementMethodEnum arg0)`
+- `CashSettlementTermsBuilder setRecoveryFactor(BigDecimal arg0)`
+- `CashSettlementTermsBuilder setFixedSettlement(Boolean arg0)`
+- `CashSettlementTermsBuilder setAccruedInterest(Boolean arg0)`
 
 #### Getter Methods
 
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `ValuationMethodBuilder getValuationMethod()`
-- `MoneyBuilder getCashSettlementAmount()`
-- `ValuationMethodBuilder getOrCreateValuationMethod()`
-- `MoneyBuilder getOrCreateCashSettlementAmount()`
 - `BusinessCenterTimeBuilder getValuationTime()`
 - `ValuationDateBuilder getValuationDate()`
-- `ValuationDateBuilder getOrCreateValuationDate()`
-- `BusinessCenterTimeBuilder getOrCreateValuationTime()`
 - `MetaFieldsBuilder getMeta()`
+- `BusinessCenterTimeBuilder getOrCreateValuationTime()`
+- `ValuationDateBuilder getOrCreateValuationDate()`
+- `MoneyBuilder getCashSettlementAmount()`
+- `ValuationMethodBuilder getOrCreateValuationMethod()`
+- `ValuationMethodBuilder getValuationMethod()`
+- `MoneyBuilder getOrCreateCashSettlementAmount()`
 
 #### Other Methods
 

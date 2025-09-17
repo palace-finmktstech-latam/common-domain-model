@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `List doEvaluate(BusinessCenterEnum arg0)`
 - `List assignOutput(List arg0, BusinessCenterEnum arg1)`
+- `List doEvaluate(BusinessCenterEnum arg0)`
 

@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `LocalTime getHourMinuteTime()`
 - `FieldWithMetaBusinessCenterEnum getBusinessCenter()`
+- `LocalTime getHourMinuteTime()`
 
 #### Other Methods
 

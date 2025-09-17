@@ -33,9 +33,9 @@
 
 #### Adder Methods
 
-- `AveragingObservationListBuilder addAveragingObservation(WeightedAveragingObservation arg0, int arg1)`
-- `AveragingObservationListBuilder addAveragingObservation(WeightedAveragingObservation arg0)`
 - `AveragingObservationListBuilder addAveragingObservation(List arg0)`
+- `AveragingObservationListBuilder addAveragingObservation(WeightedAveragingObservation arg0)`
+- `AveragingObservationListBuilder addAveragingObservation(WeightedAveragingObservation arg0, int arg1)`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AveragingObservationListBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AveragingObservationListBuilder toBuilder()`
 - `AveragingObservationListBuilder prune()`
+- `AveragingObservationListBuilder toBuilder()`
+- `boolean hasData()`
 

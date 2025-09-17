@@ -22,8 +22,8 @@
 - `Reference getReference()`
 - `OptionPayout getValue()`
 - `Class getType()`
-- `String getExternalReference()`
 - `Class getValueType()`
+- `String getExternalReference()`
 - `String getGlobalReference()`
 
 #### Other Methods

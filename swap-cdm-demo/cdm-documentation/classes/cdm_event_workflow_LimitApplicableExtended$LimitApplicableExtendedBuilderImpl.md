@@ -32,24 +32,24 @@
 #### Setter Methods
 
 - `LimitApplicableExtendedBuilder setCurrency(FieldWithMetaString arg0)`
-- `LimitApplicableExtendedBuilder setLimitTypeValue(CreditLimitTypeEnum arg0)`
-- `LimitApplicableExtendedBuilder setClipSize(Integer arg0)`
-- `LimitApplicableExtendedBuilder setUtilization(CreditLimitUtilisation arg0)`
-- `LimitApplicableExtendedBuilder setAmountUtilized(BigDecimal arg0)`
-- `LimitApplicableExtendedBuilder setAmountRemaining(BigDecimal arg0)`
-- `LimitApplicableExtendedBuilder setVelocity(Velocity arg0)`
-- `LimitApplicableExtendedBuilder setLimitLevel(FieldWithMetaLimitLevelEnum arg0)`
-- `LimitApplicableExtendedBuilder setLimitImpactDueToTrade(BigDecimal arg0)`
-- `LimitApplicableExtendedBuilder setLimitType(FieldWithMetaCreditLimitTypeEnum arg0)`
-- `LimitApplicableExtendedBuilder setLimitAmount(BigDecimal arg0)`
-- `LimitApplicableExtendedBuilder setLimitLevelValue(LimitLevelEnum arg0)`
 - `LimitApplicableExtendedBuilder setCurrencyValue(String arg0)`
+- `LimitApplicableExtendedBuilder setLimitImpactDueToTrade(BigDecimal arg0)`
+- `LimitApplicableExtendedBuilder setClipSize(Integer arg0)`
+- `LimitApplicableExtendedBuilder setLimitAmount(BigDecimal arg0)`
+- `LimitApplicableExtendedBuilder setLimitLevel(FieldWithMetaLimitLevelEnum arg0)`
+- `LimitApplicableExtendedBuilder setUtilization(CreditLimitUtilisation arg0)`
+- `LimitApplicableExtendedBuilder setLimitTypeValue(CreditLimitTypeEnum arg0)`
+- `LimitApplicableExtendedBuilder setLimitLevelValue(LimitLevelEnum arg0)`
+- `LimitApplicableExtendedBuilder setVelocity(Velocity arg0)`
+- `LimitApplicableExtendedBuilder setAmountUtilized(BigDecimal arg0)`
+- `LimitApplicableExtendedBuilder setLimitType(FieldWithMetaCreditLimitTypeEnum arg0)`
+- `LimitApplicableExtendedBuilder setAmountRemaining(BigDecimal arg0)`
 
 #### Getter Methods
 
-- `BigDecimal getLimitImpactDueToTrade()`
-- `BigDecimal getLimitAmount()`
 - `FieldWithMetaLimitLevelEnumBuilder getLimitLevel()`
+- `BigDecimal getLimitAmount()`
+- `BigDecimal getLimitImpactDueToTrade()`
 - `FieldWithMetaLimitLevelEnumBuilder getOrCreateLimitLevel()`
 
 #### Other Methods
@@ -58,7 +58,7 @@
 - `String toString()`
 - `int hashCode()`
 - `LimitApplicableExtendedBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `LimitApplicableExtendedBuilder toBuilder()`
 - `LimitApplicableExtendedBuilder prune()`
+- `LimitApplicableExtendedBuilder toBuilder()`
+- `boolean hasData()`
 

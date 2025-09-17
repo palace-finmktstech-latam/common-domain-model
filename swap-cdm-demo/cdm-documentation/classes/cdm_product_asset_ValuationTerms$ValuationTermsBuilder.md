@@ -15,18 +15,18 @@
 
 #### Setter Methods
 
-- `ValuationTermsBuilder setMultipleExchangeIndexAnnexFallback(Boolean arg0)`
-- `ValuationTermsBuilder setComponentSecurityIndexAnnexFallback(Boolean arg0)`
-- `ValuationTermsBuilder setFPVFinalPriceElectionFallback(FPVFinalPriceElectionFallbackEnum arg0)`
-- `ValuationTermsBuilder setNumberOfValuationDates(Integer arg0)`
-- `ValuationTermsBuilder setDividendValuationDates(AdjustableRelativeOrPeriodicDates arg0)`
 - `ValuationTermsBuilder setFuturesPriceValuation(Boolean arg0)`
 - `ValuationTermsBuilder setOptionsPriceValuation(Boolean arg0)`
+- `ValuationTermsBuilder setNumberOfValuationDates(Integer arg0)`
+- `ValuationTermsBuilder setDividendValuationDates(AdjustableRelativeOrPeriodicDates arg0)`
+- `ValuationTermsBuilder setFPVFinalPriceElectionFallback(FPVFinalPriceElectionFallbackEnum arg0)`
+- `ValuationTermsBuilder setMultipleExchangeIndexAnnexFallback(Boolean arg0)`
+- `ValuationTermsBuilder setComponentSecurityIndexAnnexFallback(Boolean arg0)`
 
 #### Getter Methods
 
-- `AdjustableRelativeOrPeriodicDatesBuilder getOrCreateDividendValuationDates()`
 - `AdjustableRelativeOrPeriodicDatesBuilder getDividendValuationDates()`
+- `AdjustableRelativeOrPeriodicDatesBuilder getOrCreateDividendValuationDates()`
 
 #### Other Methods
 

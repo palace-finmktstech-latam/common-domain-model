@@ -28,10 +28,10 @@
 #### Getter Methods
 
 - `Quantity getQuantity()`
-- `Price getInterestRate()`
-- `ZonedDateTime getExpirationDateTime()`
 - `List getPartyRole()`
 - `List getCollateral()`
+- `Price getInterestRate()`
+- `ZonedDateTime getExpirationDateTime()`
 
 #### Other Methods
 

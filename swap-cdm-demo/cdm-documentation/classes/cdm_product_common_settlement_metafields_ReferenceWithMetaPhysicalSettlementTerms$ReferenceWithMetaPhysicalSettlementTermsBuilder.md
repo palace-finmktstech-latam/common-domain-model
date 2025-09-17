@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaPhysicalSettlementTermsBuilder setValue(PhysicalSettlementTerms arg0)`
-- `ReferenceWithMetaPhysicalSettlementTermsBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaPhysicalSettlementTermsBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaPhysicalSettlementTermsBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaPhysicalSettlementTermsBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaPhysicalSettlementTermsBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

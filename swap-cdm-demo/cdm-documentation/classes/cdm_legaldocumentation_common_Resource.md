@@ -23,12 +23,12 @@
 - `Class getType()`
 - `FieldWithMetaString getLanguage()`
 - `String getString()`
-- `FieldWithMetaString getResourceId()`
-- `FieldWithMetaString getMimeType()`
-- `BigDecimal getSizeInBytes()`
-- `FieldWithMetaResourceTypeEnum getResourceType()`
 - `String getComments()`
 - `String getUrl()`
+- `FieldWithMetaString getResourceId()`
+- `FieldWithMetaResourceTypeEnum getResourceType()`
+- `BigDecimal getSizeInBytes()`
+- `FieldWithMetaString getMimeType()`
 
 #### Other Methods
 

@@ -16,9 +16,9 @@
 #### Setter Methods
 
 - `WorkflowStateBuilder setComment(String arg0)`
-- `WorkflowStateBuilder setWorkflowStatus(WorkflowStatusEnum arg0)`
-- `WorkflowStateBuilder setWarehouseIdentity(WarehouseIdentityEnum arg0)`
 - `WorkflowStateBuilder setPartyCustomisedWorkflow(List arg0)`
+- `WorkflowStateBuilder setWarehouseIdentity(WarehouseIdentityEnum arg0)`
+- `WorkflowStateBuilder setWorkflowStatus(WorkflowStatusEnum arg0)`
 
 #### Getter Methods
 
@@ -28,8 +28,8 @@
 #### Adder Methods
 
 - `WorkflowStateBuilder addPartyCustomisedWorkflow(List arg0)`
-- `WorkflowStateBuilder addPartyCustomisedWorkflow(PartyCustomisedWorkflow arg0, int arg1)`
 - `WorkflowStateBuilder addPartyCustomisedWorkflow(PartyCustomisedWorkflow arg0)`
+- `WorkflowStateBuilder addPartyCustomisedWorkflow(PartyCustomisedWorkflow arg0, int arg1)`
 
 #### Other Methods
 

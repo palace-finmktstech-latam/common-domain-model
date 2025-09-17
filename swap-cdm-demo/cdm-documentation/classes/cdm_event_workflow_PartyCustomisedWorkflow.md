@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
+- `ReferenceWithMetaParty getPartyReference()`
 - `String getPartyName()`
 - `List getCustomisedWorkflow()`
-- `ReferenceWithMetaParty getPartyReference()`
 
 #### Other Methods
 

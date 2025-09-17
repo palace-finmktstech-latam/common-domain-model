@@ -26,8 +26,8 @@
 #### Adder Methods
 
 - `CashflowRepresentationBuilder addPaymentCalculationPeriod(List arg0)`
-- `CashflowRepresentationBuilder addPaymentCalculationPeriod(PaymentCalculationPeriod arg0, int arg1)`
 - `CashflowRepresentationBuilder addPaymentCalculationPeriod(PaymentCalculationPeriod arg0)`
+- `CashflowRepresentationBuilder addPaymentCalculationPeriod(PaymentCalculationPeriod arg0, int arg1)`
 
 #### Other Methods
 

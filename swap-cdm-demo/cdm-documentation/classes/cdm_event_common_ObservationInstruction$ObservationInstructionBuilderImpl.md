@@ -37,7 +37,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ObservationInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ObservationInstructionBuilder toBuilder()`
 - `ObservationInstructionBuilder prune()`
+- `ObservationInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

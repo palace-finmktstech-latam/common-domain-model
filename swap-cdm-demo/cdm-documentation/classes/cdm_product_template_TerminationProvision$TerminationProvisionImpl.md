@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
+- `CancelableProvision getCancelableProvision()`
 - `EvergreenProvision getEvergreenProvision()`
 - `ExtendibleProvision getExtendibleProvision()`
-- `CancelableProvision getCancelableProvision()`
 - `EarlyTerminationProvision getEarlyTerminationProvision()`
 
 #### Other Methods

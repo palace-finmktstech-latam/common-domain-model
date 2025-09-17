@@ -18,8 +18,8 @@
 **Key Methods:**
 - `setValue(AccountTypeEnum arg0)` → `FieldWithMetaAccountTypeEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaAccountTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaAccountTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaEntityTypeEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -37,8 +37,8 @@
 **Key Methods:**
 - `setValue(EntityTypeEnum arg0)` → `FieldWithMetaEntityTypeEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaEntityTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaEntityTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaNaturalPersonRoleEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -56,8 +56,8 @@
 **Key Methods:**
 - `setValue(NaturalPersonRoleEnum arg0)` → `FieldWithMetaNaturalPersonRoleEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaNaturalPersonRoleEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaNaturalPersonRoleEnumBuilder` [Setter]
 
 ### FieldWithMetaPersonIdentifier
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -75,10 +75,10 @@
 **Key Methods:**
 - `getValue()` → `PersonIdentifierBuilder` [Getter]
 - `setValue(PersonIdentifier arg0)` → `FieldWithMetaPersonIdentifierBuilder` [Setter]
-- `getOrCreateValue()` → `PersonIdentifierBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaPersonIdentifierBuilder` [Setter]
+- `getOrCreateValue()` → `PersonIdentifierBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaPersonIdentifierBuilder` [Setter]
 
 ### ReferenceWithMetaAccount
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -88,8 +88,8 @@
 - `getValue()` → `Account` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaAccount` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaAccountBuilder
@@ -99,11 +99,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `AccountBuilder` [Getter]
 - `setValue(Account arg0)` → `ReferenceWithMetaAccountBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaAccountBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaAccountBuilder` [Setter]
 - `getOrCreateValue()` → `AccountBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaAccountBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaAccountBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaAccountBuilder` [Setter]
 
 ### ReferenceWithMetaLegalEntity
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -113,8 +113,8 @@
 - `getValue()` → `LegalEntity` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaLegalEntity` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaLegalEntityBuilder
@@ -124,11 +124,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `LegalEntityBuilder` [Getter]
 - `setValue(LegalEntity arg0)` → `ReferenceWithMetaLegalEntityBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaLegalEntityBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaLegalEntityBuilder` [Setter]
 - `getOrCreateValue()` → `LegalEntityBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaLegalEntityBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaLegalEntityBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaLegalEntityBuilder` [Setter]
 
 ### ReferenceWithMetaNaturalPerson
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -138,8 +138,8 @@
 - `getValue()` → `NaturalPerson` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaNaturalPerson` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaNaturalPersonBuilder
@@ -149,11 +149,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `NaturalPersonBuilder` [Getter]
 - `setValue(NaturalPerson arg0)` → `ReferenceWithMetaNaturalPersonBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaNaturalPersonBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaNaturalPersonBuilder` [Setter]
 - `getOrCreateValue()` → `NaturalPersonBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaNaturalPersonBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaNaturalPersonBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaNaturalPersonBuilder` [Setter]
 
 ### ReferenceWithMetaParty
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -163,8 +163,8 @@
 - `getValue()` → `Party` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaParty` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaPartyBuilder
@@ -174,11 +174,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `PartyBuilder` [Getter]
 - `setValue(Party arg0)` → `ReferenceWithMetaPartyBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaPartyBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaPartyBuilder` [Setter]
 - `getOrCreateValue()` → `PartyBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaPartyBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaPartyBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaPartyBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -194,8 +194,8 @@
 - `setValue(AccountTypeEnum arg0)` → `FieldWithMetaAccountTypeEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaAccountTypeEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaAccountTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaAccountTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaAccountTypeEnumImpl
 **Implements:** `FieldWithMetaAccountTypeEnum` 
@@ -221,8 +221,8 @@
 - `setValue(EntityTypeEnum arg0)` → `FieldWithMetaEntityTypeEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaEntityTypeEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaEntityTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaEntityTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaEntityTypeEnumImpl
 **Implements:** `FieldWithMetaEntityTypeEnum` 
@@ -248,8 +248,8 @@
 - `setValue(NaturalPersonRoleEnum arg0)` → `FieldWithMetaNaturalPersonRoleEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaNaturalPersonRoleEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaNaturalPersonRoleEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaNaturalPersonRoleEnumBuilder` [Setter]
 
 ### FieldWithMetaNaturalPersonRoleEnumImpl
 **Implements:** `FieldWithMetaNaturalPersonRoleEnum` 
@@ -274,10 +274,10 @@
 - `getValue()` → `PersonIdentifierBuilder` [Getter]
 - `setValue(PersonIdentifier arg0)` → `FieldWithMetaPersonIdentifierBuilder` [Setter]
 - `build()` → `FieldWithMetaPersonIdentifier` [Builder]
-- `getOrCreateValue()` → `PersonIdentifierBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaPersonIdentifierBuilder` [Setter]
+- `getOrCreateValue()` → `PersonIdentifierBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaPersonIdentifierBuilder` [Setter]
 
 ### FieldWithMetaPersonIdentifierImpl
 **Implements:** `FieldWithMetaPersonIdentifier` 
@@ -305,12 +305,12 @@
 - `getValue()` → `AccountBuilder` [Getter]
 - `setValue(Account arg0)` → `ReferenceWithMetaAccountBuilder` [Setter]
 - `build()` → `ReferenceWithMetaAccount` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaAccountBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaAccountBuilder` [Setter]
 - `getOrCreateValue()` → `AccountBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaAccountBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaAccountBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaAccountBuilder` [Setter]
 
 ### ReferenceWithMetaAccountImpl
 **Implements:** `ReferenceWithMetaAccount` 
@@ -319,8 +319,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `Account` [Getter]
 - `build()` → `ReferenceWithMetaAccount` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaAccountBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaAccountMeta
@@ -340,12 +340,12 @@
 - `getValue()` → `LegalEntityBuilder` [Getter]
 - `setValue(LegalEntity arg0)` → `ReferenceWithMetaLegalEntityBuilder` [Setter]
 - `build()` → `ReferenceWithMetaLegalEntity` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaLegalEntityBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaLegalEntityBuilder` [Setter]
 - `getOrCreateValue()` → `LegalEntityBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaLegalEntityBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaLegalEntityBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaLegalEntityBuilder` [Setter]
 
 ### ReferenceWithMetaLegalEntityImpl
 **Implements:** `ReferenceWithMetaLegalEntity` 
@@ -354,8 +354,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `LegalEntity` [Getter]
 - `build()` → `ReferenceWithMetaLegalEntity` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaLegalEntityBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaLegalEntityMeta
@@ -375,12 +375,12 @@
 - `getValue()` → `NaturalPersonBuilder` [Getter]
 - `setValue(NaturalPerson arg0)` → `ReferenceWithMetaNaturalPersonBuilder` [Setter]
 - `build()` → `ReferenceWithMetaNaturalPerson` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaNaturalPersonBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaNaturalPersonBuilder` [Setter]
 - `getOrCreateValue()` → `NaturalPersonBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaNaturalPersonBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaNaturalPersonBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaNaturalPersonBuilder` [Setter]
 
 ### ReferenceWithMetaNaturalPersonImpl
 **Implements:** `ReferenceWithMetaNaturalPerson` 
@@ -389,8 +389,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `NaturalPerson` [Getter]
 - `build()` → `ReferenceWithMetaNaturalPerson` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaNaturalPersonBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaNaturalPersonMeta
@@ -410,12 +410,12 @@
 - `getValue()` → `PartyBuilder` [Getter]
 - `setValue(Party arg0)` → `ReferenceWithMetaPartyBuilder` [Setter]
 - `build()` → `ReferenceWithMetaParty` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaPartyBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaPartyBuilder` [Setter]
 - `getOrCreateValue()` → `PartyBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaPartyBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaPartyBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaPartyBuilder` [Setter]
 
 ### ReferenceWithMetaPartyImpl
 **Implements:** `ReferenceWithMetaParty` 
@@ -424,8 +424,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `Party` [Getter]
 - `build()` → `ReferenceWithMetaParty` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaPartyBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaPartyMeta

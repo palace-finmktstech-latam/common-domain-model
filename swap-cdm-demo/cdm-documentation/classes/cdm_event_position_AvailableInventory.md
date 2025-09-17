@@ -19,11 +19,11 @@
 #### Getter Methods
 
 - `Class getType()`
+- `List getPartyRole()`
+- `List getParty()`
 - `List getAvailableInventoryRecord()`
 - `AvailableInventoryTypeEnum getAvailableInventoryType()`
 - `MessageInformation getMessageInformation()`
-- `List getPartyRole()`
-- `List getParty()`
 
 #### Other Methods
 

@@ -16,24 +16,24 @@
 #### Setter Methods
 
 - `ParametricDatesBuilder setDayOfWeek(List arg0)`
-- `ParametricDatesBuilder setBusinessCenters(BusinessCenters arg0)`
-- `ParametricDatesBuilder setDayType(DayTypeEnum arg0)`
 - `ParametricDatesBuilder setDayDistribution(DayDistributionEnum arg0)`
 - `ParametricDatesBuilder setDayFrequency(BigDecimal arg0)`
+- `ParametricDatesBuilder setBusinessCenters(BusinessCenters arg0)`
+- `ParametricDatesBuilder setDayType(DayTypeEnum arg0)`
 - `ParametricDatesBuilder setLag(Lag arg0)`
 
 #### Getter Methods
 
+- `LagBuilder getOrCreateLag()`
 - `BusinessCentersBuilder getOrCreateBusinessCenters()`
 - `BusinessCentersBuilder getBusinessCenters()`
-- `LagBuilder getOrCreateLag()`
 - `LagBuilder getLag()`
 
 #### Adder Methods
 
-- `ParametricDatesBuilder addDayOfWeek(DayOfWeekEnum arg0)`
-- `ParametricDatesBuilder addDayOfWeek(List arg0)`
 - `ParametricDatesBuilder addDayOfWeek(DayOfWeekEnum arg0, int arg1)`
+- `ParametricDatesBuilder addDayOfWeek(List arg0)`
+- `ParametricDatesBuilder addDayOfWeek(DayOfWeekEnum arg0)`
 
 #### Other Methods
 

@@ -30,9 +30,9 @@
 
 #### Getter Methods
 
-- `OffsetBuilder getOrCreatePaymentDateOffset()`
-- `OffsetBuilder getPaymentDateOffset()`
 - `DividendDateReferenceEnum getDateReference()`
+- `OffsetBuilder getPaymentDateOffset()`
+- `OffsetBuilder getOrCreatePaymentDateOffset()`
 
 #### Other Methods
 
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DividendDateReferenceBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DividendDateReferenceBuilder toBuilder()`
 - `DividendDateReferenceBuilder prune()`
+- `DividendDateReferenceBuilder toBuilder()`
+- `boolean hasData()`
 

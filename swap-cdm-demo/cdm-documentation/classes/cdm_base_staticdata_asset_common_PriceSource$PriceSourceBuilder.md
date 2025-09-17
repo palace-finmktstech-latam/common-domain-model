@@ -16,15 +16,15 @@
 #### Setter Methods
 
 - `PriceSourceBuilder setPricePublisher(FieldWithMetaString arg0)`
-- `PriceSourceBuilder setPricePublisherValue(String arg0)`
-- `PriceSourceBuilder setPriceSourceLocation(String arg0)`
-- `PriceSourceBuilder setPriceSourceHeading(String arg0)`
 - `PriceSourceBuilder setPriceSourceTime(LocalTime arg0)`
+- `PriceSourceBuilder setPricePublisherValue(String arg0)`
+- `PriceSourceBuilder setPriceSourceHeading(String arg0)`
+- `PriceSourceBuilder setPriceSourceLocation(String arg0)`
 
 #### Getter Methods
 
-- `FieldWithMetaStringBuilder getPricePublisher()`
 - `FieldWithMetaStringBuilder getOrCreatePricePublisher()`
+- `FieldWithMetaStringBuilder getPricePublisher()`
 
 #### Other Methods
 

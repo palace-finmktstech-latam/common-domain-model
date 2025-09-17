@@ -19,11 +19,11 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Date getBillingStartDate()`
 - `List getBillingSummary()`
+- `Party getSendingParty()`
 - `Party getReceivingParty()`
 - `Date getBillingEndDate()`
-- `Party getSendingParty()`
+- `Date getBillingStartDate()`
 - `List getBillingRecordInstruction()`
 
 #### Other Methods

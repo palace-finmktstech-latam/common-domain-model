@@ -31,8 +31,8 @@
 #### Getter Methods
 
 - `ObservableBuilder getValue()`
-- `ObservableBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `ObservableBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaObservableBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaObservableBuilder toBuilder()`
 - `FieldWithMetaObservableBuilder prune()`
+- `FieldWithMetaObservableBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `MoneyBound getLowerBound()`
 - `MoneyBound getUpperBound()`
+- `MoneyBound getLowerBound()`
 
 #### Other Methods
 

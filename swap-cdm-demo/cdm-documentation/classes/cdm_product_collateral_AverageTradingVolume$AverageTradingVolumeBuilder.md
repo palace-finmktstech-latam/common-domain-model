@@ -15,13 +15,13 @@
 
 #### Setter Methods
 
-- `AverageTradingVolumeBuilder setMethodology(AverageTradingVolumeMethodologyEnum arg0)`
 - `AverageTradingVolumeBuilder setPeriod(Period arg0)`
+- `AverageTradingVolumeBuilder setMethodology(AverageTradingVolumeMethodologyEnum arg0)`
 
 #### Getter Methods
 
-- `PeriodBuilder getOrCreatePeriod()`
 - `PeriodBuilder getPeriod()`
+- `PeriodBuilder getOrCreatePeriod()`
 
 #### Other Methods
 

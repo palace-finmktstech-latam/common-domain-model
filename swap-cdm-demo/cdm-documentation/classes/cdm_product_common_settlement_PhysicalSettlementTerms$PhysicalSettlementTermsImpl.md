@@ -22,13 +22,13 @@
 
 #### Getter Methods
 
-- `AncillaryRoleEnum getPredeterminedClearingOrganizationParty()`
+- `PhysicalSettlementPeriod getPhysicalSettlementPeriod()`
+- `MetaFields getMeta()`
+- `DeliverableObligations getDeliverableObligations()`
+- `Boolean getEscrow()`
 - `Boolean getSixtyBusinessDaySettlementCap()`
 - `Boolean getClearedPhysicalSettlement()`
-- `Boolean getEscrow()`
-- `PhysicalSettlementPeriod getPhysicalSettlementPeriod()`
-- `DeliverableObligations getDeliverableObligations()`
-- `MetaFields getMeta()`
+- `AncillaryRoleEnum getPredeterminedClearingOrganizationParty()`
 
 #### Other Methods
 

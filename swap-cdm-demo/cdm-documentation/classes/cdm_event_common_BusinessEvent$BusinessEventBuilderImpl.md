@@ -31,32 +31,32 @@
 
 #### Setter Methods
 
-- `BusinessEventBuilder setIntent(EventIntentEnum arg0)`
-- `BusinessEventBuilder setEffectiveDate(Date arg0)`
 - `BusinessEventBuilder setEventDate(Date arg0)`
-- `BusinessEventBuilder setCorporateActionIntent(CorporateActionTypeEnum arg0)`
-- `BusinessEventBuilder setEventQualifier(String arg0)`
-- `BusinessEventBuilder setPackageInformation(IdentifiedList arg0)`
-- `BusinessEventBuilder setInstruction(List arg0)`
-- `BusinessEventBuilder setAfter(List arg0)`
+- `BusinessEventBuilder setIntent(EventIntentEnum arg0)`
 - `BusinessEventBuilder setMeta(MetaFields arg0)`
+- `BusinessEventBuilder setPackageInformation(IdentifiedList arg0)`
+- `BusinessEventBuilder setCorporateActionIntent(CorporateActionTypeEnum arg0)`
+- `BusinessEventBuilder setInstruction(List arg0)`
+- `BusinessEventBuilder setEventQualifier(String arg0)`
+- `BusinessEventBuilder setAfter(List arg0)`
+- `BusinessEventBuilder setEffectiveDate(Date arg0)`
 
 #### Getter Methods
 
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `TradeStateBuilder getOrCreateAfter(int arg0)`
 - `String getEventQualifier()`
-- `List getAfter()`
 - `MetaFieldsBuilder getMeta()`
+- `List getAfter()`
+- `TradeStateBuilder getOrCreateAfter(int arg0)`
 
 #### Adder Methods
 
-- `BusinessEventBuilder addAfter(TradeState arg0, int arg1)`
-- `BusinessEventBuilder addAfter(TradeState arg0)`
-- `BusinessEventBuilder addAfter(List arg0)`
-- `BusinessEventBuilder addInstruction(List arg0)`
-- `BusinessEventBuilder addInstruction(Instruction arg0, int arg1)`
 - `BusinessEventBuilder addInstruction(Instruction arg0)`
+- `BusinessEventBuilder addInstruction(Instruction arg0, int arg1)`
+- `BusinessEventBuilder addInstruction(List arg0)`
+- `BusinessEventBuilder addAfter(TradeState arg0)`
+- `BusinessEventBuilder addAfter(TradeState arg0, int arg1)`
+- `BusinessEventBuilder addAfter(List arg0)`
 
 #### Other Methods
 
@@ -64,7 +64,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BusinessEventBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BusinessEventBuilder toBuilder()`
 - `BusinessEventBuilder prune()`
+- `BusinessEventBuilder toBuilder()`
+- `boolean hasData()`
 

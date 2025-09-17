@@ -27,16 +27,16 @@
 
 #### Getter Methods
 
-- `FieldWithMetaIndexAnnexSourceEnum getIndexAnnexSource()`
-- `Date getIndexAnnexDate()`
-- `SettledEntityMatrix getSettledEntityMatrix()`
+- `MetaFields getMeta()`
+- `Tranche getTranche()`
 - `Integer getIndexSeries()`
-- `BigDecimal getIndexFactor()`
+- `Date getIndexAnnexDate()`
 - `List getExcludedReferenceEntity()`
+- `FieldWithMetaIndexAnnexSourceEnum getIndexAnnexSource()`
 - `Integer getIndexAnnexVersion()`
 - `CreditSeniorityEnum getSeniority()`
-- `Tranche getTranche()`
-- `MetaFields getMeta()`
+- `BigDecimal getIndexFactor()`
+- `SettledEntityMatrix getSettledEntityMatrix()`
 
 #### Other Methods
 

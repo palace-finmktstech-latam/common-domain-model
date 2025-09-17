@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `CreditNotationsBuilder setCreditNotations(MultipleCreditNotations arg0)`
 - `CreditNotationsBuilder setCreditNotation(CreditNotation arg0)`
+- `CreditNotationsBuilder setCreditNotations(MultipleCreditNotations arg0)`
 
 #### Getter Methods
 
-- `MultipleCreditNotationsBuilder getCreditNotations()`
-- `MultipleCreditNotationsBuilder getOrCreateCreditNotations()`
-- `CreditNotationBuilder getOrCreateCreditNotation()`
 - `CreditNotationBuilder getCreditNotation()`
+- `MultipleCreditNotationsBuilder getCreditNotations()`
+- `CreditNotationBuilder getOrCreateCreditNotation()`
+- `MultipleCreditNotationsBuilder getOrCreateCreditNotations()`
 
 #### Other Methods
 

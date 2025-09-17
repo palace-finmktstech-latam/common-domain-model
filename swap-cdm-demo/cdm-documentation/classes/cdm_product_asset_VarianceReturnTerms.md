@@ -19,11 +19,11 @@
 #### Getter Methods
 
 - `Class getType()`
-- `VarianceCapFloor getVarianceCapFloor()`
 - `VolatilityCapFloor getVolatilityCapFloor()`
-- `Price getVarianceStrikePrice()`
-- `NonNegativeQuantitySchedule getVegaNotionalAmount()`
 - `Price getVolatilityStrikePrice()`
+- `Price getVarianceStrikePrice()`
+- `VarianceCapFloor getVarianceCapFloor()`
+- `NonNegativeQuantitySchedule getVegaNotionalAmount()`
 - `ReferenceWithMetaObservable getExchangeTradedContractNearest()`
 
 #### Other Methods

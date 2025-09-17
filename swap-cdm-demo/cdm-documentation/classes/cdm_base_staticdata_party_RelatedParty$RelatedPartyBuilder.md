@@ -16,16 +16,16 @@
 #### Setter Methods
 
 - `RelatedPartyBuilder setRole(PartyRoleEnum arg0)`
-- `RelatedPartyBuilder setPartyReferenceValue(Party arg0)`
 - `RelatedPartyBuilder setPartyReference(ReferenceWithMetaParty arg0)`
-- `RelatedPartyBuilder setAccountReference(ReferenceWithMetaAccount arg0)`
+- `RelatedPartyBuilder setPartyReferenceValue(Party arg0)`
 - `RelatedPartyBuilder setAccountReferenceValue(Account arg0)`
+- `RelatedPartyBuilder setAccountReference(ReferenceWithMetaAccount arg0)`
 
 #### Getter Methods
 
+- `ReferenceWithMetaAccountBuilder getOrCreateAccountReference()`
 - `ReferenceWithMetaPartyBuilder getPartyReference()`
 - `ReferenceWithMetaPartyBuilder getOrCreatePartyReference()`
-- `ReferenceWithMetaAccountBuilder getOrCreateAccountReference()`
 - `ReferenceWithMetaAccountBuilder getAccountReference()`
 
 #### Other Methods

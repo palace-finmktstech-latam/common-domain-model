@@ -19,14 +19,14 @@
 
 #### Getter Methods
 
-- `List getInventoryRecord()`
 - `InventoryRecordBuilder getOrCreateInventoryRecord(int arg0)`
+- `List getInventoryRecord()`
 
 #### Adder Methods
 
-- `InventoryBuilder addInventoryRecord(InventoryRecord arg0, int arg1)`
 - `InventoryBuilder addInventoryRecord(List arg0)`
 - `InventoryBuilder addInventoryRecord(InventoryRecord arg0)`
+- `InventoryBuilder addInventoryRecord(InventoryRecord arg0, int arg1)`
 
 #### Other Methods
 

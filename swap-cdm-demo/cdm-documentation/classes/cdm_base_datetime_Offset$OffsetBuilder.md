@@ -15,10 +15,10 @@
 
 #### Setter Methods
 
+- `OffsetBuilder setMeta(MetaFields arg0)`
 - `OffsetBuilder setDayType(DayTypeEnum arg0)`
 - `OffsetBuilder setPeriod(PeriodEnum arg0)`
 - `OffsetBuilder setPeriodMultiplier(Integer arg0)`
-- `OffsetBuilder setMeta(MetaFields arg0)`
 
 #### Other Methods
 

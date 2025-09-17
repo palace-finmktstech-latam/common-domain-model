@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `CounterpartyBuilder doEvaluate(List arg0, CounterpartyRoleEnum arg1)`
 - `CounterpartyBuilder assignOutput(CounterpartyBuilder arg0, List arg1, CounterpartyRoleEnum arg2)`
+- `CounterpartyBuilder doEvaluate(List arg0, CounterpartyRoleEnum arg1)`
 

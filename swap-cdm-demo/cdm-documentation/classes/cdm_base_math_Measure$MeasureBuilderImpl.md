@@ -32,7 +32,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MeasureBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MeasureBuilder toBuilder()`
 - `MeasureBuilder prune()`
+- `MeasureBuilder toBuilder()`
+- `boolean hasData()`
 

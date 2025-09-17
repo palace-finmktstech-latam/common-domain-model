@@ -25,15 +25,15 @@
 
 #### Setter Methods
 
+- `InterestRateCurveBuilder setFloatingRateIndexValue(FloatingRateIndexEnum arg0)`
 - `InterestRateCurveBuilder setFloatingRateIndex(FieldWithMetaFloatingRateIndexEnum arg0)`
 - `InterestRateCurveBuilder setTenor(Period arg0)`
-- `InterestRateCurveBuilder setFloatingRateIndexValue(FloatingRateIndexEnum arg0)`
 
 #### Getter Methods
 
 - `FieldWithMetaFloatingRateIndexEnumBuilder getFloatingRateIndex()`
-- `PeriodBuilder getTenor()`
 - `FieldWithMetaFloatingRateIndexEnumBuilder getOrCreateFloatingRateIndex()`
+- `PeriodBuilder getTenor()`
 - `PeriodBuilder getOrCreateTenor()`
 
 #### Other Methods
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `InterestRateCurveBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `InterestRateCurveBuilder toBuilder()`
 - `InterestRateCurveBuilder prune()`
+- `InterestRateCurveBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -18,8 +18,8 @@
 **Key Methods:**
 - `setValue(MarketDisruptionEnum arg0)` → `FieldWithMetaMarketDisruptionEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaMarketDisruptionEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaMarketDisruptionEnumBuilder` [Setter]
 
 ### FieldWithMetaRestructuringEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -37,8 +37,8 @@
 **Key Methods:**
 - `setValue(RestructuringEnum arg0)` → `FieldWithMetaRestructuringEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaRestructuringEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaRestructuringEnumBuilder` [Setter]
 
 ### ReferenceWithMetaCreditEvents
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -48,8 +48,8 @@
 - `getValue()` → `CreditEvents` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaCreditEvents` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaCreditEventsBuilder
@@ -59,11 +59,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `CreditEventsBuilder` [Getter]
 - `setValue(CreditEvents arg0)` → `ReferenceWithMetaCreditEventsBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaCreditEventsBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaCreditEventsBuilder` [Setter]
 - `getOrCreateValue()` → `CreditEventsBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaCreditEventsBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaCreditEventsBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaCreditEventsBuilder` [Setter]
 
 ### ReferenceWithMetaObservation
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -73,8 +73,8 @@
 - `getValue()` → `Observation` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaObservation` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaObservationBuilder
@@ -84,11 +84,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `ObservationBuilder` [Getter]
 - `setValue(Observation arg0)` → `ReferenceWithMetaObservationBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaObservationBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaObservationBuilder` [Setter]
 - `getOrCreateValue()` → `ObservationBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaObservationBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaObservationBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaObservationBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -104,8 +104,8 @@
 - `setValue(MarketDisruptionEnum arg0)` → `FieldWithMetaMarketDisruptionEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaMarketDisruptionEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaMarketDisruptionEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaMarketDisruptionEnumBuilder` [Setter]
 
 ### FieldWithMetaMarketDisruptionEnumImpl
 **Implements:** `FieldWithMetaMarketDisruptionEnum` 
@@ -131,8 +131,8 @@
 - `setValue(RestructuringEnum arg0)` → `FieldWithMetaRestructuringEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaRestructuringEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaRestructuringEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaRestructuringEnumBuilder` [Setter]
 
 ### FieldWithMetaRestructuringEnumImpl
 **Implements:** `FieldWithMetaRestructuringEnum` 
@@ -160,12 +160,12 @@
 - `getValue()` → `CreditEventsBuilder` [Getter]
 - `setValue(CreditEvents arg0)` → `ReferenceWithMetaCreditEventsBuilder` [Setter]
 - `build()` → `ReferenceWithMetaCreditEvents` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaCreditEventsBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaCreditEventsBuilder` [Setter]
 - `getOrCreateValue()` → `CreditEventsBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaCreditEventsBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaCreditEventsBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaCreditEventsBuilder` [Setter]
 
 ### ReferenceWithMetaCreditEventsImpl
 **Implements:** `ReferenceWithMetaCreditEvents` 
@@ -174,8 +174,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `CreditEvents` [Getter]
 - `build()` → `ReferenceWithMetaCreditEvents` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaCreditEventsBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaCreditEventsMeta
@@ -195,12 +195,12 @@
 - `getValue()` → `ObservationBuilder` [Getter]
 - `setValue(Observation arg0)` → `ReferenceWithMetaObservationBuilder` [Setter]
 - `build()` → `ReferenceWithMetaObservation` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaObservationBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaObservationBuilder` [Setter]
 - `getOrCreateValue()` → `ObservationBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaObservationBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaObservationBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaObservationBuilder` [Setter]
 
 ### ReferenceWithMetaObservationImpl
 **Implements:** `ReferenceWithMetaObservation` 
@@ -209,8 +209,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `Observation` [Getter]
 - `build()` → `ReferenceWithMetaObservation` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaObservationBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaObservationMeta

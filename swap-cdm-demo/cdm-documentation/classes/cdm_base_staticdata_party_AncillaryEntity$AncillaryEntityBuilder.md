@@ -20,8 +20,8 @@
 
 #### Getter Methods
 
-- `LegalEntityBuilder getLegalEntity()`
 - `LegalEntityBuilder getOrCreateLegalEntity()`
+- `LegalEntityBuilder getLegalEntity()`
 
 #### Other Methods
 

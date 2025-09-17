@@ -26,18 +26,18 @@
 
 #### Setter Methods
 
-- `PrincipalPaymentScheduleBuilder setFinalPrincipalPayment(PrincipalPayment arg0)`
 - `PrincipalPaymentScheduleBuilder setInitialPrincipalPayment(PrincipalPayment arg0)`
+- `PrincipalPaymentScheduleBuilder setFinalPrincipalPayment(PrincipalPayment arg0)`
 - `PrincipalPaymentScheduleBuilder setIntermediatePrincipalPayment(AdjustableRelativeOrPeriodicDates arg0)`
 
 #### Getter Methods
 
 - `PrincipalPaymentBuilder getInitialPrincipalPayment()`
 - `PrincipalPaymentBuilder getFinalPrincipalPayment()`
-- `PrincipalPaymentBuilder getOrCreateFinalPrincipalPayment()`
-- `PrincipalPaymentBuilder getOrCreateInitialPrincipalPayment()`
 - `AdjustableRelativeOrPeriodicDatesBuilder getOrCreateIntermediatePrincipalPayment()`
 - `AdjustableRelativeOrPeriodicDatesBuilder getIntermediatePrincipalPayment()`
+- `PrincipalPaymentBuilder getOrCreateInitialPrincipalPayment()`
+- `PrincipalPaymentBuilder getOrCreateFinalPrincipalPayment()`
 
 #### Other Methods
 
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PrincipalPaymentScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PrincipalPaymentScheduleBuilder toBuilder()`
 - `PrincipalPaymentScheduleBuilder prune()`
+- `PrincipalPaymentScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

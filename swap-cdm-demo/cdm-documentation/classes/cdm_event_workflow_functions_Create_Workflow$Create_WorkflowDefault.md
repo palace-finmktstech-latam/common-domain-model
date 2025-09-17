@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `WorkflowBuilder doEvaluate(List arg0)`
 - `WorkflowBuilder assignOutput(WorkflowBuilder arg0, List arg1)`
+- `WorkflowBuilder doEvaluate(List arg0)`
 

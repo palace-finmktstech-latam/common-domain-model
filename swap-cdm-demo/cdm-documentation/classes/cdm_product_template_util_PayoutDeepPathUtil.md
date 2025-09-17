@@ -10,8 +10,8 @@
 
 #### Other Methods
 
-- `PayerReceiver choosePayerReceiver(Payout arg0)`
-- `PrincipalPayments choosePrincipalPayment(Payout arg0)`
-- `ResolvablePriceQuantity choosePriceQuantity(Payout arg0)`
 - `SettlementTerms chooseSettlementTerms(Payout arg0)`
+- `PayerReceiver choosePayerReceiver(Payout arg0)`
+- `ResolvablePriceQuantity choosePriceQuantity(Payout arg0)`
+- `PrincipalPayments choosePrincipalPayment(Payout arg0)`
 

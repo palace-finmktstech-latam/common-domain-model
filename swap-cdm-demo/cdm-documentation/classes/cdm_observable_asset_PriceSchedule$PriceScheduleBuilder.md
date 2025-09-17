@@ -17,28 +17,28 @@
 
 - `PriceScheduleBuilder setValue(BigDecimal arg0)`
 - `PriceScheduleBuilder setPerUnitOf(UnitType arg0)`
-- `PriceScheduleBuilder setPriceType(PriceTypeEnum arg0)`
-- `PriceScheduleBuilder setCashPrice(CashPrice arg0)`
-- `PriceScheduleBuilder setDatedValue(List arg0)`
-- `PriceScheduleBuilder setComposite(PriceComposite arg0)`
-- `PriceScheduleBuilder setArithmeticOperator(ArithmeticOperationEnum arg0)`
 - `PriceScheduleBuilder setPriceExpression(PriceExpressionEnum arg0)`
+- `PriceScheduleBuilder setDatedValue(List arg0)`
+- `PriceScheduleBuilder setArithmeticOperator(ArithmeticOperationEnum arg0)`
+- `PriceScheduleBuilder setPriceType(PriceTypeEnum arg0)`
+- `PriceScheduleBuilder setComposite(PriceComposite arg0)`
+- `PriceScheduleBuilder setCashPrice(CashPrice arg0)`
 - `PriceScheduleBuilder setUnit(UnitType arg0)`
 
 #### Getter Methods
 
-- `CashPriceBuilder getOrCreateCashPrice()`
-- `UnitTypeBuilder getOrCreatePerUnitOf()`
-- `PriceCompositeBuilder getOrCreateComposite()`
 - `UnitTypeBuilder getPerUnitOf()`
 - `PriceCompositeBuilder getComposite()`
 - `CashPriceBuilder getCashPrice()`
+- `UnitTypeBuilder getOrCreatePerUnitOf()`
+- `PriceCompositeBuilder getOrCreateComposite()`
+- `CashPriceBuilder getOrCreateCashPrice()`
 
 #### Adder Methods
 
-- `PriceScheduleBuilder addDatedValue(DatedValue arg0)`
 - `PriceScheduleBuilder addDatedValue(List arg0)`
 - `PriceScheduleBuilder addDatedValue(DatedValue arg0, int arg1)`
+- `PriceScheduleBuilder addDatedValue(DatedValue arg0)`
 
 #### Other Methods
 

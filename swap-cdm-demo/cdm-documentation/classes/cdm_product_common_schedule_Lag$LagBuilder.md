@@ -20,8 +20,8 @@
 
 #### Getter Methods
 
-- `OffsetBuilder getLagDuration()`
 - `OffsetBuilder getOrCreateLagDuration()`
+- `OffsetBuilder getLagDuration()`
 - `OffsetBuilder getOrCreateFirstObservationDateOffset()`
 - `OffsetBuilder getFirstObservationDateOffset()`
 

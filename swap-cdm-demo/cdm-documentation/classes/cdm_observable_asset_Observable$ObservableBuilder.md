@@ -16,17 +16,17 @@
 #### Setter Methods
 
 - `ObservableBuilder setIndex(Index arg0)`
-- `ObservableBuilder setBasket(Basket arg0)`
 - `ObservableBuilder setAsset(Asset arg0)`
+- `ObservableBuilder setBasket(Basket arg0)`
 
 #### Getter Methods
 
 - `IndexBuilder getIndex()`
-- `IndexBuilder getOrCreateIndex()`
-- `BasketBuilder getOrCreateBasket()`
 - `AssetBuilder getOrCreateAsset()`
-- `BasketBuilder getBasket()`
+- `IndexBuilder getOrCreateIndex()`
 - `AssetBuilder getAsset()`
+- `BasketBuilder getOrCreateBasket()`
+- `BasketBuilder getBasket()`
 
 #### Other Methods
 

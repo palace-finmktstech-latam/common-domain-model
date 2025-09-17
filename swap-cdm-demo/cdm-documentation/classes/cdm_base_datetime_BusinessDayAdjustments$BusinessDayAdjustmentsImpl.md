@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `BusinessDayConventionEnum getBusinessDayConvention()`
-- `BusinessCenters getBusinessCenters()`
 - `MetaFields getMeta()`
+- `BusinessCenters getBusinessCenters()`
+- `BusinessDayConventionEnum getBusinessDayConvention()`
 
 #### Other Methods
 

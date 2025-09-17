@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `TradeBuilder doEvaluate(BusinessEvent arg0)`
 - `TradeBuilder assignOutput(TradeBuilder arg0, BusinessEvent arg1)`
+- `TradeBuilder doEvaluate(BusinessEvent arg0)`
 

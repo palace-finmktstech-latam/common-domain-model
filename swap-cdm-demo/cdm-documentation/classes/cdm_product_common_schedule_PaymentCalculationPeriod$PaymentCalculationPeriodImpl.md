@@ -22,14 +22,14 @@
 
 #### Getter Methods
 
-- `List getCalculationPeriod()`
-- `Date getAdjustedPaymentDate()`
-- `Money getFixedPaymentAmount()`
-- `Money getPresentValueAmount()`
-- `Money getForecastPaymentAmount()`
-- `Date getUnadjustedPaymentDate()`
-- `BigDecimal getDiscountFactor()`
 - `MetaFields getMeta()`
+- `Money getForecastPaymentAmount()`
+- `Money getPresentValueAmount()`
+- `Money getFixedPaymentAmount()`
+- `BigDecimal getDiscountFactor()`
+- `Date getUnadjustedPaymentDate()`
+- `Date getAdjustedPaymentDate()`
+- `List getCalculationPeriod()`
 
 #### Other Methods
 

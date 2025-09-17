@@ -22,14 +22,14 @@
 
 #### Getter Methods
 
+- `PartyRoleBuilder getPartyRole()`
+- `CounterpartyBuilder getCounterparty()`
+- `AncillaryPartyBuilder getAncillaryParty()`
 - `List getTradeId()`
 - `AncillaryPartyBuilder getOrCreateAncillaryParty()`
 - `CounterpartyBuilder getOrCreateCounterparty()`
-- `TradeIdentifierBuilder getOrCreateTradeId(int arg0)`
 - `PartyRoleBuilder getOrCreatePartyRole()`
-- `CounterpartyBuilder getCounterparty()`
-- `PartyRoleBuilder getPartyRole()`
-- `AncillaryPartyBuilder getAncillaryParty()`
+- `TradeIdentifierBuilder getOrCreateTradeId(int arg0)`
 
 #### Adder Methods
 

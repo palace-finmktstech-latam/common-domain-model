@@ -26,17 +26,17 @@
 
 #### Setter Methods
 
-- `BusinessDayAdjustmentsBuilder setBusinessDayConvention(BusinessDayConventionEnum arg0)`
-- `BusinessDayAdjustmentsBuilder setBusinessCenters(BusinessCenters arg0)`
 - `BusinessDayAdjustmentsBuilder setMeta(MetaFields arg0)`
+- `BusinessDayAdjustmentsBuilder setBusinessCenters(BusinessCenters arg0)`
+- `BusinessDayAdjustmentsBuilder setBusinessDayConvention(BusinessDayConventionEnum arg0)`
 
 #### Getter Methods
 
-- `BusinessDayConventionEnum getBusinessDayConvention()`
-- `BusinessCentersBuilder getOrCreateBusinessCenters()`
-- `BusinessCentersBuilder getBusinessCenters()`
 - `MetaFieldsBuilder getOrCreateMeta()`
 - `MetaFieldsBuilder getMeta()`
+- `BusinessCentersBuilder getOrCreateBusinessCenters()`
+- `BusinessCentersBuilder getBusinessCenters()`
+- `BusinessDayConventionEnum getBusinessDayConvention()`
 
 #### Other Methods
 
@@ -44,7 +44,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BusinessDayAdjustmentsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BusinessDayAdjustmentsBuilder toBuilder()`
 - `BusinessDayAdjustmentsBuilder prune()`
+- `BusinessDayAdjustmentsBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -25,8 +25,8 @@
 #### Adder Methods
 
 - `AveragingObservationListBuilder addAveragingObservation(List arg0)`
-- `AveragingObservationListBuilder addAveragingObservation(WeightedAveragingObservation arg0, int arg1)`
 - `AveragingObservationListBuilder addAveragingObservation(WeightedAveragingObservation arg0)`
+- `AveragingObservationListBuilder addAveragingObservation(WeightedAveragingObservation arg0, int arg1)`
 
 #### Other Methods
 

@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `QuasiGovernmentIssuerTypeBuilder setSovereignEntity(Boolean arg0)`
 - `QuasiGovernmentIssuerTypeBuilder setSovereignRecourse(Boolean arg0)`
+- `QuasiGovernmentIssuerTypeBuilder setSovereignEntity(Boolean arg0)`
 
 #### Other Methods
 

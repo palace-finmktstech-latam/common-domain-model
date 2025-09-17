@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `BigDecimal getConversionFactor()`
-- `RollFeature getRollFeature()`
 - `Rounding getRounding()`
+- `RollFeature getRollFeature()`
+- `BigDecimal getConversionFactor()`
 - `SpreadSchedule getSpread()`
 
 #### Other Methods

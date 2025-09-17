@@ -28,9 +28,9 @@
 **Key Methods:**
 - `getCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrency(FieldWithMetaString arg0)` → `NotDomesticCurrencyBuilder` [Setter]
-- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrencyValue(String arg0)` → `NotDomesticCurrencyBuilder` [Setter]
 - `setApplicable(Boolean arg0)` → `NotDomesticCurrencyBuilder` [Setter]
+- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 
 ### Obligations
 **Implements:** `RosettaModelObject` 
@@ -38,29 +38,29 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `Obligations` [Builder]
-- `getListed()` → `Boolean` [Getter]
-- `getCategory()` → `ObligationCategoryEnum` [Getter]
-- `getExcluded()` → `String` [Getter]
-- `getDesignatedPriority()` → `FieldWithMetaString` [Getter]
-- `getCashSettlementOnly()` → `Boolean` [Getter]
-- `getDeliveryOfCommitments()` → `Boolean` [Getter]
-- `getContinuity()` → `Boolean` [Getter]
-- `getOthReferenceEntityObligations()` → `String` [Getter]
+- `getGeneralFundObligationLiability()` → `Boolean` [Getter]
+- `getRevenueObligationLiability()` → `Boolean` [Getter]
+- `getFullFaithAndCreditObLiability()` → `Boolean` [Getter]
+- `getNotDomesticLaw()` → `Boolean` [Getter]
+- `getNotContingent()` → `Boolean` [Getter]
+- `getSpecifiedCurrency()` → `SpecifiedCurrency` [Getter]
+- `getNotDomesticIssuance()` → `Boolean` [Getter]
+- `getNotDomesticCurrency()` → `NotDomesticCurrency` [Getter]
 
 ### ObligationsBuilder
 **Implements:** `Obligations` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getDesignatedPriority()` → `FieldWithMetaStringBuilder` [Getter]
-- `setContinuity(Boolean arg0)` → `ObligationsBuilder` [Setter]
-- `setCashSettlementOnly(Boolean arg0)` → `ObligationsBuilder` [Setter]
-- `setDesignatedPriority(FieldWithMetaString arg0)` → `ObligationsBuilder` [Setter]
-- `setDesignatedPriorityValue(String arg0)` → `ObligationsBuilder` [Setter]
-- `setDeliveryOfCommitments(Boolean arg0)` → `ObligationsBuilder` [Setter]
-- `setListed(Boolean arg0)` → `ObligationsBuilder` [Setter]
-- `setNotContingent(Boolean arg0)` → `ObligationsBuilder` [Setter]
-- `setNotDomesticCurrency(NotDomesticCurrency arg0)` → `ObligationsBuilder` [Setter]
+- `setSpecifiedCurrency(SpecifiedCurrency arg0)` → `ObligationsBuilder` [Setter]
+- `setNotSovereignLender(Boolean arg0)` → `ObligationsBuilder` [Setter]
+- `setCategory(ObligationCategoryEnum arg0)` → `ObligationsBuilder` [Setter]
 - `setNotSubordinated(Boolean arg0)` → `ObligationsBuilder` [Setter]
+- `setNotContingent(Boolean arg0)` → `ObligationsBuilder` [Setter]
+- `setNotDomesticIssuance(Boolean arg0)` → `ObligationsBuilder` [Setter]
+- `setNotDomesticCurrency(NotDomesticCurrency arg0)` → `ObligationsBuilder` [Setter]
+- `setNotDomesticLaw(Boolean arg0)` → `ObligationsBuilder` [Setter]
+- `setExcluded(String arg0)` → `ObligationsBuilder` [Setter]
+- `setDesignatedPriority(FieldWithMetaString arg0)` → `ObligationsBuilder` [Setter]
 
 ### SpecifiedCurrency
 **Implements:** `RosettaModelObject` 
@@ -77,7 +77,7 @@
 **Key Methods:**
 - `getCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrency(FieldWithMetaString arg0)` → `SpecifiedCurrencyBuilder` [Setter]
-- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrencyValue(String arg0)` → `SpecifiedCurrencyBuilder` [Setter]
 - `setApplicable(Boolean arg0)` → `SpecifiedCurrencyBuilder` [Setter]
+- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 

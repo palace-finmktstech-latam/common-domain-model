@@ -28,8 +28,8 @@
 
 #### Getter Methods
 
-- `List getSchedulePeriod()`
 - `SchedulePeriodBuilder getOrCreateSchedulePeriod(int arg0)`
+- `List getSchedulePeriod()`
 
 #### Adder Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CalculationScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CalculationScheduleBuilder toBuilder()`
 - `CalculationScheduleBuilder prune()`
+- `CalculationScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

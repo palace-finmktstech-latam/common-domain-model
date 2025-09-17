@@ -29,26 +29,26 @@
 #### Setter Methods
 
 - `AddressBuilder setState(String arg0)`
-- `AddressBuilder setPostalCode(String arg0)`
-- `AddressBuilder setCountryValue(String arg0)`
 - `AddressBuilder setCountry(FieldWithMetaString arg0)`
-- `AddressBuilder setCity(String arg0)`
 - `AddressBuilder setStreet(List arg0)`
+- `AddressBuilder setCity(String arg0)`
+- `AddressBuilder setCountryValue(String arg0)`
+- `AddressBuilder setPostalCode(String arg0)`
 
 #### Getter Methods
 
 - `String getState()`
 - `FieldWithMetaStringBuilder getCountry()`
-- `String getPostalCode()`
-- `FieldWithMetaStringBuilder getOrCreateCountry()`
-- `List getStreet()`
 - `String getCity()`
+- `List getStreet()`
+- `FieldWithMetaStringBuilder getOrCreateCountry()`
+- `String getPostalCode()`
 
 #### Adder Methods
 
-- `AddressBuilder addStreet(String arg0)`
-- `AddressBuilder addStreet(String arg0, int arg1)`
 - `AddressBuilder addStreet(List arg0)`
+- `AddressBuilder addStreet(String arg0, int arg1)`
+- `AddressBuilder addStreet(String arg0)`
 
 #### Other Methods
 
@@ -56,7 +56,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AddressBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AddressBuilder toBuilder()`
 - `AddressBuilder prune()`
+- `AddressBuilder toBuilder()`
+- `boolean hasData()`
 

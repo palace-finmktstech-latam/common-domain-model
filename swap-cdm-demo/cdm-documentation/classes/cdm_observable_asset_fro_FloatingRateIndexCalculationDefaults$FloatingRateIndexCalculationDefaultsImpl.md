@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `FloatingRateIndexCalculationMethodEnum getMethod()`
-- `FloatingRateIndexCategoryEnum getCategory()`
 - `FloatingRateIndexStyleEnum getIndexStyle()`
+- `FloatingRateIndexCategoryEnum getCategory()`
 
 #### Other Methods
 

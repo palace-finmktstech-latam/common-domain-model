@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaPerformanceValuationDatesBuilder setValue(PerformanceValuationDates arg0)`
-- `ReferenceWithMetaPerformanceValuationDatesBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaPerformanceValuationDatesBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaPerformanceValuationDatesBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaPerformanceValuationDatesBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaPerformanceValuationDatesBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaPerformanceValuationDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaPerformanceValuationDatesBuilder toBuilder()`
 - `ReferenceWithMetaPerformanceValuationDatesBuilder prune()`
+- `ReferenceWithMetaPerformanceValuationDatesBuilder toBuilder()`
+- `boolean hasData()`
 

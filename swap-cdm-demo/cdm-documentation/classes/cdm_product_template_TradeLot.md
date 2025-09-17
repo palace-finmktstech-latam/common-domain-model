@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `List getLotIdentifier()`
 - `List getPriceQuantity()`
+- `List getLotIdentifier()`
 
 #### Other Methods
 

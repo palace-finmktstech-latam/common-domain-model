@@ -16,9 +16,9 @@
 #### Setter Methods
 
 - `TaxonomyClassificationBuilder setValue(String arg0)`
-- `TaxonomyClassificationBuilder setOrdinal(Integer arg0)`
 - `TaxonomyClassificationBuilder setDescription(String arg0)`
 - `TaxonomyClassificationBuilder setClassName(String arg0)`
+- `TaxonomyClassificationBuilder setOrdinal(Integer arg0)`
 
 #### Other Methods
 

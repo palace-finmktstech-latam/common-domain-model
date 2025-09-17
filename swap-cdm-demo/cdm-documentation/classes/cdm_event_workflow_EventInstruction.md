@@ -20,9 +20,9 @@
 
 - `Class getType()`
 - `Date getEffectiveDate()`
-- `List getInstruction()`
-- `CorporateActionTypeEnum getCorporateActionIntent()`
 - `IdentifiedList getPackageInformation()`
+- `CorporateActionTypeEnum getCorporateActionIntent()`
+- `List getInstruction()`
 - `Date getEventDate()`
 - `EventIntentEnum getIntent()`
 

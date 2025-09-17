@@ -34,20 +34,20 @@
 
 #### Getter Methods
 
+- `PartyRoleBuilder getPartyRole()`
+- `CounterpartyBuilder getCounterparty()`
+- `AncillaryPartyBuilder getAncillaryParty()`
 - `List getTradeId()`
 - `AncillaryPartyBuilder getOrCreateAncillaryParty()`
 - `CounterpartyBuilder getOrCreateCounterparty()`
-- `TradeIdentifierBuilder getOrCreateTradeId(int arg0)`
 - `PartyRoleBuilder getOrCreatePartyRole()`
-- `CounterpartyBuilder getCounterparty()`
-- `PartyRoleBuilder getPartyRole()`
-- `AncillaryPartyBuilder getAncillaryParty()`
+- `TradeIdentifierBuilder getOrCreateTradeId(int arg0)`
 
 #### Adder Methods
 
-- `PartyChangeInstructionBuilder addTradeId(List arg0)`
-- `PartyChangeInstructionBuilder addTradeId(TradeIdentifier arg0, int arg1)`
 - `PartyChangeInstructionBuilder addTradeId(TradeIdentifier arg0)`
+- `PartyChangeInstructionBuilder addTradeId(TradeIdentifier arg0, int arg1)`
+- `PartyChangeInstructionBuilder addTradeId(List arg0)`
 
 #### Other Methods
 
@@ -55,7 +55,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PartyChangeInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PartyChangeInstructionBuilder toBuilder()`
 - `PartyChangeInstructionBuilder prune()`
+- `PartyChangeInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

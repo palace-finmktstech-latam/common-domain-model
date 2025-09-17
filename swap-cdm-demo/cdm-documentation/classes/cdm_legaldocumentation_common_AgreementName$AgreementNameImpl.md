@@ -22,16 +22,16 @@
 
 #### Getter Methods
 
-- `List getContractualMatrix()`
 - `FieldWithMetaMasterConfirmationTypeEnum getMasterConfirmationType()`
-- `CollateralMarginTypeEnum getCreditSupportAgreementMarginType()`
-- `List getContractualTermsSupplement()`
-- `FieldWithMetaCreditSupportAgreementTypeEnum getCreditSupportAgreementType()`
-- `FieldWithMetaMasterConfirmationAnnexTypeEnum getMasterConfirmationAnnexType()`
-- `LegalAgreementTypeEnum getAgreementType()`
-- `FieldWithMetaMasterAgreementTypeEnum getMasterAgreementType()`
-- `String getOtherAgreement()`
+- `List getContractualMatrix()`
 - `List getContractualDefinitionsType()`
+- `FieldWithMetaMasterAgreementTypeEnum getMasterAgreementType()`
+- `LegalAgreementTypeEnum getAgreementType()`
+- `String getOtherAgreement()`
+- `CollateralMarginTypeEnum getCreditSupportAgreementMarginType()`
+- `FieldWithMetaMasterConfirmationAnnexTypeEnum getMasterConfirmationAnnexType()`
+- `FieldWithMetaCreditSupportAgreementTypeEnum getCreditSupportAgreementType()`
+- `List getContractualTermsSupplement()`
 
 #### Other Methods
 

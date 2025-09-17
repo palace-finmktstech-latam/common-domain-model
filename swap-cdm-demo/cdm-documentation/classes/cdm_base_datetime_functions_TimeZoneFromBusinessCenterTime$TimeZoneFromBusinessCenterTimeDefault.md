@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `TimeZoneBuilder doEvaluate(BusinessCenterTime arg0)`
 - `TimeZoneBuilder assignOutput(TimeZoneBuilder arg0, BusinessCenterTime arg1)`
+- `TimeZoneBuilder doEvaluate(BusinessCenterTime arg0)`
 

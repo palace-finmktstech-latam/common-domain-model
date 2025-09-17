@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `BigDecimal getFxHaircutPercentage()`
 - `BigDecimal getHaircutPercentage()`
 - `BigDecimal getMarginPercentage()`
+- `BigDecimal getFxHaircutPercentage()`
 - `BigDecimal getAdditionalHaircutPercentage()`
 
 #### Other Methods

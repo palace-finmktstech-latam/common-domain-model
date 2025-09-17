@@ -29,19 +29,19 @@
 
 - `FutureValueAmountBuilder setCurrency(FieldWithMetaString arg0)`
 - `FutureValueAmountBuilder setQuantity(ReferenceWithMetaNonNegativeQuantitySchedule arg0)`
-- `FutureValueAmountBuilder setQuantityValue(NonNegativeQuantitySchedule arg0)`
 - `FutureValueAmountBuilder setCurrencyValue(String arg0)`
+- `FutureValueAmountBuilder setQuantityValue(NonNegativeQuantitySchedule arg0)`
 - `FutureValueAmountBuilder setCalculationPeriodNumberOfDays(Integer arg0)`
 - `FutureValueAmountBuilder setValueDate(Date arg0)`
 
 #### Getter Methods
 
 - `FieldWithMetaStringBuilder getCurrency()`
-- `Date getValueDate()`
 - `ReferenceWithMetaNonNegativeQuantityScheduleBuilder getQuantity()`
 - `ReferenceWithMetaNonNegativeQuantityScheduleBuilder getOrCreateQuantity()`
-- `FieldWithMetaStringBuilder getOrCreateCurrency()`
 - `Integer getCalculationPeriodNumberOfDays()`
+- `FieldWithMetaStringBuilder getOrCreateCurrency()`
+- `Date getValueDate()`
 
 #### Other Methods
 
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FutureValueAmountBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FutureValueAmountBuilder toBuilder()`
 - `FutureValueAmountBuilder prune()`
+- `FutureValueAmountBuilder toBuilder()`
+- `boolean hasData()`
 

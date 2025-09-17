@@ -24,9 +24,9 @@
 
 - `FieldWithMetaDate getAdjustedDate()`
 - `Date getUnadjustedDate()`
-- `ReferenceWithMetaBusinessDayAdjustments getDateAdjustmentsReference()`
-- `BusinessDayAdjustments getDateAdjustments()`
 - `MetaFields getMeta()`
+- `BusinessDayAdjustments getDateAdjustments()`
+- `ReferenceWithMetaBusinessDayAdjustments getDateAdjustmentsReference()`
 
 #### Other Methods
 

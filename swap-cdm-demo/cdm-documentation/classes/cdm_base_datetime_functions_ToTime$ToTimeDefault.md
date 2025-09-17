@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `LocalTime doEvaluate(Integer arg0, Integer arg1, Integer arg2)`
 - `LocalTime assignOutput(LocalTime arg0, Integer arg1, Integer arg2, Integer arg3)`
+- `LocalTime doEvaluate(Integer arg0, Integer arg1, Integer arg2)`
 

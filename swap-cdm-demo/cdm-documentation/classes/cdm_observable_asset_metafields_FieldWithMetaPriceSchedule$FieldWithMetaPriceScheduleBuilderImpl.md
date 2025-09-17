@@ -31,8 +31,8 @@
 #### Getter Methods
 
 - `PriceScheduleBuilder getValue()`
-- `PriceScheduleBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `PriceScheduleBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaPriceScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaPriceScheduleBuilder toBuilder()`
 - `FieldWithMetaPriceScheduleBuilder prune()`
+- `FieldWithMetaPriceScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

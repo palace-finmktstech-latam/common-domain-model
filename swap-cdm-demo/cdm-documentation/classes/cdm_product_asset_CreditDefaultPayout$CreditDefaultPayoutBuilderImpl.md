@@ -31,28 +31,28 @@
 
 #### Setter Methods
 
-- `CreditDefaultPayoutBuilder setPrincipalPayment(PrincipalPayments arg0)`
 - `CreditDefaultPayoutBuilder setPayerReceiver(PayerReceiver arg0)`
+- `CreditDefaultPayoutBuilder setPriceQuantity(ResolvablePriceQuantity arg0)`
+- `CreditDefaultPayoutBuilder setSettlementTerms(SettlementTerms arg0)`
+- `CreditDefaultPayoutBuilder setPrincipalPayment(PrincipalPayments arg0)`
+- `CreditDefaultPayoutBuilder setGeneralTerms(GeneralTerms arg0)`
 - `CreditDefaultPayoutBuilder setProtectionTerms(List arg0)`
 - `CreditDefaultPayoutBuilder setTransactedPrice(TransactedPrice arg0)`
-- `CreditDefaultPayoutBuilder setGeneralTerms(GeneralTerms arg0)`
-- `CreditDefaultPayoutBuilder setSettlementTerms(SettlementTerms arg0)`
-- `CreditDefaultPayoutBuilder setPriceQuantity(ResolvablePriceQuantity arg0)`
 
 #### Getter Methods
 
-- `TransactedPriceBuilder getTransactedPrice()`
 - `GeneralTermsBuilder getGeneralTerms()`
-- `GeneralTermsBuilder getOrCreateGeneralTerms()`
-- `ProtectionTermsBuilder getOrCreateProtectionTerms(int arg0)`
-- `TransactedPriceBuilder getOrCreateTransactedPrice()`
 - `List getProtectionTerms()`
+- `TransactedPriceBuilder getOrCreateTransactedPrice()`
+- `ProtectionTermsBuilder getOrCreateProtectionTerms(int arg0)`
+- `GeneralTermsBuilder getOrCreateGeneralTerms()`
+- `TransactedPriceBuilder getTransactedPrice()`
 
 #### Adder Methods
 
 - `CreditDefaultPayoutBuilder addProtectionTerms(List arg0)`
-- `CreditDefaultPayoutBuilder addProtectionTerms(ProtectionTerms arg0)`
 - `CreditDefaultPayoutBuilder addProtectionTerms(ProtectionTerms arg0, int arg1)`
+- `CreditDefaultPayoutBuilder addProtectionTerms(ProtectionTerms arg0)`
 
 #### Other Methods
 
@@ -60,7 +60,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CreditDefaultPayoutBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CreditDefaultPayoutBuilder toBuilder()`
 - `CreditDefaultPayoutBuilder prune()`
+- `CreditDefaultPayoutBuilder toBuilder()`
+- `boolean hasData()`
 

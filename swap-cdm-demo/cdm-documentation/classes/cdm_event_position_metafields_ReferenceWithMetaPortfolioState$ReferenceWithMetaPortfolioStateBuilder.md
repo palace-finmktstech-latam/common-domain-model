@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaPortfolioStateBuilder setValue(PortfolioState arg0)`
-- `ReferenceWithMetaPortfolioStateBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaPortfolioStateBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaPortfolioStateBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaPortfolioStateBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaPortfolioStateBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

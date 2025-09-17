@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `BigDecimal getNotionalAmount()`
 - `Date getResetDate()`
 - `BigDecimal getObservedFxSpotRate()`
 - `Date getAdjustedFxSpotFixingDate()`
+- `BigDecimal getNotionalAmount()`
 
 #### Other Methods
 

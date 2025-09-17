@@ -37,8 +37,8 @@
 #### Adder Methods
 
 - `ScheduleBuilder addDatedValue(DatedValue arg0, int arg1)`
-- `ScheduleBuilder addDatedValue(List arg0)`
 - `ScheduleBuilder addDatedValue(DatedValue arg0)`
+- `ScheduleBuilder addDatedValue(List arg0)`
 
 #### Other Methods
 
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ScheduleBuilder toBuilder()`
 - `ScheduleBuilder prune()`
+- `ScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

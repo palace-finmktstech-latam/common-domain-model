@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
+- `PaymentDates getPaymentDates()`
 - `CalculationSchedule getSchedule()`
 - `FixedPrice getFixedPrice()`
-- `PaymentDates getPaymentDates()`
 
 #### Other Methods
 

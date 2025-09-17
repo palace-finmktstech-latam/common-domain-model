@@ -26,15 +26,15 @@
 
 #### Setter Methods
 
-- `TrancheBuilder setIncurredRecoveryApplicable(Boolean arg0)`
 - `TrancheBuilder setExhaustionPoint(BigDecimal arg0)`
 - `TrancheBuilder setAttachmentPoint(BigDecimal arg0)`
+- `TrancheBuilder setIncurredRecoveryApplicable(Boolean arg0)`
 
 #### Getter Methods
 
-- `Boolean getIncurredRecoveryApplicable()`
 - `BigDecimal getAttachmentPoint()`
 - `BigDecimal getExhaustionPoint()`
+- `Boolean getIncurredRecoveryApplicable()`
 
 #### Other Methods
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TrancheBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TrancheBuilder toBuilder()`
 - `TrancheBuilder prune()`
+- `TrancheBuilder toBuilder()`
+- `boolean hasData()`
 

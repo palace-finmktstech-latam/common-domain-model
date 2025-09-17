@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `NumberBoundBuilder setInclusive(Boolean arg0)`
 - `NumberBoundBuilder setNumber(BigDecimal arg0)`
+- `NumberBoundBuilder setInclusive(Boolean arg0)`
 
 #### Other Methods
 

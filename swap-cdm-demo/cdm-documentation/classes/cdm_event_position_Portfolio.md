@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `AggregationParameters getAggregationParameters()`
 - `PortfolioState getPortfolioState()`
+- `AggregationParameters getAggregationParameters()`
 
 #### Other Methods
 

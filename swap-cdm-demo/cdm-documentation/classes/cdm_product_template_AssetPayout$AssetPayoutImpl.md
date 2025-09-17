@@ -27,10 +27,10 @@
 
 #### Getter Methods
 
-- `DividendTerms getDividendTerms()`
-- `List getAssetLeg()`
-- `AssetPayoutTradeTypeEnum getTradeType()`
 - `Asset getUnderlier()`
+- `List getAssetLeg()`
+- `DividendTerms getDividendTerms()`
+- `AssetPayoutTradeTypeEnum getTradeType()`
 - `Money getMinimumFee()`
 
 #### Other Methods

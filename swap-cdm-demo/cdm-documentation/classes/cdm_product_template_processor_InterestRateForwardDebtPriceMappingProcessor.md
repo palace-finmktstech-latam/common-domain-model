@@ -20,7 +20,7 @@
 #### Other Methods
 
 - `void map(Path arg0, List arg1, RosettaModelObjectBuilder arg2)`
-- `Map findMappings(List arg0, Path arg1)`
 - `void updateMapping(Mapping arg0, Path arg1)`
+- `Map findMappings(List arg0, Path arg1)`
 - `UnitTypeBuilder toCurrencyUnitType(Path arg0)`
 

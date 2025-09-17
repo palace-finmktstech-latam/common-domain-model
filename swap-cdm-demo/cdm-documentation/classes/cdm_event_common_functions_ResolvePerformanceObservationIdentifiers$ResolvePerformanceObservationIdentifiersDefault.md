@@ -15,8 +15,8 @@
 
 #### Other Methods
 
-- `ObservationIdentifierBuilder doEvaluate(PerformancePayout arg0, Date arg1)`
 - `ObservationIdentifierBuilder assignOutput(ObservationIdentifierBuilder arg0, PerformancePayout arg1, Date arg2)`
-- `MapperS valuationDates(PerformancePayout arg0, Date arg1)`
+- `ObservationIdentifierBuilder doEvaluate(PerformancePayout arg0, Date arg1)`
 - `MapperS adjustedFinalValuationDate(PerformancePayout arg0, Date arg1)`
+- `MapperS valuationDates(PerformancePayout arg0, Date arg1)`
 

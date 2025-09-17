@@ -32,32 +32,32 @@
 
 #### Setter Methods
 
-- `CashSettlementTermsBuilder setRecoveryFactor(BigDecimal arg0)`
-- `CashSettlementTermsBuilder setAccruedInterest(Boolean arg0)`
-- `CashSettlementTermsBuilder setCashSettlementAmount(Money arg0)`
-- `CashSettlementTermsBuilder setValuationMethod(ValuationMethod arg0)`
-- `CashSettlementTermsBuilder setCashSettlementMethod(CashSettlementMethodEnum arg0)`
-- `CashSettlementTermsBuilder setFixedSettlement(Boolean arg0)`
+- `CashSettlementTermsBuilder setMeta(MetaFields arg0)`
 - `CashSettlementTermsBuilder setValuationTime(BusinessCenterTime arg0)`
 - `CashSettlementTermsBuilder setValuationDate(ValuationDate arg0)`
-- `CashSettlementTermsBuilder setMeta(MetaFields arg0)`
+- `CashSettlementTermsBuilder setValuationMethod(ValuationMethod arg0)`
+- `CashSettlementTermsBuilder setCashSettlementAmount(Money arg0)`
+- `CashSettlementTermsBuilder setCashSettlementMethod(CashSettlementMethodEnum arg0)`
+- `CashSettlementTermsBuilder setRecoveryFactor(BigDecimal arg0)`
+- `CashSettlementTermsBuilder setFixedSettlement(Boolean arg0)`
+- `CashSettlementTermsBuilder setAccruedInterest(Boolean arg0)`
 
 #### Getter Methods
 
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `Boolean getFixedSettlement()`
-- `CashSettlementMethodEnum getCashSettlementMethod()`
-- `ValuationMethodBuilder getValuationMethod()`
-- `MoneyBuilder getCashSettlementAmount()`
-- `ValuationMethodBuilder getOrCreateValuationMethod()`
-- `BigDecimal getRecoveryFactor()`
-- `MoneyBuilder getOrCreateCashSettlementAmount()`
 - `BusinessCenterTimeBuilder getValuationTime()`
 - `ValuationDateBuilder getValuationDate()`
-- `ValuationDateBuilder getOrCreateValuationDate()`
-- `BusinessCenterTimeBuilder getOrCreateValuationTime()`
-- `Boolean getAccruedInterest()`
 - `MetaFieldsBuilder getMeta()`
+- `BusinessCenterTimeBuilder getOrCreateValuationTime()`
+- `ValuationDateBuilder getOrCreateValuationDate()`
+- `MoneyBuilder getCashSettlementAmount()`
+- `BigDecimal getRecoveryFactor()`
+- `Boolean getFixedSettlement()`
+- `ValuationMethodBuilder getOrCreateValuationMethod()`
+- `ValuationMethodBuilder getValuationMethod()`
+- `CashSettlementMethodEnum getCashSettlementMethod()`
+- `Boolean getAccruedInterest()`
+- `MoneyBuilder getOrCreateCashSettlementAmount()`
 
 #### Other Methods
 
@@ -65,7 +65,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CashSettlementTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CashSettlementTermsBuilder toBuilder()`
 - `CashSettlementTermsBuilder prune()`
+- `CashSettlementTermsBuilder toBuilder()`
+- `boolean hasData()`
 

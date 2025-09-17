@@ -30,24 +30,24 @@
 
 #### Setter Methods
 
-- `ValuationTermsBuilder setMultipleExchangeIndexAnnexFallback(Boolean arg0)`
-- `ValuationTermsBuilder setComponentSecurityIndexAnnexFallback(Boolean arg0)`
-- `ValuationTermsBuilder setFPVFinalPriceElectionFallback(FPVFinalPriceElectionFallbackEnum arg0)`
-- `ValuationTermsBuilder setNumberOfValuationDates(Integer arg0)`
-- `ValuationTermsBuilder setDividendValuationDates(AdjustableRelativeOrPeriodicDates arg0)`
 - `ValuationTermsBuilder setFuturesPriceValuation(Boolean arg0)`
 - `ValuationTermsBuilder setOptionsPriceValuation(Boolean arg0)`
+- `ValuationTermsBuilder setNumberOfValuationDates(Integer arg0)`
+- `ValuationTermsBuilder setDividendValuationDates(AdjustableRelativeOrPeriodicDates arg0)`
+- `ValuationTermsBuilder setFPVFinalPriceElectionFallback(FPVFinalPriceElectionFallbackEnum arg0)`
+- `ValuationTermsBuilder setMultipleExchangeIndexAnnexFallback(Boolean arg0)`
+- `ValuationTermsBuilder setComponentSecurityIndexAnnexFallback(Boolean arg0)`
 
 #### Getter Methods
 
-- `Boolean getMultipleExchangeIndexAnnexFallback()`
-- `FPVFinalPriceElectionFallbackEnum getFPVFinalPriceElectionFallback()`
-- `AdjustableRelativeOrPeriodicDatesBuilder getOrCreateDividendValuationDates()`
-- `Boolean getComponentSecurityIndexAnnexFallback()`
-- `AdjustableRelativeOrPeriodicDatesBuilder getDividendValuationDates()`
 - `Boolean getFuturesPriceValuation()`
 - `Boolean getOptionsPriceValuation()`
 - `Integer getNumberOfValuationDates()`
+- `AdjustableRelativeOrPeriodicDatesBuilder getDividendValuationDates()`
+- `Boolean getMultipleExchangeIndexAnnexFallback()`
+- `FPVFinalPriceElectionFallbackEnum getFPVFinalPriceElectionFallback()`
+- `Boolean getComponentSecurityIndexAnnexFallback()`
+- `AdjustableRelativeOrPeriodicDatesBuilder getOrCreateDividendValuationDates()`
 
 #### Other Methods
 
@@ -55,7 +55,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ValuationTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ValuationTermsBuilder toBuilder()`
 - `ValuationTermsBuilder prune()`
+- `ValuationTermsBuilder toBuilder()`
+- `boolean hasData()`
 

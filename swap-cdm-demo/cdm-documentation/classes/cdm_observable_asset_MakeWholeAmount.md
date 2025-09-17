@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `FieldWithMetaDate getEarlyCallDate()`
 - `InterpolationMethodEnum getInterpolationMethod()`
+- `FieldWithMetaDate getEarlyCallDate()`
 
 #### Other Methods
 

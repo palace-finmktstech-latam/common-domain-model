@@ -15,24 +15,24 @@
 
 #### Setter Methods
 
-- `AgreementBuilder setMasterAgreementSchedule(MasterAgreementSchedule arg0)`
-- `AgreementBuilder setCreditSupportAgreementElections(CreditSupportAgreementElections arg0)`
 - `AgreementBuilder setSecurityAgreementElections(SecurityAgreementElections arg0)`
-- `AgreementBuilder setCollateralTransferAgreementElections(CollateralTransferAgreementElections arg0)`
 - `AgreementBuilder setTransactionAdditionalTerms(TransactionAdditionalTerms arg0)`
+- `AgreementBuilder setCreditSupportAgreementElections(CreditSupportAgreementElections arg0)`
+- `AgreementBuilder setCollateralTransferAgreementElections(CollateralTransferAgreementElections arg0)`
+- `AgreementBuilder setMasterAgreementSchedule(MasterAgreementSchedule arg0)`
 
 #### Getter Methods
 
-- `MasterAgreementScheduleBuilder getMasterAgreementSchedule()`
 - `CollateralTransferAgreementElectionsBuilder getOrCreateCollateralTransferAgreementElections()`
 - `TransactionAdditionalTermsBuilder getTransactionAdditionalTerms()`
-- `CreditSupportAgreementElectionsBuilder getCreditSupportAgreementElections()`
-- `CollateralTransferAgreementElectionsBuilder getCollateralTransferAgreementElections()`
-- `SecurityAgreementElectionsBuilder getSecurityAgreementElections()`
 - `CreditSupportAgreementElectionsBuilder getOrCreateCreditSupportAgreementElections()`
-- `MasterAgreementScheduleBuilder getOrCreateMasterAgreementSchedule()`
-- `TransactionAdditionalTermsBuilder getOrCreateTransactionAdditionalTerms()`
+- `CollateralTransferAgreementElectionsBuilder getCollateralTransferAgreementElections()`
 - `SecurityAgreementElectionsBuilder getOrCreateSecurityAgreementElections()`
+- `CreditSupportAgreementElectionsBuilder getCreditSupportAgreementElections()`
+- `SecurityAgreementElectionsBuilder getSecurityAgreementElections()`
+- `TransactionAdditionalTermsBuilder getOrCreateTransactionAdditionalTerms()`
+- `MasterAgreementScheduleBuilder getOrCreateMasterAgreementSchedule()`
+- `MasterAgreementScheduleBuilder getMasterAgreementSchedule()`
 
 #### Other Methods
 

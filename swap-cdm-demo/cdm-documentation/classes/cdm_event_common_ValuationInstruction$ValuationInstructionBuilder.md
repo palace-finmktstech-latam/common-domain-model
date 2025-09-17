@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `ValuationInstructionBuilder setValuation(List arg0)`
 - `ValuationInstructionBuilder setReplace(Boolean arg0)`
+- `ValuationInstructionBuilder setValuation(List arg0)`
 
 #### Getter Methods
 

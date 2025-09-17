@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `Date getDate()`
-- `PayerReceiver getPayerReceiver()`
 - `Quantity getQuantity()`
+- `PayerReceiver getPayerReceiver()`
 - `TradeState getTradeState()`
 - `List getResets()`
 - `ReferenceWithMetaPayout getPayout()`

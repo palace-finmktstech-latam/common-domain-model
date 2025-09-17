@@ -15,9 +15,9 @@
 #### Other Methods
 
 - `BigDecimal evaluate(PriceSchedule arg0, PriceSchedule arg1)`
-- `BigDecimal doEvaluate(PriceSchedule arg0, PriceSchedule arg1)`
 - `MapperS initialPriceValue(PriceSchedule arg0, PriceSchedule arg1)`
 - `MapperS finalPriceValue(PriceSchedule arg0, PriceSchedule arg1)`
+- `BigDecimal doEvaluate(PriceSchedule arg0, PriceSchedule arg1)`
 
 ### Annotations
 

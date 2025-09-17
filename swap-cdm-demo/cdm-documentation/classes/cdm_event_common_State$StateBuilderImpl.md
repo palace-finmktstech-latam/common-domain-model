@@ -25,14 +25,14 @@
 
 #### Setter Methods
 
-- `StateBuilder setClosedState(ClosedState arg0)`
 - `StateBuilder setPositionState(PositionStatusEnum arg0)`
+- `StateBuilder setClosedState(ClosedState arg0)`
 
 #### Getter Methods
 
-- `ClosedStateBuilder getOrCreateClosedState()`
 - `ClosedStateBuilder getClosedState()`
 - `PositionStatusEnum getPositionState()`
+- `ClosedStateBuilder getOrCreateClosedState()`
 
 #### Other Methods
 
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `StateBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `StateBuilder toBuilder()`
 - `StateBuilder prune()`
+- `StateBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -15,22 +15,22 @@
 
 #### Setter Methods
 
-- `OptionStrikeBuilder setStrikePrice(Price arg0)`
-- `OptionStrikeBuilder setReferenceSwapCurve(ReferenceSwapCurve arg0)`
 - `OptionStrikeBuilder setStrikeReference(ReferenceWithMetaFixedRateSpecification arg0)`
-- `OptionStrikeBuilder setAveragingStrikeFeature(AveragingStrikeFeature arg0)`
 - `OptionStrikeBuilder setStrikeReferenceValue(FixedRateSpecification arg0)`
+- `OptionStrikeBuilder setReferenceSwapCurve(ReferenceSwapCurve arg0)`
+- `OptionStrikeBuilder setStrikePrice(Price arg0)`
+- `OptionStrikeBuilder setAveragingStrikeFeature(AveragingStrikeFeature arg0)`
 
 #### Getter Methods
 
-- `ReferenceWithMetaFixedRateSpecificationBuilder getStrikeReference()`
+- `PriceBuilder getOrCreateStrikePrice()`
+- `ReferenceWithMetaFixedRateSpecificationBuilder getOrCreateStrikeReference()`
+- `ReferenceSwapCurveBuilder getReferenceSwapCurve()`
 - `AveragingStrikeFeatureBuilder getAveragingStrikeFeature()`
 - `PriceBuilder getStrikePrice()`
-- `ReferenceSwapCurveBuilder getReferenceSwapCurve()`
-- `ReferenceSwapCurveBuilder getOrCreateReferenceSwapCurve()`
+- `ReferenceWithMetaFixedRateSpecificationBuilder getStrikeReference()`
 - `AveragingStrikeFeatureBuilder getOrCreateAveragingStrikeFeature()`
-- `ReferenceWithMetaFixedRateSpecificationBuilder getOrCreateStrikeReference()`
-- `PriceBuilder getOrCreateStrikePrice()`
+- `ReferenceSwapCurveBuilder getOrCreateReferenceSwapCurve()`
 
 #### Other Methods
 

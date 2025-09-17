@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `PeriodTimeEnum getPeriod()`
 - `Integer getPeriodMultiplier()`
+- `PeriodTimeEnum getPeriod()`
 
 #### Other Methods
 

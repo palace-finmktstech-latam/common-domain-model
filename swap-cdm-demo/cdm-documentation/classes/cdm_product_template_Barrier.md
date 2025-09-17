@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `TriggerEvent getBarrierFloor()`
 - `TriggerEvent getBarrierCap()`
+- `TriggerEvent getBarrierFloor()`
 
 #### Other Methods
 

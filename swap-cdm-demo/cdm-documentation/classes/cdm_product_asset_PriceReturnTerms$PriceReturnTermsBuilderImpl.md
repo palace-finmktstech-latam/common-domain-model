@@ -27,8 +27,8 @@
 #### Setter Methods
 
 - `PriceReturnTermsBuilder setReturnType(ReturnTypeEnum arg0)`
-- `PriceReturnTermsBuilder setPerformance(String arg0)`
 - `PriceReturnTermsBuilder setConversionFactor(BigDecimal arg0)`
+- `PriceReturnTermsBuilder setPerformance(String arg0)`
 
 #### Getter Methods
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PriceReturnTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PriceReturnTermsBuilder toBuilder()`
 - `PriceReturnTermsBuilder prune()`
+- `PriceReturnTermsBuilder toBuilder()`
+- `boolean hasData()`
 

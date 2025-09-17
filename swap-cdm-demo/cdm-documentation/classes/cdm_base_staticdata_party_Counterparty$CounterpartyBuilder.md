@@ -16,8 +16,8 @@
 #### Setter Methods
 
 - `CounterpartyBuilder setRole(CounterpartyRoleEnum arg0)`
-- `CounterpartyBuilder setPartyReferenceValue(Party arg0)`
 - `CounterpartyBuilder setPartyReference(ReferenceWithMetaParty arg0)`
+- `CounterpartyBuilder setPartyReferenceValue(Party arg0)`
 
 #### Getter Methods
 

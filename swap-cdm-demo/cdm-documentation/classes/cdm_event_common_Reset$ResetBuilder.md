@@ -17,32 +17,32 @@
 #### Setter Methods
 
 - `ResetBuilder setAveragingMethodology(AveragingCalculation arg0)`
-- `ResetBuilder setObservationsValue(List arg0)`
-- `ResetBuilder setResetValue(Price arg0)`
-- `ResetBuilder setRateRecordDate(Date arg0)`
 - `ResetBuilder setObservations(List arg0)`
 - `ResetBuilder setResetDate(Date arg0)`
+- `ResetBuilder setRateRecordDate(Date arg0)`
+- `ResetBuilder setResetValue(Price arg0)`
+- `ResetBuilder setObservationsValue(List arg0)`
 - `ResetBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
-- `AveragingCalculationBuilder getOrCreateAveragingMethodology()`
-- `List getObservations()`
-- `PriceBuilder getResetValue()`
-- `AveragingCalculationBuilder getAveragingMethodology()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `PriceBuilder getResetValue()`
+- `List getObservations()`
+- `AveragingCalculationBuilder getAveragingMethodology()`
 - `PriceBuilder getOrCreateResetValue()`
 - `ReferenceWithMetaObservationBuilder getOrCreateObservations(int arg0)`
+- `AveragingCalculationBuilder getOrCreateAveragingMethodology()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Adder Methods
 
-- `ResetBuilder addObservations(ReferenceWithMetaObservation arg0)`
-- `ResetBuilder addObservations(ReferenceWithMetaObservation arg0, int arg1)`
 - `ResetBuilder addObservations(List arg0)`
+- `ResetBuilder addObservations(ReferenceWithMetaObservation arg0, int arg1)`
+- `ResetBuilder addObservations(ReferenceWithMetaObservation arg0)`
 - `ResetBuilder addObservationsValue(Observation arg0, int arg1)`
-- `ResetBuilder addObservationsValue(Observation arg0)`
 - `ResetBuilder addObservationsValue(List arg0)`
+- `ResetBuilder addObservationsValue(Observation arg0)`
 
 #### Other Methods
 

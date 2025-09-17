@@ -28,16 +28,16 @@
 #### Setter Methods
 
 - `TaxonomyClassificationBuilder setValue(String arg0)`
-- `TaxonomyClassificationBuilder setOrdinal(Integer arg0)`
 - `TaxonomyClassificationBuilder setDescription(String arg0)`
 - `TaxonomyClassificationBuilder setClassName(String arg0)`
+- `TaxonomyClassificationBuilder setOrdinal(Integer arg0)`
 
 #### Getter Methods
 
 - `String getValue()`
 - `String getClassName()`
-- `Integer getOrdinal()`
 - `String getDescription()`
+- `Integer getOrdinal()`
 
 #### Other Methods
 
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TaxonomyClassificationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TaxonomyClassificationBuilder toBuilder()`
 - `TaxonomyClassificationBuilder prune()`
+- `TaxonomyClassificationBuilder toBuilder()`
+- `boolean hasData()`
 

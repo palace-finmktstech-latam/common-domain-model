@@ -26,16 +26,16 @@
 
 #### Setter Methods
 
+- `FrequencyBuilder setMeta(MetaFields arg0)`
 - `FrequencyBuilder setPeriod(PeriodExtendedEnum arg0)`
 - `FrequencyBuilder setPeriodMultiplier(Integer arg0)`
-- `FrequencyBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `PeriodExtendedEnum getPeriod()`
 - `Integer getPeriodMultiplier()`
 - `MetaFieldsBuilder getMeta()`
+- `PeriodExtendedEnum getPeriod()`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FrequencyBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FrequencyBuilder toBuilder()`
 - `FrequencyBuilder prune()`
+- `FrequencyBuilder toBuilder()`
+- `boolean hasData()`
 

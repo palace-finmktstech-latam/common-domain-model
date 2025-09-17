@@ -27,18 +27,18 @@
 
 #### Setter Methods
 
-- `FallbackRateParametersBuilder setEffectiveDate(Date arg0)`
-- `FallbackRateParametersBuilder setFloatingRateIndex(FloatingRateIndexEnum arg0)`
 - `FallbackRateParametersBuilder setCalculationParameters(FloatingRateCalculationParameters arg0)`
+- `FallbackRateParametersBuilder setEffectiveDate(Date arg0)`
 - `FallbackRateParametersBuilder setSpreadAdjustment(BigDecimal arg0)`
+- `FallbackRateParametersBuilder setFloatingRateIndex(FloatingRateIndexEnum arg0)`
 
 #### Getter Methods
 
-- `FloatingRateCalculationParametersBuilder getCalculationParameters()`
-- `FloatingRateIndexEnum getFloatingRateIndex()`
 - `Date getEffectiveDate()`
 - `BigDecimal getSpreadAdjustment()`
 - `FloatingRateCalculationParametersBuilder getOrCreateCalculationParameters()`
+- `FloatingRateCalculationParametersBuilder getCalculationParameters()`
+- `FloatingRateIndexEnum getFloatingRateIndex()`
 
 #### Other Methods
 
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FallbackRateParametersBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FallbackRateParametersBuilder toBuilder()`
 - `FallbackRateParametersBuilder prune()`
+- `FallbackRateParametersBuilder toBuilder()`
+- `boolean hasData()`
 

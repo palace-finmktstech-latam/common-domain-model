@@ -31,8 +31,8 @@
 #### Getter Methods
 
 - `InterestRateIndexBuilder getValue()`
-- `InterestRateIndexBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `InterestRateIndexBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaInterestRateIndexBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaInterestRateIndexBuilder toBuilder()`
 - `FieldWithMetaInterestRateIndexBuilder prune()`
+- `FieldWithMetaInterestRateIndexBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -26,16 +26,16 @@
 
 #### Setter Methods
 
+- `FailureToPayBuilder setApplicable(Boolean arg0)`
 - `FailureToPayBuilder setPaymentRequirement(Money arg0)`
 - `FailureToPayBuilder setGracePeriodExtension(GracePeriodExtension arg0)`
-- `FailureToPayBuilder setApplicable(Boolean arg0)`
 
 #### Getter Methods
 
 - `GracePeriodExtensionBuilder getGracePeriodExtension()`
 - `MoneyBuilder getPaymentRequirement()`
-- `MoneyBuilder getOrCreatePaymentRequirement()`
 - `GracePeriodExtensionBuilder getOrCreateGracePeriodExtension()`
+- `MoneyBuilder getOrCreatePaymentRequirement()`
 - `Boolean getApplicable()`
 
 #### Other Methods
@@ -44,7 +44,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FailureToPayBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FailureToPayBuilder toBuilder()`
 - `FailureToPayBuilder prune()`
+- `FailureToPayBuilder toBuilder()`
+- `boolean hasData()`
 

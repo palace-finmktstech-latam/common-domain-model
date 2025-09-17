@@ -1,0 +1,76 @@
+{
+  "header": {
+    "tradeId": "58026",
+    "tradeIdType": "INTERNAL",
+    "tradeDate": {
+      "date": "09/03/2023",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["CLSA"]
+    },
+    "effectiveDate": {
+      "date": "13/03/2023",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["CLSA"]
+    },
+    "terminationDate": {
+      "date": "13/03/2025",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["CLSA"]
+    },
+    "party1": {
+      "partyId": "ThisBank",
+      "partyName": "Banco ABC"
+    },
+    "party2": {
+      "partyId": "OurCounterparty",
+      "partyName": "BCI"
+    }
+  },
+  "legs": [
+    {
+      "legId": "Pata-Fija",
+      "payerPartyReference": "OurCounterparty",
+      "receiverPartyReference": "ThisBank",
+      "notionalAmount": 200000,
+      "notionalCurrency": "USD",
+      "rateType": "FIXED",
+      "fixedRate": 0.0498,
+      "calculationPeriodFrequency": "6M",
+      "calculationDayConvention": "MODFOLLOWING",
+      "calculationBusinessCenters": ["USNY", "CLSA"],
+      "paymentFrequency": "6M",
+      "dayCountFraction": "ACT/360",
+      "paymentDayConvention": "NONE",
+      "paymentBusinessCenters": ["USNY", "CLSA"],
+      "paymentDateOffset": 0,
+      "settlementCurrency": "USD",
+      "settlementType": "CASH"
+    },
+    {
+      "legId": "Pata-Flotante-ICP",
+      "payerPartyReference": "ThisBank",
+      "receiverPartyReference": "OurCounterparty",
+      "notionalAmount": 200000,
+      "notionalCurrency": "USD",
+      "floatingRateIndex": "USD-SOFR Average 180D",
+      "spread": 0.0,
+      "dayCountFraction": "ACT/360",
+      "calculationPeriodFrequency": "6M",
+      "calculationDayConvention": "MODFOLLOWING",
+      "calculationBusinessCenters": ["USNY", "CLSA"],
+      "resetFrequency": "6M",
+      "resetDayConvention": "PRECEDING",
+      "resetBusinessCenters": ["USNY", "CLSA"],
+      "resetDateOffset": -2,
+      "paymentFrequency": "6M",
+      "paymentDayConvention": "NONE",
+      "paymentBusinessCenters": ["USNY", "CLSA"],
+      "paymentDateOffset": 0,
+      "rollConvention": "13",
+      "rateRoundingPrecision": 5,
+      "rateRoundingDirection": "NEAREST",
+      "settlementCurrency": "USD",
+      "settlementType": "CASH"
+    }
+  ]
+}

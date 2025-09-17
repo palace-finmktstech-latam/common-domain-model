@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaNonNegativeQuantityScheduleBuilder setValue(NonNegativeQuantitySchedule arg0)`
-- `ReferenceWithMetaNonNegativeQuantityScheduleBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaNonNegativeQuantityScheduleBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaNonNegativeQuantityScheduleBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaNonNegativeQuantityScheduleBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaNonNegativeQuantityScheduleBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

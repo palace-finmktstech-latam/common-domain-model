@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Date doEvaluate(Date arg0, Integer arg1)`
 - `Date assignOutput(Date arg0, Date arg1, Integer arg2)`
+- `Date doEvaluate(Date arg0, Integer arg1)`
 

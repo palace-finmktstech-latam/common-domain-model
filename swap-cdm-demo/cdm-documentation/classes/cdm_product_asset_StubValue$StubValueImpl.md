@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `List getFloatingRate()`
-- `BigDecimal getStubRate()`
 - `Money getStubAmount()`
+- `BigDecimal getStubRate()`
+- `List getFloatingRate()`
 
 #### Other Methods
 

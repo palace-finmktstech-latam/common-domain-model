@@ -16,20 +16,20 @@
 
 #### Setter Methods
 
-- `PersonIdentifierBuilder setIdentifierType(PersonIdentifierTypeEnum arg0)`
-- `PersonIdentifierBuilder setCountryValue(String arg0)`
-- `PersonIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
 - `PersonIdentifierBuilder setIdentifierValue(String arg0)`
-- `PersonIdentifierBuilder setCountry(FieldWithMetaString arg0)`
+- `PersonIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
 - `PersonIdentifierBuilder setMeta(MetaFields arg0)`
+- `PersonIdentifierBuilder setCountry(FieldWithMetaString arg0)`
+- `PersonIdentifierBuilder setCountryValue(String arg0)`
+- `PersonIdentifierBuilder setIdentifierType(PersonIdentifierTypeEnum arg0)`
 
 #### Getter Methods
 
 - `FieldWithMetaStringBuilder getCountry()`
-- `FieldWithMetaStringBuilder getOrCreateCountry()`
 - `FieldWithMetaStringBuilder getOrCreateIdentifier()`
 - `MetaFieldsBuilder getOrCreateMeta()`
 - `MetaFieldsBuilder getMeta()`
+- `FieldWithMetaStringBuilder getOrCreateCountry()`
 - `FieldWithMetaStringBuilder getIdentifier()`
 
 #### Other Methods

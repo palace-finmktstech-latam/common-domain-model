@@ -20,8 +20,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Transfer getTransfer()`
 - `TransferStatusEnum getTransferStatus()`
+- `Transfer getTransfer()`
 - `MetaFields getMeta()`
 
 #### Other Methods

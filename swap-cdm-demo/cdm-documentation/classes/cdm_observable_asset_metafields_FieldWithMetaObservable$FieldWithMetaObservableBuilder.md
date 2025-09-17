@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `ObservableBuilder getValue()`
-- `ObservableBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `ObservableBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods

@@ -129,7 +129,24 @@
               "type" : "cdm.product.common.settlement.ResolvablePriceQuantity"
             },
             "principalPayment" : null,
-            "settlementTerms" : null,
+            "settlementTerms" : {
+              "settlementType" : "CASH",
+              "transferSettlementType" : null,
+              "settlementCurrency" : {
+                "value" : "USD",
+                "meta" : null,
+                "type" : "com.rosetta.model.metafields.FieldWithMetaString",
+                "valueType" : "java.lang.String"
+              },
+              "settlementDate" : null,
+              "settlementCentre" : null,
+              "settlementProvision" : null,
+              "standardSettlementStyle" : null,
+              "meta" : null,
+              "cashSettlementTerms" : null,
+              "physicalSettlementTerms" : null,
+              "type" : "cdm.product.common.settlement.SettlementTerms"
+            },
             "rateSpecification" : {
               "fixedRateSpecification" : {
                 "rateSchedule" : {
@@ -266,14 +283,7 @@
               "firstCompoundingPeriodEndDate" : null,
               "lastRegularPeriodEndDate" : null,
               "stubPeriodType" : null,
-              "calculationPeriodFrequency" : {
-                "periodMultiplier" : 6,
-                "period" : "M",
-                "meta" : null,
-                "rollConvention" : "EOM",
-                "balanceOfFirstPeriod" : null,
-                "type" : "cdm.base.datetime.CalculationPeriodFrequency"
-              },
+              "calculationPeriodFrequency" : null,
               "meta" : null,
               "type" : "cdm.product.common.schedule.CalculationPeriodDates"
             },
@@ -375,7 +385,24 @@
               "type" : "cdm.product.common.settlement.ResolvablePriceQuantity"
             },
             "principalPayment" : null,
-            "settlementTerms" : null,
+            "settlementTerms" : {
+              "settlementType" : "CASH",
+              "transferSettlementType" : null,
+              "settlementCurrency" : {
+                "value" : "EUR",
+                "meta" : null,
+                "type" : "com.rosetta.model.metafields.FieldWithMetaString",
+                "valueType" : "java.lang.String"
+              },
+              "settlementDate" : null,
+              "settlementCentre" : null,
+              "settlementProvision" : null,
+              "standardSettlementStyle" : null,
+              "meta" : null,
+              "cashSettlementTerms" : null,
+              "physicalSettlementTerms" : null,
+              "type" : "cdm.product.common.settlement.SettlementTerms"
+            },
             "rateSpecification" : {
               "fixedRateSpecification" : null,
               "floatingRateSpecification" : {
@@ -391,7 +418,7 @@
                       "provider" : null,
                       "assetClass" : null,
                       "floatingRateIndex" : {
-                        "value" : "EUR_EURIBOR",
+                        "value" : "USD_SOFR_COMPOUND",
                         "meta" : null,
                         "type" : "cdm.base.staticdata.asset.rates.metafields.FieldWithMetaFloatingRateIndexEnum",
                         "valueType" : "cdm.base.staticdata.asset.rates.FloatingRateIndexEnum"
@@ -552,14 +579,7 @@
               "firstCompoundingPeriodEndDate" : null,
               "lastRegularPeriodEndDate" : null,
               "stubPeriodType" : null,
-              "calculationPeriodFrequency" : {
-                "periodMultiplier" : 6,
-                "period" : "M",
-                "meta" : null,
-                "rollConvention" : "EOM",
-                "balanceOfFirstPeriod" : null,
-                "type" : "cdm.base.datetime.CalculationPeriodFrequency"
-              },
+              "calculationPeriodFrequency" : null,
               "meta" : null,
               "type" : "cdm.product.common.schedule.CalculationPeriodDates"
             },
@@ -1140,7 +1160,23 @@
     } ],
     "ancillaryParty" : null,
     "adjustment" : null,
-    "tradeIdentifier" : null,
+    "tradeIdentifier" : [ {
+      "issuerReference" : null,
+      "issuer" : null,
+      "assignedIdentifier" : [ {
+        "identifier" : {
+          "value" : "XCS-2024-001",
+          "meta" : null,
+          "type" : "com.rosetta.model.metafields.FieldWithMetaString",
+          "valueType" : "java.lang.String"
+        },
+        "version" : 1,
+        "type" : "cdm.base.staticdata.identifier.AssignedIdentifier"
+      } ],
+      "meta" : null,
+      "identifierType" : "UNIQUE_TRANSACTION_IDENTIFIER",
+      "type" : "cdm.event.common.TradeIdentifier"
+    } ],
     "tradeDate" : {
       "value" : {
         "day" : 15,

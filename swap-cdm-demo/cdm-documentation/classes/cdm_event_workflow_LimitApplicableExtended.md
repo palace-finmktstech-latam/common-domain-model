@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `BigDecimal getLimitImpactDueToTrade()`
-- `BigDecimal getLimitAmount()`
 - `FieldWithMetaLimitLevelEnum getLimitLevel()`
+- `BigDecimal getLimitAmount()`
+- `BigDecimal getLimitImpactDueToTrade()`
 
 #### Other Methods
 

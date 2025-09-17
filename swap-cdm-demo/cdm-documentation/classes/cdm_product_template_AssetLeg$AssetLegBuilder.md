@@ -20,8 +20,8 @@
 
 #### Getter Methods
 
-- `AdjustableOrRelativeDateBuilder getSettlementDate()`
 - `AdjustableOrRelativeDateBuilder getOrCreateSettlementDate()`
+- `AdjustableOrRelativeDateBuilder getSettlementDate()`
 
 #### Other Methods
 

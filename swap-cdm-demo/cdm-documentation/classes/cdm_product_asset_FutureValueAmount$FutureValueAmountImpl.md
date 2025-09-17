@@ -23,9 +23,9 @@
 #### Getter Methods
 
 - `FieldWithMetaString getCurrency()`
-- `Date getValueDate()`
 - `ReferenceWithMetaNonNegativeQuantitySchedule getQuantity()`
 - `Integer getCalculationPeriodNumberOfDays()`
+- `Date getValueDate()`
 
 #### Other Methods
 

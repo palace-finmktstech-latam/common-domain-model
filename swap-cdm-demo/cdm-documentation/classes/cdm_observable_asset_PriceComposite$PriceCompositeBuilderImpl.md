@@ -27,16 +27,16 @@
 
 #### Setter Methods
 
+- `PriceCompositeBuilder setArithmeticOperator(ArithmeticOperationEnum arg0)`
+- `PriceCompositeBuilder setOperand(BigDecimal arg0)`
 - `PriceCompositeBuilder setOperandType(PriceOperandEnum arg0)`
 - `PriceCompositeBuilder setBaseValue(BigDecimal arg0)`
-- `PriceCompositeBuilder setOperand(BigDecimal arg0)`
-- `PriceCompositeBuilder setArithmeticOperator(ArithmeticOperationEnum arg0)`
 
 #### Getter Methods
 
-- `BigDecimal getBaseValue()`
-- `PriceOperandEnum getOperandType()`
 - `ArithmeticOperationEnum getArithmeticOperator()`
+- `PriceOperandEnum getOperandType()`
+- `BigDecimal getBaseValue()`
 - `BigDecimal getOperand()`
 
 #### Other Methods
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PriceCompositeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PriceCompositeBuilder toBuilder()`
 - `PriceCompositeBuilder prune()`
+- `PriceCompositeBuilder toBuilder()`
+- `boolean hasData()`
 

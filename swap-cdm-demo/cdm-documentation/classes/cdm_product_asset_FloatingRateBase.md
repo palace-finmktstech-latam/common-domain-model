@@ -20,11 +20,11 @@
 #### Getter Methods
 
 - `Class getType()`
-- `StrikeSchedule getFloorRateSchedule()`
-- `SpreadSchedule getSpreadSchedule()`
-- `StrikeSchedule getCapRateSchedule()`
 - `ReferenceWithMetaInterestRateIndex getRateOption()`
 - `MetaFields getMeta()`
+- `SpreadSchedule getSpreadSchedule()`
+- `StrikeSchedule getFloorRateSchedule()`
+- `StrikeSchedule getCapRateSchedule()`
 
 #### Other Methods
 

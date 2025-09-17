@@ -15,11 +15,11 @@
 
 #### Other Methods
 
-- `FixedAmountCalculationDetailsBuilder doEvaluate(InterestRatePayout arg0, CalculationPeriodBase arg1, BigDecimal arg2)`
 - `FixedAmountCalculationDetailsBuilder assignOutput(FixedAmountCalculationDetailsBuilder arg0, InterestRatePayout arg1, CalculationPeriodBase arg2, BigDecimal arg3)`
-- `MapperS calculationAmount(InterestRatePayout arg0, CalculationPeriodBase arg1, BigDecimal arg2)`
-- `MapperS yearFraction(InterestRatePayout arg0, CalculationPeriodBase arg1, BigDecimal arg2)`
-- `MapperS calcAmt(InterestRatePayout arg0, CalculationPeriodBase arg1, BigDecimal arg2)`
+- `FixedAmountCalculationDetailsBuilder doEvaluate(InterestRatePayout arg0, CalculationPeriodBase arg1, BigDecimal arg2)`
 - `MapperS dcf(InterestRatePayout arg0, CalculationPeriodBase arg1, BigDecimal arg2)`
+- `MapperS calcAmt(InterestRatePayout arg0, CalculationPeriodBase arg1, BigDecimal arg2)`
 - `MapperS fixedRate(InterestRatePayout arg0, CalculationPeriodBase arg1, BigDecimal arg2)`
+- `MapperS yearFraction(InterestRatePayout arg0, CalculationPeriodBase arg1, BigDecimal arg2)`
+- `MapperS calculationAmount(InterestRatePayout arg0, CalculationPeriodBase arg1, BigDecimal arg2)`
 

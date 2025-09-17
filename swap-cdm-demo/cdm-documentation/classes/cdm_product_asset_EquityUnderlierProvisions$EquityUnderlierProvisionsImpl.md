@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
+- `FieldWithMetaString getRelevantJurisdiction()`
+- `FieldWithMetaString getLocalJurisdiction()`
 - `Boolean getMultipleExchangeIndexAnnexFallback()`
 - `Boolean getComponentSecurityIndexAnnexFallback()`
-- `FieldWithMetaString getLocalJurisdiction()`
-- `FieldWithMetaString getRelevantJurisdiction()`
 
 #### Other Methods
 

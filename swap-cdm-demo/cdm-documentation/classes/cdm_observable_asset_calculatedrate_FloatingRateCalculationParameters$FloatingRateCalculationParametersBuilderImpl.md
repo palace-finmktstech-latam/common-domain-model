@@ -29,26 +29,26 @@
 
 #### Setter Methods
 
-- `FloatingRateCalculationParametersBuilder setCalculationMethod(CalculationMethodEnum arg0)`
-- `FloatingRateCalculationParametersBuilder setObservationShiftCalculation(ObservationShiftCalculation arg0)`
 - `FloatingRateCalculationParametersBuilder setApplicableBusinessDays(BusinessCenters arg0)`
-- `FloatingRateCalculationParametersBuilder setLockoutCalculation(OffsetCalculation arg0)`
-- `FloatingRateCalculationParametersBuilder setObservationParameters(ObservationParameters arg0)`
+- `FloatingRateCalculationParametersBuilder setCalculationMethod(CalculationMethodEnum arg0)`
 - `FloatingRateCalculationParametersBuilder setLookbackCalculation(OffsetCalculation arg0)`
+- `FloatingRateCalculationParametersBuilder setObservationParameters(ObservationParameters arg0)`
+- `FloatingRateCalculationParametersBuilder setLockoutCalculation(OffsetCalculation arg0)`
+- `FloatingRateCalculationParametersBuilder setObservationShiftCalculation(ObservationShiftCalculation arg0)`
 
 #### Getter Methods
 
 - `CalculationMethodEnum getCalculationMethod()`
 - `OffsetCalculationBuilder getLookbackCalculation()`
-- `ObservationParametersBuilder getObservationParameters()`
-- `OffsetCalculationBuilder getLockoutCalculation()`
 - `BusinessCentersBuilder getApplicableBusinessDays()`
+- `OffsetCalculationBuilder getLockoutCalculation()`
+- `ObservationParametersBuilder getObservationParameters()`
 - `ObservationShiftCalculationBuilder getObservationShiftCalculation()`
-- `OffsetCalculationBuilder getOrCreateLockoutCalculation()`
-- `BusinessCentersBuilder getOrCreateApplicableBusinessDays()`
-- `OffsetCalculationBuilder getOrCreateLookbackCalculation()`
 - `ObservationParametersBuilder getOrCreateObservationParameters()`
+- `BusinessCentersBuilder getOrCreateApplicableBusinessDays()`
 - `ObservationShiftCalculationBuilder getOrCreateObservationShiftCalculation()`
+- `OffsetCalculationBuilder getOrCreateLockoutCalculation()`
+- `OffsetCalculationBuilder getOrCreateLookbackCalculation()`
 
 #### Other Methods
 
@@ -56,7 +56,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FloatingRateCalculationParametersBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FloatingRateCalculationParametersBuilder toBuilder()`
 - `FloatingRateCalculationParametersBuilder prune()`
+- `FloatingRateCalculationParametersBuilder toBuilder()`
+- `boolean hasData()`
 

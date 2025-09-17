@@ -30,8 +30,8 @@
 
 #### Getter Methods
 
-- `AdjustableOrRelativeDateBuilder getSettlementDate()`
 - `AdjustableOrRelativeDateBuilder getOrCreateSettlementDate()`
+- `AdjustableOrRelativeDateBuilder getSettlementDate()`
 - `DeliveryMethodEnum getDeliveryMethod()`
 
 #### Other Methods
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AssetLegBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AssetLegBuilder toBuilder()`
 - `AssetLegBuilder prune()`
+- `AssetLegBuilder toBuilder()`
+- `boolean hasData()`
 

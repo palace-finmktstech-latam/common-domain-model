@@ -20,13 +20,13 @@
 #### Getter Methods
 
 - `Class getType()`
-- `ReferenceWithMetaParty getPartyReference()`
-- `ReferenceWithMetaParty getAccountBeneficiary()`
-- `FieldWithMetaString getAccountName()`
-- `FieldWithMetaString getAccountNumber()`
-- `FieldWithMetaAccountTypeEnum getAccountType()`
-- `ReferenceWithMetaParty getServicingParty()`
 - `MetaFields getMeta()`
+- `ReferenceWithMetaParty getPartyReference()`
+- `FieldWithMetaString getAccountNumber()`
+- `ReferenceWithMetaParty getServicingParty()`
+- `FieldWithMetaString getAccountName()`
+- `ReferenceWithMetaParty getAccountBeneficiary()`
+- `FieldWithMetaAccountTypeEnum getAccountType()`
 
 #### Other Methods
 

@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `RecordAmountTypeEnum getSummaryAmountType()`
 - `Transfer getSummaryTransfer()`
+- `RecordAmountTypeEnum getSummaryAmountType()`
 
 #### Other Methods
 

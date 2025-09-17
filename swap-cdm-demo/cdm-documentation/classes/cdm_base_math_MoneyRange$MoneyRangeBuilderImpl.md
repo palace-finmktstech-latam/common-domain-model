@@ -25,15 +25,15 @@
 
 #### Setter Methods
 
-- `MoneyRangeBuilder setLowerBound(MoneyBound arg0)`
 - `MoneyRangeBuilder setUpperBound(MoneyBound arg0)`
+- `MoneyRangeBuilder setLowerBound(MoneyBound arg0)`
 
 #### Getter Methods
 
-- `MoneyBoundBuilder getOrCreateUpperBound()`
-- `MoneyBoundBuilder getOrCreateLowerBound()`
-- `MoneyBoundBuilder getLowerBound()`
 - `MoneyBoundBuilder getUpperBound()`
+- `MoneyBoundBuilder getLowerBound()`
+- `MoneyBoundBuilder getOrCreateLowerBound()`
+- `MoneyBoundBuilder getOrCreateUpperBound()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MoneyRangeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MoneyRangeBuilder toBuilder()`
 - `MoneyRangeBuilder prune()`
+- `MoneyRangeBuilder toBuilder()`
+- `boolean hasData()`
 

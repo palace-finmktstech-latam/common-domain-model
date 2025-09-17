@@ -31,8 +31,8 @@
 #### Getter Methods
 
 - `TimeZoneBuilder getValue()`
-- `TimeZoneBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `TimeZoneBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaTimeZoneBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaTimeZoneBuilder toBuilder()`
 - `FieldWithMetaTimeZoneBuilder prune()`
+- `FieldWithMetaTimeZoneBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `BankHolidayTreatmentEnum getBankHolidaysTreatment()`
 - `LoadTypeEnum getLoadType()`
+- `BankHolidayTreatmentEnum getBankHolidaysTreatment()`
 - `List getBlock()`
 
 #### Other Methods

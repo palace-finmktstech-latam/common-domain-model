@@ -27,21 +27,21 @@
 
 #### Setter Methods
 
+- `EquityUnderlierProvisionsBuilder setLocalJurisdiction(FieldWithMetaString arg0)`
+- `EquityUnderlierProvisionsBuilder setRelevantJurisdiction(FieldWithMetaString arg0)`
+- `EquityUnderlierProvisionsBuilder setLocalJurisdictionValue(String arg0)`
 - `EquityUnderlierProvisionsBuilder setMultipleExchangeIndexAnnexFallback(Boolean arg0)`
 - `EquityUnderlierProvisionsBuilder setComponentSecurityIndexAnnexFallback(Boolean arg0)`
 - `EquityUnderlierProvisionsBuilder setRelevantJurisdictionValue(String arg0)`
-- `EquityUnderlierProvisionsBuilder setRelevantJurisdiction(FieldWithMetaString arg0)`
-- `EquityUnderlierProvisionsBuilder setLocalJurisdictionValue(String arg0)`
-- `EquityUnderlierProvisionsBuilder setLocalJurisdiction(FieldWithMetaString arg0)`
 
 #### Getter Methods
 
+- `FieldWithMetaStringBuilder getRelevantJurisdiction()`
+- `FieldWithMetaStringBuilder getLocalJurisdiction()`
 - `Boolean getMultipleExchangeIndexAnnexFallback()`
+- `Boolean getComponentSecurityIndexAnnexFallback()`
 - `FieldWithMetaStringBuilder getOrCreateLocalJurisdiction()`
 - `FieldWithMetaStringBuilder getOrCreateRelevantJurisdiction()`
-- `Boolean getComponentSecurityIndexAnnexFallback()`
-- `FieldWithMetaStringBuilder getLocalJurisdiction()`
-- `FieldWithMetaStringBuilder getRelevantJurisdiction()`
 
 #### Other Methods
 
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `EquityUnderlierProvisionsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `EquityUnderlierProvisionsBuilder toBuilder()`
 - `EquityUnderlierProvisionsBuilder prune()`
+- `EquityUnderlierProvisionsBuilder toBuilder()`
+- `boolean hasData()`
 

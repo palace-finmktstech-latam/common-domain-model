@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaBusinessDayAdjustmentsBuilder setValue(BusinessDayAdjustments arg0)`
-- `ReferenceWithMetaBusinessDayAdjustmentsBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaBusinessDayAdjustmentsBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaBusinessDayAdjustmentsBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaBusinessDayAdjustmentsBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaBusinessDayAdjustmentsBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

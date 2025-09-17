@@ -29,10 +29,10 @@
 
 #### Setter Methods
 
+- `ResetFrequencyBuilder setMeta(MetaFields arg0)`
+- `ResetFrequencyBuilder setWeeklyRollConvention(WeeklyRollConventionEnum arg0)`
 - `ResetFrequencyBuilder setPeriod(PeriodExtendedEnum arg0)`
 - `ResetFrequencyBuilder setPeriodMultiplier(Integer arg0)`
-- `ResetFrequencyBuilder setWeeklyRollConvention(WeeklyRollConventionEnum arg0)`
-- `ResetFrequencyBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
@@ -44,7 +44,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ResetFrequencyBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ResetFrequencyBuilder toBuilder()`
 - `ResetFrequencyBuilder prune()`
+- `ResetFrequencyBuilder toBuilder()`
+- `boolean hasData()`
 

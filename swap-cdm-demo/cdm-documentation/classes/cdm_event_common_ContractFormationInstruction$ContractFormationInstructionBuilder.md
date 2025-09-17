@@ -19,14 +19,14 @@
 
 #### Getter Methods
 
-- `List getLegalAgreement()`
 - `LegalAgreementBuilder getOrCreateLegalAgreement(int arg0)`
+- `List getLegalAgreement()`
 
 #### Adder Methods
 
 - `ContractFormationInstructionBuilder addLegalAgreement(List arg0)`
-- `ContractFormationInstructionBuilder addLegalAgreement(LegalAgreement arg0, int arg1)`
 - `ContractFormationInstructionBuilder addLegalAgreement(LegalAgreement arg0)`
+- `ContractFormationInstructionBuilder addLegalAgreement(LegalAgreement arg0, int arg1)`
 
 #### Other Methods
 

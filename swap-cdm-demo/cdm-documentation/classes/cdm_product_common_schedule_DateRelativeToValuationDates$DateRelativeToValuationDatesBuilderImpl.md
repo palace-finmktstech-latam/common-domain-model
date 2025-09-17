@@ -34,12 +34,12 @@
 
 #### Adder Methods
 
+- `DateRelativeToValuationDatesBuilder addValuationDatesReference(List arg0)`
 - `DateRelativeToValuationDatesBuilder addValuationDatesReference(ReferenceWithMetaPerformanceValuationDates arg0, int arg1)`
 - `DateRelativeToValuationDatesBuilder addValuationDatesReference(ReferenceWithMetaPerformanceValuationDates arg0)`
-- `DateRelativeToValuationDatesBuilder addValuationDatesReference(List arg0)`
 - `DateRelativeToValuationDatesBuilder addValuationDatesReferenceValue(PerformanceValuationDates arg0, int arg1)`
-- `DateRelativeToValuationDatesBuilder addValuationDatesReferenceValue(PerformanceValuationDates arg0)`
 - `DateRelativeToValuationDatesBuilder addValuationDatesReferenceValue(List arg0)`
+- `DateRelativeToValuationDatesBuilder addValuationDatesReferenceValue(PerformanceValuationDates arg0)`
 
 #### Other Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DateRelativeToValuationDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DateRelativeToValuationDatesBuilder toBuilder()`
 - `DateRelativeToValuationDatesBuilder prune()`
+- `DateRelativeToValuationDatesBuilder toBuilder()`
+- `boolean hasData()`
 

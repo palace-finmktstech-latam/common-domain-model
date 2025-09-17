@@ -27,13 +27,13 @@
 
 #### Getter Methods
 
-- `List getInterimValuationPrice()`
-- `List getFinalValuationPrice()`
-- `List getInitialValuationPrice()`
 - `ReferenceWithMetaObservable getUnderlier()`
-- `PayerReceiver getPayerReceiver()`
 - `ReferenceWithMetaNonNegativeQuantitySchedule getQuantity()`
+- `PayerReceiver getPayerReceiver()`
 - `MetaFields getMeta()`
+- `List getInitialValuationPrice()`
+- `List getFinalValuationPrice()`
+- `List getInterimValuationPrice()`
 
 #### Other Methods
 

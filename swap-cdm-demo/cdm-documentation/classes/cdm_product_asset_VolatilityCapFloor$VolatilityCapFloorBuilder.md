@@ -15,9 +15,9 @@
 
 #### Setter Methods
 
-- `VolatilityCapFloorBuilder setApplicable(Boolean arg0)`
-- `VolatilityCapFloorBuilder setTotalVolatilityCap(BigDecimal arg0)`
 - `VolatilityCapFloorBuilder setVolatilityCapFactor(BigDecimal arg0)`
+- `VolatilityCapFloorBuilder setTotalVolatilityCap(BigDecimal arg0)`
+- `VolatilityCapFloorBuilder setApplicable(Boolean arg0)`
 
 #### Other Methods
 

@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
+- `Trigger getTrigger()`
 - `List getSchedule()`
 - `DateList getTriggerDates()`
 - `FeaturePayment getFeaturePayment()`
-- `Trigger getTrigger()`
 
 #### Other Methods
 

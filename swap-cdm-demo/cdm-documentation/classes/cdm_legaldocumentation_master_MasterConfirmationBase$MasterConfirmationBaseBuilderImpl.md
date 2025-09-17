@@ -22,7 +22,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MasterConfirmationBaseBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MasterConfirmationBaseBuilder toBuilder()`
 - `MasterConfirmationBaseBuilder prune()`
+- `MasterConfirmationBaseBuilder toBuilder()`
+- `boolean hasData()`
 

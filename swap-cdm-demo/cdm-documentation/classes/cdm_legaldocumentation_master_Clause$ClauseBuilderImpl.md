@@ -39,8 +39,8 @@
 
 #### Adder Methods
 
-- `ClauseBuilder addSubcomponents(List arg0)`
 - `ClauseBuilder addSubcomponents(Clause arg0)`
+- `ClauseBuilder addSubcomponents(List arg0)`
 - `ClauseBuilder addSubcomponents(Clause arg0, int arg1)`
 
 #### Other Methods
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ClauseBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ClauseBuilder toBuilder()`
 - `ClauseBuilder prune()`
+- `ClauseBuilder toBuilder()`
+- `boolean hasData()`
 

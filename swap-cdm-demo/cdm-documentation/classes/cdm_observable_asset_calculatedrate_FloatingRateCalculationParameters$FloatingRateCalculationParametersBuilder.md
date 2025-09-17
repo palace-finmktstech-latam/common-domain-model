@@ -15,25 +15,25 @@
 
 #### Setter Methods
 
-- `FloatingRateCalculationParametersBuilder setCalculationMethod(CalculationMethodEnum arg0)`
-- `FloatingRateCalculationParametersBuilder setObservationShiftCalculation(ObservationShiftCalculation arg0)`
 - `FloatingRateCalculationParametersBuilder setApplicableBusinessDays(BusinessCenters arg0)`
-- `FloatingRateCalculationParametersBuilder setLockoutCalculation(OffsetCalculation arg0)`
-- `FloatingRateCalculationParametersBuilder setObservationParameters(ObservationParameters arg0)`
+- `FloatingRateCalculationParametersBuilder setCalculationMethod(CalculationMethodEnum arg0)`
 - `FloatingRateCalculationParametersBuilder setLookbackCalculation(OffsetCalculation arg0)`
+- `FloatingRateCalculationParametersBuilder setObservationParameters(ObservationParameters arg0)`
+- `FloatingRateCalculationParametersBuilder setLockoutCalculation(OffsetCalculation arg0)`
+- `FloatingRateCalculationParametersBuilder setObservationShiftCalculation(ObservationShiftCalculation arg0)`
 
 #### Getter Methods
 
 - `OffsetCalculationBuilder getLookbackCalculation()`
-- `ObservationParametersBuilder getObservationParameters()`
-- `OffsetCalculationBuilder getLockoutCalculation()`
 - `BusinessCentersBuilder getApplicableBusinessDays()`
+- `OffsetCalculationBuilder getLockoutCalculation()`
+- `ObservationParametersBuilder getObservationParameters()`
 - `ObservationShiftCalculationBuilder getObservationShiftCalculation()`
-- `OffsetCalculationBuilder getOrCreateLockoutCalculation()`
-- `BusinessCentersBuilder getOrCreateApplicableBusinessDays()`
-- `OffsetCalculationBuilder getOrCreateLookbackCalculation()`
 - `ObservationParametersBuilder getOrCreateObservationParameters()`
+- `BusinessCentersBuilder getOrCreateApplicableBusinessDays()`
 - `ObservationShiftCalculationBuilder getOrCreateObservationShiftCalculation()`
+- `OffsetCalculationBuilder getOrCreateLockoutCalculation()`
+- `OffsetCalculationBuilder getOrCreateLookbackCalculation()`
 
 #### Other Methods
 

@@ -21,10 +21,10 @@
 
 #### Getter Methods
 
-- `InterestRateCurveBuilder getOrCreateInterestRateCurve()`
-- `InterestRateCurveBuilder getInterestRateCurve()`
 - `FieldWithMetaCommodityReferencePriceEnumBuilder getOrCreateCommodityCurve()`
 - `FieldWithMetaCommodityReferencePriceEnumBuilder getCommodityCurve()`
+- `InterestRateCurveBuilder getInterestRateCurve()`
+- `InterestRateCurveBuilder getOrCreateInterestRateCurve()`
 
 #### Other Methods
 

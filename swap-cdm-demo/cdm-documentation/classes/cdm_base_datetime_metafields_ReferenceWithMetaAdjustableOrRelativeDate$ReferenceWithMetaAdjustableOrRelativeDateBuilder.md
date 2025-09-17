@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaAdjustableOrRelativeDateBuilder setValue(AdjustableOrRelativeDate arg0)`
-- `ReferenceWithMetaAdjustableOrRelativeDateBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaAdjustableOrRelativeDateBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaAdjustableOrRelativeDateBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaAdjustableOrRelativeDateBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaAdjustableOrRelativeDateBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

@@ -20,22 +20,22 @@
 #### Getter Methods
 
 - `Class getType()`
-- `CreditEventNotice getCreditEventNotice()`
-- `Restructuring getRestructuring()`
-- `FailureToPay getFailureToPay()`
-- `Money getDefaultRequirement()`
-- `Boolean getGovernmentalIntervention()`
-- `Boolean getDistressedRatingsDowngrade()`
 - `Boolean getBankruptcy()`
+- `Boolean getGovernmentalIntervention()`
+- `MetaFields getMeta()`
+- `Money getDefaultRequirement()`
+- `FailureToPay getFailureToPay()`
+- `Restructuring getRestructuring()`
+- `CreditEventNotice getCreditEventNotice()`
+- `Boolean getFailureToPayPrincipal()`
+- `Boolean getImpliedWritedown()`
+- `Boolean getWritedown()`
+- `Boolean getFailureToPayInterest()`
+- `Boolean getMaturityExtension()`
 - `Boolean getObligationAcceleration()`
 - `Boolean getRepudiationMoratorium()`
 - `Boolean getObligationDefault()`
-- `MetaFields getMeta()`
-- `Boolean getMaturityExtension()`
-- `Boolean getFailureToPayInterest()`
-- `Boolean getWritedown()`
-- `Boolean getFailureToPayPrincipal()`
-- `Boolean getImpliedWritedown()`
+- `Boolean getDistressedRatingsDowngrade()`
 
 #### Other Methods
 

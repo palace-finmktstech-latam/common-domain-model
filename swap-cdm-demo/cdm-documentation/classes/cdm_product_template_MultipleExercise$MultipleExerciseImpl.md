@@ -27,8 +27,8 @@
 
 #### Getter Methods
 
-- `Integer getMaximumNumberOfOptions()`
 - `BigDecimal getMaximumNotionalAmount()`
+- `Integer getMaximumNumberOfOptions()`
 
 #### Other Methods
 

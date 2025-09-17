@@ -21,9 +21,9 @@
 - `String getName()`
 - `Class getType()`
 - `List getVariant()`
+- `List getCounterparty()`
 - `MasterAgreementClauseIdentifierEnum getIdentifer()`
 - `List getOtherParty()`
-- `List getCounterparty()`
 
 #### Other Methods
 

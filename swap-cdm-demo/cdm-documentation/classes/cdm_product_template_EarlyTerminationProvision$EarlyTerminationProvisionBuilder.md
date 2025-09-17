@@ -16,24 +16,24 @@
 
 #### Setter Methods
 
-- `EarlyTerminationProvisionBuilder setOptionalEarlyTermination(OptionalEarlyTermination arg0)`
 - `EarlyTerminationProvisionBuilder setMandatoryEarlyTermination(MandatoryEarlyTermination arg0)`
+- `EarlyTerminationProvisionBuilder setOptionalEarlyTermination(OptionalEarlyTermination arg0)`
 - `EarlyTerminationProvisionBuilder setMandatoryEarlyTerminationDateTenor(Period arg0)`
 - `EarlyTerminationProvisionBuilder setOptionalEarlyTerminationParameters(ExercisePeriod arg0)`
 - `EarlyTerminationProvisionBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
-- `ExercisePeriodBuilder getOrCreateOptionalEarlyTerminationParameters()`
-- `PeriodBuilder getOrCreateMandatoryEarlyTerminationDateTenor()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `MandatoryEarlyTerminationBuilder getOrCreateMandatoryEarlyTermination()`
 - `OptionalEarlyTerminationBuilder getOrCreateOptionalEarlyTermination()`
+- `MandatoryEarlyTerminationBuilder getOrCreateMandatoryEarlyTermination()`
+- `MetaFieldsBuilder getMeta()`
+- `PeriodBuilder getOrCreateMandatoryEarlyTerminationDateTenor()`
+- `ExercisePeriodBuilder getOrCreateOptionalEarlyTerminationParameters()`
 - `PeriodBuilder getMandatoryEarlyTerminationDateTenor()`
+- `ExercisePeriodBuilder getOptionalEarlyTerminationParameters()`
 - `MandatoryEarlyTerminationBuilder getMandatoryEarlyTermination()`
 - `OptionalEarlyTerminationBuilder getOptionalEarlyTermination()`
-- `ExercisePeriodBuilder getOptionalEarlyTerminationParameters()`
-- `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
 

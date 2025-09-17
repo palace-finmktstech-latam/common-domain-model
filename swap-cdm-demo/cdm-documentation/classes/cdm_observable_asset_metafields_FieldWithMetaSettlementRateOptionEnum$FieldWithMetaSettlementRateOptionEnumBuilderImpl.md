@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaSettlementRateOptionEnumBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaSettlementRateOptionEnumBuilder toBuilder()`
 - `FieldWithMetaSettlementRateOptionEnumBuilder prune()`
+- `FieldWithMetaSettlementRateOptionEnumBuilder toBuilder()`
+- `boolean hasData()`
 

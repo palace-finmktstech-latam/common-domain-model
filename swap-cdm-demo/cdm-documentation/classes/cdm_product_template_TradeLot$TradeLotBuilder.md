@@ -20,19 +20,19 @@
 
 #### Getter Methods
 
-- `IdentifierBuilder getOrCreateLotIdentifier(int arg0)`
-- `List getLotIdentifier()`
 - `List getPriceQuantity()`
+- `List getLotIdentifier()`
+- `IdentifierBuilder getOrCreateLotIdentifier(int arg0)`
 - `PriceQuantityBuilder getOrCreatePriceQuantity(int arg0)`
 
 #### Adder Methods
 
-- `TradeLotBuilder addLotIdentifier(Identifier arg0, int arg1)`
-- `TradeLotBuilder addLotIdentifier(Identifier arg0)`
-- `TradeLotBuilder addLotIdentifier(List arg0)`
-- `TradeLotBuilder addPriceQuantity(List arg0)`
 - `TradeLotBuilder addPriceQuantity(PriceQuantity arg0)`
 - `TradeLotBuilder addPriceQuantity(PriceQuantity arg0, int arg1)`
+- `TradeLotBuilder addPriceQuantity(List arg0)`
+- `TradeLotBuilder addLotIdentifier(Identifier arg0, int arg1)`
+- `TradeLotBuilder addLotIdentifier(List arg0)`
+- `TradeLotBuilder addLotIdentifier(Identifier arg0)`
 
 #### Other Methods
 

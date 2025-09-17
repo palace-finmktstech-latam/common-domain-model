@@ -30,9 +30,9 @@
 
 #### Getter Methods
 
+- `CollateralTaxonomyValueBuilder getTaxonomyValue()`
 - `CollateralTaxonomyValueBuilder getOrCreateTaxonomyValue()`
 - `TaxonomySourceEnum getTaxonomySource()`
-- `CollateralTaxonomyValueBuilder getTaxonomyValue()`
 
 #### Other Methods
 
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CollateralTaxonomyBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CollateralTaxonomyBuilder toBuilder()`
 - `CollateralTaxonomyBuilder prune()`
+- `CollateralTaxonomyBuilder toBuilder()`
+- `boolean hasData()`
 

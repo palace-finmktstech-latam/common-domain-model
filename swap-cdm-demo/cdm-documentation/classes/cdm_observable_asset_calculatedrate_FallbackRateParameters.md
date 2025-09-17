@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `FloatingRateCalculationParameters getCalculationParameters()`
-- `FloatingRateIndexEnum getFloatingRateIndex()`
 - `Date getEffectiveDate()`
 - `BigDecimal getSpreadAdjustment()`
+- `FloatingRateCalculationParameters getCalculationParameters()`
+- `FloatingRateIndexEnum getFloatingRateIndex()`
 
 #### Other Methods
 

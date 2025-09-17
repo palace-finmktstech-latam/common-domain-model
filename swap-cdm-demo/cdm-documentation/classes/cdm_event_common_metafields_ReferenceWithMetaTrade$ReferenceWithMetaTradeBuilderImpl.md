@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaTradeBuilder setValue(Trade arg0)`
-- `ReferenceWithMetaTradeBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaTradeBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaTradeBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaTradeBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaTradeBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaTradeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaTradeBuilder toBuilder()`
 - `ReferenceWithMetaTradeBuilder prune()`
+- `ReferenceWithMetaTradeBuilder toBuilder()`
+- `boolean hasData()`
 

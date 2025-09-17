@@ -29,26 +29,26 @@
 
 - `MultipleCreditNotationsBuilder setCondition(QuantifierEnum arg0)`
 - `MultipleCreditNotationsBuilder setCreditNotation(List arg0)`
-- `MultipleCreditNotationsBuilder setMismatchResolution(CreditNotationMismatchResolutionEnum arg0)`
 - `MultipleCreditNotationsBuilder setCreditNotationValue(List arg0)`
+- `MultipleCreditNotationsBuilder setMismatchResolution(CreditNotationMismatchResolutionEnum arg0)`
 - `MultipleCreditNotationsBuilder setReferenceAgency(CreditRatingAgencyEnum arg0)`
 
 #### Getter Methods
 
-- `CreditRatingAgencyEnum getReferenceAgency()`
-- `CreditNotationMismatchResolutionEnum getMismatchResolution()`
-- `QuantifierEnum getCondition()`
-- `FieldWithMetaCreditNotationBuilder getOrCreateCreditNotation(int arg0)`
 - `List getCreditNotation()`
+- `CreditNotationMismatchResolutionEnum getMismatchResolution()`
+- `CreditRatingAgencyEnum getReferenceAgency()`
+- `FieldWithMetaCreditNotationBuilder getOrCreateCreditNotation(int arg0)`
+- `QuantifierEnum getCondition()`
 
 #### Adder Methods
 
-- `MultipleCreditNotationsBuilder addCreditNotation(FieldWithMetaCreditNotation arg0)`
-- `MultipleCreditNotationsBuilder addCreditNotation(List arg0)`
-- `MultipleCreditNotationsBuilder addCreditNotation(FieldWithMetaCreditNotation arg0, int arg1)`
+- `MultipleCreditNotationsBuilder addCreditNotationValue(CreditNotation arg0)`
 - `MultipleCreditNotationsBuilder addCreditNotationValue(CreditNotation arg0, int arg1)`
 - `MultipleCreditNotationsBuilder addCreditNotationValue(List arg0)`
-- `MultipleCreditNotationsBuilder addCreditNotationValue(CreditNotation arg0)`
+- `MultipleCreditNotationsBuilder addCreditNotation(List arg0)`
+- `MultipleCreditNotationsBuilder addCreditNotation(FieldWithMetaCreditNotation arg0, int arg1)`
+- `MultipleCreditNotationsBuilder addCreditNotation(FieldWithMetaCreditNotation arg0)`
 
 #### Other Methods
 
@@ -56,7 +56,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MultipleCreditNotationsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MultipleCreditNotationsBuilder toBuilder()`
 - `MultipleCreditNotationsBuilder prune()`
+- `MultipleCreditNotationsBuilder toBuilder()`
+- `boolean hasData()`
 

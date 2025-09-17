@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Boolean getWritedownReimbursement()`
-- `Boolean getInterestShortfallReimbursement()`
 - `Boolean getPrincipalShortfallReimbursement()`
+- `Boolean getInterestShortfallReimbursement()`
+- `Boolean getWritedownReimbursement()`
 
 #### Other Methods
 

@@ -27,10 +27,10 @@
 
 #### Getter Methods
 
-- `AgreementTerms getAgreementTerms()`
+- `MetaFields getMeta()`
 - `List getRelatedAgreements()`
 - `UmbrellaAgreement getUmbrellaAgreement()`
-- `MetaFields getMeta()`
+- `AgreementTerms getAgreementTerms()`
 
 #### Other Methods
 

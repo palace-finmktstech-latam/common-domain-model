@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `EconomicTermsBuilder doEvaluate(BusinessEvent arg0)`
 - `EconomicTermsBuilder assignOutput(EconomicTermsBuilder arg0, BusinessEvent arg1)`
+- `EconomicTermsBuilder doEvaluate(BusinessEvent arg0)`
 

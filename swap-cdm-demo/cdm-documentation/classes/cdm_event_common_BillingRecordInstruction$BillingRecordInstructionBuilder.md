@@ -15,25 +15,25 @@
 
 #### Setter Methods
 
-- `BillingRecordInstructionBuilder setObservation(List arg0)`
 - `BillingRecordInstructionBuilder setSettlementDate(Date arg0)`
 - `BillingRecordInstructionBuilder setRecordEndDate(Date arg0)`
+- `BillingRecordInstructionBuilder setRecordStartDate(Date arg0)`
 - `BillingRecordInstructionBuilder setTradeState(ReferenceWithMetaTradeState arg0)`
 - `BillingRecordInstructionBuilder setTradeStateValue(TradeState arg0)`
-- `BillingRecordInstructionBuilder setRecordStartDate(Date arg0)`
+- `BillingRecordInstructionBuilder setObservation(List arg0)`
 
 #### Getter Methods
 
-- `ObservationBuilder getOrCreateObservation(int arg0)`
 - `ReferenceWithMetaTradeStateBuilder getTradeState()`
 - `List getObservation()`
 - `ReferenceWithMetaTradeStateBuilder getOrCreateTradeState()`
+- `ObservationBuilder getOrCreateObservation(int arg0)`
 
 #### Adder Methods
 
-- `BillingRecordInstructionBuilder addObservation(Observation arg0, int arg1)`
 - `BillingRecordInstructionBuilder addObservation(List arg0)`
 - `BillingRecordInstructionBuilder addObservation(Observation arg0)`
+- `BillingRecordInstructionBuilder addObservation(Observation arg0, int arg1)`
 
 #### Other Methods
 

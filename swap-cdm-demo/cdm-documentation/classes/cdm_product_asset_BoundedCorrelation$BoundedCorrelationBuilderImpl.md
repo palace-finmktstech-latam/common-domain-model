@@ -25,13 +25,13 @@
 
 #### Setter Methods
 
-- `BoundedCorrelationBuilder setMinimumBoundaryPercent(BigDecimal arg0)`
 - `BoundedCorrelationBuilder setMaximumBoundaryPercent(BigDecimal arg0)`
+- `BoundedCorrelationBuilder setMinimumBoundaryPercent(BigDecimal arg0)`
 
 #### Getter Methods
 
-- `BigDecimal getMinimumBoundaryPercent()`
 - `BigDecimal getMaximumBoundaryPercent()`
+- `BigDecimal getMinimumBoundaryPercent()`
 
 #### Other Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BoundedCorrelationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BoundedCorrelationBuilder toBuilder()`
 - `BoundedCorrelationBuilder prune()`
+- `BoundedCorrelationBuilder toBuilder()`
+- `boolean hasData()`
 

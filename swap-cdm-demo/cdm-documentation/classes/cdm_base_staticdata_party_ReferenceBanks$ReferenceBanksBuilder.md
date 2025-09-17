@@ -19,14 +19,14 @@
 
 #### Getter Methods
 
-- `List getReferenceBank()`
 - `ReferenceBankBuilder getOrCreateReferenceBank(int arg0)`
+- `List getReferenceBank()`
 
 #### Adder Methods
 
 - `ReferenceBanksBuilder addReferenceBank(List arg0)`
-- `ReferenceBanksBuilder addReferenceBank(ReferenceBank arg0, int arg1)`
 - `ReferenceBanksBuilder addReferenceBank(ReferenceBank arg0)`
+- `ReferenceBanksBuilder addReferenceBank(ReferenceBank arg0, int arg1)`
 
 #### Other Methods
 

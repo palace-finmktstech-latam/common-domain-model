@@ -20,10 +20,10 @@
 
 #### Getter Methods
 
-- `ObservationTermsBuilder getOrCreateObservationTerms()`
-- `AveragingCalculationBuilder getOrCreateAveragingCalculation()`
-- `AveragingCalculationBuilder getAveragingCalculation()`
 - `ObservationTermsBuilder getObservationTerms()`
+- `ObservationTermsBuilder getOrCreateObservationTerms()`
+- `AveragingCalculationBuilder getAveragingCalculation()`
+- `AveragingCalculationBuilder getOrCreateAveragingCalculation()`
 
 #### Other Methods
 

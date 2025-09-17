@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `WorkflowStepBuilder doEvaluate(WorkflowStep arg0)`
 - `WorkflowStepBuilder assignOutput(WorkflowStepBuilder arg0, WorkflowStep arg1)`
+- `WorkflowStepBuilder doEvaluate(WorkflowStep arg0)`
 

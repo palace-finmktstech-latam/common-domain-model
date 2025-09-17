@@ -15,8 +15,8 @@
 
 #### Other Methods
 
-- `Date doEvaluate(ResetDates arg0, Date arg1)`
 - `Date assignOutput(Date arg0, ResetDates arg1, Date arg2)`
+- `Date doEvaluate(ResetDates arg0, Date arg1)`
 - `MapperC businessCenters(ResetDates arg0, Date arg1)`
 - `MapperS fixingOffsetDays(ResetDates arg0, Date arg1)`
 - `MapperS fixDate(ResetDates arg0, Date arg1)`

@@ -34,8 +34,8 @@
 #### Adder Methods
 
 - `ShapingProvisionBuilder addShapeSchedule(List arg0)`
-- `ShapingProvisionBuilder addShapeSchedule(Money arg0, int arg1)`
 - `ShapingProvisionBuilder addShapeSchedule(Money arg0)`
+- `ShapingProvisionBuilder addShapeSchedule(Money arg0, int arg1)`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ShapingProvisionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ShapingProvisionBuilder toBuilder()`
 - `ShapingProvisionBuilder prune()`
+- `ShapingProvisionBuilder toBuilder()`
+- `boolean hasData()`
 

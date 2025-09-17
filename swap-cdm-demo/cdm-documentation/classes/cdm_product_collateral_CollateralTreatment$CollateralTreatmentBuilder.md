@@ -15,22 +15,22 @@
 
 #### Setter Methods
 
+- `CollateralTreatmentBuilder setValuationTreatment(CollateralValuationTreatment arg0)`
 - `CollateralTreatmentBuilder setIsIncluded(Boolean arg0)`
 - `CollateralTreatmentBuilder setConcentrationLimit(List arg0)`
-- `CollateralTreatmentBuilder setValuationTreatment(CollateralValuationTreatment arg0)`
 
 #### Getter Methods
 
 - `CollateralValuationTreatmentBuilder getValuationTreatment()`
 - `List getConcentrationLimit()`
-- `ConcentrationLimitBuilder getOrCreateConcentrationLimit(int arg0)`
 - `CollateralValuationTreatmentBuilder getOrCreateValuationTreatment()`
+- `ConcentrationLimitBuilder getOrCreateConcentrationLimit(int arg0)`
 
 #### Adder Methods
 
 - `CollateralTreatmentBuilder addConcentrationLimit(List arg0)`
-- `CollateralTreatmentBuilder addConcentrationLimit(ConcentrationLimit arg0, int arg1)`
 - `CollateralTreatmentBuilder addConcentrationLimit(ConcentrationLimit arg0)`
+- `CollateralTreatmentBuilder addConcentrationLimit(ConcentrationLimit arg0, int arg1)`
 
 #### Other Methods
 

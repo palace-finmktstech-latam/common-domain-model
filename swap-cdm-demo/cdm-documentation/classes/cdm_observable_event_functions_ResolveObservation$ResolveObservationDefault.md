@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `ObservationBuilder doEvaluate(List arg0, AveragingCalculationMethod arg1)`
 - `ObservationBuilder assignOutput(ObservationBuilder arg0, List arg1, AveragingCalculationMethod arg2)`
+- `ObservationBuilder doEvaluate(List arg0, AveragingCalculationMethod arg1)`
 

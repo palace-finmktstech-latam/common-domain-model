@@ -16,10 +16,10 @@
 
 #### Setter Methods
 
-- `PartyIdentifierBuilder setIdentifierType(PartyIdentifierTypeEnum arg0)`
-- `PartyIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
 - `PartyIdentifierBuilder setIdentifierValue(String arg0)`
+- `PartyIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
 - `PartyIdentifierBuilder setMeta(MetaFields arg0)`
+- `PartyIdentifierBuilder setIdentifierType(PartyIdentifierTypeEnum arg0)`
 
 #### Getter Methods
 

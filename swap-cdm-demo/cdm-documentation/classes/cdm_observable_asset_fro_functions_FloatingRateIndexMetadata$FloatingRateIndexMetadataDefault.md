@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `FloatingRateIndexDefinitionBuilder doEvaluate(FloatingRateIndexEnum arg0)`
 - `FloatingRateIndexDefinitionBuilder assignOutput(FloatingRateIndexDefinitionBuilder arg0, FloatingRateIndexEnum arg1)`
+- `FloatingRateIndexDefinitionBuilder doEvaluate(FloatingRateIndexEnum arg0)`
 

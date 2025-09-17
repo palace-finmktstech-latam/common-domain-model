@@ -38,7 +38,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FixedPriceBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FixedPriceBuilder toBuilder()`
 - `FixedPriceBuilder prune()`
+- `FixedPriceBuilder toBuilder()`
+- `boolean hasData()`
 

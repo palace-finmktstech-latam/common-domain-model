@@ -21,9 +21,9 @@
 #### Getter Methods
 
 - `Optional getTransferInstruction(Path arg0)`
-- `Optional getIncomingPartyChangeInstruction(Path arg0)`
-- `Optional getIncomingQuantityChangeInstruction(Path arg0)`
 - `Optional getOutgoingQuantityChangeInstruction(Path arg0)`
+- `Optional getIncomingQuantityChangeInstruction(Path arg0)`
+- `Optional getIncomingPartyChangeInstruction(Path arg0)`
 
 #### Other Methods
 

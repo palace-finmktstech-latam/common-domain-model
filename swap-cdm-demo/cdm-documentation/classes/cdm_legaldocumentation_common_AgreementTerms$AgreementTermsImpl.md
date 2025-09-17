@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
+- `List getCounterparty()`
 - `Boolean getClauseLibrary()`
 - `Agreement getAgreement()`
-- `List getCounterparty()`
 
 #### Other Methods
 

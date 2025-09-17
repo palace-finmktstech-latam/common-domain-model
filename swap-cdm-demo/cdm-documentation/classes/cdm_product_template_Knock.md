@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `TriggerEvent getKnockIn()`
 - `TriggerEvent getKnockOut()`
+- `TriggerEvent getKnockIn()`
 
 #### Other Methods
 

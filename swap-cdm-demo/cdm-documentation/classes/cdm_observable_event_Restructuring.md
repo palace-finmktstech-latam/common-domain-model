@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `FieldWithMetaRestructuringEnum getRestructuringType()`
-- `Boolean getApplicable()`
 - `Boolean getMultipleHolderObligation()`
 - `Boolean getMultipleCreditEventNotices()`
+- `FieldWithMetaRestructuringEnum getRestructuringType()`
+- `Boolean getApplicable()`
 
 #### Other Methods
 

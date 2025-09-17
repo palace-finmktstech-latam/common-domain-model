@@ -25,8 +25,8 @@
 #### Other Methods
 
 - `void map(Path arg0, RosettaModelObjectBuilder arg1, RosettaModelObjectBuilder arg2)`
-- `void updateFloatingRateIndexReference(Mapping arg0, InterestRatePayoutBuilder arg1)`
+- `void updateFixedLeg(InterestRatePayoutBuilder arg0)`
 - `void updateFloatingLeg(Path arg0, InterestRatePayoutBuilder arg1)`
 - `void updateFloatingLegParties(InterestRatePayoutBuilder arg0)`
-- `void updateFixedLeg(InterestRatePayoutBuilder arg0)`
+- `void updateFloatingRateIndexReference(Mapping arg0, InterestRatePayoutBuilder arg1)`
 

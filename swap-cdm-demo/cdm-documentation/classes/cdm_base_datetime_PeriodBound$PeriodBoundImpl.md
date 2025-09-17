@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `Boolean getInclusive()`
 - `Period getPeriod()`
+- `Boolean getInclusive()`
 
 #### Other Methods
 

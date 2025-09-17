@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Boolean doEvaluate(BusinessEvent arg0)`
 - `Boolean assignOutput(Boolean arg0, BusinessEvent arg1)`
+- `Boolean doEvaluate(BusinessEvent arg0)`
 

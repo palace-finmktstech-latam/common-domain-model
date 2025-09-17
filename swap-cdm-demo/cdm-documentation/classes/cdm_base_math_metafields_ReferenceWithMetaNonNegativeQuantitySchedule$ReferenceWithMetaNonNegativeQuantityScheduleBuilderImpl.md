@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaNonNegativeQuantityScheduleBuilder setValue(NonNegativeQuantitySchedule arg0)`
-- `ReferenceWithMetaNonNegativeQuantityScheduleBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaNonNegativeQuantityScheduleBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaNonNegativeQuantityScheduleBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaNonNegativeQuantityScheduleBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaNonNegativeQuantityScheduleBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaNonNegativeQuantityScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaNonNegativeQuantityScheduleBuilder toBuilder()`
 - `ReferenceWithMetaNonNegativeQuantityScheduleBuilder prune()`
+- `ReferenceWithMetaNonNegativeQuantityScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

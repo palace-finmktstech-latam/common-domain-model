@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `BoundedVarianceBuilder setDaysInRangeAdjustment(Boolean arg0)`
 - `BoundedVarianceBuilder setRealisedVarianceMethod(RealisedVarianceMethodEnum arg0)`
+- `BoundedVarianceBuilder setDaysInRangeAdjustment(Boolean arg0)`
 - `BoundedVarianceBuilder setUpperBarrier(BigDecimal arg0)`
 - `BoundedVarianceBuilder setLowerBarrier(BigDecimal arg0)`
 

@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `BigDecimal getLowerBarrier()`
+- `RealisedVarianceMethodEnum getRealisedVarianceMethod()`
 - `Boolean getDaysInRangeAdjustment()`
 - `BigDecimal getUpperBarrier()`
-- `RealisedVarianceMethodEnum getRealisedVarianceMethod()`
+- `BigDecimal getLowerBarrier()`
 
 #### Other Methods
 

@@ -15,12 +15,12 @@
 
 #### Other Methods
 
-- `Boolean doEvaluate(BusinessEvent arg0)`
-- `Boolean assignOutput(Boolean arg0, BusinessEvent arg1)`
 - `MapperS instruction(BusinessEvent arg0)`
-- `MapperS closedTradeState(BusinessEvent arg0)`
-- `MapperC openTradeStates(BusinessEvent arg0)`
+- `Boolean assignOutput(Boolean arg0, BusinessEvent arg1)`
 - `MapperS beforeTradeState(BusinessEvent arg0)`
 - `MapperC openTradeNoExecutionDetails(BusinessEvent arg0)`
+- `Boolean doEvaluate(BusinessEvent arg0)`
 - `MapperC packageRef(BusinessEvent arg0)`
+- `MapperC openTradeStates(BusinessEvent arg0)`
+- `MapperS closedTradeState(BusinessEvent arg0)`
 

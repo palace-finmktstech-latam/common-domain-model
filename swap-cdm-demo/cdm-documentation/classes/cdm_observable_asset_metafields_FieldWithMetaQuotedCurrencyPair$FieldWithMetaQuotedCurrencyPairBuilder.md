@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `QuotedCurrencyPairBuilder getValue()`
-- `QuotedCurrencyPairBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `QuotedCurrencyPairBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods

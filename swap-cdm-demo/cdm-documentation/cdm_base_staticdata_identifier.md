@@ -33,9 +33,9 @@
 
 **Key Methods:**
 - `setVersion(Integer arg0)` → `AssignedIdentifierBuilder` [Setter]
-- `getOrCreateIdentifier()` → `FieldWithMetaStringBuilder` [Getter]
-- `setIdentifier(FieldWithMetaString arg0)` → `AssignedIdentifierBuilder` [Setter]
 - `setIdentifierValue(String arg0)` → `AssignedIdentifierBuilder` [Setter]
+- `setIdentifier(FieldWithMetaString arg0)` → `AssignedIdentifierBuilder` [Setter]
+- `getOrCreateIdentifier()` → `FieldWithMetaStringBuilder` [Getter]
 - `getIdentifier()` → `FieldWithMetaStringBuilder` [Getter]
 
 ### IdentifiedList
@@ -44,25 +44,25 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `IdentifiedList` [Builder]
-- `getListId()` → `Identifier` [Getter]
-- `getPrice()` → `Price` [Getter]
 - `getComponentId()` → `List` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getListId()` → `Identifier` [Getter]
+- `getPrice()` → `Price` [Getter]
 
 ### IdentifiedListBuilder
 **Implements:** `IdentifiedList` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `getOrCreatePrice()` → `PriceBuilder` [Getter]
-- `getOrCreateListId()` → `IdentifierBuilder` [Getter]
-- `getOrCreateComponentId(int arg0)` → `IdentifierBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setPrice(Price arg0)` → `IdentifiedListBuilder` [Setter]
-- `setListId(Identifier arg0)` → `IdentifiedListBuilder` [Setter]
+- `getOrCreatePrice()` → `PriceBuilder` [Getter]
+- `getComponentId()` → `List` [Getter]
 - `setComponentId(List arg0)` → `IdentifiedListBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `IdentifiedListBuilder` [Setter]
 - `getListId()` → `IdentifierBuilder` [Getter]
 - `getPrice()` → `PriceBuilder` [Getter]
-- `getComponentId()` → `List` [Getter]
+- `setListId(Identifier arg0)` → `IdentifiedListBuilder` [Setter]
+- `getOrCreateComponentId(int arg0)` → `IdentifierBuilder` [Getter]
 
 ### Identifier
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -70,25 +70,25 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `Identifier` [Builder]
-- `getIssuerReference()` → `ReferenceWithMetaParty` [Getter]
 - `getAssignedIdentifier()` → `List` [Getter]
-- `getIssuer()` → `FieldWithMetaString` [Getter]
+- `getIssuerReference()` → `ReferenceWithMetaParty` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getIssuer()` → `FieldWithMetaString` [Getter]
 
 ### IdentifierBuilder
 **Implements:** `Identifier` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `setIssuer(FieldWithMetaString arg0)` → `IdentifierBuilder` [Setter]
-- `setIssuerReferenceValue(Party arg0)` → `IdentifierBuilder` [Setter]
-- `setIssuerReference(ReferenceWithMetaParty arg0)` → `IdentifierBuilder` [Setter]
-- `getOrCreateIssuer()` → `FieldWithMetaStringBuilder` [Getter]
-- `setIssuerValue(String arg0)` → `IdentifierBuilder` [Setter]
-- `setAssignedIdentifier(List arg0)` → `IdentifierBuilder` [Setter]
-- `getOrCreateIssuerReference()` → `ReferenceWithMetaPartyBuilder` [Getter]
-- `getIssuerReference()` → `ReferenceWithMetaPartyBuilder` [Getter]
-- `getAssignedIdentifier()` → `List` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getAssignedIdentifier()` → `List` [Getter]
+- `getIssuerReference()` → `ReferenceWithMetaPartyBuilder` [Getter]
+- `setIssuerReferenceValue(Party arg0)` → `IdentifierBuilder` [Setter]
+- `setIssuerValue(String arg0)` → `IdentifierBuilder` [Setter]
+- `setIssuer(FieldWithMetaString arg0)` → `IdentifierBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `IdentifierBuilder` [Setter]
+- `getIssuer()` → `FieldWithMetaStringBuilder` [Getter]
+- `getOrCreateAssignedIdentifier(int arg0)` → `AssignedIdentifierBuilder` [Getter]
 
 ### LocationIdentifier
 **Implements:** `Identifier` 
@@ -102,13 +102,13 @@
 **Implements:** `LocationIdentifier` `Identifier$IdentifierBuilder` 
 
 **Key Methods:**
-- `setIssuer(FieldWithMetaString arg0)` → `LocationIdentifierBuilder` [Setter]
 - `setIssuerReferenceValue(Party arg0)` → `LocationIdentifierBuilder` [Setter]
-- `setIssuerReference(ReferenceWithMetaParty arg0)` → `LocationIdentifierBuilder` [Setter]
 - `setIssuerValue(String arg0)` → `LocationIdentifierBuilder` [Setter]
-- `setAssignedIdentifier(List arg0)` → `LocationIdentifierBuilder` [Setter]
-- `setLocationIdentifierType(CommodityLocationIdentifierTypeEnum arg0)` → `LocationIdentifierBuilder` [Setter]
+- `setIssuer(FieldWithMetaString arg0)` → `LocationIdentifierBuilder` [Setter]
 - `setMeta(MetaFields arg0)` → `LocationIdentifierBuilder` [Setter]
+- `setLocationIdentifierType(CommodityLocationIdentifierTypeEnum arg0)` → `LocationIdentifierBuilder` [Setter]
+- `setIssuerReference(ReferenceWithMetaParty arg0)` → `LocationIdentifierBuilder` [Setter]
+- `setAssignedIdentifier(List arg0)` → `LocationIdentifierBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -123,9 +123,9 @@
 - `build()` → `AssignedIdentifier` [Builder]
 - `setVersion(Integer arg0)` → `AssignedIdentifierBuilder` [Setter]
 - `getVersion()` → `Integer` [Getter]
-- `getOrCreateIdentifier()` → `FieldWithMetaStringBuilder` [Getter]
-- `setIdentifier(FieldWithMetaString arg0)` → `AssignedIdentifierBuilder` [Setter]
 - `setIdentifierValue(String arg0)` → `AssignedIdentifierBuilder` [Setter]
+- `setIdentifier(FieldWithMetaString arg0)` → `AssignedIdentifierBuilder` [Setter]
+- `getOrCreateIdentifier()` → `FieldWithMetaStringBuilder` [Getter]
 - `getIdentifier()` → `FieldWithMetaStringBuilder` [Getter]
 
 ### AssignedIdentifierImpl
@@ -148,15 +148,15 @@
 
 **Key Methods:**
 - `build()` → `IdentifiedList` [Builder]
-- `getOrCreatePrice()` → `PriceBuilder` [Getter]
-- `getOrCreateListId()` → `IdentifierBuilder` [Getter]
-- `getOrCreateComponentId(int arg0)` → `IdentifierBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setPrice(Price arg0)` → `IdentifiedListBuilder` [Setter]
-- `setListId(Identifier arg0)` → `IdentifiedListBuilder` [Setter]
+- `getOrCreatePrice()` → `PriceBuilder` [Getter]
+- `getComponentId()` → `List` [Getter]
 - `setComponentId(List arg0)` → `IdentifiedListBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `IdentifiedListBuilder` [Setter]
 - `getListId()` → `IdentifierBuilder` [Getter]
 - `getPrice()` → `PriceBuilder` [Getter]
+- `setListId(Identifier arg0)` → `IdentifiedListBuilder` [Setter]
 
 ### IdentifiedListImpl
 **Implements:** `IdentifiedList` 
@@ -164,10 +164,10 @@
 **Key Methods:**
 - `build()` → `IdentifiedList` [Builder]
 - `setBuilderFields(IdentifiedListBuilder arg0)` → `void` [Setter]
-- `getListId()` → `Identifier` [Getter]
-- `getPrice()` → `Price` [Getter]
 - `getComponentId()` → `List` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getListId()` → `Identifier` [Getter]
+- `getPrice()` → `Price` [Getter]
 
 ### IdentifierBuilderImpl
 **Implements:** `Identifier$IdentifierBuilder` 
@@ -180,26 +180,26 @@
 
 **Key Methods:**
 - `build()` → `Identifier` [Builder]
-- `setIssuer(FieldWithMetaString arg0)` → `IdentifierBuilder` [Setter]
-- `setIssuerReferenceValue(Party arg0)` → `IdentifierBuilder` [Setter]
-- `setIssuerReference(ReferenceWithMetaParty arg0)` → `IdentifierBuilder` [Setter]
-- `getOrCreateIssuer()` → `FieldWithMetaStringBuilder` [Getter]
-- `setIssuerValue(String arg0)` → `IdentifierBuilder` [Setter]
-- `setAssignedIdentifier(List arg0)` → `IdentifierBuilder` [Setter]
-- `getOrCreateIssuerReference()` → `ReferenceWithMetaPartyBuilder` [Getter]
-- `getIssuerReference()` → `ReferenceWithMetaPartyBuilder` [Getter]
+- `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
 - `getAssignedIdentifier()` → `List` [Getter]
+- `getIssuerReference()` → `ReferenceWithMetaPartyBuilder` [Getter]
+- `setIssuerReferenceValue(Party arg0)` → `IdentifierBuilder` [Setter]
+- `setIssuerValue(String arg0)` → `IdentifierBuilder` [Setter]
+- `setIssuer(FieldWithMetaString arg0)` → `IdentifierBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `IdentifierBuilder` [Setter]
+- `getIssuer()` → `FieldWithMetaStringBuilder` [Getter]
 
 ### IdentifierImpl
 **Implements:** `Identifier` 
 
 **Key Methods:**
 - `build()` → `Identifier` [Builder]
-- `getIssuerReference()` → `ReferenceWithMetaParty` [Getter]
-- `getAssignedIdentifier()` → `List` [Getter]
 - `setBuilderFields(IdentifierBuilder arg0)` → `void` [Setter]
-- `getIssuer()` → `FieldWithMetaString` [Getter]
+- `getAssignedIdentifier()` → `List` [Getter]
+- `getIssuerReference()` → `ReferenceWithMetaParty` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
+- `getIssuer()` → `FieldWithMetaString` [Getter]
 
 ### LocationIdentifierBuilderImpl
 **Extends:** `Identifier$IdentifierBuilderImpl` 
@@ -210,14 +210,14 @@
 
 **Key Methods:**
 - `build()` → `LocationIdentifier` [Builder]
-- `setIssuer(FieldWithMetaString arg0)` → `LocationIdentifierBuilder` [Setter]
 - `setIssuerReferenceValue(Party arg0)` → `LocationIdentifierBuilder` [Setter]
-- `setIssuerReference(ReferenceWithMetaParty arg0)` → `LocationIdentifierBuilder` [Setter]
 - `setIssuerValue(String arg0)` → `LocationIdentifierBuilder` [Setter]
-- `setAssignedIdentifier(List arg0)` → `LocationIdentifierBuilder` [Setter]
-- `setLocationIdentifierType(CommodityLocationIdentifierTypeEnum arg0)` → `LocationIdentifierBuilder` [Setter]
-- `getLocationIdentifierType()` → `CommodityLocationIdentifierTypeEnum` [Getter]
+- `setIssuer(FieldWithMetaString arg0)` → `LocationIdentifierBuilder` [Setter]
 - `setMeta(MetaFields arg0)` → `LocationIdentifierBuilder` [Setter]
+- `getLocationIdentifierType()` → `CommodityLocationIdentifierTypeEnum` [Getter]
+- `setLocationIdentifierType(CommodityLocationIdentifierTypeEnum arg0)` → `LocationIdentifierBuilder` [Setter]
+- `setIssuerReference(ReferenceWithMetaParty arg0)` → `LocationIdentifierBuilder` [Setter]
+- `setAssignedIdentifier(List arg0)` → `LocationIdentifierBuilder` [Setter]
 
 ### LocationIdentifierImpl
 **Extends:** `Identifier$IdentifierImpl` 

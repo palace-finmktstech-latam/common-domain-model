@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ScheduledTransferBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ScheduledTransferBuilder toBuilder()`
 - `ScheduledTransferBuilder prune()`
+- `ScheduledTransferBuilder toBuilder()`
+- `boolean hasData()`
 

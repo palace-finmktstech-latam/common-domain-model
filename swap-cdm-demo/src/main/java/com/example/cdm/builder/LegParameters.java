@@ -21,6 +21,9 @@ public class LegParameters {
     private final String resetDayConvention;
     private final List<String> resetBusinessCenters;
     private final Integer resetDateOffset;
+    private final String calculationPeriodFrequency;
+    private final String calculationDayConvention;
+    private final List<String> calculationBusinessCenters;
     private final String paymentFrequency;
     private final String dayCountFraction;
     private final String paymentDayConvention;
@@ -33,6 +36,8 @@ public class LegParameters {
     private final String settlementType;
     private final FxFixingParameters fxFixing;
     private final String rollConvention;
+    private final Integer rateRoundingPrecision;
+    private final String rateRoundingDirection;
 
     private LegParameters(Builder builder) {
         this.legId = builder.legId;
@@ -48,6 +53,9 @@ public class LegParameters {
         this.resetDayConvention = builder.resetDayConvention;
         this.resetBusinessCenters = builder.resetBusinessCenters;
         this.resetDateOffset = builder.resetDateOffset;
+        this.calculationPeriodFrequency = builder.calculationPeriodFrequency;
+        this.calculationDayConvention = builder.calculationDayConvention;
+        this.calculationBusinessCenters = builder.calculationBusinessCenters;
         this.paymentFrequency = builder.paymentFrequency;
         this.dayCountFraction = builder.dayCountFraction;
         this.paymentDayConvention = builder.paymentDayConvention;
@@ -60,6 +68,8 @@ public class LegParameters {
         this.settlementType = builder.settlementType;
         this.fxFixing = builder.fxFixing;
         this.rollConvention = builder.rollConvention;
+        this.rateRoundingPrecision = builder.rateRoundingPrecision;
+        this.rateRoundingDirection = builder.rateRoundingDirection;
     }
 
     // Getters for all fields
@@ -76,6 +86,9 @@ public class LegParameters {
     public String getResetDayConvention() { return resetDayConvention; }
     public List<String> getResetBusinessCenters() { return resetBusinessCenters; }
     public Integer getResetDateOffset() { return resetDateOffset; }
+    public String getCalculationPeriodFrequency() { return calculationPeriodFrequency; }
+    public String getCalculationDayConvention() { return calculationDayConvention; }
+    public List<String> getCalculationBusinessCenters() { return calculationBusinessCenters; }
     public String getPaymentFrequency() { return paymentFrequency; }
     public String getDayCountFraction() { return dayCountFraction; }
     public String getPaymentDayConvention() { return paymentDayConvention; }
@@ -88,6 +101,8 @@ public class LegParameters {
     public String getSettlementType() { return settlementType; }
     public FxFixingParameters getFxFixing() { return fxFixing; }
     public String getRollConvention() { return rollConvention; }
+    public Integer getRateRoundingPrecision() { return rateRoundingPrecision; }
+    public String getRateRoundingDirection() { return rateRoundingDirection; }
 
     public static Builder builder() {
         return new Builder();
@@ -108,6 +123,9 @@ public class LegParameters {
         private String resetDayConvention;
         private List<String> resetBusinessCenters;
         private Integer resetDateOffset;
+        private String calculationPeriodFrequency;
+        private String calculationDayConvention;
+        private List<String> calculationBusinessCenters;
         private String paymentFrequency;
         private String dayCountFraction;
         private String paymentDayConvention;
@@ -120,6 +138,8 @@ public class LegParameters {
         private String settlementType;
         private FxFixingParameters fxFixing;
         private String rollConvention;
+        private Integer rateRoundingPrecision;
+        private String rateRoundingDirection;
 
         @JsonProperty("legId")
         public Builder legId(String legId) { this.legId = legId; return this; }
@@ -176,6 +196,21 @@ public class LegParameters {
         @JsonProperty("resetDateOffset")
         public Builder resetDateOffset(Integer resetDateOffset) {
             this.resetDateOffset = resetDateOffset; return this;
+        }
+
+        @JsonProperty("calculationPeriodFrequency")
+        public Builder calculationPeriodFrequency(String calculationPeriodFrequency) {
+            this.calculationPeriodFrequency = calculationPeriodFrequency; return this;
+        }
+
+        @JsonProperty("calculationDayConvention")
+        public Builder calculationDayConvention(String calculationDayConvention) {
+            this.calculationDayConvention = calculationDayConvention; return this;
+        }
+
+        @JsonProperty("calculationBusinessCenters")
+        public Builder calculationBusinessCenters(List<String> calculationBusinessCenters) {
+            this.calculationBusinessCenters = calculationBusinessCenters; return this;
         }
 
         @JsonProperty("paymentFrequency")
@@ -237,6 +272,17 @@ public class LegParameters {
         public Builder rollConvention(String rollConvention) {
             this.rollConvention = rollConvention; return this;
         }
+
+        @JsonProperty("rateRoundingPrecision")
+        public Builder rateRoundingPrecision(Integer rateRoundingPrecision) {
+            this.rateRoundingPrecision = rateRoundingPrecision; return this;
+        }
+
+        @JsonProperty("rateRoundingDirection")
+        public Builder rateRoundingDirection(String rateRoundingDirection) {
+            this.rateRoundingDirection = rateRoundingDirection; return this;
+        }
+
 
         public LegParameters build() {
             return new LegParameters(this);

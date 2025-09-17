@@ -15,19 +15,19 @@
 
 #### Setter Methods
 
-- `StubCalculationPeriodAmountBuilder setFinalStub(StubValue arg0)`
 - `StubCalculationPeriodAmountBuilder setInitialStub(StubValue arg0)`
+- `StubCalculationPeriodAmountBuilder setFinalStub(StubValue arg0)`
 - `StubCalculationPeriodAmountBuilder setCalculationPeriodDatesReference(ReferenceWithMetaCalculationPeriodDates arg0)`
 - `StubCalculationPeriodAmountBuilder setCalculationPeriodDatesReferenceValue(CalculationPeriodDates arg0)`
 
 #### Getter Methods
 
-- `StubValueBuilder getFinalStub()`
 - `StubValueBuilder getInitialStub()`
+- `StubValueBuilder getFinalStub()`
 - `StubValueBuilder getOrCreateInitialStub()`
 - `StubValueBuilder getOrCreateFinalStub()`
-- `ReferenceWithMetaCalculationPeriodDatesBuilder getCalculationPeriodDatesReference()`
 - `ReferenceWithMetaCalculationPeriodDatesBuilder getOrCreateCalculationPeriodDatesReference()`
+- `ReferenceWithMetaCalculationPeriodDatesBuilder getCalculationPeriodDatesReference()`
 
 #### Other Methods
 

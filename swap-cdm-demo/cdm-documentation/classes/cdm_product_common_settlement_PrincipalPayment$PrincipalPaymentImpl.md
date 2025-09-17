@@ -23,11 +23,11 @@
 #### Getter Methods
 
 - `PayerReceiver getPayerReceiver()`
-- `Money getPresentValuePrincipalAmount()`
-- `BigDecimal getDiscountFactor()`
 - `MetaFields getMeta()`
+- `BigDecimal getDiscountFactor()`
 - `AdjustableDate getPrincipalPaymentDate()`
 - `Money getPrincipalAmount()`
+- `Money getPresentValuePrincipalAmount()`
 
 #### Other Methods
 

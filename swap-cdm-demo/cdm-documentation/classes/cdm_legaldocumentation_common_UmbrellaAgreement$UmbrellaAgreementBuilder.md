@@ -16,8 +16,8 @@
 #### Setter Methods
 
 - `UmbrellaAgreementBuilder setLanguage(String arg0)`
-- `UmbrellaAgreementBuilder setIsApplicable(Boolean arg0)`
 - `UmbrellaAgreementBuilder setParties(List arg0)`
+- `UmbrellaAgreementBuilder setIsApplicable(Boolean arg0)`
 
 #### Getter Methods
 
@@ -26,9 +26,9 @@
 
 #### Adder Methods
 
+- `UmbrellaAgreementBuilder addParties(UmbrellaAgreementEntity arg0, int arg1)`
 - `UmbrellaAgreementBuilder addParties(List arg0)`
 - `UmbrellaAgreementBuilder addParties(UmbrellaAgreementEntity arg0)`
-- `UmbrellaAgreementBuilder addParties(UmbrellaAgreementEntity arg0, int arg1)`
 
 #### Other Methods
 

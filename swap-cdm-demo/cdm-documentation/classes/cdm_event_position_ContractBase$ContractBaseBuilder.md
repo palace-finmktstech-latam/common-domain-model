@@ -17,19 +17,19 @@
 
 - `ContractBaseBuilder setExecutionDetails(ReferenceWithMetaExecutionDetails arg0)`
 - `ContractBaseBuilder setCollateral(ReferenceWithMetaCollateral arg0)`
-- `ContractBaseBuilder setCollateralValue(Collateral arg0)`
 - `ContractBaseBuilder setContractDetailsValue(ContractDetails arg0)`
 - `ContractBaseBuilder setExecutionDetailsValue(ExecutionDetails arg0)`
+- `ContractBaseBuilder setCollateralValue(Collateral arg0)`
 - `ContractBaseBuilder setContractDetails(ReferenceWithMetaContractDetails arg0)`
 
 #### Getter Methods
 
-- `ReferenceWithMetaCollateralBuilder getOrCreateCollateral()`
-- `ReferenceWithMetaContractDetailsBuilder getOrCreateContractDetails()`
+- `ReferenceWithMetaExecutionDetailsBuilder getExecutionDetails()`
 - `ReferenceWithMetaContractDetailsBuilder getContractDetails()`
 - `ReferenceWithMetaCollateralBuilder getCollateral()`
-- `ReferenceWithMetaExecutionDetailsBuilder getExecutionDetails()`
+- `ReferenceWithMetaCollateralBuilder getOrCreateCollateral()`
 - `ReferenceWithMetaExecutionDetailsBuilder getOrCreateExecutionDetails()`
+- `ReferenceWithMetaContractDetailsBuilder getOrCreateContractDetails()`
 
 #### Other Methods
 

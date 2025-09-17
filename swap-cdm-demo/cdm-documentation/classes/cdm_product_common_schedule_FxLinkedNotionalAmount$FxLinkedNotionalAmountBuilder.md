@@ -15,10 +15,10 @@
 
 #### Setter Methods
 
+- `FxLinkedNotionalAmountBuilder setResetDate(Date arg0)`
 - `FxLinkedNotionalAmountBuilder setNotionalAmount(BigDecimal arg0)`
 - `FxLinkedNotionalAmountBuilder setObservedFxSpotRate(BigDecimal arg0)`
 - `FxLinkedNotionalAmountBuilder setAdjustedFxSpotFixingDate(Date arg0)`
-- `FxLinkedNotionalAmountBuilder setResetDate(Date arg0)`
 
 #### Other Methods
 

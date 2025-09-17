@@ -32,11 +32,11 @@
 
 #### Getter Methods
 
-- `AdjustableOrAdjustedOrRelativeDateBuilder getSettlementDate()`
 - `NonNegativeQuantityBuilder getQuantity()`
+- `AssetBuilder getOrCreateAsset()`
 - `AdjustableOrAdjustedOrRelativeDateBuilder getOrCreateSettlementDate()`
 - `NonNegativeQuantityBuilder getOrCreateQuantity()`
-- `AssetBuilder getOrCreateAsset()`
+- `AdjustableOrAdjustedOrRelativeDateBuilder getSettlementDate()`
 - `AssetBuilder getAsset()`
 
 #### Other Methods
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AssetFlowBaseBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AssetFlowBaseBuilder toBuilder()`
 - `AssetFlowBaseBuilder prune()`
+- `AssetFlowBaseBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -22,12 +22,12 @@
 
 #### Getter Methods
 
-- `String getCreditAdditionalTerms()`
 - `EquityAdditionalTerms getEquityAdditionalTerms()`
-- `FxAdditionalTerms getForeignExchangeAdditionalTerms()`
+- `String getCreditAdditionalTerms()`
 - `String getDigitalAssetAdditionalTerms()`
-- `String getCommoditiesAdditionalTerms()`
+- `FxAdditionalTerms getForeignExchangeAdditionalTerms()`
 - `String getInterestRateAdditionalTerms()`
+- `String getCommoditiesAdditionalTerms()`
 
 #### Other Methods
 

@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaCollateralPortfolioBuilder setValue(CollateralPortfolio arg0)`
-- `ReferenceWithMetaCollateralPortfolioBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaCollateralPortfolioBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaCollateralPortfolioBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaCollateralPortfolioBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaCollateralPortfolioBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaCollateralPortfolioBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaCollateralPortfolioBuilder toBuilder()`
 - `ReferenceWithMetaCollateralPortfolioBuilder prune()`
+- `ReferenceWithMetaCollateralPortfolioBuilder toBuilder()`
+- `boolean hasData()`
 

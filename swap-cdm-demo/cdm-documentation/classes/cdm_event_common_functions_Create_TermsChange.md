@@ -21,10 +21,10 @@
 #### Other Methods
 
 - `TradeState evaluate(TermsChangeInstruction arg0, TradeState arg1)`
-- `MapperS newProduct(TermsChangeInstruction arg0, TradeState arg1)`
-- `TradeStateBuilder doEvaluate(TermsChangeInstruction arg0, TradeState arg1)`
 - `MapperS newAdjustment(TermsChangeInstruction arg0, TradeState arg1)`
 - `MapperC newAncillaryParty(TermsChangeInstruction arg0, TradeState arg1)`
+- `TradeStateBuilder doEvaluate(TermsChangeInstruction arg0, TradeState arg1)`
+- `MapperS newProduct(TermsChangeInstruction arg0, TradeState arg1)`
 
 ### Annotations
 

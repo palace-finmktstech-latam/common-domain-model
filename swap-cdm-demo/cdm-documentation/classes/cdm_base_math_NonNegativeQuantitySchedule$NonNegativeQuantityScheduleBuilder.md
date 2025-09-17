@@ -18,8 +18,8 @@
 - `NonNegativeQuantityScheduleBuilder setValue(BigDecimal arg0)`
 - `NonNegativeQuantityScheduleBuilder setMultiplier(Measure arg0)`
 - `NonNegativeQuantityScheduleBuilder setDatedValue(List arg0)`
-- `NonNegativeQuantityScheduleBuilder setFrequency(Frequency arg0)`
 - `NonNegativeQuantityScheduleBuilder setUnit(UnitType arg0)`
+- `NonNegativeQuantityScheduleBuilder setFrequency(Frequency arg0)`
 
 #### Adder Methods
 

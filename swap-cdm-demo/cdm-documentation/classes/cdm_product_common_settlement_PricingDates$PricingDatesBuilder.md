@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `PricingDatesBuilder setSpecifiedDates(List arg0)`
 - `PricingDatesBuilder setParametricDates(ParametricDates arg0)`
+- `PricingDatesBuilder setSpecifiedDates(List arg0)`
 
 #### Getter Methods
 
-- `List getSpecifiedDates()`
-- `AdjustableDatesBuilder getOrCreateSpecifiedDates(int arg0)`
-- `ParametricDatesBuilder getOrCreateParametricDates()`
 - `ParametricDatesBuilder getParametricDates()`
+- `ParametricDatesBuilder getOrCreateParametricDates()`
+- `AdjustableDatesBuilder getOrCreateSpecifiedDates(int arg0)`
+- `List getSpecifiedDates()`
 
 #### Adder Methods
 

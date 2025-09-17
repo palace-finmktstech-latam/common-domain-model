@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `DeterminationMethodologyBuilder setAveragingMethod(AveragingCalculationMethodEnum arg0)`
 - `DeterminationMethodologyBuilder setDeterminationMethod(DeterminationMethodEnum arg0)`
+- `DeterminationMethodologyBuilder setAveragingMethod(AveragingCalculationMethodEnum arg0)`
 
 #### Other Methods
 

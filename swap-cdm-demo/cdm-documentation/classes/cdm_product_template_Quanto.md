@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `List getFxRate()`
 - `FxSpotRateSource getFxSpotRateSource()`
 - `BusinessCenterTime getFixingTime()`
+- `List getFxRate()`
 
 #### Other Methods
 

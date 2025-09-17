@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
+- `Security getSecurity()`
 - `ListedDerivative getListedDerivative()`
 - `Loan getLoan()`
-- `Security getSecurity()`
 
 #### Other Methods
 

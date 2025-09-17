@@ -29,33 +29,33 @@
 
 #### Setter Methods
 
-- `FloatingRateDefinitionBuilder setFloorRate(List arg0)`
-- `FloatingRateDefinitionBuilder setRateObservation(List arg0)`
 - `FloatingRateDefinitionBuilder setCalculatedRate(BigDecimal arg0)`
+- `FloatingRateDefinitionBuilder setRateObservation(List arg0)`
 - `FloatingRateDefinitionBuilder setFloatingRateMultiplier(BigDecimal arg0)`
+- `FloatingRateDefinitionBuilder setFloorRate(List arg0)`
 - `FloatingRateDefinitionBuilder setSpread(BigDecimal arg0)`
 - `FloatingRateDefinitionBuilder setCapRate(List arg0)`
 
 #### Getter Methods
 
+- `StrikeBuilder getOrCreateFloorRate(int arg0)`
 - `BigDecimal getCalculatedRate()`
-- `List getRateObservation()`
 - `BigDecimal getFloatingRateMultiplier()`
 - `List getFloorRate()`
-- `StrikeBuilder getOrCreateFloorRate(int arg0)`
+- `List getRateObservation()`
 - `RateObservationBuilder getOrCreateRateObservation(int arg0)`
 - `StrikeBuilder getOrCreateCapRate(int arg0)`
-- `BigDecimal getSpread()`
 - `List getCapRate()`
+- `BigDecimal getSpread()`
 
 #### Adder Methods
 
 - `FloatingRateDefinitionBuilder addRateObservation(RateObservation arg0, int arg1)`
-- `FloatingRateDefinitionBuilder addRateObservation(RateObservation arg0)`
 - `FloatingRateDefinitionBuilder addRateObservation(List arg0)`
-- `FloatingRateDefinitionBuilder addFloorRate(Strike arg0)`
+- `FloatingRateDefinitionBuilder addRateObservation(RateObservation arg0)`
 - `FloatingRateDefinitionBuilder addFloorRate(List arg0)`
 - `FloatingRateDefinitionBuilder addFloorRate(Strike arg0, int arg1)`
+- `FloatingRateDefinitionBuilder addFloorRate(Strike arg0)`
 - `FloatingRateDefinitionBuilder addCapRate(List arg0)`
 - `FloatingRateDefinitionBuilder addCapRate(Strike arg0, int arg1)`
 - `FloatingRateDefinitionBuilder addCapRate(Strike arg0)`
@@ -66,7 +66,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FloatingRateDefinitionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FloatingRateDefinitionBuilder toBuilder()`
 - `FloatingRateDefinitionBuilder prune()`
+- `FloatingRateDefinitionBuilder toBuilder()`
+- `boolean hasData()`
 

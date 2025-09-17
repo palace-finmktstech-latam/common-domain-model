@@ -44,7 +44,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DiscountingMethodBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DiscountingMethodBuilder toBuilder()`
 - `DiscountingMethodBuilder prune()`
+- `DiscountingMethodBuilder toBuilder()`
+- `boolean hasData()`
 

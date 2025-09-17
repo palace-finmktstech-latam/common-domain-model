@@ -22,12 +22,12 @@
 
 #### Getter Methods
 
-- `Date getAdjustedEarlyTerminationDate()`
 - `Date getAdjustedCashSettlementPaymentDate()`
-- `Date getAdjustedExerciseFeePaymentDate()`
 - `Date getAdjustedCashSettlementValuationDate()`
+- `Date getAdjustedExerciseFeePaymentDate()`
 - `Date getAdjustedExerciseDate()`
 - `MetaFields getMeta()`
+- `Date getAdjustedEarlyTerminationDate()`
 
 #### Other Methods
 

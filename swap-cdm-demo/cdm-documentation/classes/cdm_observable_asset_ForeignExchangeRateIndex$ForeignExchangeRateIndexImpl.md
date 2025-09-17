@@ -27,8 +27,8 @@
 
 #### Getter Methods
 
-- `FieldWithMetaQuotedCurrencyPair getQuotedCurrencyPair()`
 - `InformationSource getPrimaryFxSpotRateSource()`
+- `FieldWithMetaQuotedCurrencyPair getQuotedCurrencyPair()`
 - `InformationSource getSecondaryFxSpotRateSource()`
 
 #### Other Methods

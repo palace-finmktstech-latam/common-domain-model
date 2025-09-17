@@ -20,28 +20,28 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `FloatingAmountCalculationDetails` [Builder]
 - `getYearFraction()` → `BigDecimal` [Getter]
-- `getCalculatedAmount()` → `BigDecimal` [Getter]
-- `getFloatingRate()` → `FloatingRateSettingDetails` [Getter]
 - `getCalculationPeriod()` → `CalculationPeriodBase` [Getter]
-- `getProcessingDetails()` → `FloatingRateProcessingDetails` [Getter]
-- `getAppliedRate()` → `BigDecimal` [Getter]
-- `getSpreadExclusiveCalculatedAMount()` → `BigDecimal` [Getter]
+- `getCalculatedAmount()` → `BigDecimal` [Getter]
 - `getCalculationPeriodNotionalAmount()` → `Money` [Getter]
+- `getSpreadExclusiveCalculatedAMount()` → `BigDecimal` [Getter]
+- `getAppliedRate()` → `BigDecimal` [Getter]
+- `getFloatingRate()` → `FloatingRateSettingDetails` [Getter]
+- `getProcessingDetails()` → `FloatingRateProcessingDetails` [Getter]
 
 ### FloatingAmountCalculationDetailsBuilder
 **Implements:** `FloatingAmountCalculationDetails` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `setCalculatedAmount(BigDecimal arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
 - `setCalculationPeriod(CalculationPeriodBase arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
 - `setYearFraction(BigDecimal arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
-- `setCalculatedAmount(BigDecimal arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
-- `getFloatingRate()` → `FloatingRateSettingDetailsBuilder` [Getter]
 - `getCalculationPeriod()` → `CalculationPeriodBaseBuilder` [Getter]
-- `getProcessingDetails()` → `FloatingRateProcessingDetailsBuilder` [Getter]
-- `setProcessingDetails(FloatingRateProcessingDetails arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
-- `getOrCreateFloatingRate()` → `FloatingRateSettingDetailsBuilder` [Getter]
-- `setFloatingRate(FloatingRateSettingDetails arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
-- `setAppliedRate(BigDecimal arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
+- `getOrCreateCalculationPeriod()` → `CalculationPeriodBaseBuilder` [Getter]
+- `getCalculationPeriodNotionalAmount()` → `MoneyBuilder` [Getter]
+- `setCalculationPeriodNotionalAmount(Money arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
+- `getOrCreateCalculationPeriodNotionalAmount()` → `MoneyBuilder` [Getter]
+- `getOrCreateProcessingDetails()` → `FloatingRateProcessingDetailsBuilder` [Getter]
+- `setSpreadExclusiveCalculatedAMount(BigDecimal arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
 
 ### FloatingRateProcessingDetails
 **Implements:** `RosettaModelObject` 
@@ -51,19 +51,19 @@
 - `build()` → `FloatingRateProcessingDetails` [Builder]
 - `getRawRate()` → `BigDecimal` [Getter]
 - `getProcessingParameters()` → `FloatingRateProcessingParameters` [Getter]
-- `getProcessedRate()` → `BigDecimal` [Getter]
 - `getSpreadExclusiveRate()` → `BigDecimal` [Getter]
+- `getProcessedRate()` → `BigDecimal` [Getter]
 
 ### FloatingRateProcessingDetailsBuilder
 **Implements:** `FloatingRateProcessingDetails` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `getOrCreateProcessingParameters()` → `FloatingRateProcessingParametersBuilder` [Getter]
 - `setRawRate(BigDecimal arg0)` → `FloatingRateProcessingDetailsBuilder` [Setter]
 - `getProcessingParameters()` → `FloatingRateProcessingParametersBuilder` [Getter]
-- `setSpreadExclusiveRate(BigDecimal arg0)` → `FloatingRateProcessingDetailsBuilder` [Setter]
 - `setProcessingParameters(FloatingRateProcessingParameters arg0)` → `FloatingRateProcessingDetailsBuilder` [Setter]
 - `setProcessedRate(BigDecimal arg0)` → `FloatingRateProcessingDetailsBuilder` [Setter]
-- `getOrCreateProcessingParameters()` → `FloatingRateProcessingParametersBuilder` [Getter]
+- `setSpreadExclusiveRate(BigDecimal arg0)` → `FloatingRateProcessingDetailsBuilder` [Setter]
 
 ### FloatingRateProcessingParameters
 **Implements:** `RosettaModelObject` 
@@ -72,28 +72,28 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `FloatingRateProcessingParameters` [Builder]
 - `getMultiplier()` → `BigDecimal` [Getter]
-- `getInitialRate()` → `Price` [Getter]
-- `getRounding()` → `Rounding` [Getter]
-- `getFloorRate()` → `BigDecimal` [Getter]
-- `getSpread()` → `BigDecimal` [Getter]
-- `getCapRate()` → `BigDecimal` [Getter]
 - `getTreatment()` → `RateTreatmentEnum` [Getter]
+- `getFloorRate()` → `BigDecimal` [Getter]
+- `getRounding()` → `Rounding` [Getter]
 - `getNegativeTreatment()` → `NegativeInterestRateTreatmentEnum` [Getter]
+- `getInitialRate()` → `Price` [Getter]
+- `getCapRate()` → `BigDecimal` [Getter]
+- `getSpread()` → `BigDecimal` [Getter]
 
 ### FloatingRateProcessingParametersBuilder
 **Implements:** `FloatingRateProcessingParameters` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
 - `setMultiplier(BigDecimal arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
-- `getInitialRate()` → `PriceBuilder` [Getter]
-- `setRounding(Rounding arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
-- `getOrCreateRounding()` → `RoundingBuilder` [Getter]
-- `getRounding()` → `RoundingBuilder` [Getter]
-- `setFloorRate(BigDecimal arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
+- `setTreatment(RateTreatmentEnum arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
 - `setInitialRate(Price arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
 - `getOrCreateInitialRate()` → `PriceBuilder` [Getter]
-- `setSpread(BigDecimal arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
-- `setCapRate(BigDecimal arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
+- `setFloorRate(BigDecimal arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
+- `getOrCreateRounding()` → `RoundingBuilder` [Getter]
+- `getRounding()` → `RoundingBuilder` [Getter]
+- `setRounding(Rounding arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
+- `setNegativeTreatment(NegativeInterestRateTreatmentEnum arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
+- `getInitialRate()` → `PriceBuilder` [Getter]
 
 ### FloatingRateSettingDetails
 **Implements:** `RosettaModelObject` 
@@ -101,21 +101,21 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `FloatingRateSettingDetails` [Builder]
-- `getObservationDate()` → `Date` [Getter]
-- `getFloatingRate()` → `BigDecimal` [Getter]
-- `getCalculationDetails()` → `CalculatedRateDetails` [Getter]
 - `getResetDate()` → `Date` [Getter]
+- `getObservationDate()` → `Date` [Getter]
+- `getCalculationDetails()` → `CalculatedRateDetails` [Getter]
+- `getFloatingRate()` → `BigDecimal` [Getter]
 
 ### FloatingRateSettingDetailsBuilder
 **Implements:** `FloatingRateSettingDetails` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `setResetDate(Date arg0)` → `FloatingRateSettingDetailsBuilder` [Setter]
+- `setObservationDate(Date arg0)` → `FloatingRateSettingDetailsBuilder` [Setter]
+- `getOrCreateCalculationDetails()` → `CalculatedRateDetailsBuilder` [Getter]
 - `setCalculationDetails(CalculatedRateDetails arg0)` → `FloatingRateSettingDetailsBuilder` [Setter]
 - `getCalculationDetails()` → `CalculatedRateDetailsBuilder` [Getter]
 - `setFloatingRate(BigDecimal arg0)` → `FloatingRateSettingDetailsBuilder` [Setter]
-- `setObservationDate(Date arg0)` → `FloatingRateSettingDetailsBuilder` [Setter]
-- `getOrCreateCalculationDetails()` → `CalculatedRateDetailsBuilder` [Getter]
-- `setResetDate(Date arg0)` → `FloatingRateSettingDetailsBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -135,29 +135,29 @@
 **Key Methods:**
 - `build()` → `FloatingAmountCalculationDetails` [Builder]
 - `getYearFraction()` → `BigDecimal` [Getter]
+- `setCalculatedAmount(BigDecimal arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
 - `setCalculationPeriod(CalculationPeriodBase arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
 - `setYearFraction(BigDecimal arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
-- `setCalculatedAmount(BigDecimal arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
-- `getCalculatedAmount()` → `BigDecimal` [Getter]
-- `getFloatingRate()` → `FloatingRateSettingDetailsBuilder` [Getter]
 - `getCalculationPeriod()` → `CalculationPeriodBaseBuilder` [Getter]
-- `getProcessingDetails()` → `FloatingRateProcessingDetailsBuilder` [Getter]
-- `setProcessingDetails(FloatingRateProcessingDetails arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
+- `getCalculatedAmount()` → `BigDecimal` [Getter]
+- `getOrCreateCalculationPeriod()` → `CalculationPeriodBaseBuilder` [Getter]
+- `getCalculationPeriodNotionalAmount()` → `MoneyBuilder` [Getter]
+- `setCalculationPeriodNotionalAmount(Money arg0)` → `FloatingAmountCalculationDetailsBuilder` [Setter]
 
 ### FloatingAmountCalculationDetailsImpl
 **Implements:** `FloatingAmountCalculationDetails` 
 
 **Key Methods:**
 - `build()` → `FloatingAmountCalculationDetails` [Builder]
-- `getYearFraction()` → `BigDecimal` [Getter]
-- `getCalculatedAmount()` → `BigDecimal` [Getter]
-- `getFloatingRate()` → `FloatingRateSettingDetails` [Getter]
-- `getCalculationPeriod()` → `CalculationPeriodBase` [Getter]
-- `getProcessingDetails()` → `FloatingRateProcessingDetails` [Getter]
-- `getAppliedRate()` → `BigDecimal` [Getter]
 - `setBuilderFields(FloatingAmountCalculationDetailsBuilder arg0)` → `void` [Setter]
-- `getSpreadExclusiveCalculatedAMount()` → `BigDecimal` [Getter]
+- `getYearFraction()` → `BigDecimal` [Getter]
+- `getCalculationPeriod()` → `CalculationPeriodBase` [Getter]
+- `getCalculatedAmount()` → `BigDecimal` [Getter]
 - `getCalculationPeriodNotionalAmount()` → `Money` [Getter]
+- `getSpreadExclusiveCalculatedAMount()` → `BigDecimal` [Getter]
+- `getAppliedRate()` → `BigDecimal` [Getter]
+- `getFloatingRate()` → `FloatingRateSettingDetails` [Getter]
+- `getProcessingDetails()` → `FloatingRateProcessingDetails` [Getter]
 
 ### FloatingRateProcessingDetailsBuilderImpl
 **Implements:** `FloatingRateProcessingDetails$FloatingRateProcessingDetailsBuilder` 
@@ -170,26 +170,26 @@
 
 **Key Methods:**
 - `build()` → `FloatingRateProcessingDetails` [Builder]
-- `getRawRate()` → `BigDecimal` [Getter]
+- `getOrCreateProcessingParameters()` → `FloatingRateProcessingParametersBuilder` [Getter]
 - `setRawRate(BigDecimal arg0)` → `FloatingRateProcessingDetailsBuilder` [Setter]
+- `getRawRate()` → `BigDecimal` [Getter]
 - `getProcessingParameters()` → `FloatingRateProcessingParametersBuilder` [Getter]
+- `getSpreadExclusiveRate()` → `BigDecimal` [Getter]
 - `getProcessedRate()` → `BigDecimal` [Getter]
-- `setSpreadExclusiveRate(BigDecimal arg0)` → `FloatingRateProcessingDetailsBuilder` [Setter]
 - `setProcessingParameters(FloatingRateProcessingParameters arg0)` → `FloatingRateProcessingDetailsBuilder` [Setter]
 - `setProcessedRate(BigDecimal arg0)` → `FloatingRateProcessingDetailsBuilder` [Setter]
-- `getSpreadExclusiveRate()` → `BigDecimal` [Getter]
-- `getOrCreateProcessingParameters()` → `FloatingRateProcessingParametersBuilder` [Getter]
+- `setSpreadExclusiveRate(BigDecimal arg0)` → `FloatingRateProcessingDetailsBuilder` [Setter]
 
 ### FloatingRateProcessingDetailsImpl
 **Implements:** `FloatingRateProcessingDetails` 
 
 **Key Methods:**
 - `build()` → `FloatingRateProcessingDetails` [Builder]
+- `setBuilderFields(FloatingRateProcessingDetailsBuilder arg0)` → `void` [Setter]
 - `getRawRate()` → `BigDecimal` [Getter]
 - `getProcessingParameters()` → `FloatingRateProcessingParameters` [Getter]
-- `getProcessedRate()` → `BigDecimal` [Getter]
 - `getSpreadExclusiveRate()` → `BigDecimal` [Getter]
-- `setBuilderFields(FloatingRateProcessingDetailsBuilder arg0)` → `void` [Setter]
+- `getProcessedRate()` → `BigDecimal` [Getter]
 
 ### FloatingRateProcessingParametersBuilderImpl
 **Implements:** `FloatingRateProcessingParameters$FloatingRateProcessingParametersBuilder` 
@@ -208,13 +208,13 @@
 - `build()` → `FloatingRateProcessingParameters` [Builder]
 - `getMultiplier()` → `BigDecimal` [Getter]
 - `setMultiplier(BigDecimal arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
-- `getInitialRate()` → `PriceBuilder` [Getter]
-- `setRounding(Rounding arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
-- `getOrCreateRounding()` → `RoundingBuilder` [Getter]
-- `getRounding()` → `RoundingBuilder` [Getter]
+- `getTreatment()` → `RateTreatmentEnum` [Getter]
+- `setTreatment(RateTreatmentEnum arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
+- `setInitialRate(Price arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
+- `getOrCreateInitialRate()` → `PriceBuilder` [Getter]
 - `getFloorRate()` → `BigDecimal` [Getter]
 - `setFloorRate(BigDecimal arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
-- `setInitialRate(Price arg0)` → `FloatingRateProcessingParametersBuilder` [Setter]
+- `getOrCreateRounding()` → `RoundingBuilder` [Getter]
 
 ### FloatingRateProcessingParametersImpl
 **Implements:** `FloatingRateProcessingParameters` 
@@ -222,14 +222,14 @@
 **Key Methods:**
 - `build()` → `FloatingRateProcessingParameters` [Builder]
 - `getMultiplier()` → `BigDecimal` [Getter]
-- `getInitialRate()` → `Price` [Getter]
 - `setBuilderFields(FloatingRateProcessingParametersBuilder arg0)` → `void` [Setter]
-- `getRounding()` → `Rounding` [Getter]
-- `getFloorRate()` → `BigDecimal` [Getter]
-- `getSpread()` → `BigDecimal` [Getter]
-- `getCapRate()` → `BigDecimal` [Getter]
 - `getTreatment()` → `RateTreatmentEnum` [Getter]
+- `getFloorRate()` → `BigDecimal` [Getter]
+- `getRounding()` → `Rounding` [Getter]
 - `getNegativeTreatment()` → `NegativeInterestRateTreatmentEnum` [Getter]
+- `getInitialRate()` → `Price` [Getter]
+- `getCapRate()` → `BigDecimal` [Getter]
+- `getSpread()` → `BigDecimal` [Getter]
 
 ### FloatingRateSettingDetailsBuilderImpl
 **Implements:** `FloatingRateSettingDetails$FloatingRateSettingDetailsBuilder` 
@@ -242,24 +242,24 @@
 
 **Key Methods:**
 - `build()` → `FloatingRateSettingDetails` [Builder]
+- `getResetDate()` → `Date` [Getter]
+- `setResetDate(Date arg0)` → `FloatingRateSettingDetailsBuilder` [Setter]
+- `setObservationDate(Date arg0)` → `FloatingRateSettingDetailsBuilder` [Setter]
 - `getObservationDate()` → `Date` [Getter]
-- `getFloatingRate()` → `BigDecimal` [Getter]
+- `getOrCreateCalculationDetails()` → `CalculatedRateDetailsBuilder` [Getter]
 - `setCalculationDetails(CalculatedRateDetails arg0)` → `FloatingRateSettingDetailsBuilder` [Setter]
 - `getCalculationDetails()` → `CalculatedRateDetailsBuilder` [Getter]
+- `getFloatingRate()` → `BigDecimal` [Getter]
 - `setFloatingRate(BigDecimal arg0)` → `FloatingRateSettingDetailsBuilder` [Setter]
-- `getResetDate()` → `Date` [Getter]
-- `setObservationDate(Date arg0)` → `FloatingRateSettingDetailsBuilder` [Setter]
-- `getOrCreateCalculationDetails()` → `CalculatedRateDetailsBuilder` [Getter]
-- `setResetDate(Date arg0)` → `FloatingRateSettingDetailsBuilder` [Setter]
 
 ### FloatingRateSettingDetailsImpl
 **Implements:** `FloatingRateSettingDetails` 
 
 **Key Methods:**
 - `build()` → `FloatingRateSettingDetails` [Builder]
-- `getObservationDate()` → `Date` [Getter]
-- `getFloatingRate()` → `BigDecimal` [Getter]
-- `getCalculationDetails()` → `CalculatedRateDetails` [Getter]
-- `getResetDate()` → `Date` [Getter]
 - `setBuilderFields(FloatingRateSettingDetailsBuilder arg0)` → `void` [Setter]
+- `getResetDate()` → `Date` [Getter]
+- `getObservationDate()` → `Date` [Getter]
+- `getCalculationDetails()` → `CalculatedRateDetails` [Getter]
+- `getFloatingRate()` → `BigDecimal` [Getter]
 

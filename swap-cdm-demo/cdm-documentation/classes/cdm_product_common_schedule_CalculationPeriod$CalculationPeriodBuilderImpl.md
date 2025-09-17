@@ -38,35 +38,35 @@
 
 #### Setter Methods
 
-- `CalculationPeriodBuilder setFixedRate(BigDecimal arg0)`
-- `CalculationPeriodBuilder setAdjustedEndDate(Date arg0)`
-- `CalculationPeriodBuilder setAdjustedStartDate(Date arg0)`
-- `CalculationPeriodBuilder setUnadjustedStartDate(Date arg0)`
-- `CalculationPeriodBuilder setNotionalAmount(BigDecimal arg0)`
-- `CalculationPeriodBuilder setUnadjustedEndDate(Date arg0)`
-- `CalculationPeriodBuilder setFloatingRateDefinition(FloatingRateDefinition arg0)`
-- `CalculationPeriodBuilder setForecastAmount(Money arg0)`
+- `CalculationPeriodBuilder setMeta(MetaFields arg0)`
 - `CalculationPeriodBuilder setFxLinkedNotionalAmount(FxLinkedNotionalAmount arg0)`
 - `CalculationPeriodBuilder setForecastRate(BigDecimal arg0)`
+- `CalculationPeriodBuilder setForecastAmount(Money arg0)`
+- `CalculationPeriodBuilder setNotionalAmount(BigDecimal arg0)`
+- `CalculationPeriodBuilder setFloatingRateDefinition(FloatingRateDefinition arg0)`
+- `CalculationPeriodBuilder setUnadjustedEndDate(Date arg0)`
 - `CalculationPeriodBuilder setDayCountYearFraction(BigDecimal arg0)`
+- `CalculationPeriodBuilder setUnadjustedStartDate(Date arg0)`
 - `CalculationPeriodBuilder setCalculationPeriodNumberOfDays(Integer arg0)`
-- `CalculationPeriodBuilder setMeta(MetaFields arg0)`
+- `CalculationPeriodBuilder setAdjustedStartDate(Date arg0)`
+- `CalculationPeriodBuilder setFixedRate(BigDecimal arg0)`
+- `CalculationPeriodBuilder setAdjustedEndDate(Date arg0)`
 
 #### Getter Methods
 
-- `BigDecimal getNotionalAmount()`
-- `BigDecimal getFixedRate()`
-- `BigDecimal getDayCountYearFraction()`
+- `BigDecimal getForecastRate()`
 - `MoneyBuilder getOrCreateForecastAmount()`
+- `Date getUnadjustedEndDate()`
+- `FloatingRateDefinitionBuilder getFloatingRateDefinition()`
+- `BigDecimal getDayCountYearFraction()`
+- `Date getUnadjustedStartDate()`
 - `MoneyBuilder getForecastAmount()`
 - `FxLinkedNotionalAmountBuilder getFxLinkedNotionalAmount()`
-- `FloatingRateDefinitionBuilder getFloatingRateDefinition()`
-- `Date getUnadjustedStartDate()`
-- `Date getUnadjustedEndDate()`
-- `BigDecimal getForecastRate()`
 - `FloatingRateDefinitionBuilder getOrCreateFloatingRateDefinition()`
-- `Integer getCalculationPeriodNumberOfDays()`
 - `FxLinkedNotionalAmountBuilder getOrCreateFxLinkedNotionalAmount()`
+- `Integer getCalculationPeriodNumberOfDays()`
+- `BigDecimal getNotionalAmount()`
+- `BigDecimal getFixedRate()`
 
 #### Other Methods
 
@@ -74,7 +74,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CalculationPeriodBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CalculationPeriodBuilder toBuilder()`
 - `CalculationPeriodBuilder prune()`
+- `CalculationPeriodBuilder toBuilder()`
+- `boolean hasData()`
 

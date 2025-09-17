@@ -16,23 +16,23 @@
 
 #### Setter Methods
 
-- `RateObservationBuilder setForecastRate(BigDecimal arg0)`
-- `RateObservationBuilder setTreatedForecastRate(BigDecimal arg0)`
-- `RateObservationBuilder setObservedRate(BigDecimal arg0)`
-- `RateObservationBuilder setAdjustedFixingDate(Date arg0)`
-- `RateObservationBuilder setTreatedRate(BigDecimal arg0)`
-- `RateObservationBuilder setObservationWeight(Integer arg0)`
-- `RateObservationBuilder setRateReferenceValue(RateObservation arg0)`
-- `RateObservationBuilder setRateReference(ReferenceWithMetaRateObservation arg0)`
 - `RateObservationBuilder setResetDate(Date arg0)`
 - `RateObservationBuilder setMeta(MetaFields arg0)`
+- `RateObservationBuilder setForecastRate(BigDecimal arg0)`
+- `RateObservationBuilder setObservedRate(BigDecimal arg0)`
+- `RateObservationBuilder setObservationWeight(Integer arg0)`
+- `RateObservationBuilder setRateReference(ReferenceWithMetaRateObservation arg0)`
+- `RateObservationBuilder setRateReferenceValue(RateObservation arg0)`
+- `RateObservationBuilder setAdjustedFixingDate(Date arg0)`
+- `RateObservationBuilder setTreatedRate(BigDecimal arg0)`
+- `RateObservationBuilder setTreatedForecastRate(BigDecimal arg0)`
 
 #### Getter Methods
 
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `MetaFieldsBuilder getMeta()`
 - `ReferenceWithMetaRateObservationBuilder getRateReference()`
 - `ReferenceWithMetaRateObservationBuilder getOrCreateRateReference()`
-- `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
 

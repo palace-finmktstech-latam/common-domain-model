@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Boolean getIsIncluded()`
 - `CollateralValuationTreatment getValuationTreatment()`
 - `List getConcentrationLimit()`
+- `Boolean getIsIncluded()`
 
 #### Other Methods
 

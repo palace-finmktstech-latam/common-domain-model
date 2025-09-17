@@ -27,18 +27,18 @@
 #### Setter Methods
 
 - `DividendCurrencyBuilder setCurrency(FieldWithMetaString arg0)`
-- `DividendCurrencyBuilder setDeterminationMethod(DeterminationMethodEnum arg0)`
 - `DividendCurrencyBuilder setCurrencyValue(String arg0)`
+- `DividendCurrencyBuilder setDeterminationMethod(DeterminationMethodEnum arg0)`
 - `DividendCurrencyBuilder setCurrencyReference(ReferenceWithMetaString arg0)`
 - `DividendCurrencyBuilder setCurrencyReferenceValue(String arg0)`
 
 #### Getter Methods
 
 - `FieldWithMetaStringBuilder getCurrency()`
-- `ReferenceWithMetaStringBuilder getOrCreateCurrencyReference()`
 - `DeterminationMethodEnum getDeterminationMethod()`
-- `FieldWithMetaStringBuilder getOrCreateCurrency()`
 - `ReferenceWithMetaStringBuilder getCurrencyReference()`
+- `ReferenceWithMetaStringBuilder getOrCreateCurrencyReference()`
+- `FieldWithMetaStringBuilder getOrCreateCurrency()`
 
 #### Other Methods
 
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DividendCurrencyBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DividendCurrencyBuilder toBuilder()`
 - `DividendCurrencyBuilder prune()`
+- `DividendCurrencyBuilder toBuilder()`
+- `boolean hasData()`
 

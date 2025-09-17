@@ -29,12 +29,12 @@
 
 #### Setter Methods
 
+- `InstrumentBaseBuilder setIdentifier(List arg0)`
+- `InstrumentBaseBuilder setTaxonomy(List arg0)`
+- `InstrumentBaseBuilder setExchange(LegalEntity arg0)`
 - `InstrumentBaseBuilder setIsExchangeListed(Boolean arg0)`
 - `InstrumentBaseBuilder setRelatedExchange(List arg0)`
-- `InstrumentBaseBuilder setExchange(LegalEntity arg0)`
 - `InstrumentBaseBuilder setInstrumentType(InstrumentTypeEnum arg0)`
-- `InstrumentBaseBuilder setTaxonomy(List arg0)`
-- `InstrumentBaseBuilder setIdentifier(List arg0)`
 
 #### Getter Methods
 
@@ -42,15 +42,15 @@
 
 #### Adder Methods
 
-- `InstrumentBaseBuilder addRelatedExchange(LegalEntity arg0)`
-- `InstrumentBaseBuilder addRelatedExchange(List arg0)`
-- `InstrumentBaseBuilder addRelatedExchange(LegalEntity arg0, int arg1)`
+- `InstrumentBaseBuilder addIdentifier(AssetIdentifier arg0)`
+- `InstrumentBaseBuilder addIdentifier(AssetIdentifier arg0, int arg1)`
+- `InstrumentBaseBuilder addIdentifier(List arg0)`
 - `InstrumentBaseBuilder addTaxonomy(List arg0)`
 - `InstrumentBaseBuilder addTaxonomy(Taxonomy arg0, int arg1)`
 - `InstrumentBaseBuilder addTaxonomy(Taxonomy arg0)`
-- `InstrumentBaseBuilder addIdentifier(AssetIdentifier arg0, int arg1)`
-- `InstrumentBaseBuilder addIdentifier(AssetIdentifier arg0)`
-- `InstrumentBaseBuilder addIdentifier(List arg0)`
+- `InstrumentBaseBuilder addRelatedExchange(List arg0)`
+- `InstrumentBaseBuilder addRelatedExchange(LegalEntity arg0)`
+- `InstrumentBaseBuilder addRelatedExchange(LegalEntity arg0, int arg1)`
 
 #### Other Methods
 
@@ -58,7 +58,7 @@
 - `String toString()`
 - `int hashCode()`
 - `InstrumentBaseBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `InstrumentBaseBuilder toBuilder()`
 - `InstrumentBaseBuilder prune()`
+- `InstrumentBaseBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `StrategyFeatureBuilder setStrikeSpread(StrikeSpread arg0)`
 - `StrategyFeatureBuilder setCalendarSpread(CalendarSpread arg0)`
+- `StrategyFeatureBuilder setStrikeSpread(StrikeSpread arg0)`
 
 #### Getter Methods
 
 - `StrikeSpreadBuilder getStrikeSpread()`
 - `CalendarSpreadBuilder getCalendarSpread()`
-- `CalendarSpreadBuilder getOrCreateCalendarSpread()`
 - `StrikeSpreadBuilder getOrCreateStrikeSpread()`
+- `CalendarSpreadBuilder getOrCreateCalendarSpread()`
 
 #### Other Methods
 

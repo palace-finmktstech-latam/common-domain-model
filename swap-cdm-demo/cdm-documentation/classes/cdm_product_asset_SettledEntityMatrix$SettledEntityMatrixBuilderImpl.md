@@ -25,15 +25,15 @@
 
 #### Setter Methods
 
+- `SettledEntityMatrixBuilder setPublicationDate(Date arg0)`
 - `SettledEntityMatrixBuilder setMatrixSource(FieldWithMetaSettledEntityMatrixSourceEnum arg0)`
 - `SettledEntityMatrixBuilder setMatrixSourceValue(SettledEntityMatrixSourceEnum arg0)`
-- `SettledEntityMatrixBuilder setPublicationDate(Date arg0)`
 
 #### Getter Methods
 
+- `Date getPublicationDate()`
 - `FieldWithMetaSettledEntityMatrixSourceEnumBuilder getMatrixSource()`
 - `FieldWithMetaSettledEntityMatrixSourceEnumBuilder getOrCreateMatrixSource()`
-- `Date getPublicationDate()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `SettledEntityMatrixBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `SettledEntityMatrixBuilder toBuilder()`
 - `SettledEntityMatrixBuilder prune()`
+- `SettledEntityMatrixBuilder toBuilder()`
+- `boolean hasData()`
 

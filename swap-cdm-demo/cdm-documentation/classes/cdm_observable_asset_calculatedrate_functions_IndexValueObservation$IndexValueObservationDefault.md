@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `BigDecimal doEvaluate(Date arg0, InterestRateIndex arg1)`
 - `BigDecimal assignOutput(BigDecimal arg0, Date arg1, InterestRateIndex arg2)`
+- `BigDecimal doEvaluate(Date arg0, InterestRateIndex arg1)`
 

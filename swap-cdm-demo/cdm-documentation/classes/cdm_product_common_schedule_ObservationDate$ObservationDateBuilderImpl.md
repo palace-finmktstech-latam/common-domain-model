@@ -28,20 +28,20 @@
 
 #### Setter Methods
 
+- `ObservationDateBuilder setMeta(MetaFields arg0)`
+- `ObservationDateBuilder setObservationReference(String arg0)`
 - `ObservationDateBuilder setUnadjustedDate(Date arg0)`
 - `ObservationDateBuilder setAdjustedDate(Date arg0)`
-- `ObservationDateBuilder setObservationReference(String arg0)`
 - `ObservationDateBuilder setWeight(BigDecimal arg0)`
-- `ObservationDateBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
 - `Date getAdjustedDate()`
 - `Date getUnadjustedDate()`
-- `BigDecimal getWeight()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `String getObservationReference()`
+- `BigDecimal getWeight()`
 - `MetaFieldsBuilder getMeta()`
+- `String getObservationReference()`
 
 #### Other Methods
 
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ObservationDateBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ObservationDateBuilder toBuilder()`
 - `ObservationDateBuilder prune()`
+- `ObservationDateBuilder toBuilder()`
+- `boolean hasData()`
 

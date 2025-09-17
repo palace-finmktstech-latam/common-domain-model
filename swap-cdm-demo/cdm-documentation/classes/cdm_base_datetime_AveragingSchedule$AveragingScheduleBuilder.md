@@ -15,14 +15,14 @@
 
 #### Setter Methods
 
-- `AveragingScheduleBuilder setStartDate(Date arg0)`
 - `AveragingScheduleBuilder setEndDate(Date arg0)`
+- `AveragingScheduleBuilder setStartDate(Date arg0)`
 - `AveragingScheduleBuilder setAveragingPeriodFrequency(CalculationPeriodFrequency arg0)`
 
 #### Getter Methods
 
-- `CalculationPeriodFrequencyBuilder getOrCreateAveragingPeriodFrequency()`
 - `CalculationPeriodFrequencyBuilder getAveragingPeriodFrequency()`
+- `CalculationPeriodFrequencyBuilder getOrCreateAveragingPeriodFrequency()`
 
 #### Other Methods
 

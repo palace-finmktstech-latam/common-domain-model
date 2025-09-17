@@ -28,23 +28,23 @@
 #### Setter Methods
 
 - `WorkflowStateBuilder setComment(String arg0)`
-- `WorkflowStateBuilder setWorkflowStatus(WorkflowStatusEnum arg0)`
-- `WorkflowStateBuilder setWarehouseIdentity(WarehouseIdentityEnum arg0)`
 - `WorkflowStateBuilder setPartyCustomisedWorkflow(List arg0)`
+- `WorkflowStateBuilder setWarehouseIdentity(WarehouseIdentityEnum arg0)`
+- `WorkflowStateBuilder setWorkflowStatus(WorkflowStatusEnum arg0)`
 
 #### Getter Methods
 
 - `String getComment()`
 - `List getPartyCustomisedWorkflow()`
-- `WarehouseIdentityEnum getWarehouseIdentity()`
 - `WorkflowStatusEnum getWorkflowStatus()`
+- `WarehouseIdentityEnum getWarehouseIdentity()`
 - `PartyCustomisedWorkflowBuilder getOrCreatePartyCustomisedWorkflow(int arg0)`
 
 #### Adder Methods
 
-- `WorkflowStateBuilder addPartyCustomisedWorkflow(PartyCustomisedWorkflow arg0)`
 - `WorkflowStateBuilder addPartyCustomisedWorkflow(List arg0)`
 - `WorkflowStateBuilder addPartyCustomisedWorkflow(PartyCustomisedWorkflow arg0, int arg1)`
+- `WorkflowStateBuilder addPartyCustomisedWorkflow(PartyCustomisedWorkflow arg0)`
 
 #### Other Methods
 
@@ -52,7 +52,7 @@
 - `String toString()`
 - `int hashCode()`
 - `WorkflowStateBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `WorkflowStateBuilder toBuilder()`
 - `WorkflowStateBuilder prune()`
+- `WorkflowStateBuilder toBuilder()`
+- `boolean hasData()`
 

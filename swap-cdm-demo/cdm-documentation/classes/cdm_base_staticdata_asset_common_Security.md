@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
+- `DebtType getDebtType()`
 - `EquityTypeEnum getEquityType()`
 - `FundProductTypeEnum getFundType()`
-- `DebtType getDebtType()`
 
 #### Other Methods
 

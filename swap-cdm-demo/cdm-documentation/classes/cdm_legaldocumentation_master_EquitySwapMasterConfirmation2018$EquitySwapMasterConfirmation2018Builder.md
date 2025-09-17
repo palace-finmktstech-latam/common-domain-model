@@ -15,21 +15,21 @@
 
 #### Setter Methods
 
-- `EquitySwapMasterConfirmation2018Builder setValuationDates(ValuationDates arg0)`
 - `EquitySwapMasterConfirmation2018Builder setSettlementTerms(SettlementTerms arg0)`
+- `EquitySwapMasterConfirmation2018Builder setValuationDates(ValuationDates arg0)`
 - `EquitySwapMasterConfirmation2018Builder setTypeOfSwapElection(ReturnTypeEnum arg0)`
 - `EquitySwapMasterConfirmation2018Builder setPricingMethodElection(PriceReturnTerms arg0)`
-- `EquitySwapMasterConfirmation2018Builder setLinearInterpolationElection(InterpolationMethodEnum arg0)`
 - `EquitySwapMasterConfirmation2018Builder setEquityCashSettlementDates(PaymentDates arg0)`
+- `EquitySwapMasterConfirmation2018Builder setLinearInterpolationElection(InterpolationMethodEnum arg0)`
 
 #### Getter Methods
 
-- `PriceReturnTermsBuilder getPricingMethodElection()`
-- `SettlementTermsBuilder getOrCreateSettlementTerms()`
 - `ValuationDatesBuilder getValuationDates()`
 - `ValuationDatesBuilder getOrCreateValuationDates()`
+- `SettlementTermsBuilder getOrCreateSettlementTerms()`
 - `PaymentDatesBuilder getEquityCashSettlementDates()`
 - `SettlementTermsBuilder getSettlementTerms()`
+- `PriceReturnTermsBuilder getPricingMethodElection()`
 - `PriceReturnTermsBuilder getOrCreatePricingMethodElection()`
 - `PaymentDatesBuilder getOrCreateEquityCashSettlementDates()`
 

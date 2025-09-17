@@ -21,8 +21,8 @@
 - `String getValue()`
 - `Class getType()`
 - `String getClassName()`
-- `Integer getOrdinal()`
 - `String getDescription()`
+- `Integer getOrdinal()`
 
 #### Other Methods
 

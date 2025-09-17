@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaObservationBuilder setValue(Observation arg0)`
-- `ReferenceWithMetaObservationBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaObservationBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaObservationBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaObservationBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaObservationBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaObservationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaObservationBuilder toBuilder()`
 - `ReferenceWithMetaObservationBuilder prune()`
+- `ReferenceWithMetaObservationBuilder toBuilder()`
+- `boolean hasData()`
 

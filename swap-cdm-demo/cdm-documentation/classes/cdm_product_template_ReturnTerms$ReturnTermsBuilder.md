@@ -15,24 +15,24 @@
 
 #### Setter Methods
 
-- `ReturnTermsBuilder setVarianceReturnTerms(VarianceReturnTerms arg0)`
-- `ReturnTermsBuilder setVolatilityReturnTerms(VolatilityReturnTerms arg0)`
-- `ReturnTermsBuilder setDividendReturnTerms(DividendReturnTerms arg0)`
 - `ReturnTermsBuilder setPriceReturnTerms(PriceReturnTerms arg0)`
+- `ReturnTermsBuilder setVarianceReturnTerms(VarianceReturnTerms arg0)`
+- `ReturnTermsBuilder setDividendReturnTerms(DividendReturnTerms arg0)`
+- `ReturnTermsBuilder setVolatilityReturnTerms(VolatilityReturnTerms arg0)`
 - `ReturnTermsBuilder setCorrelationReturnTerms(CorrelationReturnTerms arg0)`
 
 #### Getter Methods
 
-- `CorrelationReturnTermsBuilder getCorrelationReturnTerms()`
-- `VarianceReturnTermsBuilder getVarianceReturnTerms()`
+- `PriceReturnTermsBuilder getOrCreatePriceReturnTerms()`
+- `VarianceReturnTermsBuilder getOrCreateVarianceReturnTerms()`
+- `CorrelationReturnTermsBuilder getOrCreateCorrelationReturnTerms()`
+- `VolatilityReturnTermsBuilder getOrCreateVolatilityReturnTerms()`
+- `DividendReturnTermsBuilder getOrCreateDividendReturnTerms()`
+- `PriceReturnTermsBuilder getPriceReturnTerms()`
 - `VolatilityReturnTermsBuilder getVolatilityReturnTerms()`
 - `DividendReturnTermsBuilder getDividendReturnTerms()`
-- `PriceReturnTermsBuilder getPriceReturnTerms()`
-- `DividendReturnTermsBuilder getOrCreateDividendReturnTerms()`
-- `VarianceReturnTermsBuilder getOrCreateVarianceReturnTerms()`
-- `VolatilityReturnTermsBuilder getOrCreateVolatilityReturnTerms()`
-- `CorrelationReturnTermsBuilder getOrCreateCorrelationReturnTerms()`
-- `PriceReturnTermsBuilder getOrCreatePriceReturnTerms()`
+- `CorrelationReturnTermsBuilder getCorrelationReturnTerms()`
+- `VarianceReturnTermsBuilder getVarianceReturnTerms()`
 
 #### Other Methods
 

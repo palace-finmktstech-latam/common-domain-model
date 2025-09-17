@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `MoneyBound getLowerBound()`
 - `MoneyBound getUpperBound()`
+- `MoneyBound getLowerBound()`
 
 #### Other Methods
 

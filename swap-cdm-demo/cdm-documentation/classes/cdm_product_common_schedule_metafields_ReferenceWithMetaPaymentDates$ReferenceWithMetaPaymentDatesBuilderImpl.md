@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaPaymentDatesBuilder setValue(PaymentDates arg0)`
-- `ReferenceWithMetaPaymentDatesBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaPaymentDatesBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaPaymentDatesBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaPaymentDatesBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaPaymentDatesBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaPaymentDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaPaymentDatesBuilder toBuilder()`
 - `ReferenceWithMetaPaymentDatesBuilder prune()`
+- `ReferenceWithMetaPaymentDatesBuilder toBuilder()`
+- `boolean hasData()`
 

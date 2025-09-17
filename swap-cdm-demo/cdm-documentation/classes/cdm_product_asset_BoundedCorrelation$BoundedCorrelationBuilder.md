@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `BoundedCorrelationBuilder setMinimumBoundaryPercent(BigDecimal arg0)`
 - `BoundedCorrelationBuilder setMaximumBoundaryPercent(BigDecimal arg0)`
+- `BoundedCorrelationBuilder setMinimumBoundaryPercent(BigDecimal arg0)`
 
 #### Other Methods
 

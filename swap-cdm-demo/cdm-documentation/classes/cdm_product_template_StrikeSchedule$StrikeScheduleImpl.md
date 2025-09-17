@@ -27,8 +27,8 @@
 
 #### Getter Methods
 
-- `PayerReceiverEnum getSeller()`
 - `PayerReceiverEnum getBuyer()`
+- `PayerReceiverEnum getSeller()`
 
 #### Other Methods
 

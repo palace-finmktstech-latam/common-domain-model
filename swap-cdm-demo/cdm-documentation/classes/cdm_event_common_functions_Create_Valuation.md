@@ -21,8 +21,8 @@
 #### Other Methods
 
 - `TradeState evaluate(ValuationInstruction arg0, TradeState arg1)`
-- `TradeStateBuilder doEvaluate(ValuationInstruction arg0, TradeState arg1)`
 - `MapperC beforeValuationHistory(ValuationInstruction arg0, TradeState arg1)`
+- `TradeStateBuilder doEvaluate(ValuationInstruction arg0, TradeState arg1)`
 
 ### Annotations
 

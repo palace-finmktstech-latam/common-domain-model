@@ -21,10 +21,10 @@
 
 #### Getter Methods
 
-- `ParametricDatesBuilder getOrCreateParametricDates()`
-- `ObservationScheduleBuilder getObservationSchedule()`
 - `PeriodicDatesBuilder getPeriodicSchedule()`
+- `ObservationScheduleBuilder getObservationSchedule()`
 - `ParametricDatesBuilder getParametricDates()`
+- `ParametricDatesBuilder getOrCreateParametricDates()`
 - `PeriodicDatesBuilder getOrCreatePeriodicSchedule()`
 - `ObservationScheduleBuilder getOrCreateObservationSchedule()`
 

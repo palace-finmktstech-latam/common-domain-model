@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `Money getAggregateValue()`
+- `ReferenceWithMetaPortfolioState getTradePortfolio()`
 - `ZonedDateTime getValuationDateTime()`
 - `ZonedDateTime getCalculationDateTime()`
-- `ReferenceWithMetaPortfolioState getTradePortfolio()`
+- `Money getAggregateValue()`
 
 #### Other Methods
 

@@ -34,38 +34,38 @@
 
 #### Setter Methods
 
-- `VarianceReturnTermsBuilder setSharePriceDividendAdjustment(Boolean arg0)`
-- `VarianceReturnTermsBuilder setEquityUnderlierProvisions(EquityUnderlierProvisions arg0)`
-- `VarianceReturnTermsBuilder setExchangeTradedContractNearest(ReferenceWithMetaObservable arg0)`
-- `VarianceReturnTermsBuilder setExchangeTradedContractNearestValue(Observable arg0)`
-- `VarianceReturnTermsBuilder setValuationTerms(ValuationTerms arg0)`
+- `VarianceReturnTermsBuilder setVolatilityStrikePrice(Price arg0)`
 - `VarianceReturnTermsBuilder setInitialLevel(BigDecimal arg0)`
-- `VarianceReturnTermsBuilder setDividendApplicability(DividendApplicability arg0)`
 - `VarianceReturnTermsBuilder setMeanAdjustment(Boolean arg0)`
+- `VarianceReturnTermsBuilder setVolatilityCapFloor(VolatilityCapFloor arg0)`
+- `VarianceReturnTermsBuilder setVegaNotionalAmount(NonNegativeQuantitySchedule arg0)`
+- `VarianceReturnTermsBuilder setValuationTerms(ValuationTerms arg0)`
+- `VarianceReturnTermsBuilder setAnnualizationFactor(Integer arg0)`
 - `VarianceReturnTermsBuilder setExpectedN(Integer arg0)`
+- `VarianceReturnTermsBuilder setDividendApplicability(DividendApplicability arg0)`
 - `VarianceReturnTermsBuilder setVarianceStrikePrice(Price arg0)`
 - `VarianceReturnTermsBuilder setInitialLevelSource(DeterminationMethodEnum arg0)`
-- `VarianceReturnTermsBuilder setPerformance(String arg0)`
-- `VarianceReturnTermsBuilder setVolatilityStrikePrice(Price arg0)`
 - `VarianceReturnTermsBuilder setVarianceCapFloor(VarianceCapFloor arg0)`
-- `VarianceReturnTermsBuilder setAnnualizationFactor(Integer arg0)`
-- `VarianceReturnTermsBuilder setVegaNotionalAmount(NonNegativeQuantitySchedule arg0)`
-- `VarianceReturnTermsBuilder setVolatilityCapFloor(VolatilityCapFloor arg0)`
+- `VarianceReturnTermsBuilder setPerformance(String arg0)`
+- `VarianceReturnTermsBuilder setSharePriceDividendAdjustment(Boolean arg0)`
+- `VarianceReturnTermsBuilder setEquityUnderlierProvisions(EquityUnderlierProvisions arg0)`
+- `VarianceReturnTermsBuilder setExchangeTradedContractNearestValue(Observable arg0)`
+- `VarianceReturnTermsBuilder setExchangeTradedContractNearest(ReferenceWithMetaObservable arg0)`
 
 #### Getter Methods
 
-- `PriceBuilder getOrCreateVarianceStrikePrice()`
-- `PriceBuilder getOrCreateVolatilityStrikePrice()`
-- `VarianceCapFloorBuilder getOrCreateVarianceCapFloor()`
-- `VolatilityCapFloorBuilder getOrCreateVolatilityCapFloor()`
-- `ReferenceWithMetaObservableBuilder getOrCreateExchangeTradedContractNearest()`
-- `NonNegativeQuantityScheduleBuilder getOrCreateVegaNotionalAmount()`
-- `VarianceCapFloorBuilder getVarianceCapFloor()`
 - `VolatilityCapFloorBuilder getVolatilityCapFloor()`
-- `PriceBuilder getVarianceStrikePrice()`
-- `NonNegativeQuantityScheduleBuilder getVegaNotionalAmount()`
 - `PriceBuilder getVolatilityStrikePrice()`
+- `PriceBuilder getVarianceStrikePrice()`
+- `VarianceCapFloorBuilder getVarianceCapFloor()`
+- `NonNegativeQuantityScheduleBuilder getVegaNotionalAmount()`
 - `ReferenceWithMetaObservableBuilder getExchangeTradedContractNearest()`
+- `PriceBuilder getOrCreateVolatilityStrikePrice()`
+- `PriceBuilder getOrCreateVarianceStrikePrice()`
+- `NonNegativeQuantityScheduleBuilder getOrCreateVegaNotionalAmount()`
+- `VarianceCapFloorBuilder getOrCreateVarianceCapFloor()`
+- `ReferenceWithMetaObservableBuilder getOrCreateExchangeTradedContractNearest()`
+- `VolatilityCapFloorBuilder getOrCreateVolatilityCapFloor()`
 
 #### Other Methods
 
@@ -73,7 +73,7 @@
 - `String toString()`
 - `int hashCode()`
 - `VarianceReturnTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `VarianceReturnTermsBuilder toBuilder()`
 - `VarianceReturnTermsBuilder prune()`
+- `VarianceReturnTermsBuilder toBuilder()`
+- `boolean hasData()`
 

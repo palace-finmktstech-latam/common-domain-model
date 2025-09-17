@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaAdjustableOrRelativeDatesBuilder setValue(AdjustableOrRelativeDates arg0)`
-- `ReferenceWithMetaAdjustableOrRelativeDatesBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaAdjustableOrRelativeDatesBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaAdjustableOrRelativeDatesBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaAdjustableOrRelativeDatesBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaAdjustableOrRelativeDatesBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaAdjustableOrRelativeDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaAdjustableOrRelativeDatesBuilder toBuilder()`
 - `ReferenceWithMetaAdjustableOrRelativeDatesBuilder prune()`
+- `ReferenceWithMetaAdjustableOrRelativeDatesBuilder toBuilder()`
+- `boolean hasData()`
 

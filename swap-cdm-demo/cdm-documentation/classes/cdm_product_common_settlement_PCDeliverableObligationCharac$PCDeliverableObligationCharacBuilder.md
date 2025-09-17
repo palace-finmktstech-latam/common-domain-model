@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `PCDeliverableObligationCharacBuilder setPartialCashSettlement(Boolean arg0)`
 - `PCDeliverableObligationCharacBuilder setApplicable(Boolean arg0)`
+- `PCDeliverableObligationCharacBuilder setPartialCashSettlement(Boolean arg0)`
 
 #### Other Methods
 

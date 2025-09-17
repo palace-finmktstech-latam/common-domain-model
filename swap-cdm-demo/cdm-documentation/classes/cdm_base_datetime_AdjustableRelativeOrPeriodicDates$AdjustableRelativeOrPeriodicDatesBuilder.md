@@ -16,21 +16,21 @@
 
 #### Setter Methods
 
-- `AdjustableRelativeOrPeriodicDatesBuilder setAdjustableDates(AdjustableDates arg0)`
-- `AdjustableRelativeOrPeriodicDatesBuilder setPeriodicDates(PeriodicDates arg0)`
-- `AdjustableRelativeOrPeriodicDatesBuilder setRelativeDates(RelativeDates arg0)`
 - `AdjustableRelativeOrPeriodicDatesBuilder setMeta(MetaFields arg0)`
+- `AdjustableRelativeOrPeriodicDatesBuilder setRelativeDates(RelativeDates arg0)`
+- `AdjustableRelativeOrPeriodicDatesBuilder setPeriodicDates(PeriodicDates arg0)`
+- `AdjustableRelativeOrPeriodicDatesBuilder setAdjustableDates(AdjustableDates arg0)`
 
 #### Getter Methods
 
+- `MetaFieldsBuilder getOrCreateMeta()`
+- `MetaFieldsBuilder getMeta()`
+- `PeriodicDatesBuilder getOrCreatePeriodicDates()`
+- `AdjustableDatesBuilder getOrCreateAdjustableDates()`
+- `RelativeDatesBuilder getOrCreateRelativeDates()`
 - `AdjustableDatesBuilder getAdjustableDates()`
 - `PeriodicDatesBuilder getPeriodicDates()`
 - `RelativeDatesBuilder getRelativeDates()`
-- `MetaFieldsBuilder getOrCreateMeta()`
-- `AdjustableDatesBuilder getOrCreateAdjustableDates()`
-- `RelativeDatesBuilder getOrCreateRelativeDates()`
-- `PeriodicDatesBuilder getOrCreatePeriodicDates()`
-- `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
 

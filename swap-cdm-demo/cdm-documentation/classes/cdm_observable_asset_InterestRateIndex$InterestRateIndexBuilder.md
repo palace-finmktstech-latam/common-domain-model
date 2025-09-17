@@ -21,8 +21,8 @@
 #### Getter Methods
 
 - `InflationIndexBuilder getOrCreateInflationIndex()`
-- `FloatingRateIndexBuilder getFloatingRateIndex()`
 - `InflationIndexBuilder getInflationIndex()`
+- `FloatingRateIndexBuilder getFloatingRateIndex()`
 - `FloatingRateIndexBuilder getOrCreateFloatingRateIndex()`
 
 #### Other Methods

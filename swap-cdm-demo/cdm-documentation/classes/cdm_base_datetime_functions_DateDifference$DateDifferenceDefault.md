@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Integer doEvaluate(Date arg0, Date arg1)`
 - `Integer assignOutput(Integer arg0, Date arg1, Date arg2)`
+- `Integer doEvaluate(Date arg0, Date arg1)`
 

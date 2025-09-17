@@ -25,8 +25,8 @@
 #### Adder Methods
 
 - `MasterAgreementScheduleBuilder addClause(List arg0)`
-- `MasterAgreementScheduleBuilder addClause(MasterAgreementClause arg0, int arg1)`
 - `MasterAgreementScheduleBuilder addClause(MasterAgreementClause arg0)`
+- `MasterAgreementScheduleBuilder addClause(MasterAgreementClause arg0, int arg1)`
 
 #### Other Methods
 

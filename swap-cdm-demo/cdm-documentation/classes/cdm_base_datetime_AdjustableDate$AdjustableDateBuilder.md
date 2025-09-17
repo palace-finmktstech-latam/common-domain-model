@@ -16,24 +16,24 @@
 
 #### Setter Methods
 
+- `AdjustableDateBuilder setMeta(MetaFields arg0)`
 - `AdjustableDateBuilder setUnadjustedDate(Date arg0)`
 - `AdjustableDateBuilder setAdjustedDate(FieldWithMetaDate arg0)`
 - `AdjustableDateBuilder setDateAdjustments(BusinessDayAdjustments arg0)`
 - `AdjustableDateBuilder setAdjustedDateValue(Date arg0)`
 - `AdjustableDateBuilder setDateAdjustmentsReference(ReferenceWithMetaBusinessDayAdjustments arg0)`
 - `AdjustableDateBuilder setDateAdjustmentsReferenceValue(BusinessDayAdjustments arg0)`
-- `AdjustableDateBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
-- `BusinessDayAdjustmentsBuilder getOrCreateDateAdjustments()`
 - `FieldWithMetaDateBuilder getAdjustedDate()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `FieldWithMetaDateBuilder getOrCreateAdjustedDate()`
-- `ReferenceWithMetaBusinessDayAdjustmentsBuilder getOrCreateDateAdjustmentsReference()`
-- `ReferenceWithMetaBusinessDayAdjustmentsBuilder getDateAdjustmentsReference()`
-- `BusinessDayAdjustmentsBuilder getDateAdjustments()`
 - `MetaFieldsBuilder getMeta()`
+- `BusinessDayAdjustmentsBuilder getOrCreateDateAdjustments()`
+- `FieldWithMetaDateBuilder getOrCreateAdjustedDate()`
+- `BusinessDayAdjustmentsBuilder getDateAdjustments()`
+- `ReferenceWithMetaBusinessDayAdjustmentsBuilder getDateAdjustmentsReference()`
+- `ReferenceWithMetaBusinessDayAdjustmentsBuilder getOrCreateDateAdjustmentsReference()`
 
 #### Other Methods
 

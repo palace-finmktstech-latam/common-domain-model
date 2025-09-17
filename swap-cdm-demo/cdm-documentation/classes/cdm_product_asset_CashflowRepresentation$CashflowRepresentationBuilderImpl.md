@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CashflowRepresentationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CashflowRepresentationBuilder toBuilder()`
 - `CashflowRepresentationBuilder prune()`
+- `CashflowRepresentationBuilder toBuilder()`
+- `boolean hasData()`
 

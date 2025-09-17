@@ -22,20 +22,20 @@
 
 #### Getter Methods
 
-- `ReferenceWithMetaCollateralPortfolio getCollateralPortfolio()`
-- `RegIMRoleEnum getRegIMRole()`
-- `MarginCallExposure getBaseCurrencyExposure()`
-- `Party getClearingBroker()`
-- `AgreementName getCallAgreementType()`
-- `Money getAgreementThreshold()`
-- `Money getAgreementRounding()`
-- `RegMarginTypeEnum getRegMarginType()`
-- `Identifier getCallIdentifier()`
-- `MarginCallInstructionType getInstructionType()`
 - `List getPartyRole()`
-- `List getParty()`
-- `Money getAgreementMinimumTransferAmount()`
 - `CollateralBalance getIndependentAmountBalance()`
+- `Money getAgreementMinimumTransferAmount()`
+- `List getParty()`
+- `RegMarginTypeEnum getRegMarginType()`
+- `Party getClearingBroker()`
+- `Identifier getCallIdentifier()`
+- `RegIMRoleEnum getRegIMRole()`
+- `Money getAgreementRounding()`
+- `MarginCallInstructionType getInstructionType()`
+- `Money getAgreementThreshold()`
+- `MarginCallExposure getBaseCurrencyExposure()`
+- `ReferenceWithMetaCollateralPortfolio getCollateralPortfolio()`
+- `AgreementName getCallAgreementType()`
 
 #### Other Methods
 

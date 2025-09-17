@@ -25,8 +25,8 @@
 
 #### Setter Methods
 
-- `ConstituentWeightBuilder setOpenUnits(BigDecimal arg0)`
 - `ConstituentWeightBuilder setBasketPercentage(BigDecimal arg0)`
+- `ConstituentWeightBuilder setOpenUnits(BigDecimal arg0)`
 
 #### Getter Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ConstituentWeightBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ConstituentWeightBuilder toBuilder()`
 - `ConstituentWeightBuilder prune()`
+- `ConstituentWeightBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -15,9 +15,9 @@
 
 #### Setter Methods
 
+- `CashPriceBuilder setFeeType(FeeTypeEnum arg0)`
 - `CashPriceBuilder setCashPriceType(CashPriceTypeEnum arg0)`
 - `CashPriceBuilder setPremiumExpression(PremiumExpression arg0)`
-- `CashPriceBuilder setFeeType(FeeTypeEnum arg0)`
 
 #### Getter Methods
 

@@ -22,11 +22,11 @@
 
 #### Getter Methods
 
-- `Integer getMthToDefault()`
-- `Integer getNthToDefault()`
-- `ReferencePool getReferencePool()`
 - `FieldWithMetaString getBasketName()`
 - `List getBasketId()`
+- `ReferencePool getReferencePool()`
+- `Integer getNthToDefault()`
+- `Integer getMthToDefault()`
 - `Tranche getTranche()`
 
 #### Other Methods

@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `KnockBuilder setKnockOut(TriggerEvent arg0)`
 - `KnockBuilder setKnockIn(TriggerEvent arg0)`
+- `KnockBuilder setKnockOut(TriggerEvent arg0)`
 
 #### Getter Methods
 
-- `TriggerEventBuilder getKnockIn()`
-- `TriggerEventBuilder getOrCreateKnockOut()`
-- `TriggerEventBuilder getOrCreateKnockIn()`
 - `TriggerEventBuilder getKnockOut()`
+- `TriggerEventBuilder getKnockIn()`
+- `TriggerEventBuilder getOrCreateKnockIn()`
+- `TriggerEventBuilder getOrCreateKnockOut()`
 
 #### Other Methods
 

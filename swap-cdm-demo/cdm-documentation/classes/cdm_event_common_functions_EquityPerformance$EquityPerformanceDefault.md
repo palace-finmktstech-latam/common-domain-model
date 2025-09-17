@@ -15,12 +15,12 @@
 
 #### Other Methods
 
-- `BigDecimal doEvaluate(Trade arg0, Price arg1, Date arg2)`
 - `BigDecimal assignOutput(BigDecimal arg0, Trade arg1, Price arg2, Date arg3)`
-- `MapperS notionalAmount(Trade arg0, Price arg1, Date arg2)`
-- `MapperS rateOfReturn1(Trade arg0, Price arg1, Date arg2)`
-- `MapperS periodStartPrice(Trade arg0, Price arg1, Date arg2)`
-- `MapperS periodEndPrice(Trade arg0, Price arg1, Date arg2)`
 - `MapperS performancePayout(Trade arg0, Price arg1, Date arg2)`
 - `MapperS numberOfSecurities(Trade arg0, Price arg1, Date arg2)`
+- `BigDecimal doEvaluate(Trade arg0, Price arg1, Date arg2)`
+- `MapperS periodEndPrice(Trade arg0, Price arg1, Date arg2)`
+- `MapperS rateOfReturn1(Trade arg0, Price arg1, Date arg2)`
+- `MapperS periodStartPrice(Trade arg0, Price arg1, Date arg2)`
+- `MapperS notionalAmount(Trade arg0, Price arg1, Date arg2)`
 

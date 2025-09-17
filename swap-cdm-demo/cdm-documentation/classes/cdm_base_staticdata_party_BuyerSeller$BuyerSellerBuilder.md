@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `BuyerSellerBuilder setSeller(CounterpartyRoleEnum arg0)`
 - `BuyerSellerBuilder setBuyer(CounterpartyRoleEnum arg0)`
+- `BuyerSellerBuilder setSeller(CounterpartyRoleEnum arg0)`
 
 #### Other Methods
 

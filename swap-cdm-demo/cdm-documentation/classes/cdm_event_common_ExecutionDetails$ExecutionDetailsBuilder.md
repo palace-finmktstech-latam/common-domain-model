@@ -16,16 +16,16 @@
 
 #### Setter Methods
 
-- `ExecutionDetailsBuilder setExecutionType(ExecutionTypeEnum arg0)`
-- `ExecutionDetailsBuilder setExecutionVenue(LegalEntity arg0)`
 - `ExecutionDetailsBuilder setPackageReference(IdentifiedList arg0)`
+- `ExecutionDetailsBuilder setExecutionVenue(LegalEntity arg0)`
+- `ExecutionDetailsBuilder setExecutionType(ExecutionTypeEnum arg0)`
 - `ExecutionDetailsBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
+- `MetaFieldsBuilder getOrCreateMeta()`
 - `IdentifiedListBuilder getPackageReference()`
 - `LegalEntityBuilder getExecutionVenue()`
-- `MetaFieldsBuilder getOrCreateMeta()`
 - `LegalEntityBuilder getOrCreateExecutionVenue()`
 - `IdentifiedListBuilder getOrCreatePackageReference()`
 - `MetaFieldsBuilder getMeta()`

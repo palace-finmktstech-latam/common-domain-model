@@ -15,18 +15,18 @@
 
 #### Setter Methods
 
-- `ExposureBuilder setAggregateValue(Money arg0)`
 - `ExposureBuilder setCalculationDateTime(ZonedDateTime arg0)`
-- `ExposureBuilder setTradePortfolio(ReferenceWithMetaPortfolioState arg0)`
 - `ExposureBuilder setValuationDateTime(ZonedDateTime arg0)`
 - `ExposureBuilder setTradePortfolioValue(PortfolioState arg0)`
+- `ExposureBuilder setTradePortfolio(ReferenceWithMetaPortfolioState arg0)`
+- `ExposureBuilder setAggregateValue(Money arg0)`
 
 #### Getter Methods
 
-- `MoneyBuilder getAggregateValue()`
 - `ReferenceWithMetaPortfolioStateBuilder getTradePortfolio()`
-- `MoneyBuilder getOrCreateAggregateValue()`
+- `MoneyBuilder getAggregateValue()`
 - `ReferenceWithMetaPortfolioStateBuilder getOrCreateTradePortfolio()`
+- `MoneyBuilder getOrCreateAggregateValue()`
 
 #### Other Methods
 

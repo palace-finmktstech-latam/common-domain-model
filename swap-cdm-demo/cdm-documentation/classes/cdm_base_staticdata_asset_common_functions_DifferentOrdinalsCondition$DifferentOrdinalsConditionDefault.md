@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Boolean doEvaluate(Taxonomy arg0)`
 - `Boolean assignOutput(Boolean arg0, Taxonomy arg1)`
+- `Boolean doEvaluate(Taxonomy arg0)`
 

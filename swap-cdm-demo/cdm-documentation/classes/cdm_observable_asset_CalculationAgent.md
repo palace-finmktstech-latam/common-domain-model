@@ -20,8 +20,8 @@
 
 - `Class getType()`
 - `AncillaryRoleEnum getCalculationAgentParty()`
-- `FieldWithMetaBusinessCenterEnum getCalculationAgentBusinessCenter()`
 - `PartyDeterminationEnum getCalculationAgentPartyEnum()`
+- `FieldWithMetaBusinessCenterEnum getCalculationAgentBusinessCenter()`
 
 #### Other Methods
 

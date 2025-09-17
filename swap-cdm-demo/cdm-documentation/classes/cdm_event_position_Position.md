@@ -20,8 +20,8 @@
 
 - `Class getType()`
 - `List getPriceQuantity()`
-- `ReferenceWithMetaTradeState getTradeReference()`
 - `Money getCashBalance()`
+- `ReferenceWithMetaTradeState getTradeReference()`
 - `Product getProduct()`
 
 #### Other Methods

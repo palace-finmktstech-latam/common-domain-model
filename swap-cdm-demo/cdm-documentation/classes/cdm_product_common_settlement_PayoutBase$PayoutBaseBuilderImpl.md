@@ -27,20 +27,20 @@
 
 #### Setter Methods
 
-- `PayoutBaseBuilder setPrincipalPayment(PrincipalPayments arg0)`
 - `PayoutBaseBuilder setPayerReceiver(PayerReceiver arg0)`
-- `PayoutBaseBuilder setSettlementTerms(SettlementTerms arg0)`
 - `PayoutBaseBuilder setPriceQuantity(ResolvablePriceQuantity arg0)`
+- `PayoutBaseBuilder setSettlementTerms(SettlementTerms arg0)`
+- `PayoutBaseBuilder setPrincipalPayment(PrincipalPayments arg0)`
 
 #### Getter Methods
 
-- `ResolvablePriceQuantityBuilder getPriceQuantity()`
-- `SettlementTermsBuilder getOrCreateSettlementTerms()`
-- `PrincipalPaymentsBuilder getPrincipalPayment()`
-- `PayerReceiverBuilder getPayerReceiver()`
 - `PayerReceiverBuilder getOrCreatePayerReceiver()`
-- `PrincipalPaymentsBuilder getOrCreatePrincipalPayment()`
+- `PayerReceiverBuilder getPayerReceiver()`
+- `ResolvablePriceQuantityBuilder getPriceQuantity()`
 - `ResolvablePriceQuantityBuilder getOrCreatePriceQuantity()`
+- `PrincipalPaymentsBuilder getPrincipalPayment()`
+- `SettlementTermsBuilder getOrCreateSettlementTerms()`
+- `PrincipalPaymentsBuilder getOrCreatePrincipalPayment()`
 - `SettlementTermsBuilder getSettlementTerms()`
 
 #### Other Methods
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PayoutBaseBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PayoutBaseBuilder toBuilder()`
 - `PayoutBaseBuilder prune()`
+- `PayoutBaseBuilder toBuilder()`
+- `boolean hasData()`
 

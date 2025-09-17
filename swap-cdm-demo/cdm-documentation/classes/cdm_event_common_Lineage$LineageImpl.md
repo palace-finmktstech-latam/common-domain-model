@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `List getTradeReference()`
-- `List getPortfolioStateReference()`
 - `List getEventReference()`
+- `List getPortfolioStateReference()`
 
 #### Other Methods
 

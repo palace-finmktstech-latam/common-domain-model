@@ -27,19 +27,19 @@
 
 #### Setter Methods
 
-- `AsianBuilder setAveragingPeriodIn(AveragingPeriod arg0)`
 - `AsianBuilder setAveragingInOut(AveragingInOutEnum arg0)`
-- `AsianBuilder setAveragingPeriodOut(AveragingPeriod arg0)`
+- `AsianBuilder setAveragingPeriodIn(AveragingPeriod arg0)`
 - `AsianBuilder setStrikeFactor(BigDecimal arg0)`
+- `AsianBuilder setAveragingPeriodOut(AveragingPeriod arg0)`
 
 #### Getter Methods
 
-- `AveragingPeriodBuilder getOrCreateAveragingPeriodIn()`
-- `AveragingPeriodBuilder getOrCreateAveragingPeriodOut()`
-- `BigDecimal getStrikeFactor()`
 - `AveragingPeriodBuilder getAveragingPeriodOut()`
 - `AveragingInOutEnum getAveragingInOut()`
+- `BigDecimal getStrikeFactor()`
 - `AveragingPeriodBuilder getAveragingPeriodIn()`
+- `AveragingPeriodBuilder getOrCreateAveragingPeriodIn()`
+- `AveragingPeriodBuilder getOrCreateAveragingPeriodOut()`
 
 #### Other Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AsianBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AsianBuilder toBuilder()`
 - `AsianBuilder prune()`
+- `AsianBuilder toBuilder()`
+- `boolean hasData()`
 

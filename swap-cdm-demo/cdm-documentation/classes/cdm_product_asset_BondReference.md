@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Boolean getDiscrepancyClause()`
 - `Boolean getConditionPrecedentBond()`
+- `Boolean getDiscrepancyClause()`
 - `FixedRateSpecification getCouponRate()`
 - `Security getBond()`
 

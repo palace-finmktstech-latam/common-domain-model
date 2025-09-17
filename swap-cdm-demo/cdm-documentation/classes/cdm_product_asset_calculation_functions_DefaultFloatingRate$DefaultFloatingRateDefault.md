@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `FloatingRateProcessingDetailsBuilder doEvaluate(BigDecimal arg0)`
 - `FloatingRateProcessingDetailsBuilder assignOutput(FloatingRateProcessingDetailsBuilder arg0, BigDecimal arg1)`
+- `FloatingRateProcessingDetailsBuilder doEvaluate(BigDecimal arg0)`
 

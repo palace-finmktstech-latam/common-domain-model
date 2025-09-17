@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
+- `InterestRateCurveBuilder setFloatingRateIndexValue(FloatingRateIndexEnum arg0)`
 - `InterestRateCurveBuilder setFloatingRateIndex(FieldWithMetaFloatingRateIndexEnum arg0)`
 - `InterestRateCurveBuilder setTenor(Period arg0)`
-- `InterestRateCurveBuilder setFloatingRateIndexValue(FloatingRateIndexEnum arg0)`
 
 #### Getter Methods
 
 - `FieldWithMetaFloatingRateIndexEnumBuilder getFloatingRateIndex()`
-- `PeriodBuilder getTenor()`
 - `FieldWithMetaFloatingRateIndexEnumBuilder getOrCreateFloatingRateIndex()`
+- `PeriodBuilder getTenor()`
 - `PeriodBuilder getOrCreateTenor()`
 
 #### Other Methods

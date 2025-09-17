@@ -20,8 +20,8 @@
 
 #### Getter Methods
 
-- `OffsetBuilder getOrCreateDeliveryDateRollConvention()`
 - `OffsetBuilder getDeliveryDateRollConvention()`
+- `OffsetBuilder getOrCreateDeliveryDateRollConvention()`
 
 #### Other Methods
 

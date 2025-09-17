@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `Date getRateRecordDate()`
 - `Date getResetDate()`
+- `Date getRateRecordDate()`
 - `List getPayout()`
 
 #### Other Methods

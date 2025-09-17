@@ -24,10 +24,10 @@
 
 - `Date getEventDeterminationDate()`
 - `BigDecimal getRecoveryPercent()`
-- `Date getAuctionDate()`
-- `ReferenceInformation getReferenceInformation()`
 - `CreditEventTypeEnum getCreditEventType()`
+- `Date getAuctionDate()`
 - `Price getFinalPrice()`
+- `ReferenceInformation getReferenceInformation()`
 - `List getPubliclyAvailableInformation()`
 
 #### Other Methods

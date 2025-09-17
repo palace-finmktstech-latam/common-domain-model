@@ -32,13 +32,13 @@
 
 - `StrikeScheduleBuilder setPriceValue(PriceSchedule arg0)`
 - `StrikeScheduleBuilder setPrice(ReferenceWithMetaPriceSchedule arg0)`
-- `StrikeScheduleBuilder setSeller(PayerReceiverEnum arg0)`
 - `StrikeScheduleBuilder setBuyer(PayerReceiverEnum arg0)`
+- `StrikeScheduleBuilder setSeller(PayerReceiverEnum arg0)`
 
 #### Getter Methods
 
-- `PayerReceiverEnum getSeller()`
 - `PayerReceiverEnum getBuyer()`
+- `PayerReceiverEnum getSeller()`
 
 #### Other Methods
 
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `StrikeScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `StrikeScheduleBuilder toBuilder()`
 - `StrikeScheduleBuilder prune()`
+- `StrikeScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

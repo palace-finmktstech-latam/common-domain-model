@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `FieldWithMetaString getCurrency1()`
 - `FieldWithMetaString getCurrency2()`
+- `FieldWithMetaString getCurrency1()`
 - `QuoteBasisEnum getQuoteBasis()`
 
 #### Other Methods

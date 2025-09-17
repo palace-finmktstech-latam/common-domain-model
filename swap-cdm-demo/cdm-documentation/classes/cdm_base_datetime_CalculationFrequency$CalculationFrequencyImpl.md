@@ -24,12 +24,12 @@
 
 - `BigDecimal getDayOfMonth()`
 - `DayOfWeekEnum getDayOfWeek()`
+- `BigDecimal getWeekOfMonth()`
+- `BigDecimal getMonthOfYear()`
+- `BusinessCenterTime getDateLocation()`
 - `List getBusinessCenter()`
 - `Period getPeriod()`
 - `BigDecimal getOffsetDays()`
-- `BigDecimal getMonthOfYear()`
-- `BusinessCenterTime getDateLocation()`
-- `BigDecimal getWeekOfMonth()`
 
 #### Other Methods
 

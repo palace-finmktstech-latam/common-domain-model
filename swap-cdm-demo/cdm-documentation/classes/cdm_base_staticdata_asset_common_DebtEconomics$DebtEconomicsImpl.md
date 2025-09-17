@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `DebtSeniorityEnum getDebtSeniority()`
 - `DebtInterestEnum getDebtInterest()`
 - `DebtPrincipalEnum getDebtPrincipal()`
+- `DebtSeniorityEnum getDebtSeniority()`
 
 #### Other Methods
 

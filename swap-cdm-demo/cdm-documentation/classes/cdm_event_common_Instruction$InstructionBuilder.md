@@ -16,15 +16,15 @@
 #### Setter Methods
 
 - `InstructionBuilder setBefore(ReferenceWithMetaTradeState arg0)`
-- `InstructionBuilder setPrimitiveInstruction(PrimitiveInstruction arg0)`
 - `InstructionBuilder setBeforeValue(TradeState arg0)`
+- `InstructionBuilder setPrimitiveInstruction(PrimitiveInstruction arg0)`
 
 #### Getter Methods
 
-- `ReferenceWithMetaTradeStateBuilder getOrCreateBefore()`
 - `ReferenceWithMetaTradeStateBuilder getBefore()`
-- `PrimitiveInstructionBuilder getOrCreatePrimitiveInstruction()`
 - `PrimitiveInstructionBuilder getPrimitiveInstruction()`
+- `PrimitiveInstructionBuilder getOrCreatePrimitiveInstruction()`
+- `ReferenceWithMetaTradeStateBuilder getOrCreateBefore()`
 
 #### Other Methods
 

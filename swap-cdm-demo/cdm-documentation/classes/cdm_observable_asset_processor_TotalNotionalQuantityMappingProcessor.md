@@ -15,8 +15,8 @@
 
 #### Getter Methods
 
-- `Optional getCapacityUnitEnum(Path arg0)`
 - `Optional getTotalNotionalQuantity(Path arg0, int arg1)`
+- `Optional getCapacityUnitEnum(Path arg0)`
 
 #### Adder Methods
 

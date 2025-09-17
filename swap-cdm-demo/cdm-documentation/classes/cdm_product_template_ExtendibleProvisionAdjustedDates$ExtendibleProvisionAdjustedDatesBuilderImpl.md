@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ExtendibleProvisionAdjustedDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ExtendibleProvisionAdjustedDatesBuilder toBuilder()`
 - `ExtendibleProvisionAdjustedDatesBuilder prune()`
+- `ExtendibleProvisionAdjustedDatesBuilder toBuilder()`
+- `boolean hasData()`
 

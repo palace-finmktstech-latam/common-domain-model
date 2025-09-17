@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaProtectionTermsBuilder setValue(ProtectionTerms arg0)`
-- `ReferenceWithMetaProtectionTermsBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaProtectionTermsBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaProtectionTermsBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaProtectionTermsBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaProtectionTermsBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

@@ -24,9 +24,9 @@
 
 #### Adder Methods
 
-- `SplitInstructionBuilder addBreakdown(PrimitiveInstruction arg0, int arg1)`
-- `SplitInstructionBuilder addBreakdown(PrimitiveInstruction arg0)`
 - `SplitInstructionBuilder addBreakdown(List arg0)`
+- `SplitInstructionBuilder addBreakdown(PrimitiveInstruction arg0)`
+- `SplitInstructionBuilder addBreakdown(PrimitiveInstruction arg0, int arg1)`
 
 #### Other Methods
 

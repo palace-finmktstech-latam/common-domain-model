@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CancelableProvisionAdjustedDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CancelableProvisionAdjustedDatesBuilder toBuilder()`
 - `CancelableProvisionAdjustedDatesBuilder prune()`
+- `CancelableProvisionAdjustedDatesBuilder toBuilder()`
+- `boolean hasData()`
 

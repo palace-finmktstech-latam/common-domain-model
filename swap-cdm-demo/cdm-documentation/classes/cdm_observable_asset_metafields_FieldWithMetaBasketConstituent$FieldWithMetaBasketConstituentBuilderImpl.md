@@ -31,8 +31,8 @@
 #### Getter Methods
 
 - `BasketConstituentBuilder getValue()`
-- `BasketConstituentBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `BasketConstituentBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaBasketConstituentBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaBasketConstituentBuilder toBuilder()`
 - `FieldWithMetaBasketConstituentBuilder prune()`
+- `FieldWithMetaBasketConstituentBuilder toBuilder()`
+- `boolean hasData()`
 

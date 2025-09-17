@@ -31,36 +31,36 @@
 
 #### Setter Methods
 
-- `PaymentCalculationPeriodBuilder setCalculationPeriod(List arg0)`
-- `PaymentCalculationPeriodBuilder setAdjustedPaymentDate(Date arg0)`
-- `PaymentCalculationPeriodBuilder setPresentValueAmount(Money arg0)`
-- `PaymentCalculationPeriodBuilder setFixedPaymentAmount(Money arg0)`
-- `PaymentCalculationPeriodBuilder setForecastPaymentAmount(Money arg0)`
-- `PaymentCalculationPeriodBuilder setUnadjustedPaymentDate(Date arg0)`
-- `PaymentCalculationPeriodBuilder setDiscountFactor(BigDecimal arg0)`
 - `PaymentCalculationPeriodBuilder setMeta(MetaFields arg0)`
+- `PaymentCalculationPeriodBuilder setAdjustedPaymentDate(Date arg0)`
+- `PaymentCalculationPeriodBuilder setUnadjustedPaymentDate(Date arg0)`
+- `PaymentCalculationPeriodBuilder setForecastPaymentAmount(Money arg0)`
+- `PaymentCalculationPeriodBuilder setPresentValueAmount(Money arg0)`
+- `PaymentCalculationPeriodBuilder setDiscountFactor(BigDecimal arg0)`
+- `PaymentCalculationPeriodBuilder setFixedPaymentAmount(Money arg0)`
+- `PaymentCalculationPeriodBuilder setCalculationPeriod(List arg0)`
 
 #### Getter Methods
 
-- `List getCalculationPeriod()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `Date getAdjustedPaymentDate()`
-- `MoneyBuilder getFixedPaymentAmount()`
-- `MoneyBuilder getPresentValueAmount()`
-- `MoneyBuilder getForecastPaymentAmount()`
-- `Date getUnadjustedPaymentDate()`
-- `BigDecimal getDiscountFactor()`
-- `CalculationPeriodBuilder getOrCreateCalculationPeriod(int arg0)`
-- `MoneyBuilder getOrCreateFixedPaymentAmount()`
-- `MoneyBuilder getOrCreatePresentValueAmount()`
-- `MoneyBuilder getOrCreateForecastPaymentAmount()`
 - `MetaFieldsBuilder getMeta()`
+- `MoneyBuilder getForecastPaymentAmount()`
+- `MoneyBuilder getPresentValueAmount()`
+- `MoneyBuilder getFixedPaymentAmount()`
+- `BigDecimal getDiscountFactor()`
+- `Date getUnadjustedPaymentDate()`
+- `Date getAdjustedPaymentDate()`
+- `MoneyBuilder getOrCreateForecastPaymentAmount()`
+- `MoneyBuilder getOrCreatePresentValueAmount()`
+- `MoneyBuilder getOrCreateFixedPaymentAmount()`
+- `List getCalculationPeriod()`
+- `CalculationPeriodBuilder getOrCreateCalculationPeriod(int arg0)`
 
 #### Adder Methods
 
 - `PaymentCalculationPeriodBuilder addCalculationPeriod(List arg0)`
-- `PaymentCalculationPeriodBuilder addCalculationPeriod(CalculationPeriod arg0)`
 - `PaymentCalculationPeriodBuilder addCalculationPeriod(CalculationPeriod arg0, int arg1)`
+- `PaymentCalculationPeriodBuilder addCalculationPeriod(CalculationPeriod arg0)`
 
 #### Other Methods
 
@@ -68,7 +68,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PaymentCalculationPeriodBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PaymentCalculationPeriodBuilder toBuilder()`
 - `PaymentCalculationPeriodBuilder prune()`
+- `PaymentCalculationPeriodBuilder toBuilder()`
+- `boolean hasData()`
 

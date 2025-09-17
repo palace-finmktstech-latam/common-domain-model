@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `List doEvaluate(List arg0, List arg1, QuantityChangeDirectionEnum arg2)`
 - `List assignOutput(List arg0, List arg1, List arg2, QuantityChangeDirectionEnum arg3)`
+- `List doEvaluate(List arg0, List arg1, QuantityChangeDirectionEnum arg2)`
 

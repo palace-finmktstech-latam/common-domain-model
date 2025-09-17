@@ -25,12 +25,12 @@
 
 #### Adder Methods
 
+- `DateRelativeToValuationDatesBuilder addValuationDatesReference(List arg0)`
 - `DateRelativeToValuationDatesBuilder addValuationDatesReference(ReferenceWithMetaPerformanceValuationDates arg0, int arg1)`
 - `DateRelativeToValuationDatesBuilder addValuationDatesReference(ReferenceWithMetaPerformanceValuationDates arg0)`
-- `DateRelativeToValuationDatesBuilder addValuationDatesReference(List arg0)`
-- `DateRelativeToValuationDatesBuilder addValuationDatesReferenceValue(PerformanceValuationDates arg0)`
-- `DateRelativeToValuationDatesBuilder addValuationDatesReferenceValue(List arg0)`
 - `DateRelativeToValuationDatesBuilder addValuationDatesReferenceValue(PerformanceValuationDates arg0, int arg1)`
+- `DateRelativeToValuationDatesBuilder addValuationDatesReferenceValue(List arg0)`
+- `DateRelativeToValuationDatesBuilder addValuationDatesReferenceValue(PerformanceValuationDates arg0)`
 
 #### Other Methods
 

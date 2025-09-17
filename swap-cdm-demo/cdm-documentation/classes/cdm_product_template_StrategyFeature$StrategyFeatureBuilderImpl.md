@@ -25,15 +25,15 @@
 
 #### Setter Methods
 
-- `StrategyFeatureBuilder setStrikeSpread(StrikeSpread arg0)`
 - `StrategyFeatureBuilder setCalendarSpread(CalendarSpread arg0)`
+- `StrategyFeatureBuilder setStrikeSpread(StrikeSpread arg0)`
 
 #### Getter Methods
 
 - `StrikeSpreadBuilder getStrikeSpread()`
 - `CalendarSpreadBuilder getCalendarSpread()`
-- `CalendarSpreadBuilder getOrCreateCalendarSpread()`
 - `StrikeSpreadBuilder getOrCreateStrikeSpread()`
+- `CalendarSpreadBuilder getOrCreateCalendarSpread()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `StrategyFeatureBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `StrategyFeatureBuilder toBuilder()`
 - `StrategyFeatureBuilder prune()`
+- `StrategyFeatureBuilder toBuilder()`
+- `boolean hasData()`
 

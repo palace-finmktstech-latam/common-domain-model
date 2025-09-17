@@ -18,8 +18,8 @@
 - `QuantityScheduleBuilder setValue(BigDecimal arg0)`
 - `QuantityScheduleBuilder setMultiplier(Measure arg0)`
 - `QuantityScheduleBuilder setDatedValue(List arg0)`
-- `QuantityScheduleBuilder setFrequency(Frequency arg0)`
 - `QuantityScheduleBuilder setUnit(UnitType arg0)`
+- `QuantityScheduleBuilder setFrequency(Frequency arg0)`
 
 #### Getter Methods
 
@@ -30,9 +30,9 @@
 
 #### Adder Methods
 
-- `QuantityScheduleBuilder addDatedValue(DatedValue arg0)`
 - `QuantityScheduleBuilder addDatedValue(List arg0)`
 - `QuantityScheduleBuilder addDatedValue(DatedValue arg0, int arg1)`
+- `QuantityScheduleBuilder addDatedValue(DatedValue arg0)`
 
 #### Other Methods
 

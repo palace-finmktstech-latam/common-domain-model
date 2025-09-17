@@ -19,20 +19,20 @@
 #### Getter Methods
 
 - `Class getType()`
-- `String getPerformance()`
+- `DividendAmountTypeEnum getExcessDividendAmount()`
 - `List getDividendPayoutRatio()`
+- `List getDividendPeriod()`
 - `Boolean getDividendReinvestment()`
 - `DividendEntitlementEnum getDividendEntitlement()`
 - `DividendPeriodEnum getFirstOrSecondPeriod()`
-- `DividendAmountTypeEnum getExcessDividendAmount()`
-- `DividendCompositionEnum getDividendComposition()`
-- `List getDividendPeriod()`
 - `DividendCurrency getDividendCurrency()`
-- `Boolean getMaterialDividend()`
-- `DividendAmountTypeEnum getDividendAmountType()`
+- `DividendCompositionEnum getDividendComposition()`
 - `Boolean getSpecialDividends()`
+- `DividendAmountTypeEnum getDividendAmountType()`
+- `Boolean getMaterialDividend()`
 - `NonCashDividendTreatmentEnum getNonCashDividendTreatment()`
 - `AncillaryRoleEnum getExtraordinaryDividendsParty()`
+- `String getPerformance()`
 
 #### Other Methods
 

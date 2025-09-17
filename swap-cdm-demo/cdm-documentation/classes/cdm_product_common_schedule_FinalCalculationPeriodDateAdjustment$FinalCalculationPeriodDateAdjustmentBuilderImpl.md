@@ -29,8 +29,8 @@
 - `FinalCalculationPeriodDateAdjustmentBuilder setBusinessDayConvention(BusinessDayConventionEnum arg0)`
 - `FinalCalculationPeriodDateAdjustmentBuilder setSwapStreamReference(ReferenceWithMetaInterestRatePayout arg0)`
 - `FinalCalculationPeriodDateAdjustmentBuilder setSwapStreamReferenceValue(InterestRatePayout arg0)`
-- `FinalCalculationPeriodDateAdjustmentBuilder setRelevantUnderlyingDateReferenceValue(AdjustableOrRelativeDates arg0)`
 - `FinalCalculationPeriodDateAdjustmentBuilder setRelevantUnderlyingDateReference(ReferenceWithMetaAdjustableOrRelativeDates arg0)`
+- `FinalCalculationPeriodDateAdjustmentBuilder setRelevantUnderlyingDateReferenceValue(AdjustableOrRelativeDates arg0)`
 
 #### Getter Methods
 
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FinalCalculationPeriodDateAdjustmentBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FinalCalculationPeriodDateAdjustmentBuilder toBuilder()`
 - `FinalCalculationPeriodDateAdjustmentBuilder prune()`
+- `FinalCalculationPeriodDateAdjustmentBuilder toBuilder()`
+- `boolean hasData()`
 

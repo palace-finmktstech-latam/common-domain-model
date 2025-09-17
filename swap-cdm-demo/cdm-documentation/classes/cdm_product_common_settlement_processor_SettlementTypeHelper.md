@@ -16,6 +16,6 @@
 
 #### Getter Methods
 
-- `boolean isCommoditySwapWithFloatingLeg()`
 - `boolean isCommoditySwapWithPhysicalLeg()`
+- `boolean isCommoditySwapWithFloatingLeg()`
 

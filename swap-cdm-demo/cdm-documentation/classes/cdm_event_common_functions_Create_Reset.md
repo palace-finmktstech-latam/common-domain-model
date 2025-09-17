@@ -26,11 +26,11 @@
 #### Other Methods
 
 - `TradeState evaluate(ResetInstruction arg0, TradeState arg1)`
+- `MapperS observation(ResetInstruction arg0, TradeState arg1)`
 - `TradeStateBuilder doEvaluate(ResetInstruction arg0, TradeState arg1)`
+- `MapperC payout(ResetInstruction arg0, TradeState arg1)`
 - `MapperS observationDate(ResetInstruction arg0, TradeState arg1)`
 - `MapperS observationIdentifiers(ResetInstruction arg0, TradeState arg1)`
-- `MapperS observation(ResetInstruction arg0, TradeState arg1)`
-- `MapperC payout(ResetInstruction arg0, TradeState arg1)`
 
 ### Annotations
 

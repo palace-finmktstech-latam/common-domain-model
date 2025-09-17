@@ -22,11 +22,11 @@
 
 #### Getter Methods
 
-- `RelativeDateOffset getVaryingNotionalFixingDates()`
 - `FxSpotRateSource getFxSpotRateSource()`
 - `BusinessCenterTime getFixingTime()`
-- `RelativeDateOffset getVaryingNotionalInterimExchangePaymentDates()`
 - `FieldWithMetaString getVaryingNotionalCurrency()`
+- `RelativeDateOffset getVaryingNotionalInterimExchangePaymentDates()`
+- `RelativeDateOffset getVaryingNotionalFixingDates()`
 
 #### Other Methods
 

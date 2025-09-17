@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `Date getStartDate()`
 - `Date getEndDate()`
+- `Date getStartDate()`
 
 #### Other Methods
 

@@ -31,8 +31,8 @@
 #### Getter Methods
 
 - `NonNegativeQuantityScheduleBuilder getValue()`
-- `NonNegativeQuantityScheduleBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `NonNegativeQuantityScheduleBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaNonNegativeQuantityScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaNonNegativeQuantityScheduleBuilder toBuilder()`
 - `FieldWithMetaNonNegativeQuantityScheduleBuilder prune()`
+- `FieldWithMetaNonNegativeQuantityScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

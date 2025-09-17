@@ -20,9 +20,9 @@
 #### Getter Methods
 
 - `Class getType()`
+- `MetaFields getMeta()`
 - `AdjustableDates getAdjustableDates()`
 - `RelativeDates getRelativeDates()`
-- `MetaFields getMeta()`
 
 #### Other Methods
 

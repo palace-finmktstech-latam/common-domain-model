@@ -29,10 +29,10 @@
 
 #### Setter Methods
 
+- `OffsetBuilder setMeta(MetaFields arg0)`
 - `OffsetBuilder setDayType(DayTypeEnum arg0)`
 - `OffsetBuilder setPeriod(PeriodEnum arg0)`
 - `OffsetBuilder setPeriodMultiplier(Integer arg0)`
-- `OffsetBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
@@ -44,7 +44,7 @@
 - `String toString()`
 - `int hashCode()`
 - `OffsetBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `OffsetBuilder toBuilder()`
 - `OffsetBuilder prune()`
+- `OffsetBuilder toBuilder()`
+- `boolean hasData()`
 

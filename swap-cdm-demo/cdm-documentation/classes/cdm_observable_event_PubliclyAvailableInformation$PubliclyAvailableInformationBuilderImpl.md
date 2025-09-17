@@ -33,14 +33,14 @@
 #### Getter Methods
 
 - `Boolean getStandardPublicSources()`
-- `List getPublicSource()`
 - `Integer getSpecifiedNumber()`
+- `List getPublicSource()`
 
 #### Adder Methods
 
-- `PubliclyAvailableInformationBuilder addPublicSource(String arg0)`
-- `PubliclyAvailableInformationBuilder addPublicSource(List arg0)`
 - `PubliclyAvailableInformationBuilder addPublicSource(String arg0, int arg1)`
+- `PubliclyAvailableInformationBuilder addPublicSource(List arg0)`
+- `PubliclyAvailableInformationBuilder addPublicSource(String arg0)`
 
 #### Other Methods
 
@@ -48,7 +48,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PubliclyAvailableInformationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PubliclyAvailableInformationBuilder toBuilder()`
 - `PubliclyAvailableInformationBuilder prune()`
+- `PubliclyAvailableInformationBuilder toBuilder()`
+- `boolean hasData()`
 

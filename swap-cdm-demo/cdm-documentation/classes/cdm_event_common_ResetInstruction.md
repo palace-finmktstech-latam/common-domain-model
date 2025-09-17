@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Date getRateRecordDate()`
 - `Date getResetDate()`
+- `Date getRateRecordDate()`
 - `List getPayout()`
 
 #### Other Methods

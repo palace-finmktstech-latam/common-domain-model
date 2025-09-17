@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `InterestRateIndexBuilder getValue()`
-- `InterestRateIndexBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `InterestRateIndexBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods

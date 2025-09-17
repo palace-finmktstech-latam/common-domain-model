@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `FloatingRateCalculationParameters getCalculationParameters()`
-- `FloatingRateIndexEnum getFloatingRateIndex()`
 - `Date getEffectiveDate()`
 - `BigDecimal getSpreadAdjustment()`
+- `FloatingRateCalculationParameters getCalculationParameters()`
+- `FloatingRateIndexEnum getFloatingRateIndex()`
 
 #### Other Methods
 

@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Integer doEvaluate(CalculationPeriodFrequency arg0)`
 - `Integer assignOutput(Integer arg0, CalculationPeriodFrequency arg1)`
+- `Integer doEvaluate(CalculationPeriodFrequency arg0)`
 

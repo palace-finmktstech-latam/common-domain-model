@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `ReferenceWithMetaBasketConstituent getBasketConstituent()`
-- `BigDecimal getCashRatio()`
 - `BigDecimal getTotalRatio()`
 - `BigDecimal getNonCashRatio()`
+- `BigDecimal getCashRatio()`
+- `ReferenceWithMetaBasketConstituent getBasketConstituent()`
 
 #### Other Methods
 

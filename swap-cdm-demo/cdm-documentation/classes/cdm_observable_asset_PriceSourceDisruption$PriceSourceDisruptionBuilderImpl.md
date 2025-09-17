@@ -37,7 +37,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PriceSourceDisruptionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PriceSourceDisruptionBuilder toBuilder()`
 - `PriceSourceDisruptionBuilder prune()`
+- `PriceSourceDisruptionBuilder toBuilder()`
+- `boolean hasData()`
 

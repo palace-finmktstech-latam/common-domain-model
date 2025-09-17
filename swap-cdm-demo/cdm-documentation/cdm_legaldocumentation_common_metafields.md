@@ -18,8 +18,8 @@
 **Key Methods:**
 - `setValue(ContractualDefinitionsEnum arg0)` → `FieldWithMetaContractualDefinitionsEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaContractualDefinitionsEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaContractualDefinitionsEnumBuilder` [Setter]
 
 ### FieldWithMetaContractualSupplementTypeEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -37,8 +37,8 @@
 **Key Methods:**
 - `setValue(ContractualSupplementTypeEnum arg0)` → `FieldWithMetaContractualSupplementTypeEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaContractualSupplementTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaContractualSupplementTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaGoverningLawEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -56,8 +56,8 @@
 **Key Methods:**
 - `setValue(GoverningLawEnum arg0)` → `FieldWithMetaGoverningLawEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaGoverningLawEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaGoverningLawEnumBuilder` [Setter]
 
 ### FieldWithMetaMatrixTermEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -75,8 +75,8 @@
 **Key Methods:**
 - `setValue(MatrixTermEnum arg0)` → `FieldWithMetaMatrixTermEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaMatrixTermEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaMatrixTermEnumBuilder` [Setter]
 
 ### FieldWithMetaMatrixTypeEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -94,8 +94,8 @@
 **Key Methods:**
 - `setValue(MatrixTypeEnum arg0)` → `FieldWithMetaMatrixTypeEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaMatrixTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaMatrixTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaResourceTypeEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -113,8 +113,8 @@
 **Key Methods:**
 - `setValue(ResourceTypeEnum arg0)` → `FieldWithMetaResourceTypeEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaResourceTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaResourceTypeEnumBuilder` [Setter]
 
 ### ReferenceWithMetaLegalAgreement
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -124,8 +124,8 @@
 - `getValue()` → `LegalAgreement` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaLegalAgreement` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaLegalAgreementBuilder
@@ -135,11 +135,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `LegalAgreementBuilder` [Getter]
 - `setValue(LegalAgreement arg0)` → `ReferenceWithMetaLegalAgreementBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaLegalAgreementBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaLegalAgreementBuilder` [Setter]
 - `getOrCreateValue()` → `LegalAgreementBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaLegalAgreementBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaLegalAgreementBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaLegalAgreementBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -155,8 +155,8 @@
 - `setValue(ContractualDefinitionsEnum arg0)` → `FieldWithMetaContractualDefinitionsEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaContractualDefinitionsEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaContractualDefinitionsEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaContractualDefinitionsEnumBuilder` [Setter]
 
 ### FieldWithMetaContractualDefinitionsEnumImpl
 **Implements:** `FieldWithMetaContractualDefinitionsEnum` 
@@ -182,8 +182,8 @@
 - `setValue(ContractualSupplementTypeEnum arg0)` → `FieldWithMetaContractualSupplementTypeEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaContractualSupplementTypeEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaContractualSupplementTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaContractualSupplementTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaContractualSupplementTypeEnumImpl
 **Implements:** `FieldWithMetaContractualSupplementTypeEnum` 
@@ -209,8 +209,8 @@
 - `setValue(GoverningLawEnum arg0)` → `FieldWithMetaGoverningLawEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaGoverningLawEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaGoverningLawEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaGoverningLawEnumBuilder` [Setter]
 
 ### FieldWithMetaGoverningLawEnumImpl
 **Implements:** `FieldWithMetaGoverningLawEnum` 
@@ -236,8 +236,8 @@
 - `setValue(MatrixTermEnum arg0)` → `FieldWithMetaMatrixTermEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaMatrixTermEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaMatrixTermEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaMatrixTermEnumBuilder` [Setter]
 
 ### FieldWithMetaMatrixTermEnumImpl
 **Implements:** `FieldWithMetaMatrixTermEnum` 
@@ -263,8 +263,8 @@
 - `setValue(MatrixTypeEnum arg0)` → `FieldWithMetaMatrixTypeEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaMatrixTypeEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaMatrixTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaMatrixTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaMatrixTypeEnumImpl
 **Implements:** `FieldWithMetaMatrixTypeEnum` 
@@ -290,8 +290,8 @@
 - `setValue(ResourceTypeEnum arg0)` → `FieldWithMetaResourceTypeEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaResourceTypeEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaResourceTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaResourceTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaResourceTypeEnumImpl
 **Implements:** `FieldWithMetaResourceTypeEnum` 
@@ -319,12 +319,12 @@
 - `getValue()` → `LegalAgreementBuilder` [Getter]
 - `setValue(LegalAgreement arg0)` → `ReferenceWithMetaLegalAgreementBuilder` [Setter]
 - `build()` → `ReferenceWithMetaLegalAgreement` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaLegalAgreementBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaLegalAgreementBuilder` [Setter]
 - `getOrCreateValue()` → `LegalAgreementBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaLegalAgreementBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaLegalAgreementBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaLegalAgreementBuilder` [Setter]
 
 ### ReferenceWithMetaLegalAgreementImpl
 **Implements:** `ReferenceWithMetaLegalAgreement` 
@@ -333,8 +333,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `LegalAgreement` [Getter]
 - `build()` → `ReferenceWithMetaLegalAgreement` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaLegalAgreementBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaLegalAgreementMeta

@@ -20,8 +20,8 @@
 
 - `Class getType()`
 - `Boolean getStandardPublicSources()`
-- `List getPublicSource()`
 - `Integer getSpecifiedNumber()`
+- `List getPublicSource()`
 
 #### Other Methods
 

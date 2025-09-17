@@ -30,9 +30,9 @@
 #### Setter Methods
 
 - `SpreadScheduleBuilder setPriceValue(PriceSchedule arg0)`
-- `SpreadScheduleBuilder setPrice(ReferenceWithMetaPriceSchedule arg0)`
-- `SpreadScheduleBuilder setSpreadScheduleTypeValue(SpreadScheduleTypeEnum arg0)`
 - `SpreadScheduleBuilder setSpreadScheduleType(FieldWithMetaSpreadScheduleTypeEnum arg0)`
+- `SpreadScheduleBuilder setSpreadScheduleTypeValue(SpreadScheduleTypeEnum arg0)`
+- `SpreadScheduleBuilder setPrice(ReferenceWithMetaPriceSchedule arg0)`
 
 #### Getter Methods
 
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `SpreadScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `SpreadScheduleBuilder toBuilder()`
 - `SpreadScheduleBuilder prune()`
+- `SpreadScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

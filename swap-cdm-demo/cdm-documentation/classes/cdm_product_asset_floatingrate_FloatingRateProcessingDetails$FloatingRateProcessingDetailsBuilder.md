@@ -16,14 +16,14 @@
 #### Setter Methods
 
 - `FloatingRateProcessingDetailsBuilder setRawRate(BigDecimal arg0)`
-- `FloatingRateProcessingDetailsBuilder setSpreadExclusiveRate(BigDecimal arg0)`
 - `FloatingRateProcessingDetailsBuilder setProcessingParameters(FloatingRateProcessingParameters arg0)`
 - `FloatingRateProcessingDetailsBuilder setProcessedRate(BigDecimal arg0)`
+- `FloatingRateProcessingDetailsBuilder setSpreadExclusiveRate(BigDecimal arg0)`
 
 #### Getter Methods
 
-- `FloatingRateProcessingParametersBuilder getProcessingParameters()`
 - `FloatingRateProcessingParametersBuilder getOrCreateProcessingParameters()`
+- `FloatingRateProcessingParametersBuilder getProcessingParameters()`
 
 #### Other Methods
 

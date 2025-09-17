@@ -25,8 +25,8 @@
 
 #### Setter Methods
 
-- `GracePeriodExtensionBuilder setGracePeriod(Offset arg0)`
 - `GracePeriodExtensionBuilder setApplicable(Boolean arg0)`
+- `GracePeriodExtensionBuilder setGracePeriod(Offset arg0)`
 
 #### Getter Methods
 
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `GracePeriodExtensionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `GracePeriodExtensionBuilder toBuilder()`
 - `GracePeriodExtensionBuilder prune()`
+- `GracePeriodExtensionBuilder toBuilder()`
+- `boolean hasData()`
 

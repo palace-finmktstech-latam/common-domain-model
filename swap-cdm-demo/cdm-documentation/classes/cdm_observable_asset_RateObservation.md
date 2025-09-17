@@ -21,14 +21,14 @@
 
 - `Class getType()`
 - `Date getResetDate()`
+- `MetaFields getMeta()`
 - `BigDecimal getForecastRate()`
-- `BigDecimal getTreatedRate()`
 - `ReferenceWithMetaRateObservation getRateReference()`
-- `BigDecimal getObservedRate()`
+- `BigDecimal getTreatedForecastRate()`
 - `Integer getObservationWeight()`
 - `Date getAdjustedFixingDate()`
-- `BigDecimal getTreatedForecastRate()`
-- `MetaFields getMeta()`
+- `BigDecimal getTreatedRate()`
+- `BigDecimal getObservedRate()`
 
 #### Other Methods
 

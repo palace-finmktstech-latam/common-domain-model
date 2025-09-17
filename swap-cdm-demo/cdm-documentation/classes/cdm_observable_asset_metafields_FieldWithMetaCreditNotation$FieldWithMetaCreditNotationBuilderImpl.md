@@ -31,8 +31,8 @@
 #### Getter Methods
 
 - `CreditNotationBuilder getValue()`
-- `CreditNotationBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `CreditNotationBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaCreditNotationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaCreditNotationBuilder toBuilder()`
 - `FieldWithMetaCreditNotationBuilder prune()`
+- `FieldWithMetaCreditNotationBuilder toBuilder()`
+- `boolean hasData()`
 

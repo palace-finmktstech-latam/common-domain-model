@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `RoundingDirectionEnum getRoundingDirection()`
 - `Integer getPrecision()`
+- `RoundingDirectionEnum getRoundingDirection()`
 
 #### Other Methods
 

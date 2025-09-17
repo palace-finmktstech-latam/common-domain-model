@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Integer getMaximumNumberOfOptions()`
 - `BigDecimal getMaximumNotionalAmount()`
+- `Integer getMaximumNumberOfOptions()`
 
 #### Other Methods
 

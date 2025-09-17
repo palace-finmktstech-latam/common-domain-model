@@ -22,7 +22,7 @@
 - `String toString()`
 - `int hashCode()`
 - `IndexAdjustmentEventsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `IndexAdjustmentEventsBuilder toBuilder()`
 - `IndexAdjustmentEventsBuilder prune()`
+- `IndexAdjustmentEventsBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TransferExpressionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TransferExpressionBuilder toBuilder()`
 - `TransferExpressionBuilder prune()`
+- `TransferExpressionBuilder toBuilder()`
+- `boolean hasData()`
 

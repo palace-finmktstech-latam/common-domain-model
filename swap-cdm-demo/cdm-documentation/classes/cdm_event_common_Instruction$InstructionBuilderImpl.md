@@ -26,15 +26,15 @@
 #### Setter Methods
 
 - `InstructionBuilder setBefore(ReferenceWithMetaTradeState arg0)`
-- `InstructionBuilder setPrimitiveInstruction(PrimitiveInstruction arg0)`
 - `InstructionBuilder setBeforeValue(TradeState arg0)`
+- `InstructionBuilder setPrimitiveInstruction(PrimitiveInstruction arg0)`
 
 #### Getter Methods
 
-- `ReferenceWithMetaTradeStateBuilder getOrCreateBefore()`
 - `ReferenceWithMetaTradeStateBuilder getBefore()`
-- `PrimitiveInstructionBuilder getOrCreatePrimitiveInstruction()`
 - `PrimitiveInstructionBuilder getPrimitiveInstruction()`
+- `PrimitiveInstructionBuilder getOrCreatePrimitiveInstruction()`
+- `ReferenceWithMetaTradeStateBuilder getOrCreateBefore()`
 
 #### Other Methods
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `InstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `InstructionBuilder toBuilder()`
 - `InstructionBuilder prune()`
+- `InstructionBuilder toBuilder()`
+- `boolean hasData()`
 

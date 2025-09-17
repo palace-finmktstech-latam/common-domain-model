@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `TimeZoneBuilder getValue()`
-- `TimeZoneBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `TimeZoneBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods

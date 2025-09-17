@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Date getStartDate()`
 - `Date getEndDate()`
+- `Date getStartDate()`
 
 #### Other Methods
 

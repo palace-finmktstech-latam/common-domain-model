@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `CalculationPeriodBaseBuilder doEvaluate(CalculationPeriodBase arg0, CalculationPeriodBase arg1, ObservationPeriodDatesEnum arg2, ResetDates arg3)`
 - `CalculationPeriodBaseBuilder assignOutput(CalculationPeriodBaseBuilder arg0, CalculationPeriodBase arg1, CalculationPeriodBase arg2, ObservationPeriodDatesEnum arg3, ResetDates arg4)`
+- `CalculationPeriodBaseBuilder doEvaluate(CalculationPeriodBase arg0, CalculationPeriodBase arg1, ObservationPeriodDatesEnum arg2, ResetDates arg3)`
 

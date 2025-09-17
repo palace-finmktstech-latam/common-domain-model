@@ -32,30 +32,30 @@
 
 #### Setter Methods
 
-- `RateObservationBuilder setForecastRate(BigDecimal arg0)`
-- `RateObservationBuilder setTreatedForecastRate(BigDecimal arg0)`
-- `RateObservationBuilder setObservedRate(BigDecimal arg0)`
-- `RateObservationBuilder setAdjustedFixingDate(Date arg0)`
-- `RateObservationBuilder setTreatedRate(BigDecimal arg0)`
-- `RateObservationBuilder setObservationWeight(Integer arg0)`
-- `RateObservationBuilder setRateReferenceValue(RateObservation arg0)`
-- `RateObservationBuilder setRateReference(ReferenceWithMetaRateObservation arg0)`
 - `RateObservationBuilder setResetDate(Date arg0)`
 - `RateObservationBuilder setMeta(MetaFields arg0)`
+- `RateObservationBuilder setForecastRate(BigDecimal arg0)`
+- `RateObservationBuilder setObservedRate(BigDecimal arg0)`
+- `RateObservationBuilder setObservationWeight(Integer arg0)`
+- `RateObservationBuilder setRateReference(ReferenceWithMetaRateObservation arg0)`
+- `RateObservationBuilder setRateReferenceValue(RateObservation arg0)`
+- `RateObservationBuilder setAdjustedFixingDate(Date arg0)`
+- `RateObservationBuilder setTreatedRate(BigDecimal arg0)`
+- `RateObservationBuilder setTreatedForecastRate(BigDecimal arg0)`
 
 #### Getter Methods
 
-- `Date getResetDate()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `Date getResetDate()`
+- `MetaFieldsBuilder getMeta()`
 - `BigDecimal getForecastRate()`
-- `BigDecimal getTreatedRate()`
 - `ReferenceWithMetaRateObservationBuilder getRateReference()`
-- `BigDecimal getObservedRate()`
-- `ReferenceWithMetaRateObservationBuilder getOrCreateRateReference()`
+- `BigDecimal getTreatedForecastRate()`
 - `Integer getObservationWeight()`
 - `Date getAdjustedFixingDate()`
-- `BigDecimal getTreatedForecastRate()`
-- `MetaFieldsBuilder getMeta()`
+- `ReferenceWithMetaRateObservationBuilder getOrCreateRateReference()`
+- `BigDecimal getTreatedRate()`
+- `BigDecimal getObservedRate()`
 
 #### Other Methods
 
@@ -63,7 +63,7 @@
 - `String toString()`
 - `int hashCode()`
 - `RateObservationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `RateObservationBuilder toBuilder()`
 - `RateObservationBuilder prune()`
+- `RateObservationBuilder toBuilder()`
+- `boolean hasData()`
 

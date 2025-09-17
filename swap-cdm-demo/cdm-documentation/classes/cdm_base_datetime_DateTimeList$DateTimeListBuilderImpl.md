@@ -32,9 +32,9 @@
 
 #### Adder Methods
 
-- `DateTimeListBuilder addDateTime(ZonedDateTime arg0)`
 - `DateTimeListBuilder addDateTime(List arg0)`
 - `DateTimeListBuilder addDateTime(ZonedDateTime arg0, int arg1)`
+- `DateTimeListBuilder addDateTime(ZonedDateTime arg0)`
 
 #### Other Methods
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DateTimeListBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DateTimeListBuilder toBuilder()`
 - `DateTimeListBuilder prune()`
+- `DateTimeListBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `FxSettlementRateSource getSettlementRateSource()`
 - `AdjustableDate getFixingDate()`
+- `FxSettlementRateSource getSettlementRateSource()`
 
 #### Other Methods
 

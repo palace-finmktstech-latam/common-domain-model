@@ -22,13 +22,13 @@
 
 #### Getter Methods
 
+- `Rounding getPrecision()`
+- `FxSpotRateSource getInformationSource()`
 - `BusinessCenterTime getObservationTime()`
 - `TimeTypeEnum getObservationTimeType()`
-- `FxSpotRateSource getInformationSource()`
-- `Integer getNumberOfObservationDates()`
-- `Rounding getPrecision()`
-- `CalculationPeriodDates getCalculationPeriodDates()`
 - `ObservationDates getObservationDates()`
+- `Integer getNumberOfObservationDates()`
+- `CalculationPeriodDates getCalculationPeriodDates()`
 
 #### Other Methods
 

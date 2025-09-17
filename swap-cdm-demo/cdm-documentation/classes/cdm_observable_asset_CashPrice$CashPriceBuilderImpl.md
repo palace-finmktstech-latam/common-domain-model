@@ -26,16 +26,16 @@
 
 #### Setter Methods
 
+- `CashPriceBuilder setFeeType(FeeTypeEnum arg0)`
 - `CashPriceBuilder setCashPriceType(CashPriceTypeEnum arg0)`
 - `CashPriceBuilder setPremiumExpression(PremiumExpression arg0)`
-- `CashPriceBuilder setFeeType(FeeTypeEnum arg0)`
 
 #### Getter Methods
 
 - `CashPriceTypeEnum getCashPriceType()`
 - `PremiumExpressionBuilder getPremiumExpression()`
-- `FeeTypeEnum getFeeType()`
 - `PremiumExpressionBuilder getOrCreatePremiumExpression()`
+- `FeeTypeEnum getFeeType()`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CashPriceBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CashPriceBuilder toBuilder()`
 - `CashPriceBuilder prune()`
+- `CashPriceBuilder toBuilder()`
+- `boolean hasData()`
 

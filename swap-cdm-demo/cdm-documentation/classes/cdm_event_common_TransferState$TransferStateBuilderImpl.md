@@ -26,16 +26,16 @@
 
 #### Setter Methods
 
-- `TransferStateBuilder setTransferStatus(TransferStatusEnum arg0)`
 - `TransferStateBuilder setTransfer(Transfer arg0)`
+- `TransferStateBuilder setTransferStatus(TransferStatusEnum arg0)`
 - `TransferStateBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
-- `TransferBuilder getTransfer()`
+- `TransferStatusEnum getTransferStatus()`
 - `TransferBuilder getOrCreateTransfer()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `TransferStatusEnum getTransferStatus()`
+- `TransferBuilder getTransfer()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
@@ -44,7 +44,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TransferStateBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TransferStateBuilder toBuilder()`
 - `TransferStateBuilder prune()`
+- `TransferStateBuilder toBuilder()`
+- `boolean hasData()`
 

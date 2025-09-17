@@ -16,14 +16,14 @@
 #### Setter Methods
 
 - `IndexBaseBuilder setName(FieldWithMetaString arg0)`
+- `IndexBaseBuilder setIdentifier(List arg0)`
+- `IndexBaseBuilder setTaxonomy(List arg0)`
+- `IndexBaseBuilder setNameValue(String arg0)`
+- `IndexBaseBuilder setExchange(LegalEntity arg0)`
 - `IndexBaseBuilder setIsExchangeListed(Boolean arg0)`
 - `IndexBaseBuilder setRelatedExchange(List arg0)`
-- `IndexBaseBuilder setExchange(LegalEntity arg0)`
-- `IndexBaseBuilder setProvider(LegalEntity arg0)`
 - `IndexBaseBuilder setAssetClass(AssetClassEnum arg0)`
-- `IndexBaseBuilder setTaxonomy(List arg0)`
-- `IndexBaseBuilder setIdentifier(List arg0)`
-- `IndexBaseBuilder setNameValue(String arg0)`
+- `IndexBaseBuilder setProvider(LegalEntity arg0)`
 
 #### Getter Methods
 
@@ -34,15 +34,15 @@
 
 #### Adder Methods
 
-- `IndexBaseBuilder addRelatedExchange(LegalEntity arg0)`
-- `IndexBaseBuilder addRelatedExchange(List arg0)`
-- `IndexBaseBuilder addRelatedExchange(LegalEntity arg0, int arg1)`
-- `IndexBaseBuilder addTaxonomy(Taxonomy arg0, int arg1)`
+- `IndexBaseBuilder addIdentifier(List arg0)`
+- `IndexBaseBuilder addIdentifier(AssetIdentifier arg0, int arg1)`
+- `IndexBaseBuilder addIdentifier(AssetIdentifier arg0)`
 - `IndexBaseBuilder addTaxonomy(Taxonomy arg0)`
 - `IndexBaseBuilder addTaxonomy(List arg0)`
-- `IndexBaseBuilder addIdentifier(AssetIdentifier arg0)`
-- `IndexBaseBuilder addIdentifier(AssetIdentifier arg0, int arg1)`
-- `IndexBaseBuilder addIdentifier(List arg0)`
+- `IndexBaseBuilder addTaxonomy(Taxonomy arg0, int arg1)`
+- `IndexBaseBuilder addRelatedExchange(LegalEntity arg0, int arg1)`
+- `IndexBaseBuilder addRelatedExchange(LegalEntity arg0)`
+- `IndexBaseBuilder addRelatedExchange(List arg0)`
 
 #### Other Methods
 

@@ -29,17 +29,17 @@
 
 - `BusinessUnitBuilder setName(String arg0)`
 - `BusinessUnitBuilder setIdentifier(Identifier arg0)`
-- `BusinessUnitBuilder setContactInformation(ContactInformation arg0)`
 - `BusinessUnitBuilder setMeta(MetaFields arg0)`
+- `BusinessUnitBuilder setContactInformation(ContactInformation arg0)`
 
 #### Getter Methods
 
 - `String getName()`
 - `IdentifierBuilder getOrCreateIdentifier()`
-- `ContactInformationBuilder getContactInformation()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `ContactInformationBuilder getOrCreateContactInformation()`
+- `ContactInformationBuilder getContactInformation()`
 - `MetaFieldsBuilder getMeta()`
+- `ContactInformationBuilder getOrCreateContactInformation()`
 - `IdentifierBuilder getIdentifier()`
 
 #### Other Methods
@@ -48,7 +48,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BusinessUnitBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BusinessUnitBuilder toBuilder()`
 - `BusinessUnitBuilder prune()`
+- `BusinessUnitBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -32,11 +32,11 @@
 
 #### Getter Methods
 
-- `PeriodBuilder getExerciseFrequency()`
 - `MetaFieldsBuilder getOrCreateMeta()`
 - `PeriodBuilder getEarliestExerciseDateTenor()`
 - `PeriodBuilder getOrCreateExerciseFrequency()`
 - `PeriodBuilder getOrCreateEarliestExerciseDateTenor()`
+- `PeriodBuilder getExerciseFrequency()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ExercisePeriodBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ExercisePeriodBuilder toBuilder()`
 - `ExercisePeriodBuilder prune()`
+- `ExercisePeriodBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -24,8 +24,8 @@
 
 - `BillingRecord evaluate(BillingRecordInstruction arg0)`
 - `BillingRecordBuilder doEvaluate(BillingRecordInstruction arg0)`
-- `MapperS billingAmount(BillingRecordInstruction arg0)`
 - `MapperS tradeState(BillingRecordInstruction arg0)`
+- `MapperS billingAmount(BillingRecordInstruction arg0)`
 
 ### Annotations
 

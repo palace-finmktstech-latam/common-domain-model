@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `TransferBuilder doEvaluate(CalculateTransferInstruction arg0)`
 - `TransferBuilder assignOutput(TransferBuilder arg0, CalculateTransferInstruction arg1)`
+- `TransferBuilder doEvaluate(CalculateTransferInstruction arg0)`
 

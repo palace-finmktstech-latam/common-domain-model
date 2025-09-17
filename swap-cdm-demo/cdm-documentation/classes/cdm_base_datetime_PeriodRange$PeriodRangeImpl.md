@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `PeriodBound getLowerBound()`
 - `PeriodBound getUpperBound()`
+- `PeriodBound getLowerBound()`
 
 #### Other Methods
 

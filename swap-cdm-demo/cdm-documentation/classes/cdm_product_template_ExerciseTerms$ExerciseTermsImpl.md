@@ -22,21 +22,21 @@
 
 #### Getter Methods
 
-- `OptionExerciseStyleEnum getStyle()`
-- `ExpirationTimeTypeEnum getExpirationTimeType()`
-- `AdjustableOrRelativeDate getCommencementDate()`
-- `BusinessCenterTime getLatestExerciseTime()`
-- `ExerciseFeeSchedule getExerciseFeeSchedule()`
-- `BusinessCenterTime getEarliestExerciseTime()`
-- `MultipleExercise getMultipleExercise()`
-- `BusinessCenterTime getExpirationTime()`
-- `ExerciseFee getExerciseFee()`
-- `AdjustableOrRelativeDates getRelevantUnderlyingDate()`
-- `AdjustableOrRelativeDates getExerciseDates()`
-- `ExerciseProcedure getExerciseProcedure()`
-- `PartialExercise getPartialExercise()`
-- `List getExpirationDate()`
 - `MetaFields getMeta()`
+- `OptionExerciseStyleEnum getStyle()`
+- `List getExpirationDate()`
+- `ExerciseFee getExerciseFee()`
+- `ExerciseProcedure getExerciseProcedure()`
+- `AdjustableOrRelativeDates getRelevantUnderlyingDate()`
+- `BusinessCenterTime getLatestExerciseTime()`
+- `BusinessCenterTime getEarliestExerciseTime()`
+- `PartialExercise getPartialExercise()`
+- `AdjustableOrRelativeDate getCommencementDate()`
+- `MultipleExercise getMultipleExercise()`
+- `ExerciseFeeSchedule getExerciseFeeSchedule()`
+- `BusinessCenterTime getExpirationTime()`
+- `ExpirationTimeTypeEnum getExpirationTimeType()`
+- `AdjustableOrRelativeDates getExerciseDates()`
 
 #### Other Methods
 

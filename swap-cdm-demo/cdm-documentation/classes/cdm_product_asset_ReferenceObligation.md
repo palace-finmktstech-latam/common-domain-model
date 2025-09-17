@@ -19,13 +19,13 @@
 #### Getter Methods
 
 - `Class getType()`
-- `LegalEntity getPrimaryObligor()`
-- `LegalEntity getGuarantor()`
-- `String getGuarantorReference()`
-- `ReferenceWithMetaLegalEntity getPrimaryObligorReference()`
-- `Loan getLoan()`
 - `Security getSecurity()`
+- `Loan getLoan()`
 - `Boolean getStandardReferenceObligation()`
+- `ReferenceWithMetaLegalEntity getPrimaryObligorReference()`
+- `LegalEntity getGuarantor()`
+- `LegalEntity getPrimaryObligor()`
+- `String getGuarantorReference()`
 
 #### Other Methods
 

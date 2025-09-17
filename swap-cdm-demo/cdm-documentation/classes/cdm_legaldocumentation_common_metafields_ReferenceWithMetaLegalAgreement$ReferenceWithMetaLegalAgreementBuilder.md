@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaLegalAgreementBuilder setValue(LegalAgreement arg0)`
-- `ReferenceWithMetaLegalAgreementBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaLegalAgreementBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaLegalAgreementBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaLegalAgreementBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaLegalAgreementBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

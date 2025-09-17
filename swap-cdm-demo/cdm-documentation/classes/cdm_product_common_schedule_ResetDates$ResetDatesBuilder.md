@@ -16,35 +16,35 @@
 
 #### Setter Methods
 
+- `ResetDatesBuilder setMeta(MetaFields arg0)`
+- `ResetDatesBuilder setResetDatesAdjustments(BusinessDayAdjustments arg0)`
 - `ResetDatesBuilder setInitialFixingDate(InitialFixingDate arg0)`
 - `ResetDatesBuilder setFinalFixingDate(AdjustableDate arg0)`
-- `ResetDatesBuilder setRateCutOffDaysOffset(Offset arg0)`
 - `ResetDatesBuilder setResetRelativeTo(ResetRelativeToEnum arg0)`
+- `ResetDatesBuilder setRateCutOffDaysOffset(Offset arg0)`
 - `ResetDatesBuilder setFixingDates(RelativeDateOffset arg0)`
-- `ResetDatesBuilder setResetDatesAdjustments(BusinessDayAdjustments arg0)`
 - `ResetDatesBuilder setResetFrequency(ResetFrequency arg0)`
 - `ResetDatesBuilder setCalculationPeriodDatesReference(ReferenceWithMetaCalculationPeriodDates arg0)`
 - `ResetDatesBuilder setCalculationPeriodDatesReferenceValue(CalculationPeriodDates arg0)`
-- `ResetDatesBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `ResetFrequencyBuilder getResetFrequency()`
+- `MetaFieldsBuilder getMeta()`
+- `RelativeDateOffsetBuilder getFixingDates()`
+- `InitialFixingDateBuilder getInitialFixingDate()`
 - `AdjustableDateBuilder getFinalFixingDate()`
 - `OffsetBuilder getRateCutOffDaysOffset()`
-- `RelativeDateOffsetBuilder getFixingDates()`
+- `ResetFrequencyBuilder getResetFrequency()`
 - `BusinessDayAdjustmentsBuilder getResetDatesAdjustments()`
-- `InitialFixingDateBuilder getInitialFixingDate()`
+- `AdjustableDateBuilder getOrCreateFinalFixingDate()`
 - `RelativeDateOffsetBuilder getOrCreateFixingDates()`
 - `ResetFrequencyBuilder getOrCreateResetFrequency()`
-- `AdjustableDateBuilder getOrCreateFinalFixingDate()`
-- `ReferenceWithMetaCalculationPeriodDatesBuilder getCalculationPeriodDatesReference()`
-- `InitialFixingDateBuilder getOrCreateInitialFixingDate()`
 - `ReferenceWithMetaCalculationPeriodDatesBuilder getOrCreateCalculationPeriodDatesReference()`
-- `OffsetBuilder getOrCreateRateCutOffDaysOffset()`
+- `InitialFixingDateBuilder getOrCreateInitialFixingDate()`
+- `ReferenceWithMetaCalculationPeriodDatesBuilder getCalculationPeriodDatesReference()`
 - `BusinessDayAdjustmentsBuilder getOrCreateResetDatesAdjustments()`
-- `MetaFieldsBuilder getMeta()`
+- `OffsetBuilder getOrCreateRateCutOffDaysOffset()`
 
 #### Other Methods
 

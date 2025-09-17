@@ -15,9 +15,9 @@
 
 #### Other Methods
 
-- `MapperS newProduct(TermsChangeInstruction arg0, TradeState arg1)`
-- `TradeStateBuilder doEvaluate(TermsChangeInstruction arg0, TradeState arg1)`
 - `TradeStateBuilder assignOutput(TradeStateBuilder arg0, TermsChangeInstruction arg1, TradeState arg2)`
 - `MapperS newAdjustment(TermsChangeInstruction arg0, TradeState arg1)`
 - `MapperC newAncillaryParty(TermsChangeInstruction arg0, TradeState arg1)`
+- `TradeStateBuilder doEvaluate(TermsChangeInstruction arg0, TradeState arg1)`
+- `MapperS newProduct(TermsChangeInstruction arg0, TradeState arg1)`
 

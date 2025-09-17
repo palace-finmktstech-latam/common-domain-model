@@ -26,12 +26,12 @@
 #### Other Methods
 
 - `Transfer evaluate(CalculateTransferInstruction arg0)`
-- `TransferBuilder doEvaluate(CalculateTransferInstruction arg0)`
-- `MapperS tradeQuantity(CalculateTransferInstruction arg0)`
-- `MapperS securityQuantity(CalculateTransferInstruction arg0)`
 - `MapperS assetPayout(CalculateTransferInstruction arg0)`
+- `MapperS securityQuantity(CalculateTransferInstruction arg0)`
 - `MapperS securityPrice(CalculateTransferInstruction arg0)`
+- `TransferBuilder doEvaluate(CalculateTransferInstruction arg0)`
 - `MapperS payout(CalculateTransferInstruction arg0)`
+- `MapperS tradeQuantity(CalculateTransferInstruction arg0)`
 
 ### Annotations
 

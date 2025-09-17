@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `ReferenceSwapCurveBuilder setSwapUnwindValue(SwapCurveValuation arg0)`
 - `ReferenceSwapCurveBuilder setMakeWholeAmount(MakeWholeAmount arg0)`
+- `ReferenceSwapCurveBuilder setSwapUnwindValue(SwapCurveValuation arg0)`
 
 #### Getter Methods
 
+- `MakeWholeAmountBuilder getMakeWholeAmount()`
+- `SwapCurveValuationBuilder getSwapUnwindValue()`
 - `MakeWholeAmountBuilder getOrCreateMakeWholeAmount()`
 - `SwapCurveValuationBuilder getOrCreateSwapUnwindValue()`
-- `SwapCurveValuationBuilder getSwapUnwindValue()`
-- `MakeWholeAmountBuilder getMakeWholeAmount()`
 
 #### Other Methods
 

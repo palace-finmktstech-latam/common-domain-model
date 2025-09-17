@@ -19,11 +19,11 @@
 #### Getter Methods
 
 - `Class getType()`
-- `AdjustableOrRelativeDate getStartDate()`
-- `AdjustableOrRelativeDate getEndDate()`
-- `DayTypeEnum getDayType()`
-- `BusinessDayAdjustments getPeriodDatesAdjustments()`
 - `CalculationPeriodFrequency getPeriodFrequency()`
+- `BusinessDayAdjustments getPeriodDatesAdjustments()`
+- `DayTypeEnum getDayType()`
+- `AdjustableOrRelativeDate getEndDate()`
+- `AdjustableOrRelativeDate getStartDate()`
 
 #### Other Methods
 

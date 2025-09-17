@@ -25,13 +25,13 @@
 
 #### Setter Methods
 
-- `AutomaticExerciseBuilder setIsApplicable(Boolean arg0)`
 - `AutomaticExerciseBuilder setThresholdRate(BigDecimal arg0)`
+- `AutomaticExerciseBuilder setIsApplicable(Boolean arg0)`
 
 #### Getter Methods
 
-- `Boolean getIsApplicable()`
 - `BigDecimal getThresholdRate()`
+- `Boolean getIsApplicable()`
 
 #### Other Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AutomaticExerciseBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AutomaticExerciseBuilder toBuilder()`
 - `AutomaticExerciseBuilder prune()`
+- `AutomaticExerciseBuilder toBuilder()`
+- `boolean hasData()`
 

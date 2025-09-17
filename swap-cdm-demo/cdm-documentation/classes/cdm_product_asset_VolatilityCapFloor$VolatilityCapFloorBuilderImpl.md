@@ -26,9 +26,9 @@
 
 #### Setter Methods
 
-- `VolatilityCapFloorBuilder setApplicable(Boolean arg0)`
-- `VolatilityCapFloorBuilder setTotalVolatilityCap(BigDecimal arg0)`
 - `VolatilityCapFloorBuilder setVolatilityCapFactor(BigDecimal arg0)`
+- `VolatilityCapFloorBuilder setTotalVolatilityCap(BigDecimal arg0)`
+- `VolatilityCapFloorBuilder setApplicable(Boolean arg0)`
 
 #### Getter Methods
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `VolatilityCapFloorBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `VolatilityCapFloorBuilder toBuilder()`
 - `VolatilityCapFloorBuilder prune()`
+- `VolatilityCapFloorBuilder toBuilder()`
+- `boolean hasData()`
 

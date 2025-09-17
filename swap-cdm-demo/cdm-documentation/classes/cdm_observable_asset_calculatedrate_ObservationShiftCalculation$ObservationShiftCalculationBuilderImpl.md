@@ -32,10 +32,10 @@
 
 #### Getter Methods
 
-- `BusinessCentersBuilder getOrCreateAdditionalBusinessDays()`
-- `BusinessCentersBuilder getAdditionalBusinessDays()`
 - `ObservationPeriodDatesEnum getCalculationBase()`
+- `BusinessCentersBuilder getAdditionalBusinessDays()`
 - `Integer getOffsetDays()`
+- `BusinessCentersBuilder getOrCreateAdditionalBusinessDays()`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ObservationShiftCalculationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ObservationShiftCalculationBuilder toBuilder()`
 - `ObservationShiftCalculationBuilder prune()`
+- `ObservationShiftCalculationBuilder toBuilder()`
+- `boolean hasData()`
 

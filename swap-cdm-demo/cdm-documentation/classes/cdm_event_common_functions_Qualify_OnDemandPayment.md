@@ -27,8 +27,8 @@
 
 - `MapperC transfer(BusinessEvent arg0)`
 - `Boolean evaluate(BusinessEvent arg0)`
-- `Boolean doEvaluate(BusinessEvent arg0)`
 - `MapperS instruction(BusinessEvent arg0)`
+- `Boolean doEvaluate(BusinessEvent arg0)`
 - `MapperC afterTradeStates(BusinessEvent arg0)`
 
 ### Annotations

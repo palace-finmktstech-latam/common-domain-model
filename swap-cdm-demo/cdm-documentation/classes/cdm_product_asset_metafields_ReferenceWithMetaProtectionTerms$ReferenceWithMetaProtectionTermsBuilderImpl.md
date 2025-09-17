@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaProtectionTermsBuilder setValue(ProtectionTerms arg0)`
-- `ReferenceWithMetaProtectionTermsBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaProtectionTermsBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaProtectionTermsBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaProtectionTermsBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaProtectionTermsBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaProtectionTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaProtectionTermsBuilder toBuilder()`
 - `ReferenceWithMetaProtectionTermsBuilder prune()`
+- `ReferenceWithMetaProtectionTermsBuilder toBuilder()`
+- `boolean hasData()`
 

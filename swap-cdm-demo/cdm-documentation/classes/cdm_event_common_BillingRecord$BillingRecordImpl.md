@@ -22,11 +22,11 @@
 
 #### Getter Methods
 
-- `Date getRecordEndDate()`
 - `ReferenceWithMetaTradeState getTradeState()`
 - `Date getRecordStartDate()`
-- `Money getMinimumFee()`
+- `Date getRecordEndDate()`
 - `Transfer getRecordTransfer()`
+- `Money getMinimumFee()`
 
 #### Other Methods
 

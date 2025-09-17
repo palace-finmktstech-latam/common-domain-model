@@ -26,15 +26,15 @@
 
 #### Setter Methods
 
-- `DividendApplicabilityBuilder setOptionsExchangeDividends(Boolean arg0)`
-- `DividendApplicabilityBuilder setAdditionalDividends(Boolean arg0)`
 - `DividendApplicabilityBuilder setAllDividends(Boolean arg0)`
+- `DividendApplicabilityBuilder setAdditionalDividends(Boolean arg0)`
+- `DividendApplicabilityBuilder setOptionsExchangeDividends(Boolean arg0)`
 
 #### Getter Methods
 
-- `Boolean getOptionsExchangeDividends()`
 - `Boolean getAllDividends()`
 - `Boolean getAdditionalDividends()`
+- `Boolean getOptionsExchangeDividends()`
 
 #### Other Methods
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DividendApplicabilityBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DividendApplicabilityBuilder toBuilder()`
 - `DividendApplicabilityBuilder prune()`
+- `DividendApplicabilityBuilder toBuilder()`
+- `boolean hasData()`
 

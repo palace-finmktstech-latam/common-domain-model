@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `TradeStateBuilder doEvaluate(ContractFormationInstruction arg0, TradeState arg1)`
 - `TradeStateBuilder assignOutput(TradeStateBuilder arg0, ContractFormationInstruction arg1, TradeState arg2)`
+- `TradeStateBuilder doEvaluate(ContractFormationInstruction arg0, TradeState arg1)`
 

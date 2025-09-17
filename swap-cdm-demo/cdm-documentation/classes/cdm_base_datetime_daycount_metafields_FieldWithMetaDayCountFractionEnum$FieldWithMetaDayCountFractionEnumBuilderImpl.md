@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaDayCountFractionEnumBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaDayCountFractionEnumBuilder toBuilder()`
 - `FieldWithMetaDayCountFractionEnumBuilder prune()`
+- `FieldWithMetaDayCountFractionEnumBuilder toBuilder()`
+- `boolean hasData()`
 

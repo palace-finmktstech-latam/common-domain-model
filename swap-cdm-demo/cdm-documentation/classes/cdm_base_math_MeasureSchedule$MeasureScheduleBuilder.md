@@ -26,9 +26,9 @@
 
 #### Adder Methods
 
-- `MeasureScheduleBuilder addDatedValue(DatedValue arg0, int arg1)`
 - `MeasureScheduleBuilder addDatedValue(List arg0)`
 - `MeasureScheduleBuilder addDatedValue(DatedValue arg0)`
+- `MeasureScheduleBuilder addDatedValue(DatedValue arg0, int arg1)`
 
 #### Other Methods
 

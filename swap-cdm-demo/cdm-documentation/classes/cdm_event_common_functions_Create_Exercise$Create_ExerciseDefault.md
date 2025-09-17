@@ -15,11 +15,11 @@
 
 #### Other Methods
 
-- `List doEvaluate(ExerciseInstruction arg0, TradeState arg1)`
 - `List assignOutput(List arg0, ExerciseInstruction arg1, TradeState arg2)`
-- `MapperS optionPayout(ExerciseInstruction arg0, TradeState arg1)`
-- `MapperS resultProduct(ExerciseInstruction arg0, TradeState arg1)`
-- `MapperS productWithDirection(ExerciseInstruction arg0, TradeState arg1)`
 - `MapperS execution(ExerciseInstruction arg0, TradeState arg1)`
+- `List doEvaluate(ExerciseInstruction arg0, TradeState arg1)`
 - `MapperS underlier(ExerciseInstruction arg0, TradeState arg1)`
+- `MapperS optionPayout(ExerciseInstruction arg0, TradeState arg1)`
+- `MapperS productWithDirection(ExerciseInstruction arg0, TradeState arg1)`
+- `MapperS resultProduct(ExerciseInstruction arg0, TradeState arg1)`
 

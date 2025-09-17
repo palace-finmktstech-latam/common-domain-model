@@ -17,22 +17,22 @@
 
 - `AssetDeliveryProfileBlockBuilder setDayOfWeek(List arg0)`
 - `AssetDeliveryProfileBlockBuilder setStartTime(LocalTime arg0)`
-- `AssetDeliveryProfileBlockBuilder setEndTime(LocalTime arg0)`
 - `AssetDeliveryProfileBlockBuilder setDeliveryCapacity(Quantity arg0)`
 - `AssetDeliveryProfileBlockBuilder setPriceTimeIntervalQuantity(Price arg0)`
+- `AssetDeliveryProfileBlockBuilder setEndTime(LocalTime arg0)`
 
 #### Getter Methods
 
-- `QuantityBuilder getDeliveryCapacity()`
 - `PriceBuilder getPriceTimeIntervalQuantity()`
+- `QuantityBuilder getDeliveryCapacity()`
 - `QuantityBuilder getOrCreateDeliveryCapacity()`
 - `PriceBuilder getOrCreatePriceTimeIntervalQuantity()`
 
 #### Adder Methods
 
-- `AssetDeliveryProfileBlockBuilder addDayOfWeek(DayOfWeekEnum arg0)`
-- `AssetDeliveryProfileBlockBuilder addDayOfWeek(DayOfWeekEnum arg0, int arg1)`
 - `AssetDeliveryProfileBlockBuilder addDayOfWeek(List arg0)`
+- `AssetDeliveryProfileBlockBuilder addDayOfWeek(DayOfWeekEnum arg0, int arg1)`
+- `AssetDeliveryProfileBlockBuilder addDayOfWeek(DayOfWeekEnum arg0)`
 
 #### Other Methods
 

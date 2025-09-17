@@ -20,8 +20,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `IdentifiedList getPackageReference()`
 - `ExecutionTypeEnum getExecutionType()`
+- `IdentifiedList getPackageReference()`
 - `LegalEntity getExecutionVenue()`
 - `MetaFields getMeta()`
 

@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `ProductBuilder setTransferableProduct(TransferableProduct arg0)`
 - `ProductBuilder setNonTransferableProduct(NonTransferableProduct arg0)`
+- `ProductBuilder setTransferableProduct(TransferableProduct arg0)`
 
 #### Getter Methods
 
 - `TransferableProductBuilder getTransferableProduct()`
 - `NonTransferableProductBuilder getNonTransferableProduct()`
-- `NonTransferableProductBuilder getOrCreateNonTransferableProduct()`
 - `TransferableProductBuilder getOrCreateTransferableProduct()`
+- `NonTransferableProductBuilder getOrCreateNonTransferableProduct()`
 
 #### Other Methods
 

@@ -31,21 +31,21 @@
 
 #### Setter Methods
 
+- `CashflowBuilder setPayerReceiver(PayerReceiver arg0)`
 - `CashflowBuilder setSettlementDate(AdjustableOrAdjustedOrRelativeDate arg0)`
 - `CashflowBuilder setQuantity(NonNegativeQuantity arg0)`
-- `CashflowBuilder setPayerReceiver(PayerReceiver arg0)`
-- `CashflowBuilder setCashflowType(CashflowType arg0)`
 - `CashflowBuilder setAsset(Asset arg0)`
 - `CashflowBuilder setPaymentDiscounting(PaymentDiscounting arg0)`
+- `CashflowBuilder setCashflowType(CashflowType arg0)`
 
 #### Getter Methods
 
-- `PayerReceiverBuilder getPayerReceiver()`
 - `PayerReceiverBuilder getOrCreatePayerReceiver()`
-- `PaymentDiscountingBuilder getOrCreatePaymentDiscounting()`
-- `CashflowTypeBuilder getCashflowType()`
+- `PayerReceiverBuilder getPayerReceiver()`
 - `CashflowTypeBuilder getOrCreateCashflowType()`
+- `CashflowTypeBuilder getCashflowType()`
 - `PaymentDiscountingBuilder getPaymentDiscounting()`
+- `PaymentDiscountingBuilder getOrCreatePaymentDiscounting()`
 
 #### Other Methods
 
@@ -53,7 +53,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CashflowBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CashflowBuilder toBuilder()`
 - `CashflowBuilder prune()`
+- `CashflowBuilder toBuilder()`
+- `boolean hasData()`
 

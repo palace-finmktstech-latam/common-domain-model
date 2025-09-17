@@ -16,9 +16,9 @@
 
 #### Setter Methods
 
-- `CalculationPeriodBaseBuilder setAdjustedEndDate(Date arg0)`
-- `CalculationPeriodBaseBuilder setAdjustedStartDate(Date arg0)`
 - `CalculationPeriodBaseBuilder setMeta(MetaFields arg0)`
+- `CalculationPeriodBaseBuilder setAdjustedStartDate(Date arg0)`
+- `CalculationPeriodBaseBuilder setAdjustedEndDate(Date arg0)`
 
 #### Getter Methods
 

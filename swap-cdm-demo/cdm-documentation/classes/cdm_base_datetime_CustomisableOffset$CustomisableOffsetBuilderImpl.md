@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CustomisableOffsetBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CustomisableOffsetBuilder toBuilder()`
 - `CustomisableOffsetBuilder prune()`
+- `CustomisableOffsetBuilder toBuilder()`
+- `boolean hasData()`
 

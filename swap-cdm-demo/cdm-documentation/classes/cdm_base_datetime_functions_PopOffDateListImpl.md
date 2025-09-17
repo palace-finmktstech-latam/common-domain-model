@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `List doEvaluate(List arg0)`
 - `List removeLastDate(List arg0)`
+- `List doEvaluate(List arg0)`
 

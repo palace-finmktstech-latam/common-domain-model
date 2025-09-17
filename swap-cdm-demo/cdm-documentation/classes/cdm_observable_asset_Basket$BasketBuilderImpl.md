@@ -29,13 +29,13 @@
 
 #### Setter Methods
 
+- `BasketBuilder setIdentifier(List arg0)`
+- `BasketBuilder setTaxonomy(List arg0)`
+- `BasketBuilder setExchange(LegalEntity arg0)`
 - `BasketBuilder setIsExchangeListed(Boolean arg0)`
+- `BasketBuilder setBasketConstituent(List arg0)`
 - `BasketBuilder setBasketConstituentValue(List arg0)`
 - `BasketBuilder setRelatedExchange(List arg0)`
-- `BasketBuilder setExchange(LegalEntity arg0)`
-- `BasketBuilder setBasketConstituent(List arg0)`
-- `BasketBuilder setTaxonomy(List arg0)`
-- `BasketBuilder setIdentifier(List arg0)`
 
 #### Getter Methods
 
@@ -44,21 +44,21 @@
 
 #### Adder Methods
 
+- `BasketBuilder addIdentifier(List arg0)`
+- `BasketBuilder addIdentifier(AssetIdentifier arg0)`
+- `BasketBuilder addIdentifier(AssetIdentifier arg0, int arg1)`
+- `BasketBuilder addTaxonomy(Taxonomy arg0)`
+- `BasketBuilder addTaxonomy(Taxonomy arg0, int arg1)`
+- `BasketBuilder addTaxonomy(List arg0)`
 - `BasketBuilder addBasketConstituentValue(BasketConstituent arg0, int arg1)`
 - `BasketBuilder addBasketConstituentValue(List arg0)`
 - `BasketBuilder addBasketConstituentValue(BasketConstituent arg0)`
 - `BasketBuilder addBasketConstituent(FieldWithMetaBasketConstituent arg0, int arg1)`
-- `BasketBuilder addBasketConstituent(FieldWithMetaBasketConstituent arg0)`
 - `BasketBuilder addBasketConstituent(List arg0)`
+- `BasketBuilder addBasketConstituent(FieldWithMetaBasketConstituent arg0)`
 - `BasketBuilder addRelatedExchange(LegalEntity arg0, int arg1)`
-- `BasketBuilder addRelatedExchange(LegalEntity arg0)`
 - `BasketBuilder addRelatedExchange(List arg0)`
-- `BasketBuilder addTaxonomy(Taxonomy arg0, int arg1)`
-- `BasketBuilder addTaxonomy(List arg0)`
-- `BasketBuilder addTaxonomy(Taxonomy arg0)`
-- `BasketBuilder addIdentifier(AssetIdentifier arg0, int arg1)`
-- `BasketBuilder addIdentifier(List arg0)`
-- `BasketBuilder addIdentifier(AssetIdentifier arg0)`
+- `BasketBuilder addRelatedExchange(LegalEntity arg0)`
 
 #### Other Methods
 
@@ -66,7 +66,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BasketBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BasketBuilder toBuilder()`
 - `BasketBuilder prune()`
+- `BasketBuilder toBuilder()`
+- `boolean hasData()`
 

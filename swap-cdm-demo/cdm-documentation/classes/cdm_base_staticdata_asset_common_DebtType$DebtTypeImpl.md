@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `List getDebtEconomics()`
 - `DebtClassEnum getDebtClass()`
+- `List getDebtEconomics()`
 
 #### Other Methods
 

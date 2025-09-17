@@ -28,18 +28,18 @@
 #### Setter Methods
 
 - `PriceSourceBuilder setPricePublisher(FieldWithMetaString arg0)`
-- `PriceSourceBuilder setPricePublisherValue(String arg0)`
-- `PriceSourceBuilder setPriceSourceLocation(String arg0)`
-- `PriceSourceBuilder setPriceSourceHeading(String arg0)`
 - `PriceSourceBuilder setPriceSourceTime(LocalTime arg0)`
+- `PriceSourceBuilder setPricePublisherValue(String arg0)`
+- `PriceSourceBuilder setPriceSourceHeading(String arg0)`
+- `PriceSourceBuilder setPriceSourceLocation(String arg0)`
 
 #### Getter Methods
 
-- `String getPriceSourceHeading()`
+- `FieldWithMetaStringBuilder getOrCreatePricePublisher()`
 - `String getPriceSourceLocation()`
 - `LocalTime getPriceSourceTime()`
+- `String getPriceSourceHeading()`
 - `FieldWithMetaStringBuilder getPricePublisher()`
-- `FieldWithMetaStringBuilder getOrCreatePricePublisher()`
 
 #### Other Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PriceSourceBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PriceSourceBuilder toBuilder()`
 - `PriceSourceBuilder prune()`
+- `PriceSourceBuilder toBuilder()`
+- `boolean hasData()`
 

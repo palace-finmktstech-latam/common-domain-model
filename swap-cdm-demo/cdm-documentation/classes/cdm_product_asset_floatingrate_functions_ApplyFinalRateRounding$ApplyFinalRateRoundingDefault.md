@@ -17,6 +17,6 @@
 
 - `MapperS direction(BigDecimal arg0, Rounding arg1)`
 - `MapperS precision(BigDecimal arg0, Rounding arg1)`
-- `BigDecimal doEvaluate(BigDecimal arg0, Rounding arg1)`
 - `BigDecimal assignOutput(BigDecimal arg0, BigDecimal arg1, Rounding arg2)`
+- `BigDecimal doEvaluate(BigDecimal arg0, Rounding arg1)`
 

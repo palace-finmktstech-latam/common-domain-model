@@ -17,21 +17,21 @@
 
 - `ValuationMethodBuilder setValuationMethod(ValuationMethodEnum arg0)`
 - `ValuationMethodBuilder setValuationSource(ValuationSource arg0)`
+- `ValuationMethodBuilder setQuotationMethod(QuotationRateTypeEnum arg0)`
 - `ValuationMethodBuilder setMinimumQuotationAmount(Money arg0)`
 - `ValuationMethodBuilder setQuotationAmount(Money arg0)`
-- `ValuationMethodBuilder setQuotationMethod(QuotationRateTypeEnum arg0)`
 - `ValuationMethodBuilder setCashCollateralValuationMethod(CashCollateralValuationMethod arg0)`
 
 #### Getter Methods
 
-- `ValuationSourceBuilder getValuationSource()`
 - `MoneyBuilder getQuotationAmount()`
 - `MoneyBuilder getMinimumQuotationAmount()`
+- `ValuationSourceBuilder getValuationSource()`
 - `ValuationSourceBuilder getOrCreateValuationSource()`
 - `MoneyBuilder getOrCreateQuotationAmount()`
+- `CashCollateralValuationMethodBuilder getCashCollateralValuationMethod()`
 - `MoneyBuilder getOrCreateMinimumQuotationAmount()`
 - `CashCollateralValuationMethodBuilder getOrCreateCashCollateralValuationMethod()`
-- `CashCollateralValuationMethodBuilder getCashCollateralValuationMethod()`
 
 #### Other Methods
 

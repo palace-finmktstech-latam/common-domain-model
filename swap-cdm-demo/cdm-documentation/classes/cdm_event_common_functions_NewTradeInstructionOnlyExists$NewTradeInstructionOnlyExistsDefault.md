@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Boolean doEvaluate(PrimitiveInstruction arg0)`
 - `Boolean assignOutput(Boolean arg0, PrimitiveInstruction arg1)`
+- `Boolean doEvaluate(PrimitiveInstruction arg0)`
 

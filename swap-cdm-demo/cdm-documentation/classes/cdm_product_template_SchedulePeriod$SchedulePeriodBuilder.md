@@ -15,18 +15,18 @@
 
 #### Setter Methods
 
-- `SchedulePeriodBuilder setCalculationPeriod(DateRange arg0)`
-- `SchedulePeriodBuilder setDeliveryPeriod(CalculationScheduleDeliveryPeriods arg0)`
 - `SchedulePeriodBuilder setFixingPeriod(DateRange arg0)`
+- `SchedulePeriodBuilder setDeliveryPeriod(CalculationScheduleDeliveryPeriods arg0)`
+- `SchedulePeriodBuilder setCalculationPeriod(DateRange arg0)`
 - `SchedulePeriodBuilder setPaymentDate(Date arg0)`
 
 #### Getter Methods
 
-- `DateRangeBuilder getCalculationPeriod()`
 - `CalculationScheduleDeliveryPeriodsBuilder getDeliveryPeriod()`
 - `DateRangeBuilder getFixingPeriod()`
-- `CalculationScheduleDeliveryPeriodsBuilder getOrCreateDeliveryPeriod()`
 - `DateRangeBuilder getOrCreateFixingPeriod()`
+- `CalculationScheduleDeliveryPeriodsBuilder getOrCreateDeliveryPeriod()`
+- `DateRangeBuilder getCalculationPeriod()`
 - `DateRangeBuilder getOrCreateCalculationPeriod()`
 
 #### Other Methods

@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Boolean doEvaluate(Trade arg0, List arg1)`
 - `Boolean assignOutput(Boolean arg0, Trade arg1, List arg2)`
+- `Boolean doEvaluate(Trade arg0, List arg1)`
 

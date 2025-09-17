@@ -20,12 +20,12 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Date getBillingStartDate()`
-- `List getBillingRecord()`
 - `List getBillingSummary()`
+- `List getBillingRecord()`
+- `Party getSendingParty()`
 - `Party getReceivingParty()`
 - `Date getBillingEndDate()`
-- `Party getSendingParty()`
+- `Date getBillingStartDate()`
 - `MetaFields getMeta()`
 
 #### Other Methods

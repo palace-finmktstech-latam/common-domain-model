@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `BigDecimal getMinimumBoundaryPercent()`
 - `BigDecimal getMaximumBoundaryPercent()`
+- `BigDecimal getMinimumBoundaryPercent()`
 
 #### Other Methods
 

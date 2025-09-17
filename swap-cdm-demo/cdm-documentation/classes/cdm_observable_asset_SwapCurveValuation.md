@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `FloatingRateIndexEnum getFloatingRateIndex()`
-- `Period getIndexTenor()`
 - `QuotationSideEnum getSide()`
+- `Period getIndexTenor()`
+- `FloatingRateIndexEnum getFloatingRateIndex()`
 - `BigDecimal getSpread()`
 
 #### Other Methods

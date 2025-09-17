@@ -27,10 +27,10 @@
 
 #### Getter Methods
 
-- `BigDecimal getFeeRate()`
-- `ReferenceWithMetaMoney getNotionalReference()`
 - `RelativeDateOffset getFeePaymentDate()`
+- `ReferenceWithMetaMoney getNotionalReference()`
 - `BigDecimal getFeeAmount()`
+- `BigDecimal getFeeRate()`
 
 #### Other Methods
 

@@ -16,8 +16,8 @@
 #### Getter Methods
 
 - `Schedule getSchedule(CalculationPeriodDates arg0, LocalDate arg1, LocalDate arg2)`
-- `int getDaysThatAreInLeapYear(SchedulePeriod arg0)`
 - `CalculationPeriodDataBuilder getCalcPeriod(SchedulePeriod arg0)`
+- `int getDaysThatAreInLeapYear(SchedulePeriod arg0)`
 
 #### Other Methods
 

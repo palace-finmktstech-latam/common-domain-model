@@ -20,10 +20,10 @@
 
 #### Getter Methods
 
-- `FxSettlementRateSourceBuilder getOrCreateSettlementRateSource()`
-- `AdjustableDateBuilder getOrCreateFixingDate()`
-- `FxSettlementRateSourceBuilder getSettlementRateSource()`
 - `AdjustableDateBuilder getFixingDate()`
+- `FxSettlementRateSourceBuilder getSettlementRateSource()`
+- `AdjustableDateBuilder getOrCreateFixingDate()`
+- `FxSettlementRateSourceBuilder getOrCreateSettlementRateSource()`
 
 #### Other Methods
 

@@ -19,21 +19,21 @@
 #### Getter Methods
 
 - `Class getType()`
-- `String getFloatingAmount()`
-- `Boolean getPaymentDelay()`
-- `ResetDates getResetDates()`
-- `DiscountingMethod getDiscountingMethod()`
-- `CompoundingMethodEnum getCompoundingMethod()`
-- `CashflowRepresentation getCashflowRepresentation()`
-- `StubPeriod getStubPeriod()`
-- `BondReference getBondReference()`
-- `String getFixedAmount()`
-- `SpreadCalculationMethodEnum getSpreadCalculationMethod()`
-- `RateSpecification getRateSpecification()`
-- `AdjustableDate getPaymentDate()`
 - `FieldWithMetaDayCountFractionEnum getDayCountFraction()`
 - `PaymentDates getPaymentDates()`
+- `RateSpecification getRateSpecification()`
 - `CalculationPeriodDates getCalculationPeriodDates()`
+- `StubPeriod getStubPeriod()`
+- `ResetDates getResetDates()`
+- `DiscountingMethod getDiscountingMethod()`
+- `BondReference getBondReference()`
+- `String getFixedAmount()`
+- `CompoundingMethodEnum getCompoundingMethod()`
+- `String getFloatingAmount()`
+- `Boolean getPaymentDelay()`
+- `CashflowRepresentation getCashflowRepresentation()`
+- `SpreadCalculationMethodEnum getSpreadCalculationMethod()`
+- `AdjustableDate getPaymentDate()`
 
 #### Other Methods
 

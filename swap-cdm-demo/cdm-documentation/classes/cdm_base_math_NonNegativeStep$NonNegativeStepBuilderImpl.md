@@ -26,16 +26,16 @@
 
 #### Setter Methods
 
-- `NonNegativeStepBuilder setMeta(MetaFields arg0)`
 - `NonNegativeStepBuilder setStepDate(Date arg0)`
 - `NonNegativeStepBuilder setStepValue(BigDecimal arg0)`
+- `NonNegativeStepBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `MetaFieldsBuilder getMeta()`
 - `Date getStepDate()`
 - `BigDecimal getStepValue()`
+- `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `NonNegativeStepBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `NonNegativeStepBuilder toBuilder()`
 - `NonNegativeStepBuilder prune()`
+- `NonNegativeStepBuilder toBuilder()`
+- `boolean hasData()`
 

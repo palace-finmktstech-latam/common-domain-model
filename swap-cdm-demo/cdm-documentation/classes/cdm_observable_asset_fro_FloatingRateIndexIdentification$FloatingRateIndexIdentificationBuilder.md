@@ -16,9 +16,9 @@
 #### Setter Methods
 
 - `FloatingRateIndexIdentificationBuilder setCurrency(ISOCurrencyCodeEnum arg0)`
+- `FloatingRateIndexIdentificationBuilder setFloatingRateIndexValue(FloatingRateIndexEnum arg0)`
 - `FloatingRateIndexIdentificationBuilder setFloatingRateIndex(FieldWithMetaFloatingRateIndexEnum arg0)`
 - `FloatingRateIndexIdentificationBuilder setFroType(String arg0)`
-- `FloatingRateIndexIdentificationBuilder setFloatingRateIndexValue(FloatingRateIndexEnum arg0)`
 
 #### Getter Methods
 

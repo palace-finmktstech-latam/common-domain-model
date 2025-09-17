@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaPartyBuilder setValue(Party arg0)`
-- `ReferenceWithMetaPartyBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaPartyBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaPartyBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaPartyBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaPartyBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaPartyBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaPartyBuilder toBuilder()`
 - `ReferenceWithMetaPartyBuilder prune()`
+- `ReferenceWithMetaPartyBuilder toBuilder()`
+- `boolean hasData()`
 

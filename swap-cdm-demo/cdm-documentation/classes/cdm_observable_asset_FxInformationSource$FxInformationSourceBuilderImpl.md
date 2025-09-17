@@ -29,12 +29,12 @@
 
 #### Setter Methods
 
-- `FxInformationSourceBuilder setSourcePage(FieldWithMetaString arg0)`
-- `FxInformationSourceBuilder setSourceProvider(FieldWithMetaInformationProviderEnum arg0)`
-- `FxInformationSourceBuilder setSourceProviderValue(InformationProviderEnum arg0)`
-- `FxInformationSourceBuilder setSourcePageValue(String arg0)`
-- `FxInformationSourceBuilder setSourcePageHeading(String arg0)`
 - `FxInformationSourceBuilder setFixingTime(BusinessCenterTime arg0)`
+- `FxInformationSourceBuilder setSourcePageHeading(String arg0)`
+- `FxInformationSourceBuilder setSourcePageValue(String arg0)`
+- `FxInformationSourceBuilder setSourceProvider(FieldWithMetaInformationProviderEnum arg0)`
+- `FxInformationSourceBuilder setSourcePage(FieldWithMetaString arg0)`
+- `FxInformationSourceBuilder setSourceProviderValue(InformationProviderEnum arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FxInformationSourceBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FxInformationSourceBuilder toBuilder()`
 - `FxInformationSourceBuilder prune()`
+- `FxInformationSourceBuilder toBuilder()`
+- `boolean hasData()`
 

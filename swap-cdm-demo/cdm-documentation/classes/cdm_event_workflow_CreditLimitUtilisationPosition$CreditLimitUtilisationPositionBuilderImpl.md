@@ -26,9 +26,9 @@
 
 #### Setter Methods
 
-- `CreditLimitUtilisationPositionBuilder setShortPosition(BigDecimal arg0)`
-- `CreditLimitUtilisationPositionBuilder setLongPosition(BigDecimal arg0)`
 - `CreditLimitUtilisationPositionBuilder setGlobal(BigDecimal arg0)`
+- `CreditLimitUtilisationPositionBuilder setLongPosition(BigDecimal arg0)`
+- `CreditLimitUtilisationPositionBuilder setShortPosition(BigDecimal arg0)`
 
 #### Getter Methods
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CreditLimitUtilisationPositionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CreditLimitUtilisationPositionBuilder toBuilder()`
 - `CreditLimitUtilisationPositionBuilder prune()`
+- `CreditLimitUtilisationPositionBuilder toBuilder()`
+- `boolean hasData()`
 

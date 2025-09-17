@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `MoneyBuilder doEvaluate(InterestRatePayout arg0, CalculationPeriodBase arg1)`
 - `MoneyBuilder assignOutput(MoneyBuilder arg0, InterestRatePayout arg1, CalculationPeriodBase arg2)`
+- `MoneyBuilder doEvaluate(InterestRatePayout arg0, CalculationPeriodBase arg1)`
 

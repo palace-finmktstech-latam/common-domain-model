@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `FloatingAmountProvisionsBuilder setWacCapInterestProvision(Boolean arg0)`
 - `FloatingAmountProvisionsBuilder setStepUpProvision(Boolean arg0)`
+- `FloatingAmountProvisionsBuilder setWacCapInterestProvision(Boolean arg0)`
 
 #### Other Methods
 

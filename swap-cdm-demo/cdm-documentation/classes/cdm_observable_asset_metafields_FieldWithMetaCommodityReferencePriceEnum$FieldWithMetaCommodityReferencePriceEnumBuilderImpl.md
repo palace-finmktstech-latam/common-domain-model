@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaCommodityReferencePriceEnumBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaCommodityReferencePriceEnumBuilder toBuilder()`
 - `FieldWithMetaCommodityReferencePriceEnumBuilder prune()`
+- `FieldWithMetaCommodityReferencePriceEnumBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -27,18 +27,18 @@
 
 #### Setter Methods
 
-- `DividendPayoutRatioBuilder setBasketConstituentValue(BasketConstituent arg0)`
-- `DividendPayoutRatioBuilder setBasketConstituent(ReferenceWithMetaBasketConstituent arg0)`
+- `DividendPayoutRatioBuilder setTotalRatio(BigDecimal arg0)`
 - `DividendPayoutRatioBuilder setCashRatio(BigDecimal arg0)`
 - `DividendPayoutRatioBuilder setNonCashRatio(BigDecimal arg0)`
-- `DividendPayoutRatioBuilder setTotalRatio(BigDecimal arg0)`
+- `DividendPayoutRatioBuilder setBasketConstituent(ReferenceWithMetaBasketConstituent arg0)`
+- `DividendPayoutRatioBuilder setBasketConstituentValue(BasketConstituent arg0)`
 
 #### Getter Methods
 
-- `ReferenceWithMetaBasketConstituentBuilder getBasketConstituent()`
-- `BigDecimal getCashRatio()`
 - `BigDecimal getTotalRatio()`
 - `BigDecimal getNonCashRatio()`
+- `BigDecimal getCashRatio()`
+- `ReferenceWithMetaBasketConstituentBuilder getBasketConstituent()`
 - `ReferenceWithMetaBasketConstituentBuilder getOrCreateBasketConstituent()`
 
 #### Other Methods
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DividendPayoutRatioBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DividendPayoutRatioBuilder toBuilder()`
 - `DividendPayoutRatioBuilder prune()`
+- `DividendPayoutRatioBuilder toBuilder()`
+- `boolean hasData()`
 

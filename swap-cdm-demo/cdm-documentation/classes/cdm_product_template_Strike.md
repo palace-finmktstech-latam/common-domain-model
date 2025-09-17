@@ -20,10 +20,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `PayerReceiverEnum getSeller()`
-- `PayerReceiverEnum getBuyer()`
-- `BigDecimal getStrikeRate()`
 - `MetaFields getMeta()`
+- `BigDecimal getStrikeRate()`
+- `PayerReceiverEnum getBuyer()`
+- `PayerReceiverEnum getSeller()`
 
 #### Other Methods
 

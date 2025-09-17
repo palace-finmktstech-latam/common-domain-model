@@ -23,9 +23,9 @@
 #### Getter Methods
 
 - `State getState()`
-- `List getResetHistory()`
-- `List getTransferHistory()`
 - `List getObservationHistory()`
+- `List getTransferHistory()`
+- `List getResetHistory()`
 - `List getValuationHistory()`
 - `Trade getTrade()`
 - `MetaFields getMeta()`

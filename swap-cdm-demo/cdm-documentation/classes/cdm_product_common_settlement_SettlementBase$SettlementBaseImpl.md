@@ -22,14 +22,14 @@
 
 #### Getter Methods
 
-- `SettlementProvision getSettlementProvision()`
+- `SettlementDate getSettlementDate()`
+- `MetaFields getMeta()`
+- `FieldWithMetaString getSettlementCurrency()`
 - `TransferSettlementEnum getTransferSettlementType()`
+- `SettlementProvision getSettlementProvision()`
 - `StandardSettlementStyleEnum getStandardSettlementStyle()`
 - `SettlementTypeEnum getSettlementType()`
 - `SettlementCentreEnum getSettlementCentre()`
-- `SettlementDate getSettlementDate()`
-- `FieldWithMetaString getSettlementCurrency()`
-- `MetaFields getMeta()`
 
 #### Other Methods
 

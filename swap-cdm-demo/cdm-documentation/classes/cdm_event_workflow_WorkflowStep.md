@@ -21,22 +21,22 @@
 
 - `Class getType()`
 - `List getTimestamp()`
+- `MetaFields getMeta()`
+- `List getParty()`
+- `List getAccount()`
 - `ActionEnum getAction()`
 - `Lineage getLineage()`
-- `ReferenceWithMetaWorkflowStep getPreviousWorkflowStep()`
-- `EventInstruction getProposedEvent()`
 - `List getApproval()`
+- `MessageInformation getMessageInformation()`
+- `CreditLimitInformation getCreditLimitInformation()`
+- `EventInstruction getProposedEvent()`
 - `Boolean getRejected()`
 - `BusinessEvent getBusinessEvent()`
+- `ReferenceWithMetaWorkflowStep getPreviousWorkflowStep()`
 - `WorkflowState getWorkflowState()`
-- `EventInstruction getNextEvent()`
 - `List getEventIdentifier()`
-- `CreditLimitInformation getCreditLimitInformation()`
-- `MessageInformation getMessageInformation()`
-- `List getAccount()`
-- `List getParty()`
+- `EventInstruction getNextEvent()`
 - `CounterpartyPositionBusinessEvent getCounterpartyPositionBusinessEvent()`
-- `MetaFields getMeta()`
 
 #### Other Methods
 

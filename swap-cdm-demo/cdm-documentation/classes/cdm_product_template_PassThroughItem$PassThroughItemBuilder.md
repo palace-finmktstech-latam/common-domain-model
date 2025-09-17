@@ -20,8 +20,8 @@
 
 #### Getter Methods
 
-- `PayerReceiverBuilder getPayerReceiver()`
 - `PayerReceiverBuilder getOrCreatePayerReceiver()`
+- `PayerReceiverBuilder getPayerReceiver()`
 
 #### Other Methods
 

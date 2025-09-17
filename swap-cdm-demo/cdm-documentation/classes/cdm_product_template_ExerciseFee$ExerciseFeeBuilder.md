@@ -15,20 +15,20 @@
 
 #### Setter Methods
 
-- `ExerciseFeeBuilder setReceiver(CounterpartyRoleEnum arg0)`
+- `ExerciseFeeBuilder setFeeRate(BigDecimal arg0)`
+- `ExerciseFeeBuilder setNotionalReferenceValue(Money arg0)`
 - `ExerciseFeeBuilder setNotionalReference(ReferenceWithMetaMoney arg0)`
 - `ExerciseFeeBuilder setFeePaymentDate(RelativeDateOffset arg0)`
-- `ExerciseFeeBuilder setNotionalReferenceValue(Money arg0)`
-- `ExerciseFeeBuilder setFeeAmount(BigDecimal arg0)`
+- `ExerciseFeeBuilder setReceiver(CounterpartyRoleEnum arg0)`
 - `ExerciseFeeBuilder setPayer(CounterpartyRoleEnum arg0)`
-- `ExerciseFeeBuilder setFeeRate(BigDecimal arg0)`
+- `ExerciseFeeBuilder setFeeAmount(BigDecimal arg0)`
 
 #### Getter Methods
 
-- `ReferenceWithMetaMoneyBuilder getOrCreateNotionalReference()`
-- `ReferenceWithMetaMoneyBuilder getNotionalReference()`
 - `RelativeDateOffsetBuilder getFeePaymentDate()`
 - `RelativeDateOffsetBuilder getOrCreateFeePaymentDate()`
+- `ReferenceWithMetaMoneyBuilder getNotionalReference()`
+- `ReferenceWithMetaMoneyBuilder getOrCreateNotionalReference()`
 
 #### Other Methods
 

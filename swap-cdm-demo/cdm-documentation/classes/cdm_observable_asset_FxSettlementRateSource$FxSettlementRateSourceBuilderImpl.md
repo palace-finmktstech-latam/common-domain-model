@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FxSettlementRateSourceBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FxSettlementRateSourceBuilder toBuilder()`
 - `FxSettlementRateSourceBuilder prune()`
+- `FxSettlementRateSourceBuilder toBuilder()`
+- `boolean hasData()`
 

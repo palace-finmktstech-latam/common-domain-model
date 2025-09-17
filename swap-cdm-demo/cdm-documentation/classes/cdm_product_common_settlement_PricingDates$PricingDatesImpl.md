@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `List getSpecifiedDates()`
 - `ParametricDates getParametricDates()`
+- `List getSpecifiedDates()`
 
 #### Other Methods
 

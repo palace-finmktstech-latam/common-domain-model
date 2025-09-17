@@ -23,11 +23,11 @@
 #### Getter Methods
 
 - `PartyRole getSinglePartyOption()`
-- `RelativeDateOffset getNoticePeriod()`
 - `AdjustableRelativeOrPeriodicDates getExtensionFrequency()`
+- `RelativeDateOffset getNoticePeriod()`
+- `Price getFinalPeriodFeeAdjustment()`
 - `RelativeDateOffset getNoticeDeadlinePeriod()`
 - `ZonedDateTime getNoticeDeadlineDateTime()`
-- `Price getFinalPeriodFeeAdjustment()`
 
 #### Other Methods
 

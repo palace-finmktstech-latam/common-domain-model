@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
+- `CancelableProvision getCancelableProvision()`
 - `EvergreenProvision getEvergreenProvision()`
 - `ExtendibleProvision getExtendibleProvision()`
-- `CancelableProvision getCancelableProvision()`
 - `EarlyTerminationProvision getEarlyTerminationProvision()`
 
 #### Other Methods

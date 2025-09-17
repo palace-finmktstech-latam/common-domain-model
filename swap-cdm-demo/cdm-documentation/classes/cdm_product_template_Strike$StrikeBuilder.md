@@ -16,10 +16,10 @@
 
 #### Setter Methods
 
-- `StrikeBuilder setStrikeRate(BigDecimal arg0)`
-- `StrikeBuilder setSeller(PayerReceiverEnum arg0)`
-- `StrikeBuilder setBuyer(PayerReceiverEnum arg0)`
 - `StrikeBuilder setMeta(MetaFields arg0)`
+- `StrikeBuilder setStrikeRate(BigDecimal arg0)`
+- `StrikeBuilder setBuyer(PayerReceiverEnum arg0)`
+- `StrikeBuilder setSeller(PayerReceiverEnum arg0)`
 
 #### Getter Methods
 

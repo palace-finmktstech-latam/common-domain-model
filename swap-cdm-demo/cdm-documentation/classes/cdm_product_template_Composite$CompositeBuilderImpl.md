@@ -28,19 +28,19 @@
 #### Setter Methods
 
 - `CompositeBuilder setDeterminationMethod(DeterminationMethodEnum arg0)`
-- `CompositeBuilder setRelativeDate(RelativeDateOffset arg0)`
 - `CompositeBuilder setFixingTime(BusinessCenterTime arg0)`
 - `CompositeBuilder setFxSpotRateSource(FxSpotRateSource arg0)`
+- `CompositeBuilder setRelativeDate(RelativeDateOffset arg0)`
 
 #### Getter Methods
 
-- `FxSpotRateSourceBuilder getOrCreateFxSpotRateSource()`
-- `DeterminationMethodEnum getDeterminationMethod()`
-- `RelativeDateOffsetBuilder getOrCreateRelativeDate()`
 - `RelativeDateOffsetBuilder getRelativeDate()`
+- `DeterminationMethodEnum getDeterminationMethod()`
 - `FxSpotRateSourceBuilder getFxSpotRateSource()`
 - `BusinessCenterTimeBuilder getFixingTime()`
 - `BusinessCenterTimeBuilder getOrCreateFixingTime()`
+- `FxSpotRateSourceBuilder getOrCreateFxSpotRateSource()`
+- `RelativeDateOffsetBuilder getOrCreateRelativeDate()`
 
 #### Other Methods
 
@@ -48,7 +48,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CompositeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CompositeBuilder toBuilder()`
 - `CompositeBuilder prune()`
+- `CompositeBuilder toBuilder()`
+- `boolean hasData()`
 

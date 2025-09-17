@@ -19,16 +19,16 @@
 #### Getter Methods
 
 - `Class getType()`
+- `AdditionalDisruptionEvents getAdditionalDisruptionEvents()`
 - `Boolean getCompositionOfCombinedConsideration()`
 - `NationalizationOrInsolvencyOrDelistingEventEnum getNationalizationOrInsolvency()`
 - `IndexAdjustmentEvents getIndexAdjustmentEvents()`
-- `NationalizationOrInsolvencyOrDelistingEventEnum getDelisting()`
-- `EquityCorporateEvents getTenderOfferEvents()`
 - `Representations getRepresentations()`
-- `List getAdditionalBespokeTerms()`
+- `EquityCorporateEvents getTenderOfferEvents()`
 - `EquityCorporateEvents getMergerEvents()`
 - `Boolean getFailureToDeliver()`
-- `AdditionalDisruptionEvents getAdditionalDisruptionEvents()`
+- `List getAdditionalBespokeTerms()`
+- `NationalizationOrInsolvencyOrDelistingEventEnum getDelisting()`
 
 #### Other Methods
 

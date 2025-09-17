@@ -33,9 +33,9 @@
 
 #### Adder Methods
 
+- `ReferencePoolBuilder addReferencePoolItem(List arg0)`
 - `ReferencePoolBuilder addReferencePoolItem(ReferencePoolItem arg0)`
 - `ReferencePoolBuilder addReferencePoolItem(ReferencePoolItem arg0, int arg1)`
-- `ReferencePoolBuilder addReferencePoolItem(List arg0)`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferencePoolBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferencePoolBuilder toBuilder()`
 - `ReferencePoolBuilder prune()`
+- `ReferencePoolBuilder toBuilder()`
+- `boolean hasData()`
 

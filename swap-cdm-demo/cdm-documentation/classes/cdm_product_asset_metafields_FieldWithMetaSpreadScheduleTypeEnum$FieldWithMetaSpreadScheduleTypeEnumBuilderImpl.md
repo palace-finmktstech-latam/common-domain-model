@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaSpreadScheduleTypeEnumBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaSpreadScheduleTypeEnumBuilder toBuilder()`
 - `FieldWithMetaSpreadScheduleTypeEnumBuilder prune()`
+- `FieldWithMetaSpreadScheduleTypeEnumBuilder toBuilder()`
+- `boolean hasData()`
 

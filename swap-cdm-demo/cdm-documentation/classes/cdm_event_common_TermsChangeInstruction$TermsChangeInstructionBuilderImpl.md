@@ -27,22 +27,22 @@
 #### Setter Methods
 
 - `TermsChangeInstructionBuilder setAncillaryParty(List arg0)`
-- `TermsChangeInstructionBuilder setAdjustment(NotionalAdjustmentEnum arg0)`
 - `TermsChangeInstructionBuilder setProduct(NonTransferableProduct arg0)`
+- `TermsChangeInstructionBuilder setAdjustment(NotionalAdjustmentEnum arg0)`
 
 #### Getter Methods
 
+- `NotionalAdjustmentEnum getAdjustment()`
+- `List getAncillaryParty()`
 - `AncillaryPartyBuilder getOrCreateAncillaryParty(int arg0)`
 - `NonTransferableProductBuilder getOrCreateProduct()`
-- `List getAncillaryParty()`
-- `NotionalAdjustmentEnum getAdjustment()`
 - `NonTransferableProductBuilder getProduct()`
 
 #### Adder Methods
 
 - `TermsChangeInstructionBuilder addAncillaryParty(AncillaryParty arg0)`
-- `TermsChangeInstructionBuilder addAncillaryParty(AncillaryParty arg0, int arg1)`
 - `TermsChangeInstructionBuilder addAncillaryParty(List arg0)`
+- `TermsChangeInstructionBuilder addAncillaryParty(AncillaryParty arg0, int arg1)`
 
 #### Other Methods
 
@@ -50,7 +50,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TermsChangeInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TermsChangeInstructionBuilder toBuilder()`
 - `TermsChangeInstructionBuilder prune()`
+- `TermsChangeInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

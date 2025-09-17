@@ -27,10 +27,10 @@
 
 #### Getter Methods
 
-- `ReferenceWithMetaMoney getNotionalReference()`
-- `AmountSchedule getFeeAmountSchedule()`
 - `RelativeDateOffset getFeePaymentDate()`
+- `AmountSchedule getFeeAmountSchedule()`
 - `Schedule getFeeRateSchedule()`
+- `ReferenceWithMetaMoney getNotionalReference()`
 
 #### Other Methods
 

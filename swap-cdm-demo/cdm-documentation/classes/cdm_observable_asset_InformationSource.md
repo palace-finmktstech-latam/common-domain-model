@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
+- `FieldWithMetaString getSourcePage()`
 - `String getSourcePageHeading()`
 - `FieldWithMetaInformationProviderEnum getSourceProvider()`
-- `FieldWithMetaString getSourcePage()`
 
 #### Other Methods
 

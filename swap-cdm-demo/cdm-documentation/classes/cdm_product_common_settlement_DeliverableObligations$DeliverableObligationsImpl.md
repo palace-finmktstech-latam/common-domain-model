@@ -22,29 +22,29 @@
 
 #### Getter Methods
 
+- `Boolean getGeneralFundObligationLiability()`
+- `Boolean getRevenueObligationLiability()`
+- `Boolean getFullFaithAndCreditObLiability()`
+- `Boolean getAccruedInterest()`
+- `Boolean getNotDomesticLaw()`
+- `Boolean getNotContingent()`
+- `SpecifiedCurrency getSpecifiedCurrency()`
+- `Boolean getNotDomesticIssuance()`
+- `Boolean getTransferable()`
+- `NotDomesticCurrency getNotDomesticCurrency()`
+- `Period getMaximumMaturity()`
+- `Boolean getNotSovereignLender()`
+- `PCDeliverableObligationCharac getAssignableLoan()`
+- `PCDeliverableObligationCharac getConsentRequiredLoan()`
+- `Boolean getNotSubordinated()`
+- `Boolean getNotBearer()`
 - `Boolean getListed()`
+- `String getExcluded()`
 - `Boolean getAcceleratedOrMatured()`
 - `ObligationCategoryEnum getCategory()`
 - `LoanParticipation getDirectLoanParticipation()`
-- `String getExcluded()`
 - `String getOthReferenceEntityObligations()`
 - `LoanParticipation getIndirectLoanParticipation()`
-- `Boolean getFullFaithAndCreditObLiability()`
-- `Boolean getGeneralFundObligationLiability()`
-- `Boolean getRevenueObligationLiability()`
-- `Boolean getAccruedInterest()`
-- `Boolean getNotBearer()`
-- `Boolean getNotDomesticIssuance()`
-- `Boolean getTransferable()`
-- `SpecifiedCurrency getSpecifiedCurrency()`
-- `Boolean getNotDomesticLaw()`
-- `Boolean getNotContingent()`
-- `PCDeliverableObligationCharac getAssignableLoan()`
-- `PCDeliverableObligationCharac getConsentRequiredLoan()`
-- `NotDomesticCurrency getNotDomesticCurrency()`
-- `Boolean getNotSubordinated()`
-- `Boolean getNotSovereignLender()`
-- `Period getMaximumMaturity()`
 
 #### Other Methods
 

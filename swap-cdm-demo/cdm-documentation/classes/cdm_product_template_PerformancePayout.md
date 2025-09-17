@@ -19,16 +19,16 @@
 #### Getter Methods
 
 - `Class getType()`
-- `List getInterimValuationPrice()`
-- `List getPortfolioReturnTerms()`
-- `List getFinalValuationPrice()`
-- `List getInitialValuationPrice()`
 - `Underlier getUnderlier()`
+- `ValuationDates getValuationDates()`
+- `PaymentDates getPaymentDates()`
+- `ObservationTerms getObservationTerms()`
 - `List getFxFeature()`
 - `ReturnTerms getReturnTerms()`
-- `ObservationTerms getObservationTerms()`
-- `PaymentDates getPaymentDates()`
-- `ValuationDates getValuationDates()`
+- `List getInitialValuationPrice()`
+- `List getPortfolioReturnTerms()`
+- `List getFinalValuationPrice()`
+- `List getInterimValuationPrice()`
 
 #### Other Methods
 

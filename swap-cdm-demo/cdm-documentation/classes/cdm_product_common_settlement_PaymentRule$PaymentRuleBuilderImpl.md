@@ -37,7 +37,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PaymentRuleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PaymentRuleBuilder toBuilder()`
 - `PaymentRuleBuilder prune()`
+- `PaymentRuleBuilder toBuilder()`
+- `boolean hasData()`
 

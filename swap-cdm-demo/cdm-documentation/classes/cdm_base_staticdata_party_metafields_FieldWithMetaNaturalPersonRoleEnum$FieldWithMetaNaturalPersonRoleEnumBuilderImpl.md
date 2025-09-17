@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaNaturalPersonRoleEnumBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaNaturalPersonRoleEnumBuilder toBuilder()`
 - `FieldWithMetaNaturalPersonRoleEnumBuilder prune()`
+- `FieldWithMetaNaturalPersonRoleEnumBuilder toBuilder()`
+- `boolean hasData()`
 

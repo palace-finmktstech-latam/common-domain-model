@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `CommodityReferenceFramework getReferenceFramework()`
 - `FieldWithMetaString getExchangeId()`
 - `CommodityInformationPublisherEnum getCommodityInfoPublisher()`
 - `PriceSource getPriceSource()`
+- `CommodityReferenceFramework getReferenceFramework()`
 
 #### Other Methods
 

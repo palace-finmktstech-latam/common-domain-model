@@ -27,10 +27,10 @@
 
 #### Getter Methods
 
-- `FallbackRateParameters getFallbackRate()`
-- `FloatingRateCalculationParameters getCalculationParameters()`
-- `RateTreatmentEnum getRateTreatment()`
 - `RateSchedule getFloatingRateMultiplierSchedule()`
+- `FloatingRateCalculationParameters getCalculationParameters()`
+- `FallbackRateParameters getFallbackRate()`
+- `RateTreatmentEnum getRateTreatment()`
 
 #### Other Methods
 

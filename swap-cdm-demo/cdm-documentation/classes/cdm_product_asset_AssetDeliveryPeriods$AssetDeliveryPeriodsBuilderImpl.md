@@ -26,16 +26,16 @@
 
 #### Setter Methods
 
-- `AssetDeliveryPeriodsBuilder setStartDate(Date arg0)`
 - `AssetDeliveryPeriodsBuilder setEndDate(Date arg0)`
+- `AssetDeliveryPeriodsBuilder setStartDate(Date arg0)`
 - `AssetDeliveryPeriodsBuilder setProfile(List arg0)`
 
 #### Getter Methods
 
-- `Date getStartDate()`
-- `Date getEndDate()`
 - `AssetDeliveryProfileBuilder getOrCreateProfile(int arg0)`
 - `List getProfile()`
+- `Date getEndDate()`
+- `Date getStartDate()`
 
 #### Adder Methods
 
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AssetDeliveryPeriodsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AssetDeliveryPeriodsBuilder toBuilder()`
 - `AssetDeliveryPeriodsBuilder prune()`
+- `AssetDeliveryPeriodsBuilder toBuilder()`
+- `boolean hasData()`
 

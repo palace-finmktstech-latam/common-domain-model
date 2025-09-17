@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `InterestRatePayoutBuilder doEvaluate(EquitySwapMasterConfirmation2018 arg0)`
 - `InterestRatePayoutBuilder assignOutput(InterestRatePayoutBuilder arg0, EquitySwapMasterConfirmation2018 arg1)`
+- `InterestRatePayoutBuilder doEvaluate(EquitySwapMasterConfirmation2018 arg0)`
 

@@ -26,17 +26,17 @@
 
 #### Setter Methods
 
-- `InstrumentBuilder setSecurity(Security arg0)`
 - `InstrumentBuilder setLoan(Loan arg0)`
+- `InstrumentBuilder setSecurity(Security arg0)`
 - `InstrumentBuilder setListedDerivative(ListedDerivative arg0)`
 
 #### Getter Methods
 
-- `LoanBuilder getOrCreateLoan()`
-- `ListedDerivativeBuilder getListedDerivative()`
-- `LoanBuilder getLoan()`
 - `SecurityBuilder getSecurity()`
 - `SecurityBuilder getOrCreateSecurity()`
+- `ListedDerivativeBuilder getListedDerivative()`
+- `LoanBuilder getLoan()`
+- `LoanBuilder getOrCreateLoan()`
 - `ListedDerivativeBuilder getOrCreateListedDerivative()`
 
 #### Other Methods
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `InstrumentBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `InstrumentBuilder toBuilder()`
 - `InstrumentBuilder prune()`
+- `InstrumentBuilder toBuilder()`
+- `boolean hasData()`
 

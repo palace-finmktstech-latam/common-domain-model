@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `List doEvaluate(ArithmeticOperationEnum arg0, List arg1, List arg2)`
 - `List assignOutput(List arg0, ArithmeticOperationEnum arg1, List arg2, List arg3)`
+- `List doEvaluate(ArithmeticOperationEnum arg0, List arg1, List arg2)`
 

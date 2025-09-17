@@ -26,16 +26,16 @@
 
 #### Setter Methods
 
-- `PremiumExpressionBuilder setPremiumType(PremiumTypeEnum arg0)`
-- `PremiumExpressionBuilder setPricePerOption(Money arg0)`
 - `PremiumExpressionBuilder setPercentageOfNotional(BigDecimal arg0)`
+- `PremiumExpressionBuilder setPricePerOption(Money arg0)`
+- `PremiumExpressionBuilder setPremiumType(PremiumTypeEnum arg0)`
 
 #### Getter Methods
 
-- `BigDecimal getPercentageOfNotional()`
 - `MoneyBuilder getOrCreatePricePerOption()`
-- `MoneyBuilder getPricePerOption()`
+- `BigDecimal getPercentageOfNotional()`
 - `PremiumTypeEnum getPremiumType()`
+- `MoneyBuilder getPricePerOption()`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PremiumExpressionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PremiumExpressionBuilder toBuilder()`
 - `PremiumExpressionBuilder prune()`
+- `PremiumExpressionBuilder toBuilder()`
+- `boolean hasData()`
 

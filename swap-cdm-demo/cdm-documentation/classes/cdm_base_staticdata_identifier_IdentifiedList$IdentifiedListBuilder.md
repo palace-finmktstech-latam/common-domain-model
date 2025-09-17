@@ -16,26 +16,26 @@
 
 #### Setter Methods
 
-- `IdentifiedListBuilder setPrice(Price arg0)`
-- `IdentifiedListBuilder setListId(Identifier arg0)`
 - `IdentifiedListBuilder setComponentId(List arg0)`
 - `IdentifiedListBuilder setMeta(MetaFields arg0)`
+- `IdentifiedListBuilder setListId(Identifier arg0)`
+- `IdentifiedListBuilder setPrice(Price arg0)`
 
 #### Getter Methods
 
-- `PriceBuilder getOrCreatePrice()`
-- `IdentifierBuilder getOrCreateListId()`
-- `IdentifierBuilder getOrCreateComponentId(int arg0)`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `IdentifierBuilder getListId()`
-- `PriceBuilder getPrice()`
+- `PriceBuilder getOrCreatePrice()`
 - `List getComponentId()`
 - `MetaFieldsBuilder getMeta()`
+- `IdentifierBuilder getListId()`
+- `PriceBuilder getPrice()`
+- `IdentifierBuilder getOrCreateComponentId(int arg0)`
+- `IdentifierBuilder getOrCreateListId()`
 
 #### Adder Methods
 
-- `IdentifiedListBuilder addComponentId(Identifier arg0)`
 - `IdentifiedListBuilder addComponentId(Identifier arg0, int arg1)`
+- `IdentifiedListBuilder addComponentId(Identifier arg0)`
 - `IdentifiedListBuilder addComponentId(List arg0)`
 
 #### Other Methods

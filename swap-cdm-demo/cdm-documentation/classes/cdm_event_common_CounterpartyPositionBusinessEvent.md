@@ -20,8 +20,8 @@
 
 - `Class getType()`
 - `Date getEffectiveDate()`
-- `CorporateActionTypeEnum getCorporateActionIntent()`
 - `IdentifiedList getPackageInformation()`
+- `CorporateActionTypeEnum getCorporateActionIntent()`
 - `Date getEventDate()`
 - `List getAfter()`
 - `PositionEventIntentEnum getIntent()`

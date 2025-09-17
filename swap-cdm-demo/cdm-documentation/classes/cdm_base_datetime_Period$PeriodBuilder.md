@@ -16,9 +16,9 @@
 
 #### Setter Methods
 
+- `PeriodBuilder setMeta(MetaFields arg0)`
 - `PeriodBuilder setPeriod(PeriodEnum arg0)`
 - `PeriodBuilder setPeriodMultiplier(Integer arg0)`
-- `PeriodBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 

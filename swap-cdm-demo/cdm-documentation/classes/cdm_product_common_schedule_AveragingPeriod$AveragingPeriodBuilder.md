@@ -16,21 +16,21 @@
 #### Setter Methods
 
 - `AveragingPeriodBuilder setSchedule(List arg0)`
+- `AveragingPeriodBuilder setAveragingDateTimes(DateTimeList arg0)`
 - `AveragingPeriodBuilder setMarketDisruptionValue(MarketDisruptionEnum arg0)`
 - `AveragingPeriodBuilder setMarketDisruption(FieldWithMetaMarketDisruptionEnum arg0)`
 - `AveragingPeriodBuilder setAveragingObservations(AveragingObservationList arg0)`
-- `AveragingPeriodBuilder setAveragingDateTimes(DateTimeList arg0)`
 
 #### Getter Methods
 
 - `List getSchedule()`
 - `AveragingScheduleBuilder getOrCreateSchedule(int arg0)`
-- `FieldWithMetaMarketDisruptionEnumBuilder getOrCreateMarketDisruption()`
-- `AveragingObservationListBuilder getOrCreateAveragingObservations()`
-- `DateTimeListBuilder getOrCreateAveragingDateTimes()`
 - `FieldWithMetaMarketDisruptionEnumBuilder getMarketDisruption()`
 - `AveragingObservationListBuilder getAveragingObservations()`
 - `DateTimeListBuilder getAveragingDateTimes()`
+- `FieldWithMetaMarketDisruptionEnumBuilder getOrCreateMarketDisruption()`
+- `DateTimeListBuilder getOrCreateAveragingDateTimes()`
+- `AveragingObservationListBuilder getOrCreateAveragingObservations()`
 
 #### Adder Methods
 

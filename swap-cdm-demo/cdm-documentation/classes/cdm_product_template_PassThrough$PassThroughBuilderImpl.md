@@ -33,9 +33,9 @@
 
 #### Adder Methods
 
-- `PassThroughBuilder addPassThroughItem(PassThroughItem arg0, int arg1)`
 - `PassThroughBuilder addPassThroughItem(List arg0)`
 - `PassThroughBuilder addPassThroughItem(PassThroughItem arg0)`
+- `PassThroughBuilder addPassThroughItem(PassThroughItem arg0, int arg1)`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PassThroughBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PassThroughBuilder toBuilder()`
 - `PassThroughBuilder prune()`
+- `PassThroughBuilder toBuilder()`
+- `boolean hasData()`
 

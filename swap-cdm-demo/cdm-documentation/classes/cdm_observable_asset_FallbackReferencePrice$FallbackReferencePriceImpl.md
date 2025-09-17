@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
+- `ValuationPostponement getValuationPostponement()`
 - `List getFallBackSettlementRateOption()`
 - `Boolean getFallbackSurveyValuationPostponement()`
 - `CalculationAgent getCalculationAgentDetermination()`
-- `ValuationPostponement getValuationPostponement()`
 
 #### Other Methods
 

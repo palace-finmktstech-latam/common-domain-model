@@ -26,16 +26,16 @@
 
 #### Setter Methods
 
-- `CalculationPeriodBaseBuilder setAdjustedEndDate(Date arg0)`
-- `CalculationPeriodBaseBuilder setAdjustedStartDate(Date arg0)`
 - `CalculationPeriodBaseBuilder setMeta(MetaFields arg0)`
+- `CalculationPeriodBaseBuilder setAdjustedStartDate(Date arg0)`
+- `CalculationPeriodBaseBuilder setAdjustedEndDate(Date arg0)`
 
 #### Getter Methods
 
-- `Date getAdjustedStartDate()`
-- `Date getAdjustedEndDate()`
 - `MetaFieldsBuilder getOrCreateMeta()`
 - `MetaFieldsBuilder getMeta()`
+- `Date getAdjustedEndDate()`
+- `Date getAdjustedStartDate()`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CalculationPeriodBaseBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CalculationPeriodBaseBuilder toBuilder()`
 - `CalculationPeriodBaseBuilder prune()`
+- `CalculationPeriodBaseBuilder toBuilder()`
+- `boolean hasData()`
 

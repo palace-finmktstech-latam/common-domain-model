@@ -20,9 +20,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Date getAdjustedExtendedTerminationDate()`
 - `Date getAdjustedExerciseDate()`
 - `MetaFields getMeta()`
+- `Date getAdjustedExtendedTerminationDate()`
 
 #### Other Methods
 

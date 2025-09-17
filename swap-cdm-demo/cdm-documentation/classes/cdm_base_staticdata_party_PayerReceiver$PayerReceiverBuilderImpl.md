@@ -30,8 +30,8 @@
 
 #### Getter Methods
 
-- `CounterpartyRoleEnum getPayer()`
 - `CounterpartyRoleEnum getReceiver()`
+- `CounterpartyRoleEnum getPayer()`
 
 #### Other Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PayerReceiverBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PayerReceiverBuilder toBuilder()`
 - `PayerReceiverBuilder prune()`
+- `PayerReceiverBuilder toBuilder()`
+- `boolean hasData()`
 

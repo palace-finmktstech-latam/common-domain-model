@@ -21,8 +21,8 @@
 #### Other Methods
 
 - `CurrencyCodeEnum evaluate(Cash arg0)`
-- `CurrencyCodeEnum doEvaluate(Cash arg0)`
 - `MapperC cashId(Cash arg0)`
+- `CurrencyCodeEnum doEvaluate(Cash arg0)`
 
 ### Annotations
 

@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `Cashflow getExchangedCurrency2()`
-- `Cashflow getExchangedCurrency1()`
 - `Period getTenorPeriod()`
+- `Cashflow getExchangedCurrency1()`
 
 #### Other Methods
 

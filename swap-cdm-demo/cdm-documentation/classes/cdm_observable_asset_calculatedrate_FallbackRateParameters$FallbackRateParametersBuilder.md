@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `FallbackRateParametersBuilder setEffectiveDate(Date arg0)`
-- `FallbackRateParametersBuilder setFloatingRateIndex(FloatingRateIndexEnum arg0)`
 - `FallbackRateParametersBuilder setCalculationParameters(FloatingRateCalculationParameters arg0)`
+- `FallbackRateParametersBuilder setEffectiveDate(Date arg0)`
 - `FallbackRateParametersBuilder setSpreadAdjustment(BigDecimal arg0)`
+- `FallbackRateParametersBuilder setFloatingRateIndex(FloatingRateIndexEnum arg0)`
 
 #### Getter Methods
 
-- `FloatingRateCalculationParametersBuilder getCalculationParameters()`
 - `FloatingRateCalculationParametersBuilder getOrCreateCalculationParameters()`
+- `FloatingRateCalculationParametersBuilder getCalculationParameters()`
 
 #### Other Methods
 

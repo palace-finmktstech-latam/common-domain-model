@@ -16,8 +16,8 @@
 #### Setter Methods
 
 - `PriceReturnTermsBuilder setReturnType(ReturnTypeEnum arg0)`
-- `PriceReturnTermsBuilder setPerformance(String arg0)`
 - `PriceReturnTermsBuilder setConversionFactor(BigDecimal arg0)`
+- `PriceReturnTermsBuilder setPerformance(String arg0)`
 
 #### Other Methods
 

@@ -22,7 +22,7 @@
 - `String toString()`
 - `int hashCode()`
 - `EquityCorporateEventsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `EquityCorporateEventsBuilder toBuilder()`
 - `EquityCorporateEventsBuilder prune()`
+- `EquityCorporateEventsBuilder toBuilder()`
+- `boolean hasData()`
 

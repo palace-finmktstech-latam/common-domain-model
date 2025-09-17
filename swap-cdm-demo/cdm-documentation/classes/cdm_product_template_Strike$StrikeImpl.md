@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `PayerReceiverEnum getSeller()`
-- `PayerReceiverEnum getBuyer()`
-- `BigDecimal getStrikeRate()`
 - `MetaFields getMeta()`
+- `BigDecimal getStrikeRate()`
+- `PayerReceiverEnum getBuyer()`
+- `PayerReceiverEnum getSeller()`
 
 #### Other Methods
 

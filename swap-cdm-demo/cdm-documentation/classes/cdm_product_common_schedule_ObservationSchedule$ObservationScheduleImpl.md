@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `List getObservationDate()`
 - `BusinessDayAdjustments getDateAdjustments()`
+- `List getObservationDate()`
 
 #### Other Methods
 

@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `GracePeriodExtensionBuilder setGracePeriod(Offset arg0)`
 - `GracePeriodExtensionBuilder setApplicable(Boolean arg0)`
+- `GracePeriodExtensionBuilder setGracePeriod(Offset arg0)`
 
 #### Getter Methods
 

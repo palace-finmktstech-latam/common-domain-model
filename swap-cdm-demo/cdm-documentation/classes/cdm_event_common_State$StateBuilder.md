@@ -15,13 +15,13 @@
 
 #### Setter Methods
 
-- `StateBuilder setClosedState(ClosedState arg0)`
 - `StateBuilder setPositionState(PositionStatusEnum arg0)`
+- `StateBuilder setClosedState(ClosedState arg0)`
 
 #### Getter Methods
 
-- `ClosedStateBuilder getOrCreateClosedState()`
 - `ClosedStateBuilder getClosedState()`
+- `ClosedStateBuilder getOrCreateClosedState()`
 
 #### Other Methods
 

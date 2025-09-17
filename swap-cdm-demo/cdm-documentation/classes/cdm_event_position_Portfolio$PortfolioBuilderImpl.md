@@ -25,14 +25,14 @@
 
 #### Setter Methods
 
-- `PortfolioBuilder setAggregationParameters(AggregationParameters arg0)`
 - `PortfolioBuilder setPortfolioState(PortfolioState arg0)`
+- `PortfolioBuilder setAggregationParameters(AggregationParameters arg0)`
 
 #### Getter Methods
 
 - `AggregationParametersBuilder getOrCreateAggregationParameters()`
-- `AggregationParametersBuilder getAggregationParameters()`
 - `PortfolioStateBuilder getPortfolioState()`
+- `AggregationParametersBuilder getAggregationParameters()`
 - `PortfolioStateBuilder getOrCreatePortfolioState()`
 
 #### Other Methods
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PortfolioBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PortfolioBuilder toBuilder()`
 - `PortfolioBuilder prune()`
+- `PortfolioBuilder toBuilder()`
+- `boolean hasData()`
 

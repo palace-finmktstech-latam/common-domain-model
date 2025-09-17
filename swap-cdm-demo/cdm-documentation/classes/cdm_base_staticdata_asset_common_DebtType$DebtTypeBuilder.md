@@ -20,8 +20,8 @@
 
 #### Getter Methods
 
-- `DebtEconomicsBuilder getOrCreateDebtEconomics(int arg0)`
 - `List getDebtEconomics()`
+- `DebtEconomicsBuilder getOrCreateDebtEconomics(int arg0)`
 
 #### Adder Methods
 

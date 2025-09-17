@@ -15,7 +15,7 @@
 
 #### Other Methods
 
-- `AdjustableOrRelativeDateBuilder doEvaluate(AdjustableOrAdjustedOrRelativeDate arg0)`
 - `AdjustableOrRelativeDateBuilder assignOutput(AdjustableOrRelativeDateBuilder arg0, AdjustableOrAdjustedOrRelativeDate arg1)`
+- `AdjustableOrRelativeDateBuilder doEvaluate(AdjustableOrAdjustedOrRelativeDate arg0)`
 - `MapperS relativeDate(AdjustableOrAdjustedOrRelativeDate arg0)`
 

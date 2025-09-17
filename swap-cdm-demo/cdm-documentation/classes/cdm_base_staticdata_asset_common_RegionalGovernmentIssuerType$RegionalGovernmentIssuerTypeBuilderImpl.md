@@ -36,7 +36,7 @@
 - `String toString()`
 - `int hashCode()`
 - `RegionalGovernmentIssuerTypeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `RegionalGovernmentIssuerTypeBuilder toBuilder()`
 - `RegionalGovernmentIssuerTypeBuilder prune()`
+- `RegionalGovernmentIssuerTypeBuilder toBuilder()`
+- `boolean hasData()`
 

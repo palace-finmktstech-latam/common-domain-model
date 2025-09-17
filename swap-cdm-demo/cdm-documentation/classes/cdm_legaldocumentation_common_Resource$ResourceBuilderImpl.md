@@ -36,16 +36,16 @@
 - `ResourceBuilder setName(String arg0)`
 - `ResourceBuilder setLength(ResourceLength arg0)`
 - `ResourceBuilder setLanguage(FieldWithMetaString arg0)`
-- `ResourceBuilder setResourceIdValue(String arg0)`
+- `ResourceBuilder setComments(String arg0)`
+- `ResourceBuilder setUrl(String arg0)`
+- `ResourceBuilder setMimeType(FieldWithMetaString arg0)`
+- `ResourceBuilder setResourceId(FieldWithMetaString arg0)`
 - `ResourceBuilder setLanguageValue(String arg0)`
+- `ResourceBuilder setSizeInBytes(BigDecimal arg0)`
+- `ResourceBuilder setResourceIdValue(String arg0)`
 - `ResourceBuilder setResourceType(FieldWithMetaResourceTypeEnum arg0)`
 - `ResourceBuilder setResourceTypeValue(ResourceTypeEnum arg0)`
 - `ResourceBuilder setMimeTypeValue(String arg0)`
-- `ResourceBuilder setResourceId(FieldWithMetaString arg0)`
-- `ResourceBuilder setMimeType(FieldWithMetaString arg0)`
-- `ResourceBuilder setSizeInBytes(BigDecimal arg0)`
-- `ResourceBuilder setComments(String arg0)`
-- `ResourceBuilder setUrl(String arg0)`
 - `ResourceBuilder setString(String arg0)`
 
 #### Getter Methods
@@ -54,17 +54,17 @@
 - `ResourceLengthBuilder getLength()`
 - `FieldWithMetaStringBuilder getLanguage()`
 - `String getString()`
+- `String getComments()`
+- `String getUrl()`
+- `FieldWithMetaStringBuilder getResourceId()`
+- `FieldWithMetaResourceTypeEnumBuilder getResourceType()`
+- `BigDecimal getSizeInBytes()`
+- `FieldWithMetaStringBuilder getMimeType()`
 - `FieldWithMetaStringBuilder getOrCreateLanguage()`
-- `FieldWithMetaResourceTypeEnumBuilder getOrCreateResourceType()`
 - `FieldWithMetaStringBuilder getOrCreateResourceId()`
 - `FieldWithMetaStringBuilder getOrCreateMimeType()`
 - `ResourceLengthBuilder getOrCreateLength()`
-- `FieldWithMetaStringBuilder getResourceId()`
-- `FieldWithMetaStringBuilder getMimeType()`
-- `BigDecimal getSizeInBytes()`
-- `FieldWithMetaResourceTypeEnumBuilder getResourceType()`
-- `String getComments()`
-- `String getUrl()`
+- `FieldWithMetaResourceTypeEnumBuilder getOrCreateResourceType()`
 
 #### Other Methods
 
@@ -72,7 +72,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ResourceBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ResourceBuilder toBuilder()`
 - `ResourceBuilder prune()`
+- `ResourceBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -15,17 +15,17 @@
 
 #### Setter Methods
 
-- `AdditionalDisruptionEventsBuilder setDeterminingParty(AncillaryRoleEnum arg0)`
 - `AdditionalDisruptionEventsBuilder setAdditionalBespokeTerms(List arg0)`
 - `AdditionalDisruptionEventsBuilder setFailureToDeliver(Boolean arg0)`
-- `AdditionalDisruptionEventsBuilder setInitialStockLoanRate(BigDecimal arg0)`
 - `AdditionalDisruptionEventsBuilder setLossOfStockBorrow(Boolean arg0)`
+- `AdditionalDisruptionEventsBuilder setInitialStockLoanRate(BigDecimal arg0)`
 - `AdditionalDisruptionEventsBuilder setInsolvencyFiling(Boolean arg0)`
-- `AdditionalDisruptionEventsBuilder setHedgingDisruption(Boolean arg0)`
 - `AdditionalDisruptionEventsBuilder setForeignOwnershipEvent(Boolean arg0)`
-- `AdditionalDisruptionEventsBuilder setIncreasedCostOfHedging(Boolean arg0)`
 - `AdditionalDisruptionEventsBuilder setMaximumStockLoanRate(BigDecimal arg0)`
+- `AdditionalDisruptionEventsBuilder setHedgingDisruption(Boolean arg0)`
+- `AdditionalDisruptionEventsBuilder setIncreasedCostOfHedging(Boolean arg0)`
 - `AdditionalDisruptionEventsBuilder setChangeInLaw(Boolean arg0)`
+- `AdditionalDisruptionEventsBuilder setDeterminingParty(AncillaryRoleEnum arg0)`
 - `AdditionalDisruptionEventsBuilder setIncreasedCostOfStockBorrow(Boolean arg0)`
 
 #### Getter Methods

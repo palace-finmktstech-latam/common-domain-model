@@ -21,8 +21,8 @@
 
 #### Getter Methods
 
-- `TimeZoneBuilder getPricingTime()`
 - `TradeBuilder getOrCreateTrade()`
+- `TimeZoneBuilder getPricingTime()`
 - `TimeZoneBuilder getOrCreatePricingTime()`
 - `TradeBuilder getTrade()`
 

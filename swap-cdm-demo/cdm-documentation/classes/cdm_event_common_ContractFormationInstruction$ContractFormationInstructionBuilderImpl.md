@@ -28,8 +28,8 @@
 
 #### Getter Methods
 
-- `List getLegalAgreement()`
 - `LegalAgreementBuilder getOrCreateLegalAgreement(int arg0)`
+- `List getLegalAgreement()`
 
 #### Adder Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ContractFormationInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ContractFormationInstructionBuilder toBuilder()`
 - `ContractFormationInstructionBuilder prune()`
+- `ContractFormationInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

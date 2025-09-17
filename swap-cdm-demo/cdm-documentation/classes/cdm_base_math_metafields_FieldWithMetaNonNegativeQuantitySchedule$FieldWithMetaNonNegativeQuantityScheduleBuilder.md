@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `NonNegativeQuantityScheduleBuilder getValue()`
-- `NonNegativeQuantityScheduleBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `NonNegativeQuantityScheduleBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods

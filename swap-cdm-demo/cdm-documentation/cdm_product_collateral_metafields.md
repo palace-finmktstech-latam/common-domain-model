@@ -18,8 +18,8 @@
 **Key Methods:**
 - `setValue(CreditSupportAgreementTypeEnum arg0)` → `FieldWithMetaCreditSupportAgreementTypeEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaCreditSupportAgreementTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaCreditSupportAgreementTypeEnumBuilder` [Setter]
 
 ### ReferenceWithMetaCollateral
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -29,8 +29,8 @@
 - `getValue()` → `Collateral` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaCollateral` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaCollateralBuilder
@@ -40,9 +40,9 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `CollateralBuilder` [Getter]
 - `setValue(Collateral arg0)` → `ReferenceWithMetaCollateralBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaCollateralBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaCollateralBuilder` [Setter]
 - `getOrCreateValue()` → `CollateralBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaCollateralBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaCollateralBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaCollateralBuilder` [Setter]
 

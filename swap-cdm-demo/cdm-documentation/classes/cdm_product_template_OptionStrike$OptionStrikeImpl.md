@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `ReferenceWithMetaFixedRateSpecification getStrikeReference()`
+- `ReferenceSwapCurve getReferenceSwapCurve()`
 - `AveragingStrikeFeature getAveragingStrikeFeature()`
 - `Price getStrikePrice()`
-- `ReferenceSwapCurve getReferenceSwapCurve()`
+- `ReferenceWithMetaFixedRateSpecification getStrikeReference()`
 
 #### Other Methods
 

@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `RateSchedule getRateSchedule()`
 - `MetaFields getMeta()`
+- `RateSchedule getRateSchedule()`
 
 #### Other Methods
 

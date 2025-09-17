@@ -26,19 +26,19 @@
 
 #### Setter Methods
 
-- `InformationSourceBuilder setSourcePage(FieldWithMetaString arg0)`
-- `InformationSourceBuilder setSourceProvider(FieldWithMetaInformationProviderEnum arg0)`
-- `InformationSourceBuilder setSourceProviderValue(InformationProviderEnum arg0)`
-- `InformationSourceBuilder setSourcePageValue(String arg0)`
 - `InformationSourceBuilder setSourcePageHeading(String arg0)`
+- `InformationSourceBuilder setSourcePageValue(String arg0)`
+- `InformationSourceBuilder setSourceProvider(FieldWithMetaInformationProviderEnum arg0)`
+- `InformationSourceBuilder setSourcePage(FieldWithMetaString arg0)`
+- `InformationSourceBuilder setSourceProviderValue(InformationProviderEnum arg0)`
 
 #### Getter Methods
 
-- `String getSourcePageHeading()`
-- `FieldWithMetaInformationProviderEnumBuilder getSourceProvider()`
 - `FieldWithMetaStringBuilder getSourcePage()`
+- `String getSourcePageHeading()`
 - `FieldWithMetaStringBuilder getOrCreateSourcePage()`
 - `FieldWithMetaInformationProviderEnumBuilder getOrCreateSourceProvider()`
+- `FieldWithMetaInformationProviderEnumBuilder getSourceProvider()`
 
 #### Other Methods
 
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `InformationSourceBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `InformationSourceBuilder toBuilder()`
 - `InformationSourceBuilder prune()`
+- `InformationSourceBuilder toBuilder()`
+- `boolean hasData()`
 

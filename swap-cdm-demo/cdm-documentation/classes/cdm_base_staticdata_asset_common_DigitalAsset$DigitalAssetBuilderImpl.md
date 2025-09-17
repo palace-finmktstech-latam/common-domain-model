@@ -23,23 +23,23 @@
 
 #### Setter Methods
 
+- `DigitalAssetBuilder setIdentifier(List arg0)`
+- `DigitalAssetBuilder setTaxonomy(List arg0)`
+- `DigitalAssetBuilder setExchange(LegalEntity arg0)`
 - `DigitalAssetBuilder setIsExchangeListed(Boolean arg0)`
 - `DigitalAssetBuilder setRelatedExchange(List arg0)`
-- `DigitalAssetBuilder setExchange(LegalEntity arg0)`
-- `DigitalAssetBuilder setTaxonomy(List arg0)`
-- `DigitalAssetBuilder setIdentifier(List arg0)`
 
 #### Adder Methods
 
-- `DigitalAssetBuilder addRelatedExchange(List arg0)`
-- `DigitalAssetBuilder addRelatedExchange(LegalEntity arg0)`
-- `DigitalAssetBuilder addRelatedExchange(LegalEntity arg0, int arg1)`
-- `DigitalAssetBuilder addTaxonomy(Taxonomy arg0)`
-- `DigitalAssetBuilder addTaxonomy(Taxonomy arg0, int arg1)`
-- `DigitalAssetBuilder addTaxonomy(List arg0)`
 - `DigitalAssetBuilder addIdentifier(AssetIdentifier arg0, int arg1)`
-- `DigitalAssetBuilder addIdentifier(List arg0)`
 - `DigitalAssetBuilder addIdentifier(AssetIdentifier arg0)`
+- `DigitalAssetBuilder addIdentifier(List arg0)`
+- `DigitalAssetBuilder addTaxonomy(Taxonomy arg0, int arg1)`
+- `DigitalAssetBuilder addTaxonomy(Taxonomy arg0)`
+- `DigitalAssetBuilder addTaxonomy(List arg0)`
+- `DigitalAssetBuilder addRelatedExchange(LegalEntity arg0)`
+- `DigitalAssetBuilder addRelatedExchange(List arg0)`
+- `DigitalAssetBuilder addRelatedExchange(LegalEntity arg0, int arg1)`
 
 #### Other Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DigitalAssetBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DigitalAssetBuilder toBuilder()`
 - `DigitalAssetBuilder prune()`
+- `DigitalAssetBuilder toBuilder()`
+- `boolean hasData()`
 

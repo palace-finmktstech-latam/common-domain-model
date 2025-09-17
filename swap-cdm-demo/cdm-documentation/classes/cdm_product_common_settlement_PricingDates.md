@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `List getSpecifiedDates()`
 - `ParametricDates getParametricDates()`
+- `List getSpecifiedDates()`
 
 #### Other Methods
 

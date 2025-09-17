@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `AveragingCalculation getAveragingCalculation()`
 - `ObservationTerms getObservationTerms()`
+- `AveragingCalculation getAveragingCalculation()`
 
 #### Other Methods
 

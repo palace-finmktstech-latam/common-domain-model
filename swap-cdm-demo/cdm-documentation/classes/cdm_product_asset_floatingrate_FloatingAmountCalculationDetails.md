@@ -20,13 +20,13 @@
 
 - `Class getType()`
 - `BigDecimal getYearFraction()`
-- `BigDecimal getCalculatedAmount()`
-- `FloatingRateSettingDetails getFloatingRate()`
 - `CalculationPeriodBase getCalculationPeriod()`
-- `FloatingRateProcessingDetails getProcessingDetails()`
-- `BigDecimal getAppliedRate()`
-- `BigDecimal getSpreadExclusiveCalculatedAMount()`
+- `BigDecimal getCalculatedAmount()`
 - `Money getCalculationPeriodNotionalAmount()`
+- `BigDecimal getSpreadExclusiveCalculatedAMount()`
+- `BigDecimal getAppliedRate()`
+- `FloatingRateSettingDetails getFloatingRate()`
+- `FloatingRateProcessingDetails getProcessingDetails()`
 
 #### Other Methods
 

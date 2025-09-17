@@ -27,9 +27,9 @@
 #### Setter Methods
 
 - `FloatingRateIndexIdentificationBuilder setCurrency(ISOCurrencyCodeEnum arg0)`
+- `FloatingRateIndexIdentificationBuilder setFloatingRateIndexValue(FloatingRateIndexEnum arg0)`
 - `FloatingRateIndexIdentificationBuilder setFloatingRateIndex(FieldWithMetaFloatingRateIndexEnum arg0)`
 - `FloatingRateIndexIdentificationBuilder setFroType(String arg0)`
-- `FloatingRateIndexIdentificationBuilder setFloatingRateIndexValue(FloatingRateIndexEnum arg0)`
 
 #### Getter Methods
 
@@ -44,7 +44,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FloatingRateIndexIdentificationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FloatingRateIndexIdentificationBuilder toBuilder()`
 - `FloatingRateIndexIdentificationBuilder prune()`
+- `FloatingRateIndexIdentificationBuilder toBuilder()`
+- `boolean hasData()`
 

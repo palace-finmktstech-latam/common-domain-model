@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `DateRangeBuilder setStartDate(Date arg0)`
 - `DateRangeBuilder setEndDate(Date arg0)`
+- `DateRangeBuilder setStartDate(Date arg0)`
 
 #### Other Methods
 

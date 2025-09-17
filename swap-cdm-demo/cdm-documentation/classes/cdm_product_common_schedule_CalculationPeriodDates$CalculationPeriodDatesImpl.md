@@ -22,16 +22,16 @@
 
 #### Getter Methods
 
-- `AdjustableOrRelativeDate getFirstPeriodStartDate()`
-- `StubPeriodTypeEnum getStubPeriodType()`
 - `AdjustableOrRelativeDate getEffectiveDate()`
 - `AdjustableOrRelativeDate getTerminationDate()`
+- `MetaFields getMeta()`
+- `StubPeriodTypeEnum getStubPeriodType()`
+- `AdjustableOrRelativeDate getFirstPeriodStartDate()`
 - `Date getFirstRegularPeriodStartDate()`
 - `Date getFirstCompoundingPeriodEndDate()`
+- `Date getLastRegularPeriodEndDate()`
 - `BusinessDayAdjustments getCalculationPeriodDatesAdjustments()`
 - `CalculationPeriodFrequency getCalculationPeriodFrequency()`
-- `Date getLastRegularPeriodEndDate()`
-- `MetaFields getMeta()`
 
 #### Other Methods
 

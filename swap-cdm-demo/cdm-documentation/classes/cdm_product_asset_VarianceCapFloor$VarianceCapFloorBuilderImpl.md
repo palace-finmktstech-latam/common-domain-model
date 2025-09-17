@@ -26,16 +26,16 @@
 
 #### Setter Methods
 
-- `VarianceCapFloorBuilder setVarianceCap(Boolean arg0)`
 - `VarianceCapFloorBuilder setUnadjustedVarianceCap(BigDecimal arg0)`
 - `VarianceCapFloorBuilder setBoundedVariance(BoundedVariance arg0)`
+- `VarianceCapFloorBuilder setVarianceCap(Boolean arg0)`
 
 #### Getter Methods
 
 - `Boolean getVarianceCap()`
-- `BoundedVarianceBuilder getOrCreateBoundedVariance()`
-- `BoundedVarianceBuilder getBoundedVariance()`
 - `BigDecimal getUnadjustedVarianceCap()`
+- `BoundedVarianceBuilder getBoundedVariance()`
+- `BoundedVarianceBuilder getOrCreateBoundedVariance()`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `VarianceCapFloorBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `VarianceCapFloorBuilder toBuilder()`
 - `VarianceCapFloorBuilder prune()`
+- `VarianceCapFloorBuilder toBuilder()`
+- `boolean hasData()`
 

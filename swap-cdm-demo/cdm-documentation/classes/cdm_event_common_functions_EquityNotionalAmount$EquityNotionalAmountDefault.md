@@ -15,7 +15,7 @@
 
 #### Other Methods
 
-- `MapperS priceValue(BigDecimal arg0, Price arg1)`
-- `BigDecimal doEvaluate(BigDecimal arg0, Price arg1)`
 - `BigDecimal assignOutput(BigDecimal arg0, BigDecimal arg1, Price arg2)`
+- `BigDecimal doEvaluate(BigDecimal arg0, Price arg1)`
+- `MapperS priceValue(BigDecimal arg0, Price arg1)`
 

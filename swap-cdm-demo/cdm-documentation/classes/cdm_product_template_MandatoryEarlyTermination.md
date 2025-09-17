@@ -20,11 +20,11 @@
 #### Getter Methods
 
 - `Class getType()`
-- `CalculationAgent getCalculationAgent()`
-- `AdjustableDate getMandatoryEarlyTerminationDate()`
 - `MandatoryEarlyTerminationAdjustedDates getMandatoryEarlyTerminationAdjustedDates()`
-- `SettlementTerms getCashSettlement()`
+- `AdjustableDate getMandatoryEarlyTerminationDate()`
 - `MetaFields getMeta()`
+- `CalculationAgent getCalculationAgent()`
+- `SettlementTerms getCashSettlement()`
 
 #### Other Methods
 

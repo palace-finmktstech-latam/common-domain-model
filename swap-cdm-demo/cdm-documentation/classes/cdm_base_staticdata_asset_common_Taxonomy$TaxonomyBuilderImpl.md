@@ -31,8 +31,8 @@
 #### Getter Methods
 
 - `TaxonomyValueBuilder getValue()`
-- `TaxonomySourceEnum getSource()`
 - `TaxonomyValueBuilder getOrCreateValue()`
+- `TaxonomySourceEnum getSource()`
 
 #### Other Methods
 
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TaxonomyBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TaxonomyBuilder toBuilder()`
 - `TaxonomyBuilder prune()`
+- `TaxonomyBuilder toBuilder()`
+- `boolean hasData()`
 

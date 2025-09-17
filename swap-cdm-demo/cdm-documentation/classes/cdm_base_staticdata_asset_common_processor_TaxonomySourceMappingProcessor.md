@@ -19,6 +19,6 @@
 
 #### Other Methods
 
-- `void mapBasic(Path arg0, Optional arg1, RosettaModelObjectBuilder arg2)`
 - `void updateSchemeAndSource(Path arg0, ProductTaxonomyBuilder arg1)`
+- `void mapBasic(Path arg0, Optional arg1, RosettaModelObjectBuilder arg2)`
 

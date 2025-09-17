@@ -28,30 +28,30 @@
 
 #### Setter Methods
 
-- `ExerciseInstructionBuilder setExerciseQuantity(PrimitiveInstruction arg0)`
-- `ExerciseInstructionBuilder setExerciseOption(ReferenceWithMetaOptionPayout arg0)`
-- `ExerciseInstructionBuilder setExerciseTime(BusinessCenterTime arg0)`
-- `ExerciseInstructionBuilder setExerciseOptionValue(OptionPayout arg0)`
-- `ExerciseInstructionBuilder setExerciseDate(AdjustableOrAdjustedDate arg0)`
 - `ExerciseInstructionBuilder setReplacementTradeIdentifier(List arg0)`
+- `ExerciseInstructionBuilder setExerciseQuantity(PrimitiveInstruction arg0)`
+- `ExerciseInstructionBuilder setExerciseTime(BusinessCenterTime arg0)`
+- `ExerciseInstructionBuilder setExerciseOption(ReferenceWithMetaOptionPayout arg0)`
+- `ExerciseInstructionBuilder setExerciseDate(AdjustableOrAdjustedDate arg0)`
+- `ExerciseInstructionBuilder setExerciseOptionValue(OptionPayout arg0)`
 
 #### Getter Methods
 
-- `PrimitiveInstructionBuilder getExerciseQuantity()`
-- `AdjustableOrAdjustedDateBuilder getExerciseDate()`
-- `ReferenceWithMetaOptionPayoutBuilder getExerciseOption()`
-- `BusinessCenterTimeBuilder getExerciseTime()`
-- `AdjustableOrAdjustedDateBuilder getOrCreateExerciseDate()`
-- `BusinessCenterTimeBuilder getOrCreateExerciseTime()`
-- `ReferenceWithMetaOptionPayoutBuilder getOrCreateExerciseOption()`
 - `List getReplacementTradeIdentifier()`
 - `PrimitiveInstructionBuilder getOrCreateExerciseQuantity()`
 - `TradeIdentifierBuilder getOrCreateReplacementTradeIdentifier(int arg0)`
+- `BusinessCenterTimeBuilder getExerciseTime()`
+- `ReferenceWithMetaOptionPayoutBuilder getOrCreateExerciseOption()`
+- `PrimitiveInstructionBuilder getExerciseQuantity()`
+- `BusinessCenterTimeBuilder getOrCreateExerciseTime()`
+- `ReferenceWithMetaOptionPayoutBuilder getExerciseOption()`
+- `AdjustableOrAdjustedDateBuilder getOrCreateExerciseDate()`
+- `AdjustableOrAdjustedDateBuilder getExerciseDate()`
 
 #### Adder Methods
 
-- `ExerciseInstructionBuilder addReplacementTradeIdentifier(List arg0)`
 - `ExerciseInstructionBuilder addReplacementTradeIdentifier(TradeIdentifier arg0, int arg1)`
+- `ExerciseInstructionBuilder addReplacementTradeIdentifier(List arg0)`
 - `ExerciseInstructionBuilder addReplacementTradeIdentifier(TradeIdentifier arg0)`
 
 #### Other Methods
@@ -60,7 +60,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ExerciseInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ExerciseInstructionBuilder toBuilder()`
 - `ExerciseInstructionBuilder prune()`
+- `ExerciseInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

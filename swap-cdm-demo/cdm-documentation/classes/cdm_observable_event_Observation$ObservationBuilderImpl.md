@@ -26,18 +26,18 @@
 
 #### Setter Methods
 
+- `ObservationBuilder setMeta(MetaFields arg0)`
 - `ObservationBuilder setObservationIdentifier(ObservationIdentifier arg0)`
 - `ObservationBuilder setObservedValue(Price arg0)`
-- `ObservationBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
-- `PriceBuilder getOrCreateObservedValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `ObservationIdentifierBuilder getOrCreateObservationIdentifier()`
-- `PriceBuilder getObservedValue()`
 - `ObservationIdentifierBuilder getObservationIdentifier()`
+- `PriceBuilder getObservedValue()`
 - `MetaFieldsBuilder getMeta()`
+- `PriceBuilder getOrCreateObservedValue()`
+- `ObservationIdentifierBuilder getOrCreateObservationIdentifier()`
 
 #### Other Methods
 
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ObservationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ObservationBuilder toBuilder()`
 - `ObservationBuilder prune()`
+- `ObservationBuilder toBuilder()`
+- `boolean hasData()`
 

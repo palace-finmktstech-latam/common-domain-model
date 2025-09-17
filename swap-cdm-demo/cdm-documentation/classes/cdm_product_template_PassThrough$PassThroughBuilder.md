@@ -24,9 +24,9 @@
 
 #### Adder Methods
 
-- `PassThroughBuilder addPassThroughItem(PassThroughItem arg0, int arg1)`
-- `PassThroughBuilder addPassThroughItem(PassThroughItem arg0)`
 - `PassThroughBuilder addPassThroughItem(List arg0)`
+- `PassThroughBuilder addPassThroughItem(PassThroughItem arg0)`
+- `PassThroughBuilder addPassThroughItem(PassThroughItem arg0, int arg1)`
 
 #### Other Methods
 

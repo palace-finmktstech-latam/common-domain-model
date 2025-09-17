@@ -28,12 +28,12 @@
 
 - `BigDecimal evaluate(Trade arg0)`
 - `BigDecimal doEvaluate(Trade arg0)`
-- `MapperC quantities(Trade arg0)`
 - `MapperS quotedCurrency(Trade arg0)`
-- `MapperS interpolatedRate(Trade arg0)`
 - `MapperS baseCurrency(Trade arg0)`
-- `MapperS baseQuantity(Trade arg0)`
 - `MapperS quotedQuantity(Trade arg0)`
+- `MapperS baseQuantity(Trade arg0)`
+- `MapperS interpolatedRate(Trade arg0)`
+- `MapperC quantities(Trade arg0)`
 
 ### Annotations
 

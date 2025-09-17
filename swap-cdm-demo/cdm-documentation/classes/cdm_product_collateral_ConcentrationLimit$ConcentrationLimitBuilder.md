@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `ConcentrationLimitBuilder setPercentageLimit(NumberRange arg0)`
 - `ConcentrationLimitBuilder setValueLimit(MoneyRange arg0)`
+- `ConcentrationLimitBuilder setPercentageLimit(NumberRange arg0)`
 - `ConcentrationLimitBuilder setConcentrationLimitCriteria(ConcentrationLimitCriteria arg0)`
 
 #### Getter Methods
 
 - `MoneyRangeBuilder getValueLimit()`
-- `NumberRangeBuilder getPercentageLimit()`
 - `NumberRangeBuilder getOrCreatePercentageLimit()`
+- `NumberRangeBuilder getPercentageLimit()`
 - `MoneyRangeBuilder getOrCreateValueLimit()`
 - `ConcentrationLimitCriteriaBuilder getConcentrationLimitCriteria()`
 - `ConcentrationLimitCriteriaBuilder getOrCreateConcentrationLimitCriteria()`

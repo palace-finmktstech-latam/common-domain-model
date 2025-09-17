@@ -29,9 +29,9 @@
 
 #### Setter Methods
 
+- `LoanParticipationBuilder setApplicable(Boolean arg0)`
 - `LoanParticipationBuilder setPartialCashSettlement(Boolean arg0)`
 - `LoanParticipationBuilder setQualifyingParticipationSeller(String arg0)`
-- `LoanParticipationBuilder setApplicable(Boolean arg0)`
 
 #### Getter Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `LoanParticipationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `LoanParticipationBuilder toBuilder()`
 - `LoanParticipationBuilder prune()`
+- `LoanParticipationBuilder toBuilder()`
+- `boolean hasData()`
 

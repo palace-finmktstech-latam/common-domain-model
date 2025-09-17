@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaInterestRateIndexBuilder setValue(InterestRateIndex arg0)`
-- `ReferenceWithMetaInterestRateIndexBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaInterestRateIndexBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaInterestRateIndexBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaInterestRateIndexBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaInterestRateIndexBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

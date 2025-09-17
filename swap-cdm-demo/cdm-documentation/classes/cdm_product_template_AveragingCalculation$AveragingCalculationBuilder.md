@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `AveragingCalculationBuilder setAveragingMethod(AveragingCalculationMethod arg0)`
 - `AveragingCalculationBuilder setPrecision(Rounding arg0)`
+- `AveragingCalculationBuilder setAveragingMethod(AveragingCalculationMethod arg0)`
 
 #### Getter Methods
 
-- `AveragingCalculationMethodBuilder getOrCreateAveragingMethod()`
-- `RoundingBuilder getOrCreatePrecision()`
 - `AveragingCalculationMethodBuilder getAveragingMethod()`
 - `RoundingBuilder getPrecision()`
+- `AveragingCalculationMethodBuilder getOrCreateAveragingMethod()`
+- `RoundingBuilder getOrCreatePrecision()`
 
 #### Other Methods
 

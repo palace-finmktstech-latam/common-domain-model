@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `List doEvaluate(TradableProduct arg0)`
 - `List assignOutput(List arg0, TradableProduct arg1)`
+- `List doEvaluate(TradableProduct arg0)`
 

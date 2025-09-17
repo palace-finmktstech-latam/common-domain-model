@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaCollateralBuilder setValue(Collateral arg0)`
-- `ReferenceWithMetaCollateralBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaCollateralBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaCollateralBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaCollateralBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaCollateralBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

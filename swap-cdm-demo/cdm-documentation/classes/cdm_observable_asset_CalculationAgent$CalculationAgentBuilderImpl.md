@@ -27,16 +27,16 @@
 #### Setter Methods
 
 - `CalculationAgentBuilder setCalculationAgentParty(AncillaryRoleEnum arg0)`
-- `CalculationAgentBuilder setCalculationAgentPartyEnum(PartyDeterminationEnum arg0)`
 - `CalculationAgentBuilder setCalculationAgentBusinessCenterValue(BusinessCenterEnum arg0)`
 - `CalculationAgentBuilder setCalculationAgentBusinessCenter(FieldWithMetaBusinessCenterEnum arg0)`
+- `CalculationAgentBuilder setCalculationAgentPartyEnum(PartyDeterminationEnum arg0)`
 
 #### Getter Methods
 
 - `AncillaryRoleEnum getCalculationAgentParty()`
-- `FieldWithMetaBusinessCenterEnumBuilder getOrCreateCalculationAgentBusinessCenter()`
-- `FieldWithMetaBusinessCenterEnumBuilder getCalculationAgentBusinessCenter()`
 - `PartyDeterminationEnum getCalculationAgentPartyEnum()`
+- `FieldWithMetaBusinessCenterEnumBuilder getCalculationAgentBusinessCenter()`
+- `FieldWithMetaBusinessCenterEnumBuilder getOrCreateCalculationAgentBusinessCenter()`
 
 #### Other Methods
 
@@ -44,7 +44,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CalculationAgentBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CalculationAgentBuilder toBuilder()`
 - `CalculationAgentBuilder prune()`
+- `CalculationAgentBuilder toBuilder()`
+- `boolean hasData()`
 

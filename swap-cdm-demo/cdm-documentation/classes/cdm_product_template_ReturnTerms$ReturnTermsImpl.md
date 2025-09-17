@@ -22,11 +22,11 @@
 
 #### Getter Methods
 
-- `CorrelationReturnTerms getCorrelationReturnTerms()`
-- `VarianceReturnTerms getVarianceReturnTerms()`
+- `PriceReturnTerms getPriceReturnTerms()`
 - `VolatilityReturnTerms getVolatilityReturnTerms()`
 - `DividendReturnTerms getDividendReturnTerms()`
-- `PriceReturnTerms getPriceReturnTerms()`
+- `CorrelationReturnTerms getCorrelationReturnTerms()`
+- `VarianceReturnTerms getVarianceReturnTerms()`
 
 #### Other Methods
 

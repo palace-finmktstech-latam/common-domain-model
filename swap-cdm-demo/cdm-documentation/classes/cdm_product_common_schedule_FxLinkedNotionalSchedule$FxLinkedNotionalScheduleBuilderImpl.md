@@ -28,25 +28,25 @@
 
 #### Setter Methods
 
-- `FxLinkedNotionalScheduleBuilder setVaryingNotionalCurrencyValue(String arg0)`
-- `FxLinkedNotionalScheduleBuilder setVaryingNotionalFixingDates(RelativeDateOffset arg0)`
 - `FxLinkedNotionalScheduleBuilder setFixingTime(BusinessCenterTime arg0)`
 - `FxLinkedNotionalScheduleBuilder setFxSpotRateSource(FxSpotRateSource arg0)`
-- `FxLinkedNotionalScheduleBuilder setVaryingNotionalInterimExchangePaymentDates(RelativeDateOffset arg0)`
 - `FxLinkedNotionalScheduleBuilder setVaryingNotionalCurrency(FieldWithMetaString arg0)`
+- `FxLinkedNotionalScheduleBuilder setVaryingNotionalInterimExchangePaymentDates(RelativeDateOffset arg0)`
+- `FxLinkedNotionalScheduleBuilder setVaryingNotionalCurrencyValue(String arg0)`
+- `FxLinkedNotionalScheduleBuilder setVaryingNotionalFixingDates(RelativeDateOffset arg0)`
 
 #### Getter Methods
 
-- `FxSpotRateSourceBuilder getOrCreateFxSpotRateSource()`
-- `FieldWithMetaStringBuilder getOrCreateVaryingNotionalCurrency()`
-- `RelativeDateOffsetBuilder getOrCreateVaryingNotionalFixingDates()`
-- `RelativeDateOffsetBuilder getVaryingNotionalFixingDates()`
 - `FxSpotRateSourceBuilder getFxSpotRateSource()`
 - `BusinessCenterTimeBuilder getFixingTime()`
 - `BusinessCenterTimeBuilder getOrCreateFixingTime()`
+- `FxSpotRateSourceBuilder getOrCreateFxSpotRateSource()`
+- `FieldWithMetaStringBuilder getVaryingNotionalCurrency()`
 - `RelativeDateOffsetBuilder getOrCreateVaryingNotionalInterimExchangePaymentDates()`
 - `RelativeDateOffsetBuilder getVaryingNotionalInterimExchangePaymentDates()`
-- `FieldWithMetaStringBuilder getVaryingNotionalCurrency()`
+- `FieldWithMetaStringBuilder getOrCreateVaryingNotionalCurrency()`
+- `RelativeDateOffsetBuilder getVaryingNotionalFixingDates()`
+- `RelativeDateOffsetBuilder getOrCreateVaryingNotionalFixingDates()`
 
 #### Other Methods
 
@@ -54,7 +54,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FxLinkedNotionalScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FxLinkedNotionalScheduleBuilder toBuilder()`
 - `FxLinkedNotionalScheduleBuilder prune()`
+- `FxLinkedNotionalScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

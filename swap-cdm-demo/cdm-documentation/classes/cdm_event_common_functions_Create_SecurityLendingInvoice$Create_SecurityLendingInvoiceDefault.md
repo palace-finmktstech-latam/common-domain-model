@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `SecurityLendingInvoiceBuilder doEvaluate(BillingInstruction arg0)`
 - `SecurityLendingInvoiceBuilder assignOutput(SecurityLendingInvoiceBuilder arg0, BillingInstruction arg1)`
+- `SecurityLendingInvoiceBuilder doEvaluate(BillingInstruction arg0)`
 

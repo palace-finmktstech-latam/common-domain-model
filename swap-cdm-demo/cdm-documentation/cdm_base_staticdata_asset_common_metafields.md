@@ -18,8 +18,8 @@
 **Key Methods:**
 - `setValue(AssetClassEnum arg0)` → `FieldWithMetaAssetClassEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaAssetClassEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaAssetClassEnumBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -35,8 +35,8 @@
 - `setValue(AssetClassEnum arg0)` → `FieldWithMetaAssetClassEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaAssetClassEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaAssetClassEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaAssetClassEnumBuilder` [Setter]
 
 ### FieldWithMetaAssetClassEnumImpl
 **Implements:** `FieldWithMetaAssetClassEnum` 

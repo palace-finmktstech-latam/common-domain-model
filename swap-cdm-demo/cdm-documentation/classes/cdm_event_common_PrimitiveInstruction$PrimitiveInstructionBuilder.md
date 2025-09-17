@@ -15,48 +15,48 @@
 
 #### Setter Methods
 
+- `PrimitiveInstructionBuilder setTransfer(TransferInstruction arg0)`
 - `PrimitiveInstructionBuilder setReset(ResetInstruction arg0)`
 - `PrimitiveInstructionBuilder setSplit(SplitInstruction arg0)`
 - `PrimitiveInstructionBuilder setValuation(ValuationInstruction arg0)`
-- `PrimitiveInstructionBuilder setContractFormation(ContractFormationInstruction arg0)`
-- `PrimitiveInstructionBuilder setPartyChange(PartyChangeInstruction arg0)`
-- `PrimitiveInstructionBuilder setQuantityChange(QuantityChangeInstruction arg0)`
 - `PrimitiveInstructionBuilder setExecution(ExecutionInstruction arg0)`
-- `PrimitiveInstructionBuilder setExercise(ExerciseInstruction arg0)`
-- `PrimitiveInstructionBuilder setTermsChange(TermsChangeInstruction arg0)`
 - `PrimitiveInstructionBuilder setStockSplit(StockSplitInstruction arg0)`
-- `PrimitiveInstructionBuilder setObservation(ObservationInstruction arg0)`
+- `PrimitiveInstructionBuilder setExercise(ExerciseInstruction arg0)`
 - `PrimitiveInstructionBuilder setIndexTransition(IndexTransitionInstruction arg0)`
-- `PrimitiveInstructionBuilder setTransfer(TransferInstruction arg0)`
+- `PrimitiveInstructionBuilder setObservation(ObservationInstruction arg0)`
+- `PrimitiveInstructionBuilder setPartyChange(PartyChangeInstruction arg0)`
+- `PrimitiveInstructionBuilder setContractFormation(ContractFormationInstruction arg0)`
+- `PrimitiveInstructionBuilder setQuantityChange(QuantityChangeInstruction arg0)`
+- `PrimitiveInstructionBuilder setTermsChange(TermsChangeInstruction arg0)`
 
 #### Getter Methods
 
+- `TransferInstructionBuilder getOrCreateTransfer()`
+- `ObservationInstructionBuilder getObservation()`
+- `ExecutionInstructionBuilder getExecution()`
+- `TransferInstructionBuilder getTransfer()`
 - `SplitInstructionBuilder getSplit()`
 - `ResetInstructionBuilder getReset()`
 - `ValuationInstructionBuilder getOrCreateValuation()`
-- `QuantityChangeInstructionBuilder getOrCreateQuantityChange()`
-- `SplitInstructionBuilder getOrCreateSplit()`
-- `ResetInstructionBuilder getOrCreateReset()`
-- `IndexTransitionInstructionBuilder getOrCreateIndexTransition()`
-- `TermsChangeInstructionBuilder getOrCreateTermsChange()`
-- `StockSplitInstructionBuilder getOrCreateStockSplit()`
-- `IndexTransitionInstructionBuilder getIndexTransition()`
-- `StockSplitInstructionBuilder getStockSplit()`
-- `PartyChangeInstructionBuilder getOrCreatePartyChange()`
-- `TermsChangeInstructionBuilder getTermsChange()`
-- `ObservationInstructionBuilder getOrCreateObservation()`
-- `QuantityChangeInstructionBuilder getQuantityChange()`
 - `ContractFormationInstructionBuilder getContractFormation()`
+- `QuantityChangeInstructionBuilder getOrCreateQuantityChange()`
 - `ExecutionInstructionBuilder getOrCreateExecution()`
 - `ExerciseInstructionBuilder getOrCreateExercise()`
+- `PartyChangeInstructionBuilder getOrCreatePartyChange()`
 - `ExerciseInstructionBuilder getExercise()`
 - `PartyChangeInstructionBuilder getPartyChange()`
-- `ObservationInstructionBuilder getObservation()`
-- `TransferInstructionBuilder getTransfer()`
-- `TransferInstructionBuilder getOrCreateTransfer()`
-- `ValuationInstructionBuilder getValuation()`
-- `ExecutionInstructionBuilder getExecution()`
+- `ResetInstructionBuilder getOrCreateReset()`
+- `TermsChangeInstructionBuilder getOrCreateTermsChange()`
+- `TermsChangeInstructionBuilder getTermsChange()`
+- `IndexTransitionInstructionBuilder getOrCreateIndexTransition()`
+- `SplitInstructionBuilder getOrCreateSplit()`
+- `IndexTransitionInstructionBuilder getIndexTransition()`
+- `StockSplitInstructionBuilder getOrCreateStockSplit()`
+- `QuantityChangeInstructionBuilder getQuantityChange()`
 - `ContractFormationInstructionBuilder getOrCreateContractFormation()`
+- `ObservationInstructionBuilder getOrCreateObservation()`
+- `StockSplitInstructionBuilder getStockSplit()`
+- `ValuationInstructionBuilder getValuation()`
 
 #### Other Methods
 

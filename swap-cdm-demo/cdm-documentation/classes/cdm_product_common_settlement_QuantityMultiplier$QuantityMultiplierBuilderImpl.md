@@ -25,14 +25,14 @@
 
 #### Setter Methods
 
-- `QuantityMultiplierBuilder setFxLinkedNotionalSchedule(FxLinkedNotionalSchedule arg0)`
 - `QuantityMultiplierBuilder setMultiplierValue(BigDecimal arg0)`
+- `QuantityMultiplierBuilder setFxLinkedNotionalSchedule(FxLinkedNotionalSchedule arg0)`
 
 #### Getter Methods
 
+- `BigDecimal getMultiplierValue()`
 - `FxLinkedNotionalScheduleBuilder getOrCreateFxLinkedNotionalSchedule()`
 - `FxLinkedNotionalScheduleBuilder getFxLinkedNotionalSchedule()`
-- `BigDecimal getMultiplierValue()`
 
 #### Other Methods
 
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `QuantityMultiplierBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `QuantityMultiplierBuilder toBuilder()`
 - `QuantityMultiplierBuilder prune()`
+- `QuantityMultiplierBuilder toBuilder()`
+- `boolean hasData()`
 

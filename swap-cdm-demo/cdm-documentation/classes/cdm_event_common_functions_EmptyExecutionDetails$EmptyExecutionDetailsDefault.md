@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `ExecutionDetailsBuilder doEvaluate()`
 - `ExecutionDetailsBuilder assignOutput(ExecutionDetailsBuilder arg0)`
+- `ExecutionDetailsBuilder doEvaluate()`
 

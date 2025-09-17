@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaCashSettlementTermsBuilder setValue(CashSettlementTerms arg0)`
-- `ReferenceWithMetaCashSettlementTermsBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaCashSettlementTermsBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaCashSettlementTermsBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaCashSettlementTermsBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaCashSettlementTermsBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

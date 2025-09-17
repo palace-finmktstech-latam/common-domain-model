@@ -26,16 +26,16 @@
 
 #### Setter Methods
 
+- `PeriodBuilder setMeta(MetaFields arg0)`
 - `PeriodBuilder setPeriod(PeriodEnum arg0)`
 - `PeriodBuilder setPeriodMultiplier(Integer arg0)`
-- `PeriodBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `PeriodEnum getPeriod()`
 - `Integer getPeriodMultiplier()`
 - `MetaFieldsBuilder getMeta()`
+- `PeriodEnum getPeriod()`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PeriodBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PeriodBuilder toBuilder()`
 - `PeriodBuilder prune()`
+- `PeriodBuilder toBuilder()`
+- `boolean hasData()`
 

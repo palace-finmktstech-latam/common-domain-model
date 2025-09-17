@@ -28,14 +28,14 @@
 
 #### Getter Methods
 
-- `List getReferenceBank()`
 - `ReferenceBankBuilder getOrCreateReferenceBank(int arg0)`
+- `List getReferenceBank()`
 
 #### Adder Methods
 
-- `ReferenceBanksBuilder addReferenceBank(ReferenceBank arg0)`
 - `ReferenceBanksBuilder addReferenceBank(ReferenceBank arg0, int arg1)`
 - `ReferenceBanksBuilder addReferenceBank(List arg0)`
+- `ReferenceBanksBuilder addReferenceBank(ReferenceBank arg0)`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceBanksBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceBanksBuilder toBuilder()`
 - `ReferenceBanksBuilder prune()`
+- `ReferenceBanksBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -10,8 +10,8 @@
 - `getValue()` → `OptionPayout` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaOptionPayout` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaOptionPayoutBuilder
@@ -21,11 +21,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `OptionPayoutBuilder` [Getter]
 - `setValue(OptionPayout arg0)` → `ReferenceWithMetaOptionPayoutBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaOptionPayoutBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaOptionPayoutBuilder` [Setter]
 - `getOrCreateValue()` → `OptionPayoutBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaOptionPayoutBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaOptionPayoutBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaOptionPayoutBuilder` [Setter]
 
 ### ReferenceWithMetaPayout
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -35,8 +35,8 @@
 - `getValue()` → `Payout` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaPayout` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaPayoutBuilder
@@ -46,11 +46,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `PayoutBuilder` [Getter]
 - `setValue(Payout arg0)` → `ReferenceWithMetaPayoutBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaPayoutBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaPayoutBuilder` [Setter]
 - `getOrCreateValue()` → `PayoutBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaPayoutBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaPayoutBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaPayoutBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -68,12 +68,12 @@
 - `getValue()` → `OptionPayoutBuilder` [Getter]
 - `setValue(OptionPayout arg0)` → `ReferenceWithMetaOptionPayoutBuilder` [Setter]
 - `build()` → `ReferenceWithMetaOptionPayout` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaOptionPayoutBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaOptionPayoutBuilder` [Setter]
 - `getOrCreateValue()` → `OptionPayoutBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaOptionPayoutBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaOptionPayoutBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaOptionPayoutBuilder` [Setter]
 
 ### ReferenceWithMetaOptionPayoutImpl
 **Implements:** `ReferenceWithMetaOptionPayout` 
@@ -82,8 +82,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `OptionPayout` [Getter]
 - `build()` → `ReferenceWithMetaOptionPayout` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaOptionPayoutBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaOptionPayoutMeta
@@ -103,12 +103,12 @@
 - `getValue()` → `PayoutBuilder` [Getter]
 - `setValue(Payout arg0)` → `ReferenceWithMetaPayoutBuilder` [Setter]
 - `build()` → `ReferenceWithMetaPayout` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaPayoutBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaPayoutBuilder` [Setter]
 - `getOrCreateValue()` → `PayoutBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaPayoutBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaPayoutBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaPayoutBuilder` [Setter]
 
 ### ReferenceWithMetaPayoutImpl
 **Implements:** `ReferenceWithMetaPayout` 
@@ -117,8 +117,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `Payout` [Getter]
 - `build()` → `ReferenceWithMetaPayout` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaPayoutBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaPayoutMeta

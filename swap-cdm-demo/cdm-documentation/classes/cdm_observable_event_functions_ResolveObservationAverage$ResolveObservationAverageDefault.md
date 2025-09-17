@@ -15,7 +15,7 @@
 
 #### Other Methods
 
-- `PriceBuilder doEvaluate(List arg0)`
 - `PriceBuilder assignOutput(PriceBuilder arg0, List arg1)`
+- `PriceBuilder doEvaluate(List arg0)`
 - `MapperS firstObservedValue(List arg0)`
 

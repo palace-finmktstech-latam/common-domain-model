@@ -30,10 +30,10 @@
 
 #### Getter Methods
 
-- `ObservationTermsBuilder getOrCreateObservationTerms()`
-- `AveragingCalculationBuilder getOrCreateAveragingCalculation()`
-- `AveragingCalculationBuilder getAveragingCalculation()`
 - `ObservationTermsBuilder getObservationTerms()`
+- `ObservationTermsBuilder getOrCreateObservationTerms()`
+- `AveragingCalculationBuilder getAveragingCalculation()`
+- `AveragingCalculationBuilder getOrCreateAveragingCalculation()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AveragingStrikeFeatureBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AveragingStrikeFeatureBuilder toBuilder()`
 - `AveragingStrikeFeatureBuilder prune()`
+- `AveragingStrikeFeatureBuilder toBuilder()`
+- `boolean hasData()`
 

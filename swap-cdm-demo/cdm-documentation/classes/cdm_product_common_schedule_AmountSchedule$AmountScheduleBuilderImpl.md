@@ -31,8 +31,8 @@
 
 - `AmountScheduleBuilder setValue(BigDecimal arg0)`
 - `AmountScheduleBuilder setCurrency(List arg0)`
-- `AmountScheduleBuilder setDatedValue(List arg0)`
 - `AmountScheduleBuilder setCurrencyValue(List arg0)`
+- `AmountScheduleBuilder setDatedValue(List arg0)`
 
 #### Getter Methods
 
@@ -41,15 +41,15 @@
 
 #### Adder Methods
 
-- `AmountScheduleBuilder addCurrency(List arg0)`
-- `AmountScheduleBuilder addCurrency(FieldWithMetaString arg0)`
-- `AmountScheduleBuilder addCurrency(FieldWithMetaString arg0, int arg1)`
-- `AmountScheduleBuilder addCurrencyValue(List arg0)`
-- `AmountScheduleBuilder addCurrencyValue(String arg0, int arg1)`
 - `AmountScheduleBuilder addCurrencyValue(String arg0)`
-- `AmountScheduleBuilder addDatedValue(DatedValue arg0, int arg1)`
-- `AmountScheduleBuilder addDatedValue(List arg0)`
+- `AmountScheduleBuilder addCurrencyValue(String arg0, int arg1)`
+- `AmountScheduleBuilder addCurrencyValue(List arg0)`
+- `AmountScheduleBuilder addCurrency(FieldWithMetaString arg0)`
+- `AmountScheduleBuilder addCurrency(List arg0)`
+- `AmountScheduleBuilder addCurrency(FieldWithMetaString arg0, int arg1)`
 - `AmountScheduleBuilder addDatedValue(DatedValue arg0)`
+- `AmountScheduleBuilder addDatedValue(List arg0)`
+- `AmountScheduleBuilder addDatedValue(DatedValue arg0, int arg1)`
 
 #### Other Methods
 
@@ -57,7 +57,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AmountScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AmountScheduleBuilder toBuilder()`
 - `AmountScheduleBuilder prune()`
+- `AmountScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

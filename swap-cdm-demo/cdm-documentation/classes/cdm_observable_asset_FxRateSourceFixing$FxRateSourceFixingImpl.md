@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `FxSettlementRateSource getSettlementRateSource()`
 - `AdjustableDate getFixingDate()`
+- `FxSettlementRateSource getSettlementRateSource()`
 
 #### Other Methods
 

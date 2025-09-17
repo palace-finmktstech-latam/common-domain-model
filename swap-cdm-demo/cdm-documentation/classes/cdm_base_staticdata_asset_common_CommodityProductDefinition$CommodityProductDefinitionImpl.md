@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `CommodityReferenceFramework getReferenceFramework()`
 - `FieldWithMetaString getExchangeId()`
 - `CommodityInformationPublisherEnum getCommodityInfoPublisher()`
 - `PriceSource getPriceSource()`
+- `CommodityReferenceFramework getReferenceFramework()`
 
 #### Other Methods
 

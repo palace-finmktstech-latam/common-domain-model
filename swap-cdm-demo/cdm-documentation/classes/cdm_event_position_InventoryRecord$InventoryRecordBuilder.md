@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `InventoryRecordBuilder setSecurity(Security arg0)`
 - `InventoryRecordBuilder setIdentifer(AssignedIdentifier arg0)`
+- `InventoryRecordBuilder setSecurity(Security arg0)`
 
 #### Getter Methods
 
 - `SecurityBuilder getSecurity()`
+- `SecurityBuilder getOrCreateSecurity()`
 - `AssignedIdentifierBuilder getOrCreateIdentifer()`
 - `AssignedIdentifierBuilder getIdentifer()`
-- `SecurityBuilder getOrCreateSecurity()`
 
 #### Other Methods
 

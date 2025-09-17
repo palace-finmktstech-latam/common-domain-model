@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaPayoutBuilder setValue(Payout arg0)`
-- `ReferenceWithMetaPayoutBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaPayoutBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaPayoutBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaPayoutBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaPayoutBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaPayoutBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaPayoutBuilder toBuilder()`
 - `ReferenceWithMetaPayoutBuilder prune()`
+- `ReferenceWithMetaPayoutBuilder toBuilder()`
+- `boolean hasData()`
 

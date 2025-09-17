@@ -21,8 +21,8 @@
 
 - `Class getType()`
 - `String getEventQualifier()`
-- `List getAfter()`
 - `MetaFields getMeta()`
+- `List getAfter()`
 
 #### Other Methods
 

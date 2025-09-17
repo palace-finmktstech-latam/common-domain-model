@@ -15,33 +15,33 @@
 
 #### Setter Methods
 
-- `FxFixingDateBuilder setBusinessDayConvention(BusinessDayConventionEnum arg0)`
+- `FxFixingDateBuilder setMeta(MetaFields arg0)`
 - `FxFixingDateBuilder setBusinessCenters(BusinessCenters arg0)`
+- `FxFixingDateBuilder setBusinessDayConvention(BusinessDayConventionEnum arg0)`
 - `FxFixingDateBuilder setDayType(DayTypeEnum arg0)`
 - `FxFixingDateBuilder setFxFixingDate(AdjustableOrRelativeDate arg0)`
+- `FxFixingDateBuilder setPeriod(PeriodEnum arg0)`
+- `FxFixingDateBuilder setPeriodMultiplier(Integer arg0)`
+- `FxFixingDateBuilder setBusinessCentersReference(ReferenceWithMetaBusinessCenters arg0)`
+- `FxFixingDateBuilder setBusinessCentersReferenceValue(BusinessCenters arg0)`
 - `FxFixingDateBuilder setDateRelativeToPaymentDates(DateRelativeToPaymentDates arg0)`
 - `FxFixingDateBuilder setDateRelativeToValuationDates(DateRelativeToValuationDates arg0)`
 - `FxFixingDateBuilder setDateRelativeToCalculationPeriodDates(DateRelativeToCalculationPeriodDates arg0)`
-- `FxFixingDateBuilder setPeriod(PeriodEnum arg0)`
-- `FxFixingDateBuilder setPeriodMultiplier(Integer arg0)`
-- `FxFixingDateBuilder setBusinessCentersReferenceValue(BusinessCenters arg0)`
-- `FxFixingDateBuilder setBusinessCentersReference(ReferenceWithMetaBusinessCenters arg0)`
-- `FxFixingDateBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
+- `DateRelativeToCalculationPeriodDatesBuilder getOrCreateDateRelativeToCalculationPeriodDates()`
 - `BusinessCentersBuilder getOrCreateBusinessCenters()`
 - `BusinessCentersBuilder getBusinessCenters()`
-- `AdjustableOrRelativeDateBuilder getFxFixingDate()`
 - `AdjustableOrRelativeDateBuilder getOrCreateFxFixingDate()`
+- `AdjustableOrRelativeDateBuilder getFxFixingDate()`
+- `ReferenceWithMetaBusinessCentersBuilder getOrCreateBusinessCentersReference()`
+- `ReferenceWithMetaBusinessCentersBuilder getBusinessCentersReference()`
+- `DateRelativeToValuationDatesBuilder getOrCreateDateRelativeToValuationDates()`
+- `DateRelativeToPaymentDatesBuilder getDateRelativeToPaymentDates()`
 - `DateRelativeToPaymentDatesBuilder getOrCreateDateRelativeToPaymentDates()`
 - `DateRelativeToValuationDatesBuilder getDateRelativeToValuationDates()`
-- `DateRelativeToPaymentDatesBuilder getDateRelativeToPaymentDates()`
-- `DateRelativeToValuationDatesBuilder getOrCreateDateRelativeToValuationDates()`
 - `DateRelativeToCalculationPeriodDatesBuilder getDateRelativeToCalculationPeriodDates()`
-- `DateRelativeToCalculationPeriodDatesBuilder getOrCreateDateRelativeToCalculationPeriodDates()`
-- `ReferenceWithMetaBusinessCentersBuilder getBusinessCentersReference()`
-- `ReferenceWithMetaBusinessCentersBuilder getOrCreateBusinessCentersReference()`
 
 #### Other Methods
 

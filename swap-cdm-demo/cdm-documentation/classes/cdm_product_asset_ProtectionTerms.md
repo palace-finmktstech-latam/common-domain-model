@@ -20,10 +20,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `FloatingAmountEvents getFloatingAmountEvents()`
-- `CreditEvents getCreditEvents()`
 - `MetaFields getMeta()`
+- `CreditEvents getCreditEvents()`
 - `Obligations getObligations()`
+- `FloatingAmountEvents getFloatingAmountEvents()`
 
 #### Other Methods
 

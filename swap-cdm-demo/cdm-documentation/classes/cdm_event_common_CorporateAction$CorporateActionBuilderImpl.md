@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CorporateActionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CorporateActionBuilder toBuilder()`
 - `CorporateActionBuilder prune()`
+- `CorporateActionBuilder toBuilder()`
+- `boolean hasData()`
 

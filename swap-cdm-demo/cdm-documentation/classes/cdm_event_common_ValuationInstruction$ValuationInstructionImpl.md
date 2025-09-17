@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `List getValuation()`
 - `Boolean getReplace()`
+- `List getValuation()`
 
 #### Other Methods
 

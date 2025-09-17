@@ -21,8 +21,8 @@
 - `ClosedStateEnum getState()`
 - `Class getType()`
 - `Date getEffectiveDate()`
-- `Date getActivityDate()`
 - `Date getLastPaymentDate()`
+- `Date getActivityDate()`
 
 #### Other Methods
 

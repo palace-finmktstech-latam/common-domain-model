@@ -19,18 +19,18 @@
 #### Getter Methods
 
 - `Class getType()`
-- `List getPartyRoles()`
-- `List getParties()`
-- `Identifier getLotIdentifier()`
-- `List getPriceQuantity()`
-- `List getCounterparty()`
-- `List getTradeIdentifier()`
-- `List getAncillaryParty()`
-- `FieldWithMetaTimeZone getTradeTime()`
 - `FieldWithMetaDate getTradeDate()`
-- `Collateral getCollateral()`
+- `List getTradeIdentifier()`
+- `FieldWithMetaTimeZone getTradeTime()`
 - `ExecutionDetails getExecutionDetails()`
+- `Collateral getCollateral()`
+- `List getCounterparty()`
+- `List getAncillaryParty()`
+- `List getPriceQuantity()`
+- `Identifier getLotIdentifier()`
+- `List getPartyRoles()`
 - `NonTransferableProduct getProduct()`
+- `List getParties()`
 
 #### Other Methods
 

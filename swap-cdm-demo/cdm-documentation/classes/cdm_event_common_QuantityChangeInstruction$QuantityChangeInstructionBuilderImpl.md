@@ -32,20 +32,20 @@
 
 #### Getter Methods
 
-- `IdentifierBuilder getOrCreateLotIdentifier(int arg0)`
-- `PriceQuantityBuilder getOrCreateChange(int arg0)`
 - `QuantityChangeDirectionEnum getDirection()`
 - `List getLotIdentifier()`
+- `IdentifierBuilder getOrCreateLotIdentifier(int arg0)`
 - `List getChange()`
+- `PriceQuantityBuilder getOrCreateChange(int arg0)`
 
 #### Adder Methods
 
-- `QuantityChangeInstructionBuilder addChange(PriceQuantity arg0, int arg1)`
 - `QuantityChangeInstructionBuilder addChange(PriceQuantity arg0)`
 - `QuantityChangeInstructionBuilder addChange(List arg0)`
-- `QuantityChangeInstructionBuilder addLotIdentifier(Identifier arg0)`
-- `QuantityChangeInstructionBuilder addLotIdentifier(Identifier arg0, int arg1)`
+- `QuantityChangeInstructionBuilder addChange(PriceQuantity arg0, int arg1)`
 - `QuantityChangeInstructionBuilder addLotIdentifier(List arg0)`
+- `QuantityChangeInstructionBuilder addLotIdentifier(Identifier arg0, int arg1)`
+- `QuantityChangeInstructionBuilder addLotIdentifier(Identifier arg0)`
 
 #### Other Methods
 
@@ -53,7 +53,7 @@
 - `String toString()`
 - `int hashCode()`
 - `QuantityChangeInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `QuantityChangeInstructionBuilder toBuilder()`
 - `QuantityChangeInstructionBuilder prune()`
+- `QuantityChangeInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

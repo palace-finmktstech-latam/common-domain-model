@@ -25,9 +25,9 @@
 
 #### Setter Methods
 
+- `ReferenceBankBuilder setReferenceBankName(String arg0)`
 - `ReferenceBankBuilder setReferenceBankId(FieldWithMetaString arg0)`
 - `ReferenceBankBuilder setReferenceBankIdValue(String arg0)`
-- `ReferenceBankBuilder setReferenceBankName(String arg0)`
 
 #### Getter Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceBankBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceBankBuilder toBuilder()`
 - `ReferenceBankBuilder prune()`
+- `ReferenceBankBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
+- `PayerReceiver getPayerReceiver()`
 - `ResolvablePriceQuantity getPriceQuantity()`
 - `PrincipalPayments getPrincipalPayment()`
-- `PayerReceiver getPayerReceiver()`
 - `SettlementTerms getSettlementTerms()`
 
 #### Other Methods

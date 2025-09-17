@@ -28,21 +28,21 @@
 
 #### Setter Methods
 
-- `FixedAmountCalculationDetailsBuilder setFixedRate(BigDecimal arg0)`
+- `FixedAmountCalculationDetailsBuilder setCalculatedAmount(BigDecimal arg0)`
 - `FixedAmountCalculationDetailsBuilder setCalculationPeriod(CalculationPeriodBase arg0)`
 - `FixedAmountCalculationDetailsBuilder setYearFraction(BigDecimal arg0)`
-- `FixedAmountCalculationDetailsBuilder setCalculatedAmount(BigDecimal arg0)`
+- `FixedAmountCalculationDetailsBuilder setFixedRate(BigDecimal arg0)`
 - `FixedAmountCalculationDetailsBuilder setCalculationPeriodNotionalAmount(Money arg0)`
 
 #### Getter Methods
 
 - `BigDecimal getYearFraction()`
 - `BigDecimal getFixedRate()`
-- `BigDecimal getCalculatedAmount()`
 - `CalculationPeriodBaseBuilder getCalculationPeriod()`
-- `MoneyBuilder getOrCreateCalculationPeriodNotionalAmount()`
-- `MoneyBuilder getCalculationPeriodNotionalAmount()`
+- `BigDecimal getCalculatedAmount()`
 - `CalculationPeriodBaseBuilder getOrCreateCalculationPeriod()`
+- `MoneyBuilder getCalculationPeriodNotionalAmount()`
+- `MoneyBuilder getOrCreateCalculationPeriodNotionalAmount()`
 
 #### Other Methods
 
@@ -50,7 +50,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FixedAmountCalculationDetailsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FixedAmountCalculationDetailsBuilder toBuilder()`
 - `FixedAmountCalculationDetailsBuilder prune()`
+- `FixedAmountCalculationDetailsBuilder toBuilder()`
+- `boolean hasData()`
 

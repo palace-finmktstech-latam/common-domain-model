@@ -27,18 +27,18 @@
 
 #### Setter Methods
 
-- `BondReferenceBuilder setConditionPrecedentBond(Boolean arg0)`
 - `BondReferenceBuilder setDiscrepancyClause(Boolean arg0)`
+- `BondReferenceBuilder setConditionPrecedentBond(Boolean arg0)`
 - `BondReferenceBuilder setCouponRate(FixedRateSpecification arg0)`
 - `BondReferenceBuilder setBond(Security arg0)`
 
 #### Getter Methods
 
-- `Boolean getDiscrepancyClause()`
 - `Boolean getConditionPrecedentBond()`
-- `FixedRateSpecificationBuilder getCouponRate()`
 - `SecurityBuilder getOrCreateBond()`
 - `FixedRateSpecificationBuilder getOrCreateCouponRate()`
+- `Boolean getDiscrepancyClause()`
+- `FixedRateSpecificationBuilder getCouponRate()`
 - `SecurityBuilder getBond()`
 
 #### Other Methods
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BondReferenceBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BondReferenceBuilder toBuilder()`
 - `BondReferenceBuilder prune()`
+- `BondReferenceBuilder toBuilder()`
+- `boolean hasData()`
 

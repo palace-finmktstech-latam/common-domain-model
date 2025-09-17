@@ -15,13 +15,13 @@
 
 #### Getter Methods
 
-- `boolean isBasketConstituentSynonymPath(Path arg0)`
-- `List getBasketConstituentSynonymPathMappings()`
 - `boolean isDividendPayoutRatioSet()`
+- `List getBasketConstituentSynonymPathMappings()`
+- `boolean isBasketConstituentSynonymPath(Path arg0)`
 
 #### Other Methods
 
 - `void map(Path arg0, List arg1, RosettaModelObjectBuilder arg2)`
-- `void removeAllDividendPayoutRatioMappings(List arg0)`
 - `void removeAllDividendPayoutRatioBasketConstituentMappings()`
+- `void removeAllDividendPayoutRatioMappings(List arg0)`
 

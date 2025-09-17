@@ -33,9 +33,9 @@
 #### Getter Methods
 
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `Date getAdjustedExtendedTerminationDate()`
 - `Date getAdjustedExerciseDate()`
 - `MetaFieldsBuilder getMeta()`
+- `Date getAdjustedExtendedTerminationDate()`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ExtensionEventBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ExtensionEventBuilder toBuilder()`
 - `ExtensionEventBuilder prune()`
+- `ExtensionEventBuilder toBuilder()`
+- `boolean hasData()`
 

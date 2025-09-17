@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
+- `String getDescription()`
 - `DeliveryDateParameters getDeliveryDateReference()`
 - `QuotationSideEnum getPriceQuoteType()`
-- `String getDescription()`
 - `CommodityProductDefinition getCommodityProductDefinition()`
 
 #### Other Methods

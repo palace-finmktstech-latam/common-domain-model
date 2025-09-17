@@ -25,14 +25,14 @@
 
 #### Setter Methods
 
-- `MoneyBoundBuilder setInclusive(Boolean arg0)`
 - `MoneyBoundBuilder setMoney(Money arg0)`
+- `MoneyBoundBuilder setInclusive(Boolean arg0)`
 
 #### Getter Methods
 
+- `MoneyBuilder getMoney()`
 - `Boolean getInclusive()`
 - `MoneyBuilder getOrCreateMoney()`
-- `MoneyBuilder getMoney()`
 
 #### Other Methods
 
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MoneyBoundBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MoneyBoundBuilder toBuilder()`
 - `MoneyBoundBuilder prune()`
+- `MoneyBoundBuilder toBuilder()`
+- `boolean hasData()`
 

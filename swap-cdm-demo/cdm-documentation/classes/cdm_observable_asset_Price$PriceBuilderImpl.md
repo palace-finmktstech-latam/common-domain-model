@@ -25,12 +25,12 @@
 
 - `PriceBuilder setValue(BigDecimal arg0)`
 - `PriceBuilder setPerUnitOf(UnitType arg0)`
-- `PriceBuilder setPriceType(PriceTypeEnum arg0)`
-- `PriceBuilder setCashPrice(CashPrice arg0)`
-- `PriceBuilder setDatedValue(List arg0)`
-- `PriceBuilder setComposite(PriceComposite arg0)`
-- `PriceBuilder setArithmeticOperator(ArithmeticOperationEnum arg0)`
 - `PriceBuilder setPriceExpression(PriceExpressionEnum arg0)`
+- `PriceBuilder setDatedValue(List arg0)`
+- `PriceBuilder setArithmeticOperator(ArithmeticOperationEnum arg0)`
+- `PriceBuilder setPriceType(PriceTypeEnum arg0)`
+- `PriceBuilder setComposite(PriceComposite arg0)`
+- `PriceBuilder setCashPrice(CashPrice arg0)`
 - `PriceBuilder setUnit(UnitType arg0)`
 
 #### Adder Methods
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PriceBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PriceBuilder toBuilder()`
 - `PriceBuilder prune()`
+- `PriceBuilder toBuilder()`
+- `boolean hasData()`
 

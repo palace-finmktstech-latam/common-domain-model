@@ -30,11 +30,11 @@
 
 #### Setter Methods
 
-- `CalculationPeriodFrequencyBuilder setPeriod(PeriodExtendedEnum arg0)`
-- `CalculationPeriodFrequencyBuilder setPeriodMultiplier(Integer arg0)`
+- `CalculationPeriodFrequencyBuilder setMeta(MetaFields arg0)`
 - `CalculationPeriodFrequencyBuilder setRollConvention(RollConventionEnum arg0)`
 - `CalculationPeriodFrequencyBuilder setBalanceOfFirstPeriod(Boolean arg0)`
-- `CalculationPeriodFrequencyBuilder setMeta(MetaFields arg0)`
+- `CalculationPeriodFrequencyBuilder setPeriod(PeriodExtendedEnum arg0)`
+- `CalculationPeriodFrequencyBuilder setPeriodMultiplier(Integer arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CalculationPeriodFrequencyBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CalculationPeriodFrequencyBuilder toBuilder()`
 - `CalculationPeriodFrequencyBuilder prune()`
+- `CalculationPeriodFrequencyBuilder toBuilder()`
+- `boolean hasData()`
 

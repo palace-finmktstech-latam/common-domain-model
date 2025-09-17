@@ -35,11 +35,11 @@
 
 #### Adder Methods
 
-- `CalculatedRateObservationDatesAndWeightsBuilder addObservationDates(Date arg0, int arg1)`
-- `CalculatedRateObservationDatesAndWeightsBuilder addObservationDates(Date arg0)`
 - `CalculatedRateObservationDatesAndWeightsBuilder addObservationDates(List arg0)`
-- `CalculatedRateObservationDatesAndWeightsBuilder addWeights(List arg0)`
+- `CalculatedRateObservationDatesAndWeightsBuilder addObservationDates(Date arg0)`
+- `CalculatedRateObservationDatesAndWeightsBuilder addObservationDates(Date arg0, int arg1)`
 - `CalculatedRateObservationDatesAndWeightsBuilder addWeights(BigDecimal arg0)`
+- `CalculatedRateObservationDatesAndWeightsBuilder addWeights(List arg0)`
 - `CalculatedRateObservationDatesAndWeightsBuilder addWeights(BigDecimal arg0, int arg1)`
 
 #### Other Methods
@@ -48,7 +48,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CalculatedRateObservationDatesAndWeightsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CalculatedRateObservationDatesAndWeightsBuilder toBuilder()`
 - `CalculatedRateObservationDatesAndWeightsBuilder prune()`
+- `CalculatedRateObservationDatesAndWeightsBuilder toBuilder()`
+- `boolean hasData()`
 

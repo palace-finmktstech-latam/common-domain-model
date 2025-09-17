@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `NumberBound getLowerBound()`
 - `NumberBound getUpperBound()`
+- `NumberBound getLowerBound()`
 
 #### Other Methods
 

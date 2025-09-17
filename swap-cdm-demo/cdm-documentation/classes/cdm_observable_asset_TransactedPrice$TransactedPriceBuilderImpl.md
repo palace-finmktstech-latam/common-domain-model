@@ -29,15 +29,15 @@
 
 - `TransactedPriceBuilder setQuotationStyle(QuotationStyleEnum arg0)`
 - `TransactedPriceBuilder setMarketFixedRate(BigDecimal arg0)`
-- `TransactedPriceBuilder setInitialPoints(BigDecimal arg0)`
 - `TransactedPriceBuilder setMarketPrice(BigDecimal arg0)`
+- `TransactedPriceBuilder setInitialPoints(BigDecimal arg0)`
 
 #### Getter Methods
 
 - `BigDecimal getInitialPoints()`
 - `QuotationStyleEnum getQuotationStyle()`
-- `BigDecimal getMarketPrice()`
 - `BigDecimal getMarketFixedRate()`
+- `BigDecimal getMarketPrice()`
 
 #### Other Methods
 
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TransactedPriceBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TransactedPriceBuilder toBuilder()`
 - `TransactedPriceBuilder prune()`
+- `TransactedPriceBuilder toBuilder()`
+- `boolean hasData()`
 

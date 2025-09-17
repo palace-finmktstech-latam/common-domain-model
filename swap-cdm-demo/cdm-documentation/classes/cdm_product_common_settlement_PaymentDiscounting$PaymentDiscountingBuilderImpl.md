@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PaymentDiscountingBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PaymentDiscountingBuilder toBuilder()`
 - `PaymentDiscountingBuilder prune()`
+- `PaymentDiscountingBuilder toBuilder()`
+- `boolean hasData()`
 

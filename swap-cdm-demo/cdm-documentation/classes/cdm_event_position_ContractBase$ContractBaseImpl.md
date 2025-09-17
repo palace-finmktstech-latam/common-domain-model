@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
+- `ReferenceWithMetaExecutionDetails getExecutionDetails()`
 - `ReferenceWithMetaContractDetails getContractDetails()`
 - `ReferenceWithMetaCollateral getCollateral()`
-- `ReferenceWithMetaExecutionDetails getExecutionDetails()`
 
 #### Other Methods
 

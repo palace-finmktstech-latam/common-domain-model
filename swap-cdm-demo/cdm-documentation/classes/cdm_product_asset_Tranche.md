@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Boolean getIncurredRecoveryApplicable()`
 - `BigDecimal getAttachmentPoint()`
 - `BigDecimal getExhaustionPoint()`
+- `Boolean getIncurredRecoveryApplicable()`
 
 #### Other Methods
 

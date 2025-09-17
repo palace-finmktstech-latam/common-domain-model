@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `ZonedDateTime doEvaluate(Date arg0)`
 - `ZonedDateTime assignOutput(ZonedDateTime arg0, Date arg1)`
+- `ZonedDateTime doEvaluate(Date arg0)`
 

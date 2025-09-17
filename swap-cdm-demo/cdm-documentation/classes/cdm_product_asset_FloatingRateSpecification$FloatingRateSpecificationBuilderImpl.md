@@ -32,29 +32,29 @@
 
 #### Setter Methods
 
-- `FloatingRateSpecificationBuilder setAveragingMethod(AveragingWeightingMethodEnum arg0)`
-- `FloatingRateSpecificationBuilder setSpreadSchedule(SpreadSchedule arg0)`
+- `FloatingRateSpecificationBuilder setMeta(MetaFields arg0)`
+- `FloatingRateSpecificationBuilder setCapRateSchedule(StrikeSchedule arg0)`
 - `FloatingRateSpecificationBuilder setRateTreatment(RateTreatmentEnum arg0)`
 - `FloatingRateSpecificationBuilder setFloorRateSchedule(StrikeSchedule arg0)`
-- `FloatingRateSpecificationBuilder setCapRateSchedule(StrikeSchedule arg0)`
-- `FloatingRateSpecificationBuilder setFallbackRate(FallbackRateParameters arg0)`
-- `FloatingRateSpecificationBuilder setRateOptionValue(InterestRateIndex arg0)`
-- `FloatingRateSpecificationBuilder setInitialRate(Price arg0)`
-- `FloatingRateSpecificationBuilder setRateOption(ReferenceWithMetaInterestRateIndex arg0)`
-- `FloatingRateSpecificationBuilder setCalculationParameters(FloatingRateCalculationParameters arg0)`
+- `FloatingRateSpecificationBuilder setSpreadSchedule(SpreadSchedule arg0)`
 - `FloatingRateSpecificationBuilder setFinalRateRounding(Rounding arg0)`
+- `FloatingRateSpecificationBuilder setFallbackRate(FallbackRateParameters arg0)`
+- `FloatingRateSpecificationBuilder setInitialRate(Price arg0)`
+- `FloatingRateSpecificationBuilder setRateOptionValue(InterestRateIndex arg0)`
+- `FloatingRateSpecificationBuilder setCalculationParameters(FloatingRateCalculationParameters arg0)`
+- `FloatingRateSpecificationBuilder setRateOption(ReferenceWithMetaInterestRateIndex arg0)`
 - `FloatingRateSpecificationBuilder setFloatingRateMultiplierSchedule(RateSchedule arg0)`
 - `FloatingRateSpecificationBuilder setNegativeInterestRateTreatment(NegativeInterestRateTreatmentEnum arg0)`
-- `FloatingRateSpecificationBuilder setMeta(MetaFields arg0)`
+- `FloatingRateSpecificationBuilder setAveragingMethod(AveragingWeightingMethodEnum arg0)`
 
 #### Getter Methods
 
-- `RoundingBuilder getFinalRateRounding()`
-- `PriceBuilder getInitialRate()`
-- `PriceBuilder getOrCreateInitialRate()`
-- `NegativeInterestRateTreatmentEnum getNegativeInterestRateTreatment()`
-- `RoundingBuilder getOrCreateFinalRateRounding()`
 - `AveragingWeightingMethodEnum getAveragingMethod()`
+- `PriceBuilder getOrCreateInitialRate()`
+- `RoundingBuilder getOrCreateFinalRateRounding()`
+- `NegativeInterestRateTreatmentEnum getNegativeInterestRateTreatment()`
+- `PriceBuilder getInitialRate()`
+- `RoundingBuilder getFinalRateRounding()`
 
 #### Other Methods
 
@@ -62,7 +62,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FloatingRateSpecificationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FloatingRateSpecificationBuilder toBuilder()`
 - `FloatingRateSpecificationBuilder prune()`
+- `FloatingRateSpecificationBuilder toBuilder()`
+- `boolean hasData()`
 

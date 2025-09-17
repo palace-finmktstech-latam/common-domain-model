@@ -27,8 +27,8 @@
 
 #### Getter Methods
 
-- `Price getCorrelationStrikePrice()`
 - `NumberRange getBoundedCorrelation()`
+- `Price getCorrelationStrikePrice()`
 - `Integer getNumberOfDataSeries()`
 
 #### Other Methods

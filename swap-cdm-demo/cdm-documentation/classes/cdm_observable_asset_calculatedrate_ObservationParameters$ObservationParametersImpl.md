@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `BigDecimal getObservationFloorRate()`
 - `BigDecimal getObservationCapRate()`
+- `BigDecimal getObservationFloorRate()`
 
 #### Other Methods
 

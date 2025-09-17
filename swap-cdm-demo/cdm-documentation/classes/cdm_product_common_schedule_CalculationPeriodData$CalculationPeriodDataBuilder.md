@@ -15,12 +15,12 @@
 
 #### Setter Methods
 
-- `CalculationPeriodDataBuilder setStartDate(Date arg0)`
-- `CalculationPeriodDataBuilder setDaysInLeapYearPeriod(Integer arg0)`
-- `CalculationPeriodDataBuilder setDaysInPeriod(Integer arg0)`
-- `CalculationPeriodDataBuilder setIsLastPeriod(Boolean arg0)`
-- `CalculationPeriodDataBuilder setIsFirstPeriod(Boolean arg0)`
 - `CalculationPeriodDataBuilder setEndDate(Date arg0)`
+- `CalculationPeriodDataBuilder setDaysInPeriod(Integer arg0)`
+- `CalculationPeriodDataBuilder setDaysInLeapYearPeriod(Integer arg0)`
+- `CalculationPeriodDataBuilder setStartDate(Date arg0)`
+- `CalculationPeriodDataBuilder setIsFirstPeriod(Boolean arg0)`
+- `CalculationPeriodDataBuilder setIsLastPeriod(Boolean arg0)`
 
 #### Other Methods
 

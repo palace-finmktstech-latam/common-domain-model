@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `AveragingCalculationMethodEnum getCalculationMethod()`
 - `Boolean getIsWeighted()`
+- `AveragingCalculationMethodEnum getCalculationMethod()`
 
 #### Other Methods
 

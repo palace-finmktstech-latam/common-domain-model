@@ -32,12 +32,12 @@
 
 #### Getter Methods
 
-- `PerformanceValuationDatesBuilder getInitialValuationDate()`
 - `PerformanceValuationDatesBuilder getFinalValuationDate()`
 - `PerformanceValuationDatesBuilder getInterimValuationDate()`
-- `PerformanceValuationDatesBuilder getOrCreateInterimValuationDate()`
 - `PerformanceValuationDatesBuilder getOrCreateFinalValuationDate()`
+- `PerformanceValuationDatesBuilder getOrCreateInterimValuationDate()`
 - `PerformanceValuationDatesBuilder getOrCreateInitialValuationDate()`
+- `PerformanceValuationDatesBuilder getInitialValuationDate()`
 
 #### Other Methods
 
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ValuationDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ValuationDatesBuilder toBuilder()`
 - `ValuationDatesBuilder prune()`
+- `ValuationDatesBuilder toBuilder()`
+- `boolean hasData()`
 

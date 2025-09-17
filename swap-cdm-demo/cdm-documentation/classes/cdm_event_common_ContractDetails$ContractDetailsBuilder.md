@@ -17,23 +17,23 @@
 #### Setter Methods
 
 - `ContractDetailsBuilder setGoverningLawValue(GoverningLawEnum arg0)`
-- `ContractDetailsBuilder setDocumentation(List arg0)`
 - `ContractDetailsBuilder setGoverningLaw(FieldWithMetaGoverningLawEnum arg0)`
+- `ContractDetailsBuilder setDocumentation(List arg0)`
 - `ContractDetailsBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
 - `List getDocumentation()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `LegalAgreementBuilder getOrCreateDocumentation(int arg0)`
-- `FieldWithMetaGoverningLawEnumBuilder getGoverningLaw()`
 - `FieldWithMetaGoverningLawEnumBuilder getOrCreateGoverningLaw()`
+- `FieldWithMetaGoverningLawEnumBuilder getGoverningLaw()`
+- `LegalAgreementBuilder getOrCreateDocumentation(int arg0)`
 - `MetaFieldsBuilder getMeta()`
 
 #### Adder Methods
 
-- `ContractDetailsBuilder addDocumentation(List arg0)`
 - `ContractDetailsBuilder addDocumentation(LegalAgreement arg0, int arg1)`
+- `ContractDetailsBuilder addDocumentation(List arg0)`
 - `ContractDetailsBuilder addDocumentation(LegalAgreement arg0)`
 
 #### Other Methods

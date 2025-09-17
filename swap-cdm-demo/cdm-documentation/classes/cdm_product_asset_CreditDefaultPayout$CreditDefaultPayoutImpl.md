@@ -27,9 +27,9 @@
 
 #### Getter Methods
 
-- `TransactedPrice getTransactedPrice()`
 - `GeneralTerms getGeneralTerms()`
 - `List getProtectionTerms()`
+- `TransactedPrice getTransactedPrice()`
 
 #### Other Methods
 

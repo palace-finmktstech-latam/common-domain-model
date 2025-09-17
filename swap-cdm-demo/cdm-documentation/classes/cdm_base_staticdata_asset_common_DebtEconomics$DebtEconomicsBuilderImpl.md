@@ -32,9 +32,9 @@
 
 #### Getter Methods
 
-- `DebtSeniorityEnum getDebtSeniority()`
 - `DebtInterestEnum getDebtInterest()`
 - `DebtPrincipalEnum getDebtPrincipal()`
+- `DebtSeniorityEnum getDebtSeniority()`
 
 #### Other Methods
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DebtEconomicsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DebtEconomicsBuilder toBuilder()`
 - `DebtEconomicsBuilder prune()`
+- `DebtEconomicsBuilder toBuilder()`
+- `boolean hasData()`
 

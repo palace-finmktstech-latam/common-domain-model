@@ -25,15 +25,15 @@
 
 #### Setter Methods
 
-- `NumberRangeBuilder setLowerBound(NumberBound arg0)`
 - `NumberRangeBuilder setUpperBound(NumberBound arg0)`
+- `NumberRangeBuilder setLowerBound(NumberBound arg0)`
 
 #### Getter Methods
 
-- `NumberBoundBuilder getOrCreateUpperBound()`
-- `NumberBoundBuilder getOrCreateLowerBound()`
-- `NumberBoundBuilder getLowerBound()`
 - `NumberBoundBuilder getUpperBound()`
+- `NumberBoundBuilder getLowerBound()`
+- `NumberBoundBuilder getOrCreateLowerBound()`
+- `NumberBoundBuilder getOrCreateUpperBound()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `NumberRangeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `NumberRangeBuilder toBuilder()`
 - `NumberRangeBuilder prune()`
+- `NumberRangeBuilder toBuilder()`
+- `boolean hasData()`
 

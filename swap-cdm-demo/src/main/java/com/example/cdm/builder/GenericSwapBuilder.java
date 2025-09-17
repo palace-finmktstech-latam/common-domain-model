@@ -18,9 +18,19 @@ import cdm.product.common.schedule.ResetDates;
 import cdm.product.common.schedule.ResetRelativeToEnum;
 import cdm.base.datetime.Offset;
 import cdm.base.datetime.DayTypeEnum;
-import cdm.base.staticdata.party.FieldWithMetaBusinessCentersBuilder;
+import cdm.base.datetime.PeriodEnum;
+import cdm.base.datetime.metafields.FieldWithMetaBusinessCenterEnum;
 import cdm.product.common.settlement.*;
+import cdm.product.common.settlement.SettlementTypeEnum;
+import cdm.product.common.settlement.TransferSettlementEnum;
+import cdm.product.common.settlement.CashSettlementMethodEnum;
+import cdm.product.common.settlement.DeliveryMethodEnum;
+import cdm.product.common.settlement.SettlementCentreEnum;
+import cdm.base.staticdata.identifier.TradeIdentifierTypeEnum;
+import cdm.base.staticdata.identifier.AssignedIdentifier;
 import cdm.base.math.NonNegativeQuantitySchedule;
+import cdm.base.math.Rounding;
+import cdm.base.math.RoundingDirectionEnum;
 import cdm.base.math.UnitType;
 import com.rosetta.model.lib.records.Date;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -82,6 +92,9 @@ public class GenericSwapBuilder {
         // Create trade
         Trade trade = Trade.builder()
             .setTradeDateValue(convertToDate(parameters.getHeader().getTradeDate().getDate()))
+            .addTradeIdentifier(createTradeIdentifier(
+                parameters.getHeader().getTradeId(),
+                parameters.getHeader().getTradeIdType()))
             .addParty(bankA)
             .addParty(bankB)
             .addCounterparty(cp1)
@@ -178,6 +191,12 @@ public class GenericSwapBuilder {
             builder.setResetDates(resetDates);
         }
 
+        // Add settlement terms if specified
+        SettlementTerms settlementTerms = createSettlementTerms(leg);
+        if (settlementTerms != null) {
+            builder.setSettlementTerms(settlementTerms);
+        }
+
         return builder.build();
     }
 
@@ -211,8 +230,8 @@ public class GenericSwapBuilder {
                             .build())
                         .build());
 
-            // Add spread if present
-            if (leg.getSpread() != null && leg.getSpread().compareTo(BigDecimal.ZERO) != 0) {
+            // Add spread if specified (including zero spreads)
+            if (leg.getSpread() != null) {
                 PriceSchedule spreadSchedule = PriceSchedule.builder()
                     .setValue(leg.getSpread())
                     .build();
@@ -220,6 +239,12 @@ public class GenericSwapBuilder {
                 floatingBuilder.setSpreadSchedule(SpreadSchedule.builder()
                     .setPriceValue(spreadSchedule)
                     .build());
+            }
+
+            // Add rate rounding if specified
+            Rounding rateRounding = createRateRounding(leg);
+            if (rateRounding != null) {
+                floatingBuilder.setFinalRateRounding(rateRounding);
             }
 
             return RateSpecification.builder()
@@ -362,14 +387,10 @@ public class GenericSwapBuilder {
                         parameters.getHeader().getTerminationDate().getBusinessCenters()))
                     .build())
                 .build())
-            .setCalculationPeriodFrequency(CalculationPeriodFrequency.builder()
-                .setPeriodMultiplier(convertPeriodMultiplier(leg.getPaymentFrequency()))
-                .setPeriod(convertPeriod(leg.getPaymentFrequency()))
-                .setRollConvention(convertRollConvention(leg.getRollConvention()))
-                .build())
+            .setCalculationPeriodFrequency(createCalculationPeriodFrequency(leg))
             .setCalculationPeriodDatesAdjustments(createBusinessDayAdjustments(
-                leg.getPaymentDayConvention(),
-                leg.getPaymentBusinessCenters()))
+                leg.getCalculationDayConvention() != null ? leg.getCalculationDayConvention() : leg.getPaymentDayConvention(),
+                leg.getCalculationBusinessCenters() != null ? leg.getCalculationBusinessCenters() : leg.getPaymentBusinessCenters()))
             .build();
     }
 
@@ -377,15 +398,22 @@ public class GenericSwapBuilder {
      * Advanced payment dates with comprehensive business day support
      */
     private PaymentDates createAdvancedPaymentDates(LegParameters leg) {
-        return PaymentDates.builder()
-            .setPaymentFrequency(Frequency.builder()
-                .setPeriodMultiplier(convertPeriodMultiplier(leg.getPaymentFrequency()))
-                .setPeriod(convertPeriod(leg.getPaymentFrequency()))
-                .build())
+        PaymentDates.PaymentDatesBuilder builder = PaymentDates.builder()
+            .setPaymentFrequency(createPaymentFrequency(leg))
             .setPaymentDatesAdjustments(createBusinessDayAdjustments(
                 leg.getPaymentDayConvention(),
-                leg.getPaymentBusinessCenters()))
-            .build();
+                leg.getPaymentBusinessCenters()));
+
+        // Add payment date offset if specified
+        if (leg.getPaymentDateOffset() != null && leg.getPaymentDateOffset() != 0) {
+            builder.setPaymentDaysOffset(Offset.builder()
+                .setPeriodMultiplier(Math.abs(leg.getPaymentDateOffset()))
+                .setPeriod(PeriodEnum.D) // Days
+                .setDayType(DayTypeEnum.BUSINESS)
+                .build());
+        }
+
+        return builder.build();
     }
 
     /**
@@ -484,15 +512,245 @@ public class GenericSwapBuilder {
         }
     }
 
-    private FloatingRateIndexEnum convertFloatingRateIndex(String index) {
-        if (index == null) return FloatingRateIndexEnum.USD_SOFR_COMPOUND;
-        switch (index) {
-            case "USD-SOFR-COMPOUND": return FloatingRateIndexEnum.USD_SOFR_COMPOUND;
-            case "EUR-EURIBOR-6M": return FloatingRateIndexEnum.EUR_EURIBOR;
-            case "EUR-EURIBOR-3M": return FloatingRateIndexEnum.EUR_EURIBOR;
-            case "GBP-SONIA-COMPOUND": return FloatingRateIndexEnum.GBP_SONIA_COMPOUND;
-            default: return FloatingRateIndexEnum.USD_SOFR_COMPOUND;
+    /**
+     * Create settlement terms from leg parameters
+     */
+    private SettlementTerms createSettlementTerms(LegParameters leg) {
+        if (leg.getSettlementCurrency() == null && leg.getSettlementType() == null) {
+            return null; // No settlement terms specified
         }
+
+        SettlementTerms.SettlementTermsBuilder builder = SettlementTerms.builder();
+
+        // Set settlement currency if specified
+        if (leg.getSettlementCurrency() != null) {
+            builder.setSettlementCurrencyValue(leg.getSettlementCurrency());
+        }
+
+        // Set settlement type if specified
+        if (leg.getSettlementType() != null) {
+            SettlementTypeEnum settlementType = convertSettlementType(leg.getSettlementType());
+            if (settlementType != null) {
+                builder.setSettlementType(settlementType);
+            }
+        }
+
+        return builder.build();
+    }
+
+    /**
+     * Convert settlement type string to enum
+     */
+    private SettlementTypeEnum convertSettlementType(String settlementType) {
+        if (settlementType == null) return null;
+        switch (settlementType.toUpperCase()) {
+            case "CASH": return SettlementTypeEnum.CASH;
+            case "PHYSICAL": return SettlementTypeEnum.PHYSICAL;
+            default:
+                System.err.println("WARNING: Unknown settlement type '" + settlementType + "', defaulting to CASH");
+                return SettlementTypeEnum.CASH;
+        }
+    }
+
+    /**
+     * Convert cash settlement method string to enum
+     */
+    private CashSettlementMethodEnum convertCashSettlementMethod(String method) {
+        if (method == null) return null;
+        switch (method.toUpperCase()) {
+            case "CASH_PRICE_METHOD": return CashSettlementMethodEnum.CASH_PRICE_METHOD;
+            case "CASH_PRICE_ALTERNATE_METHOD": return CashSettlementMethodEnum.CASH_PRICE_ALTERNATE_METHOD;
+            case "PAR_YIELD_CURVE_ADJUSTED_METHOD": return CashSettlementMethodEnum.PAR_YIELD_CURVE_ADJUSTED_METHOD;
+            case "ZERO_COUPON_YIELD_ADJUSTED_METHOD": return CashSettlementMethodEnum.ZERO_COUPON_YIELD_ADJUSTED_METHOD;
+            case "CROSS_CURRENCY_METHOD": return CashSettlementMethodEnum.CROSS_CURRENCY_METHOD;
+            case "MID_MARKET_INDICATIVE_QUOTATIONS": return CashSettlementMethodEnum.MID_MARKET_INDICATIVE_QUOTATIONS;
+            case "MID_MARKET_CALCULATION_AGENT_DETERMINATION": return CashSettlementMethodEnum.MID_MARKET_CALCULATION_AGENT_DETERMINATION;
+            default:
+                System.err.println("WARNING: Unknown cash settlement method '" + method + "', defaulting to CASH_PRICE_METHOD");
+                return CashSettlementMethodEnum.CASH_PRICE_METHOD;
+        }
+    }
+
+    /**
+     * Convert delivery method string to enum
+     */
+    private DeliveryMethodEnum convertDeliveryMethod(String method) {
+        if (method == null) return null;
+        switch (method.toUpperCase()) {
+            case "DELIVERY_VERSUS_PAYMENT": return DeliveryMethodEnum.DELIVERY_VERSUS_PAYMENT;
+            case "FREE_OF_PAYMENT": return DeliveryMethodEnum.FREE_OF_PAYMENT;
+            case "PRE_DELIVERY": return DeliveryMethodEnum.PRE_DELIVERY;
+            case "PRE_PAYMENT": return DeliveryMethodEnum.PRE_PAYMENT;
+            default:
+                System.err.println("WARNING: Unknown delivery method '" + method + "', defaulting to DELIVERY_VERSUS_PAYMENT");
+                return DeliveryMethodEnum.DELIVERY_VERSUS_PAYMENT;
+        }
+    }
+
+    /**
+     * Convert settlement centre string to enum.
+     * Only supports standard CDM settlement centres (European systems).
+     * Regional settlement systems (e.g., Chilean LBTR, COMBANC) are not mapped
+     * to avoid misleading associations and should be handled through custom attributes.
+     */
+    private SettlementCentreEnum convertSettlementCentre(String centre) {
+        if (centre == null) return null;
+
+        // Normalize input for comparison
+        String normalized = centre.toUpperCase().trim();
+
+        switch (normalized) {
+            // Standard CDM settlement centres only
+            case "EUROCLEAR_BANK":
+            case "EUROCLEAR":
+                return SettlementCentreEnum.EUROCLEAR_BANK;
+
+            case "CLEARSTREAM_BANKING_LUXEMBOURG":
+            case "CLEARSTREAM":
+                return SettlementCentreEnum.CLEARSTREAM_BANKING_LUXEMBOURG;
+
+            default:
+                // For non-European settlement systems, log but don't map
+                if (isRegionalSettlementSystem(normalized)) {
+                    System.out.println("INFO: Regional settlement centre '" + centre + "' specified. " +
+                        "CDM enum only supports European systems, so settlement centre will not be set in CDM model. " +
+                        "Consider using custom attributes for regional settlement systems.");
+                    return null; // Don't set the enum for regional systems
+                }
+
+                System.err.println("WARNING: Unknown settlement centre '" + centre + "', not setting in CDM model");
+                return null;
+        }
+    }
+
+    /**
+     * Check if the settlement centre is a known regional system that shouldn't
+     * be mapped to European equivalents.
+     */
+    private boolean isRegionalSettlementSystem(String normalized) {
+        return normalized.equals("LBTR") ||
+               normalized.equals("COMBANC") ||
+               normalized.contains("CORRESPONDENT") ||
+               normalized.contains("CURRENT_ACCOUNT") ||
+               (normalized.contains("BANCO") && !normalized.contains("EUROCLEAR") && !normalized.contains("CLEARSTREAM"));
+    }
+
+    /**
+     * Create a descriptive text for custom settlement centres to preserve the information.
+     */
+    private String createCustomSettlementDescription(String originalSettlementCentre) {
+        String normalized = originalSettlementCentre.toUpperCase().trim();
+        switch (normalized) {
+            case "LBTR":
+                return "Chilean Large Value Transfer System (LBTR) - Real-time gross settlement system";
+            case "COMBANC":
+                return "Chilean Compensation and Liquidation Chamber (COMBANC) - Net settlement system";
+            default:
+                if (normalized.contains("CORRESPONDENT")) {
+                    return "Correspondent banking arrangement";
+                } else if (normalized.contains("CURRENT_ACCOUNT")) {
+                    return "Direct current account settlement";
+                } else if (normalized.contains("BANCO")) {
+                    return "Regional bank settlement system: " + originalSettlementCentre;
+                } else {
+                    return "Custom regional settlement system: " + originalSettlementCentre;
+                }
+        }
+    }
+
+    /**
+     * Create trade identifier from trade ID string and type
+     */
+    private TradeIdentifier createTradeIdentifier(String tradeId, String tradeIdType) {
+        if (tradeId == null || tradeId.trim().isEmpty()) {
+            return null; // No trade identifier if no ID provided
+        }
+
+        return TradeIdentifier.builder()
+            .addAssignedIdentifier(AssignedIdentifier.builder()
+                .setIdentifierValue(tradeId.trim())
+                .setVersion(1)
+                .build())
+            .setIdentifierType(convertTradeIdentifierType(tradeIdType))
+            .build();
+    }
+
+    /**
+     * Convert trade identifier type string to enum
+     */
+    private TradeIdentifierTypeEnum convertTradeIdentifierType(String idType) {
+        if (idType == null) return TradeIdentifierTypeEnum.UNIQUE_TRANSACTION_IDENTIFIER;
+        switch (idType.toUpperCase()) {
+            case "UTI":
+            case "UNIQUE_TRANSACTION_IDENTIFIER":
+                return TradeIdentifierTypeEnum.UNIQUE_TRANSACTION_IDENTIFIER;
+            case "USI":
+            case "UNIQUE_SWAP_IDENTIFIER":
+            case "INTERNAL":
+                return TradeIdentifierTypeEnum.UNIQUE_SWAP_IDENTIFIER;
+            default:
+                System.err.println("WARNING: Unknown trade identifier type '" + idType + "', defaulting to UNIQUE_TRANSACTION_IDENTIFIER");
+                return TradeIdentifierTypeEnum.UNIQUE_TRANSACTION_IDENTIFIER;
+        }
+    }
+
+    /**
+     * Create rate rounding specification for interest rate calculations
+     */
+    private Rounding createRateRounding(LegParameters leg) {
+        if (leg.getRateRoundingPrecision() == null && leg.getRateRoundingDirection() == null) {
+            return null; // No rounding specified
+        }
+
+        Rounding.RoundingBuilder builder = Rounding.builder();
+
+        // Set precision (number of decimal places)
+        if (leg.getRateRoundingPrecision() != null) {
+            builder.setPrecision(leg.getRateRoundingPrecision());
+        }
+
+        // Set rounding direction
+        if (leg.getRateRoundingDirection() != null) {
+            RoundingDirectionEnum direction = convertRoundingDirection(leg.getRateRoundingDirection());
+            if (direction != null) {
+                builder.setRoundingDirection(direction);
+            }
+        }
+
+        return builder.build();
+    }
+
+    /**
+     * Convert rounding direction string to enum
+     */
+    private RoundingDirectionEnum convertRoundingDirection(String direction) {
+        if (direction == null) return null;
+        switch (direction.toUpperCase()) {
+            case "UP": return RoundingDirectionEnum.UP;
+            case "DOWN": return RoundingDirectionEnum.DOWN;
+            case "NEAREST": return RoundingDirectionEnum.NEAREST;
+            default:
+                System.err.println("WARNING: Unknown rounding direction '" + direction + "', defaulting to NEAREST");
+                return RoundingDirectionEnum.NEAREST;
+        }
+    }
+
+    private FloatingRateIndexEnum convertFloatingRateIndex(String index) {
+        if (index == null) {
+            System.err.println("WARNING: No floating rate index specified, defaulting to USD-SOFR-COMPOUND");
+            return FloatingRateIndexEnum.USD_SOFR_COMPOUND;
+        }
+
+        // Use the comprehensive mapper
+        FloatingRateIndexEnum mappedEnum = FloatingRateIndexMapper.getEnum(index);
+
+        if (mappedEnum != null) {
+            return mappedEnum;
+        }
+
+        // If not found in the mapper, log warning and default
+        System.err.println("WARNING: Unknown floating rate index '" + index + "', defaulting to USD-SOFR-COMPOUND");
+        return FloatingRateIndexEnum.USD_SOFR_COMPOUND;
     }
 
     private PeriodExtendedEnum convertPeriod(String period) {
@@ -543,13 +801,22 @@ public class GenericSwapBuilder {
     }
 
     private int convertPeriodMultiplier(String period) {
-        if (period == null) return 6;
+        if (period == null) return 0; // Return 0 for null (will be handled specially)
         switch (period) {
             case "1M": return 1;
             case "3M": return 3;
             case "6M": return 6;
-            case "1Y": return 1;
-            default: return 6;
+            case "1Y":
+            case "12M": return 12;
+            case "2Y":
+            case "24M": return 24;
+            case "3Y":
+            case "36M": return 36;
+            case "ATMATURITY":
+            case "TERM": return 0; // Special case for full term
+            default:
+                System.err.println("WARNING: Unknown period '" + period + "', using 0 for term-based calculation");
+                return 0;
         }
     }
 
@@ -624,6 +891,47 @@ public class GenericSwapBuilder {
                 System.err.println("WARNING: Unknown roll convention '" + rollConvention + "', using null");
                 return null;
         }
+    }
+
+    /**
+     * Create calculation period frequency, handling null/zero values for zero-coupon structures
+     */
+    private CalculationPeriodFrequency createCalculationPeriodFrequency(LegParameters leg) {
+        int multiplier = convertPeriodMultiplier(leg.getCalculationPeriodFrequency());
+        PeriodExtendedEnum period = convertPeriod(leg.getCalculationPeriodFrequency());
+
+        // For zero-coupon (null frequency), don't set frequency - let CDM derive from dates
+        if (multiplier == 0) {
+            return null; // CDM will calculate single period from effective to termination date
+        }
+
+        CalculationPeriodFrequency.CalculationPeriodFrequencyBuilder builder = CalculationPeriodFrequency.builder()
+            .setPeriodMultiplier(multiplier)
+            .setPeriod(period);
+
+        if (leg.getRollConvention() != null) {
+            builder.setRollConvention(convertRollConvention(leg.getRollConvention()));
+        }
+
+        return builder.build();
+    }
+
+    /**
+     * Create payment frequency, handling null/zero values for zero-coupon structures
+     */
+    private Frequency createPaymentFrequency(LegParameters leg) {
+        int multiplier = convertPeriodMultiplier(leg.getPaymentFrequency());
+        PeriodExtendedEnum period = convertPeriod(leg.getPaymentFrequency());
+
+        // For zero-coupon (null frequency), don't set frequency - single payment at maturity
+        if (multiplier == 0) {
+            return null; // CDM will default to single payment at termination
+        }
+
+        return Frequency.builder()
+            .setPeriodMultiplier(multiplier)
+            .setPeriod(period)
+            .build();
     }
 
     /**

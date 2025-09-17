@@ -26,14 +26,14 @@
 - `QuantityBuilder setValue(BigDecimal arg0)`
 - `QuantityBuilder setMultiplier(Measure arg0)`
 - `QuantityBuilder setDatedValue(List arg0)`
-- `QuantityBuilder setFrequency(Frequency arg0)`
 - `QuantityBuilder setUnit(UnitType arg0)`
+- `QuantityBuilder setFrequency(Frequency arg0)`
 
 #### Adder Methods
 
-- `QuantityBuilder addDatedValue(List arg0)`
 - `QuantityBuilder addDatedValue(DatedValue arg0)`
 - `QuantityBuilder addDatedValue(DatedValue arg0, int arg1)`
+- `QuantityBuilder addDatedValue(List arg0)`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `QuantityBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `QuantityBuilder toBuilder()`
 - `QuantityBuilder prune()`
+- `QuantityBuilder toBuilder()`
+- `boolean hasData()`
 

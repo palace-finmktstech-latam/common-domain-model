@@ -15,7 +15,7 @@
 
 #### Other Methods
 
-- `CurrencyCodeEnum doEvaluate(Cash arg0)`
 - `CurrencyCodeEnum assignOutput(CurrencyCodeEnum arg0, Cash arg1)`
 - `MapperC cashId(Cash arg0)`
+- `CurrencyCodeEnum doEvaluate(Cash arg0)`
 

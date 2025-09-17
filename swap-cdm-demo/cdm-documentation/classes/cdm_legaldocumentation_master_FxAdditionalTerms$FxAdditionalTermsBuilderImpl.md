@@ -22,7 +22,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FxAdditionalTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FxAdditionalTermsBuilder toBuilder()`
 - `FxAdditionalTermsBuilder prune()`
+- `FxAdditionalTermsBuilder toBuilder()`
+- `boolean hasData()`
 

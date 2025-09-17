@@ -33,8 +33,8 @@
 #### Getter Methods
 
 - `FloatingRateIndexCalculationMethodEnum getMethod()`
-- `FloatingRateIndexCategoryEnum getCategory()`
 - `FloatingRateIndexStyleEnum getIndexStyle()`
+- `FloatingRateIndexCategoryEnum getCategory()`
 
 #### Other Methods
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FloatingRateIndexCalculationDefaultsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FloatingRateIndexCalculationDefaultsBuilder toBuilder()`
 - `FloatingRateIndexCalculationDefaultsBuilder prune()`
+- `FloatingRateIndexCalculationDefaultsBuilder toBuilder()`
+- `boolean hasData()`
 

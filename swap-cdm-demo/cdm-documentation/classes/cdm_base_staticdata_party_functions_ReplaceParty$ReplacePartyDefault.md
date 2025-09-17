@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `List doEvaluate(List arg0, Party arg1, Party arg2)`
 - `List assignOutput(List arg0, List arg1, Party arg2, Party arg3)`
+- `List doEvaluate(List arg0, Party arg1, Party arg2)`
 

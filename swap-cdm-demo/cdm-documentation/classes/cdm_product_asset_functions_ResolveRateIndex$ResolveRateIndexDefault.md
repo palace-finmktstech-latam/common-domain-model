@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `BigDecimal doEvaluate(FloatingRateIndexEnum arg0)`
 - `BigDecimal assignOutput(BigDecimal arg0, FloatingRateIndexEnum arg1)`
+- `BigDecimal doEvaluate(FloatingRateIndexEnum arg0)`
 

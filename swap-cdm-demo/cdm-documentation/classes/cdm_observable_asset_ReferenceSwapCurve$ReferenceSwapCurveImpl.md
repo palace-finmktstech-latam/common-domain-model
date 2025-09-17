@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `SwapCurveValuation getSwapUnwindValue()`
 - `MakeWholeAmount getMakeWholeAmount()`
+- `SwapCurveValuation getSwapUnwindValue()`
 
 #### Other Methods
 

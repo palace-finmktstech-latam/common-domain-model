@@ -52,19 +52,19 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CreditEventNotice` [Builder]
-- `getBusinessCenter()` → `BusinessCenterEnum` [Getter]
-- `getNotifyingParty()` → `List` [Getter]
 - `getPubliclyAvailableInformation()` → `PubliclyAvailableInformation` [Getter]
+- `getNotifyingParty()` → `List` [Getter]
+- `getBusinessCenter()` → `BusinessCenterEnum` [Getter]
 
 ### CreditEventNoticeBuilder
 **Implements:** `CreditEventNotice` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setBusinessCenter(BusinessCenterEnum arg0)` → `CreditEventNoticeBuilder` [Setter]
-- `setNotifyingParty(List arg0)` → `CreditEventNoticeBuilder` [Setter]
+- `getPubliclyAvailableInformation()` → `PubliclyAvailableInformationBuilder` [Getter]
 - `getOrCreatePubliclyAvailableInformation()` → `PubliclyAvailableInformationBuilder` [Getter]
 - `setPubliclyAvailableInformation(PubliclyAvailableInformation arg0)` → `CreditEventNoticeBuilder` [Setter]
-- `getPubliclyAvailableInformation()` → `PubliclyAvailableInformationBuilder` [Getter]
+- `setBusinessCenter(BusinessCenterEnum arg0)` → `CreditEventNoticeBuilder` [Setter]
+- `setNotifyingParty(List arg0)` → `CreditEventNoticeBuilder` [Setter]
 
 ### CreditEvents
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -72,29 +72,29 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CreditEvents` [Builder]
-- `getCreditEventNotice()` → `CreditEventNotice` [Getter]
-- `getRestructuring()` → `Restructuring` [Getter]
-- `getFailureToPay()` → `FailureToPay` [Getter]
-- `getDefaultRequirement()` → `Money` [Getter]
-- `getGovernmentalIntervention()` → `Boolean` [Getter]
-- `getDistressedRatingsDowngrade()` → `Boolean` [Getter]
 - `getBankruptcy()` → `Boolean` [Getter]
-- `getObligationAcceleration()` → `Boolean` [Getter]
+- `getGovernmentalIntervention()` → `Boolean` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getDefaultRequirement()` → `Money` [Getter]
+- `getFailureToPay()` → `FailureToPay` [Getter]
+- `getRestructuring()` → `Restructuring` [Getter]
+- `getCreditEventNotice()` → `CreditEventNotice` [Getter]
+- `getFailureToPayPrincipal()` → `Boolean` [Getter]
 
 ### CreditEventsBuilder
 **Implements:** `CreditEvents` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `setFailureToPayPrincipal(Boolean arg0)` → `CreditEventsBuilder` [Setter]
-- `setWritedown(Boolean arg0)` → `CreditEventsBuilder` [Setter]
-- `getOrCreateFailureToPay()` → `FailureToPayBuilder` [Getter]
-- `setFailureToPay(FailureToPay arg0)` → `CreditEventsBuilder` [Setter]
-- `setObligationAcceleration(Boolean arg0)` → `CreditEventsBuilder` [Setter]
-- `setRepudiationMoratorium(Boolean arg0)` → `CreditEventsBuilder` [Setter]
+- `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `CreditEventsBuilder` [Setter]
+- `getDefaultRequirement()` → `MoneyBuilder` [Getter]
+- `getFailureToPay()` → `FailureToPayBuilder` [Getter]
+- `getRestructuring()` → `RestructuringBuilder` [Getter]
+- `getCreditEventNotice()` → `CreditEventNoticeBuilder` [Getter]
+- `setImpliedWritedown(Boolean arg0)` → `CreditEventsBuilder` [Setter]
 - `getOrCreateRestructuring()` → `RestructuringBuilder` [Getter]
 - `setBankruptcy(Boolean arg0)` → `CreditEventsBuilder` [Setter]
-- `setImpliedWritedown(Boolean arg0)` → `CreditEventsBuilder` [Setter]
-- `setFailureToPayInterest(Boolean arg0)` → `CreditEventsBuilder` [Setter]
 
 ### DeterminationMethodology
 **Implements:** `RosettaModelObject` 
@@ -102,15 +102,15 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `DeterminationMethodology` [Builder]
-- `getDeterminationMethod()` → `DeterminationMethodEnum` [Getter]
 - `getAveragingMethod()` → `AveragingCalculationMethodEnum` [Getter]
+- `getDeterminationMethod()` → `DeterminationMethodEnum` [Getter]
 
 ### DeterminationMethodologyBuilder
 **Implements:** `DeterminationMethodology` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setAveragingMethod(AveragingCalculationMethodEnum arg0)` → `DeterminationMethodologyBuilder` [Setter]
 - `setDeterminationMethod(DeterminationMethodEnum arg0)` → `DeterminationMethodologyBuilder` [Setter]
+- `setAveragingMethod(AveragingCalculationMethodEnum arg0)` → `DeterminationMethodologyBuilder` [Setter]
 
 ### FailureToPay
 **Implements:** `RosettaModelObject` 
@@ -126,13 +126,13 @@
 **Implements:** `FailureToPay` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setPaymentRequirement(Money arg0)` → `FailureToPayBuilder` [Setter]
-- `getGracePeriodExtension()` → `GracePeriodExtensionBuilder` [Getter]
-- `setGracePeriodExtension(GracePeriodExtension arg0)` → `FailureToPayBuilder` [Setter]
-- `getPaymentRequirement()` → `MoneyBuilder` [Getter]
-- `getOrCreatePaymentRequirement()` → `MoneyBuilder` [Getter]
-- `getOrCreateGracePeriodExtension()` → `GracePeriodExtensionBuilder` [Getter]
 - `setApplicable(Boolean arg0)` → `FailureToPayBuilder` [Setter]
+- `getGracePeriodExtension()` → `GracePeriodExtensionBuilder` [Getter]
+- `getPaymentRequirement()` → `MoneyBuilder` [Getter]
+- `setPaymentRequirement(Money arg0)` → `FailureToPayBuilder` [Setter]
+- `setGracePeriodExtension(GracePeriodExtension arg0)` → `FailureToPayBuilder` [Setter]
+- `getOrCreateGracePeriodExtension()` → `GracePeriodExtensionBuilder` [Getter]
+- `getOrCreatePaymentRequirement()` → `MoneyBuilder` [Getter]
 
 ### FeaturePayment
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -142,11 +142,11 @@
 - `build()` → `FeaturePayment` [Builder]
 - `getCurrency()` → `FieldWithMetaString` [Getter]
 - `getTime()` → `TimeTypeEnum` [Getter]
-- `getLevelPercentage()` → `BigDecimal` [Getter]
 - `getPayerReceiver()` → `PartyReferencePayerReceiver` [Getter]
-- `getPaymentDate()` → `AdjustableOrRelativeDate` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
 - `getAmount()` → `BigDecimal` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getLevelPercentage()` → `BigDecimal` [Getter]
+- `getPaymentDate()` → `AdjustableOrRelativeDate` [Getter]
 
 ### FeaturePaymentBuilder
 **Implements:** `FeaturePayment` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
@@ -155,13 +155,13 @@
 - `getCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrency(FieldWithMetaString arg0)` → `FeaturePaymentBuilder` [Setter]
 - `setTime(TimeTypeEnum arg0)` → `FeaturePaymentBuilder` [Setter]
-- `setLevelPercentage(BigDecimal arg0)` → `FeaturePaymentBuilder` [Setter]
-- `getPayerReceiver()` → `PartyReferencePayerReceiverBuilder` [Getter]
-- `getOrCreatePayerReceiver()` → `PartyReferencePayerReceiverBuilder` [Getter]
 - `setPayerReceiver(PartyReferencePayerReceiver arg0)` → `FeaturePaymentBuilder` [Setter]
+- `getOrCreatePayerReceiver()` → `PartyReferencePayerReceiverBuilder` [Getter]
+- `getPayerReceiver()` → `PartyReferencePayerReceiverBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
-- `getPaymentDate()` → `AdjustableOrRelativeDateBuilder` [Getter]
+- `setCurrencyValue(String arg0)` → `FeaturePaymentBuilder` [Setter]
+- `setAmount(BigDecimal arg0)` → `FeaturePaymentBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
 
 ### GracePeriodExtension
 **Implements:** `RosettaModelObject` 
@@ -176,10 +176,10 @@
 **Implements:** `GracePeriodExtension` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `setApplicable(Boolean arg0)` → `GracePeriodExtensionBuilder` [Setter]
+- `setGracePeriod(Offset arg0)` → `GracePeriodExtensionBuilder` [Setter]
 - `getOrCreateGracePeriod()` → `OffsetBuilder` [Getter]
 - `getGracePeriod()` → `OffsetBuilder` [Getter]
-- `setGracePeriod(Offset arg0)` → `GracePeriodExtensionBuilder` [Setter]
-- `setApplicable(Boolean arg0)` → `GracePeriodExtensionBuilder` [Setter]
 
 ### Observation
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -187,23 +187,23 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `Observation` [Builder]
-- `getObservedValue()` → `Price` [Getter]
 - `getObservationIdentifier()` → `ObservationIdentifier` [Getter]
+- `getObservedValue()` → `Price` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
 
 ### ObservationBuilder
 **Implements:** `Observation` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `setObservationIdentifier(ObservationIdentifier arg0)` → `ObservationBuilder` [Setter]
-- `getOrCreateObservedValue()` → `PriceBuilder` [Getter]
-- `setObservedValue(Price arg0)` → `ObservationBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `getOrCreateObservationIdentifier()` → `ObservationIdentifierBuilder` [Getter]
-- `getObservedValue()` → `PriceBuilder` [Getter]
 - `getObservationIdentifier()` → `ObservationIdentifierBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `ObservationBuilder` [Setter]
+- `getObservedValue()` → `PriceBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `ObservationBuilder` [Setter]
+- `getOrCreateObservedValue()` → `PriceBuilder` [Getter]
+- `setObservationIdentifier(ObservationIdentifier arg0)` → `ObservationBuilder` [Setter]
+- `setObservedValue(Price arg0)` → `ObservationBuilder` [Setter]
+- `getOrCreateObservationIdentifier()` → `ObservationIdentifierBuilder` [Getter]
 
 ### ObservationIdentifier
 **Implements:** `RosettaModelObject` 
@@ -211,26 +211,26 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ObservationIdentifier` [Builder]
-- `getObservationDate()` → `Date` [Getter]
 - `getObservable()` → `Observable` [Getter]
-- `getObservationTime()` → `TimeZone` [Getter]
 - `getInformationSource()` → `InformationSource` [Getter]
+- `getObservationTime()` → `TimeZone` [Getter]
+- `getObservationDate()` → `Date` [Getter]
 - `getDeterminationMethodology()` → `DeterminationMethodology` [Getter]
 
 ### ObservationIdentifierBuilder
 **Implements:** `ObservationIdentifier` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getOrCreateObservable()` → `ObservableBuilder` [Getter]
-- `getOrCreateObservationTime()` → `TimeZoneBuilder` [Getter]
 - `getObservable()` → `ObservableBuilder` [Getter]
-- `getObservationTime()` → `TimeZoneBuilder` [Getter]
-- `setObservationTime(TimeZone arg0)` → `ObservationIdentifierBuilder` [Setter]
-- `setInformationSource(InformationSource arg0)` → `ObservationIdentifierBuilder` [Setter]
+- `getOrCreateObservable()` → `ObservableBuilder` [Getter]
+- `setObservationDate(Date arg0)` → `ObservationIdentifierBuilder` [Setter]
+- `getOrCreateDeterminationMethodology()` → `DeterminationMethodologyBuilder` [Getter]
 - `setObservable(Observable arg0)` → `ObservationIdentifierBuilder` [Setter]
 - `getInformationSource()` → `InformationSourceBuilder` [Getter]
-- `setObservationDate(Date arg0)` → `ObservationIdentifierBuilder` [Setter]
-- `getOrCreateInformationSource()` → `InformationSourceBuilder` [Getter]
+- `setObservationTime(TimeZone arg0)` → `ObservationIdentifierBuilder` [Setter]
+- `setInformationSource(InformationSource arg0)` → `ObservationIdentifierBuilder` [Setter]
+- `getObservationTime()` → `TimeZoneBuilder` [Getter]
+- `getOrCreateObservationTime()` → `TimeZoneBuilder` [Getter]
 
 ### PubliclyAvailableInformation
 **Implements:** `RosettaModelObject` 
@@ -239,8 +239,8 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `PubliclyAvailableInformation` [Builder]
 - `getStandardPublicSources()` → `Boolean` [Getter]
-- `getPublicSource()` → `List` [Getter]
 - `getSpecifiedNumber()` → `Integer` [Getter]
+- `getPublicSource()` → `List` [Getter]
 
 ### PubliclyAvailableInformationBuilder
 **Implements:** `PubliclyAvailableInformation` `RosettaModelObjectBuilder` 
@@ -256,22 +256,22 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `Restructuring` [Builder]
-- `getRestructuringType()` → `FieldWithMetaRestructuringEnum` [Getter]
-- `getApplicable()` → `Boolean` [Getter]
 - `getMultipleHolderObligation()` → `Boolean` [Getter]
 - `getMultipleCreditEventNotices()` → `Boolean` [Getter]
+- `getRestructuringType()` → `FieldWithMetaRestructuringEnum` [Getter]
+- `getApplicable()` → `Boolean` [Getter]
 
 ### RestructuringBuilder
 **Implements:** `Restructuring` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setRestructuringType(FieldWithMetaRestructuringEnum arg0)` → `RestructuringBuilder` [Setter]
-- `setRestructuringTypeValue(RestructuringEnum arg0)` → `RestructuringBuilder` [Setter]
-- `setMultipleHolderObligation(Boolean arg0)` → `RestructuringBuilder` [Setter]
-- `setMultipleCreditEventNotices(Boolean arg0)` → `RestructuringBuilder` [Setter]
-- `getOrCreateRestructuringType()` → `FieldWithMetaRestructuringEnumBuilder` [Getter]
-- `getRestructuringType()` → `FieldWithMetaRestructuringEnumBuilder` [Getter]
 - `setApplicable(Boolean arg0)` → `RestructuringBuilder` [Setter]
+- `getRestructuringType()` → `FieldWithMetaRestructuringEnumBuilder` [Getter]
+- `setRestructuringTypeValue(RestructuringEnum arg0)` → `RestructuringBuilder` [Setter]
+- `setRestructuringType(FieldWithMetaRestructuringEnum arg0)` → `RestructuringBuilder` [Setter]
+- `getOrCreateRestructuringType()` → `FieldWithMetaRestructuringEnumBuilder` [Getter]
+- `setMultipleCreditEventNotices(Boolean arg0)` → `RestructuringBuilder` [Setter]
+- `setMultipleHolderObligation(Boolean arg0)` → `RestructuringBuilder` [Setter]
 
 ### Trigger
 **Implements:** `RosettaModelObject` 
@@ -280,10 +280,10 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `Trigger` [Builder]
 - `getLevel()` → `List` [Getter]
+- `getCreditEvents()` → `CreditEvents` [Getter]
 - `getTriggerTimeType()` → `TriggerTimeTypeEnum` [Getter]
 - `getCreditEventsReference()` → `ReferenceWithMetaCreditEvents` [Getter]
 - `getTriggerType()` → `TriggerTypeEnum` [Getter]
-- `getCreditEvents()` → `CreditEvents` [Getter]
 
 ### TriggerBuilder
 **Implements:** `Trigger` `RosettaModelObjectBuilder` 
@@ -291,14 +291,14 @@
 **Key Methods:**
 - `setLevel(List arg0)` → `TriggerBuilder` [Setter]
 - `getLevel()` → `List` [Getter]
-- `getCreditEventsReference()` → `ReferenceWithMetaCreditEventsBuilder` [Getter]
-- `getOrCreateLevel(int arg0)` → `PriceScheduleBuilder` [Getter]
+- `getCreditEvents()` → `CreditEventsBuilder` [Getter]
 - `setTriggerTimeType(TriggerTimeTypeEnum arg0)` → `TriggerBuilder` [Setter]
-- `setTriggerType(TriggerTypeEnum arg0)` → `TriggerBuilder` [Setter]
+- `setCreditEvents(CreditEvents arg0)` → `TriggerBuilder` [Setter]
 - `setCreditEventsReference(ReferenceWithMetaCreditEvents arg0)` → `TriggerBuilder` [Setter]
 - `getOrCreateCreditEvents()` → `CreditEventsBuilder` [Getter]
-- `setCreditEvents(CreditEvents arg0)` → `TriggerBuilder` [Setter]
-- `setCreditEventsReferenceValue(CreditEvents arg0)` → `TriggerBuilder` [Setter]
+- `getOrCreateLevel(int arg0)` → `PriceScheduleBuilder` [Getter]
+- `setTriggerType(TriggerTypeEnum arg0)` → `TriggerBuilder` [Setter]
+- `getCreditEventsReference()` → `ReferenceWithMetaCreditEventsBuilder` [Getter]
 
 ### TriggerEvent
 **Implements:** `RosettaModelObject` 
@@ -306,25 +306,25 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `TriggerEvent` [Builder]
+- `getTrigger()` → `Trigger` [Getter]
 - `getSchedule()` → `List` [Getter]
 - `getTriggerDates()` → `DateList` [Getter]
 - `getFeaturePayment()` → `FeaturePayment` [Getter]
-- `getTrigger()` → `Trigger` [Getter]
 
 ### TriggerEventBuilder
 **Implements:** `TriggerEvent` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `getTrigger()` → `TriggerBuilder` [Getter]
+- `getSchedule()` → `List` [Getter]
+- `getOrCreateSchedule(int arg0)` → `AveragingScheduleBuilder` [Getter]
+- `setSchedule(List arg0)` → `TriggerEventBuilder` [Setter]
+- `getOrCreateTriggerDates()` → `DateListBuilder` [Getter]
 - `getOrCreateTrigger()` → `TriggerBuilder` [Getter]
+- `setTriggerDates(DateList arg0)` → `TriggerEventBuilder` [Setter]
 - `getOrCreateFeaturePayment()` → `FeaturePaymentBuilder` [Getter]
 - `setFeaturePayment(FeaturePayment arg0)` → `TriggerEventBuilder` [Setter]
-- `setTriggerDates(DateList arg0)` → `TriggerEventBuilder` [Setter]
-- `getOrCreateTriggerDates()` → `DateListBuilder` [Getter]
-- `getSchedule()` → `List` [Getter]
-- `setSchedule(List arg0)` → `TriggerEventBuilder` [Setter]
-- `getOrCreateSchedule(int arg0)` → `AveragingScheduleBuilder` [Getter]
 - `getTriggerDates()` → `DateListBuilder` [Getter]
-- `getFeaturePayment()` → `FeaturePaymentBuilder` [Getter]
 
 ## Concrete Classes
 
@@ -338,13 +338,13 @@
 
 **Key Methods:**
 - `build()` → `CreditEventNotice` [Builder]
-- `setBusinessCenter(BusinessCenterEnum arg0)` → `CreditEventNoticeBuilder` [Setter]
-- `setNotifyingParty(List arg0)` → `CreditEventNoticeBuilder` [Setter]
-- `getBusinessCenter()` → `BusinessCenterEnum` [Getter]
-- `getNotifyingParty()` → `List` [Getter]
+- `getPubliclyAvailableInformation()` → `PubliclyAvailableInformationBuilder` [Getter]
 - `getOrCreatePubliclyAvailableInformation()` → `PubliclyAvailableInformationBuilder` [Getter]
 - `setPubliclyAvailableInformation(PubliclyAvailableInformation arg0)` → `CreditEventNoticeBuilder` [Setter]
-- `getPubliclyAvailableInformation()` → `PubliclyAvailableInformationBuilder` [Getter]
+- `getNotifyingParty()` → `List` [Getter]
+- `getBusinessCenter()` → `BusinessCenterEnum` [Getter]
+- `setBusinessCenter(BusinessCenterEnum arg0)` → `CreditEventNoticeBuilder` [Setter]
+- `setNotifyingParty(List arg0)` → `CreditEventNoticeBuilder` [Setter]
 
 ### CreditEventNoticeImpl
 **Implements:** `CreditEventNotice` 
@@ -352,9 +352,9 @@
 **Key Methods:**
 - `build()` → `CreditEventNotice` [Builder]
 - `setBuilderFields(CreditEventNoticeBuilder arg0)` → `void` [Setter]
-- `getBusinessCenter()` → `BusinessCenterEnum` [Getter]
-- `getNotifyingParty()` → `List` [Getter]
 - `getPubliclyAvailableInformation()` → `PubliclyAvailableInformation` [Getter]
+- `getNotifyingParty()` → `List` [Getter]
+- `getBusinessCenter()` → `BusinessCenterEnum` [Getter]
 
 ### CreditEventsBuilderImpl
 **Implements:** `CreditEvents$CreditEventsBuilder` 
@@ -379,15 +379,15 @@
 
 **Key Methods:**
 - `build()` → `CreditEvents` [Builder]
-- `setFailureToPayPrincipal(Boolean arg0)` → `CreditEventsBuilder` [Setter]
-- `setWritedown(Boolean arg0)` → `CreditEventsBuilder` [Setter]
-- `getOrCreateFailureToPay()` → `FailureToPayBuilder` [Getter]
-- `setFailureToPay(FailureToPay arg0)` → `CreditEventsBuilder` [Setter]
-- `setObligationAcceleration(Boolean arg0)` → `CreditEventsBuilder` [Setter]
-- `setRepudiationMoratorium(Boolean arg0)` → `CreditEventsBuilder` [Setter]
-- `getOrCreateRestructuring()` → `RestructuringBuilder` [Getter]
-- `setBankruptcy(Boolean arg0)` → `CreditEventsBuilder` [Setter]
-- `setImpliedWritedown(Boolean arg0)` → `CreditEventsBuilder` [Setter]
+- `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getBankruptcy()` → `Boolean` [Getter]
+- `getGovernmentalIntervention()` → `Boolean` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `CreditEventsBuilder` [Setter]
+- `getDefaultRequirement()` → `MoneyBuilder` [Getter]
+- `getFailureToPay()` → `FailureToPayBuilder` [Getter]
+- `getRestructuring()` → `RestructuringBuilder` [Getter]
+- `getCreditEventNotice()` → `CreditEventNoticeBuilder` [Getter]
 
 ### CreditEventsImpl
 **Implements:** `CreditEvents` 
@@ -395,14 +395,14 @@
 **Key Methods:**
 - `build()` → `CreditEvents` [Builder]
 - `setBuilderFields(CreditEventsBuilder arg0)` → `void` [Setter]
-- `getCreditEventNotice()` → `CreditEventNotice` [Getter]
-- `getRestructuring()` → `Restructuring` [Getter]
-- `getFailureToPay()` → `FailureToPay` [Getter]
-- `getDefaultRequirement()` → `Money` [Getter]
-- `getGovernmentalIntervention()` → `Boolean` [Getter]
-- `getDistressedRatingsDowngrade()` → `Boolean` [Getter]
 - `getBankruptcy()` → `Boolean` [Getter]
-- `getObligationAcceleration()` → `Boolean` [Getter]
+- `getGovernmentalIntervention()` → `Boolean` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getDefaultRequirement()` → `Money` [Getter]
+- `getFailureToPay()` → `FailureToPay` [Getter]
+- `getRestructuring()` → `Restructuring` [Getter]
+- `getCreditEventNotice()` → `CreditEventNotice` [Getter]
+- `getFailureToPayPrincipal()` → `Boolean` [Getter]
 
 ### DeterminationMethodologyBuilderImpl
 **Implements:** `DeterminationMethodology$DeterminationMethodologyBuilder` 
@@ -413,10 +413,10 @@
 
 **Key Methods:**
 - `build()` → `DeterminationMethodology` [Builder]
-- `setAveragingMethod(AveragingCalculationMethodEnum arg0)` → `DeterminationMethodologyBuilder` [Setter]
+- `getAveragingMethod()` → `AveragingCalculationMethodEnum` [Getter]
 - `setDeterminationMethod(DeterminationMethodEnum arg0)` → `DeterminationMethodologyBuilder` [Setter]
 - `getDeterminationMethod()` → `DeterminationMethodEnum` [Getter]
-- `getAveragingMethod()` → `AveragingCalculationMethodEnum` [Getter]
+- `setAveragingMethod(AveragingCalculationMethodEnum arg0)` → `DeterminationMethodologyBuilder` [Setter]
 
 ### DeterminationMethodologyImpl
 **Implements:** `DeterminationMethodology` 
@@ -424,8 +424,8 @@
 **Key Methods:**
 - `build()` → `DeterminationMethodology` [Builder]
 - `setBuilderFields(DeterminationMethodologyBuilder arg0)` → `void` [Setter]
-- `getDeterminationMethod()` → `DeterminationMethodEnum` [Getter]
 - `getAveragingMethod()` → `AveragingCalculationMethodEnum` [Getter]
+- `getDeterminationMethod()` → `DeterminationMethodEnum` [Getter]
 
 ### FailureToPayBuilderImpl
 **Implements:** `FailureToPay$FailureToPayBuilder` 
@@ -437,13 +437,13 @@
 
 **Key Methods:**
 - `build()` → `FailureToPay` [Builder]
-- `setPaymentRequirement(Money arg0)` → `FailureToPayBuilder` [Setter]
-- `getGracePeriodExtension()` → `GracePeriodExtensionBuilder` [Getter]
-- `setGracePeriodExtension(GracePeriodExtension arg0)` → `FailureToPayBuilder` [Setter]
-- `getPaymentRequirement()` → `MoneyBuilder` [Getter]
-- `getOrCreatePaymentRequirement()` → `MoneyBuilder` [Getter]
-- `getOrCreateGracePeriodExtension()` → `GracePeriodExtensionBuilder` [Getter]
 - `setApplicable(Boolean arg0)` → `FailureToPayBuilder` [Setter]
+- `getGracePeriodExtension()` → `GracePeriodExtensionBuilder` [Getter]
+- `getPaymentRequirement()` → `MoneyBuilder` [Getter]
+- `setPaymentRequirement(Money arg0)` → `FailureToPayBuilder` [Setter]
+- `setGracePeriodExtension(GracePeriodExtension arg0)` → `FailureToPayBuilder` [Setter]
+- `getOrCreateGracePeriodExtension()` → `GracePeriodExtensionBuilder` [Getter]
+- `getOrCreatePaymentRequirement()` → `MoneyBuilder` [Getter]
 - `getApplicable()` → `Boolean` [Getter]
 
 ### FailureToPayImpl
@@ -451,9 +451,9 @@
 
 **Key Methods:**
 - `build()` → `FailureToPay` [Builder]
+- `setBuilderFields(FailureToPayBuilder arg0)` → `void` [Setter]
 - `getGracePeriodExtension()` → `GracePeriodExtension` [Getter]
 - `getPaymentRequirement()` → `Money` [Getter]
-- `setBuilderFields(FailureToPayBuilder arg0)` → `void` [Setter]
 - `getApplicable()` → `Boolean` [Getter]
 
 ### FeaturePaymentBuilderImpl
@@ -474,11 +474,11 @@
 - `setCurrency(FieldWithMetaString arg0)` → `FeaturePaymentBuilder` [Setter]
 - `getTime()` → `TimeTypeEnum` [Getter]
 - `setTime(TimeTypeEnum arg0)` → `FeaturePaymentBuilder` [Setter]
-- `setLevelPercentage(BigDecimal arg0)` → `FeaturePaymentBuilder` [Setter]
-- `getLevelPercentage()` → `BigDecimal` [Getter]
-- `getPayerReceiver()` → `PartyReferencePayerReceiverBuilder` [Getter]
-- `getOrCreatePayerReceiver()` → `PartyReferencePayerReceiverBuilder` [Getter]
 - `setPayerReceiver(PartyReferencePayerReceiver arg0)` → `FeaturePaymentBuilder` [Setter]
+- `getOrCreatePayerReceiver()` → `PartyReferencePayerReceiverBuilder` [Getter]
+- `getPayerReceiver()` → `PartyReferencePayerReceiverBuilder` [Getter]
+- `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `setCurrencyValue(String arg0)` → `FeaturePaymentBuilder` [Setter]
 
 ### FeaturePaymentImpl
 **Implements:** `FeaturePayment` 
@@ -487,12 +487,12 @@
 - `build()` → `FeaturePayment` [Builder]
 - `getCurrency()` → `FieldWithMetaString` [Getter]
 - `getTime()` → `TimeTypeEnum` [Getter]
-- `getLevelPercentage()` → `BigDecimal` [Getter]
-- `getPayerReceiver()` → `PartyReferencePayerReceiver` [Getter]
 - `setBuilderFields(FeaturePaymentBuilder arg0)` → `void` [Setter]
-- `getPaymentDate()` → `AdjustableOrRelativeDate` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
+- `getPayerReceiver()` → `PartyReferencePayerReceiver` [Getter]
 - `getAmount()` → `BigDecimal` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
+- `getLevelPercentage()` → `BigDecimal` [Getter]
+- `getPaymentDate()` → `AdjustableOrRelativeDate` [Getter]
 
 ### GracePeriodExtensionBuilderImpl
 **Implements:** `GracePeriodExtension$GracePeriodExtensionBuilder` 
@@ -503,10 +503,10 @@
 
 **Key Methods:**
 - `build()` → `GracePeriodExtension` [Builder]
+- `setApplicable(Boolean arg0)` → `GracePeriodExtensionBuilder` [Setter]
+- `setGracePeriod(Offset arg0)` → `GracePeriodExtensionBuilder` [Setter]
 - `getOrCreateGracePeriod()` → `OffsetBuilder` [Getter]
 - `getGracePeriod()` → `OffsetBuilder` [Getter]
-- `setGracePeriod(Offset arg0)` → `GracePeriodExtensionBuilder` [Setter]
-- `setApplicable(Boolean arg0)` → `GracePeriodExtensionBuilder` [Setter]
 - `getApplicable()` → `Boolean` [Getter]
 
 ### GracePeriodExtensionImpl
@@ -514,8 +514,8 @@
 
 **Key Methods:**
 - `build()` → `GracePeriodExtension` [Builder]
-- `getGracePeriod()` → `Offset` [Getter]
 - `setBuilderFields(GracePeriodExtensionBuilder arg0)` → `void` [Setter]
+- `getGracePeriod()` → `Offset` [Getter]
 - `getApplicable()` → `Boolean` [Getter]
 
 ### ObservationBuilderImpl
@@ -528,15 +528,15 @@
 
 **Key Methods:**
 - `build()` → `Observation` [Builder]
-- `setObservationIdentifier(ObservationIdentifier arg0)` → `ObservationBuilder` [Setter]
-- `getOrCreateObservedValue()` → `PriceBuilder` [Getter]
-- `setObservedValue(Price arg0)` → `ObservationBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `getOrCreateObservationIdentifier()` → `ObservationIdentifierBuilder` [Getter]
-- `getObservedValue()` → `PriceBuilder` [Getter]
 - `getObservationIdentifier()` → `ObservationIdentifierBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `ObservationBuilder` [Setter]
+- `getObservedValue()` → `PriceBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `ObservationBuilder` [Setter]
+- `getOrCreateObservedValue()` → `PriceBuilder` [Getter]
+- `setObservationIdentifier(ObservationIdentifier arg0)` → `ObservationBuilder` [Setter]
+- `setObservedValue(Price arg0)` → `ObservationBuilder` [Setter]
+- `getOrCreateObservationIdentifier()` → `ObservationIdentifierBuilder` [Getter]
 
 ### ObservationIdentifierBuilderImpl
 **Implements:** `ObservationIdentifier$ObservationIdentifierBuilder` 
@@ -550,26 +550,26 @@
 
 **Key Methods:**
 - `build()` → `ObservationIdentifier` [Builder]
-- `getOrCreateObservable()` → `ObservableBuilder` [Getter]
-- `getOrCreateObservationTime()` → `TimeZoneBuilder` [Getter]
-- `getObservationDate()` → `Date` [Getter]
 - `getObservable()` → `ObservableBuilder` [Getter]
-- `getObservationTime()` → `TimeZoneBuilder` [Getter]
-- `setObservationTime(TimeZone arg0)` → `ObservationIdentifierBuilder` [Setter]
-- `setInformationSource(InformationSource arg0)` → `ObservationIdentifierBuilder` [Setter]
+- `getOrCreateObservable()` → `ObservableBuilder` [Getter]
+- `setObservationDate(Date arg0)` → `ObservationIdentifierBuilder` [Setter]
+- `getOrCreateDeterminationMethodology()` → `DeterminationMethodologyBuilder` [Getter]
 - `setObservable(Observable arg0)` → `ObservationIdentifierBuilder` [Setter]
 - `getInformationSource()` → `InformationSourceBuilder` [Getter]
+- `setObservationTime(TimeZone arg0)` → `ObservationIdentifierBuilder` [Setter]
+- `setInformationSource(InformationSource arg0)` → `ObservationIdentifierBuilder` [Setter]
+- `getObservationTime()` → `TimeZoneBuilder` [Getter]
 
 ### ObservationIdentifierImpl
 **Implements:** `ObservationIdentifier` 
 
 **Key Methods:**
 - `build()` → `ObservationIdentifier` [Builder]
-- `getObservationDate()` → `Date` [Getter]
 - `getObservable()` → `Observable` [Getter]
-- `getObservationTime()` → `TimeZone` [Getter]
 - `setBuilderFields(ObservationIdentifierBuilder arg0)` → `void` [Setter]
 - `getInformationSource()` → `InformationSource` [Getter]
+- `getObservationTime()` → `TimeZone` [Getter]
+- `getObservationDate()` → `Date` [Getter]
 - `getDeterminationMethodology()` → `DeterminationMethodology` [Getter]
 
 ### ObservationImpl
@@ -578,8 +578,8 @@
 **Key Methods:**
 - `build()` → `Observation` [Builder]
 - `setBuilderFields(ObservationBuilder arg0)` → `void` [Setter]
-- `getObservedValue()` → `Price` [Getter]
 - `getObservationIdentifier()` → `ObservationIdentifier` [Getter]
+- `getObservedValue()` → `Price` [Getter]
 - `getMeta()` → `MetaFields` [Getter]
 
 ### PubliclyAvailableInformationBuilderImpl
@@ -593,21 +593,21 @@
 **Key Methods:**
 - `build()` → `PubliclyAvailableInformation` [Builder]
 - `getStandardPublicSources()` → `Boolean` [Getter]
-- `getPublicSource()` → `List` [Getter]
 - `setStandardPublicSources(Boolean arg0)` → `PubliclyAvailableInformationBuilder` [Setter]
 - `setPublicSource(List arg0)` → `PubliclyAvailableInformationBuilder` [Setter]
-- `setSpecifiedNumber(Integer arg0)` → `PubliclyAvailableInformationBuilder` [Setter]
 - `getSpecifiedNumber()` → `Integer` [Getter]
+- `getPublicSource()` → `List` [Getter]
+- `setSpecifiedNumber(Integer arg0)` → `PubliclyAvailableInformationBuilder` [Setter]
 
 ### PubliclyAvailableInformationImpl
 **Implements:** `PubliclyAvailableInformation` 
 
 **Key Methods:**
 - `build()` → `PubliclyAvailableInformation` [Builder]
-- `getStandardPublicSources()` → `Boolean` [Getter]
-- `getPublicSource()` → `List` [Getter]
-- `getSpecifiedNumber()` → `Integer` [Getter]
 - `setBuilderFields(PubliclyAvailableInformationBuilder arg0)` → `void` [Setter]
+- `getStandardPublicSources()` → `Boolean` [Getter]
+- `getSpecifiedNumber()` → `Integer` [Getter]
+- `getPublicSource()` → `List` [Getter]
 
 ### RestructuringBuilderImpl
 **Implements:** `Restructuring$RestructuringBuilder` 
@@ -620,15 +620,15 @@
 
 **Key Methods:**
 - `build()` → `Restructuring` [Builder]
-- `setRestructuringType(FieldWithMetaRestructuringEnum arg0)` → `RestructuringBuilder` [Setter]
-- `setRestructuringTypeValue(RestructuringEnum arg0)` → `RestructuringBuilder` [Setter]
-- `setMultipleHolderObligation(Boolean arg0)` → `RestructuringBuilder` [Setter]
-- `setMultipleCreditEventNotices(Boolean arg0)` → `RestructuringBuilder` [Setter]
-- `getOrCreateRestructuringType()` → `FieldWithMetaRestructuringEnumBuilder` [Getter]
-- `getRestructuringType()` → `FieldWithMetaRestructuringEnumBuilder` [Getter]
-- `setApplicable(Boolean arg0)` → `RestructuringBuilder` [Setter]
-- `getApplicable()` → `Boolean` [Getter]
 - `getMultipleHolderObligation()` → `Boolean` [Getter]
+- `getMultipleCreditEventNotices()` → `Boolean` [Getter]
+- `setApplicable(Boolean arg0)` → `RestructuringBuilder` [Setter]
+- `getRestructuringType()` → `FieldWithMetaRestructuringEnumBuilder` [Getter]
+- `setRestructuringTypeValue(RestructuringEnum arg0)` → `RestructuringBuilder` [Setter]
+- `setRestructuringType(FieldWithMetaRestructuringEnum arg0)` → `RestructuringBuilder` [Setter]
+- `getOrCreateRestructuringType()` → `FieldWithMetaRestructuringEnumBuilder` [Getter]
+- `setMultipleCreditEventNotices(Boolean arg0)` → `RestructuringBuilder` [Setter]
+- `setMultipleHolderObligation(Boolean arg0)` → `RestructuringBuilder` [Setter]
 
 ### RestructuringImpl
 **Implements:** `Restructuring` 
@@ -636,10 +636,10 @@
 **Key Methods:**
 - `build()` → `Restructuring` [Builder]
 - `setBuilderFields(RestructuringBuilder arg0)` → `void` [Setter]
-- `getRestructuringType()` → `FieldWithMetaRestructuringEnum` [Getter]
-- `getApplicable()` → `Boolean` [Getter]
 - `getMultipleHolderObligation()` → `Boolean` [Getter]
 - `getMultipleCreditEventNotices()` → `Boolean` [Getter]
+- `getRestructuringType()` → `FieldWithMetaRestructuringEnum` [Getter]
+- `getApplicable()` → `Boolean` [Getter]
 
 ### TriggerBuilderImpl
 **Implements:** `Trigger$TriggerBuilder` 
@@ -655,13 +655,13 @@
 - `build()` → `Trigger` [Builder]
 - `setLevel(List arg0)` → `TriggerBuilder` [Setter]
 - `getLevel()` → `List` [Getter]
-- `getTriggerTimeType()` → `TriggerTimeTypeEnum` [Getter]
-- `getCreditEventsReference()` → `ReferenceWithMetaCreditEventsBuilder` [Getter]
-- `getOrCreateLevel(int arg0)` → `PriceScheduleBuilder` [Getter]
-- `getTriggerType()` → `TriggerTypeEnum` [Getter]
+- `getCreditEvents()` → `CreditEventsBuilder` [Getter]
 - `setTriggerTimeType(TriggerTimeTypeEnum arg0)` → `TriggerBuilder` [Setter]
-- `setTriggerType(TriggerTypeEnum arg0)` → `TriggerBuilder` [Setter]
+- `setCreditEvents(CreditEvents arg0)` → `TriggerBuilder` [Setter]
 - `setCreditEventsReference(ReferenceWithMetaCreditEvents arg0)` → `TriggerBuilder` [Setter]
+- `getOrCreateCreditEvents()` → `CreditEventsBuilder` [Getter]
+- `getOrCreateLevel(int arg0)` → `PriceScheduleBuilder` [Getter]
+- `setTriggerType(TriggerTypeEnum arg0)` → `TriggerBuilder` [Setter]
 
 ### TriggerEventBuilderImpl
 **Implements:** `TriggerEvent$TriggerEventBuilder` 
@@ -674,26 +674,26 @@
 
 **Key Methods:**
 - `build()` → `TriggerEvent` [Builder]
+- `getTrigger()` → `TriggerBuilder` [Getter]
+- `getSchedule()` → `List` [Getter]
+- `getOrCreateSchedule(int arg0)` → `AveragingScheduleBuilder` [Getter]
+- `setSchedule(List arg0)` → `TriggerEventBuilder` [Setter]
+- `getOrCreateTriggerDates()` → `DateListBuilder` [Getter]
 - `getOrCreateTrigger()` → `TriggerBuilder` [Getter]
+- `setTriggerDates(DateList arg0)` → `TriggerEventBuilder` [Setter]
 - `getOrCreateFeaturePayment()` → `FeaturePaymentBuilder` [Getter]
 - `setFeaturePayment(FeaturePayment arg0)` → `TriggerEventBuilder` [Setter]
-- `setTriggerDates(DateList arg0)` → `TriggerEventBuilder` [Setter]
-- `getOrCreateTriggerDates()` → `DateListBuilder` [Getter]
-- `getSchedule()` → `List` [Getter]
-- `setSchedule(List arg0)` → `TriggerEventBuilder` [Setter]
-- `getOrCreateSchedule(int arg0)` → `AveragingScheduleBuilder` [Getter]
-- `getTriggerDates()` → `DateListBuilder` [Getter]
 
 ### TriggerEventImpl
 **Implements:** `TriggerEvent` 
 
 **Key Methods:**
 - `build()` → `TriggerEvent` [Builder]
-- `getSchedule()` → `List` [Getter]
 - `setBuilderFields(TriggerEventBuilder arg0)` → `void` [Setter]
+- `getTrigger()` → `Trigger` [Getter]
+- `getSchedule()` → `List` [Getter]
 - `getTriggerDates()` → `DateList` [Getter]
 - `getFeaturePayment()` → `FeaturePayment` [Getter]
-- `getTrigger()` → `Trigger` [Getter]
 
 ### TriggerImpl
 **Implements:** `Trigger` 
@@ -701,9 +701,9 @@
 **Key Methods:**
 - `build()` → `Trigger` [Builder]
 - `getLevel()` → `List` [Getter]
+- `setBuilderFields(TriggerBuilder arg0)` → `void` [Setter]
+- `getCreditEvents()` → `CreditEvents` [Getter]
 - `getTriggerTimeType()` → `TriggerTimeTypeEnum` [Getter]
 - `getCreditEventsReference()` → `ReferenceWithMetaCreditEvents` [Getter]
 - `getTriggerType()` → `TriggerTypeEnum` [Getter]
-- `setBuilderFields(TriggerBuilder arg0)` → `void` [Setter]
-- `getCreditEvents()` → `CreditEvents` [Getter]
 

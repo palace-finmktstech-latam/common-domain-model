@@ -25,15 +25,15 @@
 
 #### Setter Methods
 
-- `ReferenceSwapCurveBuilder setSwapUnwindValue(SwapCurveValuation arg0)`
 - `ReferenceSwapCurveBuilder setMakeWholeAmount(MakeWholeAmount arg0)`
+- `ReferenceSwapCurveBuilder setSwapUnwindValue(SwapCurveValuation arg0)`
 
 #### Getter Methods
 
+- `MakeWholeAmountBuilder getMakeWholeAmount()`
+- `SwapCurveValuationBuilder getSwapUnwindValue()`
 - `MakeWholeAmountBuilder getOrCreateMakeWholeAmount()`
 - `SwapCurveValuationBuilder getOrCreateSwapUnwindValue()`
-- `SwapCurveValuationBuilder getSwapUnwindValue()`
-- `MakeWholeAmountBuilder getMakeWholeAmount()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceSwapCurveBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceSwapCurveBuilder toBuilder()`
 - `ReferenceSwapCurveBuilder prune()`
+- `ReferenceSwapCurveBuilder toBuilder()`
+- `boolean hasData()`
 

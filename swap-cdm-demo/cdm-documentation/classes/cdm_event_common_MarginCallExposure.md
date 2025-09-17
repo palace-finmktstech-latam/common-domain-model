@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
+- `Exposure getOverallExposure()`
 - `Exposure getSimmIMExposure()`
 - `Exposure getScheduleGridIMExposure()`
-- `Exposure getOverallExposure()`
 
 #### Other Methods
 

@@ -30,13 +30,13 @@
 
 #### Setter Methods
 
-- `CollateralPositionBuilder setProduct(Product arg0)`
 - `CollateralPositionBuilder setPriceQuantity(List arg0)`
-- `CollateralPositionBuilder setTradeReference(ReferenceWithMetaTradeState arg0)`
 - `CollateralPositionBuilder setCashBalance(Money arg0)`
+- `CollateralPositionBuilder setTradeReference(ReferenceWithMetaTradeState arg0)`
 - `CollateralPositionBuilder setTreatment(CollateralTreatment arg0)`
 - `CollateralPositionBuilder setTradeReferenceValue(TradeState arg0)`
 - `CollateralPositionBuilder setCollateralPositionStatus(CollateralStatusEnum arg0)`
+- `CollateralPositionBuilder setProduct(Product arg0)`
 
 #### Getter Methods
 
@@ -56,7 +56,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CollateralPositionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CollateralPositionBuilder toBuilder()`
 - `CollateralPositionBuilder prune()`
+- `CollateralPositionBuilder toBuilder()`
+- `boolean hasData()`
 

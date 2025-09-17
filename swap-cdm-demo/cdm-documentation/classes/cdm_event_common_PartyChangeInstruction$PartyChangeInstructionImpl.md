@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `List getTradeId()`
-- `Counterparty getCounterparty()`
 - `PartyRole getPartyRole()`
+- `Counterparty getCounterparty()`
 - `AncillaryParty getAncillaryParty()`
+- `List getTradeId()`
 
 #### Other Methods
 

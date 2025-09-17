@@ -18,8 +18,8 @@
 **Key Methods:**
 - `setValue(BusinessCenterEnum arg0)` → `FieldWithMetaBusinessCenterEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaBusinessCenterEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaBusinessCenterEnumBuilder` [Setter]
 
 ### FieldWithMetaCommodityBusinessCalendarEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -37,8 +37,8 @@
 **Key Methods:**
 - `setValue(CommodityBusinessCalendarEnum arg0)` → `FieldWithMetaCommodityBusinessCalendarEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaCommodityBusinessCalendarEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaCommodityBusinessCalendarEnumBuilder` [Setter]
 
 ### FieldWithMetaTimeZone
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -56,10 +56,10 @@
 **Key Methods:**
 - `getValue()` → `TimeZoneBuilder` [Getter]
 - `setValue(TimeZone arg0)` → `FieldWithMetaTimeZoneBuilder` [Setter]
-- `getOrCreateValue()` → `TimeZoneBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaTimeZoneBuilder` [Setter]
+- `getOrCreateValue()` → `TimeZoneBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaTimeZoneBuilder` [Setter]
 
 ### ReferenceWithMetaAdjustableOrRelativeDate
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -69,8 +69,8 @@
 - `getValue()` → `AdjustableOrRelativeDate` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaAdjustableOrRelativeDate` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaAdjustableOrRelativeDateBuilder
@@ -80,11 +80,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `setValue(AdjustableOrRelativeDate arg0)` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Setter]
 - `getOrCreateValue()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Setter]
 
 ### ReferenceWithMetaAdjustableOrRelativeDates
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -94,8 +94,8 @@
 - `getValue()` → `AdjustableOrRelativeDates` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaAdjustableOrRelativeDates` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaAdjustableOrRelativeDatesBuilder
@@ -105,11 +105,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `AdjustableOrRelativeDatesBuilder` [Getter]
 - `setValue(AdjustableOrRelativeDates arg0)` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Setter]
 - `getOrCreateValue()` → `AdjustableOrRelativeDatesBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Setter]
 
 ### ReferenceWithMetaBusinessCenters
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -119,8 +119,8 @@
 - `getValue()` → `BusinessCenters` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaBusinessCenters` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaBusinessCentersBuilder
@@ -130,11 +130,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `BusinessCentersBuilder` [Getter]
 - `setValue(BusinessCenters arg0)` → `ReferenceWithMetaBusinessCentersBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaBusinessCentersBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaBusinessCentersBuilder` [Setter]
 - `getOrCreateValue()` → `BusinessCentersBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaBusinessCentersBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaBusinessCentersBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaBusinessCentersBuilder` [Setter]
 
 ### ReferenceWithMetaBusinessDayAdjustments
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -144,8 +144,8 @@
 - `getValue()` → `BusinessDayAdjustments` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaBusinessDayAdjustments` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaBusinessDayAdjustmentsBuilder
@@ -155,11 +155,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `BusinessDayAdjustmentsBuilder` [Getter]
 - `setValue(BusinessDayAdjustments arg0)` → `ReferenceWithMetaBusinessDayAdjustmentsBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaBusinessDayAdjustmentsBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaBusinessDayAdjustmentsBuilder` [Setter]
 - `getOrCreateValue()` → `BusinessDayAdjustmentsBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaBusinessDayAdjustmentsBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaBusinessDayAdjustmentsBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaBusinessDayAdjustmentsBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -175,8 +175,8 @@
 - `setValue(BusinessCenterEnum arg0)` → `FieldWithMetaBusinessCenterEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaBusinessCenterEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaBusinessCenterEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaBusinessCenterEnumBuilder` [Setter]
 
 ### FieldWithMetaBusinessCenterEnumImpl
 **Implements:** `FieldWithMetaBusinessCenterEnum` 
@@ -202,8 +202,8 @@
 - `setValue(CommodityBusinessCalendarEnum arg0)` → `FieldWithMetaCommodityBusinessCalendarEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaCommodityBusinessCalendarEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaCommodityBusinessCalendarEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaCommodityBusinessCalendarEnumBuilder` [Setter]
 
 ### FieldWithMetaCommodityBusinessCalendarEnumImpl
 **Implements:** `FieldWithMetaCommodityBusinessCalendarEnum` 
@@ -228,10 +228,10 @@
 - `getValue()` → `TimeZoneBuilder` [Getter]
 - `setValue(TimeZone arg0)` → `FieldWithMetaTimeZoneBuilder` [Setter]
 - `build()` → `FieldWithMetaTimeZone` [Builder]
-- `getOrCreateValue()` → `TimeZoneBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaTimeZoneBuilder` [Setter]
+- `getOrCreateValue()` → `TimeZoneBuilder` [Getter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaTimeZoneBuilder` [Setter]
 
 ### FieldWithMetaTimeZoneImpl
 **Implements:** `FieldWithMetaTimeZone` 
@@ -259,12 +259,12 @@
 - `getValue()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `setValue(AdjustableOrRelativeDate arg0)` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Setter]
 - `build()` → `ReferenceWithMetaAdjustableOrRelativeDate` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Setter]
 - `getOrCreateValue()` → `AdjustableOrRelativeDateBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaAdjustableOrRelativeDateBuilder` [Setter]
 
 ### ReferenceWithMetaAdjustableOrRelativeDateImpl
 **Implements:** `ReferenceWithMetaAdjustableOrRelativeDate` 
@@ -273,8 +273,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `AdjustableOrRelativeDate` [Getter]
 - `build()` → `ReferenceWithMetaAdjustableOrRelativeDate` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaAdjustableOrRelativeDateBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaAdjustableOrRelativeDateMeta
@@ -294,12 +294,12 @@
 - `getValue()` → `AdjustableOrRelativeDatesBuilder` [Getter]
 - `setValue(AdjustableOrRelativeDates arg0)` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Setter]
 - `build()` → `ReferenceWithMetaAdjustableOrRelativeDates` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Setter]
 - `getOrCreateValue()` → `AdjustableOrRelativeDatesBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaAdjustableOrRelativeDatesBuilder` [Setter]
 
 ### ReferenceWithMetaAdjustableOrRelativeDatesImpl
 **Implements:** `ReferenceWithMetaAdjustableOrRelativeDates` 
@@ -308,8 +308,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `AdjustableOrRelativeDates` [Getter]
 - `build()` → `ReferenceWithMetaAdjustableOrRelativeDates` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaAdjustableOrRelativeDatesBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaAdjustableOrRelativeDatesMeta
@@ -329,12 +329,12 @@
 - `getValue()` → `BusinessCentersBuilder` [Getter]
 - `setValue(BusinessCenters arg0)` → `ReferenceWithMetaBusinessCentersBuilder` [Setter]
 - `build()` → `ReferenceWithMetaBusinessCenters` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaBusinessCentersBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaBusinessCentersBuilder` [Setter]
 - `getOrCreateValue()` → `BusinessCentersBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaBusinessCentersBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaBusinessCentersBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaBusinessCentersBuilder` [Setter]
 
 ### ReferenceWithMetaBusinessCentersImpl
 **Implements:** `ReferenceWithMetaBusinessCenters` 
@@ -343,8 +343,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `BusinessCenters` [Getter]
 - `build()` → `ReferenceWithMetaBusinessCenters` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaBusinessCentersBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaBusinessCentersMeta
@@ -364,12 +364,12 @@
 - `getValue()` → `BusinessDayAdjustmentsBuilder` [Getter]
 - `setValue(BusinessDayAdjustments arg0)` → `ReferenceWithMetaBusinessDayAdjustmentsBuilder` [Setter]
 - `build()` → `ReferenceWithMetaBusinessDayAdjustments` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaBusinessDayAdjustmentsBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaBusinessDayAdjustmentsBuilder` [Setter]
 - `getOrCreateValue()` → `BusinessDayAdjustmentsBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaBusinessDayAdjustmentsBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaBusinessDayAdjustmentsBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaBusinessDayAdjustmentsBuilder` [Setter]
 
 ### ReferenceWithMetaBusinessDayAdjustmentsImpl
 **Implements:** `ReferenceWithMetaBusinessDayAdjustments` 
@@ -378,8 +378,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `BusinessDayAdjustments` [Getter]
 - `build()` → `ReferenceWithMetaBusinessDayAdjustments` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaBusinessDayAdjustmentsBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaBusinessDayAdjustmentsMeta

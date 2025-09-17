@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaPerformanceValuationDatesBuilder setValue(PerformanceValuationDates arg0)`
-- `ReferenceWithMetaPerformanceValuationDatesBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaPerformanceValuationDatesBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaPerformanceValuationDatesBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaPerformanceValuationDatesBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaPerformanceValuationDatesBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

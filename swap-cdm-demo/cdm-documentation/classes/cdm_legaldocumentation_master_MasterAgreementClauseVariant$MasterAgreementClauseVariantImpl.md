@@ -23,9 +23,9 @@
 #### Getter Methods
 
 - `String getName()`
-- `List getOtherParty()`
-- `List getVariableSet()`
 - `List getCounterparty()`
+- `List getVariableSet()`
+- `List getOtherParty()`
 - `MasterAgreementVariantIdentifierEnum getIdentifier()`
 
 #### Other Methods

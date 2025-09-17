@@ -26,24 +26,24 @@
 
 #### Setter Methods
 
-- `PartyCustomisedWorkflowBuilder setCustomisedWorkflow(List arg0)`
 - `PartyCustomisedWorkflowBuilder setPartyName(String arg0)`
-- `PartyCustomisedWorkflowBuilder setPartyReferenceValue(Party arg0)`
+- `PartyCustomisedWorkflowBuilder setCustomisedWorkflow(List arg0)`
 - `PartyCustomisedWorkflowBuilder setPartyReference(ReferenceWithMetaParty arg0)`
+- `PartyCustomisedWorkflowBuilder setPartyReferenceValue(Party arg0)`
 
 #### Getter Methods
 
+- `ReferenceWithMetaPartyBuilder getPartyReference()`
 - `String getPartyName()`
 - `List getCustomisedWorkflow()`
-- `ReferenceWithMetaPartyBuilder getPartyReference()`
 - `ReferenceWithMetaPartyBuilder getOrCreatePartyReference()`
 - `CustomisedWorkflowBuilder getOrCreateCustomisedWorkflow(int arg0)`
 
 #### Adder Methods
 
-- `PartyCustomisedWorkflowBuilder addCustomisedWorkflow(List arg0)`
-- `PartyCustomisedWorkflowBuilder addCustomisedWorkflow(CustomisedWorkflow arg0)`
 - `PartyCustomisedWorkflowBuilder addCustomisedWorkflow(CustomisedWorkflow arg0, int arg1)`
+- `PartyCustomisedWorkflowBuilder addCustomisedWorkflow(CustomisedWorkflow arg0)`
+- `PartyCustomisedWorkflowBuilder addCustomisedWorkflow(List arg0)`
 
 #### Other Methods
 
@@ -51,7 +51,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PartyCustomisedWorkflowBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PartyCustomisedWorkflowBuilder toBuilder()`
 - `PartyCustomisedWorkflowBuilder prune()`
+- `PartyCustomisedWorkflowBuilder toBuilder()`
+- `boolean hasData()`
 

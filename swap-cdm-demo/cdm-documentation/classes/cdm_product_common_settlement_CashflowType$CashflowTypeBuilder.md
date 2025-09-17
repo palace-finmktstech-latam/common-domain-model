@@ -15,14 +15,14 @@
 
 #### Setter Methods
 
-- `CashflowTypeBuilder setCashPrice(CashPrice arg0)`
 - `CashflowTypeBuilder setPriceExpression(PriceExpressionEnum arg0)`
+- `CashflowTypeBuilder setCashPrice(CashPrice arg0)`
 - `CashflowTypeBuilder setCashflowType(ScheduledTransferEnum arg0)`
 
 #### Getter Methods
 
-- `CashPriceBuilder getOrCreateCashPrice()`
 - `CashPriceBuilder getCashPrice()`
+- `CashPriceBuilder getOrCreateCashPrice()`
 
 #### Other Methods
 

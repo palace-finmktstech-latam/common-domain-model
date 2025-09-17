@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `SwapCurveValuation getSwapUnwindValue()`
 - `MakeWholeAmount getMakeWholeAmount()`
+- `SwapCurveValuation getSwapUnwindValue()`
 
 #### Other Methods
 

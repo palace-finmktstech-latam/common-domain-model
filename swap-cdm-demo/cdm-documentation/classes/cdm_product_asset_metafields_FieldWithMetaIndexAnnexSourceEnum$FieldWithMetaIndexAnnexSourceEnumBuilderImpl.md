@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaIndexAnnexSourceEnumBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaIndexAnnexSourceEnumBuilder toBuilder()`
 - `FieldWithMetaIndexAnnexSourceEnumBuilder prune()`
+- `FieldWithMetaIndexAnnexSourceEnumBuilder toBuilder()`
+- `boolean hasData()`
 

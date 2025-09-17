@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Boolean getPartialCashSettlement()`
 - `Boolean getApplicable()`
+- `Boolean getPartialCashSettlement()`
 
 #### Other Methods
 

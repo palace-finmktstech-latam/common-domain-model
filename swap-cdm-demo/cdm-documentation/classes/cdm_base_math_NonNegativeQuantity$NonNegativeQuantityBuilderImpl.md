@@ -26,14 +26,14 @@
 - `NonNegativeQuantityBuilder setValue(BigDecimal arg0)`
 - `NonNegativeQuantityBuilder setMultiplier(Measure arg0)`
 - `NonNegativeQuantityBuilder setDatedValue(List arg0)`
-- `NonNegativeQuantityBuilder setFrequency(Frequency arg0)`
 - `NonNegativeQuantityBuilder setUnit(UnitType arg0)`
+- `NonNegativeQuantityBuilder setFrequency(Frequency arg0)`
 
 #### Adder Methods
 
-- `NonNegativeQuantityBuilder addDatedValue(DatedValue arg0)`
-- `NonNegativeQuantityBuilder addDatedValue(DatedValue arg0, int arg1)`
 - `NonNegativeQuantityBuilder addDatedValue(List arg0)`
+- `NonNegativeQuantityBuilder addDatedValue(DatedValue arg0, int arg1)`
+- `NonNegativeQuantityBuilder addDatedValue(DatedValue arg0)`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `NonNegativeQuantityBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `NonNegativeQuantityBuilder toBuilder()`
 - `NonNegativeQuantityBuilder prune()`
+- `NonNegativeQuantityBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -30,34 +30,34 @@
 #### Setter Methods
 
 - `ResetBuilder setAveragingMethodology(AveragingCalculation arg0)`
-- `ResetBuilder setObservationsValue(List arg0)`
-- `ResetBuilder setResetValue(Price arg0)`
-- `ResetBuilder setRateRecordDate(Date arg0)`
 - `ResetBuilder setObservations(List arg0)`
 - `ResetBuilder setResetDate(Date arg0)`
+- `ResetBuilder setRateRecordDate(Date arg0)`
+- `ResetBuilder setResetValue(Price arg0)`
+- `ResetBuilder setObservationsValue(List arg0)`
 - `ResetBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
-- `AveragingCalculationBuilder getOrCreateAveragingMethodology()`
-- `Date getRateRecordDate()`
-- `List getObservations()`
+- `MetaFieldsBuilder getOrCreateMeta()`
 - `PriceBuilder getResetValue()`
 - `Date getResetDate()`
+- `Date getRateRecordDate()`
+- `List getObservations()`
 - `AveragingCalculationBuilder getAveragingMethodology()`
-- `MetaFieldsBuilder getOrCreateMeta()`
 - `PriceBuilder getOrCreateResetValue()`
 - `ReferenceWithMetaObservationBuilder getOrCreateObservations(int arg0)`
+- `AveragingCalculationBuilder getOrCreateAveragingMethodology()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Adder Methods
 
 - `ResetBuilder addObservations(ReferenceWithMetaObservation arg0, int arg1)`
-- `ResetBuilder addObservations(ReferenceWithMetaObservation arg0)`
 - `ResetBuilder addObservations(List arg0)`
-- `ResetBuilder addObservationsValue(Observation arg0)`
+- `ResetBuilder addObservations(ReferenceWithMetaObservation arg0)`
 - `ResetBuilder addObservationsValue(List arg0)`
 - `ResetBuilder addObservationsValue(Observation arg0, int arg1)`
+- `ResetBuilder addObservationsValue(Observation arg0)`
 
 #### Other Methods
 
@@ -65,7 +65,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ResetBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ResetBuilder toBuilder()`
 - `ResetBuilder prune()`
+- `ResetBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -31,24 +31,24 @@
 
 - `CreditNotationBuilder setScale(FieldWithMetaString arg0)`
 - `CreditNotationBuilder setAgency(CreditRatingAgencyEnum arg0)`
-- `CreditNotationBuilder setOutlook(CreditRatingOutlookEnum arg0)`
 - `CreditNotationBuilder setDebt(CreditRatingDebt arg0)`
-- `CreditNotationBuilder setNotation(FieldWithMetaString arg0)`
+- `CreditNotationBuilder setOutlook(CreditRatingOutlookEnum arg0)`
 - `CreditNotationBuilder setCreditWatch(CreditRatingCreditWatchEnum arg0)`
+- `CreditNotationBuilder setNotation(FieldWithMetaString arg0)`
 - `CreditNotationBuilder setScaleValue(String arg0)`
 - `CreditNotationBuilder setNotationValue(String arg0)`
 
 #### Getter Methods
 
-- `CreditRatingDebtBuilder getDebt()`
+- `FieldWithMetaStringBuilder getNotation()`
 - `CreditRatingAgencyEnum getAgency()`
 - `FieldWithMetaStringBuilder getScale()`
+- `CreditRatingDebtBuilder getDebt()`
 - `CreditRatingOutlookEnum getOutlook()`
 - `CreditRatingCreditWatchEnum getCreditWatch()`
-- `FieldWithMetaStringBuilder getNotation()`
+- `CreditRatingDebtBuilder getOrCreateDebt()`
 - `FieldWithMetaStringBuilder getOrCreateNotation()`
 - `FieldWithMetaStringBuilder getOrCreateScale()`
-- `CreditRatingDebtBuilder getOrCreateDebt()`
 
 #### Other Methods
 
@@ -56,7 +56,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CreditNotationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CreditNotationBuilder toBuilder()`
 - `CreditNotationBuilder prune()`
+- `CreditNotationBuilder toBuilder()`
+- `boolean hasData()`
 

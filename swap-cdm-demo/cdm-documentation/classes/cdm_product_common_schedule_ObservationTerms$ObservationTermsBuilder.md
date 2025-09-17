@@ -15,26 +15,26 @@
 
 #### Setter Methods
 
-- `ObservationTermsBuilder setPrecision(Rounding arg0)`
 - `ObservationTermsBuilder setObservationTime(BusinessCenterTime arg0)`
 - `ObservationTermsBuilder setInformationSource(FxSpotRateSource arg0)`
 - `ObservationTermsBuilder setCalculationPeriodDates(CalculationPeriodDates arg0)`
-- `ObservationTermsBuilder setObservationTimeType(TimeTypeEnum arg0)`
 - `ObservationTermsBuilder setObservationDates(ObservationDates arg0)`
+- `ObservationTermsBuilder setObservationTimeType(TimeTypeEnum arg0)`
 - `ObservationTermsBuilder setNumberOfObservationDates(Integer arg0)`
+- `ObservationTermsBuilder setPrecision(Rounding arg0)`
 
 #### Getter Methods
 
-- `BusinessCenterTimeBuilder getOrCreateObservationTime()`
-- `RoundingBuilder getOrCreatePrecision()`
-- `BusinessCenterTimeBuilder getObservationTime()`
+- `RoundingBuilder getPrecision()`
 - `FxSpotRateSourceBuilder getInformationSource()`
-- `FxSpotRateSourceBuilder getOrCreateInformationSource()`
 - `CalculationPeriodDatesBuilder getOrCreateCalculationPeriodDates()`
 - `ObservationDatesBuilder getOrCreateObservationDates()`
-- `RoundingBuilder getPrecision()`
-- `CalculationPeriodDatesBuilder getCalculationPeriodDates()`
+- `RoundingBuilder getOrCreatePrecision()`
+- `BusinessCenterTimeBuilder getObservationTime()`
 - `ObservationDatesBuilder getObservationDates()`
+- `CalculationPeriodDatesBuilder getCalculationPeriodDates()`
+- `BusinessCenterTimeBuilder getOrCreateObservationTime()`
+- `FxSpotRateSourceBuilder getOrCreateInformationSource()`
 
 #### Other Methods
 

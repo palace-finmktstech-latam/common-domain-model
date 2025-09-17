@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `Date getObservationDate()`
 - `Observable getObservable()`
-- `TimeZone getObservationTime()`
 - `InformationSource getInformationSource()`
+- `TimeZone getObservationTime()`
+- `Date getObservationDate()`
 - `DeterminationMethodology getDeterminationMethodology()`
 
 #### Other Methods

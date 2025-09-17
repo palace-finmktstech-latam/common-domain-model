@@ -16,9 +16,9 @@
 
 #### Setter Methods
 
-- `NonNegativeStepBuilder setMeta(MetaFields arg0)`
 - `NonNegativeStepBuilder setStepDate(Date arg0)`
 - `NonNegativeStepBuilder setStepValue(BigDecimal arg0)`
+- `NonNegativeStepBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 

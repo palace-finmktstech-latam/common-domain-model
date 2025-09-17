@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `Index getIndex()`
-- `Basket getBasket()`
 - `Asset getAsset()`
+- `Basket getBasket()`
 
 #### Other Methods
 

@@ -32,8 +32,8 @@
 
 - `TriggerEventBuilder getOrCreateBarrierCap()`
 - `TriggerEventBuilder getOrCreateBarrierFloor()`
-- `TriggerEventBuilder getBarrierFloor()`
 - `TriggerEventBuilder getBarrierCap()`
+- `TriggerEventBuilder getBarrierFloor()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BarrierBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BarrierBuilder toBuilder()`
 - `BarrierBuilder prune()`
+- `BarrierBuilder toBuilder()`
+- `boolean hasData()`
 

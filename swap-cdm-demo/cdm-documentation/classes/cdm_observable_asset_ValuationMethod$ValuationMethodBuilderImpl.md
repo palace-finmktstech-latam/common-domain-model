@@ -31,23 +31,23 @@
 
 - `ValuationMethodBuilder setValuationMethod(ValuationMethodEnum arg0)`
 - `ValuationMethodBuilder setValuationSource(ValuationSource arg0)`
+- `ValuationMethodBuilder setQuotationMethod(QuotationRateTypeEnum arg0)`
 - `ValuationMethodBuilder setMinimumQuotationAmount(Money arg0)`
 - `ValuationMethodBuilder setQuotationAmount(Money arg0)`
-- `ValuationMethodBuilder setQuotationMethod(QuotationRateTypeEnum arg0)`
 - `ValuationMethodBuilder setCashCollateralValuationMethod(CashCollateralValuationMethod arg0)`
 
 #### Getter Methods
 
-- `ValuationSourceBuilder getValuationSource()`
+- `ValuationMethodEnum getValuationMethod()`
 - `MoneyBuilder getQuotationAmount()`
 - `MoneyBuilder getMinimumQuotationAmount()`
-- `ValuationSourceBuilder getOrCreateValuationSource()`
 - `QuotationRateTypeEnum getQuotationMethod()`
+- `ValuationSourceBuilder getValuationSource()`
+- `ValuationSourceBuilder getOrCreateValuationSource()`
 - `MoneyBuilder getOrCreateQuotationAmount()`
-- `ValuationMethodEnum getValuationMethod()`
+- `CashCollateralValuationMethodBuilder getCashCollateralValuationMethod()`
 - `MoneyBuilder getOrCreateMinimumQuotationAmount()`
 - `CashCollateralValuationMethodBuilder getOrCreateCashCollateralValuationMethod()`
-- `CashCollateralValuationMethodBuilder getCashCollateralValuationMethod()`
 
 #### Other Methods
 
@@ -55,7 +55,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ValuationMethodBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ValuationMethodBuilder toBuilder()`
 - `ValuationMethodBuilder prune()`
+- `ValuationMethodBuilder toBuilder()`
+- `boolean hasData()`
 

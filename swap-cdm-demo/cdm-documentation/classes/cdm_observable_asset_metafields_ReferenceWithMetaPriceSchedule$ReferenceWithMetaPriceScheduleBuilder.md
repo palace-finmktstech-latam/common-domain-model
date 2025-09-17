@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaPriceScheduleBuilder setValue(PriceSchedule arg0)`
-- `ReferenceWithMetaPriceScheduleBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaPriceScheduleBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaPriceScheduleBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaPriceScheduleBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaPriceScheduleBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

@@ -32,10 +32,10 @@
 
 #### Getter Methods
 
-- `ParametricDatesBuilder getOrCreateParametricDates()`
-- `ObservationScheduleBuilder getObservationSchedule()`
 - `PeriodicDatesBuilder getPeriodicSchedule()`
+- `ObservationScheduleBuilder getObservationSchedule()`
 - `ParametricDatesBuilder getParametricDates()`
+- `ParametricDatesBuilder getOrCreateParametricDates()`
 - `PeriodicDatesBuilder getOrCreatePeriodicSchedule()`
 - `ObservationScheduleBuilder getOrCreateObservationSchedule()`
 
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ObservationDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ObservationDatesBuilder toBuilder()`
 - `ObservationDatesBuilder prune()`
+- `ObservationDatesBuilder toBuilder()`
+- `boolean hasData()`
 

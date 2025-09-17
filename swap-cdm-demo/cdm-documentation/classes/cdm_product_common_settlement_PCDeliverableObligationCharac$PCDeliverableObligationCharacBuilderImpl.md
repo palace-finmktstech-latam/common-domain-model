@@ -25,13 +25,13 @@
 
 #### Setter Methods
 
-- `PCDeliverableObligationCharacBuilder setPartialCashSettlement(Boolean arg0)`
 - `PCDeliverableObligationCharacBuilder setApplicable(Boolean arg0)`
+- `PCDeliverableObligationCharacBuilder setPartialCashSettlement(Boolean arg0)`
 
 #### Getter Methods
 
-- `Boolean getPartialCashSettlement()`
 - `Boolean getApplicable()`
+- `Boolean getPartialCashSettlement()`
 
 #### Other Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PCDeliverableObligationCharacBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PCDeliverableObligationCharacBuilder toBuilder()`
 - `PCDeliverableObligationCharacBuilder prune()`
+- `PCDeliverableObligationCharacBuilder toBuilder()`
+- `boolean hasData()`
 

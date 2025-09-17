@@ -22,12 +22,12 @@
 
 #### Getter Methods
 
+- `List getOtherAssetType()`
+- `InstrumentTypeEnum getSecurityType()`
+- `AssetTypeEnum getAssetType()`
+- `DebtType getDebtType()`
 - `EquityTypeEnum getEquityType()`
 - `FundProductTypeEnum getFundType()`
-- `DebtType getDebtType()`
-- `AssetTypeEnum getAssetType()`
-- `InstrumentTypeEnum getSecurityType()`
-- `List getOtherAssetType()`
 
 #### Other Methods
 

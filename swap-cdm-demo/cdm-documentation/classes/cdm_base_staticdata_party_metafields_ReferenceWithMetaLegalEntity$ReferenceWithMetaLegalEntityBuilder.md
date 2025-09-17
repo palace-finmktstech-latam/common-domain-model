@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaLegalEntityBuilder setValue(LegalEntity arg0)`
-- `ReferenceWithMetaLegalEntityBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaLegalEntityBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaLegalEntityBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaLegalEntityBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaLegalEntityBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

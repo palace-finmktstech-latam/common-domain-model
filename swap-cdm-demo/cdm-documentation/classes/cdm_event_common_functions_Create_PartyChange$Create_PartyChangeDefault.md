@@ -15,8 +15,8 @@
 
 #### Other Methods
 
-- `TradeStateBuilder doEvaluate(Counterparty arg0, AncillaryParty arg1, PartyRole arg2, List arg3, TradeState arg4)`
 - `TradeStateBuilder assignOutput(TradeStateBuilder arg0, Counterparty arg1, AncillaryParty arg2, PartyRole arg3, List arg4, TradeState arg5)`
+- `TradeStateBuilder doEvaluate(Counterparty arg0, AncillaryParty arg1, PartyRole arg2, List arg3, TradeState arg4)`
 - `MapperS counterparty2(Counterparty arg0, AncillaryParty arg1, PartyRole arg2, List arg3, TradeState arg4)`
 - `MapperS partyToRemove(Counterparty arg0, AncillaryParty arg1, PartyRole arg2, List arg3, TradeState arg4)`
 - `MapperS counterparty1(Counterparty arg0, AncillaryParty arg1, PartyRole arg2, List arg3, TradeState arg4)`

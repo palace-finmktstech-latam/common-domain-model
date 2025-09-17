@@ -15,7 +15,7 @@
 
 #### Other Methods
 
-- `BigDecimal doEvaluate(BigDecimal arg0, FloatingRateProcessingParameters arg1)`
 - `BigDecimal assignOutput(BigDecimal arg0, BigDecimal arg1, FloatingRateProcessingParameters arg2)`
+- `BigDecimal doEvaluate(BigDecimal arg0, FloatingRateProcessingParameters arg1)`
 - `MapperS cappedAndFlooredRate(BigDecimal arg0, FloatingRateProcessingParameters arg1)`
 

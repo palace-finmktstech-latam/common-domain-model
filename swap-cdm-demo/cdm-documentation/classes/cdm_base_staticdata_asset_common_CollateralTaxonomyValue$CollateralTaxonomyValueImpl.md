@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
+- `List getUs_CFTC_PR_EligibleCollateral()`
 - `List getUk_EMIR_EligibleCollateral()`
 - `List getEu_EMIR_EligibleCollateral()`
 - `List getNonEnumeratedTaxonomyValue()`
-- `List getUs_CFTC_PR_EligibleCollateral()`
 
 #### Other Methods
 

@@ -28,8 +28,8 @@
 
 #### Getter Methods
 
-- `List getInventoryRecord()`
 - `InventoryRecordBuilder getOrCreateInventoryRecord(int arg0)`
+- `List getInventoryRecord()`
 
 #### Adder Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `InventoryBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `InventoryBuilder toBuilder()`
 - `InventoryBuilder prune()`
+- `InventoryBuilder toBuilder()`
+- `boolean hasData()`
 

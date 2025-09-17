@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaContractDetailsBuilder setValue(ContractDetails arg0)`
-- `ReferenceWithMetaContractDetailsBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaContractDetailsBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaContractDetailsBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaContractDetailsBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaContractDetailsBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

@@ -16,8 +16,8 @@
 #### Setter Methods
 
 - `MandatoryEarlyTerminationAdjustedDatesBuilder setAdjustedEarlyTerminationDate(Date arg0)`
-- `MandatoryEarlyTerminationAdjustedDatesBuilder setAdjustedCashSettlementValuationDate(Date arg0)`
 - `MandatoryEarlyTerminationAdjustedDatesBuilder setAdjustedCashSettlementPaymentDate(Date arg0)`
+- `MandatoryEarlyTerminationAdjustedDatesBuilder setAdjustedCashSettlementValuationDate(Date arg0)`
 
 #### Other Methods
 

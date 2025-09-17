@@ -16,24 +16,24 @@
 
 #### Setter Methods
 
+- `SettlementDateBuilder setMeta(MetaFields arg0)`
 - `SettlementDateBuilder setPaymentDelay(Boolean arg0)`
 - `SettlementDateBuilder setAdjustableDates(AdjustableDates arg0)`
-- `SettlementDateBuilder setAdjustableOrRelativeDate(AdjustableOrAdjustedOrRelativeDate arg0)`
-- `SettlementDateBuilder setCashSettlementBusinessDays(Integer arg0)`
-- `SettlementDateBuilder setMeta(MetaFields arg0)`
 - `SettlementDateBuilder setValueDate(Date arg0)`
 - `SettlementDateBuilder setBusinessDateRange(BusinessDateRange arg0)`
+- `SettlementDateBuilder setAdjustableOrRelativeDate(AdjustableOrAdjustedOrRelativeDate arg0)`
+- `SettlementDateBuilder setCashSettlementBusinessDays(Integer arg0)`
 
 #### Getter Methods
 
-- `BusinessDateRangeBuilder getBusinessDateRange()`
-- `AdjustableDatesBuilder getAdjustableDates()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `MetaFieldsBuilder getMeta()`
 - `AdjustableDatesBuilder getOrCreateAdjustableDates()`
+- `AdjustableOrAdjustedOrRelativeDateBuilder getAdjustableOrRelativeDate()`
+- `AdjustableDatesBuilder getAdjustableDates()`
+- `BusinessDateRangeBuilder getBusinessDateRange()`
 - `BusinessDateRangeBuilder getOrCreateBusinessDateRange()`
 - `AdjustableOrAdjustedOrRelativeDateBuilder getOrCreateAdjustableOrRelativeDate()`
-- `AdjustableOrAdjustedOrRelativeDateBuilder getAdjustableOrRelativeDate()`
-- `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
 

@@ -17,11 +17,11 @@
 
 - `OtherAgreementBuilder setVersion(FieldWithMetaString arg0)`
 - `OtherAgreementBuilder setDate(Date arg0)`
-- `OtherAgreementBuilder setIdentifier(FieldWithMetaString arg0)`
 - `OtherAgreementBuilder setIdentifierValue(String arg0)`
+- `OtherAgreementBuilder setIdentifier(FieldWithMetaString arg0)`
 - `OtherAgreementBuilder setVersionValue(String arg0)`
-- `OtherAgreementBuilder setOtherAgreementTypeValue(String arg0)`
 - `OtherAgreementBuilder setOtherAgreementType(FieldWithMetaString arg0)`
+- `OtherAgreementBuilder setOtherAgreementTypeValue(String arg0)`
 
 #### Getter Methods
 

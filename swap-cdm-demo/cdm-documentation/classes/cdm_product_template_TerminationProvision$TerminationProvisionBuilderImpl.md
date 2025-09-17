@@ -27,20 +27,20 @@
 
 #### Setter Methods
 
-- `TerminationProvisionBuilder setCancelableProvision(CancelableProvision arg0)`
-- `TerminationProvisionBuilder setExtendibleProvision(ExtendibleProvision arg0)`
 - `TerminationProvisionBuilder setEvergreenProvision(EvergreenProvision arg0)`
+- `TerminationProvisionBuilder setExtendibleProvision(ExtendibleProvision arg0)`
+- `TerminationProvisionBuilder setCancelableProvision(CancelableProvision arg0)`
 - `TerminationProvisionBuilder setEarlyTerminationProvision(EarlyTerminationProvision arg0)`
 
 #### Getter Methods
 
+- `CancelableProvisionBuilder getCancelableProvision()`
 - `EvergreenProvisionBuilder getEvergreenProvision()`
 - `ExtendibleProvisionBuilder getExtendibleProvision()`
-- `CancelableProvisionBuilder getCancelableProvision()`
 - `EarlyTerminationProvisionBuilder getOrCreateEarlyTerminationProvision()`
+- `EvergreenProvisionBuilder getOrCreateEvergreenProvision()`
 - `CancelableProvisionBuilder getOrCreateCancelableProvision()`
 - `ExtendibleProvisionBuilder getOrCreateExtendibleProvision()`
-- `EvergreenProvisionBuilder getOrCreateEvergreenProvision()`
 - `EarlyTerminationProvisionBuilder getEarlyTerminationProvision()`
 
 #### Other Methods
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TerminationProvisionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TerminationProvisionBuilder toBuilder()`
 - `TerminationProvisionBuilder prune()`
+- `TerminationProvisionBuilder toBuilder()`
+- `boolean hasData()`
 

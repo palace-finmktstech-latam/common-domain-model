@@ -29,23 +29,23 @@
 
 #### Setter Methods
 
-- `TransactionAdditionalTermsBuilder setEquityAdditionalTerms(EquityAdditionalTerms arg0)`
 - `TransactionAdditionalTermsBuilder setCreditAdditionalTerms(String arg0)`
+- `TransactionAdditionalTermsBuilder setEquityAdditionalTerms(EquityAdditionalTerms arg0)`
 - `TransactionAdditionalTermsBuilder setDigitalAssetAdditionalTerms(String arg0)`
-- `TransactionAdditionalTermsBuilder setCommoditiesAdditionalTerms(String arg0)`
 - `TransactionAdditionalTermsBuilder setInterestRateAdditionalTerms(String arg0)`
+- `TransactionAdditionalTermsBuilder setCommoditiesAdditionalTerms(String arg0)`
 - `TransactionAdditionalTermsBuilder setForeignExchangeAdditionalTerms(FxAdditionalTerms arg0)`
 
 #### Getter Methods
 
-- `String getCreditAdditionalTerms()`
 - `EquityAdditionalTermsBuilder getEquityAdditionalTerms()`
-- `FxAdditionalTermsBuilder getForeignExchangeAdditionalTerms()`
+- `String getCreditAdditionalTerms()`
 - `String getDigitalAssetAdditionalTerms()`
-- `String getCommoditiesAdditionalTerms()`
+- `FxAdditionalTermsBuilder getForeignExchangeAdditionalTerms()`
 - `String getInterestRateAdditionalTerms()`
-- `FxAdditionalTermsBuilder getOrCreateForeignExchangeAdditionalTerms()`
+- `String getCommoditiesAdditionalTerms()`
 - `EquityAdditionalTermsBuilder getOrCreateEquityAdditionalTerms()`
+- `FxAdditionalTermsBuilder getOrCreateForeignExchangeAdditionalTerms()`
 
 #### Other Methods
 
@@ -53,7 +53,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TransactionAdditionalTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TransactionAdditionalTermsBuilder toBuilder()`
 - `TransactionAdditionalTermsBuilder prune()`
+- `TransactionAdditionalTermsBuilder toBuilder()`
+- `boolean hasData()`
 

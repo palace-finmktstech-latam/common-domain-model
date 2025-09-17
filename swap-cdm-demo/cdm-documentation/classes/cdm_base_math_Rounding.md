@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `RoundingDirectionEnum getRoundingDirection()`
 - `Integer getPrecision()`
+- `RoundingDirectionEnum getRoundingDirection()`
 
 #### Other Methods
 

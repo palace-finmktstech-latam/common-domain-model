@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `TriggerEvent getKnockIn()`
 - `TriggerEvent getKnockOut()`
+- `TriggerEvent getKnockIn()`
 
 #### Other Methods
 

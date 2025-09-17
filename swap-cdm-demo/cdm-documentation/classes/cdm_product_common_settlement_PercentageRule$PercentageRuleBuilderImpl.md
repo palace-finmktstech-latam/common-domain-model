@@ -25,15 +25,15 @@
 
 #### Setter Methods
 
-- `PercentageRuleBuilder setNotionalAmountReferenceValue(Money arg0)`
-- `PercentageRuleBuilder setPaymentPercent(BigDecimal arg0)`
 - `PercentageRuleBuilder setNotionalAmountReference(ReferenceWithMetaMoney arg0)`
+- `PercentageRuleBuilder setPaymentPercent(BigDecimal arg0)`
+- `PercentageRuleBuilder setNotionalAmountReferenceValue(Money arg0)`
 
 #### Getter Methods
 
-- `ReferenceWithMetaMoneyBuilder getOrCreateNotionalAmountReference()`
 - `BigDecimal getPaymentPercent()`
 - `ReferenceWithMetaMoneyBuilder getNotionalAmountReference()`
+- `ReferenceWithMetaMoneyBuilder getOrCreateNotionalAmountReference()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PercentageRuleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PercentageRuleBuilder toBuilder()`
 - `PercentageRuleBuilder prune()`
+- `PercentageRuleBuilder toBuilder()`
+- `boolean hasData()`
 

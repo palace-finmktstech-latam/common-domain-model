@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `ZonedDateTime getDateTime()`
 - `BigDecimal getWeight()`
+- `ZonedDateTime getDateTime()`
 - `Integer getObservationNumber()`
 
 #### Other Methods

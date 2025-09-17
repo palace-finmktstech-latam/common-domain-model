@@ -15,11 +15,11 @@
 
 #### Setter Methods
 
-- `DividendPayoutRatioBuilder setBasketConstituentValue(BasketConstituent arg0)`
-- `DividendPayoutRatioBuilder setBasketConstituent(ReferenceWithMetaBasketConstituent arg0)`
+- `DividendPayoutRatioBuilder setTotalRatio(BigDecimal arg0)`
 - `DividendPayoutRatioBuilder setCashRatio(BigDecimal arg0)`
 - `DividendPayoutRatioBuilder setNonCashRatio(BigDecimal arg0)`
-- `DividendPayoutRatioBuilder setTotalRatio(BigDecimal arg0)`
+- `DividendPayoutRatioBuilder setBasketConstituent(ReferenceWithMetaBasketConstituent arg0)`
+- `DividendPayoutRatioBuilder setBasketConstituentValue(BasketConstituent arg0)`
 
 #### Getter Methods
 

@@ -18,8 +18,8 @@
 **Key Methods:**
 - `setValue(CreditLimitTypeEnum arg0)` → `FieldWithMetaCreditLimitTypeEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaCreditLimitTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaCreditLimitTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaLimitLevelEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -37,8 +37,8 @@
 **Key Methods:**
 - `setValue(LimitLevelEnum arg0)` → `FieldWithMetaLimitLevelEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaLimitLevelEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaLimitLevelEnumBuilder` [Setter]
 
 ### ReferenceWithMetaWorkflowStep
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -48,8 +48,8 @@
 - `getValue()` → `WorkflowStep` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaWorkflowStep` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaWorkflowStepBuilder
@@ -59,11 +59,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `WorkflowStepBuilder` [Getter]
 - `setValue(WorkflowStep arg0)` → `ReferenceWithMetaWorkflowStepBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaWorkflowStepBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaWorkflowStepBuilder` [Setter]
 - `getOrCreateValue()` → `WorkflowStepBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaWorkflowStepBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaWorkflowStepBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaWorkflowStepBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -79,8 +79,8 @@
 - `setValue(CreditLimitTypeEnum arg0)` → `FieldWithMetaCreditLimitTypeEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaCreditLimitTypeEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaCreditLimitTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaCreditLimitTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaCreditLimitTypeEnumImpl
 **Implements:** `FieldWithMetaCreditLimitTypeEnum` 
@@ -106,8 +106,8 @@
 - `setValue(LimitLevelEnum arg0)` → `FieldWithMetaLimitLevelEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaLimitLevelEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaLimitLevelEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaLimitLevelEnumBuilder` [Setter]
 
 ### FieldWithMetaLimitLevelEnumImpl
 **Implements:** `FieldWithMetaLimitLevelEnum` 
@@ -135,12 +135,12 @@
 - `getValue()` → `WorkflowStepBuilder` [Getter]
 - `setValue(WorkflowStep arg0)` → `ReferenceWithMetaWorkflowStepBuilder` [Setter]
 - `build()` → `ReferenceWithMetaWorkflowStep` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaWorkflowStepBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaWorkflowStepBuilder` [Setter]
 - `getOrCreateValue()` → `WorkflowStepBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaWorkflowStepBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaWorkflowStepBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaWorkflowStepBuilder` [Setter]
 
 ### ReferenceWithMetaWorkflowStepImpl
 **Implements:** `ReferenceWithMetaWorkflowStep` 
@@ -149,8 +149,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `WorkflowStep` [Getter]
 - `build()` → `ReferenceWithMetaWorkflowStep` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaWorkflowStepBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaWorkflowStepMeta

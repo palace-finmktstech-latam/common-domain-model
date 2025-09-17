@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `List doEvaluate(RateSchedule arg0, Date arg1)`
 - `List assignOutput(List arg0, RateSchedule arg1, Date arg2)`
+- `List doEvaluate(RateSchedule arg0, Date arg1)`
 

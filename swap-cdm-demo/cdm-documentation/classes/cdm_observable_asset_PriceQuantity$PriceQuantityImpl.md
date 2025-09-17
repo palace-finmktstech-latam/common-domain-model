@@ -25,8 +25,8 @@
 - `FieldWithMetaObservable getObservable()`
 - `List getQuantity()`
 - `AdjustableOrRelativeDate getEffectiveDate()`
-- `List getPrice()`
 - `MetaFields getMeta()`
+- `List getPrice()`
 
 #### Other Methods
 

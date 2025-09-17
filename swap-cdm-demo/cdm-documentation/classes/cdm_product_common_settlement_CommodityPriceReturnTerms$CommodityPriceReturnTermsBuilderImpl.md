@@ -27,19 +27,19 @@
 
 #### Setter Methods
 
-- `CommodityPriceReturnTermsBuilder setRounding(Rounding arg0)`
-- `CommodityPriceReturnTermsBuilder setRollFeature(RollFeature arg0)`
 - `CommodityPriceReturnTermsBuilder setConversionFactor(BigDecimal arg0)`
+- `CommodityPriceReturnTermsBuilder setRollFeature(RollFeature arg0)`
+- `CommodityPriceReturnTermsBuilder setRounding(Rounding arg0)`
 - `CommodityPriceReturnTermsBuilder setSpread(SpreadSchedule arg0)`
 
 #### Getter Methods
 
-- `BigDecimal getConversionFactor()`
 - `RoundingBuilder getOrCreateRounding()`
-- `RollFeatureBuilder getOrCreateRollFeature()`
-- `SpreadScheduleBuilder getOrCreateSpread()`
-- `RollFeatureBuilder getRollFeature()`
 - `RoundingBuilder getRounding()`
+- `RollFeatureBuilder getRollFeature()`
+- `SpreadScheduleBuilder getOrCreateSpread()`
+- `RollFeatureBuilder getOrCreateRollFeature()`
+- `BigDecimal getConversionFactor()`
 - `SpreadScheduleBuilder getSpread()`
 
 #### Other Methods
@@ -48,7 +48,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CommodityPriceReturnTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CommodityPriceReturnTermsBuilder toBuilder()`
 - `CommodityPriceReturnTermsBuilder prune()`
+- `CommodityPriceReturnTermsBuilder toBuilder()`
+- `boolean hasData()`
 

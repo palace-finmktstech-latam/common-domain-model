@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `PerformanceValuationDates getInitialValuationDate()`
 - `PerformanceValuationDates getFinalValuationDate()`
 - `PerformanceValuationDates getInterimValuationDate()`
+- `PerformanceValuationDates getInitialValuationDate()`
 
 #### Other Methods
 

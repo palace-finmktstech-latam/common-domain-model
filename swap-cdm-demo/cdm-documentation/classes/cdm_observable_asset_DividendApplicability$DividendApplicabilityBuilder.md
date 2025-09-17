@@ -15,9 +15,9 @@
 
 #### Setter Methods
 
-- `DividendApplicabilityBuilder setOptionsExchangeDividends(Boolean arg0)`
-- `DividendApplicabilityBuilder setAdditionalDividends(Boolean arg0)`
 - `DividendApplicabilityBuilder setAllDividends(Boolean arg0)`
+- `DividendApplicabilityBuilder setAdditionalDividends(Boolean arg0)`
+- `DividendApplicabilityBuilder setOptionsExchangeDividends(Boolean arg0)`
 
 #### Other Methods
 

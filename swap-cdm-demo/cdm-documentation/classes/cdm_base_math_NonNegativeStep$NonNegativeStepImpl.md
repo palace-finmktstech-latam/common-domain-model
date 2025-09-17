@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `MetaFields getMeta()`
 - `Date getStepDate()`
 - `BigDecimal getStepValue()`
+- `MetaFields getMeta()`
 
 #### Other Methods
 

@@ -26,16 +26,16 @@
 
 #### Setter Methods
 
-- `InterestShortFallBuilder setRateSource(FieldWithMetaFloatingRateIndexEnum arg0)`
-- `InterestShortFallBuilder setInterestShortfallCap(InterestShortfallCapEnum arg0)`
-- `InterestShortFallBuilder setCompounding(Boolean arg0)`
 - `InterestShortFallBuilder setRateSourceValue(FloatingRateIndexEnum arg0)`
+- `InterestShortFallBuilder setRateSource(FieldWithMetaFloatingRateIndexEnum arg0)`
+- `InterestShortFallBuilder setCompounding(Boolean arg0)`
+- `InterestShortFallBuilder setInterestShortfallCap(InterestShortfallCapEnum arg0)`
 
 #### Getter Methods
 
 - `FieldWithMetaFloatingRateIndexEnumBuilder getRateSource()`
-- `InterestShortfallCapEnum getInterestShortfallCap()`
 - `FieldWithMetaFloatingRateIndexEnumBuilder getOrCreateRateSource()`
+- `InterestShortfallCapEnum getInterestShortfallCap()`
 - `Boolean getCompounding()`
 
 #### Other Methods
@@ -44,7 +44,7 @@
 - `String toString()`
 - `int hashCode()`
 - `InterestShortFallBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `InterestShortFallBuilder toBuilder()`
 - `InterestShortFallBuilder prune()`
+- `InterestShortFallBuilder toBuilder()`
+- `boolean hasData()`
 

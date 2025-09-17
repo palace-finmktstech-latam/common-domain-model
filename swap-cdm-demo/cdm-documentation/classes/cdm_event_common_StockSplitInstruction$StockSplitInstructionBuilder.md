@@ -15,8 +15,8 @@
 
 #### Setter Methods
 
-- `StockSplitInstructionBuilder setEffectiveDate(Date arg0)`
 - `StockSplitInstructionBuilder setAdjustmentRatio(BigDecimal arg0)`
+- `StockSplitInstructionBuilder setEffectiveDate(Date arg0)`
 
 #### Other Methods
 

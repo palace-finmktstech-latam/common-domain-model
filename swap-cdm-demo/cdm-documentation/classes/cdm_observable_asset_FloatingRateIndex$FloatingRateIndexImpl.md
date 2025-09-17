@@ -27,8 +27,8 @@
 
 #### Getter Methods
 
-- `FieldWithMetaFloatingRateIndexEnum getFloatingRateIndex()`
 - `Period getIndexTenor()`
+- `FieldWithMetaFloatingRateIndexEnum getFloatingRateIndex()`
 
 #### Other Methods
 

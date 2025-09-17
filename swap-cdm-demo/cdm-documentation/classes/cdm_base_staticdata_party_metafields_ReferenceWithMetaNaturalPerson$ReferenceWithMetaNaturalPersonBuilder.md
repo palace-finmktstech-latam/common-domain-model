@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaNaturalPersonBuilder setValue(NaturalPerson arg0)`
-- `ReferenceWithMetaNaturalPersonBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaNaturalPersonBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaNaturalPersonBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaNaturalPersonBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaNaturalPersonBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

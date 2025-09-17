@@ -15,8 +15,8 @@
 
 #### Other Methods
 
-- `Boolean doEvaluate(Date arg0, List arg1)`
 - `Boolean assignOutput(Boolean arg0, Date arg1, List arg2)`
-- `MapperS holiday(Date arg0, List arg1)`
+- `Boolean doEvaluate(Date arg0, List arg1)`
 - `MapperS weekend(Date arg0, List arg1)`
+- `MapperS holiday(Date arg0, List arg1)`
 

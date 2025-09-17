@@ -16,18 +16,18 @@
 #### Setter Methods
 
 - `CompositeBuilder setDeterminationMethod(DeterminationMethodEnum arg0)`
-- `CompositeBuilder setRelativeDate(RelativeDateOffset arg0)`
 - `CompositeBuilder setFixingTime(BusinessCenterTime arg0)`
 - `CompositeBuilder setFxSpotRateSource(FxSpotRateSource arg0)`
+- `CompositeBuilder setRelativeDate(RelativeDateOffset arg0)`
 
 #### Getter Methods
 
-- `FxSpotRateSourceBuilder getOrCreateFxSpotRateSource()`
-- `RelativeDateOffsetBuilder getOrCreateRelativeDate()`
 - `RelativeDateOffsetBuilder getRelativeDate()`
 - `FxSpotRateSourceBuilder getFxSpotRateSource()`
 - `BusinessCenterTimeBuilder getFixingTime()`
 - `BusinessCenterTimeBuilder getOrCreateFixingTime()`
+- `FxSpotRateSourceBuilder getOrCreateFxSpotRateSource()`
+- `RelativeDateOffsetBuilder getOrCreateRelativeDate()`
 
 #### Other Methods
 

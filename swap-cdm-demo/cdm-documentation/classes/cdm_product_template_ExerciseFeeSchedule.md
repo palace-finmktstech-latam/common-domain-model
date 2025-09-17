@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `ReferenceWithMetaMoney getNotionalReference()`
-- `AmountSchedule getFeeAmountSchedule()`
 - `RelativeDateOffset getFeePaymentDate()`
+- `AmountSchedule getFeeAmountSchedule()`
 - `Schedule getFeeRateSchedule()`
+- `ReferenceWithMetaMoney getNotionalReference()`
 
 #### Other Methods
 

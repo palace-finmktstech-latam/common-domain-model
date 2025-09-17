@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `List getInterimValuationPrice()`
-- `List getFinalValuationPrice()`
-- `List getInitialValuationPrice()`
 - `List getQuantity()`
+- `List getInitialValuationPrice()`
+- `List getFinalValuationPrice()`
+- `List getInterimValuationPrice()`
 
 #### Other Methods
 

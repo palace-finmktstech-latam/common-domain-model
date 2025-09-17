@@ -20,10 +20,10 @@
 
 #### Getter Methods
 
-- `InformationSourceBuilder getSecondarySource()`
 - `InformationSourceBuilder getPrimarySource()`
-- `InformationSourceBuilder getOrCreatePrimarySource()`
 - `InformationSourceBuilder getOrCreateSecondarySource()`
+- `InformationSourceBuilder getOrCreatePrimarySource()`
+- `InformationSourceBuilder getSecondarySource()`
 
 #### Other Methods
 

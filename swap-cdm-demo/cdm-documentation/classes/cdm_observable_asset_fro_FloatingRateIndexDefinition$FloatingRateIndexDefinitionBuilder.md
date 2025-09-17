@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `FloatingRateIndexDefinitionBuilder setFro(FloatingRateIndexIdentification arg0)`
 - `FloatingRateIndexDefinitionBuilder setCalculationDefaults(FloatingRateIndexCalculationDefaults arg0)`
+- `FloatingRateIndexDefinitionBuilder setFro(FloatingRateIndexIdentification arg0)`
 
 #### Getter Methods
 
-- `FloatingRateIndexIdentificationBuilder getFro()`
-- `FloatingRateIndexCalculationDefaultsBuilder getOrCreateCalculationDefaults()`
 - `FloatingRateIndexCalculationDefaultsBuilder getCalculationDefaults()`
+- `FloatingRateIndexIdentificationBuilder getFro()`
 - `FloatingRateIndexIdentificationBuilder getOrCreateFro()`
+- `FloatingRateIndexCalculationDefaultsBuilder getOrCreateCalculationDefaults()`
 
 #### Other Methods
 

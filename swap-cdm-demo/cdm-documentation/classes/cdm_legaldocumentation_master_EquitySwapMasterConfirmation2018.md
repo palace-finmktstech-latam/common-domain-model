@@ -19,12 +19,12 @@
 #### Getter Methods
 
 - `Class getType()`
-- `PriceReturnTerms getPricingMethodElection()`
 - `ReturnTypeEnum getTypeOfSwapElection()`
 - `ValuationDates getValuationDates()`
-- `InterpolationMethodEnum getLinearInterpolationElection()`
 - `PaymentDates getEquityCashSettlementDates()`
 - `SettlementTerms getSettlementTerms()`
+- `PriceReturnTerms getPricingMethodElection()`
+- `InterpolationMethodEnum getLinearInterpolationElection()`
 
 #### Other Methods
 

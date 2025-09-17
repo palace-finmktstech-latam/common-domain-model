@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `FieldWithMetaSettledEntityMatrixSourceEnum getMatrixSource()`
 - `Date getPublicationDate()`
+- `FieldWithMetaSettledEntityMatrixSourceEnum getMatrixSource()`
 
 #### Other Methods
 

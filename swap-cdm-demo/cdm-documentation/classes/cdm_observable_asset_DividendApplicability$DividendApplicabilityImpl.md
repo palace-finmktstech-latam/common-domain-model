@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `Boolean getOptionsExchangeDividends()`
 - `Boolean getAllDividends()`
 - `Boolean getAdditionalDividends()`
+- `Boolean getOptionsExchangeDividends()`
 
 #### Other Methods
 

@@ -25,12 +25,12 @@
 - `CreditDefaultPayout getCreditDefaultPayout()`
 - `InterestRatePayout getInterestRatePayout()`
 - `MetaFields getMeta()`
+- `AssetPayout getAssetPayout()`
 - `CommodityPayout getCommodityPayout()`
+- `OptionPayout getOptionPayout()`
+- `FixedPricePayout getFixedPricePayout()`
 - `PerformancePayout getPerformancePayout()`
 - `SettlementPayout getSettlementPayout()`
-- `AssetPayout getAssetPayout()`
-- `FixedPricePayout getFixedPricePayout()`
-- `OptionPayout getOptionPayout()`
 
 #### Other Methods
 

@@ -28,11 +28,11 @@
 #### Getter Methods
 
 - `UnitType getPerUnitOf()`
-- `PriceComposite getComposite()`
-- `CashPrice getCashPrice()`
 - `PriceTypeEnum getPriceType()`
 - `PriceExpressionEnum getPriceExpression()`
 - `ArithmeticOperationEnum getArithmeticOperator()`
+- `PriceComposite getComposite()`
+- `CashPrice getCashPrice()`
 
 #### Other Methods
 

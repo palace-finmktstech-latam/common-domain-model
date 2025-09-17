@@ -21,12 +21,12 @@
 
 #### Getter Methods
 
-- `FixedRateSpecificationBuilder getFixedRateSpecification()`
-- `InflationRateSpecificationBuilder getInflationRateSpecification()`
-- `InflationRateSpecificationBuilder getOrCreateInflationRateSpecification()`
-- `FixedRateSpecificationBuilder getOrCreateFixedRateSpecification()`
 - `FloatingRateSpecificationBuilder getOrCreateFloatingRateSpecification()`
+- `FixedRateSpecificationBuilder getOrCreateFixedRateSpecification()`
+- `InflationRateSpecificationBuilder getOrCreateInflationRateSpecification()`
+- `InflationRateSpecificationBuilder getInflationRateSpecification()`
 - `FloatingRateSpecificationBuilder getFloatingRateSpecification()`
+- `FixedRateSpecificationBuilder getFixedRateSpecification()`
 
 #### Other Methods
 

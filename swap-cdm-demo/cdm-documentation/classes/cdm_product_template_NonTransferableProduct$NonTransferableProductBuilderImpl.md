@@ -27,30 +27,30 @@
 
 #### Setter Methods
 
-- `NonTransferableProductBuilder setTaxonomy(List arg0)`
-- `NonTransferableProductBuilder setEconomicTerms(EconomicTerms arg0)`
 - `NonTransferableProductBuilder setIdentifier(List arg0)`
 - `NonTransferableProductBuilder setMeta(MetaFields arg0)`
+- `NonTransferableProductBuilder setTaxonomy(List arg0)`
+- `NonTransferableProductBuilder setEconomicTerms(EconomicTerms arg0)`
 
 #### Getter Methods
 
-- `ProductTaxonomyBuilder getOrCreateTaxonomy(int arg0)`
 - `EconomicTermsBuilder getEconomicTerms()`
 - `ProductIdentifierBuilder getOrCreateIdentifier(int arg0)`
 - `MetaFieldsBuilder getOrCreateMeta()`
 - `EconomicTermsBuilder getOrCreateEconomicTerms()`
 - `MetaFieldsBuilder getMeta()`
 - `List getTaxonomy()`
+- `ProductTaxonomyBuilder getOrCreateTaxonomy(int arg0)`
 - `List getIdentifier()`
 
 #### Adder Methods
 
+- `NonTransferableProductBuilder addIdentifier(ProductIdentifier arg0, int arg1)`
+- `NonTransferableProductBuilder addIdentifier(List arg0)`
+- `NonTransferableProductBuilder addIdentifier(ProductIdentifier arg0)`
 - `NonTransferableProductBuilder addTaxonomy(List arg0)`
 - `NonTransferableProductBuilder addTaxonomy(ProductTaxonomy arg0)`
 - `NonTransferableProductBuilder addTaxonomy(ProductTaxonomy arg0, int arg1)`
-- `NonTransferableProductBuilder addIdentifier(List arg0)`
-- `NonTransferableProductBuilder addIdentifier(ProductIdentifier arg0)`
-- `NonTransferableProductBuilder addIdentifier(ProductIdentifier arg0, int arg1)`
 
 #### Other Methods
 
@@ -58,7 +58,7 @@
 - `String toString()`
 - `int hashCode()`
 - `NonTransferableProductBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `NonTransferableProductBuilder toBuilder()`
 - `NonTransferableProductBuilder prune()`
+- `NonTransferableProductBuilder toBuilder()`
+- `boolean hasData()`
 

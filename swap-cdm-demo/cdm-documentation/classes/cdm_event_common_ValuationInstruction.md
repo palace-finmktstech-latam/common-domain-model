@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `List getValuation()`
 - `Boolean getReplace()`
+- `List getValuation()`
 
 #### Other Methods
 

@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `ZonedDateTime getDateTime()`
 - `EventTimestampQualificationEnum getQualification()`
+- `ZonedDateTime getDateTime()`
 
 #### Other Methods
 

@@ -22,9 +22,9 @@
 #### Other Methods
 
 - `BusinessEvent evaluate(TradeState arg0, ReturnInstruction arg1, Date arg2)`
-- `BusinessEventBuilder doEvaluate(TradeState arg0, ReturnInstruction arg1, Date arg2)`
 - `MapperS changePriceQuantity(TradeState arg0, ReturnInstruction arg1, Date arg2)`
 - `MapperC quantitySchedule(TradeState arg0, ReturnInstruction arg1, Date arg2)`
+- `BusinessEventBuilder doEvaluate(TradeState arg0, ReturnInstruction arg1, Date arg2)`
 
 ### Annotations
 

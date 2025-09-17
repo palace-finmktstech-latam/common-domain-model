@@ -15,14 +15,14 @@
 
 #### Setter Methods
 
-- `PercentageRuleBuilder setNotionalAmountReferenceValue(Money arg0)`
-- `PercentageRuleBuilder setPaymentPercent(BigDecimal arg0)`
 - `PercentageRuleBuilder setNotionalAmountReference(ReferenceWithMetaMoney arg0)`
+- `PercentageRuleBuilder setPaymentPercent(BigDecimal arg0)`
+- `PercentageRuleBuilder setNotionalAmountReferenceValue(Money arg0)`
 
 #### Getter Methods
 
-- `ReferenceWithMetaMoneyBuilder getOrCreateNotionalAmountReference()`
 - `ReferenceWithMetaMoneyBuilder getNotionalAmountReference()`
+- `ReferenceWithMetaMoneyBuilder getOrCreateNotionalAmountReference()`
 
 #### Other Methods
 

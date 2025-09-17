@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaContractDetailsBuilder setValue(ContractDetails arg0)`
-- `ReferenceWithMetaContractDetailsBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaContractDetailsBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaContractDetailsBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaContractDetailsBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaContractDetailsBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaContractDetailsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaContractDetailsBuilder toBuilder()`
 - `ReferenceWithMetaContractDetailsBuilder prune()`
+- `ReferenceWithMetaContractDetailsBuilder toBuilder()`
+- `boolean hasData()`
 

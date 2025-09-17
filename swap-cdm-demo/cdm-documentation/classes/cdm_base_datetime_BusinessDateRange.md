@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `BusinessDayConventionEnum getBusinessDayConvention()`
 - `BusinessCenters getBusinessCenters()`
+- `BusinessDayConventionEnum getBusinessDayConvention()`
 
 #### Other Methods
 

@@ -15,20 +15,20 @@
 
 #### Setter Methods
 
+- `CreditEventNoticeBuilder setPubliclyAvailableInformation(PubliclyAvailableInformation arg0)`
 - `CreditEventNoticeBuilder setBusinessCenter(BusinessCenterEnum arg0)`
 - `CreditEventNoticeBuilder setNotifyingParty(List arg0)`
-- `CreditEventNoticeBuilder setPubliclyAvailableInformation(PubliclyAvailableInformation arg0)`
 
 #### Getter Methods
 
-- `PubliclyAvailableInformationBuilder getOrCreatePubliclyAvailableInformation()`
 - `PubliclyAvailableInformationBuilder getPubliclyAvailableInformation()`
+- `PubliclyAvailableInformationBuilder getOrCreatePubliclyAvailableInformation()`
 
 #### Adder Methods
 
+- `CreditEventNoticeBuilder addNotifyingParty(CounterpartyRoleEnum arg0)`
 - `CreditEventNoticeBuilder addNotifyingParty(CounterpartyRoleEnum arg0, int arg1)`
 - `CreditEventNoticeBuilder addNotifyingParty(List arg0)`
-- `CreditEventNoticeBuilder addNotifyingParty(CounterpartyRoleEnum arg0)`
 
 #### Other Methods
 

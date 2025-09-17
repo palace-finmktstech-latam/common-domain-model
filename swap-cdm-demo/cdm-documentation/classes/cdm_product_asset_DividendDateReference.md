@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Offset getPaymentDateOffset()`
 - `DividendDateReferenceEnum getDateReference()`
+- `Offset getPaymentDateOffset()`
 
 #### Other Methods
 

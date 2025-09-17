@@ -25,8 +25,8 @@
 
 #### Setter Methods
 
-- `StockSplitInstructionBuilder setEffectiveDate(Date arg0)`
 - `StockSplitInstructionBuilder setAdjustmentRatio(BigDecimal arg0)`
+- `StockSplitInstructionBuilder setEffectiveDate(Date arg0)`
 
 #### Getter Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `StockSplitInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `StockSplitInstructionBuilder toBuilder()`
 - `StockSplitInstructionBuilder prune()`
+- `StockSplitInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

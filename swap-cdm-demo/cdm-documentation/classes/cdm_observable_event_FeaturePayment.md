@@ -22,11 +22,11 @@
 - `Class getType()`
 - `FieldWithMetaString getCurrency()`
 - `TimeTypeEnum getTime()`
-- `BigDecimal getLevelPercentage()`
 - `PartyReferencePayerReceiver getPayerReceiver()`
-- `AdjustableOrRelativeDate getPaymentDate()`
-- `MetaFields getMeta()`
 - `BigDecimal getAmount()`
+- `MetaFields getMeta()`
+- `BigDecimal getLevelPercentage()`
+- `AdjustableOrRelativeDate getPaymentDate()`
 
 #### Other Methods
 

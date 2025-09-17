@@ -17,23 +17,23 @@
 
 - `IndexBuilder setInterestRateIndexValue(InterestRateIndex arg0)`
 - `IndexBuilder setCreditIndex(CreditIndex arg0)`
-- `IndexBuilder setInterestRateIndex(FieldWithMetaInterestRateIndex arg0)`
 - `IndexBuilder setOtherIndex(OtherIndex arg0)`
 - `IndexBuilder setEquityIndex(EquityIndex arg0)`
+- `IndexBuilder setInterestRateIndex(FieldWithMetaInterestRateIndex arg0)`
 - `IndexBuilder setForeignExchangeRateIndex(ForeignExchangeRateIndex arg0)`
 
 #### Getter Methods
 
 - `FieldWithMetaInterestRateIndexBuilder getInterestRateIndex()`
-- `EquityIndexBuilder getEquityIndex()`
 - `OtherIndexBuilder getOtherIndex()`
 - `CreditIndexBuilder getCreditIndex()`
-- `EquityIndexBuilder getOrCreateEquityIndex()`
-- `CreditIndexBuilder getOrCreateCreditIndex()`
+- `EquityIndexBuilder getEquityIndex()`
 - `OtherIndexBuilder getOrCreateOtherIndex()`
+- `CreditIndexBuilder getOrCreateCreditIndex()`
+- `EquityIndexBuilder getOrCreateEquityIndex()`
+- `ForeignExchangeRateIndexBuilder getOrCreateForeignExchangeRateIndex()`
 - `FieldWithMetaInterestRateIndexBuilder getOrCreateInterestRateIndex()`
 - `ForeignExchangeRateIndexBuilder getForeignExchangeRateIndex()`
-- `ForeignExchangeRateIndexBuilder getOrCreateForeignExchangeRateIndex()`
 
 #### Other Methods
 

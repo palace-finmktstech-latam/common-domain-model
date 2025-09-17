@@ -20,8 +20,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Price getObservedValue()`
 - `ObservationIdentifier getObservationIdentifier()`
+- `Price getObservedValue()`
 - `MetaFields getMeta()`
 
 #### Other Methods

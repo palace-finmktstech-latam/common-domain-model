@@ -16,9 +16,9 @@
 #### Setter Methods
 
 - `SpreadScheduleBuilder setPriceValue(PriceSchedule arg0)`
-- `SpreadScheduleBuilder setPrice(ReferenceWithMetaPriceSchedule arg0)`
-- `SpreadScheduleBuilder setSpreadScheduleTypeValue(SpreadScheduleTypeEnum arg0)`
 - `SpreadScheduleBuilder setSpreadScheduleType(FieldWithMetaSpreadScheduleTypeEnum arg0)`
+- `SpreadScheduleBuilder setSpreadScheduleTypeValue(SpreadScheduleTypeEnum arg0)`
+- `SpreadScheduleBuilder setPrice(ReferenceWithMetaPriceSchedule arg0)`
 
 #### Getter Methods
 

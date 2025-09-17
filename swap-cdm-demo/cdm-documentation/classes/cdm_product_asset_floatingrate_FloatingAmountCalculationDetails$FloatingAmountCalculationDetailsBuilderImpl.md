@@ -31,29 +31,29 @@
 
 #### Setter Methods
 
+- `FloatingAmountCalculationDetailsBuilder setCalculatedAmount(BigDecimal arg0)`
 - `FloatingAmountCalculationDetailsBuilder setCalculationPeriod(CalculationPeriodBase arg0)`
 - `FloatingAmountCalculationDetailsBuilder setYearFraction(BigDecimal arg0)`
-- `FloatingAmountCalculationDetailsBuilder setCalculatedAmount(BigDecimal arg0)`
+- `FloatingAmountCalculationDetailsBuilder setCalculationPeriodNotionalAmount(Money arg0)`
+- `FloatingAmountCalculationDetailsBuilder setSpreadExclusiveCalculatedAMount(BigDecimal arg0)`
+- `FloatingAmountCalculationDetailsBuilder setAppliedRate(BigDecimal arg0)`
 - `FloatingAmountCalculationDetailsBuilder setProcessingDetails(FloatingRateProcessingDetails arg0)`
 - `FloatingAmountCalculationDetailsBuilder setFloatingRate(FloatingRateSettingDetails arg0)`
-- `FloatingAmountCalculationDetailsBuilder setAppliedRate(BigDecimal arg0)`
-- `FloatingAmountCalculationDetailsBuilder setSpreadExclusiveCalculatedAMount(BigDecimal arg0)`
-- `FloatingAmountCalculationDetailsBuilder setCalculationPeriodNotionalAmount(Money arg0)`
 
 #### Getter Methods
 
 - `BigDecimal getYearFraction()`
-- `BigDecimal getCalculatedAmount()`
-- `FloatingRateSettingDetailsBuilder getFloatingRate()`
 - `CalculationPeriodBaseBuilder getCalculationPeriod()`
-- `FloatingRateProcessingDetailsBuilder getProcessingDetails()`
-- `FloatingRateSettingDetailsBuilder getOrCreateFloatingRate()`
-- `BigDecimal getAppliedRate()`
+- `BigDecimal getCalculatedAmount()`
+- `CalculationPeriodBaseBuilder getOrCreateCalculationPeriod()`
+- `MoneyBuilder getCalculationPeriodNotionalAmount()`
 - `MoneyBuilder getOrCreateCalculationPeriodNotionalAmount()`
 - `FloatingRateProcessingDetailsBuilder getOrCreateProcessingDetails()`
 - `BigDecimal getSpreadExclusiveCalculatedAMount()`
-- `MoneyBuilder getCalculationPeriodNotionalAmount()`
-- `CalculationPeriodBaseBuilder getOrCreateCalculationPeriod()`
+- `FloatingRateSettingDetailsBuilder getOrCreateFloatingRate()`
+- `BigDecimal getAppliedRate()`
+- `FloatingRateSettingDetailsBuilder getFloatingRate()`
+- `FloatingRateProcessingDetailsBuilder getProcessingDetails()`
 
 #### Other Methods
 
@@ -61,7 +61,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FloatingAmountCalculationDetailsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FloatingAmountCalculationDetailsBuilder toBuilder()`
 - `FloatingAmountCalculationDetailsBuilder prune()`
+- `FloatingAmountCalculationDetailsBuilder toBuilder()`
+- `boolean hasData()`
 

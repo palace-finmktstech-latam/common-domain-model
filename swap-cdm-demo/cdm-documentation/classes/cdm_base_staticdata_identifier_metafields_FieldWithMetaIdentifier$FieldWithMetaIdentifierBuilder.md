@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `IdentifierBuilder getValue()`
-- `IdentifierBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `IdentifierBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods

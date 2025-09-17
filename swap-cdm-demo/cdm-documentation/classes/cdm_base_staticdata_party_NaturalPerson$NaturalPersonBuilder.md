@@ -16,41 +16,41 @@
 
 #### Setter Methods
 
+- `NaturalPersonBuilder setMeta(MetaFields arg0)`
+- `NaturalPersonBuilder setContactInformation(ContactInformation arg0)`
+- `NaturalPersonBuilder setSurname(String arg0)`
+- `NaturalPersonBuilder setInitial(List arg0)`
+- `NaturalPersonBuilder setSuffix(String arg0)`
+- `NaturalPersonBuilder setPersonId(List arg0)`
+- `NaturalPersonBuilder setFirstName(String arg0)`
+- `NaturalPersonBuilder setHonorific(String arg0)`
 - `NaturalPersonBuilder setDateOfBirth(Date arg0)`
 - `NaturalPersonBuilder setMiddleName(List arg0)`
 - `NaturalPersonBuilder setPersonIdValue(List arg0)`
-- `NaturalPersonBuilder setPersonId(List arg0)`
-- `NaturalPersonBuilder setHonorific(String arg0)`
-- `NaturalPersonBuilder setFirstName(String arg0)`
-- `NaturalPersonBuilder setContactInformation(ContactInformation arg0)`
-- `NaturalPersonBuilder setInitial(List arg0)`
-- `NaturalPersonBuilder setSurname(String arg0)`
-- `NaturalPersonBuilder setSuffix(String arg0)`
-- `NaturalPersonBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
+- `MetaFieldsBuilder getOrCreateMeta()`
+- `ContactInformationBuilder getContactInformation()`
+- `MetaFieldsBuilder getMeta()`
+- `ContactInformationBuilder getOrCreateContactInformation()`
 - `List getPersonId()`
 - `FieldWithMetaPersonIdentifierBuilder getOrCreatePersonId(int arg0)`
-- `ContactInformationBuilder getContactInformation()`
-- `MetaFieldsBuilder getOrCreateMeta()`
-- `ContactInformationBuilder getOrCreateContactInformation()`
-- `MetaFieldsBuilder getMeta()`
 
 #### Adder Methods
 
-- `NaturalPersonBuilder addMiddleName(List arg0)`
-- `NaturalPersonBuilder addMiddleName(String arg0)`
-- `NaturalPersonBuilder addMiddleName(String arg0, int arg1)`
-- `NaturalPersonBuilder addPersonId(FieldWithMetaPersonIdentifier arg0)`
-- `NaturalPersonBuilder addPersonId(List arg0)`
-- `NaturalPersonBuilder addPersonId(FieldWithMetaPersonIdentifier arg0, int arg1)`
-- `NaturalPersonBuilder addPersonIdValue(List arg0)`
-- `NaturalPersonBuilder addPersonIdValue(PersonIdentifier arg0)`
-- `NaturalPersonBuilder addPersonIdValue(PersonIdentifier arg0, int arg1)`
 - `NaturalPersonBuilder addInitial(String arg0)`
 - `NaturalPersonBuilder addInitial(List arg0)`
 - `NaturalPersonBuilder addInitial(String arg0, int arg1)`
+- `NaturalPersonBuilder addPersonId(List arg0)`
+- `NaturalPersonBuilder addPersonId(FieldWithMetaPersonIdentifier arg0, int arg1)`
+- `NaturalPersonBuilder addPersonId(FieldWithMetaPersonIdentifier arg0)`
+- `NaturalPersonBuilder addPersonIdValue(PersonIdentifier arg0)`
+- `NaturalPersonBuilder addPersonIdValue(PersonIdentifier arg0, int arg1)`
+- `NaturalPersonBuilder addPersonIdValue(List arg0)`
+- `NaturalPersonBuilder addMiddleName(List arg0)`
+- `NaturalPersonBuilder addMiddleName(String arg0, int arg1)`
+- `NaturalPersonBuilder addMiddleName(String arg0)`
 
 #### Other Methods
 

@@ -27,16 +27,16 @@
 
 #### Getter Methods
 
-- `PartyRole getSinglePartyOption()`
 - `ExerciseTerms getExerciseTerms()`
-- `Boolean getFollowUpConfirmation()`
+- `PartyRole getSinglePartyOption()`
 - `RelativeDateOffset getExtensionTerm()`
 - `ExerciseNotice getExerciseNotice()`
-- `AdjustableRelativeOrPeriodicDates getExtensionPeriod()`
+- `Boolean getFollowUpConfirmation()`
 - `CallingPartyEnum getCallingParty()`
+- `AdjustableRelativeOrPeriodicDates getExtensionPeriod()`
+- `ExtendibleProvisionAdjustedDates getExtendibleProvisionAdjustedDates()`
 - `RelativeDateOffset getNoticeDeadlinePeriod()`
 - `ZonedDateTime getNoticeDeadlineDateTime()`
-- `ExtendibleProvisionAdjustedDates getExtendibleProvisionAdjustedDates()`
 
 #### Other Methods
 

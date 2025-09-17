@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `FieldWithMetaContractualSupplementTypeEnum getContractualTermsSupplementType()`
 - `Date getPublicationDate()`
+- `FieldWithMetaContractualSupplementTypeEnum getContractualTermsSupplementType()`
 
 #### Other Methods
 

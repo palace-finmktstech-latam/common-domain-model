@@ -20,14 +20,14 @@
 #### Getter Methods
 
 - `Class getType()`
+- `MetaFields getMeta()`
+- `PayRelativeToEnum getPayRelativeTo()`
+- `Offset getPaymentDaysOffset()`
 - `Frequency getPaymentFrequency()`
 - `Date getFirstPaymentDate()`
-- `PayRelativeToEnum getPayRelativeTo()`
 - `PaymentDateSchedule getPaymentDateSchedule()`
-- `BusinessDayAdjustments getPaymentDatesAdjustments()`
 - `Date getLastRegularPaymentDate()`
-- `Offset getPaymentDaysOffset()`
-- `MetaFields getMeta()`
+- `BusinessDayAdjustments getPaymentDatesAdjustments()`
 
 #### Other Methods
 

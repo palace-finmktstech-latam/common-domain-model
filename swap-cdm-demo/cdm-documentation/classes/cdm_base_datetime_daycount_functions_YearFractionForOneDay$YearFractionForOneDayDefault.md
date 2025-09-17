@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `BigDecimal doEvaluate(DayCountFractionEnum arg0)`
 - `BigDecimal assignOutput(BigDecimal arg0, DayCountFractionEnum arg1)`
+- `BigDecimal doEvaluate(DayCountFractionEnum arg0)`
 

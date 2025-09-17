@@ -28,23 +28,23 @@
 
 #### Setter Methods
 
-- `PeriodicDatesBuilder setStartDate(AdjustableOrRelativeDate arg0)`
-- `PeriodicDatesBuilder setEndDate(AdjustableOrRelativeDate arg0)`
-- `PeriodicDatesBuilder setDayType(DayTypeEnum arg0)`
 - `PeriodicDatesBuilder setPeriodDatesAdjustments(BusinessDayAdjustments arg0)`
 - `PeriodicDatesBuilder setPeriodFrequency(CalculationPeriodFrequency arg0)`
+- `PeriodicDatesBuilder setDayType(DayTypeEnum arg0)`
+- `PeriodicDatesBuilder setEndDate(AdjustableOrRelativeDate arg0)`
+- `PeriodicDatesBuilder setStartDate(AdjustableOrRelativeDate arg0)`
 
 #### Getter Methods
 
-- `AdjustableOrRelativeDateBuilder getStartDate()`
-- `AdjustableOrRelativeDateBuilder getEndDate()`
-- `DayTypeEnum getDayType()`
-- `BusinessDayAdjustmentsBuilder getPeriodDatesAdjustments()`
 - `CalculationPeriodFrequencyBuilder getPeriodFrequency()`
-- `CalculationPeriodFrequencyBuilder getOrCreatePeriodFrequency()`
+- `BusinessDayAdjustmentsBuilder getPeriodDatesAdjustments()`
 - `AdjustableOrRelativeDateBuilder getOrCreateEndDate()`
+- `CalculationPeriodFrequencyBuilder getOrCreatePeriodFrequency()`
 - `AdjustableOrRelativeDateBuilder getOrCreateStartDate()`
 - `BusinessDayAdjustmentsBuilder getOrCreatePeriodDatesAdjustments()`
+- `DayTypeEnum getDayType()`
+- `AdjustableOrRelativeDateBuilder getEndDate()`
+- `AdjustableOrRelativeDateBuilder getStartDate()`
 
 #### Other Methods
 
@@ -52,7 +52,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PeriodicDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PeriodicDatesBuilder toBuilder()`
 - `PeriodicDatesBuilder prune()`
+- `PeriodicDatesBuilder toBuilder()`
+- `boolean hasData()`
 

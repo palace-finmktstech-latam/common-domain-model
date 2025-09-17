@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `TimeZoneBuilder doEvaluate(BusinessCenterTime arg0, TimeTypeEnum arg1, AssetIdentifier arg2, DeterminationMethodEnum arg3)`
 - `TimeZoneBuilder assignOutput(TimeZoneBuilder arg0, BusinessCenterTime arg1, TimeTypeEnum arg2, AssetIdentifier arg3, DeterminationMethodEnum arg4)`
+- `TimeZoneBuilder doEvaluate(BusinessCenterTime arg0, TimeTypeEnum arg1, AssetIdentifier arg2, DeterminationMethodEnum arg3)`
 

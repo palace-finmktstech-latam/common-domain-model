@@ -27,27 +27,27 @@
 
 #### Setter Methods
 
-- `TriggerEventBuilder setFeaturePayment(FeaturePayment arg0)`
-- `TriggerEventBuilder setTriggerDates(DateList arg0)`
 - `TriggerEventBuilder setSchedule(List arg0)`
+- `TriggerEventBuilder setTriggerDates(DateList arg0)`
+- `TriggerEventBuilder setFeaturePayment(FeaturePayment arg0)`
 - `TriggerEventBuilder setTrigger(Trigger arg0)`
 
 #### Getter Methods
 
-- `TriggerBuilder getOrCreateTrigger()`
-- `FeaturePaymentBuilder getOrCreateFeaturePayment()`
-- `DateListBuilder getOrCreateTriggerDates()`
+- `TriggerBuilder getTrigger()`
 - `List getSchedule()`
 - `AveragingScheduleBuilder getOrCreateSchedule(int arg0)`
+- `DateListBuilder getOrCreateTriggerDates()`
+- `TriggerBuilder getOrCreateTrigger()`
+- `FeaturePaymentBuilder getOrCreateFeaturePayment()`
 - `DateListBuilder getTriggerDates()`
 - `FeaturePaymentBuilder getFeaturePayment()`
-- `TriggerBuilder getTrigger()`
 
 #### Adder Methods
 
-- `TriggerEventBuilder addSchedule(List arg0)`
 - `TriggerEventBuilder addSchedule(AveragingSchedule arg0)`
 - `TriggerEventBuilder addSchedule(AveragingSchedule arg0, int arg1)`
+- `TriggerEventBuilder addSchedule(List arg0)`
 
 #### Other Methods
 
@@ -55,7 +55,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TriggerEventBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TriggerEventBuilder toBuilder()`
 - `TriggerEventBuilder prune()`
+- `TriggerEventBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -34,12 +34,12 @@
 
 #### Adder Methods
 
-- `DateRelativeToPaymentDatesBuilder addPaymentDatesReference(ReferenceWithMetaPaymentDates arg0)`
-- `DateRelativeToPaymentDatesBuilder addPaymentDatesReference(ReferenceWithMetaPaymentDates arg0, int arg1)`
 - `DateRelativeToPaymentDatesBuilder addPaymentDatesReference(List arg0)`
+- `DateRelativeToPaymentDatesBuilder addPaymentDatesReference(ReferenceWithMetaPaymentDates arg0, int arg1)`
+- `DateRelativeToPaymentDatesBuilder addPaymentDatesReference(ReferenceWithMetaPaymentDates arg0)`
 - `DateRelativeToPaymentDatesBuilder addPaymentDatesReferenceValue(PaymentDates arg0, int arg1)`
-- `DateRelativeToPaymentDatesBuilder addPaymentDatesReferenceValue(List arg0)`
 - `DateRelativeToPaymentDatesBuilder addPaymentDatesReferenceValue(PaymentDates arg0)`
+- `DateRelativeToPaymentDatesBuilder addPaymentDatesReferenceValue(List arg0)`
 
 #### Other Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DateRelativeToPaymentDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DateRelativeToPaymentDatesBuilder toBuilder()`
 - `DateRelativeToPaymentDatesBuilder prune()`
+- `DateRelativeToPaymentDatesBuilder toBuilder()`
+- `boolean hasData()`
 

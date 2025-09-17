@@ -22,8 +22,8 @@
 
 - `TriggerEventBuilder getOrCreateBarrierCap()`
 - `TriggerEventBuilder getOrCreateBarrierFloor()`
-- `TriggerEventBuilder getBarrierFloor()`
 - `TriggerEventBuilder getBarrierCap()`
+- `TriggerEventBuilder getBarrierFloor()`
 
 #### Other Methods
 

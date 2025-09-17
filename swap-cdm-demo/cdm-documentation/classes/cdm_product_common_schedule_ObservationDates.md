@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `ObservationSchedule getObservationSchedule()`
 - `PeriodicDates getPeriodicSchedule()`
+- `ObservationSchedule getObservationSchedule()`
 - `ParametricDates getParametricDates()`
 
 #### Other Methods

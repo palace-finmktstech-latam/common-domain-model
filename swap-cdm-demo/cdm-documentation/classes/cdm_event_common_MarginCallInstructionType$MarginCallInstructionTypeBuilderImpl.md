@@ -25,8 +25,8 @@
 
 #### Setter Methods
 
-- `MarginCallInstructionTypeBuilder setCallType(CallTypeEnum arg0)`
 - `MarginCallInstructionTypeBuilder setVisibilityIndicator(Boolean arg0)`
+- `MarginCallInstructionTypeBuilder setCallType(CallTypeEnum arg0)`
 
 #### Getter Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MarginCallInstructionTypeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MarginCallInstructionTypeBuilder toBuilder()`
 - `MarginCallInstructionTypeBuilder prune()`
+- `MarginCallInstructionTypeBuilder toBuilder()`
+- `boolean hasData()`
 

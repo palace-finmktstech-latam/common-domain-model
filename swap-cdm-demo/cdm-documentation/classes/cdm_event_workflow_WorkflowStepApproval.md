@@ -21,10 +21,10 @@
 
 - `Class getType()`
 - `EventTimestamp getTimestamp()`
+- `MetaFields getMeta()`
+- `ReferenceWithMetaParty getParty()`
 - `String getRejectedReason()`
 - `Boolean getApproved()`
-- `ReferenceWithMetaParty getParty()`
-- `MetaFields getMeta()`
 
 #### Other Methods
 

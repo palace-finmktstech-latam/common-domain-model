@@ -25,8 +25,8 @@
 
 - `FloatingRateSettingDetails evaluate(FloatingRate arg0, ResetDates arg1, CalculationPeriodBase arg2)`
 - `FloatingRateSettingDetailsBuilder doEvaluate(FloatingRate arg0, ResetDates arg1, CalculationPeriodBase arg2)`
-- `MapperS observedRate(FloatingRate arg0, ResetDates arg1, CalculationPeriodBase arg2)`
 - `MapperS resetDate(FloatingRate arg0, ResetDates arg1, CalculationPeriodBase arg2)`
+- `MapperS observedRate(FloatingRate arg0, ResetDates arg1, CalculationPeriodBase arg2)`
 - `MapperS fixingDate(FloatingRate arg0, ResetDates arg1, CalculationPeriodBase arg2)`
 
 ### Annotations

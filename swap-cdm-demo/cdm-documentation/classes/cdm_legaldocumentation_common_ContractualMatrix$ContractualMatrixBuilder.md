@@ -15,16 +15,16 @@
 
 #### Setter Methods
 
+- `ContractualMatrixBuilder setMatrixTypeValue(MatrixTypeEnum arg0)`
+- `ContractualMatrixBuilder setMatrixTermValue(MatrixTermEnum arg0)`
 - `ContractualMatrixBuilder setMatrixTerm(FieldWithMetaMatrixTermEnum arg0)`
 - `ContractualMatrixBuilder setMatrixType(FieldWithMetaMatrixTypeEnum arg0)`
-- `ContractualMatrixBuilder setMatrixTermValue(MatrixTermEnum arg0)`
-- `ContractualMatrixBuilder setMatrixTypeValue(MatrixTypeEnum arg0)`
 
 #### Getter Methods
 
-- `FieldWithMetaMatrixTermEnumBuilder getOrCreateMatrixTerm()`
 - `FieldWithMetaMatrixTermEnumBuilder getMatrixTerm()`
 - `FieldWithMetaMatrixTypeEnumBuilder getOrCreateMatrixType()`
+- `FieldWithMetaMatrixTermEnumBuilder getOrCreateMatrixTerm()`
 - `FieldWithMetaMatrixTypeEnumBuilder getMatrixType()`
 
 #### Other Methods

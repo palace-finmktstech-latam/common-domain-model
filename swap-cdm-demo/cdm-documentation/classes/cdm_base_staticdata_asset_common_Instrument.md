@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
+- `Security getSecurity()`
 - `ListedDerivative getListedDerivative()`
 - `Loan getLoan()`
-- `Security getSecurity()`
 
 #### Other Methods
 

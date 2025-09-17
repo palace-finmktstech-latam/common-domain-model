@@ -27,14 +27,14 @@
 #### Setter Methods
 
 - `AdditionalFixedPaymentsBuilder setWritedownReimbursement(Boolean arg0)`
-- `AdditionalFixedPaymentsBuilder setInterestShortfallReimbursement(Boolean arg0)`
 - `AdditionalFixedPaymentsBuilder setPrincipalShortfallReimbursement(Boolean arg0)`
+- `AdditionalFixedPaymentsBuilder setInterestShortfallReimbursement(Boolean arg0)`
 
 #### Getter Methods
 
-- `Boolean getWritedownReimbursement()`
-- `Boolean getInterestShortfallReimbursement()`
 - `Boolean getPrincipalShortfallReimbursement()`
+- `Boolean getInterestShortfallReimbursement()`
+- `Boolean getWritedownReimbursement()`
 
 #### Other Methods
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AdditionalFixedPaymentsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AdditionalFixedPaymentsBuilder toBuilder()`
 - `AdditionalFixedPaymentsBuilder prune()`
+- `AdditionalFixedPaymentsBuilder toBuilder()`
+- `boolean hasData()`
 

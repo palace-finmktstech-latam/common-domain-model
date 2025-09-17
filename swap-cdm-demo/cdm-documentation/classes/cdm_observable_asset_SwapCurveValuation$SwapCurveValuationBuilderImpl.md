@@ -27,17 +27,17 @@
 
 #### Setter Methods
 
-- `SwapCurveValuationBuilder setFloatingRateIndex(FloatingRateIndexEnum arg0)`
 - `SwapCurveValuationBuilder setSide(QuotationSideEnum arg0)`
 - `SwapCurveValuationBuilder setIndexTenor(Period arg0)`
+- `SwapCurveValuationBuilder setFloatingRateIndex(FloatingRateIndexEnum arg0)`
 - `SwapCurveValuationBuilder setSpread(BigDecimal arg0)`
 
 #### Getter Methods
 
-- `FloatingRateIndexEnum getFloatingRateIndex()`
-- `PeriodBuilder getIndexTenor()`
 - `QuotationSideEnum getSide()`
 - `PeriodBuilder getOrCreateIndexTenor()`
+- `PeriodBuilder getIndexTenor()`
+- `FloatingRateIndexEnum getFloatingRateIndex()`
 - `BigDecimal getSpread()`
 
 #### Other Methods
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `SwapCurveValuationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `SwapCurveValuationBuilder toBuilder()`
 - `SwapCurveValuationBuilder prune()`
+- `SwapCurveValuationBuilder toBuilder()`
+- `boolean hasData()`
 

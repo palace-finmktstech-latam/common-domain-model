@@ -20,10 +20,10 @@
 
 - `Class getType()`
 - `List getLevel()`
+- `CreditEvents getCreditEvents()`
 - `TriggerTimeTypeEnum getTriggerTimeType()`
 - `ReferenceWithMetaCreditEvents getCreditEventsReference()`
 - `TriggerTypeEnum getTriggerType()`
-- `CreditEvents getCreditEvents()`
 
 #### Other Methods
 

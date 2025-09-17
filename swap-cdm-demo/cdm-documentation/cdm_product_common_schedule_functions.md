@@ -60,8 +60,8 @@
 
 **Key Methods:**
 - `getSchedule(CalculationPeriodDates arg0, LocalDate arg1, LocalDate arg2)` → `Schedule` [Getter]
-- `getDaysThatAreInLeapYear(SchedulePeriod arg0)` → `int` [Getter]
 - `getCalcPeriod(SchedulePeriod arg0)` → `CalculationPeriodDataBuilder` [Getter]
+- `getDaysThatAreInLeapYear(SchedulePeriod arg0)` → `int` [Getter]
 
 ### CdmToStrataMapper
 

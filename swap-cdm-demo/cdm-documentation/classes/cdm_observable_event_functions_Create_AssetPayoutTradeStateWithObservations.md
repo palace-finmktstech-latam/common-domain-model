@@ -24,8 +24,8 @@
 
 - `TradeState evaluate(BillingRecordInstruction arg0)`
 - `MapperS date(BillingRecordInstruction arg0)`
-- `TradeStateBuilder doEvaluate(BillingRecordInstruction arg0)`
 - `MapperS assetPayout(BillingRecordInstruction arg0)`
+- `TradeStateBuilder doEvaluate(BillingRecordInstruction arg0)`
 
 ### Annotations
 

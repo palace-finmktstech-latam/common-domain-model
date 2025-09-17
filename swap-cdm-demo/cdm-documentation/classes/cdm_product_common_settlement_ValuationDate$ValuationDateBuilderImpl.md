@@ -28,24 +28,24 @@
 
 #### Setter Methods
 
+- `ValuationDateBuilder setValuationDate(RelativeDateOffset arg0)`
 - `ValuationDateBuilder setMultipleValuationDates(MultipleValuationDates arg0)`
-- `ValuationDateBuilder setFxFixingDate(FxFixingDate arg0)`
 - `ValuationDateBuilder setFxFixingSchedule(AdjustableDates arg0)`
 - `ValuationDateBuilder setSingleValuationDate(SingleValuationDate arg0)`
-- `ValuationDateBuilder setValuationDate(RelativeDateOffset arg0)`
+- `ValuationDateBuilder setFxFixingDate(FxFixingDate arg0)`
 
 #### Getter Methods
 
-- `FxFixingDateBuilder getFxFixingDate()`
-- `MultipleValuationDatesBuilder getMultipleValuationDates()`
-- `FxFixingDateBuilder getOrCreateFxFixingDate()`
-- `SingleValuationDateBuilder getSingleValuationDate()`
-- `AdjustableDatesBuilder getFxFixingSchedule()`
-- `SingleValuationDateBuilder getOrCreateSingleValuationDate()`
-- `MultipleValuationDatesBuilder getOrCreateMultipleValuationDates()`
-- `AdjustableDatesBuilder getOrCreateFxFixingSchedule()`
 - `RelativeDateOffsetBuilder getValuationDate()`
 - `RelativeDateOffsetBuilder getOrCreateValuationDate()`
+- `AdjustableDatesBuilder getFxFixingSchedule()`
+- `MultipleValuationDatesBuilder getMultipleValuationDates()`
+- `SingleValuationDateBuilder getSingleValuationDate()`
+- `FxFixingDateBuilder getOrCreateFxFixingDate()`
+- `FxFixingDateBuilder getFxFixingDate()`
+- `AdjustableDatesBuilder getOrCreateFxFixingSchedule()`
+- `SingleValuationDateBuilder getOrCreateSingleValuationDate()`
+- `MultipleValuationDatesBuilder getOrCreateMultipleValuationDates()`
 
 #### Other Methods
 
@@ -53,7 +53,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ValuationDateBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ValuationDateBuilder toBuilder()`
 - `ValuationDateBuilder prune()`
+- `ValuationDateBuilder toBuilder()`
+- `boolean hasData()`
 

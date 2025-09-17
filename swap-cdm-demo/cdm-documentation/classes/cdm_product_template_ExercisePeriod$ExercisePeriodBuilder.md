@@ -22,11 +22,11 @@
 
 #### Getter Methods
 
-- `PeriodBuilder getExerciseFrequency()`
 - `MetaFieldsBuilder getOrCreateMeta()`
 - `PeriodBuilder getEarliestExerciseDateTenor()`
 - `PeriodBuilder getOrCreateExerciseFrequency()`
 - `PeriodBuilder getOrCreateEarliestExerciseDateTenor()`
+- `PeriodBuilder getExerciseFrequency()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods

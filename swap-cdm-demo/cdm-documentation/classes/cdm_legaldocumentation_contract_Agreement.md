@@ -19,11 +19,11 @@
 #### Getter Methods
 
 - `Class getType()`
-- `MasterAgreementSchedule getMasterAgreementSchedule()`
 - `TransactionAdditionalTerms getTransactionAdditionalTerms()`
-- `CreditSupportAgreementElections getCreditSupportAgreementElections()`
 - `CollateralTransferAgreementElections getCollateralTransferAgreementElections()`
+- `CreditSupportAgreementElections getCreditSupportAgreementElections()`
 - `SecurityAgreementElections getSecurityAgreementElections()`
+- `MasterAgreementSchedule getMasterAgreementSchedule()`
 
 #### Other Methods
 

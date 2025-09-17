@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaRateObservationBuilder setValue(RateObservation arg0)`
-- `ReferenceWithMetaRateObservationBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaRateObservationBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaRateObservationBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaRateObservationBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaRateObservationBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

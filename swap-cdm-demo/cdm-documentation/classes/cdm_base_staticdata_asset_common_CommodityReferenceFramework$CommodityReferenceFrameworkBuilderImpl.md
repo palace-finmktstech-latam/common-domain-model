@@ -28,17 +28,17 @@
 #### Setter Methods
 
 - `CommodityReferenceFrameworkBuilder setCurrency(FieldWithMetaString arg0)`
-- `CommodityReferenceFrameworkBuilder setWeatherUnit(WeatherUnitEnum arg0)`
-- `CommodityReferenceFrameworkBuilder setCapacityUnit(CapacityUnitEnum arg0)`
-- `CommodityReferenceFrameworkBuilder setCurrencyValue(String arg0)`
 - `CommodityReferenceFrameworkBuilder setCommodityName(String arg0)`
+- `CommodityReferenceFrameworkBuilder setCurrencyValue(String arg0)`
+- `CommodityReferenceFrameworkBuilder setCapacityUnit(CapacityUnitEnum arg0)`
+- `CommodityReferenceFrameworkBuilder setWeatherUnit(WeatherUnitEnum arg0)`
 
 #### Getter Methods
 
 - `FieldWithMetaStringBuilder getCurrency()`
-- `WeatherUnitEnum getWeatherUnit()`
-- `CapacityUnitEnum getCapacityUnit()`
 - `FieldWithMetaStringBuilder getOrCreateCurrency()`
+- `CapacityUnitEnum getCapacityUnit()`
+- `WeatherUnitEnum getWeatherUnit()`
 - `String getCommodityName()`
 
 #### Other Methods
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CommodityReferenceFrameworkBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CommodityReferenceFrameworkBuilder toBuilder()`
 - `CommodityReferenceFrameworkBuilder prune()`
+- `CommodityReferenceFrameworkBuilder toBuilder()`
+- `boolean hasData()`
 

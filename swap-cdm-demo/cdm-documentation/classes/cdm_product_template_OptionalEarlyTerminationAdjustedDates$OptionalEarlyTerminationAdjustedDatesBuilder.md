@@ -19,14 +19,14 @@
 
 #### Getter Methods
 
-- `EarlyTerminationEventBuilder getOrCreateEarlyTerminationEvent(int arg0)`
 - `List getEarlyTerminationEvent()`
+- `EarlyTerminationEventBuilder getOrCreateEarlyTerminationEvent(int arg0)`
 
 #### Adder Methods
 
-- `OptionalEarlyTerminationAdjustedDatesBuilder addEarlyTerminationEvent(EarlyTerminationEvent arg0, int arg1)`
 - `OptionalEarlyTerminationAdjustedDatesBuilder addEarlyTerminationEvent(List arg0)`
 - `OptionalEarlyTerminationAdjustedDatesBuilder addEarlyTerminationEvent(EarlyTerminationEvent arg0)`
+- `OptionalEarlyTerminationAdjustedDatesBuilder addEarlyTerminationEvent(EarlyTerminationEvent arg0, int arg1)`
 
 #### Other Methods
 

@@ -24,8 +24,8 @@
 
 #### Adder Methods
 
-- `CreditLimitInformationBuilder addLimitApplicable(LimitApplicableExtended arg0, int arg1)`
 - `CreditLimitInformationBuilder addLimitApplicable(LimitApplicableExtended arg0)`
+- `CreditLimitInformationBuilder addLimitApplicable(LimitApplicableExtended arg0, int arg1)`
 - `CreditLimitInformationBuilder addLimitApplicable(List arg0)`
 
 #### Other Methods

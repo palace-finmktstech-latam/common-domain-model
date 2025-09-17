@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `CreditNotationBuilder getValue()`
-- `CreditNotationBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `CreditNotationBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods

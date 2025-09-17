@@ -26,22 +26,22 @@
 
 #### Setter Methods
 
-- `AssetDeliveryProfileBuilder setBlock(List arg0)`
-- `AssetDeliveryProfileBuilder setLoadType(LoadTypeEnum arg0)`
 - `AssetDeliveryProfileBuilder setBankHolidaysTreatment(BankHolidayTreatmentEnum arg0)`
+- `AssetDeliveryProfileBuilder setLoadType(LoadTypeEnum arg0)`
+- `AssetDeliveryProfileBuilder setBlock(List arg0)`
 
 #### Getter Methods
 
 - `AssetDeliveryProfileBlockBuilder getOrCreateBlock(int arg0)`
-- `BankHolidayTreatmentEnum getBankHolidaysTreatment()`
 - `LoadTypeEnum getLoadType()`
+- `BankHolidayTreatmentEnum getBankHolidaysTreatment()`
 - `List getBlock()`
 
 #### Adder Methods
 
 - `AssetDeliveryProfileBuilder addBlock(AssetDeliveryProfileBlock arg0)`
-- `AssetDeliveryProfileBuilder addBlock(List arg0)`
 - `AssetDeliveryProfileBuilder addBlock(AssetDeliveryProfileBlock arg0, int arg1)`
+- `AssetDeliveryProfileBuilder addBlock(List arg0)`
 
 #### Other Methods
 
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AssetDeliveryProfileBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AssetDeliveryProfileBuilder toBuilder()`
 - `AssetDeliveryProfileBuilder prune()`
+- `AssetDeliveryProfileBuilder toBuilder()`
+- `boolean hasData()`
 

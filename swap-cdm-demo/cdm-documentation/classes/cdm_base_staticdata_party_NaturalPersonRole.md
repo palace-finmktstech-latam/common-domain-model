@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `ReferenceWithMetaNaturalPerson getPersonReference()`
 - `List getRole()`
+- `ReferenceWithMetaNaturalPerson getPersonReference()`
 
 #### Other Methods
 

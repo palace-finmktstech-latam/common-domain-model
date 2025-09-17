@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaCalculationPeriodDatesBuilder setValue(CalculationPeriodDates arg0)`
-- `ReferenceWithMetaCalculationPeriodDatesBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaCalculationPeriodDatesBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaCalculationPeriodDatesBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaCalculationPeriodDatesBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaCalculationPeriodDatesBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaCalculationPeriodDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaCalculationPeriodDatesBuilder toBuilder()`
 - `ReferenceWithMetaCalculationPeriodDatesBuilder prune()`
+- `ReferenceWithMetaCalculationPeriodDatesBuilder toBuilder()`
+- `boolean hasData()`
 

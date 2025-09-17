@@ -22,11 +22,11 @@
 
 #### Getter Methods
 
-- `ReferenceWithMetaQuotedCurrencyPair getQuotedCurrencyPair()`
-- `AncillaryEntity getDealerOrCCP()`
-- `SettlementRateOption getSettlementRateOption()`
-- `ReferenceBanks getReferenceBanks()`
 - `FxSpotRateSource getInformationSource()`
+- `ReferenceBanks getReferenceBanks()`
+- `SettlementRateOption getSettlementRateOption()`
+- `AncillaryEntity getDealerOrCCP()`
+- `ReferenceWithMetaQuotedCurrencyPair getQuotedCurrencyPair()`
 
 #### Other Methods
 

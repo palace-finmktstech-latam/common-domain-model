@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `PrimitiveInstructionBuilder doEvaluate(TradeState arg0, BigDecimal arg1, AdjustableOrRelativeDate arg2)`
 - `PrimitiveInstructionBuilder assignOutput(PrimitiveInstructionBuilder arg0, TradeState arg1, BigDecimal arg2, AdjustableOrRelativeDate arg3)`
+- `PrimitiveInstructionBuilder doEvaluate(TradeState arg0, BigDecimal arg1, AdjustableOrRelativeDate arg2)`
 

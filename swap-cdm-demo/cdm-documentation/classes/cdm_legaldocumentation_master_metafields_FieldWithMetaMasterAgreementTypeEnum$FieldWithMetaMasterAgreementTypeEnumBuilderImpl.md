@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaMasterAgreementTypeEnumBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaMasterAgreementTypeEnumBuilder toBuilder()`
 - `FieldWithMetaMasterAgreementTypeEnumBuilder prune()`
+- `FieldWithMetaMasterAgreementTypeEnumBuilder toBuilder()`
+- `boolean hasData()`
 

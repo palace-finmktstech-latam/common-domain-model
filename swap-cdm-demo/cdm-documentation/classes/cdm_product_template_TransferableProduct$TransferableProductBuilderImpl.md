@@ -29,9 +29,9 @@
 
 #### Setter Methods
 
-- `TransferableProductBuilder setDigitalAsset(DigitalAsset arg0)`
-- `TransferableProductBuilder setInstrument(Instrument arg0)`
 - `TransferableProductBuilder setCommodity(Commodity arg0)`
+- `TransferableProductBuilder setInstrument(Instrument arg0)`
+- `TransferableProductBuilder setDigitalAsset(DigitalAsset arg0)`
 - `TransferableProductBuilder setEconomicTerms(EconomicTerms arg0)`
 - `TransferableProductBuilder setCash(Cash arg0)`
 
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TransferableProductBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TransferableProductBuilder toBuilder()`
 - `TransferableProductBuilder prune()`
+- `TransferableProductBuilder toBuilder()`
+- `boolean hasData()`
 

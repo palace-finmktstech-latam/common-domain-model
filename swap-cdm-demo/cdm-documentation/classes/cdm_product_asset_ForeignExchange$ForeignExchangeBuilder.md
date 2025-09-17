@@ -15,18 +15,18 @@
 
 #### Setter Methods
 
-- `ForeignExchangeBuilder setTenorPeriod(Period arg0)`
-- `ForeignExchangeBuilder setExchangedCurrency2(Cashflow arg0)`
 - `ForeignExchangeBuilder setExchangedCurrency1(Cashflow arg0)`
+- `ForeignExchangeBuilder setExchangedCurrency2(Cashflow arg0)`
+- `ForeignExchangeBuilder setTenorPeriod(Period arg0)`
 
 #### Getter Methods
 
-- `CashflowBuilder getOrCreateExchangedCurrency2()`
-- `CashflowBuilder getOrCreateExchangedCurrency1()`
-- `CashflowBuilder getExchangedCurrency2()`
-- `CashflowBuilder getExchangedCurrency1()`
-- `PeriodBuilder getTenorPeriod()`
 - `PeriodBuilder getOrCreateTenorPeriod()`
+- `CashflowBuilder getExchangedCurrency2()`
+- `PeriodBuilder getTenorPeriod()`
+- `CashflowBuilder getExchangedCurrency1()`
+- `CashflowBuilder getOrCreateExchangedCurrency1()`
+- `CashflowBuilder getOrCreateExchangedCurrency2()`
 
 #### Other Methods
 

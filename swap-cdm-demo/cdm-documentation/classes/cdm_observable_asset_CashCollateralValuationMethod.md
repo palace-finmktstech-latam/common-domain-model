@@ -19,12 +19,12 @@
 #### Getter Methods
 
 - `Class getType()`
-- `CsaTypeEnum getApplicableCsa()`
-- `String getCashCollateralCurrency()`
-- `FieldWithMetaString getAgreedDiscountRate()`
 - `List getProtectedParty()`
-- `FieldWithMetaString getCashCollateralInterestRate()`
+- `CsaTypeEnum getApplicableCsa()`
+- `FieldWithMetaString getAgreedDiscountRate()`
+- `String getCashCollateralCurrency()`
 - `Boolean getPrescribedDocumentationAdjustment()`
+- `FieldWithMetaString getCashCollateralInterestRate()`
 
 #### Other Methods
 

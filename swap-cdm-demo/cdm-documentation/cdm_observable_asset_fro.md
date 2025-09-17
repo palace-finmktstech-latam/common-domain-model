@@ -37,8 +37,8 @@
 - `getMethod()` → `FloatingRateIndexCalculationMethodEnum` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `FloatingRateIndexCalculationDefaults` [Builder]
-- `getCategory()` → `FloatingRateIndexCategoryEnum` [Getter]
 - `getIndexStyle()` → `FloatingRateIndexStyleEnum` [Getter]
+- `getCategory()` → `FloatingRateIndexCategoryEnum` [Getter]
 
 ### FloatingRateIndexCalculationDefaultsBuilder
 **Implements:** `FloatingRateIndexCalculationDefaults` `RosettaModelObjectBuilder` 
@@ -54,19 +54,19 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `FloatingRateIndexDefinition` [Builder]
-- `getFro()` → `FloatingRateIndexIdentification` [Getter]
 - `getCalculationDefaults()` → `FloatingRateIndexCalculationDefaults` [Getter]
+- `getFro()` → `FloatingRateIndexIdentification` [Getter]
 
 ### FloatingRateIndexDefinitionBuilder
 **Implements:** `FloatingRateIndexDefinition` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getFro()` → `FloatingRateIndexIdentificationBuilder` [Getter]
-- `getOrCreateCalculationDefaults()` → `FloatingRateIndexCalculationDefaultsBuilder` [Getter]
-- `setFro(FloatingRateIndexIdentification arg0)` → `FloatingRateIndexDefinitionBuilder` [Setter]
 - `getCalculationDefaults()` → `FloatingRateIndexCalculationDefaultsBuilder` [Getter]
+- `getFro()` → `FloatingRateIndexIdentificationBuilder` [Getter]
 - `getOrCreateFro()` → `FloatingRateIndexIdentificationBuilder` [Getter]
 - `setCalculationDefaults(FloatingRateIndexCalculationDefaults arg0)` → `FloatingRateIndexDefinitionBuilder` [Setter]
+- `setFro(FloatingRateIndexIdentification arg0)` → `FloatingRateIndexDefinitionBuilder` [Setter]
+- `getOrCreateCalculationDefaults()` → `FloatingRateIndexCalculationDefaultsBuilder` [Getter]
 
 ### FloatingRateIndexIdentification
 **Implements:** `RosettaModelObject` 
@@ -83,11 +83,11 @@
 
 **Key Methods:**
 - `setCurrency(ISOCurrencyCodeEnum arg0)` → `FloatingRateIndexIdentificationBuilder` [Setter]
+- `setFloatingRateIndexValue(FloatingRateIndexEnum arg0)` → `FloatingRateIndexIdentificationBuilder` [Setter]
 - `getFloatingRateIndex()` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Getter]
 - `setFloatingRateIndex(FieldWithMetaFloatingRateIndexEnum arg0)` → `FloatingRateIndexIdentificationBuilder` [Setter]
 - `getOrCreateFloatingRateIndex()` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Getter]
 - `setFroType(String arg0)` → `FloatingRateIndexIdentificationBuilder` [Setter]
-- `setFloatingRateIndexValue(FloatingRateIndexEnum arg0)` → `FloatingRateIndexIdentificationBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -103,10 +103,10 @@
 - `getMethod()` → `FloatingRateIndexCalculationMethodEnum` [Getter]
 - `build()` → `FloatingRateIndexCalculationDefaults` [Builder]
 - `setMethod(FloatingRateIndexCalculationMethodEnum arg0)` → `FloatingRateIndexCalculationDefaultsBuilder` [Setter]
-- `getCategory()` → `FloatingRateIndexCategoryEnum` [Getter]
 - `setCategory(FloatingRateIndexCategoryEnum arg0)` → `FloatingRateIndexCalculationDefaultsBuilder` [Setter]
 - `getIndexStyle()` → `FloatingRateIndexStyleEnum` [Getter]
 - `setIndexStyle(FloatingRateIndexStyleEnum arg0)` → `FloatingRateIndexCalculationDefaultsBuilder` [Setter]
+- `getCategory()` → `FloatingRateIndexCategoryEnum` [Getter]
 
 ### FloatingRateIndexCalculationDefaultsImpl
 **Implements:** `FloatingRateIndexCalculationDefaults` 
@@ -114,9 +114,9 @@
 **Key Methods:**
 - `getMethod()` → `FloatingRateIndexCalculationMethodEnum` [Getter]
 - `build()` → `FloatingRateIndexCalculationDefaults` [Builder]
-- `getCategory()` → `FloatingRateIndexCategoryEnum` [Getter]
 - `setBuilderFields(FloatingRateIndexCalculationDefaultsBuilder arg0)` → `void` [Setter]
 - `getIndexStyle()` → `FloatingRateIndexStyleEnum` [Getter]
+- `getCategory()` → `FloatingRateIndexCategoryEnum` [Getter]
 
 ### FloatingRateIndexDefinitionBuilderImpl
 **Implements:** `FloatingRateIndexDefinition$FloatingRateIndexDefinitionBuilder` 
@@ -127,12 +127,12 @@
 
 **Key Methods:**
 - `build()` → `FloatingRateIndexDefinition` [Builder]
-- `getFro()` → `FloatingRateIndexIdentificationBuilder` [Getter]
-- `getOrCreateCalculationDefaults()` → `FloatingRateIndexCalculationDefaultsBuilder` [Getter]
-- `setFro(FloatingRateIndexIdentification arg0)` → `FloatingRateIndexDefinitionBuilder` [Setter]
 - `getCalculationDefaults()` → `FloatingRateIndexCalculationDefaultsBuilder` [Getter]
+- `getFro()` → `FloatingRateIndexIdentificationBuilder` [Getter]
 - `getOrCreateFro()` → `FloatingRateIndexIdentificationBuilder` [Getter]
 - `setCalculationDefaults(FloatingRateIndexCalculationDefaults arg0)` → `FloatingRateIndexDefinitionBuilder` [Setter]
+- `setFro(FloatingRateIndexIdentification arg0)` → `FloatingRateIndexDefinitionBuilder` [Setter]
+- `getOrCreateCalculationDefaults()` → `FloatingRateIndexCalculationDefaultsBuilder` [Getter]
 
 ### FloatingRateIndexDefinitionImpl
 **Implements:** `FloatingRateIndexDefinition` 
@@ -140,8 +140,8 @@
 **Key Methods:**
 - `build()` → `FloatingRateIndexDefinition` [Builder]
 - `setBuilderFields(FloatingRateIndexDefinitionBuilder arg0)` → `void` [Setter]
-- `getFro()` → `FloatingRateIndexIdentification` [Getter]
 - `getCalculationDefaults()` → `FloatingRateIndexCalculationDefaults` [Getter]
+- `getFro()` → `FloatingRateIndexIdentification` [Getter]
 
 ### FloatingRateIndexIdentificationBuilderImpl
 **Implements:** `FloatingRateIndexIdentification$FloatingRateIndexIdentificationBuilder` 
@@ -155,12 +155,12 @@
 - `build()` → `FloatingRateIndexIdentification` [Builder]
 - `getCurrency()` → `ISOCurrencyCodeEnum` [Getter]
 - `setCurrency(ISOCurrencyCodeEnum arg0)` → `FloatingRateIndexIdentificationBuilder` [Setter]
+- `setFloatingRateIndexValue(FloatingRateIndexEnum arg0)` → `FloatingRateIndexIdentificationBuilder` [Setter]
 - `getFloatingRateIndex()` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Getter]
 - `setFloatingRateIndex(FieldWithMetaFloatingRateIndexEnum arg0)` → `FloatingRateIndexIdentificationBuilder` [Setter]
 - `getOrCreateFloatingRateIndex()` → `FieldWithMetaFloatingRateIndexEnumBuilder` [Getter]
-- `setFroType(String arg0)` → `FloatingRateIndexIdentificationBuilder` [Setter]
-- `setFloatingRateIndexValue(FloatingRateIndexEnum arg0)` → `FloatingRateIndexIdentificationBuilder` [Setter]
 - `getFroType()` → `String` [Getter]
+- `setFroType(String arg0)` → `FloatingRateIndexIdentificationBuilder` [Setter]
 
 ### FloatingRateIndexIdentificationImpl
 **Implements:** `FloatingRateIndexIdentification` 
@@ -168,7 +168,7 @@
 **Key Methods:**
 - `build()` → `FloatingRateIndexIdentification` [Builder]
 - `getCurrency()` → `ISOCurrencyCodeEnum` [Getter]
-- `getFloatingRateIndex()` → `FieldWithMetaFloatingRateIndexEnum` [Getter]
 - `setBuilderFields(FloatingRateIndexIdentificationBuilder arg0)` → `void` [Setter]
+- `getFloatingRateIndex()` → `FieldWithMetaFloatingRateIndexEnum` [Getter]
 - `getFroType()` → `String` [Getter]
 

@@ -15,12 +15,12 @@
 
 #### Setter Methods
 
-- `MakeWholeAmountBuilder setFloatingRateIndex(FloatingRateIndexEnum arg0)`
 - `MakeWholeAmountBuilder setSide(QuotationSideEnum arg0)`
-- `MakeWholeAmountBuilder setEarlyCallDate(FieldWithMetaDate arg0)`
-- `MakeWholeAmountBuilder setEarlyCallDateValue(Date arg0)`
 - `MakeWholeAmountBuilder setIndexTenor(Period arg0)`
 - `MakeWholeAmountBuilder setInterpolationMethod(InterpolationMethodEnum arg0)`
+- `MakeWholeAmountBuilder setEarlyCallDateValue(Date arg0)`
+- `MakeWholeAmountBuilder setEarlyCallDate(FieldWithMetaDate arg0)`
+- `MakeWholeAmountBuilder setFloatingRateIndex(FloatingRateIndexEnum arg0)`
 - `MakeWholeAmountBuilder setSpread(BigDecimal arg0)`
 
 #### Getter Methods

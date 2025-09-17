@@ -10,8 +10,8 @@
 - `getValue()` → `CalculationPeriodDates` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaCalculationPeriodDates` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaCalculationPeriodDatesBuilder
@@ -21,11 +21,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `CalculationPeriodDatesBuilder` [Getter]
 - `setValue(CalculationPeriodDates arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Setter]
 - `getOrCreateValue()` → `CalculationPeriodDatesBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Setter]
 
 ### ReferenceWithMetaPaymentDates
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -35,8 +35,8 @@
 - `getValue()` → `PaymentDates` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaPaymentDates` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaPaymentDatesBuilder
@@ -46,11 +46,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `PaymentDatesBuilder` [Getter]
 - `setValue(PaymentDates arg0)` → `ReferenceWithMetaPaymentDatesBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaPaymentDatesBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaPaymentDatesBuilder` [Setter]
 - `getOrCreateValue()` → `PaymentDatesBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaPaymentDatesBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaPaymentDatesBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaPaymentDatesBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -68,12 +68,12 @@
 - `getValue()` → `CalculationPeriodDatesBuilder` [Getter]
 - `setValue(CalculationPeriodDates arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Setter]
 - `build()` → `ReferenceWithMetaCalculationPeriodDates` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Setter]
 - `getOrCreateValue()` → `CalculationPeriodDatesBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaCalculationPeriodDatesBuilder` [Setter]
 
 ### ReferenceWithMetaCalculationPeriodDatesImpl
 **Implements:** `ReferenceWithMetaCalculationPeriodDates` 
@@ -82,8 +82,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `CalculationPeriodDates` [Getter]
 - `build()` → `ReferenceWithMetaCalculationPeriodDates` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaCalculationPeriodDatesBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaCalculationPeriodDatesMeta
@@ -103,12 +103,12 @@
 - `getValue()` → `PaymentDatesBuilder` [Getter]
 - `setValue(PaymentDates arg0)` → `ReferenceWithMetaPaymentDatesBuilder` [Setter]
 - `build()` → `ReferenceWithMetaPaymentDates` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaPaymentDatesBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaPaymentDatesBuilder` [Setter]
 - `getOrCreateValue()` → `PaymentDatesBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaPaymentDatesBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaPaymentDatesBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaPaymentDatesBuilder` [Setter]
 
 ### ReferenceWithMetaPaymentDatesImpl
 **Implements:** `ReferenceWithMetaPaymentDates` 
@@ -117,8 +117,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `PaymentDates` [Getter]
 - `build()` → `ReferenceWithMetaPaymentDates` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaPaymentDatesBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaPaymentDatesMeta

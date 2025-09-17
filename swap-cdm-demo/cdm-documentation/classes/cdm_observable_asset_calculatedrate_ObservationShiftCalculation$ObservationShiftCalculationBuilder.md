@@ -21,8 +21,8 @@
 
 #### Getter Methods
 
-- `BusinessCentersBuilder getOrCreateAdditionalBusinessDays()`
 - `BusinessCentersBuilder getAdditionalBusinessDays()`
+- `BusinessCentersBuilder getOrCreateAdditionalBusinessDays()`
 
 #### Other Methods
 

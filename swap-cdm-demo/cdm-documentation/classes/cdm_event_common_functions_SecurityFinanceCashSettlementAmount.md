@@ -26,11 +26,11 @@
 #### Other Methods
 
 - `Transfer evaluate(TradeState arg0, Date arg1, Quantity arg2, PayerReceiver arg3)`
-- `TransferBuilder doEvaluate(TradeState arg0, Date arg1, Quantity arg2, PayerReceiver arg3)`
+- `MapperS assetPayout(TradeState arg0, Date arg1, Quantity arg2, PayerReceiver arg3)`
 - `MapperS securityQuantity(TradeState arg0, Date arg1, Quantity arg2, PayerReceiver arg3)`
 - `MapperS marginRatio(TradeState arg0, Date arg1, Quantity arg2, PayerReceiver arg3)`
-- `MapperS assetPayout(TradeState arg0, Date arg1, Quantity arg2, PayerReceiver arg3)`
 - `MapperS securityPrice(TradeState arg0, Date arg1, Quantity arg2, PayerReceiver arg3)`
+- `TransferBuilder doEvaluate(TradeState arg0, Date arg1, Quantity arg2, PayerReceiver arg3)`
 - `MapperS collateral(TradeState arg0, Date arg1, Quantity arg2, PayerReceiver arg3)`
 - `MapperS payout(TradeState arg0, Date arg1, Quantity arg2, PayerReceiver arg3)`
 

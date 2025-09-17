@@ -23,13 +23,13 @@
 #### Getter Methods
 
 - `FieldWithMetaString getName()`
+- `ContactInformation getContactInformation()`
 - `List getBusinessUnit()`
 - `List getPersonRole()`
-- `ContactInformation getContactInformation()`
-- `Account getAccount()`
-- `List getPartyId()`
-- `List getPerson()`
 - `MetaFields getMeta()`
+- `Account getAccount()`
+- `List getPerson()`
+- `List getPartyId()`
 
 #### Other Methods
 

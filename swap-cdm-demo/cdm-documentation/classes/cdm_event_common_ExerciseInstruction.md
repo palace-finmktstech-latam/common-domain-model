@@ -19,11 +19,11 @@
 #### Getter Methods
 
 - `Class getType()`
-- `PrimitiveInstruction getExerciseQuantity()`
-- `AdjustableOrAdjustedDate getExerciseDate()`
-- `ReferenceWithMetaOptionPayout getExerciseOption()`
-- `BusinessCenterTime getExerciseTime()`
 - `List getReplacementTradeIdentifier()`
+- `BusinessCenterTime getExerciseTime()`
+- `PrimitiveInstruction getExerciseQuantity()`
+- `ReferenceWithMetaOptionPayout getExerciseOption()`
+- `AdjustableOrAdjustedDate getExerciseDate()`
 
 #### Other Methods
 

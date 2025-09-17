@@ -18,8 +18,8 @@
 - `QuantityBuilder setValue(BigDecimal arg0)`
 - `QuantityBuilder setMultiplier(Measure arg0)`
 - `QuantityBuilder setDatedValue(List arg0)`
-- `QuantityBuilder setFrequency(Frequency arg0)`
 - `QuantityBuilder setUnit(UnitType arg0)`
+- `QuantityBuilder setFrequency(Frequency arg0)`
 
 #### Adder Methods
 

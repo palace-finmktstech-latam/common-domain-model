@@ -15,14 +15,14 @@
 
 #### Setter Methods
 
-- `PortfolioBuilder setAggregationParameters(AggregationParameters arg0)`
 - `PortfolioBuilder setPortfolioState(PortfolioState arg0)`
+- `PortfolioBuilder setAggregationParameters(AggregationParameters arg0)`
 
 #### Getter Methods
 
 - `AggregationParametersBuilder getOrCreateAggregationParameters()`
-- `AggregationParametersBuilder getAggregationParameters()`
 - `PortfolioStateBuilder getPortfolioState()`
+- `AggregationParametersBuilder getAggregationParameters()`
 - `PortfolioStateBuilder getOrCreatePortfolioState()`
 
 #### Other Methods

@@ -25,20 +25,20 @@
 
 #### Setter Methods
 
-- `PricingDatesBuilder setSpecifiedDates(List arg0)`
 - `PricingDatesBuilder setParametricDates(ParametricDates arg0)`
+- `PricingDatesBuilder setSpecifiedDates(List arg0)`
 
 #### Getter Methods
 
-- `List getSpecifiedDates()`
-- `AdjustableDatesBuilder getOrCreateSpecifiedDates(int arg0)`
-- `ParametricDatesBuilder getOrCreateParametricDates()`
 - `ParametricDatesBuilder getParametricDates()`
+- `ParametricDatesBuilder getOrCreateParametricDates()`
+- `AdjustableDatesBuilder getOrCreateSpecifiedDates(int arg0)`
+- `List getSpecifiedDates()`
 
 #### Adder Methods
 
-- `PricingDatesBuilder addSpecifiedDates(AdjustableDates arg0)`
 - `PricingDatesBuilder addSpecifiedDates(AdjustableDates arg0, int arg1)`
+- `PricingDatesBuilder addSpecifiedDates(AdjustableDates arg0)`
 - `PricingDatesBuilder addSpecifiedDates(List arg0)`
 
 #### Other Methods
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PricingDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PricingDatesBuilder toBuilder()`
 - `PricingDatesBuilder prune()`
+- `PricingDatesBuilder toBuilder()`
+- `boolean hasData()`
 

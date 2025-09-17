@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `BigDecimal doEvaluate(SettlementPayout arg0)`
 - `BigDecimal assignOutput(BigDecimal arg0, SettlementPayout arg1)`
+- `BigDecimal doEvaluate(SettlementPayout arg0)`
 

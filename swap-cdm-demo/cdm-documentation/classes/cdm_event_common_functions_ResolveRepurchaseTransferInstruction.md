@@ -21,9 +21,9 @@
 #### Other Methods
 
 - `EventInstruction evaluate(TradeState arg0, Date arg1)`
-- `EventInstructionBuilder doEvaluate(TradeState arg0, Date arg1)`
 - `MapperS changePriceQuantity(TradeState arg0, Date arg1)`
 - `MapperC changeQuantity(TradeState arg0, Date arg1)`
+- `EventInstructionBuilder doEvaluate(TradeState arg0, Date arg1)`
 
 ### Annotations
 

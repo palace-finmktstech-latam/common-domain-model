@@ -23,28 +23,28 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `AggregationParameters` [Builder]
-- `getProductQualifier()` → `List` [Getter]
-- `getDateTime()` → `ZonedDateTime` [Getter]
-- `getPositionStatus()` → `PositionStatusEnum` [Getter]
-- `getTotalPosition()` → `Boolean` [Getter]
 - `getTradeReference()` → `List` [Getter]
-- `getProduct()` → `List` [Getter]
 - `getParty()` → `List` [Getter]
+- `getProduct()` → `List` [Getter]
+- `getDateTime()` → `ZonedDateTime` [Getter]
+- `getProductQualifier()` → `List` [Getter]
+- `getTotalPosition()` → `Boolean` [Getter]
+- `getPositionStatus()` → `PositionStatusEnum` [Getter]
 
 ### AggregationParametersBuilder
 **Implements:** `AggregationParameters` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setProductQualifier(List arg0)` → `AggregationParametersBuilder` [Setter]
+- `setTradeReference(List arg0)` → `AggregationParametersBuilder` [Setter]
+- `setTradeReferenceValue(List arg0)` → `AggregationParametersBuilder` [Setter]
+- `getTradeReference()` → `List` [Getter]
+- `getOrCreateProduct(int arg0)` → `NonTransferableProductBuilder` [Getter]
+- `getOrCreateTradeReference(int arg0)` → `ReferenceWithMetaTradeBuilder` [Getter]
+- `getParty()` → `List` [Getter]
+- `getProduct()` → `List` [Getter]
+- `setProduct(List arg0)` → `AggregationParametersBuilder` [Setter]
 - `setPartyValue(List arg0)` → `AggregationParametersBuilder` [Setter]
 - `setDateTime(ZonedDateTime arg0)` → `AggregationParametersBuilder` [Setter]
-- `setTotalPosition(Boolean arg0)` → `AggregationParametersBuilder` [Setter]
-- `setPositionStatus(PositionStatusEnum arg0)` → `AggregationParametersBuilder` [Setter]
-- `getOrCreateTradeReference(int arg0)` → `ReferenceWithMetaTradeBuilder` [Getter]
-- `getOrCreateProduct(int arg0)` → `NonTransferableProductBuilder` [Getter]
-- `setProduct(List arg0)` → `AggregationParametersBuilder` [Setter]
-- `getTradeReference()` → `List` [Getter]
-- `setTradeReference(List arg0)` → `AggregationParametersBuilder` [Setter]
 
 ### AvailableInventory
 **Implements:** `RosettaModelObject` 
@@ -52,26 +52,26 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `AvailableInventory` [Builder]
+- `getPartyRole()` → `List` [Getter]
+- `getParty()` → `List` [Getter]
 - `getAvailableInventoryRecord()` → `List` [Getter]
 - `getAvailableInventoryType()` → `AvailableInventoryTypeEnum` [Getter]
 - `getMessageInformation()` → `MessageInformation` [Getter]
-- `getPartyRole()` → `List` [Getter]
-- `getParty()` → `List` [Getter]
 
 ### AvailableInventoryBuilder
 **Implements:** `AvailableInventory` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setPartyRole(List arg0)` → `AvailableInventoryBuilder` [Setter]
-- `getOrCreatePartyRole(int arg0)` → `PartyRoleBuilder` [Getter]
-- `setMessageInformation(MessageInformation arg0)` → `AvailableInventoryBuilder` [Setter]
-- `getOrCreateAvailableInventoryRecord(int arg0)` → `AvailableInventoryRecordBuilder` [Getter]
-- `setAvailableInventoryRecord(List arg0)` → `AvailableInventoryBuilder` [Setter]
-- `getAvailableInventoryRecord()` → `List` [Getter]
-- `setAvailableInventoryType(AvailableInventoryTypeEnum arg0)` → `AvailableInventoryBuilder` [Setter]
-- `getMessageInformation()` → `MessageInformationBuilder` [Getter]
 - `getPartyRole()` → `List` [Getter]
 - `getParty()` → `List` [Getter]
+- `getAvailableInventoryRecord()` → `List` [Getter]
+- `getOrCreateAvailableInventoryRecord(int arg0)` → `AvailableInventoryRecordBuilder` [Getter]
+- `setAvailableInventoryRecord(List arg0)` → `AvailableInventoryBuilder` [Setter]
+- `setMessageInformation(MessageInformation arg0)` → `AvailableInventoryBuilder` [Setter]
+- `setAvailableInventoryType(AvailableInventoryTypeEnum arg0)` → `AvailableInventoryBuilder` [Setter]
+- `getOrCreateParty(int arg0)` → `PartyBuilder` [Getter]
+- `setParty(List arg0)` → `AvailableInventoryBuilder` [Setter]
+- `getMessageInformation()` → `MessageInformationBuilder` [Getter]
 
 ### AvailableInventoryRecord
 **Implements:** `InventoryRecord` 
@@ -80,25 +80,25 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `AvailableInventoryRecord` [Builder]
 - `getQuantity()` → `Quantity` [Getter]
-- `getInterestRate()` → `Price` [Getter]
-- `getExpirationDateTime()` → `ZonedDateTime` [Getter]
 - `getPartyRole()` → `List` [Getter]
 - `getCollateral()` → `List` [Getter]
+- `getInterestRate()` → `Price` [Getter]
+- `getExpirationDateTime()` → `ZonedDateTime` [Getter]
 
 ### AvailableInventoryRecordBuilder
 **Implements:** `AvailableInventoryRecord` `InventoryRecord$InventoryRecordBuilder` 
 
 **Key Methods:**
+- `getQuantity()` → `QuantityBuilder` [Getter]
+- `setQuantity(Quantity arg0)` → `AvailableInventoryRecordBuilder` [Setter]
+- `getOrCreateQuantity()` → `QuantityBuilder` [Getter]
+- `getPartyRole()` → `List` [Getter]
+- `getCollateral()` → `List` [Getter]
 - `setCollateral(List arg0)` → `AvailableInventoryRecordBuilder` [Setter]
 - `getOrCreateCollateral(int arg0)` → `CollateralProvisionsBuilder` [Getter]
-- `setPartyRole(List arg0)` → `AvailableInventoryRecordBuilder` [Setter]
-- `getOrCreatePartyRole(int arg0)` → `PartyRoleBuilder` [Getter]
-- `setSecurity(Security arg0)` → `AvailableInventoryRecordBuilder` [Setter]
-- `getQuantity()` → `QuantityBuilder` [Getter]
-- `getOrCreateQuantity()` → `QuantityBuilder` [Getter]
-- `setQuantity(Quantity arg0)` → `AvailableInventoryRecordBuilder` [Setter]
+- `getInterestRate()` → `PriceBuilder` [Getter]
+- `setExpirationDateTime(ZonedDateTime arg0)` → `AvailableInventoryRecordBuilder` [Setter]
 - `setIdentifer(AssignedIdentifier arg0)` → `AvailableInventoryRecordBuilder` [Setter]
-- `setInterestRate(Price arg0)` → `AvailableInventoryRecordBuilder` [Setter]
 
 ### ContractBase
 **Implements:** `RosettaModelObject` 
@@ -106,24 +106,24 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ContractBase` [Builder]
+- `getExecutionDetails()` → `ReferenceWithMetaExecutionDetails` [Getter]
 - `getContractDetails()` → `ReferenceWithMetaContractDetails` [Getter]
 - `getCollateral()` → `ReferenceWithMetaCollateral` [Getter]
-- `getExecutionDetails()` → `ReferenceWithMetaExecutionDetails` [Getter]
 
 ### ContractBaseBuilder
 **Implements:** `ContractBase` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `getExecutionDetails()` → `ReferenceWithMetaExecutionDetailsBuilder` [Getter]
+- `getContractDetails()` → `ReferenceWithMetaContractDetailsBuilder` [Getter]
+- `getCollateral()` → `ReferenceWithMetaCollateralBuilder` [Getter]
 - `setExecutionDetails(ReferenceWithMetaExecutionDetails arg0)` → `ContractBaseBuilder` [Setter]
 - `setCollateral(ReferenceWithMetaCollateral arg0)` → `ContractBaseBuilder` [Setter]
 - `getOrCreateCollateral()` → `ReferenceWithMetaCollateralBuilder` [Getter]
-- `setCollateralValue(Collateral arg0)` → `ContractBaseBuilder` [Setter]
+- `getOrCreateExecutionDetails()` → `ReferenceWithMetaExecutionDetailsBuilder` [Getter]
 - `setContractDetailsValue(ContractDetails arg0)` → `ContractBaseBuilder` [Setter]
 - `setExecutionDetailsValue(ExecutionDetails arg0)` → `ContractBaseBuilder` [Setter]
-- `setContractDetails(ReferenceWithMetaContractDetails arg0)` → `ContractBaseBuilder` [Setter]
-- `getOrCreateContractDetails()` → `ReferenceWithMetaContractDetailsBuilder` [Getter]
-- `getContractDetails()` → `ReferenceWithMetaContractDetailsBuilder` [Getter]
-- `getCollateral()` → `ReferenceWithMetaCollateralBuilder` [Getter]
+- `setCollateralValue(Collateral arg0)` → `ContractBaseBuilder` [Setter]
 
 ### CounterpartyPosition
 **Implements:** `ContractBase` 
@@ -131,27 +131,27 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CounterpartyPosition` [Builder]
-- `getOpenDateTime()` → `LocalDateTime` [Getter]
-- `getPositionBase()` → `TradableProduct` [Getter]
-- `getPositionIdentifier()` → `List` [Getter]
-- `getTradeReference()` → `List` [Getter]
 - `getPartyRole()` → `List` [Getter]
+- `getTradeReference()` → `List` [Getter]
+- `getPositionBase()` → `TradableProduct` [Getter]
+- `getOpenDateTime()` → `LocalDateTime` [Getter]
+- `getPositionIdentifier()` → `List` [Getter]
 - `getParty()` → `List` [Getter]
 
 ### CounterpartyPositionBuilder
 **Implements:** `CounterpartyPosition` `ContractBase$ContractBaseBuilder` 
 
 **Key Methods:**
+- `getPartyRole()` → `List` [Getter]
 - `setExecutionDetails(ReferenceWithMetaExecutionDetails arg0)` → `CounterpartyPositionBuilder` [Setter]
 - `setCollateral(ReferenceWithMetaCollateral arg0)` → `CounterpartyPositionBuilder` [Setter]
-- `setPartyRole(List arg0)` → `CounterpartyPositionBuilder` [Setter]
-- `getOrCreatePartyRole(int arg0)` → `PartyRoleBuilder` [Getter]
-- `setOpenDateTime(LocalDateTime arg0)` → `CounterpartyPositionBuilder` [Setter]
-- `getOrCreatePositionBase()` → `TradableProductBuilder` [Getter]
-- `setPositionIdentifier(List arg0)` → `CounterpartyPositionBuilder` [Setter]
-- `setCollateralValue(Collateral arg0)` → `CounterpartyPositionBuilder` [Setter]
-- `setContractDetailsValue(ContractDetails arg0)` → `CounterpartyPositionBuilder` [Setter]
-- `setExecutionDetailsValue(ExecutionDetails arg0)` → `CounterpartyPositionBuilder` [Setter]
+- `setTradeReference(List arg0)` → `CounterpartyPositionBuilder` [Setter]
+- `setTradeReferenceValue(List arg0)` → `CounterpartyPositionBuilder` [Setter]
+- `getTradeReference()` → `List` [Getter]
+- `getOrCreateTradeReference(int arg0)` → `ReferenceWithMetaTradeStateBuilder` [Getter]
+- `getPositionBase()` → `TradableProductBuilder` [Getter]
+- `getPositionIdentifier()` → `List` [Getter]
+- `getParty()` → `List` [Getter]
 
 ### Inventory
 **Implements:** `RosettaModelObject` 
@@ -165,8 +165,8 @@
 **Implements:** `Inventory` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getInventoryRecord()` → `List` [Getter]
 - `getOrCreateInventoryRecord(int arg0)` → `InventoryRecordBuilder` [Getter]
+- `getInventoryRecord()` → `List` [Getter]
 - `setInventoryRecord(List arg0)` → `InventoryBuilder` [Setter]
 
 ### InventoryRecord
@@ -182,12 +182,12 @@
 **Implements:** `InventoryRecord` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setSecurity(Security arg0)` → `InventoryRecordBuilder` [Setter]
 - `getSecurity()` → `SecurityBuilder` [Getter]
+- `getOrCreateSecurity()` → `SecurityBuilder` [Getter]
 - `setIdentifer(AssignedIdentifier arg0)` → `InventoryRecordBuilder` [Setter]
 - `getOrCreateIdentifer()` → `AssignedIdentifierBuilder` [Getter]
 - `getIdentifer()` → `AssignedIdentifierBuilder` [Getter]
-- `getOrCreateSecurity()` → `SecurityBuilder` [Getter]
+- `setSecurity(Security arg0)` → `InventoryRecordBuilder` [Setter]
 
 ### Portfolio
 **Implements:** `RosettaModelObject` 
@@ -195,19 +195,19 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `Portfolio` [Builder]
-- `getAggregationParameters()` → `AggregationParameters` [Getter]
 - `getPortfolioState()` → `PortfolioState` [Getter]
+- `getAggregationParameters()` → `AggregationParameters` [Getter]
 
 ### PortfolioBuilder
 **Implements:** `Portfolio` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
 - `getOrCreateAggregationParameters()` → `AggregationParametersBuilder` [Getter]
-- `getAggregationParameters()` → `AggregationParametersBuilder` [Getter]
 - `getPortfolioState()` → `PortfolioStateBuilder` [Getter]
+- `getAggregationParameters()` → `AggregationParametersBuilder` [Getter]
+- `setPortfolioState(PortfolioState arg0)` → `PortfolioBuilder` [Setter]
 - `setAggregationParameters(AggregationParameters arg0)` → `PortfolioBuilder` [Setter]
 - `getOrCreatePortfolioState()` → `PortfolioStateBuilder` [Getter]
-- `setPortfolioState(PortfolioState arg0)` → `PortfolioBuilder` [Setter]
 
 ### PortfolioState
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -215,23 +215,23 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `PortfolioState` [Builder]
+- `getMeta()` → `MetaFields` [Getter]
 - `getLineage()` → `Lineage` [Getter]
 - `getPositions()` → `List` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
 
 ### PortfolioStateBuilder
 **Implements:** `PortfolioState` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `setPositions(List arg0)` → `PortfolioStateBuilder` [Setter]
-- `getOrCreatePositions(int arg0)` → `PositionBuilder` [Getter]
-- `getOrCreateLineage()` → `LineageBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `PortfolioStateBuilder` [Setter]
+- `getOrCreateLineage()` → `LineageBuilder` [Getter]
+- `getOrCreatePositions(int arg0)` → `PositionBuilder` [Getter]
+- `setPositions(List arg0)` → `PortfolioStateBuilder` [Setter]
 - `getLineage()` → `LineageBuilder` [Getter]
 - `getPositions()` → `List` [Getter]
 - `setLineage(Lineage arg0)` → `PortfolioStateBuilder` [Setter]
-- `setMeta(MetaFields arg0)` → `PortfolioStateBuilder` [Setter]
-- `getMeta()` → `MetaFieldsBuilder` [Getter]
 
 ### Position
 **Implements:** `RosettaModelObject` 
@@ -240,8 +240,8 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `Position` [Builder]
 - `getPriceQuantity()` → `List` [Getter]
-- `getTradeReference()` → `ReferenceWithMetaTradeState` [Getter]
 - `getCashBalance()` → `Money` [Getter]
+- `getTradeReference()` → `ReferenceWithMetaTradeState` [Getter]
 - `getProduct()` → `Product` [Getter]
 
 ### PositionBuilder
@@ -249,15 +249,15 @@
 
 **Key Methods:**
 - `getPriceQuantity()` → `List` [Getter]
-- `getOrCreateTradeReference()` → `ReferenceWithMetaTradeStateBuilder` [Getter]
-- `getOrCreatePriceQuantity(int arg0)` → `PriceQuantityBuilder` [Getter]
-- `getOrCreateCashBalance()` → `MoneyBuilder` [Getter]
-- `getOrCreateProduct()` → `ProductBuilder` [Getter]
-- `setProduct(Product arg0)` → `PositionBuilder` [Setter]
-- `getTradeReference()` → `ReferenceWithMetaTradeStateBuilder` [Getter]
 - `setPriceQuantity(List arg0)` → `PositionBuilder` [Setter]
-- `setTradeReference(ReferenceWithMetaTradeState arg0)` → `PositionBuilder` [Setter]
 - `setCashBalance(Money arg0)` → `PositionBuilder` [Setter]
+- `setTradeReference(ReferenceWithMetaTradeState arg0)` → `PositionBuilder` [Setter]
+- `setTradeReferenceValue(TradeState arg0)` → `PositionBuilder` [Setter]
+- `getCashBalance()` → `MoneyBuilder` [Getter]
+- `getTradeReference()` → `ReferenceWithMetaTradeStateBuilder` [Getter]
+- `getOrCreatePriceQuantity(int arg0)` → `PriceQuantityBuilder` [Getter]
+- `getOrCreateProduct()` → `ProductBuilder` [Getter]
+- `getOrCreateTradeReference()` → `ReferenceWithMetaTradeStateBuilder` [Getter]
 
 ### SecurityLocate
 **Implements:** `AvailableInventory` 
@@ -270,11 +270,11 @@
 **Implements:** `SecurityLocate` `AvailableInventory$AvailableInventoryBuilder` 
 
 **Key Methods:**
-- `setPartyRole(List arg0)` → `SecurityLocateBuilder` [Setter]
-- `setMessageInformation(MessageInformation arg0)` → `SecurityLocateBuilder` [Setter]
 - `setAvailableInventoryRecord(List arg0)` → `SecurityLocateBuilder` [Setter]
+- `setMessageInformation(MessageInformation arg0)` → `SecurityLocateBuilder` [Setter]
 - `setAvailableInventoryType(AvailableInventoryTypeEnum arg0)` → `SecurityLocateBuilder` [Setter]
 - `setParty(List arg0)` → `SecurityLocateBuilder` [Setter]
+- `setPartyRole(List arg0)` → `SecurityLocateBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -292,29 +292,29 @@
 
 **Key Methods:**
 - `build()` → `AggregationParameters` [Builder]
-- `getProductQualifier()` → `List` [Getter]
-- `setProductQualifier(List arg0)` → `AggregationParametersBuilder` [Setter]
-- `getDateTime()` → `ZonedDateTime` [Getter]
+- `setTradeReference(List arg0)` → `AggregationParametersBuilder` [Setter]
+- `setTradeReferenceValue(List arg0)` → `AggregationParametersBuilder` [Setter]
+- `getTradeReference()` → `List` [Getter]
+- `getOrCreateProduct(int arg0)` → `NonTransferableProductBuilder` [Getter]
+- `getOrCreateTradeReference(int arg0)` → `ReferenceWithMetaTradeBuilder` [Getter]
+- `getParty()` → `List` [Getter]
+- `getProduct()` → `List` [Getter]
+- `setProduct(List arg0)` → `AggregationParametersBuilder` [Setter]
 - `setPartyValue(List arg0)` → `AggregationParametersBuilder` [Setter]
-- `setDateTime(ZonedDateTime arg0)` → `AggregationParametersBuilder` [Setter]
-- `setTotalPosition(Boolean arg0)` → `AggregationParametersBuilder` [Setter]
-- `getPositionStatus()` → `PositionStatusEnum` [Getter]
-- `getTotalPosition()` → `Boolean` [Getter]
-- `setPositionStatus(PositionStatusEnum arg0)` → `AggregationParametersBuilder` [Setter]
 
 ### AggregationParametersImpl
 **Implements:** `AggregationParameters` 
 
 **Key Methods:**
 - `build()` → `AggregationParameters` [Builder]
-- `getProductQualifier()` → `List` [Getter]
-- `getDateTime()` → `ZonedDateTime` [Getter]
 - `setBuilderFields(AggregationParametersBuilder arg0)` → `void` [Setter]
-- `getPositionStatus()` → `PositionStatusEnum` [Getter]
-- `getTotalPosition()` → `Boolean` [Getter]
 - `getTradeReference()` → `List` [Getter]
-- `getProduct()` → `List` [Getter]
 - `getParty()` → `List` [Getter]
+- `getProduct()` → `List` [Getter]
+- `getDateTime()` → `ZonedDateTime` [Getter]
+- `getProductQualifier()` → `List` [Getter]
+- `getTotalPosition()` → `Boolean` [Getter]
+- `getPositionStatus()` → `PositionStatusEnum` [Getter]
 
 ### AvailableInventoryBuilderImpl
 **Implements:** `AvailableInventory$AvailableInventoryBuilder` 
@@ -328,15 +328,15 @@
 
 **Key Methods:**
 - `build()` → `AvailableInventory` [Builder]
-- `setPartyRole(List arg0)` → `AvailableInventoryBuilder` [Setter]
-- `getOrCreatePartyRole(int arg0)` → `PartyRoleBuilder` [Getter]
-- `setMessageInformation(MessageInformation arg0)` → `AvailableInventoryBuilder` [Setter]
+- `getPartyRole()` → `List` [Getter]
+- `getParty()` → `List` [Getter]
+- `getAvailableInventoryRecord()` → `List` [Getter]
 - `getOrCreateAvailableInventoryRecord(int arg0)` → `AvailableInventoryRecordBuilder` [Getter]
 - `setAvailableInventoryRecord(List arg0)` → `AvailableInventoryBuilder` [Setter]
-- `getAvailableInventoryRecord()` → `List` [Getter]
+- `setMessageInformation(MessageInformation arg0)` → `AvailableInventoryBuilder` [Setter]
 - `getAvailableInventoryType()` → `AvailableInventoryTypeEnum` [Getter]
 - `setAvailableInventoryType(AvailableInventoryTypeEnum arg0)` → `AvailableInventoryBuilder` [Setter]
-- `getMessageInformation()` → `MessageInformationBuilder` [Getter]
+- `getOrCreateParty(int arg0)` → `PartyBuilder` [Getter]
 
 ### AvailableInventoryImpl
 **Implements:** `AvailableInventory` 
@@ -344,11 +344,11 @@
 **Key Methods:**
 - `build()` → `AvailableInventory` [Builder]
 - `setBuilderFields(AvailableInventoryBuilder arg0)` → `void` [Setter]
+- `getPartyRole()` → `List` [Getter]
+- `getParty()` → `List` [Getter]
 - `getAvailableInventoryRecord()` → `List` [Getter]
 - `getAvailableInventoryType()` → `AvailableInventoryTypeEnum` [Getter]
 - `getMessageInformation()` → `MessageInformation` [Getter]
-- `getPartyRole()` → `List` [Getter]
-- `getParty()` → `List` [Getter]
 
 ### AvailableInventoryRecordBuilderImpl
 **Extends:** `InventoryRecord$InventoryRecordBuilderImpl` 
@@ -363,15 +363,15 @@
 
 **Key Methods:**
 - `build()` → `AvailableInventoryRecord` [Builder]
+- `getQuantity()` → `QuantityBuilder` [Getter]
+- `setQuantity(Quantity arg0)` → `AvailableInventoryRecordBuilder` [Setter]
+- `getOrCreateQuantity()` → `QuantityBuilder` [Getter]
+- `getPartyRole()` → `List` [Getter]
+- `getCollateral()` → `List` [Getter]
 - `setCollateral(List arg0)` → `AvailableInventoryRecordBuilder` [Setter]
 - `getOrCreateCollateral(int arg0)` → `CollateralProvisionsBuilder` [Getter]
-- `setPartyRole(List arg0)` → `AvailableInventoryRecordBuilder` [Setter]
-- `getOrCreatePartyRole(int arg0)` → `PartyRoleBuilder` [Getter]
-- `setSecurity(Security arg0)` → `AvailableInventoryRecordBuilder` [Setter]
-- `getQuantity()` → `QuantityBuilder` [Getter]
-- `getOrCreateQuantity()` → `QuantityBuilder` [Getter]
-- `setQuantity(Quantity arg0)` → `AvailableInventoryRecordBuilder` [Setter]
-- `setIdentifer(AssignedIdentifier arg0)` → `AvailableInventoryRecordBuilder` [Setter]
+- `getInterestRate()` → `PriceBuilder` [Getter]
+- `setExpirationDateTime(ZonedDateTime arg0)` → `AvailableInventoryRecordBuilder` [Setter]
 
 ### AvailableInventoryRecordImpl
 **Extends:** `InventoryRecord$InventoryRecordImpl` 
@@ -381,10 +381,10 @@
 - `build()` → `AvailableInventoryRecord` [Builder]
 - `getQuantity()` → `Quantity` [Getter]
 - `setBuilderFields(AvailableInventoryRecordBuilder arg0)` → `void` [Setter]
-- `getInterestRate()` → `Price` [Getter]
-- `getExpirationDateTime()` → `ZonedDateTime` [Getter]
 - `getPartyRole()` → `List` [Getter]
 - `getCollateral()` → `List` [Getter]
+- `getInterestRate()` → `Price` [Getter]
+- `getExpirationDateTime()` → `ZonedDateTime` [Getter]
 
 ### ContractBaseBuilderImpl
 **Implements:** `ContractBase$ContractBaseBuilder` 
@@ -396,15 +396,15 @@
 
 **Key Methods:**
 - `build()` → `ContractBase` [Builder]
+- `getExecutionDetails()` → `ReferenceWithMetaExecutionDetailsBuilder` [Getter]
+- `getContractDetails()` → `ReferenceWithMetaContractDetailsBuilder` [Getter]
+- `getCollateral()` → `ReferenceWithMetaCollateralBuilder` [Getter]
 - `setExecutionDetails(ReferenceWithMetaExecutionDetails arg0)` → `ContractBaseBuilder` [Setter]
 - `setCollateral(ReferenceWithMetaCollateral arg0)` → `ContractBaseBuilder` [Setter]
 - `getOrCreateCollateral()` → `ReferenceWithMetaCollateralBuilder` [Getter]
-- `setCollateralValue(Collateral arg0)` → `ContractBaseBuilder` [Setter]
+- `getOrCreateExecutionDetails()` → `ReferenceWithMetaExecutionDetailsBuilder` [Getter]
 - `setContractDetailsValue(ContractDetails arg0)` → `ContractBaseBuilder` [Setter]
 - `setExecutionDetailsValue(ExecutionDetails arg0)` → `ContractBaseBuilder` [Setter]
-- `setContractDetails(ReferenceWithMetaContractDetails arg0)` → `ContractBaseBuilder` [Setter]
-- `getOrCreateContractDetails()` → `ReferenceWithMetaContractDetailsBuilder` [Getter]
-- `getContractDetails()` → `ReferenceWithMetaContractDetailsBuilder` [Getter]
 
 ### ContractBaseImpl
 **Implements:** `ContractBase` 
@@ -412,9 +412,9 @@
 **Key Methods:**
 - `build()` → `ContractBase` [Builder]
 - `setBuilderFields(ContractBaseBuilder arg0)` → `void` [Setter]
+- `getExecutionDetails()` → `ReferenceWithMetaExecutionDetails` [Getter]
 - `getContractDetails()` → `ReferenceWithMetaContractDetails` [Getter]
 - `getCollateral()` → `ReferenceWithMetaCollateral` [Getter]
-- `getExecutionDetails()` → `ReferenceWithMetaExecutionDetails` [Getter]
 
 ### CounterpartyPositionBuilderImpl
 **Extends:** `ContractBase$ContractBaseBuilderImpl` 
@@ -430,15 +430,15 @@
 
 **Key Methods:**
 - `build()` → `CounterpartyPosition` [Builder]
+- `getPartyRole()` → `List` [Getter]
 - `setExecutionDetails(ReferenceWithMetaExecutionDetails arg0)` → `CounterpartyPositionBuilder` [Setter]
 - `setCollateral(ReferenceWithMetaCollateral arg0)` → `CounterpartyPositionBuilder` [Setter]
-- `setPartyRole(List arg0)` → `CounterpartyPositionBuilder` [Setter]
-- `getOrCreatePartyRole(int arg0)` → `PartyRoleBuilder` [Getter]
-- `setOpenDateTime(LocalDateTime arg0)` → `CounterpartyPositionBuilder` [Setter]
-- `getOrCreatePositionBase()` → `TradableProductBuilder` [Getter]
-- `setPositionIdentifier(List arg0)` → `CounterpartyPositionBuilder` [Setter]
-- `setCollateralValue(Collateral arg0)` → `CounterpartyPositionBuilder` [Setter]
-- `setContractDetailsValue(ContractDetails arg0)` → `CounterpartyPositionBuilder` [Setter]
+- `setTradeReference(List arg0)` → `CounterpartyPositionBuilder` [Setter]
+- `setTradeReferenceValue(List arg0)` → `CounterpartyPositionBuilder` [Setter]
+- `getTradeReference()` → `List` [Getter]
+- `getOrCreateTradeReference(int arg0)` → `ReferenceWithMetaTradeStateBuilder` [Getter]
+- `getPositionBase()` → `TradableProductBuilder` [Getter]
+- `getOpenDateTime()` → `LocalDateTime` [Getter]
 
 ### CounterpartyPositionImpl
 **Extends:** `ContractBase$ContractBaseImpl` 
@@ -447,11 +447,11 @@
 **Key Methods:**
 - `build()` → `CounterpartyPosition` [Builder]
 - `setBuilderFields(CounterpartyPositionBuilder arg0)` → `void` [Setter]
-- `getOpenDateTime()` → `LocalDateTime` [Getter]
-- `getPositionBase()` → `TradableProduct` [Getter]
-- `getPositionIdentifier()` → `List` [Getter]
-- `getTradeReference()` → `List` [Getter]
 - `getPartyRole()` → `List` [Getter]
+- `getTradeReference()` → `List` [Getter]
+- `getPositionBase()` → `TradableProduct` [Getter]
+- `getOpenDateTime()` → `LocalDateTime` [Getter]
+- `getPositionIdentifier()` → `List` [Getter]
 - `getParty()` → `List` [Getter]
 
 ### InventoryBuilderImpl
@@ -462,8 +462,8 @@
 
 **Key Methods:**
 - `build()` → `Inventory` [Builder]
-- `getInventoryRecord()` → `List` [Getter]
 - `getOrCreateInventoryRecord(int arg0)` → `InventoryRecordBuilder` [Getter]
+- `getInventoryRecord()` → `List` [Getter]
 - `setInventoryRecord(List arg0)` → `InventoryBuilder` [Setter]
 
 ### InventoryImpl
@@ -483,12 +483,12 @@
 
 **Key Methods:**
 - `build()` → `InventoryRecord` [Builder]
-- `setSecurity(Security arg0)` → `InventoryRecordBuilder` [Setter]
 - `getSecurity()` → `SecurityBuilder` [Getter]
+- `getOrCreateSecurity()` → `SecurityBuilder` [Getter]
 - `setIdentifer(AssignedIdentifier arg0)` → `InventoryRecordBuilder` [Setter]
 - `getOrCreateIdentifer()` → `AssignedIdentifierBuilder` [Getter]
 - `getIdentifer()` → `AssignedIdentifierBuilder` [Getter]
-- `getOrCreateSecurity()` → `SecurityBuilder` [Getter]
+- `setSecurity(Security arg0)` → `InventoryRecordBuilder` [Setter]
 
 ### InventoryRecordImpl
 **Implements:** `InventoryRecord` 
@@ -509,11 +509,11 @@
 **Key Methods:**
 - `build()` → `Portfolio` [Builder]
 - `getOrCreateAggregationParameters()` → `AggregationParametersBuilder` [Getter]
-- `getAggregationParameters()` → `AggregationParametersBuilder` [Getter]
 - `getPortfolioState()` → `PortfolioStateBuilder` [Getter]
+- `getAggregationParameters()` → `AggregationParametersBuilder` [Getter]
+- `setPortfolioState(PortfolioState arg0)` → `PortfolioBuilder` [Setter]
 - `setAggregationParameters(AggregationParameters arg0)` → `PortfolioBuilder` [Setter]
 - `getOrCreatePortfolioState()` → `PortfolioStateBuilder` [Getter]
-- `setPortfolioState(PortfolioState arg0)` → `PortfolioBuilder` [Setter]
 
 ### PortfolioImpl
 **Implements:** `Portfolio` 
@@ -521,8 +521,8 @@
 **Key Methods:**
 - `build()` → `Portfolio` [Builder]
 - `setBuilderFields(PortfolioBuilder arg0)` → `void` [Setter]
-- `getAggregationParameters()` → `AggregationParameters` [Getter]
 - `getPortfolioState()` → `PortfolioState` [Getter]
+- `getAggregationParameters()` → `AggregationParameters` [Getter]
 
 ### PortfolioStateBuilderImpl
 **Implements:** `PortfolioState$PortfolioStateBuilder` 
@@ -534,15 +534,15 @@
 
 **Key Methods:**
 - `build()` → `PortfolioState` [Builder]
-- `setPositions(List arg0)` → `PortfolioStateBuilder` [Setter]
-- `getOrCreatePositions(int arg0)` → `PositionBuilder` [Getter]
-- `getOrCreateLineage()` → `LineageBuilder` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `PortfolioStateBuilder` [Setter]
+- `getOrCreateLineage()` → `LineageBuilder` [Getter]
+- `getOrCreatePositions(int arg0)` → `PositionBuilder` [Getter]
+- `setPositions(List arg0)` → `PortfolioStateBuilder` [Setter]
 - `getLineage()` → `LineageBuilder` [Getter]
 - `getPositions()` → `List` [Getter]
 - `setLineage(Lineage arg0)` → `PortfolioStateBuilder` [Setter]
-- `setMeta(MetaFields arg0)` → `PortfolioStateBuilder` [Setter]
-- `getMeta()` → `MetaFieldsBuilder` [Getter]
 
 ### PortfolioStateImpl
 **Implements:** `PortfolioState` 
@@ -550,9 +550,9 @@
 **Key Methods:**
 - `build()` → `PortfolioState` [Builder]
 - `setBuilderFields(PortfolioStateBuilder arg0)` → `void` [Setter]
+- `getMeta()` → `MetaFields` [Getter]
 - `getLineage()` → `Lineage` [Getter]
 - `getPositions()` → `List` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
 
 ### PositionBuilderImpl
 **Implements:** `Position$PositionBuilder` 
@@ -566,24 +566,24 @@
 **Key Methods:**
 - `build()` → `Position` [Builder]
 - `getPriceQuantity()` → `List` [Getter]
-- `getOrCreateTradeReference()` → `ReferenceWithMetaTradeStateBuilder` [Getter]
-- `getOrCreatePriceQuantity(int arg0)` → `PriceQuantityBuilder` [Getter]
-- `getOrCreateCashBalance()` → `MoneyBuilder` [Getter]
-- `getOrCreateProduct()` → `ProductBuilder` [Getter]
-- `setProduct(Product arg0)` → `PositionBuilder` [Setter]
-- `getTradeReference()` → `ReferenceWithMetaTradeStateBuilder` [Getter]
 - `setPriceQuantity(List arg0)` → `PositionBuilder` [Setter]
+- `setCashBalance(Money arg0)` → `PositionBuilder` [Setter]
 - `setTradeReference(ReferenceWithMetaTradeState arg0)` → `PositionBuilder` [Setter]
+- `setTradeReferenceValue(TradeState arg0)` → `PositionBuilder` [Setter]
+- `getCashBalance()` → `MoneyBuilder` [Getter]
+- `getTradeReference()` → `ReferenceWithMetaTradeStateBuilder` [Getter]
+- `getOrCreatePriceQuantity(int arg0)` → `PriceQuantityBuilder` [Getter]
+- `getOrCreateProduct()` → `ProductBuilder` [Getter]
 
 ### PositionImpl
 **Implements:** `Position` 
 
 **Key Methods:**
 - `build()` → `Position` [Builder]
-- `getPriceQuantity()` → `List` [Getter]
 - `setBuilderFields(PositionBuilder arg0)` → `void` [Setter]
-- `getTradeReference()` → `ReferenceWithMetaTradeState` [Getter]
+- `getPriceQuantity()` → `List` [Getter]
 - `getCashBalance()` → `Money` [Getter]
+- `getTradeReference()` → `ReferenceWithMetaTradeState` [Getter]
 - `getProduct()` → `Product` [Getter]
 
 ### SecurityLocateBuilderImpl
@@ -592,11 +592,11 @@
 
 **Key Methods:**
 - `build()` → `SecurityLocate` [Builder]
-- `setPartyRole(List arg0)` → `SecurityLocateBuilder` [Setter]
-- `setMessageInformation(MessageInformation arg0)` → `SecurityLocateBuilder` [Setter]
 - `setAvailableInventoryRecord(List arg0)` → `SecurityLocateBuilder` [Setter]
+- `setMessageInformation(MessageInformation arg0)` → `SecurityLocateBuilder` [Setter]
 - `setAvailableInventoryType(AvailableInventoryTypeEnum arg0)` → `SecurityLocateBuilder` [Setter]
 - `setParty(List arg0)` → `SecurityLocateBuilder` [Setter]
+- `setPartyRole(List arg0)` → `SecurityLocateBuilder` [Setter]
 
 ### SecurityLocateImpl
 **Extends:** `AvailableInventory$AvailableInventoryImpl` 

@@ -15,9 +15,9 @@
 
 #### Other Methods
 
-- `QuantityChangeInstructionBuilder doEvaluate(List arg0, BigDecimal arg1)`
 - `QuantityChangeInstructionBuilder assignOutput(QuantityChangeInstructionBuilder arg0, List arg1, BigDecimal arg2)`
 - `MapperS newPriceQuantity(List arg0, BigDecimal arg1)`
+- `QuantityChangeInstructionBuilder doEvaluate(List arg0, BigDecimal arg1)`
 - `MapperS newPrice(List arg0, BigDecimal arg1)`
 - `MapperS currentRatePrice(List arg0, BigDecimal arg1)`
 

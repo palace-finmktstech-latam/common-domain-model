@@ -26,10 +26,10 @@
 
 #### Setter Methods
 
-- `PartyIdentifierBuilder setIdentifierType(PartyIdentifierTypeEnum arg0)`
-- `PartyIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
 - `PartyIdentifierBuilder setIdentifierValue(String arg0)`
+- `PartyIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
 - `PartyIdentifierBuilder setMeta(MetaFields arg0)`
+- `PartyIdentifierBuilder setIdentifierType(PartyIdentifierTypeEnum arg0)`
 
 #### Getter Methods
 
@@ -45,7 +45,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PartyIdentifierBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PartyIdentifierBuilder toBuilder()`
 - `PartyIdentifierBuilder prune()`
+- `PartyIdentifierBuilder toBuilder()`
+- `boolean hasData()`
 

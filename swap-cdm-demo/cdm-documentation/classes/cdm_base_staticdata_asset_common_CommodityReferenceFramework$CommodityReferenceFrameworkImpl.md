@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `FieldWithMetaString getCurrency()`
-- `WeatherUnitEnum getWeatherUnit()`
 - `CapacityUnitEnum getCapacityUnit()`
+- `WeatherUnitEnum getWeatherUnit()`
 - `String getCommodityName()`
 
 #### Other Methods

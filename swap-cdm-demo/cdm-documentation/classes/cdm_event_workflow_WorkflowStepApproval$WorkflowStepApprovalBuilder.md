@@ -16,21 +16,21 @@
 
 #### Setter Methods
 
+- `WorkflowStepApprovalBuilder setTimestamp(EventTimestamp arg0)`
+- `WorkflowStepApprovalBuilder setMeta(MetaFields arg0)`
 - `WorkflowStepApprovalBuilder setApproved(Boolean arg0)`
 - `WorkflowStepApprovalBuilder setPartyValue(Party arg0)`
 - `WorkflowStepApprovalBuilder setRejectedReason(String arg0)`
-- `WorkflowStepApprovalBuilder setTimestamp(EventTimestamp arg0)`
 - `WorkflowStepApprovalBuilder setParty(ReferenceWithMetaParty arg0)`
-- `WorkflowStepApprovalBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
 - `EventTimestampBuilder getTimestamp()`
-- `EventTimestampBuilder getOrCreateTimestamp()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `ReferenceWithMetaPartyBuilder getParty()`
-- `ReferenceWithMetaPartyBuilder getOrCreateParty()`
 - `MetaFieldsBuilder getMeta()`
+- `ReferenceWithMetaPartyBuilder getParty()`
+- `EventTimestampBuilder getOrCreateTimestamp()`
+- `ReferenceWithMetaPartyBuilder getOrCreateParty()`
 
 #### Other Methods
 

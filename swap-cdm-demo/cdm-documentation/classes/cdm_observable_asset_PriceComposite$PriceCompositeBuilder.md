@@ -15,10 +15,10 @@
 
 #### Setter Methods
 
+- `PriceCompositeBuilder setArithmeticOperator(ArithmeticOperationEnum arg0)`
+- `PriceCompositeBuilder setOperand(BigDecimal arg0)`
 - `PriceCompositeBuilder setOperandType(PriceOperandEnum arg0)`
 - `PriceCompositeBuilder setBaseValue(BigDecimal arg0)`
-- `PriceCompositeBuilder setOperand(BigDecimal arg0)`
-- `PriceCompositeBuilder setArithmeticOperator(ArithmeticOperationEnum arg0)`
 
 #### Other Methods
 

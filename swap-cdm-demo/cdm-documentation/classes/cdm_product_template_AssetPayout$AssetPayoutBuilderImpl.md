@@ -34,31 +34,31 @@
 #### Setter Methods
 
 - `AssetPayoutBuilder setUnderlier(Asset arg0)`
-- `AssetPayoutBuilder setPrincipalPayment(PrincipalPayments arg0)`
 - `AssetPayoutBuilder setPayerReceiver(PayerReceiver arg0)`
-- `AssetPayoutBuilder setMinimumFee(Money arg0)`
-- `AssetPayoutBuilder setAssetLeg(List arg0)`
-- `AssetPayoutBuilder setDividendTerms(DividendTerms arg0)`
-- `AssetPayoutBuilder setTradeType(AssetPayoutTradeTypeEnum arg0)`
-- `AssetPayoutBuilder setSettlementTerms(SettlementTerms arg0)`
 - `AssetPayoutBuilder setPriceQuantity(ResolvablePriceQuantity arg0)`
+- `AssetPayoutBuilder setSettlementTerms(SettlementTerms arg0)`
+- `AssetPayoutBuilder setPrincipalPayment(PrincipalPayments arg0)`
+- `AssetPayoutBuilder setAssetLeg(List arg0)`
+- `AssetPayoutBuilder setTradeType(AssetPayoutTradeTypeEnum arg0)`
+- `AssetPayoutBuilder setDividendTerms(DividendTerms arg0)`
+- `AssetPayoutBuilder setMinimumFee(Money arg0)`
 
 #### Getter Methods
 
-- `DividendTermsBuilder getDividendTerms()`
-- `List getAssetLeg()`
-- `AssetPayoutTradeTypeEnum getTradeType()`
 - `AssetBuilder getOrCreateUnderlier()`
 - `AssetBuilder getUnderlier()`
-- `MoneyBuilder getMinimumFee()`
 - `AssetLegBuilder getOrCreateAssetLeg(int arg0)`
 - `DividendTermsBuilder getOrCreateDividendTerms()`
 - `MoneyBuilder getOrCreateMinimumFee()`
+- `List getAssetLeg()`
+- `DividendTermsBuilder getDividendTerms()`
+- `AssetPayoutTradeTypeEnum getTradeType()`
+- `MoneyBuilder getMinimumFee()`
 
 #### Adder Methods
 
-- `AssetPayoutBuilder addAssetLeg(AssetLeg arg0, int arg1)`
 - `AssetPayoutBuilder addAssetLeg(AssetLeg arg0)`
+- `AssetPayoutBuilder addAssetLeg(AssetLeg arg0, int arg1)`
 - `AssetPayoutBuilder addAssetLeg(List arg0)`
 
 #### Other Methods
@@ -67,7 +67,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AssetPayoutBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AssetPayoutBuilder toBuilder()`
 - `AssetPayoutBuilder prune()`
+- `AssetPayoutBuilder toBuilder()`
+- `boolean hasData()`
 

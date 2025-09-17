@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Boolean doEvaluate(PriceQuantity arg0)`
 - `Boolean assignOutput(Boolean arg0, PriceQuantity arg1)`
+- `Boolean doEvaluate(PriceQuantity arg0)`
 

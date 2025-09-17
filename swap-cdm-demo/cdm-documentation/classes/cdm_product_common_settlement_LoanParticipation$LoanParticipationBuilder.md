@@ -15,9 +15,9 @@
 
 #### Setter Methods
 
+- `LoanParticipationBuilder setApplicable(Boolean arg0)`
 - `LoanParticipationBuilder setPartialCashSettlement(Boolean arg0)`
 - `LoanParticipationBuilder setQualifyingParticipationSeller(String arg0)`
-- `LoanParticipationBuilder setApplicable(Boolean arg0)`
 
 #### Other Methods
 

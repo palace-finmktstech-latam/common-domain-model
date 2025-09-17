@@ -33,28 +33,28 @@
 
 #### Setter Methods
 
-- `RelativeDateOffsetBuilder setDateRelativeToValue(Date arg0)`
-- `RelativeDateOffsetBuilder setAdjustedDate(Date arg0)`
-- `RelativeDateOffsetBuilder setBusinessDayConvention(BusinessDayConventionEnum arg0)`
-- `RelativeDateOffsetBuilder setBusinessCenters(BusinessCenters arg0)`
+- `RelativeDateOffsetBuilder setMeta(MetaFields arg0)`
 - `RelativeDateOffsetBuilder setDateRelativeTo(ReferenceWithMetaDate arg0)`
+- `RelativeDateOffsetBuilder setDateRelativeToValue(Date arg0)`
+- `RelativeDateOffsetBuilder setBusinessCenters(BusinessCenters arg0)`
+- `RelativeDateOffsetBuilder setBusinessDayConvention(BusinessDayConventionEnum arg0)`
+- `RelativeDateOffsetBuilder setAdjustedDate(Date arg0)`
 - `RelativeDateOffsetBuilder setDayType(DayTypeEnum arg0)`
 - `RelativeDateOffsetBuilder setPeriod(PeriodEnum arg0)`
 - `RelativeDateOffsetBuilder setPeriodMultiplier(Integer arg0)`
-- `RelativeDateOffsetBuilder setBusinessCentersReferenceValue(BusinessCenters arg0)`
 - `RelativeDateOffsetBuilder setBusinessCentersReference(ReferenceWithMetaBusinessCenters arg0)`
-- `RelativeDateOffsetBuilder setMeta(MetaFields arg0)`
+- `RelativeDateOffsetBuilder setBusinessCentersReferenceValue(BusinessCenters arg0)`
 
 #### Getter Methods
 
-- `BusinessDayConventionEnum getBusinessDayConvention()`
+- `Date getAdjustedDate()`
 - `ReferenceWithMetaDateBuilder getOrCreateDateRelativeTo()`
 - `BusinessCentersBuilder getOrCreateBusinessCenters()`
 - `BusinessCentersBuilder getBusinessCenters()`
 - `ReferenceWithMetaDateBuilder getDateRelativeTo()`
-- `Date getAdjustedDate()`
-- `ReferenceWithMetaBusinessCentersBuilder getBusinessCentersReference()`
+- `BusinessDayConventionEnum getBusinessDayConvention()`
 - `ReferenceWithMetaBusinessCentersBuilder getOrCreateBusinessCentersReference()`
+- `ReferenceWithMetaBusinessCentersBuilder getBusinessCentersReference()`
 
 #### Other Methods
 
@@ -62,7 +62,7 @@
 - `String toString()`
 - `int hashCode()`
 - `RelativeDateOffsetBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `RelativeDateOffsetBuilder toBuilder()`
 - `RelativeDateOffsetBuilder prune()`
+- `RelativeDateOffsetBuilder toBuilder()`
+- `boolean hasData()`
 

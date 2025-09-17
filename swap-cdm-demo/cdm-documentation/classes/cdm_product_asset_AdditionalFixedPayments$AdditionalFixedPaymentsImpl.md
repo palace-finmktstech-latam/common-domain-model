@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `Boolean getWritedownReimbursement()`
-- `Boolean getInterestShortfallReimbursement()`
 - `Boolean getPrincipalShortfallReimbursement()`
+- `Boolean getInterestShortfallReimbursement()`
+- `Boolean getWritedownReimbursement()`
 
 #### Other Methods
 

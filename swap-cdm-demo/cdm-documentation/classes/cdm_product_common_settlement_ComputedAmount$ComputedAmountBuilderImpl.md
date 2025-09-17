@@ -34,8 +34,8 @@
 #### Getter Methods
 
 - `FieldWithMetaStringBuilder getCurrency()`
-- `FieldWithMetaStringBuilder getOrCreateCurrency()`
 - `BigDecimal getAmount()`
+- `FieldWithMetaStringBuilder getOrCreateCurrency()`
 - `String getCallFunction()`
 
 #### Other Methods
@@ -44,7 +44,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ComputedAmountBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ComputedAmountBuilder toBuilder()`
 - `ComputedAmountBuilder prune()`
+- `ComputedAmountBuilder toBuilder()`
+- `boolean hasData()`
 

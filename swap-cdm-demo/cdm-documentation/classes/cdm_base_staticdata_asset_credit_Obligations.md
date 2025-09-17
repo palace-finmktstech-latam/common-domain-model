@@ -19,24 +19,24 @@
 #### Getter Methods
 
 - `Class getType()`
+- `Boolean getGeneralFundObligationLiability()`
+- `Boolean getRevenueObligationLiability()`
+- `Boolean getFullFaithAndCreditObLiability()`
+- `Boolean getNotDomesticLaw()`
+- `Boolean getNotContingent()`
+- `SpecifiedCurrency getSpecifiedCurrency()`
+- `Boolean getNotDomesticIssuance()`
+- `NotDomesticCurrency getNotDomesticCurrency()`
+- `Boolean getNotSovereignLender()`
+- `Boolean getNotSubordinated()`
 - `Boolean getListed()`
-- `ObligationCategoryEnum getCategory()`
 - `String getExcluded()`
-- `FieldWithMetaString getDesignatedPriority()`
+- `ObligationCategoryEnum getCategory()`
 - `Boolean getCashSettlementOnly()`
 - `Boolean getDeliveryOfCommitments()`
 - `Boolean getContinuity()`
+- `FieldWithMetaString getDesignatedPriority()`
 - `String getOthReferenceEntityObligations()`
-- `Boolean getFullFaithAndCreditObLiability()`
-- `Boolean getGeneralFundObligationLiability()`
-- `Boolean getRevenueObligationLiability()`
-- `Boolean getNotDomesticIssuance()`
-- `SpecifiedCurrency getSpecifiedCurrency()`
-- `Boolean getNotDomesticLaw()`
-- `Boolean getNotContingent()`
-- `NotDomesticCurrency getNotDomesticCurrency()`
-- `Boolean getNotSubordinated()`
-- `Boolean getNotSovereignLender()`
 
 #### Other Methods
 

@@ -33,8 +33,8 @@
 #### Adder Methods
 
 - `DateListBuilder addDate(Date arg0)`
-- `DateListBuilder addDate(Date arg0, int arg1)`
 - `DateListBuilder addDate(List arg0)`
+- `DateListBuilder addDate(Date arg0, int arg1)`
 
 #### Other Methods
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DateListBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DateListBuilder toBuilder()`
 - `DateListBuilder prune()`
+- `DateListBuilder toBuilder()`
+- `boolean hasData()`
 

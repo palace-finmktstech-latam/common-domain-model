@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `InformationSource getSecondarySource()`
 - `InformationSource getPrimarySource()`
+- `InformationSource getSecondarySource()`
 
 #### Other Methods
 

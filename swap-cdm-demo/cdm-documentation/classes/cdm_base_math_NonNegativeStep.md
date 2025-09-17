@@ -20,9 +20,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `MetaFields getMeta()`
 - `Date getStepDate()`
 - `BigDecimal getStepValue()`
+- `MetaFields getMeta()`
 
 #### Other Methods
 

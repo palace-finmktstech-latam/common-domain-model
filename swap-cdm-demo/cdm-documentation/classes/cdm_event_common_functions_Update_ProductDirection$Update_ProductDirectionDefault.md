@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `NonTransferableProductBuilder doEvaluate(NonTransferableProduct arg0, CounterpartyRoleEnum arg1, CounterpartyRoleEnum arg2)`
 - `NonTransferableProductBuilder assignOutput(NonTransferableProductBuilder arg0, NonTransferableProduct arg1, CounterpartyRoleEnum arg2, CounterpartyRoleEnum arg3)`
+- `NonTransferableProductBuilder doEvaluate(NonTransferableProduct arg0, CounterpartyRoleEnum arg1, CounterpartyRoleEnum arg2)`
 

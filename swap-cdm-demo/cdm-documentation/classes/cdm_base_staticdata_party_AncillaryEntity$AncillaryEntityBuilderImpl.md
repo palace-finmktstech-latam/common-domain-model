@@ -30,9 +30,9 @@
 
 #### Getter Methods
 
-- `LegalEntityBuilder getLegalEntity()`
-- `LegalEntityBuilder getOrCreateLegalEntity()`
 - `AncillaryRoleEnum getAncillaryParty()`
+- `LegalEntityBuilder getOrCreateLegalEntity()`
+- `LegalEntityBuilder getLegalEntity()`
 
 #### Other Methods
 
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AncillaryEntityBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AncillaryEntityBuilder toBuilder()`
 - `AncillaryEntityBuilder prune()`
+- `AncillaryEntityBuilder toBuilder()`
+- `boolean hasData()`
 

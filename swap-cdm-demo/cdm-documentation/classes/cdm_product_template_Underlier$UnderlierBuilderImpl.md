@@ -25,14 +25,14 @@
 
 #### Setter Methods
 
-- `UnderlierBuilder setObservable(ReferenceWithMetaObservable arg0)`
 - `UnderlierBuilder setObservableValue(Observable arg0)`
+- `UnderlierBuilder setObservable(ReferenceWithMetaObservable arg0)`
 - `UnderlierBuilder setProduct(Product arg0)`
 
 #### Getter Methods
 
-- `ReferenceWithMetaObservableBuilder getOrCreateObservable()`
 - `ReferenceWithMetaObservableBuilder getObservable()`
+- `ReferenceWithMetaObservableBuilder getOrCreateObservable()`
 - `ProductBuilder getOrCreateProduct()`
 - `ProductBuilder getProduct()`
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `UnderlierBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `UnderlierBuilder toBuilder()`
 - `UnderlierBuilder prune()`
+- `UnderlierBuilder toBuilder()`
+- `boolean hasData()`
 

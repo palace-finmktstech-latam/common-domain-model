@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ExerciseEventBuilder setAdjustedRelevantSwapEffectiveDate(Date arg0)`
-- `ExerciseEventBuilder setAdjustedCashSettlementValuationDate(Date arg0)`
-- `ExerciseEventBuilder setAdjustedExerciseFeePaymentDate(Date arg0)`
 - `ExerciseEventBuilder setAdjustedCashSettlementPaymentDate(Date arg0)`
+- `ExerciseEventBuilder setAdjustedExerciseFeePaymentDate(Date arg0)`
+- `ExerciseEventBuilder setAdjustedCashSettlementValuationDate(Date arg0)`
 - `ExerciseEventBuilder setAdjustedExerciseDate(Date arg0)`
 - `ExerciseEventBuilder setMeta(MetaFields arg0)`
 

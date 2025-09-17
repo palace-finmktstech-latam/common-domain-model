@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `TaxonomySourceEnum getTaxonomySource()`
 - `CollateralTaxonomyValue getTaxonomyValue()`
+- `TaxonomySourceEnum getTaxonomySource()`
 
 #### Other Methods
 

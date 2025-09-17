@@ -15,13 +15,13 @@
 
 #### Setter Methods
 
-- `CollateralPositionBuilder setProduct(Product arg0)`
 - `CollateralPositionBuilder setPriceQuantity(List arg0)`
-- `CollateralPositionBuilder setTradeReference(ReferenceWithMetaTradeState arg0)`
 - `CollateralPositionBuilder setCashBalance(Money arg0)`
+- `CollateralPositionBuilder setTradeReference(ReferenceWithMetaTradeState arg0)`
 - `CollateralPositionBuilder setTreatment(CollateralTreatment arg0)`
 - `CollateralPositionBuilder setTradeReferenceValue(TradeState arg0)`
 - `CollateralPositionBuilder setCollateralPositionStatus(CollateralStatusEnum arg0)`
+- `CollateralPositionBuilder setProduct(Product arg0)`
 
 #### Getter Methods
 
@@ -30,9 +30,9 @@
 
 #### Adder Methods
 
+- `CollateralPositionBuilder addPriceQuantity(List arg0)`
 - `CollateralPositionBuilder addPriceQuantity(PriceQuantity arg0, int arg1)`
 - `CollateralPositionBuilder addPriceQuantity(PriceQuantity arg0)`
-- `CollateralPositionBuilder addPriceQuantity(List arg0)`
 
 #### Other Methods
 

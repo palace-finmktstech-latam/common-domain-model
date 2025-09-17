@@ -17,21 +17,21 @@
 
 - `CreditNotationBuilder setScale(FieldWithMetaString arg0)`
 - `CreditNotationBuilder setAgency(CreditRatingAgencyEnum arg0)`
-- `CreditNotationBuilder setOutlook(CreditRatingOutlookEnum arg0)`
 - `CreditNotationBuilder setDebt(CreditRatingDebt arg0)`
-- `CreditNotationBuilder setNotation(FieldWithMetaString arg0)`
+- `CreditNotationBuilder setOutlook(CreditRatingOutlookEnum arg0)`
 - `CreditNotationBuilder setCreditWatch(CreditRatingCreditWatchEnum arg0)`
+- `CreditNotationBuilder setNotation(FieldWithMetaString arg0)`
 - `CreditNotationBuilder setScaleValue(String arg0)`
 - `CreditNotationBuilder setNotationValue(String arg0)`
 
 #### Getter Methods
 
-- `CreditRatingDebtBuilder getDebt()`
-- `FieldWithMetaStringBuilder getScale()`
 - `FieldWithMetaStringBuilder getNotation()`
+- `FieldWithMetaStringBuilder getScale()`
+- `CreditRatingDebtBuilder getDebt()`
+- `CreditRatingDebtBuilder getOrCreateDebt()`
 - `FieldWithMetaStringBuilder getOrCreateNotation()`
 - `FieldWithMetaStringBuilder getOrCreateScale()`
-- `CreditRatingDebtBuilder getOrCreateDebt()`
 
 #### Other Methods
 

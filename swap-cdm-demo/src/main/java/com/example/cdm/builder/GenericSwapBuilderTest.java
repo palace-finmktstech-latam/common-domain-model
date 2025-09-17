@@ -32,7 +32,8 @@ public class GenericSwapBuilderTest {
             // Test 1: Interest Rate Swap
             System.out.println("=== Test 1: Interest Rate Swap ===");
             //File irsFile = new File("json-inputs/sample-irs-input.json");
-            File irsFile = new File("json-inputs/Scotia-BancoABC-sample-irs-input.json");
+            //File irsFile = new File("json-inputs/Scotia-BancoABC-sample-irs-input.json");
+            File irsFile = new File("json-inputs/Bci-BancoABC-sample-irs-input.json");
             SwapParameters irsParams = mapper.readValue(irsFile, SwapParameters.class);
 
             System.out.println("✓ Input: " + irsParams.getHeader().getTradeId());

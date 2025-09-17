@@ -15,8 +15,8 @@
 
 #### Getter Methods
 
-- `Optional getNotionalAmountHrefMapping(Path arg0)`
 - `Optional getNotionalAmountIdSynonymPath(Mapping arg0)`
+- `Optional getNotionalAmountHrefMapping(Path arg0)`
 
 #### Other Methods
 

@@ -20,9 +20,9 @@
 
 - `Class getType()`
 - `Instrument getInstrument()`
-- `Cash getCash()`
 - `Commodity getCommodity()`
 - `DigitalAsset getDigitalAsset()`
+- `Cash getCash()`
 
 #### Other Methods
 

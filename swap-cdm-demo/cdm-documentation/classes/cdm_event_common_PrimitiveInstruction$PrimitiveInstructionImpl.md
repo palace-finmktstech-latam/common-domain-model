@@ -22,19 +22,19 @@
 
 #### Getter Methods
 
+- `ObservationInstruction getObservation()`
+- `ExecutionInstruction getExecution()`
+- `TransferInstruction getTransfer()`
 - `SplitInstruction getSplit()`
 - `ResetInstruction getReset()`
-- `IndexTransitionInstruction getIndexTransition()`
-- `StockSplitInstruction getStockSplit()`
-- `TermsChangeInstruction getTermsChange()`
-- `QuantityChangeInstruction getQuantityChange()`
 - `ContractFormationInstruction getContractFormation()`
 - `ExerciseInstruction getExercise()`
 - `PartyChangeInstruction getPartyChange()`
-- `ObservationInstruction getObservation()`
-- `TransferInstruction getTransfer()`
+- `TermsChangeInstruction getTermsChange()`
+- `IndexTransitionInstruction getIndexTransition()`
+- `QuantityChangeInstruction getQuantityChange()`
+- `StockSplitInstruction getStockSplit()`
 - `ValuationInstruction getValuation()`
-- `ExecutionInstruction getExecution()`
 
 #### Other Methods
 

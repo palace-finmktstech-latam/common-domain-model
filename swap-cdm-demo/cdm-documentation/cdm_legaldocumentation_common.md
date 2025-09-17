@@ -312,9 +312,9 @@
 **Implements:** `AddressForNotices` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `getOrCreatePrimaryNotices()` → `ContactElectionBuilder` [Getter]
 - `getAdditionalNotices()` → `List` [Getter]
 - `getPrimaryNotices()` → `ContactElectionBuilder` [Getter]
-- `getOrCreatePrimaryNotices()` → `ContactElectionBuilder` [Getter]
 - `setAdditionalNotices(List arg0)` → `AddressForNoticesBuilder` [Setter]
 - `setPrimaryNotices(ContactElection arg0)` → `AddressForNoticesBuilder` [Setter]
 - `getOrCreateAdditionalNotices(int arg0)` → `PartyContactInformationBuilder` [Getter]
@@ -325,29 +325,29 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `AgreementName` [Builder]
-- `getContractualMatrix()` → `List` [Getter]
 - `getMasterConfirmationType()` → `FieldWithMetaMasterConfirmationTypeEnum` [Getter]
-- `getCreditSupportAgreementMarginType()` → `CollateralMarginTypeEnum` [Getter]
-- `getContractualTermsSupplement()` → `List` [Getter]
-- `getCreditSupportAgreementType()` → `FieldWithMetaCreditSupportAgreementTypeEnum` [Getter]
-- `getMasterConfirmationAnnexType()` → `FieldWithMetaMasterConfirmationAnnexTypeEnum` [Getter]
-- `getAgreementType()` → `LegalAgreementTypeEnum` [Getter]
+- `getContractualMatrix()` → `List` [Getter]
+- `getContractualDefinitionsType()` → `List` [Getter]
 - `getMasterAgreementType()` → `FieldWithMetaMasterAgreementTypeEnum` [Getter]
+- `getAgreementType()` → `LegalAgreementTypeEnum` [Getter]
+- `getOtherAgreement()` → `String` [Getter]
+- `getCreditSupportAgreementMarginType()` → `CollateralMarginTypeEnum` [Getter]
+- `getMasterConfirmationAnnexType()` → `FieldWithMetaMasterConfirmationAnnexTypeEnum` [Getter]
 
 ### AgreementNameBuilder
 **Implements:** `AgreementName` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getContractualMatrix()` → `List` [Getter]
 - `getMasterConfirmationType()` → `FieldWithMetaMasterConfirmationTypeEnumBuilder` [Getter]
-- `getOrCreateContractualMatrix(int arg0)` → `ContractualMatrixBuilder` [Getter]
-- `setCreditSupportAgreementMarginType(CollateralMarginTypeEnum arg0)` → `AgreementNameBuilder` [Setter]
-- `getOrCreateContractualDefinitionsType(int arg0)` → `FieldWithMetaContractualDefinitionsEnumBuilder` [Getter]
-- `setContractualTermsSupplement(List arg0)` → `AgreementNameBuilder` [Setter]
-- `setCreditSupportAgreementType(FieldWithMetaCreditSupportAgreementTypeEnum arg0)` → `AgreementNameBuilder` [Setter]
-- `setMasterConfirmationAnnexType(FieldWithMetaMasterConfirmationAnnexTypeEnum arg0)` → `AgreementNameBuilder` [Setter]
-- `getOrCreateContractualTermsSupplement(int arg0)` → `ContractualTermsSupplementBuilder` [Getter]
-- `setContractualDefinitionsType(List arg0)` → `AgreementNameBuilder` [Setter]
+- `getContractualMatrix()` → `List` [Getter]
+- `setOtherAgreement(String arg0)` → `AgreementNameBuilder` [Setter]
+- `getOrCreateMasterConfirmationAnnexType()` → `FieldWithMetaMasterConfirmationAnnexTypeEnumBuilder` [Getter]
+- `setCreditSupportAgreementTypeValue(CreditSupportAgreementTypeEnum arg0)` → `AgreementNameBuilder` [Setter]
+- `getOrCreateCreditSupportAgreementType()` → `FieldWithMetaCreditSupportAgreementTypeEnumBuilder` [Getter]
+- `getOrCreateMasterConfirmationType()` → `FieldWithMetaMasterConfirmationTypeEnumBuilder` [Getter]
+- `getOrCreateMasterAgreementType()` → `FieldWithMetaMasterAgreementTypeEnumBuilder` [Getter]
+- `setMasterConfirmationTypeValue(MasterConfirmationTypeEnum arg0)` → `AgreementNameBuilder` [Setter]
+- `setMasterAgreementTypeValue(MasterAgreementTypeEnum arg0)` → `AgreementNameBuilder` [Setter]
 
 ### AgreementTerms
 **Implements:** `RosettaModelObject` 
@@ -355,21 +355,21 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `AgreementTerms` [Builder]
+- `getCounterparty()` → `List` [Getter]
 - `getClauseLibrary()` → `Boolean` [Getter]
 - `getAgreement()` → `Agreement` [Getter]
-- `getCounterparty()` → `List` [Getter]
 
 ### AgreementTermsBuilder
 **Implements:** `AgreementTerms` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `getCounterparty()` → `List` [Getter]
 - `setCounterparty(List arg0)` → `AgreementTermsBuilder` [Setter]
 - `getOrCreateCounterparty(int arg0)` → `CounterpartyBuilder` [Getter]
+- `getOrCreateAgreement()` → `AgreementBuilder` [Getter]
 - `setAgreement(Agreement arg0)` → `AgreementTermsBuilder` [Setter]
 - `setClauseLibrary(Boolean arg0)` → `AgreementTermsBuilder` [Setter]
-- `getOrCreateAgreement()` → `AgreementBuilder` [Getter]
 - `getAgreement()` → `AgreementBuilder` [Getter]
-- `getCounterparty()` → `List` [Getter]
 
 ### ClosedState
 **Implements:** `RosettaModelObject` 
@@ -379,17 +379,17 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `ClosedState` [Builder]
 - `getEffectiveDate()` → `Date` [Getter]
-- `getActivityDate()` → `Date` [Getter]
 - `getLastPaymentDate()` → `Date` [Getter]
+- `getActivityDate()` → `Date` [Getter]
 
 ### ClosedStateBuilder
 **Implements:** `ClosedState` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
 - `setState(ClosedStateEnum arg0)` → `ClosedStateBuilder` [Setter]
-- `setEffectiveDate(Date arg0)` → `ClosedStateBuilder` [Setter]
-- `setLastPaymentDate(Date arg0)` → `ClosedStateBuilder` [Setter]
 - `setActivityDate(Date arg0)` → `ClosedStateBuilder` [Setter]
+- `setLastPaymentDate(Date arg0)` → `ClosedStateBuilder` [Setter]
+- `setEffectiveDate(Date arg0)` → `ClosedStateBuilder` [Setter]
 
 ### ContractualMatrix
 **Implements:** `RosettaModelObject` 
@@ -404,14 +404,14 @@
 **Implements:** `ContractualMatrix` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setMatrixTerm(FieldWithMetaMatrixTermEnum arg0)` → `ContractualMatrixBuilder` [Setter]
-- `setMatrixType(FieldWithMetaMatrixTypeEnum arg0)` → `ContractualMatrixBuilder` [Setter]
-- `getOrCreateMatrixTerm()` → `FieldWithMetaMatrixTermEnumBuilder` [Getter]
-- `setMatrixTermValue(MatrixTermEnum arg0)` → `ContractualMatrixBuilder` [Setter]
 - `setMatrixTypeValue(MatrixTypeEnum arg0)` → `ContractualMatrixBuilder` [Setter]
 - `getMatrixTerm()` → `FieldWithMetaMatrixTermEnumBuilder` [Getter]
 - `getOrCreateMatrixType()` → `FieldWithMetaMatrixTypeEnumBuilder` [Getter]
+- `getOrCreateMatrixTerm()` → `FieldWithMetaMatrixTermEnumBuilder` [Getter]
+- `setMatrixTermValue(MatrixTermEnum arg0)` → `ContractualMatrixBuilder` [Setter]
 - `getMatrixType()` → `FieldWithMetaMatrixTypeEnumBuilder` [Getter]
+- `setMatrixTerm(FieldWithMetaMatrixTermEnum arg0)` → `ContractualMatrixBuilder` [Setter]
+- `setMatrixType(FieldWithMetaMatrixTypeEnum arg0)` → `ContractualMatrixBuilder` [Setter]
 
 ### ContractualTermsSupplement
 **Implements:** `RosettaModelObject` 
@@ -419,18 +419,18 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ContractualTermsSupplement` [Builder]
-- `getContractualTermsSupplementType()` → `FieldWithMetaContractualSupplementTypeEnum` [Getter]
 - `getPublicationDate()` → `Date` [Getter]
+- `getContractualTermsSupplementType()` → `FieldWithMetaContractualSupplementTypeEnum` [Getter]
 
 ### ContractualTermsSupplementBuilder
 **Implements:** `ContractualTermsSupplement` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setContractualTermsSupplementType(FieldWithMetaContractualSupplementTypeEnum arg0)` → `ContractualTermsSupplementBuilder` [Setter]
-- `getOrCreateContractualTermsSupplementType()` → `FieldWithMetaContractualSupplementTypeEnumBuilder` [Getter]
-- `getContractualTermsSupplementType()` → `FieldWithMetaContractualSupplementTypeEnumBuilder` [Getter]
-- `setContractualTermsSupplementTypeValue(ContractualSupplementTypeEnum arg0)` → `ContractualTermsSupplementBuilder` [Setter]
 - `setPublicationDate(Date arg0)` → `ContractualTermsSupplementBuilder` [Setter]
+- `getOrCreateContractualTermsSupplementType()` → `FieldWithMetaContractualSupplementTypeEnumBuilder` [Getter]
+- `setContractualTermsSupplementTypeValue(ContractualSupplementTypeEnum arg0)` → `ContractualTermsSupplementBuilder` [Setter]
+- `getContractualTermsSupplementType()` → `FieldWithMetaContractualSupplementTypeEnumBuilder` [Getter]
+- `setContractualTermsSupplementType(FieldWithMetaContractualSupplementTypeEnum arg0)` → `ContractualTermsSupplementBuilder` [Setter]
 
 ### LegalAgreement
 **Implements:** `LegalAgreementBase` `GlobalKey` 
@@ -438,10 +438,10 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `LegalAgreement` [Builder]
-- `getAgreementTerms()` → `AgreementTerms` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
 - `getRelatedAgreements()` → `List` [Getter]
 - `getUmbrellaAgreement()` → `UmbrellaAgreement` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
+- `getAgreementTerms()` → `AgreementTerms` [Getter]
 
 ### LegalAgreementBase
 **Implements:** `RosettaModelObject` 
@@ -451,41 +451,41 @@
 - `build()` → `LegalAgreementBase` [Builder]
 - `getAgreementDate()` → `Date` [Getter]
 - `getEffectiveDate()` → `Date` [Getter]
-- `getContractualParty()` → `List` [Getter]
-- `getAttachment()` → `List` [Getter]
-- `getOtherParty()` → `List` [Getter]
 - `getLegalAgreementIdentification()` → `LegalAgreementIdentification` [Getter]
+- `getAttachment()` → `List` [Getter]
+- `getContractualParty()` → `List` [Getter]
+- `getOtherParty()` → `List` [Getter]
 - `getIdentifier()` → `List` [Getter]
 
 ### LegalAgreementBaseBuilder
 **Implements:** `LegalAgreementBase` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setEffectiveDate(Date arg0)` → `LegalAgreementBaseBuilder` [Setter]
-- `setAttachment(List arg0)` → `LegalAgreementBaseBuilder` [Setter]
-- `setOtherParty(List arg0)` → `LegalAgreementBaseBuilder` [Setter]
-- `getOrCreateOtherParty(int arg0)` → `PartyRoleBuilder` [Getter]
-- `getOrCreateAttachment(int arg0)` → `ResourceBuilder` [Getter]
-- `getOrCreateIdentifier(int arg0)` → `IdentifierBuilder` [Getter]
 - `setIdentifier(List arg0)` → `LegalAgreementBaseBuilder` [Setter]
-- `setContractualPartyValue(List arg0)` → `LegalAgreementBaseBuilder` [Setter]
-- `getContractualParty()` → `List` [Getter]
+- `getOrCreateIdentifier(int arg0)` → `IdentifierBuilder` [Getter]
+- `setContractualParty(List arg0)` → `LegalAgreementBaseBuilder` [Setter]
+- `setAgreementDate(Date arg0)` → `LegalAgreementBaseBuilder` [Setter]
+- `getOrCreateLegalAgreementIdentification()` → `LegalAgreementIdentificationBuilder` [Getter]
+- `getLegalAgreementIdentification()` → `LegalAgreementIdentificationBuilder` [Getter]
+- `getOrCreateContractualParty(int arg0)` → `ReferenceWithMetaPartyBuilder` [Getter]
+- `setLegalAgreementIdentification(LegalAgreementIdentification arg0)` → `LegalAgreementBaseBuilder` [Setter]
 - `getAttachment()` → `List` [Getter]
+- `setOtherParty(List arg0)` → `LegalAgreementBaseBuilder` [Setter]
 
 ### LegalAgreementBuilder
 **Implements:** `LegalAgreement` `LegalAgreementBase$LegalAgreementBaseBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
-- `setEffectiveDate(Date arg0)` → `LegalAgreementBuilder` [Setter]
-- `setAttachment(List arg0)` → `LegalAgreementBuilder` [Setter]
-- `setOtherParty(List arg0)` → `LegalAgreementBuilder` [Setter]
-- `setAgreementTerms(AgreementTerms arg0)` → `LegalAgreementBuilder` [Setter]
-- `setRelatedAgreements(List arg0)` → `LegalAgreementBuilder` [Setter]
-- `setUmbrellaAgreement(UmbrellaAgreement arg0)` → `LegalAgreementBuilder` [Setter]
-- `getAgreementTerms()` → `AgreementTermsBuilder` [Getter]
 - `setIdentifier(List arg0)` → `LegalAgreementBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setContractualPartyValue(List arg0)` → `LegalAgreementBuilder` [Setter]
+- `setContractualParty(List arg0)` → `LegalAgreementBuilder` [Setter]
+- `setAgreementDate(Date arg0)` → `LegalAgreementBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `LegalAgreementBuilder` [Setter]
+- `getOrCreateUmbrellaAgreement()` → `UmbrellaAgreementBuilder` [Getter]
+- `getOrCreateRelatedAgreements(int arg0)` → `LegalAgreementBuilder` [Getter]
+- `setLegalAgreementIdentification(LegalAgreementIdentification arg0)` → `LegalAgreementBuilder` [Setter]
+- `getRelatedAgreements()` → `List` [Getter]
 
 ### LegalAgreementIdentification
 **Implements:** `RosettaModelObject` 
@@ -493,21 +493,21 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `LegalAgreementIdentification` [Builder]
-- `getPublisher()` → `LegalAgreementPublisherEnum` [Getter]
 - `getAgreementName()` → `AgreementName` [Getter]
-- `getVintage()` → `Integer` [Getter]
 - `getGoverningLaw()` → `GoverningLawEnum` [Getter]
+- `getVintage()` → `Integer` [Getter]
+- `getPublisher()` → `LegalAgreementPublisherEnum` [Getter]
 
 ### LegalAgreementIdentificationBuilder
 **Implements:** `LegalAgreementIdentification` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
 - `getAgreementName()` → `AgreementNameBuilder` [Getter]
-- `setGoverningLaw(GoverningLawEnum arg0)` → `LegalAgreementIdentificationBuilder` [Setter]
-- `setAgreementName(AgreementName arg0)` → `LegalAgreementIdentificationBuilder` [Setter]
-- `setPublisher(LegalAgreementPublisherEnum arg0)` → `LegalAgreementIdentificationBuilder` [Setter]
 - `getOrCreateAgreementName()` → `AgreementNameBuilder` [Getter]
+- `setGoverningLaw(GoverningLawEnum arg0)` → `LegalAgreementIdentificationBuilder` [Setter]
 - `setVintage(Integer arg0)` → `LegalAgreementIdentificationBuilder` [Setter]
+- `setPublisher(LegalAgreementPublisherEnum arg0)` → `LegalAgreementIdentificationBuilder` [Setter]
+- `setAgreementName(AgreementName arg0)` → `LegalAgreementIdentificationBuilder` [Setter]
 
 ### OtherAgreement
 **Implements:** `RosettaModelObject` 
@@ -527,13 +527,13 @@
 - `setVersion(FieldWithMetaString arg0)` → `OtherAgreementBuilder` [Setter]
 - `setDate(Date arg0)` → `OtherAgreementBuilder` [Setter]
 - `getVersion()` → `FieldWithMetaStringBuilder` [Getter]
-- `getOrCreateIdentifier()` → `FieldWithMetaStringBuilder` [Getter]
-- `setIdentifier(FieldWithMetaString arg0)` → `OtherAgreementBuilder` [Setter]
 - `setIdentifierValue(String arg0)` → `OtherAgreementBuilder` [Setter]
-- `setVersionValue(String arg0)` → `OtherAgreementBuilder` [Setter]
-- `setOtherAgreementTypeValue(String arg0)` → `OtherAgreementBuilder` [Setter]
+- `setIdentifier(FieldWithMetaString arg0)` → `OtherAgreementBuilder` [Setter]
+- `getOrCreateIdentifier()` → `FieldWithMetaStringBuilder` [Getter]
 - `getOrCreateVersion()` → `FieldWithMetaStringBuilder` [Getter]
 - `getOtherAgreementType()` → `FieldWithMetaStringBuilder` [Getter]
+- `setVersionValue(String arg0)` → `OtherAgreementBuilder` [Setter]
+- `setOtherAgreementType(FieldWithMetaString arg0)` → `OtherAgreementBuilder` [Setter]
 
 ### OtherAgreementTerms
 **Implements:** `RosettaModelObject` 
@@ -561,9 +561,9 @@
 - `getLanguage()` → `FieldWithMetaString` [Getter]
 - `build()` → `Resource` [Builder]
 - `getString()` → `String` [Getter]
+- `getComments()` → `String` [Getter]
+- `getUrl()` → `String` [Getter]
 - `getResourceId()` → `FieldWithMetaString` [Getter]
-- `getMimeType()` → `FieldWithMetaString` [Getter]
-- `getSizeInBytes()` → `BigDecimal` [Getter]
 - `getResourceType()` → `FieldWithMetaResourceTypeEnum` [Getter]
 
 ### ResourceBuilder
@@ -575,11 +575,11 @@
 - `setLength(ResourceLength arg0)` → `ResourceBuilder` [Setter]
 - `getLanguage()` → `FieldWithMetaStringBuilder` [Getter]
 - `setLanguage(FieldWithMetaString arg0)` → `ResourceBuilder` [Setter]
-- `setResourceIdValue(String arg0)` → `ResourceBuilder` [Setter]
-- `setLanguageValue(String arg0)` → `ResourceBuilder` [Setter]
-- `getOrCreateLanguage()` → `FieldWithMetaStringBuilder` [Getter]
-- `getOrCreateResourceType()` → `FieldWithMetaResourceTypeEnumBuilder` [Getter]
-- `setResourceType(FieldWithMetaResourceTypeEnum arg0)` → `ResourceBuilder` [Setter]
+- `setComments(String arg0)` → `ResourceBuilder` [Setter]
+- `setUrl(String arg0)` → `ResourceBuilder` [Setter]
+- `getResourceId()` → `FieldWithMetaStringBuilder` [Getter]
+- `getResourceType()` → `FieldWithMetaResourceTypeEnumBuilder` [Getter]
+- `getMimeType()` → `FieldWithMetaStringBuilder` [Getter]
 
 ### ResourceLength
 **Implements:** `RosettaModelObject` 
@@ -604,8 +604,8 @@
 - `getType()` → `Class` [Getter]
 - `getLanguage()` → `String` [Getter]
 - `build()` → `UmbrellaAgreement` [Builder]
-- `getIsApplicable()` → `Boolean` [Getter]
 - `getParties()` → `List` [Getter]
+- `getIsApplicable()` → `Boolean` [Getter]
 
 ### UmbrellaAgreementBuilder
 **Implements:** `UmbrellaAgreement` `RosettaModelObjectBuilder` 
@@ -613,9 +613,9 @@
 **Key Methods:**
 - `setLanguage(String arg0)` → `UmbrellaAgreementBuilder` [Setter]
 - `getOrCreateParties(int arg0)` → `UmbrellaAgreementEntityBuilder` [Getter]
-- `setIsApplicable(Boolean arg0)` → `UmbrellaAgreementBuilder` [Setter]
 - `getParties()` → `List` [Getter]
 - `setParties(List arg0)` → `UmbrellaAgreementBuilder` [Setter]
+- `setIsApplicable(Boolean arg0)` → `UmbrellaAgreementBuilder` [Setter]
 
 ### UmbrellaAgreementEntity
 **Implements:** `LegalEntity` 
@@ -630,11 +630,11 @@
 
 **Key Methods:**
 - `setName(FieldWithMetaString arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
+- `setMeta(MetaFields arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
+- `setNameValue(String arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
 - `setEntityId(List arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
 - `setEntityIdValue(List arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
-- `setNameValue(String arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
 - `setTerms(String arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
-- `setMeta(MetaFields arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -647,9 +647,9 @@
 
 **Key Methods:**
 - `build()` → `AddressForNotices` [Builder]
+- `getOrCreatePrimaryNotices()` → `ContactElectionBuilder` [Getter]
 - `getAdditionalNotices()` → `List` [Getter]
 - `getPrimaryNotices()` → `ContactElectionBuilder` [Getter]
-- `getOrCreatePrimaryNotices()` → `ContactElectionBuilder` [Getter]
 - `setAdditionalNotices(List arg0)` → `AddressForNoticesBuilder` [Setter]
 - `setPrimaryNotices(ContactElection arg0)` → `AddressForNoticesBuilder` [Setter]
 - `getOrCreateAdditionalNotices(int arg0)` → `PartyContactInformationBuilder` [Getter]
@@ -680,30 +680,30 @@
 
 **Key Methods:**
 - `build()` → `AgreementName` [Builder]
-- `getContractualMatrix()` → `List` [Getter]
 - `getMasterConfirmationType()` → `FieldWithMetaMasterConfirmationTypeEnumBuilder` [Getter]
-- `getOrCreateContractualMatrix(int arg0)` → `ContractualMatrixBuilder` [Getter]
-- `setCreditSupportAgreementMarginType(CollateralMarginTypeEnum arg0)` → `AgreementNameBuilder` [Setter]
-- `getOrCreateContractualDefinitionsType(int arg0)` → `FieldWithMetaContractualDefinitionsEnumBuilder` [Getter]
-- `setContractualTermsSupplement(List arg0)` → `AgreementNameBuilder` [Setter]
-- `setCreditSupportAgreementType(FieldWithMetaCreditSupportAgreementTypeEnum arg0)` → `AgreementNameBuilder` [Setter]
-- `setMasterConfirmationAnnexType(FieldWithMetaMasterConfirmationAnnexTypeEnum arg0)` → `AgreementNameBuilder` [Setter]
-- `getOrCreateContractualTermsSupplement(int arg0)` → `ContractualTermsSupplementBuilder` [Getter]
+- `getContractualMatrix()` → `List` [Getter]
+- `setOtherAgreement(String arg0)` → `AgreementNameBuilder` [Setter]
+- `getOrCreateMasterConfirmationAnnexType()` → `FieldWithMetaMasterConfirmationAnnexTypeEnumBuilder` [Getter]
+- `setCreditSupportAgreementTypeValue(CreditSupportAgreementTypeEnum arg0)` → `AgreementNameBuilder` [Setter]
+- `getOrCreateCreditSupportAgreementType()` → `FieldWithMetaCreditSupportAgreementTypeEnumBuilder` [Getter]
+- `getOrCreateMasterConfirmationType()` → `FieldWithMetaMasterConfirmationTypeEnumBuilder` [Getter]
+- `getOrCreateMasterAgreementType()` → `FieldWithMetaMasterAgreementTypeEnumBuilder` [Getter]
+- `setMasterConfirmationTypeValue(MasterConfirmationTypeEnum arg0)` → `AgreementNameBuilder` [Setter]
 
 ### AgreementNameImpl
 **Implements:** `AgreementName` 
 
 **Key Methods:**
 - `build()` → `AgreementName` [Builder]
-- `getContractualMatrix()` → `List` [Getter]
 - `getMasterConfirmationType()` → `FieldWithMetaMasterConfirmationTypeEnum` [Getter]
+- `getContractualMatrix()` → `List` [Getter]
 - `setBuilderFields(AgreementNameBuilder arg0)` → `void` [Setter]
-- `getCreditSupportAgreementMarginType()` → `CollateralMarginTypeEnum` [Getter]
-- `getContractualTermsSupplement()` → `List` [Getter]
-- `getCreditSupportAgreementType()` → `FieldWithMetaCreditSupportAgreementTypeEnum` [Getter]
-- `getMasterConfirmationAnnexType()` → `FieldWithMetaMasterConfirmationAnnexTypeEnum` [Getter]
-- `getAgreementType()` → `LegalAgreementTypeEnum` [Getter]
+- `getContractualDefinitionsType()` → `List` [Getter]
 - `getMasterAgreementType()` → `FieldWithMetaMasterAgreementTypeEnum` [Getter]
+- `getAgreementType()` → `LegalAgreementTypeEnum` [Getter]
+- `getOtherAgreement()` → `String` [Getter]
+- `getCreditSupportAgreementMarginType()` → `CollateralMarginTypeEnum` [Getter]
+- `getMasterConfirmationAnnexType()` → `FieldWithMetaMasterConfirmationAnnexTypeEnum` [Getter]
 
 ### AgreementTermsBuilderImpl
 **Implements:** `AgreementTerms$AgreementTermsBuilder` 
@@ -715,24 +715,24 @@
 
 **Key Methods:**
 - `build()` → `AgreementTerms` [Builder]
+- `getCounterparty()` → `List` [Getter]
 - `setCounterparty(List arg0)` → `AgreementTermsBuilder` [Setter]
 - `getOrCreateCounterparty(int arg0)` → `CounterpartyBuilder` [Getter]
-- `setAgreement(Agreement arg0)` → `AgreementTermsBuilder` [Setter]
-- `getClauseLibrary()` → `Boolean` [Getter]
-- `setClauseLibrary(Boolean arg0)` → `AgreementTermsBuilder` [Setter]
 - `getOrCreateAgreement()` → `AgreementBuilder` [Getter]
+- `setAgreement(Agreement arg0)` → `AgreementTermsBuilder` [Setter]
+- `setClauseLibrary(Boolean arg0)` → `AgreementTermsBuilder` [Setter]
+- `getClauseLibrary()` → `Boolean` [Getter]
 - `getAgreement()` → `AgreementBuilder` [Getter]
-- `getCounterparty()` → `List` [Getter]
 
 ### AgreementTermsImpl
 **Implements:** `AgreementTerms` 
 
 **Key Methods:**
 - `build()` → `AgreementTerms` [Builder]
-- `getClauseLibrary()` → `Boolean` [Getter]
-- `getAgreement()` → `Agreement` [Getter]
 - `setBuilderFields(AgreementTermsBuilder arg0)` → `void` [Setter]
 - `getCounterparty()` → `List` [Getter]
+- `getClauseLibrary()` → `Boolean` [Getter]
+- `getAgreement()` → `Agreement` [Getter]
 
 ### ClosedStateBuilderImpl
 **Implements:** `ClosedState$ClosedStateBuilder` 
@@ -747,12 +747,12 @@
 - `getState()` → `ClosedStateEnum` [Getter]
 - `setState(ClosedStateEnum arg0)` → `ClosedStateBuilder` [Setter]
 - `build()` → `ClosedState` [Builder]
-- `setEffectiveDate(Date arg0)` → `ClosedStateBuilder` [Setter]
-- `setLastPaymentDate(Date arg0)` → `ClosedStateBuilder` [Setter]
 - `getEffectiveDate()` → `Date` [Getter]
-- `setActivityDate(Date arg0)` → `ClosedStateBuilder` [Setter]
-- `getActivityDate()` → `Date` [Getter]
 - `getLastPaymentDate()` → `Date` [Getter]
+- `getActivityDate()` → `Date` [Getter]
+- `setActivityDate(Date arg0)` → `ClosedStateBuilder` [Setter]
+- `setLastPaymentDate(Date arg0)` → `ClosedStateBuilder` [Setter]
+- `setEffectiveDate(Date arg0)` → `ClosedStateBuilder` [Setter]
 
 ### ClosedStateImpl
 **Implements:** `ClosedState` 
@@ -760,10 +760,10 @@
 **Key Methods:**
 - `getState()` → `ClosedStateEnum` [Getter]
 - `build()` → `ClosedState` [Builder]
-- `getEffectiveDate()` → `Date` [Getter]
 - `setBuilderFields(ClosedStateBuilder arg0)` → `void` [Setter]
-- `getActivityDate()` → `Date` [Getter]
+- `getEffectiveDate()` → `Date` [Getter]
 - `getLastPaymentDate()` → `Date` [Getter]
+- `getActivityDate()` → `Date` [Getter]
 
 ### ContractualMatrixBuilderImpl
 **Implements:** `ContractualMatrix$ContractualMatrixBuilder` 
@@ -774,14 +774,14 @@
 
 **Key Methods:**
 - `build()` → `ContractualMatrix` [Builder]
-- `setMatrixTerm(FieldWithMetaMatrixTermEnum arg0)` → `ContractualMatrixBuilder` [Setter]
-- `setMatrixType(FieldWithMetaMatrixTypeEnum arg0)` → `ContractualMatrixBuilder` [Setter]
-- `getOrCreateMatrixTerm()` → `FieldWithMetaMatrixTermEnumBuilder` [Getter]
-- `setMatrixTermValue(MatrixTermEnum arg0)` → `ContractualMatrixBuilder` [Setter]
 - `setMatrixTypeValue(MatrixTypeEnum arg0)` → `ContractualMatrixBuilder` [Setter]
 - `getMatrixTerm()` → `FieldWithMetaMatrixTermEnumBuilder` [Getter]
 - `getOrCreateMatrixType()` → `FieldWithMetaMatrixTypeEnumBuilder` [Getter]
+- `getOrCreateMatrixTerm()` → `FieldWithMetaMatrixTermEnumBuilder` [Getter]
+- `setMatrixTermValue(MatrixTermEnum arg0)` → `ContractualMatrixBuilder` [Setter]
 - `getMatrixType()` → `FieldWithMetaMatrixTypeEnumBuilder` [Getter]
+- `setMatrixTerm(FieldWithMetaMatrixTermEnum arg0)` → `ContractualMatrixBuilder` [Setter]
+- `setMatrixType(FieldWithMetaMatrixTypeEnum arg0)` → `ContractualMatrixBuilder` [Setter]
 
 ### ContractualMatrixImpl
 **Implements:** `ContractualMatrix` 
@@ -801,12 +801,12 @@
 
 **Key Methods:**
 - `build()` → `ContractualTermsSupplement` [Builder]
-- `setContractualTermsSupplementType(FieldWithMetaContractualSupplementTypeEnum arg0)` → `ContractualTermsSupplementBuilder` [Setter]
-- `getOrCreateContractualTermsSupplementType()` → `FieldWithMetaContractualSupplementTypeEnumBuilder` [Getter]
-- `getContractualTermsSupplementType()` → `FieldWithMetaContractualSupplementTypeEnumBuilder` [Getter]
-- `setContractualTermsSupplementTypeValue(ContractualSupplementTypeEnum arg0)` → `ContractualTermsSupplementBuilder` [Setter]
 - `setPublicationDate(Date arg0)` → `ContractualTermsSupplementBuilder` [Setter]
 - `getPublicationDate()` → `Date` [Getter]
+- `getOrCreateContractualTermsSupplementType()` → `FieldWithMetaContractualSupplementTypeEnumBuilder` [Getter]
+- `setContractualTermsSupplementTypeValue(ContractualSupplementTypeEnum arg0)` → `ContractualTermsSupplementBuilder` [Setter]
+- `getContractualTermsSupplementType()` → `FieldWithMetaContractualSupplementTypeEnumBuilder` [Getter]
+- `setContractualTermsSupplementType(FieldWithMetaContractualSupplementTypeEnum arg0)` → `ContractualTermsSupplementBuilder` [Setter]
 
 ### ContractualTermsSupplementImpl
 **Implements:** `ContractualTermsSupplement` 
@@ -814,8 +814,8 @@
 **Key Methods:**
 - `build()` → `ContractualTermsSupplement` [Builder]
 - `setBuilderFields(ContractualTermsSupplementBuilder arg0)` → `void` [Setter]
-- `getContractualTermsSupplementType()` → `FieldWithMetaContractualSupplementTypeEnum` [Getter]
 - `getPublicationDate()` → `Date` [Getter]
+- `getContractualTermsSupplementType()` → `FieldWithMetaContractualSupplementTypeEnum` [Getter]
 
 ### LegalAgreementBaseBuilderImpl
 **Implements:** `LegalAgreementBase$LegalAgreementBaseBuilder` 
@@ -831,15 +831,15 @@
 
 **Key Methods:**
 - `build()` → `LegalAgreementBase` [Builder]
-- `setEffectiveDate(Date arg0)` → `LegalAgreementBaseBuilder` [Setter]
-- `setAttachment(List arg0)` → `LegalAgreementBaseBuilder` [Setter]
-- `setOtherParty(List arg0)` → `LegalAgreementBaseBuilder` [Setter]
-- `getOrCreateOtherParty(int arg0)` → `PartyRoleBuilder` [Getter]
-- `getOrCreateAttachment(int arg0)` → `ResourceBuilder` [Getter]
 - `getAgreementDate()` → `Date` [Getter]
-- `getOrCreateIdentifier(int arg0)` → `IdentifierBuilder` [Getter]
 - `setIdentifier(List arg0)` → `LegalAgreementBaseBuilder` [Setter]
+- `getOrCreateIdentifier(int arg0)` → `IdentifierBuilder` [Getter]
 - `getEffectiveDate()` → `Date` [Getter]
+- `setContractualParty(List arg0)` → `LegalAgreementBaseBuilder` [Setter]
+- `setAgreementDate(Date arg0)` → `LegalAgreementBaseBuilder` [Setter]
+- `getOrCreateLegalAgreementIdentification()` → `LegalAgreementIdentificationBuilder` [Getter]
+- `getLegalAgreementIdentification()` → `LegalAgreementIdentificationBuilder` [Getter]
+- `getOrCreateContractualParty(int arg0)` → `ReferenceWithMetaPartyBuilder` [Getter]
 
 ### LegalAgreementBaseImpl
 **Implements:** `LegalAgreementBase` 
@@ -847,12 +847,12 @@
 **Key Methods:**
 - `build()` → `LegalAgreementBase` [Builder]
 - `getAgreementDate()` → `Date` [Getter]
-- `getEffectiveDate()` → `Date` [Getter]
 - `setBuilderFields(LegalAgreementBaseBuilder arg0)` → `void` [Setter]
-- `getContractualParty()` → `List` [Getter]
-- `getAttachment()` → `List` [Getter]
-- `getOtherParty()` → `List` [Getter]
+- `getEffectiveDate()` → `Date` [Getter]
 - `getLegalAgreementIdentification()` → `LegalAgreementIdentification` [Getter]
+- `getAttachment()` → `List` [Getter]
+- `getContractualParty()` → `List` [Getter]
+- `getOtherParty()` → `List` [Getter]
 - `getIdentifier()` → `List` [Getter]
 
 ### LegalAgreementBuilderImpl
@@ -867,15 +867,15 @@
 
 **Key Methods:**
 - `build()` → `LegalAgreement` [Builder]
-- `setEffectiveDate(Date arg0)` → `LegalAgreementBuilder` [Setter]
-- `setAttachment(List arg0)` → `LegalAgreementBuilder` [Setter]
-- `setOtherParty(List arg0)` → `LegalAgreementBuilder` [Setter]
-- `setAgreementTerms(AgreementTerms arg0)` → `LegalAgreementBuilder` [Setter]
-- `setRelatedAgreements(List arg0)` → `LegalAgreementBuilder` [Setter]
-- `setUmbrellaAgreement(UmbrellaAgreement arg0)` → `LegalAgreementBuilder` [Setter]
-- `getAgreementTerms()` → `AgreementTermsBuilder` [Getter]
 - `setIdentifier(List arg0)` → `LegalAgreementBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
+- `setContractualParty(List arg0)` → `LegalAgreementBuilder` [Setter]
+- `setAgreementDate(Date arg0)` → `LegalAgreementBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `LegalAgreementBuilder` [Setter]
+- `getOrCreateUmbrellaAgreement()` → `UmbrellaAgreementBuilder` [Getter]
+- `getOrCreateRelatedAgreements(int arg0)` → `LegalAgreementBuilder` [Getter]
+- `setLegalAgreementIdentification(LegalAgreementIdentification arg0)` → `LegalAgreementBuilder` [Setter]
 
 ### LegalAgreementIdentificationBuilderImpl
 **Implements:** `LegalAgreementIdentification$LegalAgreementIdentificationBuilder` 
@@ -888,26 +888,26 @@
 
 **Key Methods:**
 - `build()` → `LegalAgreementIdentification` [Builder]
-- `getPublisher()` → `LegalAgreementPublisherEnum` [Getter]
 - `getAgreementName()` → `AgreementNameBuilder` [Getter]
-- `getVintage()` → `Integer` [Getter]
-- `getGoverningLaw()` → `GoverningLawEnum` [Getter]
-- `setGoverningLaw(GoverningLawEnum arg0)` → `LegalAgreementIdentificationBuilder` [Setter]
-- `setAgreementName(AgreementName arg0)` → `LegalAgreementIdentificationBuilder` [Setter]
-- `setPublisher(LegalAgreementPublisherEnum arg0)` → `LegalAgreementIdentificationBuilder` [Setter]
 - `getOrCreateAgreementName()` → `AgreementNameBuilder` [Getter]
+- `setGoverningLaw(GoverningLawEnum arg0)` → `LegalAgreementIdentificationBuilder` [Setter]
+- `getGoverningLaw()` → `GoverningLawEnum` [Getter]
 - `setVintage(Integer arg0)` → `LegalAgreementIdentificationBuilder` [Setter]
+- `getVintage()` → `Integer` [Getter]
+- `getPublisher()` → `LegalAgreementPublisherEnum` [Getter]
+- `setPublisher(LegalAgreementPublisherEnum arg0)` → `LegalAgreementIdentificationBuilder` [Setter]
+- `setAgreementName(AgreementName arg0)` → `LegalAgreementIdentificationBuilder` [Setter]
 
 ### LegalAgreementIdentificationImpl
 **Implements:** `LegalAgreementIdentification` 
 
 **Key Methods:**
 - `build()` → `LegalAgreementIdentification` [Builder]
-- `getPublisher()` → `LegalAgreementPublisherEnum` [Getter]
 - `getAgreementName()` → `AgreementName` [Getter]
 - `setBuilderFields(LegalAgreementIdentificationBuilder arg0)` → `void` [Setter]
-- `getVintage()` → `Integer` [Getter]
 - `getGoverningLaw()` → `GoverningLawEnum` [Getter]
+- `getVintage()` → `Integer` [Getter]
+- `getPublisher()` → `LegalAgreementPublisherEnum` [Getter]
 
 ### LegalAgreementImpl
 **Extends:** `LegalAgreementBase$LegalAgreementBaseImpl` 
@@ -915,11 +915,11 @@
 
 **Key Methods:**
 - `build()` → `LegalAgreement` [Builder]
-- `getAgreementTerms()` → `AgreementTerms` [Getter]
 - `setBuilderFields(LegalAgreementBuilder arg0)` → `void` [Setter]
+- `getMeta()` → `MetaFields` [Getter]
 - `getRelatedAgreements()` → `List` [Getter]
 - `getUmbrellaAgreement()` → `UmbrellaAgreement` [Getter]
-- `getMeta()` → `MetaFields` [Getter]
+- `getAgreementTerms()` → `AgreementTerms` [Getter]
 
 ### OtherAgreementBuilderImpl
 **Implements:** `OtherAgreement$OtherAgreementBuilder` 
@@ -936,11 +936,11 @@
 - `setDate(Date arg0)` → `OtherAgreementBuilder` [Setter]
 - `getDate()` → `Date` [Getter]
 - `getVersion()` → `FieldWithMetaStringBuilder` [Getter]
-- `getOrCreateIdentifier()` → `FieldWithMetaStringBuilder` [Getter]
-- `setIdentifier(FieldWithMetaString arg0)` → `OtherAgreementBuilder` [Setter]
 - `setIdentifierValue(String arg0)` → `OtherAgreementBuilder` [Setter]
-- `setVersionValue(String arg0)` → `OtherAgreementBuilder` [Setter]
-- `setOtherAgreementTypeValue(String arg0)` → `OtherAgreementBuilder` [Setter]
+- `setIdentifier(FieldWithMetaString arg0)` → `OtherAgreementBuilder` [Setter]
+- `getOrCreateIdentifier()` → `FieldWithMetaStringBuilder` [Getter]
+- `getOrCreateVersion()` → `FieldWithMetaStringBuilder` [Getter]
+- `getOtherAgreementType()` → `FieldWithMetaStringBuilder` [Getter]
 
 ### OtherAgreementImpl
 **Implements:** `OtherAgreement` 
@@ -1000,8 +1000,8 @@
 - `build()` → `Resource` [Builder]
 - `getString()` → `String` [Getter]
 - `setLanguage(FieldWithMetaString arg0)` → `ResourceBuilder` [Setter]
-- `setResourceIdValue(String arg0)` → `ResourceBuilder` [Setter]
-- `setLanguageValue(String arg0)` → `ResourceBuilder` [Setter]
+- `setComments(String arg0)` → `ResourceBuilder` [Setter]
+- `getComments()` → `String` [Getter]
 
 ### ResourceImpl
 **Implements:** `Resource` 
@@ -1012,11 +1012,11 @@
 - `getLanguage()` → `FieldWithMetaString` [Getter]
 - `build()` → `Resource` [Builder]
 - `getString()` → `String` [Getter]
-- `getResourceId()` → `FieldWithMetaString` [Getter]
-- `getMimeType()` → `FieldWithMetaString` [Getter]
-- `getSizeInBytes()` → `BigDecimal` [Getter]
-- `getResourceType()` → `FieldWithMetaResourceTypeEnum` [Getter]
 - `setBuilderFields(ResourceBuilder arg0)` → `void` [Setter]
+- `getComments()` → `String` [Getter]
+- `getUrl()` → `String` [Getter]
+- `getResourceId()` → `FieldWithMetaString` [Getter]
+- `getResourceType()` → `FieldWithMetaResourceTypeEnum` [Getter]
 
 ### ResourceLengthBuilderImpl
 **Implements:** `ResourceLength$ResourceLengthBuilder` 
@@ -1037,9 +1037,9 @@
 
 **Key Methods:**
 - `build()` → `ResourceLength` [Builder]
+- `setBuilderFields(ResourceLengthBuilder arg0)` → `void` [Setter]
 - `getLengthUnit()` → `LengthUnitEnum` [Getter]
 - `getLengthValue()` → `BigDecimal` [Getter]
-- `setBuilderFields(ResourceLengthBuilder arg0)` → `void` [Setter]
 
 ### UmbrellaAgreementBuilderImpl
 **Implements:** `UmbrellaAgreement$UmbrellaAgreementBuilder` 
@@ -1054,10 +1054,10 @@
 - `build()` → `UmbrellaAgreement` [Builder]
 - `setLanguage(String arg0)` → `UmbrellaAgreementBuilder` [Setter]
 - `getOrCreateParties(int arg0)` → `UmbrellaAgreementEntityBuilder` [Getter]
-- `getIsApplicable()` → `Boolean` [Getter]
-- `setIsApplicable(Boolean arg0)` → `UmbrellaAgreementBuilder` [Setter]
 - `getParties()` → `List` [Getter]
 - `setParties(List arg0)` → `UmbrellaAgreementBuilder` [Setter]
+- `getIsApplicable()` → `Boolean` [Getter]
+- `setIsApplicable(Boolean arg0)` → `UmbrellaAgreementBuilder` [Setter]
 
 ### UmbrellaAgreementEntityBuilderImpl
 **Extends:** `LegalEntity$LegalEntityBuilderImpl` 
@@ -1069,12 +1069,12 @@
 **Key Methods:**
 - `setName(FieldWithMetaString arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
 - `build()` → `UmbrellaAgreementEntity` [Builder]
+- `setMeta(MetaFields arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
+- `setNameValue(String arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
 - `setEntityId(List arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
 - `setEntityIdValue(List arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
-- `setNameValue(String arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
-- `setTerms(String arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
 - `getTerms()` → `String` [Getter]
-- `setMeta(MetaFields arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
+- `setTerms(String arg0)` → `UmbrellaAgreementEntityBuilder` [Setter]
 
 ### UmbrellaAgreementEntityImpl
 **Extends:** `LegalEntity$LegalEntityImpl` 
@@ -1091,7 +1091,7 @@
 **Key Methods:**
 - `getLanguage()` → `String` [Getter]
 - `build()` → `UmbrellaAgreement` [Builder]
-- `getIsApplicable()` → `Boolean` [Getter]
-- `getParties()` → `List` [Getter]
 - `setBuilderFields(UmbrellaAgreementBuilder arg0)` → `void` [Setter]
+- `getParties()` → `List` [Getter]
+- `getIsApplicable()` → `Boolean` [Getter]
 

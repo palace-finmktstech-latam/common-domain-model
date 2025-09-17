@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `CreditRatingAgencyEnum getReferenceAgency()`
-- `CreditNotationMismatchResolutionEnum getMismatchResolution()`
-- `QuantifierEnum getCondition()`
 - `List getCreditNotation()`
+- `CreditNotationMismatchResolutionEnum getMismatchResolution()`
+- `CreditRatingAgencyEnum getReferenceAgency()`
+- `QuantifierEnum getCondition()`
 
 #### Other Methods
 

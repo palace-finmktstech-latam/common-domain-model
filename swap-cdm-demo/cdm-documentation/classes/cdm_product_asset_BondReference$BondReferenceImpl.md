@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `Boolean getDiscrepancyClause()`
 - `Boolean getConditionPrecedentBond()`
+- `Boolean getDiscrepancyClause()`
 - `FixedRateSpecification getCouponRate()`
 - `Security getBond()`
 

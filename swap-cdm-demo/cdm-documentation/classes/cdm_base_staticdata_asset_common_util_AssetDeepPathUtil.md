@@ -10,9 +10,9 @@
 
 #### Other Methods
 
-- `List chooseRelatedExchange(Asset arg0)`
-- `LegalEntity chooseExchange(Asset arg0)`
-- `Boolean chooseIsExchangeListed(Asset arg0)`
-- `List chooseTaxonomy(Asset arg0)`
 - `List chooseIdentifier(Asset arg0)`
+- `LegalEntity chooseExchange(Asset arg0)`
+- `List chooseRelatedExchange(Asset arg0)`
+- `List chooseTaxonomy(Asset arg0)`
+- `Boolean chooseIsExchangeListed(Asset arg0)`
 

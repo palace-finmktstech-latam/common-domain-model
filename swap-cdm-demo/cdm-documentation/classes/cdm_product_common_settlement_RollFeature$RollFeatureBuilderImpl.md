@@ -31,8 +31,8 @@
 #### Getter Methods
 
 - `RollSourceCalendarEnum getRollSourceCalendar()`
-- `OffsetBuilder getOrCreateDeliveryDateRollConvention()`
 - `OffsetBuilder getDeliveryDateRollConvention()`
+- `OffsetBuilder getOrCreateDeliveryDateRollConvention()`
 
 #### Other Methods
 
@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `RollFeatureBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `RollFeatureBuilder toBuilder()`
 - `RollFeatureBuilder prune()`
+- `RollFeatureBuilder toBuilder()`
+- `boolean hasData()`
 

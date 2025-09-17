@@ -16,9 +16,9 @@
 
 #### Setter Methods
 
+- `FrequencyBuilder setMeta(MetaFields arg0)`
 - `FrequencyBuilder setPeriod(PeriodExtendedEnum arg0)`
 - `FrequencyBuilder setPeriodMultiplier(Integer arg0)`
-- `FrequencyBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 

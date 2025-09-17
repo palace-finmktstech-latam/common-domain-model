@@ -15,9 +15,9 @@
 
 #### Setter Methods
 
-- `CreditLimitUtilisationPositionBuilder setShortPosition(BigDecimal arg0)`
-- `CreditLimitUtilisationPositionBuilder setLongPosition(BigDecimal arg0)`
 - `CreditLimitUtilisationPositionBuilder setGlobal(BigDecimal arg0)`
+- `CreditLimitUtilisationPositionBuilder setLongPosition(BigDecimal arg0)`
+- `CreditLimitUtilisationPositionBuilder setShortPosition(BigDecimal arg0)`
 
 #### Other Methods
 

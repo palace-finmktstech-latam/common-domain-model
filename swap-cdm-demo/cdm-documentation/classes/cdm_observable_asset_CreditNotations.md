@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `MultipleCreditNotations getCreditNotations()`
 - `CreditNotation getCreditNotation()`
+- `MultipleCreditNotations getCreditNotations()`
 
 #### Other Methods
 

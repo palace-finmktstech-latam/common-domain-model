@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
+- `ReferenceWithMetaAccount getReceiverAccountReference()`
 - `ReferenceWithMetaParty getPayerPartyReference()`
 - `ReferenceWithMetaParty getReceiverPartyReference()`
 - `ReferenceWithMetaAccount getPayerAccountReference()`
-- `ReferenceWithMetaAccount getReceiverAccountReference()`
 
 #### Other Methods
 

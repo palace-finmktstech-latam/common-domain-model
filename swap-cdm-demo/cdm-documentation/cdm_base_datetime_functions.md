@@ -11,8 +11,8 @@
 - `IsBusinessDay isBusinessDay`
 
 **Key Methods:**
-- `isGoodBusinessDay(Date arg0, Integer arg1, List arg2)` → `MapperS` [Getter]
 - `isShiftedGood(Date arg0, Integer arg1, List arg2)` → `MapperS` [Getter]
+- `isGoodBusinessDay(Date arg0, Integer arg1, List arg2)` → `MapperS` [Getter]
 
 ### AddDays
 **Implements:** `RosettaFunction` 
@@ -123,8 +123,8 @@
 **Extends:** `AddBusinessDays` 
 
 **Key Methods:**
-- `isGoodBusinessDay(Date arg0, Integer arg1, List arg2)` → `MapperS` [Getter]
 - `isShiftedGood(Date arg0, Integer arg1, List arg2)` → `MapperS` [Getter]
+- `isGoodBusinessDay(Date arg0, Integer arg1, List arg2)` → `MapperS` [Getter]
 
 ### AddDaysDefault
 **Extends:** `AddDays` 

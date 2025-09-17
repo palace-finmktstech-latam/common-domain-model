@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `AncillaryPartyBuilder doEvaluate(List arg0, AncillaryRoleEnum arg1)`
 - `AncillaryPartyBuilder assignOutput(AncillaryPartyBuilder arg0, List arg1, AncillaryRoleEnum arg2)`
+- `AncillaryPartyBuilder doEvaluate(List arg0, AncillaryRoleEnum arg1)`
 

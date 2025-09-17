@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaFixedRateSpecificationBuilder setValue(FixedRateSpecification arg0)`
-- `ReferenceWithMetaFixedRateSpecificationBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaFixedRateSpecificationBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaFixedRateSpecificationBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaFixedRateSpecificationBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaFixedRateSpecificationBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

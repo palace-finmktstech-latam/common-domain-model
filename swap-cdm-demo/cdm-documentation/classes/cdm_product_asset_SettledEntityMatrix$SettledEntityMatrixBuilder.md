@@ -15,9 +15,9 @@
 
 #### Setter Methods
 
+- `SettledEntityMatrixBuilder setPublicationDate(Date arg0)`
 - `SettledEntityMatrixBuilder setMatrixSource(FieldWithMetaSettledEntityMatrixSourceEnum arg0)`
 - `SettledEntityMatrixBuilder setMatrixSourceValue(SettledEntityMatrixSourceEnum arg0)`
-- `SettledEntityMatrixBuilder setPublicationDate(Date arg0)`
 
 #### Getter Methods
 

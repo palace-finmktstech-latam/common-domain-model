@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `PeriodBound getLowerBound()`
 - `PeriodBound getUpperBound()`
+- `PeriodBound getLowerBound()`
 
 #### Other Methods
 

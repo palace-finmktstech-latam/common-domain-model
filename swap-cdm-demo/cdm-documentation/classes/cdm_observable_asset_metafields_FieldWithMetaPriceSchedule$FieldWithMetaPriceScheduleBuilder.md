@@ -23,8 +23,8 @@
 #### Getter Methods
 
 - `PriceScheduleBuilder getValue()`
-- `PriceScheduleBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `PriceScheduleBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods

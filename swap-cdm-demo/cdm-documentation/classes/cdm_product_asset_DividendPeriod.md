@@ -19,12 +19,12 @@
 #### Getter Methods
 
 - `Class getType()`
-- `ReferenceWithMetaBasketConstituent getBasketConstituent()`
-- `DividendPaymentDate getStartDate()`
-- `DividendPaymentDate getEndDate()`
 - `DividendPaymentDate getDividendPaymentDate()`
 - `AdjustableOrRelativeDate getDividendValuationDate()`
 - `BusinessDayAdjustments getDateAdjustments()`
+- `DividendPaymentDate getEndDate()`
+- `ReferenceWithMetaBasketConstituent getBasketConstituent()`
+- `DividendPaymentDate getStartDate()`
 
 #### Other Methods
 

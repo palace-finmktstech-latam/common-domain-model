@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaContractualDefinitionsEnumBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaContractualDefinitionsEnumBuilder toBuilder()`
 - `FieldWithMetaContractualDefinitionsEnumBuilder prune()`
+- `FieldWithMetaContractualDefinitionsEnumBuilder toBuilder()`
+- `boolean hasData()`
 

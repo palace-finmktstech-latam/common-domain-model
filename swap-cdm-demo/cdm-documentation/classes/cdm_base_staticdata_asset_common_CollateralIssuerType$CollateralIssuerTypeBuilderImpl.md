@@ -28,22 +28,22 @@
 
 #### Setter Methods
 
-- `CollateralIssuerTypeBuilder setSpecialPurposeVehicleType(SpecialPurposeVehicleIssuerType arg0)`
-- `CollateralIssuerTypeBuilder setQuasiGovernmentType(QuasiGovernmentIssuerType arg0)`
-- `CollateralIssuerTypeBuilder setRegionalGovernmentType(RegionalGovernmentIssuerType arg0)`
-- `CollateralIssuerTypeBuilder setIssuerType(IssuerTypeEnum arg0)`
 - `CollateralIssuerTypeBuilder setSupraNationalType(SupraNationalIssuerTypeEnum arg0)`
+- `CollateralIssuerTypeBuilder setRegionalGovernmentType(RegionalGovernmentIssuerType arg0)`
+- `CollateralIssuerTypeBuilder setQuasiGovernmentType(QuasiGovernmentIssuerType arg0)`
+- `CollateralIssuerTypeBuilder setIssuerType(IssuerTypeEnum arg0)`
+- `CollateralIssuerTypeBuilder setSpecialPurposeVehicleType(SpecialPurposeVehicleIssuerType arg0)`
 
 #### Getter Methods
 
-- `QuasiGovernmentIssuerTypeBuilder getOrCreateQuasiGovernmentType()`
-- `RegionalGovernmentIssuerTypeBuilder getOrCreateRegionalGovernmentType()`
-- `SpecialPurposeVehicleIssuerTypeBuilder getSpecialPurposeVehicleType()`
-- `SpecialPurposeVehicleIssuerTypeBuilder getOrCreateSpecialPurposeVehicleType()`
-- `RegionalGovernmentIssuerTypeBuilder getRegionalGovernmentType()`
 - `IssuerTypeEnum getIssuerType()`
+- `RegionalGovernmentIssuerTypeBuilder getRegionalGovernmentType()`
 - `SupraNationalIssuerTypeEnum getSupraNationalType()`
 - `QuasiGovernmentIssuerTypeBuilder getQuasiGovernmentType()`
+- `SpecialPurposeVehicleIssuerTypeBuilder getOrCreateSpecialPurposeVehicleType()`
+- `RegionalGovernmentIssuerTypeBuilder getOrCreateRegionalGovernmentType()`
+- `SpecialPurposeVehicleIssuerTypeBuilder getSpecialPurposeVehicleType()`
+- `QuasiGovernmentIssuerTypeBuilder getOrCreateQuasiGovernmentType()`
 
 #### Other Methods
 
@@ -51,7 +51,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CollateralIssuerTypeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CollateralIssuerTypeBuilder toBuilder()`
 - `CollateralIssuerTypeBuilder prune()`
+- `CollateralIssuerTypeBuilder toBuilder()`
+- `boolean hasData()`
 

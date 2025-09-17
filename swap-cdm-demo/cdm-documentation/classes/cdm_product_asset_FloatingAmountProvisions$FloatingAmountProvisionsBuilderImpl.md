@@ -25,8 +25,8 @@
 
 #### Setter Methods
 
-- `FloatingAmountProvisionsBuilder setWacCapInterestProvision(Boolean arg0)`
 - `FloatingAmountProvisionsBuilder setStepUpProvision(Boolean arg0)`
+- `FloatingAmountProvisionsBuilder setWacCapInterestProvision(Boolean arg0)`
 
 #### Getter Methods
 
@@ -39,7 +39,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FloatingAmountProvisionsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FloatingAmountProvisionsBuilder toBuilder()`
 - `FloatingAmountProvisionsBuilder prune()`
+- `FloatingAmountProvisionsBuilder toBuilder()`
+- `boolean hasData()`
 

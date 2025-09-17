@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `PerformanceValuationDates getInitialValuationDate()`
 - `PerformanceValuationDates getFinalValuationDate()`
 - `PerformanceValuationDates getInterimValuationDate()`
+- `PerformanceValuationDates getInitialValuationDate()`
 
 #### Other Methods
 

@@ -33,34 +33,34 @@
 
 #### Setter Methods
 
-- `AvailableInventoryRecordBuilder setCollateral(List arg0)`
-- `AvailableInventoryRecordBuilder setPartyRole(List arg0)`
-- `AvailableInventoryRecordBuilder setSecurity(Security arg0)`
 - `AvailableInventoryRecordBuilder setQuantity(Quantity arg0)`
+- `AvailableInventoryRecordBuilder setCollateral(List arg0)`
+- `AvailableInventoryRecordBuilder setExpirationDateTime(ZonedDateTime arg0)`
 - `AvailableInventoryRecordBuilder setIdentifer(AssignedIdentifier arg0)`
 - `AvailableInventoryRecordBuilder setInterestRate(Price arg0)`
-- `AvailableInventoryRecordBuilder setExpirationDateTime(ZonedDateTime arg0)`
+- `AvailableInventoryRecordBuilder setPartyRole(List arg0)`
+- `AvailableInventoryRecordBuilder setSecurity(Security arg0)`
 
 #### Getter Methods
 
-- `CollateralProvisionsBuilder getOrCreateCollateral(int arg0)`
-- `PartyRoleBuilder getOrCreatePartyRole(int arg0)`
 - `QuantityBuilder getQuantity()`
 - `QuantityBuilder getOrCreateQuantity()`
-- `PriceBuilder getOrCreateInterestRate()`
-- `PriceBuilder getInterestRate()`
-- `ZonedDateTime getExpirationDateTime()`
 - `List getPartyRole()`
 - `List getCollateral()`
+- `CollateralProvisionsBuilder getOrCreateCollateral(int arg0)`
+- `PriceBuilder getInterestRate()`
+- `PriceBuilder getOrCreateInterestRate()`
+- `ZonedDateTime getExpirationDateTime()`
+- `PartyRoleBuilder getOrCreatePartyRole(int arg0)`
 
 #### Adder Methods
 
-- `AvailableInventoryRecordBuilder addPartyRole(PartyRole arg0)`
-- `AvailableInventoryRecordBuilder addPartyRole(PartyRole arg0, int arg1)`
 - `AvailableInventoryRecordBuilder addPartyRole(List arg0)`
+- `AvailableInventoryRecordBuilder addPartyRole(PartyRole arg0, int arg1)`
+- `AvailableInventoryRecordBuilder addPartyRole(PartyRole arg0)`
 - `AvailableInventoryRecordBuilder addCollateral(CollateralProvisions arg0)`
-- `AvailableInventoryRecordBuilder addCollateral(CollateralProvisions arg0, int arg1)`
 - `AvailableInventoryRecordBuilder addCollateral(List arg0)`
+- `AvailableInventoryRecordBuilder addCollateral(CollateralProvisions arg0, int arg1)`
 
 #### Other Methods
 
@@ -68,7 +68,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AvailableInventoryRecordBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AvailableInventoryRecordBuilder toBuilder()`
 - `AvailableInventoryRecordBuilder prune()`
+- `AvailableInventoryRecordBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaWorkflowStepBuilder setValue(WorkflowStep arg0)`
-- `ReferenceWithMetaWorkflowStepBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaWorkflowStepBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaWorkflowStepBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaWorkflowStepBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaWorkflowStepBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaWorkflowStepBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaWorkflowStepBuilder toBuilder()`
 - `ReferenceWithMetaWorkflowStepBuilder prune()`
+- `ReferenceWithMetaWorkflowStepBuilder toBuilder()`
+- `boolean hasData()`
 

@@ -30,24 +30,24 @@
 
 #### Setter Methods
 
-- `RelativeDatesBuilder setDateRelativeToValue(Date arg0)`
-- `RelativeDatesBuilder setAdjustedDate(Date arg0)`
-- `RelativeDatesBuilder setBusinessDayConvention(BusinessDayConventionEnum arg0)`
-- `RelativeDatesBuilder setBusinessCenters(BusinessCenters arg0)`
+- `RelativeDatesBuilder setMeta(MetaFields arg0)`
+- `RelativeDatesBuilder setScheduleBounds(DateRange arg0)`
+- `RelativeDatesBuilder setPeriodSkip(Integer arg0)`
 - `RelativeDatesBuilder setDateRelativeTo(ReferenceWithMetaDate arg0)`
+- `RelativeDatesBuilder setDateRelativeToValue(Date arg0)`
+- `RelativeDatesBuilder setBusinessCenters(BusinessCenters arg0)`
+- `RelativeDatesBuilder setBusinessDayConvention(BusinessDayConventionEnum arg0)`
+- `RelativeDatesBuilder setAdjustedDate(Date arg0)`
 - `RelativeDatesBuilder setDayType(DayTypeEnum arg0)`
 - `RelativeDatesBuilder setPeriod(PeriodEnum arg0)`
 - `RelativeDatesBuilder setPeriodMultiplier(Integer arg0)`
-- `RelativeDatesBuilder setScheduleBounds(DateRange arg0)`
-- `RelativeDatesBuilder setPeriodSkip(Integer arg0)`
-- `RelativeDatesBuilder setBusinessCentersReferenceValue(BusinessCenters arg0)`
 - `RelativeDatesBuilder setBusinessCentersReference(ReferenceWithMetaBusinessCenters arg0)`
-- `RelativeDatesBuilder setMeta(MetaFields arg0)`
+- `RelativeDatesBuilder setBusinessCentersReferenceValue(BusinessCenters arg0)`
 
 #### Getter Methods
 
-- `DateRangeBuilder getScheduleBounds()`
 - `DateRangeBuilder getOrCreateScheduleBounds()`
+- `DateRangeBuilder getScheduleBounds()`
 - `Integer getPeriodSkip()`
 
 #### Other Methods
@@ -56,7 +56,7 @@
 - `String toString()`
 - `int hashCode()`
 - `RelativeDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `RelativeDatesBuilder toBuilder()`
 - `RelativeDatesBuilder prune()`
+- `RelativeDatesBuilder toBuilder()`
+- `boolean hasData()`
 

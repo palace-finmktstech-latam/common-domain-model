@@ -16,8 +16,8 @@
 
 #### Setter Methods
 
-- `ProductIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
 - `ProductIdentifierBuilder setIdentifierValue(String arg0)`
+- `ProductIdentifierBuilder setIdentifier(FieldWithMetaString arg0)`
 - `ProductIdentifierBuilder setSource(ProductIdTypeEnum arg0)`
 - `ProductIdentifierBuilder setMeta(MetaFields arg0)`
 

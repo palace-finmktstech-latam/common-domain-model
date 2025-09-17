@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `List getAncillaryParty()`
 - `NotionalAdjustmentEnum getAdjustment()`
+- `List getAncillaryParty()`
 - `NonTransferableProduct getProduct()`
 
 #### Other Methods

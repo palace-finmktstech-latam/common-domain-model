@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaTradeStateBuilder setValue(TradeState arg0)`
-- `ReferenceWithMetaTradeStateBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaTradeStateBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaTradeStateBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaTradeStateBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaTradeStateBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

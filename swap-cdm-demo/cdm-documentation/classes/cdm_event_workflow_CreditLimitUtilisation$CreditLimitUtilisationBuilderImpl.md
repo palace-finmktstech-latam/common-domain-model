@@ -25,8 +25,8 @@
 
 #### Setter Methods
 
-- `CreditLimitUtilisationBuilder setExecuted(CreditLimitUtilisationPosition arg0)`
 - `CreditLimitUtilisationBuilder setPending(CreditLimitUtilisationPosition arg0)`
+- `CreditLimitUtilisationBuilder setExecuted(CreditLimitUtilisationPosition arg0)`
 
 #### Getter Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CreditLimitUtilisationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CreditLimitUtilisationBuilder toBuilder()`
 - `CreditLimitUtilisationBuilder prune()`
+- `CreditLimitUtilisationBuilder toBuilder()`
+- `boolean hasData()`
 

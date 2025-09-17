@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `LegalAgreementPublisherEnum getPublisher()`
 - `AgreementName getAgreementName()`
-- `Integer getVintage()`
 - `GoverningLawEnum getGoverningLaw()`
+- `Integer getVintage()`
+- `LegalAgreementPublisherEnum getPublisher()`
 
 #### Other Methods
 

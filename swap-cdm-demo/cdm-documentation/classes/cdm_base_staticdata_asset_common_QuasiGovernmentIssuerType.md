@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Boolean getSovereignRecourse()`
 - `Boolean getSovereignEntity()`
+- `Boolean getSovereignRecourse()`
 
 #### Other Methods
 

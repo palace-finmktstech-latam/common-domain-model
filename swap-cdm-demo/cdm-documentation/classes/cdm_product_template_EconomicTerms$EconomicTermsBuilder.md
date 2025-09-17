@@ -15,36 +15,36 @@
 
 #### Setter Methods
 
+- `EconomicTermsBuilder setTerminationDate(AdjustableOrRelativeDate arg0)`
 - `EconomicTermsBuilder setPayout(List arg0)`
 - `EconomicTermsBuilder setCollateral(Collateral arg0)`
-- `EconomicTermsBuilder setEffectiveDate(AdjustableOrRelativeDate arg0)`
-- `EconomicTermsBuilder setDateAdjustments(BusinessDayAdjustments arg0)`
+- `EconomicTermsBuilder setCalculationAgent(CalculationAgent arg0)`
 - `EconomicTermsBuilder setTerminationProvision(TerminationProvision arg0)`
 - `EconomicTermsBuilder setNonStandardisedTerms(Boolean arg0)`
-- `EconomicTermsBuilder setCalculationAgent(CalculationAgent arg0)`
-- `EconomicTermsBuilder setTerminationDate(AdjustableOrRelativeDate arg0)`
+- `EconomicTermsBuilder setDateAdjustments(BusinessDayAdjustments arg0)`
+- `EconomicTermsBuilder setEffectiveDate(AdjustableOrRelativeDate arg0)`
 
 #### Getter Methods
 
-- `CollateralBuilder getOrCreateCollateral()`
-- `PayoutBuilder getOrCreatePayout(int arg0)`
-- `BusinessDayAdjustmentsBuilder getOrCreateDateAdjustments()`
-- `TerminationProvisionBuilder getTerminationProvision()`
-- `AdjustableOrRelativeDateBuilder getOrCreateTerminationDate()`
-- `CalculationAgentBuilder getCalculationAgent()`
-- `AdjustableOrRelativeDateBuilder getOrCreateEffectiveDate()`
+- `CollateralBuilder getCollateral()`
 - `AdjustableOrRelativeDateBuilder getEffectiveDate()`
 - `AdjustableOrRelativeDateBuilder getTerminationDate()`
-- `CollateralBuilder getCollateral()`
+- `CollateralBuilder getOrCreateCollateral()`
+- `List getPayout()`
+- `CalculationAgentBuilder getCalculationAgent()`
+- `AdjustableOrRelativeDateBuilder getOrCreateTerminationDate()`
+- `TerminationProvisionBuilder getTerminationProvision()`
+- `AdjustableOrRelativeDateBuilder getOrCreateEffectiveDate()`
+- `BusinessDayAdjustmentsBuilder getOrCreateDateAdjustments()`
+- `BusinessDayAdjustmentsBuilder getDateAdjustments()`
 - `CalculationAgentBuilder getOrCreateCalculationAgent()`
 - `TerminationProvisionBuilder getOrCreateTerminationProvision()`
-- `List getPayout()`
-- `BusinessDayAdjustmentsBuilder getDateAdjustments()`
+- `PayoutBuilder getOrCreatePayout(int arg0)`
 
 #### Adder Methods
 
-- `EconomicTermsBuilder addPayout(List arg0)`
 - `EconomicTermsBuilder addPayout(Payout arg0, int arg1)`
+- `EconomicTermsBuilder addPayout(List arg0)`
 - `EconomicTermsBuilder addPayout(Payout arg0)`
 
 #### Other Methods

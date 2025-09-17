@@ -38,39 +38,39 @@
 #### Setter Methods
 
 - `CommodityPayoutBuilder setUnderlier(Underlier arg0)`
-- `CommodityPayoutBuilder setDelivery(AssetDeliveryInformation arg0)`
-- `CommodityPayoutBuilder setSchedule(CalculationSchedule arg0)`
-- `CommodityPayoutBuilder setPrincipalPayment(PrincipalPayments arg0)`
 - `CommodityPayoutBuilder setPayerReceiver(PayerReceiver arg0)`
-- `CommodityPayoutBuilder setPricingDates(PricingDates arg0)`
-- `CommodityPayoutBuilder setCommodityPriceReturnTerms(CommodityPriceReturnTerms arg0)`
-- `CommodityPayoutBuilder setPaymentDates(PaymentDates arg0)`
+- `CommodityPayoutBuilder setPriceQuantity(ResolvablePriceQuantity arg0)`
 - `CommodityPayoutBuilder setSettlementTerms(SettlementTerms arg0)`
+- `CommodityPayoutBuilder setPaymentDates(PaymentDates arg0)`
 - `CommodityPayoutBuilder setCalculationPeriodDates(CalculationPeriodDates arg0)`
 - `CommodityPayoutBuilder setFxFeature(FxFeature arg0)`
-- `CommodityPayoutBuilder setPriceQuantity(ResolvablePriceQuantity arg0)`
+- `CommodityPayoutBuilder setDelivery(AssetDeliveryInformation arg0)`
+- `CommodityPayoutBuilder setPrincipalPayment(PrincipalPayments arg0)`
+- `CommodityPayoutBuilder setSchedule(CalculationSchedule arg0)`
+- `CommodityPayoutBuilder setPricingDates(PricingDates arg0)`
 - `CommodityPayoutBuilder setAveragingFeature(AveragingCalculation arg0)`
+- `CommodityPayoutBuilder setCommodityPriceReturnTerms(CommodityPriceReturnTerms arg0)`
 
 #### Getter Methods
 
-- `PricingDatesBuilder getPricingDates()`
 - `UnderlierBuilder getOrCreateUnderlier()`
 - `UnderlierBuilder getUnderlier()`
-- `CalculationScheduleBuilder getSchedule()`
-- `AssetDeliveryInformationBuilder getDelivery()`
-- `CalculationScheduleBuilder getOrCreateSchedule()`
-- `AssetDeliveryInformationBuilder getOrCreateDelivery()`
-- `AveragingCalculationBuilder getAveragingFeature()`
-- `FxFeatureBuilder getFxFeature()`
-- `PricingDatesBuilder getOrCreatePricingDates()`
-- `AveragingCalculationBuilder getOrCreateAveragingFeature()`
 - `CommodityPriceReturnTermsBuilder getCommodityPriceReturnTerms()`
-- `CommodityPriceReturnTermsBuilder getOrCreateCommodityPriceReturnTerms()`
+- `AveragingCalculationBuilder getOrCreateAveragingFeature()`
 - `PaymentDatesBuilder getPaymentDates()`
 - `PaymentDatesBuilder getOrCreatePaymentDates()`
 - `FxFeatureBuilder getOrCreateFxFeature()`
 - `CalculationPeriodDatesBuilder getOrCreateCalculationPeriodDates()`
+- `AssetDeliveryInformationBuilder getDelivery()`
+- `AssetDeliveryInformationBuilder getOrCreateDelivery()`
+- `CalculationScheduleBuilder getSchedule()`
+- `CalculationScheduleBuilder getOrCreateSchedule()`
+- `FxFeatureBuilder getFxFeature()`
+- `AveragingCalculationBuilder getAveragingFeature()`
+- `PricingDatesBuilder getOrCreatePricingDates()`
 - `CalculationPeriodDatesBuilder getCalculationPeriodDates()`
+- `CommodityPriceReturnTermsBuilder getOrCreateCommodityPriceReturnTerms()`
+- `PricingDatesBuilder getPricingDates()`
 
 #### Other Methods
 
@@ -78,7 +78,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CommodityPayoutBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CommodityPayoutBuilder toBuilder()`
 - `CommodityPayoutBuilder prune()`
+- `CommodityPayoutBuilder toBuilder()`
+- `boolean hasData()`
 

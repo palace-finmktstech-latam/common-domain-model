@@ -40,7 +40,7 @@
 - `String toString()`
 - `int hashCode()`
 - `InitialFixingDateBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `InitialFixingDateBuilder toBuilder()`
 - `InitialFixingDateBuilder prune()`
+- `InitialFixingDateBuilder toBuilder()`
+- `boolean hasData()`
 

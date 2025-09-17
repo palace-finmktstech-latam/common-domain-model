@@ -19,12 +19,12 @@
 #### Getter Methods
 
 - `Class getType()`
-- `StrategyFeature getStrategyFeature()`
-- `AveragingCalculation getAveragingFeature()`
-- `List getFxFeature()`
-- `PassThrough getPassThrough()`
 - `Barrier getBarrier()`
 - `Knock getKnock()`
+- `StrategyFeature getStrategyFeature()`
+- `List getFxFeature()`
+- `AveragingCalculation getAveragingFeature()`
+- `PassThrough getPassThrough()`
 
 #### Other Methods
 

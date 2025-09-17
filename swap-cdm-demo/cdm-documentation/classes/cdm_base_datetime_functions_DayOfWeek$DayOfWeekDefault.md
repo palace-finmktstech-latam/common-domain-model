@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `DayOfWeekEnum doEvaluate(Date arg0)`
 - `DayOfWeekEnum assignOutput(DayOfWeekEnum arg0, Date arg1)`
+- `DayOfWeekEnum doEvaluate(Date arg0)`
 

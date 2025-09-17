@@ -26,19 +26,19 @@
 
 #### Setter Methods
 
-- `StubPeriodBuilder setFinalStub(StubValue arg0)`
 - `StubPeriodBuilder setInitialStub(StubValue arg0)`
+- `StubPeriodBuilder setFinalStub(StubValue arg0)`
 - `StubPeriodBuilder setCalculationPeriodDatesReference(ReferenceWithMetaCalculationPeriodDates arg0)`
 - `StubPeriodBuilder setCalculationPeriodDatesReferenceValue(CalculationPeriodDates arg0)`
 
 #### Getter Methods
 
-- `StubValueBuilder getFinalStub()`
 - `StubValueBuilder getInitialStub()`
+- `StubValueBuilder getFinalStub()`
 - `StubValueBuilder getOrCreateInitialStub()`
 - `StubValueBuilder getOrCreateFinalStub()`
-- `ReferenceWithMetaCalculationPeriodDatesBuilder getCalculationPeriodDatesReference()`
 - `ReferenceWithMetaCalculationPeriodDatesBuilder getOrCreateCalculationPeriodDatesReference()`
+- `ReferenceWithMetaCalculationPeriodDatesBuilder getCalculationPeriodDatesReference()`
 
 #### Other Methods
 
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `StubPeriodBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `StubPeriodBuilder toBuilder()`
 - `StubPeriodBuilder prune()`
+- `StubPeriodBuilder toBuilder()`
+- `boolean hasData()`
 

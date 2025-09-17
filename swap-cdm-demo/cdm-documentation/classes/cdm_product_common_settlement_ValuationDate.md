@@ -19,11 +19,11 @@
 #### Getter Methods
 
 - `Class getType()`
-- `FxFixingDate getFxFixingDate()`
+- `RelativeDateOffset getValuationDate()`
+- `AdjustableDates getFxFixingSchedule()`
 - `MultipleValuationDates getMultipleValuationDates()`
 - `SingleValuationDate getSingleValuationDate()`
-- `AdjustableDates getFxFixingSchedule()`
-- `RelativeDateOffset getValuationDate()`
+- `FxFixingDate getFxFixingDate()`
 
 #### Other Methods
 

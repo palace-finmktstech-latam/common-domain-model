@@ -23,11 +23,11 @@
 #### Getter Methods
 
 - `BigDecimal getCalculatedRate()`
-- `List getRateObservation()`
 - `BigDecimal getFloatingRateMultiplier()`
 - `List getFloorRate()`
-- `BigDecimal getSpread()`
+- `List getRateObservation()`
 - `List getCapRate()`
+- `BigDecimal getSpread()`
 
 #### Other Methods
 

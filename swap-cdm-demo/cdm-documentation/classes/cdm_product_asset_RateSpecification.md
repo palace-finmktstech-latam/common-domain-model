@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `FixedRateSpecification getFixedRateSpecification()`
 - `InflationRateSpecification getInflationRateSpecification()`
 - `FloatingRateSpecification getFloatingRateSpecification()`
+- `FixedRateSpecification getFixedRateSpecification()`
 
 #### Other Methods
 

@@ -27,10 +27,10 @@
 
 #### Getter Methods
 
-- `Rounding getFinalRateRounding()`
-- `Price getInitialRate()`
-- `NegativeInterestRateTreatmentEnum getNegativeInterestRateTreatment()`
 - `AveragingWeightingMethodEnum getAveragingMethod()`
+- `NegativeInterestRateTreatmentEnum getNegativeInterestRateTreatment()`
+- `Price getInitialRate()`
+- `Rounding getFinalRateRounding()`
 
 #### Other Methods
 

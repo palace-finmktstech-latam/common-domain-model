@@ -40,9 +40,9 @@
 
 #### Adder Methods
 
+- `MeasureScheduleBuilder addDatedValue(List arg0)`
 - `MeasureScheduleBuilder addDatedValue(DatedValue arg0, int arg1)`
 - `MeasureScheduleBuilder addDatedValue(DatedValue arg0)`
-- `MeasureScheduleBuilder addDatedValue(List arg0)`
 
 #### Other Methods
 
@@ -50,7 +50,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MeasureScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MeasureScheduleBuilder toBuilder()`
 - `MeasureScheduleBuilder prune()`
+- `MeasureScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

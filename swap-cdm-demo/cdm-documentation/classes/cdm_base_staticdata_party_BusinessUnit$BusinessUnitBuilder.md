@@ -18,16 +18,16 @@
 
 - `BusinessUnitBuilder setName(String arg0)`
 - `BusinessUnitBuilder setIdentifier(Identifier arg0)`
-- `BusinessUnitBuilder setContactInformation(ContactInformation arg0)`
 - `BusinessUnitBuilder setMeta(MetaFields arg0)`
+- `BusinessUnitBuilder setContactInformation(ContactInformation arg0)`
 
 #### Getter Methods
 
 - `IdentifierBuilder getOrCreateIdentifier()`
-- `ContactInformationBuilder getContactInformation()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `ContactInformationBuilder getOrCreateContactInformation()`
+- `ContactInformationBuilder getContactInformation()`
 - `MetaFieldsBuilder getMeta()`
+- `ContactInformationBuilder getOrCreateContactInformation()`
 - `IdentifierBuilder getIdentifier()`
 
 #### Other Methods

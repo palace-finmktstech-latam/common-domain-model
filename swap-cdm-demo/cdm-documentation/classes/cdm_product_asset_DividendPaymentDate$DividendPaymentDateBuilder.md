@@ -15,16 +15,16 @@
 
 #### Setter Methods
 
+- `DividendPaymentDateBuilder setDividendDateValue(AdjustableOrRelativeDate arg0)`
 - `DividendPaymentDateBuilder setDividendDate(ReferenceWithMetaAdjustableOrRelativeDate arg0)`
 - `DividendPaymentDateBuilder setDividendDateReference(DividendDateReference arg0)`
-- `DividendPaymentDateBuilder setDividendDateValue(AdjustableOrRelativeDate arg0)`
 
 #### Getter Methods
 
-- `DividendDateReferenceBuilder getOrCreateDividendDateReference()`
 - `ReferenceWithMetaAdjustableOrRelativeDateBuilder getOrCreateDividendDate()`
-- `DividendDateReferenceBuilder getDividendDateReference()`
 - `ReferenceWithMetaAdjustableOrRelativeDateBuilder getDividendDate()`
+- `DividendDateReferenceBuilder getDividendDateReference()`
+- `DividendDateReferenceBuilder getOrCreateDividendDateReference()`
 
 #### Other Methods
 

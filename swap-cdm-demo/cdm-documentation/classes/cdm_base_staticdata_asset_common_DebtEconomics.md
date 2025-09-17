@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `DebtSeniorityEnum getDebtSeniority()`
 - `DebtInterestEnum getDebtInterest()`
 - `DebtPrincipalEnum getDebtPrincipal()`
+- `DebtSeniorityEnum getDebtSeniority()`
 
 #### Other Methods
 

@@ -15,9 +15,9 @@
 
 #### Setter Methods
 
-- `ContractualTermsSupplementBuilder setContractualTermsSupplementType(FieldWithMetaContractualSupplementTypeEnum arg0)`
-- `ContractualTermsSupplementBuilder setContractualTermsSupplementTypeValue(ContractualSupplementTypeEnum arg0)`
 - `ContractualTermsSupplementBuilder setPublicationDate(Date arg0)`
+- `ContractualTermsSupplementBuilder setContractualTermsSupplementTypeValue(ContractualSupplementTypeEnum arg0)`
+- `ContractualTermsSupplementBuilder setContractualTermsSupplementType(FieldWithMetaContractualSupplementTypeEnum arg0)`
 
 #### Getter Methods
 

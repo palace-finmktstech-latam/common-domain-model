@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `FixedRateSpecification getFixedRateSpecification()`
 - `InflationRateSpecification getInflationRateSpecification()`
 - `FloatingRateSpecification getFloatingRateSpecification()`
+- `FixedRateSpecification getFixedRateSpecification()`
 
 #### Other Methods
 

@@ -146,8 +146,8 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `AveragingCalculationMethod` [Builder]
-- `getCalculationMethod()` → `AveragingCalculationMethodEnum` [Getter]
 - `getIsWeighted()` → `Boolean` [Getter]
+- `getCalculationMethod()` → `AveragingCalculationMethodEnum` [Getter]
 
 ### AveragingCalculationMethodBuilder
 **Implements:** `AveragingCalculationMethod` `RosettaModelObjectBuilder` 
@@ -173,8 +173,8 @@
 - `setValue(BigDecimal arg0)` → `DatedValueBuilder` [Setter]
 - `setDate(Date arg0)` → `DatedValueBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `DatedValueBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `DatedValueBuilder` [Setter]
 
 ### Measure
 **Implements:** `MeasureBase` 
@@ -223,8 +223,8 @@
 - `setValue(BigDecimal arg0)` → `MeasureScheduleBuilder` [Setter]
 - `getDatedValue()` → `List` [Getter]
 - `setDatedValue(List arg0)` → `MeasureScheduleBuilder` [Setter]
-- `getOrCreateDatedValue(int arg0)` → `DatedValueBuilder` [Getter]
 - `setUnit(UnitType arg0)` → `MeasureScheduleBuilder` [Setter]
+- `getOrCreateDatedValue(int arg0)` → `DatedValueBuilder` [Getter]
 
 ### MoneyBound
 **Implements:** `RosettaModelObject` 
@@ -232,17 +232,17 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `MoneyBound` [Builder]
-- `getInclusive()` → `Boolean` [Getter]
 - `getMoney()` → `Money` [Getter]
+- `getInclusive()` → `Boolean` [Getter]
 
 ### MoneyBoundBuilder
 **Implements:** `MoneyBound` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
+- `getMoney()` → `MoneyBuilder` [Getter]
+- `setMoney(Money arg0)` → `MoneyBoundBuilder` [Setter]
 - `setInclusive(Boolean arg0)` → `MoneyBoundBuilder` [Setter]
 - `getOrCreateMoney()` → `MoneyBuilder` [Getter]
-- `setMoney(Money arg0)` → `MoneyBoundBuilder` [Setter]
-- `getMoney()` → `MoneyBuilder` [Getter]
 
 ### MoneyRange
 **Implements:** `RosettaModelObject` 
@@ -250,19 +250,19 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `MoneyRange` [Builder]
-- `getLowerBound()` → `MoneyBound` [Getter]
 - `getUpperBound()` → `MoneyBound` [Getter]
+- `getLowerBound()` → `MoneyBound` [Getter]
 
 ### MoneyRangeBuilder
 **Implements:** `MoneyRange` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setLowerBound(MoneyBound arg0)` → `MoneyRangeBuilder` [Setter]
-- `setUpperBound(MoneyBound arg0)` → `MoneyRangeBuilder` [Setter]
-- `getOrCreateUpperBound()` → `MoneyBoundBuilder` [Getter]
-- `getOrCreateLowerBound()` → `MoneyBoundBuilder` [Getter]
-- `getLowerBound()` → `MoneyBoundBuilder` [Getter]
 - `getUpperBound()` → `MoneyBoundBuilder` [Getter]
+- `getLowerBound()` → `MoneyBoundBuilder` [Getter]
+- `getOrCreateLowerBound()` → `MoneyBoundBuilder` [Getter]
+- `getOrCreateUpperBound()` → `MoneyBoundBuilder` [Getter]
+- `setUpperBound(MoneyBound arg0)` → `MoneyRangeBuilder` [Setter]
+- `setLowerBound(MoneyBound arg0)` → `MoneyRangeBuilder` [Setter]
 
 ### NonNegativeQuantity
 **Implements:** `Quantity` 
@@ -278,8 +278,8 @@
 - `setValue(BigDecimal arg0)` → `NonNegativeQuantityBuilder` [Setter]
 - `setMultiplier(Measure arg0)` → `NonNegativeQuantityBuilder` [Setter]
 - `setDatedValue(List arg0)` → `NonNegativeQuantityBuilder` [Setter]
-- `setFrequency(Frequency arg0)` → `NonNegativeQuantityBuilder` [Setter]
 - `setUnit(UnitType arg0)` → `NonNegativeQuantityBuilder` [Setter]
+- `setFrequency(Frequency arg0)` → `NonNegativeQuantityBuilder` [Setter]
 
 ### NonNegativeQuantitySchedule
 **Implements:** `QuantitySchedule` 
@@ -295,8 +295,8 @@
 - `setValue(BigDecimal arg0)` → `NonNegativeQuantityScheduleBuilder` [Setter]
 - `setMultiplier(Measure arg0)` → `NonNegativeQuantityScheduleBuilder` [Setter]
 - `setDatedValue(List arg0)` → `NonNegativeQuantityScheduleBuilder` [Setter]
-- `setFrequency(Frequency arg0)` → `NonNegativeQuantityScheduleBuilder` [Setter]
 - `setUnit(UnitType arg0)` → `NonNegativeQuantityScheduleBuilder` [Setter]
+- `setFrequency(Frequency arg0)` → `NonNegativeQuantityScheduleBuilder` [Setter]
 
 ### NonNegativeStep
 **Implements:** `RosettaModelObject` `GlobalKey` 
@@ -304,19 +304,19 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `NonNegativeStep` [Builder]
-- `getMeta()` → `MetaFields` [Getter]
 - `getStepDate()` → `Date` [Getter]
 - `getStepValue()` → `BigDecimal` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
 
 ### NonNegativeStepBuilder
 **Implements:** `NonNegativeStep` `RosettaModelObjectBuilder` `GlobalKey$GlobalKeyBuilder` 
 
 **Key Methods:**
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `NonNegativeStepBuilder` [Setter]
-- `getMeta()` → `MetaFieldsBuilder` [Getter]
 - `setStepDate(Date arg0)` → `NonNegativeStepBuilder` [Setter]
 - `setStepValue(BigDecimal arg0)` → `NonNegativeStepBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `NonNegativeStepBuilder` [Setter]
 
 ### NumberBound
 **Implements:** `RosettaModelObject` 
@@ -331,8 +331,8 @@
 **Implements:** `NumberBound` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setInclusive(Boolean arg0)` → `NumberBoundBuilder` [Setter]
 - `setNumber(BigDecimal arg0)` → `NumberBoundBuilder` [Setter]
+- `setInclusive(Boolean arg0)` → `NumberBoundBuilder` [Setter]
 
 ### NumberRange
 **Implements:** `RosettaModelObject` 
@@ -340,19 +340,19 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `NumberRange` [Builder]
-- `getLowerBound()` → `NumberBound` [Getter]
 - `getUpperBound()` → `NumberBound` [Getter]
+- `getLowerBound()` → `NumberBound` [Getter]
 
 ### NumberRangeBuilder
 **Implements:** `NumberRange` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setLowerBound(NumberBound arg0)` → `NumberRangeBuilder` [Setter]
-- `setUpperBound(NumberBound arg0)` → `NumberRangeBuilder` [Setter]
-- `getOrCreateUpperBound()` → `NumberBoundBuilder` [Getter]
-- `getOrCreateLowerBound()` → `NumberBoundBuilder` [Getter]
-- `getLowerBound()` → `NumberBoundBuilder` [Getter]
 - `getUpperBound()` → `NumberBoundBuilder` [Getter]
+- `getLowerBound()` → `NumberBoundBuilder` [Getter]
+- `getOrCreateLowerBound()` → `NumberBoundBuilder` [Getter]
+- `getOrCreateUpperBound()` → `NumberBoundBuilder` [Getter]
+- `setUpperBound(NumberBound arg0)` → `NumberRangeBuilder` [Setter]
+- `setLowerBound(NumberBound arg0)` → `NumberRangeBuilder` [Setter]
 
 ### Quantity
 **Implements:** `QuantitySchedule` 
@@ -368,8 +368,8 @@
 - `setValue(BigDecimal arg0)` → `QuantityBuilder` [Setter]
 - `setMultiplier(Measure arg0)` → `QuantityBuilder` [Setter]
 - `setDatedValue(List arg0)` → `QuantityBuilder` [Setter]
-- `setFrequency(Frequency arg0)` → `QuantityBuilder` [Setter]
 - `setUnit(UnitType arg0)` → `QuantityBuilder` [Setter]
+- `setFrequency(Frequency arg0)` → `QuantityBuilder` [Setter]
 
 ### QuantitySchedule
 **Implements:** `MeasureSchedule` 
@@ -389,10 +389,10 @@
 - `setMultiplier(Measure arg0)` → `QuantityScheduleBuilder` [Setter]
 - `getFrequency()` → `FrequencyBuilder` [Getter]
 - `setDatedValue(List arg0)` → `QuantityScheduleBuilder` [Setter]
+- `setUnit(UnitType arg0)` → `QuantityScheduleBuilder` [Setter]
+- `setFrequency(Frequency arg0)` → `QuantityScheduleBuilder` [Setter]
 - `getOrCreateFrequency()` → `FrequencyBuilder` [Getter]
 - `getOrCreateMultiplier()` → `MeasureBuilder` [Getter]
-- `setFrequency(Frequency arg0)` → `QuantityScheduleBuilder` [Setter]
-- `setUnit(UnitType arg0)` → `QuantityScheduleBuilder` [Setter]
 
 ### Rounding
 **Implements:** `RosettaModelObject` 
@@ -400,8 +400,8 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `Rounding` [Builder]
-- `getRoundingDirection()` → `RoundingDirectionEnum` [Getter]
 - `getPrecision()` → `Integer` [Getter]
+- `getRoundingDirection()` → `RoundingDirectionEnum` [Getter]
 
 ### RoundingBuilder
 **Implements:** `Rounding` `RosettaModelObjectBuilder` 
@@ -435,9 +435,9 @@
 - `getType()` → `Class` [Getter]
 - `build()` → `UnitType` [Builder]
 - `getCurrency()` → `FieldWithMetaString` [Getter]
-- `getWeatherUnit()` → `WeatherUnitEnum` [Getter]
-- `getCapacityUnit()` → `CapacityUnitEnum` [Getter]
 - `getFinancialUnit()` → `FinancialUnitEnum` [Getter]
+- `getCapacityUnit()` → `CapacityUnitEnum` [Getter]
+- `getWeatherUnit()` → `WeatherUnitEnum` [Getter]
 
 ### UnitTypeBuilder
 **Implements:** `UnitType` `RosettaModelObjectBuilder` 
@@ -445,11 +445,11 @@
 **Key Methods:**
 - `getCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrency(FieldWithMetaString arg0)` → `UnitTypeBuilder` [Setter]
-- `setWeatherUnit(WeatherUnitEnum arg0)` → `UnitTypeBuilder` [Setter]
-- `setCapacityUnit(CapacityUnitEnum arg0)` → `UnitTypeBuilder` [Setter]
+- `setCurrencyValue(String arg0)` → `UnitTypeBuilder` [Setter]
 - `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setFinancialUnit(FinancialUnitEnum arg0)` → `UnitTypeBuilder` [Setter]
-- `setCurrencyValue(String arg0)` → `UnitTypeBuilder` [Setter]
+- `setCapacityUnit(CapacityUnitEnum arg0)` → `UnitTypeBuilder` [Setter]
+- `setWeatherUnit(WeatherUnitEnum arg0)` → `UnitTypeBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -462,19 +462,19 @@
 
 **Key Methods:**
 - `build()` → `AveragingCalculationMethod` [Builder]
-- `getCalculationMethod()` → `AveragingCalculationMethodEnum` [Getter]
 - `setIsWeighted(Boolean arg0)` → `AveragingCalculationMethodBuilder` [Setter]
-- `setCalculationMethod(AveragingCalculationMethodEnum arg0)` → `AveragingCalculationMethodBuilder` [Setter]
 - `getIsWeighted()` → `Boolean` [Getter]
+- `getCalculationMethod()` → `AveragingCalculationMethodEnum` [Getter]
+- `setCalculationMethod(AveragingCalculationMethodEnum arg0)` → `AveragingCalculationMethodBuilder` [Setter]
 
 ### AveragingCalculationMethodImpl
 **Implements:** `AveragingCalculationMethod` 
 
 **Key Methods:**
 - `build()` → `AveragingCalculationMethod` [Builder]
-- `getCalculationMethod()` → `AveragingCalculationMethodEnum` [Getter]
-- `getIsWeighted()` → `Boolean` [Getter]
 - `setBuilderFields(AveragingCalculationMethodBuilder arg0)` → `void` [Setter]
+- `getIsWeighted()` → `Boolean` [Getter]
+- `getCalculationMethod()` → `AveragingCalculationMethodEnum` [Getter]
 
 ### DatedValueBuilderImpl
 **Implements:** `DatedValue$DatedValueBuilder` 
@@ -491,8 +491,8 @@
 - `setDate(Date arg0)` → `DatedValueBuilder` [Setter]
 - `getDate()` → `Date` [Getter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `DatedValueBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `DatedValueBuilder` [Setter]
 
 ### DatedValueImpl
 **Implements:** `DatedValue` 
@@ -557,8 +557,8 @@
 - `build()` → `MeasureSchedule` [Builder]
 - `getDatedValue()` → `List` [Getter]
 - `setDatedValue(List arg0)` → `MeasureScheduleBuilder` [Setter]
-- `getOrCreateDatedValue(int arg0)` → `DatedValueBuilder` [Getter]
 - `setUnit(UnitType arg0)` → `MeasureScheduleBuilder` [Setter]
+- `getOrCreateDatedValue(int arg0)` → `DatedValueBuilder` [Getter]
 
 ### MeasureScheduleImpl
 **Extends:** `MeasureBase$MeasureBaseImpl` 
@@ -578,20 +578,20 @@
 
 **Key Methods:**
 - `build()` → `MoneyBound` [Builder]
+- `getMoney()` → `MoneyBuilder` [Getter]
+- `setMoney(Money arg0)` → `MoneyBoundBuilder` [Setter]
 - `getInclusive()` → `Boolean` [Getter]
 - `setInclusive(Boolean arg0)` → `MoneyBoundBuilder` [Setter]
 - `getOrCreateMoney()` → `MoneyBuilder` [Getter]
-- `setMoney(Money arg0)` → `MoneyBoundBuilder` [Setter]
-- `getMoney()` → `MoneyBuilder` [Getter]
 
 ### MoneyBoundImpl
 **Implements:** `MoneyBound` 
 
 **Key Methods:**
 - `build()` → `MoneyBound` [Builder]
-- `getInclusive()` → `Boolean` [Getter]
 - `setBuilderFields(MoneyBoundBuilder arg0)` → `void` [Setter]
 - `getMoney()` → `Money` [Getter]
+- `getInclusive()` → `Boolean` [Getter]
 
 ### MoneyRangeBuilderImpl
 **Implements:** `MoneyRange$MoneyRangeBuilder` 
@@ -602,12 +602,12 @@
 
 **Key Methods:**
 - `build()` → `MoneyRange` [Builder]
-- `setLowerBound(MoneyBound arg0)` → `MoneyRangeBuilder` [Setter]
-- `setUpperBound(MoneyBound arg0)` → `MoneyRangeBuilder` [Setter]
-- `getOrCreateUpperBound()` → `MoneyBoundBuilder` [Getter]
-- `getOrCreateLowerBound()` → `MoneyBoundBuilder` [Getter]
-- `getLowerBound()` → `MoneyBoundBuilder` [Getter]
 - `getUpperBound()` → `MoneyBoundBuilder` [Getter]
+- `getLowerBound()` → `MoneyBoundBuilder` [Getter]
+- `getOrCreateLowerBound()` → `MoneyBoundBuilder` [Getter]
+- `getOrCreateUpperBound()` → `MoneyBoundBuilder` [Getter]
+- `setUpperBound(MoneyBound arg0)` → `MoneyRangeBuilder` [Setter]
+- `setLowerBound(MoneyBound arg0)` → `MoneyRangeBuilder` [Setter]
 
 ### MoneyRangeImpl
 **Implements:** `MoneyRange` 
@@ -615,8 +615,8 @@
 **Key Methods:**
 - `build()` → `MoneyRange` [Builder]
 - `setBuilderFields(MoneyRangeBuilder arg0)` → `void` [Setter]
-- `getLowerBound()` → `MoneyBound` [Getter]
 - `getUpperBound()` → `MoneyBound` [Getter]
+- `getLowerBound()` → `MoneyBound` [Getter]
 
 ### NonNegativeQuantityBuilderImpl
 **Extends:** `Quantity$QuantityBuilderImpl` 
@@ -627,8 +627,8 @@
 - `build()` → `NonNegativeQuantity` [Builder]
 - `setMultiplier(Measure arg0)` → `NonNegativeQuantityBuilder` [Setter]
 - `setDatedValue(List arg0)` → `NonNegativeQuantityBuilder` [Setter]
-- `setFrequency(Frequency arg0)` → `NonNegativeQuantityBuilder` [Setter]
 - `setUnit(UnitType arg0)` → `NonNegativeQuantityBuilder` [Setter]
+- `setFrequency(Frequency arg0)` → `NonNegativeQuantityBuilder` [Setter]
 
 ### NonNegativeQuantityImpl
 **Extends:** `Quantity$QuantityImpl` 
@@ -647,8 +647,8 @@
 - `build()` → `NonNegativeQuantitySchedule` [Builder]
 - `setMultiplier(Measure arg0)` → `NonNegativeQuantityScheduleBuilder` [Setter]
 - `setDatedValue(List arg0)` → `NonNegativeQuantityScheduleBuilder` [Setter]
-- `setFrequency(Frequency arg0)` → `NonNegativeQuantityScheduleBuilder` [Setter]
 - `setUnit(UnitType arg0)` → `NonNegativeQuantityScheduleBuilder` [Setter]
+- `setFrequency(Frequency arg0)` → `NonNegativeQuantityScheduleBuilder` [Setter]
 
 ### NonNegativeQuantityScheduleImpl
 **Extends:** `QuantitySchedule$QuantityScheduleImpl` 
@@ -669,12 +669,12 @@
 **Key Methods:**
 - `build()` → `NonNegativeStep` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `NonNegativeStepBuilder` [Setter]
-- `getMeta()` → `MetaFieldsBuilder` [Getter]
 - `getStepDate()` → `Date` [Getter]
 - `getStepValue()` → `BigDecimal` [Getter]
 - `setStepDate(Date arg0)` → `NonNegativeStepBuilder` [Setter]
 - `setStepValue(BigDecimal arg0)` → `NonNegativeStepBuilder` [Setter]
+- `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `NonNegativeStepBuilder` [Setter]
 
 ### NonNegativeStepImpl
 **Implements:** `NonNegativeStep` 
@@ -682,9 +682,9 @@
 **Key Methods:**
 - `build()` → `NonNegativeStep` [Builder]
 - `setBuilderFields(NonNegativeStepBuilder arg0)` → `void` [Setter]
-- `getMeta()` → `MetaFields` [Getter]
 - `getStepDate()` → `Date` [Getter]
 - `getStepValue()` → `BigDecimal` [Getter]
+- `getMeta()` → `MetaFields` [Getter]
 
 ### NumberBoundBuilderImpl
 **Implements:** `NumberBound$NumberBoundBuilder` 
@@ -696,9 +696,9 @@
 **Key Methods:**
 - `build()` → `NumberBound` [Builder]
 - `getNumber()` → `BigDecimal` [Getter]
+- `setNumber(BigDecimal arg0)` → `NumberBoundBuilder` [Setter]
 - `getInclusive()` → `Boolean` [Getter]
 - `setInclusive(Boolean arg0)` → `NumberBoundBuilder` [Setter]
-- `setNumber(BigDecimal arg0)` → `NumberBoundBuilder` [Setter]
 
 ### NumberBoundImpl
 **Implements:** `NumberBound` 
@@ -706,8 +706,8 @@
 **Key Methods:**
 - `build()` → `NumberBound` [Builder]
 - `getNumber()` → `BigDecimal` [Getter]
-- `getInclusive()` → `Boolean` [Getter]
 - `setBuilderFields(NumberBoundBuilder arg0)` → `void` [Setter]
+- `getInclusive()` → `Boolean` [Getter]
 
 ### NumberRangeBuilderImpl
 **Implements:** `NumberRange$NumberRangeBuilder` 
@@ -718,12 +718,12 @@
 
 **Key Methods:**
 - `build()` → `NumberRange` [Builder]
-- `setLowerBound(NumberBound arg0)` → `NumberRangeBuilder` [Setter]
-- `setUpperBound(NumberBound arg0)` → `NumberRangeBuilder` [Setter]
-- `getOrCreateUpperBound()` → `NumberBoundBuilder` [Getter]
-- `getOrCreateLowerBound()` → `NumberBoundBuilder` [Getter]
-- `getLowerBound()` → `NumberBoundBuilder` [Getter]
 - `getUpperBound()` → `NumberBoundBuilder` [Getter]
+- `getLowerBound()` → `NumberBoundBuilder` [Getter]
+- `getOrCreateLowerBound()` → `NumberBoundBuilder` [Getter]
+- `getOrCreateUpperBound()` → `NumberBoundBuilder` [Getter]
+- `setUpperBound(NumberBound arg0)` → `NumberRangeBuilder` [Setter]
+- `setLowerBound(NumberBound arg0)` → `NumberRangeBuilder` [Setter]
 
 ### NumberRangeImpl
 **Implements:** `NumberRange` 
@@ -731,8 +731,8 @@
 **Key Methods:**
 - `build()` → `NumberRange` [Builder]
 - `setBuilderFields(NumberRangeBuilder arg0)` → `void` [Setter]
-- `getLowerBound()` → `NumberBound` [Getter]
 - `getUpperBound()` → `NumberBound` [Getter]
+- `getLowerBound()` → `NumberBound` [Getter]
 
 ### QuantityBuilderImpl
 **Extends:** `QuantitySchedule$QuantityScheduleBuilderImpl` 
@@ -743,8 +743,8 @@
 - `build()` → `Quantity` [Builder]
 - `setMultiplier(Measure arg0)` → `QuantityBuilder` [Setter]
 - `setDatedValue(List arg0)` → `QuantityBuilder` [Setter]
-- `setFrequency(Frequency arg0)` → `QuantityBuilder` [Setter]
 - `setUnit(UnitType arg0)` → `QuantityBuilder` [Setter]
+- `setFrequency(Frequency arg0)` → `QuantityBuilder` [Setter]
 
 ### QuantityImpl
 **Extends:** `QuantitySchedule$QuantityScheduleImpl` 
@@ -769,10 +769,10 @@
 - `setMultiplier(Measure arg0)` → `QuantityScheduleBuilder` [Setter]
 - `getFrequency()` → `FrequencyBuilder` [Getter]
 - `setDatedValue(List arg0)` → `QuantityScheduleBuilder` [Setter]
+- `setUnit(UnitType arg0)` → `QuantityScheduleBuilder` [Setter]
+- `setFrequency(Frequency arg0)` → `QuantityScheduleBuilder` [Setter]
 - `getOrCreateFrequency()` → `FrequencyBuilder` [Getter]
 - `getOrCreateMultiplier()` → `MeasureBuilder` [Getter]
-- `setFrequency(Frequency arg0)` → `QuantityScheduleBuilder` [Setter]
-- `setUnit(UnitType arg0)` → `QuantityScheduleBuilder` [Setter]
 
 ### QuantityScheduleImpl
 **Extends:** `MeasureSchedule$MeasureScheduleImpl` 
@@ -793,19 +793,19 @@
 
 **Key Methods:**
 - `build()` → `Rounding` [Builder]
+- `getPrecision()` → `Integer` [Getter]
 - `getRoundingDirection()` → `RoundingDirectionEnum` [Getter]
 - `setRoundingDirection(RoundingDirectionEnum arg0)` → `RoundingBuilder` [Setter]
 - `setPrecision(Integer arg0)` → `RoundingBuilder` [Setter]
-- `getPrecision()` → `Integer` [Getter]
 
 ### RoundingImpl
 **Implements:** `Rounding` 
 
 **Key Methods:**
 - `build()` → `Rounding` [Builder]
-- `getRoundingDirection()` → `RoundingDirectionEnum` [Getter]
 - `setBuilderFields(RoundingBuilder arg0)` → `void` [Setter]
 - `getPrecision()` → `Integer` [Getter]
+- `getRoundingDirection()` → `RoundingDirectionEnum` [Getter]
 
 ### ScheduleBuilderImpl
 **Implements:** `Schedule$ScheduleBuilder` 
@@ -844,13 +844,13 @@
 - `build()` → `UnitType` [Builder]
 - `getCurrency()` → `FieldWithMetaStringBuilder` [Getter]
 - `setCurrency(FieldWithMetaString arg0)` → `UnitTypeBuilder` [Setter]
-- `setWeatherUnit(WeatherUnitEnum arg0)` → `UnitTypeBuilder` [Setter]
-- `setCapacityUnit(CapacityUnitEnum arg0)` → `UnitTypeBuilder` [Setter]
-- `getWeatherUnit()` → `WeatherUnitEnum` [Getter]
-- `getCapacityUnit()` → `CapacityUnitEnum` [Getter]
 - `getFinancialUnit()` → `FinancialUnitEnum` [Getter]
+- `setCurrencyValue(String arg0)` → `UnitTypeBuilder` [Setter]
 - `getOrCreateCurrency()` → `FieldWithMetaStringBuilder` [Getter]
+- `getCapacityUnit()` → `CapacityUnitEnum` [Getter]
+- `getWeatherUnit()` → `WeatherUnitEnum` [Getter]
 - `setFinancialUnit(FinancialUnitEnum arg0)` → `UnitTypeBuilder` [Setter]
+- `setCapacityUnit(CapacityUnitEnum arg0)` → `UnitTypeBuilder` [Setter]
 
 ### UnitTypeImpl
 **Implements:** `UnitType` 
@@ -858,8 +858,8 @@
 **Key Methods:**
 - `build()` → `UnitType` [Builder]
 - `getCurrency()` → `FieldWithMetaString` [Getter]
-- `getWeatherUnit()` → `WeatherUnitEnum` [Getter]
-- `getCapacityUnit()` → `CapacityUnitEnum` [Getter]
 - `setBuilderFields(UnitTypeBuilder arg0)` → `void` [Setter]
 - `getFinancialUnit()` → `FinancialUnitEnum` [Getter]
+- `getCapacityUnit()` → `CapacityUnitEnum` [Getter]
+- `getWeatherUnit()` → `WeatherUnitEnum` [Getter]
 

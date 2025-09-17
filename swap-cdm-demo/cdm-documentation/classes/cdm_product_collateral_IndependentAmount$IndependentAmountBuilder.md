@@ -15,26 +15,26 @@
 
 #### Setter Methods
 
-- `IndependentAmountBuilder setPaymentDetail(List arg0)`
-- `IndependentAmountBuilder setPayerPartyReference(ReferenceWithMetaParty arg0)`
-- `IndependentAmountBuilder setPayerAccountReference(ReferenceWithMetaAccount arg0)`
-- `IndependentAmountBuilder setReceiverPartyReference(ReferenceWithMetaParty arg0)`
 - `IndependentAmountBuilder setPayerPartyReferenceValue(Party arg0)`
 - `IndependentAmountBuilder setReceiverPartyReferenceValue(Party arg0)`
 - `IndependentAmountBuilder setReceiverAccountReference(ReferenceWithMetaAccount arg0)`
-- `IndependentAmountBuilder setPayerAccountReferenceValue(Account arg0)`
 - `IndependentAmountBuilder setReceiverAccountReferenceValue(Account arg0)`
+- `IndependentAmountBuilder setPayerAccountReferenceValue(Account arg0)`
+- `IndependentAmountBuilder setReceiverPartyReference(ReferenceWithMetaParty arg0)`
+- `IndependentAmountBuilder setPayerPartyReference(ReferenceWithMetaParty arg0)`
+- `IndependentAmountBuilder setPaymentDetail(List arg0)`
+- `IndependentAmountBuilder setPayerAccountReference(ReferenceWithMetaAccount arg0)`
 
 #### Getter Methods
 
-- `PaymentDetailBuilder getOrCreatePaymentDetail(int arg0)`
 - `List getPaymentDetail()`
+- `PaymentDetailBuilder getOrCreatePaymentDetail(int arg0)`
 
 #### Adder Methods
 
-- `IndependentAmountBuilder addPaymentDetail(List arg0)`
 - `IndependentAmountBuilder addPaymentDetail(PaymentDetail arg0, int arg1)`
 - `IndependentAmountBuilder addPaymentDetail(PaymentDetail arg0)`
+- `IndependentAmountBuilder addPaymentDetail(List arg0)`
 
 #### Other Methods
 

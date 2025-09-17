@@ -31,44 +31,44 @@
 #### Setter Methods
 
 - `TradeStateBuilder setState(State arg0)`
-- `TradeStateBuilder setObservationHistory(List arg0)`
 - `TradeStateBuilder setTransferHistory(List arg0)`
 - `TradeStateBuilder setResetHistory(List arg0)`
 - `TradeStateBuilder setValuationHistory(List arg0)`
-- `TradeStateBuilder setMeta(MetaFields arg0)`
+- `TradeStateBuilder setObservationHistory(List arg0)`
 - `TradeStateBuilder setTrade(Trade arg0)`
+- `TradeStateBuilder setMeta(MetaFields arg0)`
 
 #### Getter Methods
 
 - `StateBuilder getState()`
-- `StateBuilder getOrCreateState()`
-- `MetaFieldsBuilder getOrCreateMeta()`
 - `TradeBuilder getOrCreateTrade()`
-- `List getResetHistory()`
-- `ResetBuilder getOrCreateResetHistory(int arg0)`
-- `List getTransferHistory()`
-- `TransferStateBuilder getOrCreateTransferHistory(int arg0)`
+- `StateBuilder getOrCreateState()`
 - `List getObservationHistory()`
+- `List getTransferHistory()`
+- `List getResetHistory()`
+- `TransferStateBuilder getOrCreateTransferHistory(int arg0)`
+- `ResetBuilder getOrCreateResetHistory(int arg0)`
 - `List getValuationHistory()`
-- `TradeBuilder getTrade()`
-- `MetaFieldsBuilder getMeta()`
+- `MetaFieldsBuilder getOrCreateMeta()`
 - `ObservationEventBuilder getOrCreateObservationHistory(int arg0)`
 - `ValuationBuilder getOrCreateValuationHistory(int arg0)`
+- `TradeBuilder getTrade()`
+- `MetaFieldsBuilder getMeta()`
 
 #### Adder Methods
 
-- `TradeStateBuilder addValuationHistory(Valuation arg0, int arg1)`
-- `TradeStateBuilder addValuationHistory(Valuation arg0)`
-- `TradeStateBuilder addValuationHistory(List arg0)`
-- `TradeStateBuilder addObservationHistory(List arg0)`
-- `TradeStateBuilder addObservationHistory(ObservationEvent arg0, int arg1)`
-- `TradeStateBuilder addObservationHistory(ObservationEvent arg0)`
-- `TradeStateBuilder addTransferHistory(List arg0)`
-- `TradeStateBuilder addTransferHistory(TransferState arg0)`
-- `TradeStateBuilder addTransferHistory(TransferState arg0, int arg1)`
+- `TradeStateBuilder addResetHistory(Reset arg0, int arg1)`
 - `TradeStateBuilder addResetHistory(Reset arg0)`
 - `TradeStateBuilder addResetHistory(List arg0)`
-- `TradeStateBuilder addResetHistory(Reset arg0, int arg1)`
+- `TradeStateBuilder addTransferHistory(TransferState arg0, int arg1)`
+- `TradeStateBuilder addTransferHistory(List arg0)`
+- `TradeStateBuilder addTransferHistory(TransferState arg0)`
+- `TradeStateBuilder addObservationHistory(List arg0)`
+- `TradeStateBuilder addObservationHistory(ObservationEvent arg0)`
+- `TradeStateBuilder addObservationHistory(ObservationEvent arg0, int arg1)`
+- `TradeStateBuilder addValuationHistory(Valuation arg0)`
+- `TradeStateBuilder addValuationHistory(List arg0)`
+- `TradeStateBuilder addValuationHistory(Valuation arg0, int arg1)`
 
 #### Other Methods
 
@@ -76,7 +76,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TradeStateBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TradeStateBuilder toBuilder()`
 - `TradeStateBuilder prune()`
+- `TradeStateBuilder toBuilder()`
+- `boolean hasData()`
 

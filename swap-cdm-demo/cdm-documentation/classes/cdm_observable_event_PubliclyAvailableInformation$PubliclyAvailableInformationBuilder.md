@@ -21,8 +21,8 @@
 
 #### Adder Methods
 
-- `PubliclyAvailableInformationBuilder addPublicSource(String arg0)`
 - `PubliclyAvailableInformationBuilder addPublicSource(List arg0)`
+- `PubliclyAvailableInformationBuilder addPublicSource(String arg0)`
 - `PubliclyAvailableInformationBuilder addPublicSource(String arg0, int arg1)`
 
 #### Other Methods

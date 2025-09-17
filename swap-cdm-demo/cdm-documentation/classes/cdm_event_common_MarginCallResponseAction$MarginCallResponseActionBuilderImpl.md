@@ -37,8 +37,8 @@
 #### Adder Methods
 
 - `MarginCallResponseActionBuilder addCollateralPositionComponent(CollateralPosition arg0)`
-- `MarginCallResponseActionBuilder addCollateralPositionComponent(CollateralPosition arg0, int arg1)`
 - `MarginCallResponseActionBuilder addCollateralPositionComponent(List arg0)`
+- `MarginCallResponseActionBuilder addCollateralPositionComponent(CollateralPosition arg0, int arg1)`
 
 #### Other Methods
 
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MarginCallResponseActionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MarginCallResponseActionBuilder toBuilder()`
 - `MarginCallResponseActionBuilder prune()`
+- `MarginCallResponseActionBuilder toBuilder()`
+- `boolean hasData()`
 

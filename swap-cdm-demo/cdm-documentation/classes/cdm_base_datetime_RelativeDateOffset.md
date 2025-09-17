@@ -19,10 +19,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `BusinessDayConventionEnum getBusinessDayConvention()`
+- `Date getAdjustedDate()`
 - `BusinessCenters getBusinessCenters()`
 - `ReferenceWithMetaDate getDateRelativeTo()`
-- `Date getAdjustedDate()`
+- `BusinessDayConventionEnum getBusinessDayConvention()`
 - `ReferenceWithMetaBusinessCenters getBusinessCentersReference()`
 
 #### Other Methods

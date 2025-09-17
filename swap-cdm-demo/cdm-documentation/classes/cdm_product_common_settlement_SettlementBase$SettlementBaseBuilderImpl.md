@@ -32,29 +32,29 @@
 #### Setter Methods
 
 - `SettlementBaseBuilder setSettlementDate(SettlementDate arg0)`
-- `SettlementBaseBuilder setSettlementType(SettlementTypeEnum arg0)`
-- `SettlementBaseBuilder setTransferSettlementType(TransferSettlementEnum arg0)`
-- `SettlementBaseBuilder setSettlementProvision(SettlementProvision arg0)`
-- `SettlementBaseBuilder setSettlementCurrency(FieldWithMetaString arg0)`
-- `SettlementBaseBuilder setSettlementCurrencyValue(String arg0)`
-- `SettlementBaseBuilder setSettlementCentre(SettlementCentreEnum arg0)`
-- `SettlementBaseBuilder setStandardSettlementStyle(StandardSettlementStyleEnum arg0)`
 - `SettlementBaseBuilder setMeta(MetaFields arg0)`
+- `SettlementBaseBuilder setTransferSettlementType(TransferSettlementEnum arg0)`
+- `SettlementBaseBuilder setStandardSettlementStyle(StandardSettlementStyleEnum arg0)`
+- `SettlementBaseBuilder setSettlementCurrencyValue(String arg0)`
+- `SettlementBaseBuilder setSettlementCurrency(FieldWithMetaString arg0)`
+- `SettlementBaseBuilder setSettlementCentre(SettlementCentreEnum arg0)`
+- `SettlementBaseBuilder setSettlementType(SettlementTypeEnum arg0)`
+- `SettlementBaseBuilder setSettlementProvision(SettlementProvision arg0)`
 
 #### Getter Methods
 
-- `SettlementProvisionBuilder getSettlementProvision()`
+- `SettlementDateBuilder getOrCreateSettlementDate()`
+- `SettlementDateBuilder getSettlementDate()`
+- `MetaFieldsBuilder getOrCreateMeta()`
+- `MetaFieldsBuilder getMeta()`
+- `FieldWithMetaStringBuilder getSettlementCurrency()`
+- `FieldWithMetaStringBuilder getOrCreateSettlementCurrency()`
+- `SettlementProvisionBuilder getOrCreateSettlementProvision()`
 - `TransferSettlementEnum getTransferSettlementType()`
+- `SettlementProvisionBuilder getSettlementProvision()`
 - `StandardSettlementStyleEnum getStandardSettlementStyle()`
 - `SettlementTypeEnum getSettlementType()`
 - `SettlementCentreEnum getSettlementCentre()`
-- `SettlementDateBuilder getSettlementDate()`
-- `SettlementDateBuilder getOrCreateSettlementDate()`
-- `MetaFieldsBuilder getOrCreateMeta()`
-- `SettlementProvisionBuilder getOrCreateSettlementProvision()`
-- `FieldWithMetaStringBuilder getOrCreateSettlementCurrency()`
-- `FieldWithMetaStringBuilder getSettlementCurrency()`
-- `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
 
@@ -62,7 +62,7 @@
 - `String toString()`
 - `int hashCode()`
 - `SettlementBaseBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `SettlementBaseBuilder toBuilder()`
 - `SettlementBaseBuilder prune()`
+- `SettlementBaseBuilder toBuilder()`
+- `boolean hasData()`
 

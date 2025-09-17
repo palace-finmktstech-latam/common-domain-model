@@ -15,21 +15,21 @@
 
 #### Setter Methods
 
-- `DeliveryDateParametersBuilder setDeliveryDateRollConvention(Offset arg0)`
-- `DeliveryDateParametersBuilder setDeliveryDateExpirationConvention(Offset arg0)`
 - `DeliveryDateParametersBuilder setDeliveryDate(AdjustableDate arg0)`
 - `DeliveryDateParametersBuilder setDeliveryNearby(Offset arg0)`
+- `DeliveryDateParametersBuilder setDeliveryDateRollConvention(Offset arg0)`
+- `DeliveryDateParametersBuilder setDeliveryDateExpirationConvention(Offset arg0)`
 
 #### Getter Methods
 
-- `OffsetBuilder getOrCreateDeliveryDateRollConvention()`
-- `OffsetBuilder getDeliveryDateExpirationConvention()`
-- `OffsetBuilder getDeliveryDateRollConvention()`
+- `OffsetBuilder getOrCreateDeliveryDateExpirationConvention()`
 - `OffsetBuilder getDeliveryNearby()`
 - `AdjustableDateBuilder getDeliveryDate()`
-- `AdjustableDateBuilder getOrCreateDeliveryDate()`
 - `OffsetBuilder getOrCreateDeliveryNearby()`
-- `OffsetBuilder getOrCreateDeliveryDateExpirationConvention()`
+- `AdjustableDateBuilder getOrCreateDeliveryDate()`
+- `OffsetBuilder getDeliveryDateRollConvention()`
+- `OffsetBuilder getOrCreateDeliveryDateRollConvention()`
+- `OffsetBuilder getDeliveryDateExpirationConvention()`
 
 #### Other Methods
 

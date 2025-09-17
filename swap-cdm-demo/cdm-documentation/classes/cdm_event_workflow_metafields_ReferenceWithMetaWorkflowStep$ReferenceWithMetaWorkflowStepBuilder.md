@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaWorkflowStepBuilder setValue(WorkflowStep arg0)`
-- `ReferenceWithMetaWorkflowStepBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaWorkflowStepBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaWorkflowStepBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaWorkflowStepBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaWorkflowStepBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

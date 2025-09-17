@@ -19,11 +19,11 @@
 #### Getter Methods
 
 - `Class getType()`
-- `ValuationSource getValuationSource()`
+- `ValuationMethodEnum getValuationMethod()`
 - `Money getQuotationAmount()`
 - `Money getMinimumQuotationAmount()`
 - `QuotationRateTypeEnum getQuotationMethod()`
-- `ValuationMethodEnum getValuationMethod()`
+- `ValuationSource getValuationSource()`
 - `CashCollateralValuationMethod getCashCollateralValuationMethod()`
 
 #### Other Methods

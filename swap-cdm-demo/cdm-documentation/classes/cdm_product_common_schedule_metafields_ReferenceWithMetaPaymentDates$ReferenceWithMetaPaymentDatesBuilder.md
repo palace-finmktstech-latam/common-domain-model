@@ -17,9 +17,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaPaymentDatesBuilder setValue(PaymentDates arg0)`
-- `ReferenceWithMetaPaymentDatesBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaPaymentDatesBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaPaymentDatesBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaPaymentDatesBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaPaymentDatesBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 

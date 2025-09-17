@@ -27,18 +27,18 @@
 
 #### Setter Methods
 
-- `StrikeBuilder setStrikeRate(BigDecimal arg0)`
-- `StrikeBuilder setSeller(PayerReceiverEnum arg0)`
-- `StrikeBuilder setBuyer(PayerReceiverEnum arg0)`
 - `StrikeBuilder setMeta(MetaFields arg0)`
+- `StrikeBuilder setStrikeRate(BigDecimal arg0)`
+- `StrikeBuilder setBuyer(PayerReceiverEnum arg0)`
+- `StrikeBuilder setSeller(PayerReceiverEnum arg0)`
 
 #### Getter Methods
 
-- `PayerReceiverEnum getSeller()`
-- `PayerReceiverEnum getBuyer()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `BigDecimal getStrikeRate()`
 - `MetaFieldsBuilder getMeta()`
+- `BigDecimal getStrikeRate()`
+- `PayerReceiverEnum getBuyer()`
+- `PayerReceiverEnum getSeller()`
 
 #### Other Methods
 
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `StrikeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `StrikeBuilder toBuilder()`
 - `StrikeBuilder prune()`
+- `StrikeBuilder toBuilder()`
+- `boolean hasData()`
 

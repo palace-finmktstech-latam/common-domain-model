@@ -19,9 +19,9 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Boolean getOptionsExchangeDividends()`
 - `Boolean getAllDividends()`
 - `Boolean getAdditionalDividends()`
+- `Boolean getOptionsExchangeDividends()`
 
 #### Other Methods
 

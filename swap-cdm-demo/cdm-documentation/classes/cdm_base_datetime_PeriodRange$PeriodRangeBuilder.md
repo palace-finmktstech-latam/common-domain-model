@@ -15,15 +15,15 @@
 
 #### Setter Methods
 
-- `PeriodRangeBuilder setLowerBound(PeriodBound arg0)`
 - `PeriodRangeBuilder setUpperBound(PeriodBound arg0)`
+- `PeriodRangeBuilder setLowerBound(PeriodBound arg0)`
 
 #### Getter Methods
 
-- `PeriodBoundBuilder getOrCreateUpperBound()`
-- `PeriodBoundBuilder getOrCreateLowerBound()`
-- `PeriodBoundBuilder getLowerBound()`
 - `PeriodBoundBuilder getUpperBound()`
+- `PeriodBoundBuilder getLowerBound()`
+- `PeriodBoundBuilder getOrCreateLowerBound()`
+- `PeriodBoundBuilder getOrCreateUpperBound()`
 
 #### Other Methods
 

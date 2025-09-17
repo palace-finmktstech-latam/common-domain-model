@@ -22,10 +22,10 @@
 
 #### Getter Methods
 
-- `List getRelatedExchange()`
-- `Boolean getIsExchangeListed()`
-- `LegalEntity getExchange()`
 - `List getTaxonomy()`
+- `LegalEntity getExchange()`
+- `Boolean getIsExchangeListed()`
+- `List getRelatedExchange()`
 - `List getIdentifier()`
 
 #### Other Methods

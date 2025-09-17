@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaLegalEntityBuilder setValue(LegalEntity arg0)`
-- `ReferenceWithMetaLegalEntityBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaLegalEntityBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaLegalEntityBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaLegalEntityBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaLegalEntityBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaLegalEntityBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaLegalEntityBuilder toBuilder()`
 - `ReferenceWithMetaLegalEntityBuilder prune()`
+- `ReferenceWithMetaLegalEntityBuilder toBuilder()`
+- `boolean hasData()`
 

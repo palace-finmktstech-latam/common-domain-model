@@ -27,20 +27,20 @@
 
 #### Setter Methods
 
-- `SchedulePeriodBuilder setCalculationPeriod(DateRange arg0)`
-- `SchedulePeriodBuilder setDeliveryPeriod(CalculationScheduleDeliveryPeriods arg0)`
 - `SchedulePeriodBuilder setFixingPeriod(DateRange arg0)`
+- `SchedulePeriodBuilder setDeliveryPeriod(CalculationScheduleDeliveryPeriods arg0)`
+- `SchedulePeriodBuilder setCalculationPeriod(DateRange arg0)`
 - `SchedulePeriodBuilder setPaymentDate(Date arg0)`
 
 #### Getter Methods
 
-- `DateRangeBuilder getCalculationPeriod()`
 - `CalculationScheduleDeliveryPeriodsBuilder getDeliveryPeriod()`
 - `DateRangeBuilder getFixingPeriod()`
-- `CalculationScheduleDeliveryPeriodsBuilder getOrCreateDeliveryPeriod()`
 - `DateRangeBuilder getOrCreateFixingPeriod()`
-- `Date getPaymentDate()`
+- `CalculationScheduleDeliveryPeriodsBuilder getOrCreateDeliveryPeriod()`
+- `DateRangeBuilder getCalculationPeriod()`
 - `DateRangeBuilder getOrCreateCalculationPeriod()`
+- `Date getPaymentDate()`
 
 #### Other Methods
 
@@ -48,7 +48,7 @@
 - `String toString()`
 - `int hashCode()`
 - `SchedulePeriodBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `SchedulePeriodBuilder toBuilder()`
 - `SchedulePeriodBuilder prune()`
+- `SchedulePeriodBuilder toBuilder()`
+- `boolean hasData()`
 

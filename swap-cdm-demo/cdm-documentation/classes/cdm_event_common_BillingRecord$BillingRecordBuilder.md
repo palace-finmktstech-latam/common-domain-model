@@ -15,21 +15,21 @@
 
 #### Setter Methods
 
-- `BillingRecordBuilder setRecordEndDate(Date arg0)`
 - `BillingRecordBuilder setMinimumFee(Money arg0)`
 - `BillingRecordBuilder setRecordTransfer(Transfer arg0)`
+- `BillingRecordBuilder setRecordEndDate(Date arg0)`
+- `BillingRecordBuilder setRecordStartDate(Date arg0)`
 - `BillingRecordBuilder setTradeState(ReferenceWithMetaTradeState arg0)`
 - `BillingRecordBuilder setTradeStateValue(TradeState arg0)`
-- `BillingRecordBuilder setRecordStartDate(Date arg0)`
 
 #### Getter Methods
 
 - `ReferenceWithMetaTradeStateBuilder getTradeState()`
-- `MoneyBuilder getMinimumFee()`
-- `TransferBuilder getRecordTransfer()`
-- `ReferenceWithMetaTradeStateBuilder getOrCreateTradeState()`
 - `TransferBuilder getOrCreateRecordTransfer()`
+- `ReferenceWithMetaTradeStateBuilder getOrCreateTradeState()`
 - `MoneyBuilder getOrCreateMinimumFee()`
+- `TransferBuilder getRecordTransfer()`
+- `MoneyBuilder getMinimumFee()`
 
 #### Other Methods
 

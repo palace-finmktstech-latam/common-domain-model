@@ -25,15 +25,15 @@
 
 #### Setter Methods
 
-- `FixedRateSpecificationBuilder setRateSchedule(RateSchedule arg0)`
 - `FixedRateSpecificationBuilder setMeta(MetaFields arg0)`
+- `FixedRateSpecificationBuilder setRateSchedule(RateSchedule arg0)`
 
 #### Getter Methods
 
-- `RateScheduleBuilder getRateSchedule()`
 - `MetaFieldsBuilder getOrCreateMeta()`
-- `RateScheduleBuilder getOrCreateRateSchedule()`
 - `MetaFieldsBuilder getMeta()`
+- `RateScheduleBuilder getOrCreateRateSchedule()`
+- `RateScheduleBuilder getRateSchedule()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FixedRateSpecificationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FixedRateSpecificationBuilder toBuilder()`
 - `FixedRateSpecificationBuilder prune()`
+- `FixedRateSpecificationBuilder toBuilder()`
+- `boolean hasData()`
 

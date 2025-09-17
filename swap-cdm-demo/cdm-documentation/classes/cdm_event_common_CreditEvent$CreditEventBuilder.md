@@ -15,28 +15,28 @@
 
 #### Setter Methods
 
-- `CreditEventBuilder setReferenceInformation(ReferenceInformation arg0)`
-- `CreditEventBuilder setAuctionDate(Date arg0)`
-- `CreditEventBuilder setFinalPrice(Price arg0)`
-- `CreditEventBuilder setRecoveryPercent(BigDecimal arg0)`
-- `CreditEventBuilder setEventDeterminationDate(Date arg0)`
 - `CreditEventBuilder setCreditEventType(CreditEventTypeEnum arg0)`
+- `CreditEventBuilder setEventDeterminationDate(Date arg0)`
+- `CreditEventBuilder setRecoveryPercent(BigDecimal arg0)`
+- `CreditEventBuilder setFinalPrice(Price arg0)`
+- `CreditEventBuilder setAuctionDate(Date arg0)`
+- `CreditEventBuilder setReferenceInformation(ReferenceInformation arg0)`
 - `CreditEventBuilder setPubliclyAvailableInformation(List arg0)`
 
 #### Getter Methods
 
 - `PriceBuilder getOrCreateFinalPrice()`
-- `ReferenceInformationBuilder getReferenceInformation()`
 - `PriceBuilder getFinalPrice()`
-- `ResourceBuilder getOrCreatePubliclyAvailableInformation(int arg0)`
-- `ReferenceInformationBuilder getOrCreateReferenceInformation()`
+- `ReferenceInformationBuilder getReferenceInformation()`
 - `List getPubliclyAvailableInformation()`
+- `ReferenceInformationBuilder getOrCreateReferenceInformation()`
+- `ResourceBuilder getOrCreatePubliclyAvailableInformation(int arg0)`
 
 #### Adder Methods
 
 - `CreditEventBuilder addPubliclyAvailableInformation(List arg0)`
-- `CreditEventBuilder addPubliclyAvailableInformation(Resource arg0, int arg1)`
 - `CreditEventBuilder addPubliclyAvailableInformation(Resource arg0)`
+- `CreditEventBuilder addPubliclyAvailableInformation(Resource arg0, int arg1)`
 
 #### Other Methods
 

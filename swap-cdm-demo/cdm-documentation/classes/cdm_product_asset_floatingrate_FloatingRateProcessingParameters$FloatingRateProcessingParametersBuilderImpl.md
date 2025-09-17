@@ -32,26 +32,26 @@
 #### Setter Methods
 
 - `FloatingRateProcessingParametersBuilder setMultiplier(BigDecimal arg0)`
-- `FloatingRateProcessingParametersBuilder setRounding(Rounding arg0)`
-- `FloatingRateProcessingParametersBuilder setFloorRate(BigDecimal arg0)`
+- `FloatingRateProcessingParametersBuilder setTreatment(RateTreatmentEnum arg0)`
 - `FloatingRateProcessingParametersBuilder setInitialRate(Price arg0)`
+- `FloatingRateProcessingParametersBuilder setFloorRate(BigDecimal arg0)`
+- `FloatingRateProcessingParametersBuilder setRounding(Rounding arg0)`
+- `FloatingRateProcessingParametersBuilder setNegativeTreatment(NegativeInterestRateTreatmentEnum arg0)`
 - `FloatingRateProcessingParametersBuilder setSpread(BigDecimal arg0)`
 - `FloatingRateProcessingParametersBuilder setCapRate(BigDecimal arg0)`
-- `FloatingRateProcessingParametersBuilder setTreatment(RateTreatmentEnum arg0)`
-- `FloatingRateProcessingParametersBuilder setNegativeTreatment(NegativeInterestRateTreatmentEnum arg0)`
 
 #### Getter Methods
 
 - `BigDecimal getMultiplier()`
-- `PriceBuilder getInitialRate()`
+- `RateTreatmentEnum getTreatment()`
+- `PriceBuilder getOrCreateInitialRate()`
+- `BigDecimal getFloorRate()`
 - `RoundingBuilder getOrCreateRounding()`
 - `RoundingBuilder getRounding()`
-- `BigDecimal getFloorRate()`
-- `PriceBuilder getOrCreateInitialRate()`
-- `BigDecimal getSpread()`
-- `BigDecimal getCapRate()`
-- `RateTreatmentEnum getTreatment()`
 - `NegativeInterestRateTreatmentEnum getNegativeTreatment()`
+- `PriceBuilder getInitialRate()`
+- `BigDecimal getCapRate()`
+- `BigDecimal getSpread()`
 
 #### Other Methods
 
@@ -59,7 +59,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FloatingRateProcessingParametersBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FloatingRateProcessingParametersBuilder toBuilder()`
 - `FloatingRateProcessingParametersBuilder prune()`
+- `FloatingRateProcessingParametersBuilder toBuilder()`
+- `boolean hasData()`
 

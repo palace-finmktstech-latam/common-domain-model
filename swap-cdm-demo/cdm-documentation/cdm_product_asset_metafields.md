@@ -18,8 +18,8 @@
 **Key Methods:**
 - `setValue(IndexAnnexSourceEnum arg0)` → `FieldWithMetaIndexAnnexSourceEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaIndexAnnexSourceEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaIndexAnnexSourceEnumBuilder` [Setter]
 
 ### FieldWithMetaSettledEntityMatrixSourceEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -37,8 +37,8 @@
 **Key Methods:**
 - `setValue(SettledEntityMatrixSourceEnum arg0)` → `FieldWithMetaSettledEntityMatrixSourceEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaSettledEntityMatrixSourceEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaSettledEntityMatrixSourceEnumBuilder` [Setter]
 
 ### FieldWithMetaSpreadScheduleTypeEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -56,8 +56,8 @@
 **Key Methods:**
 - `setValue(SpreadScheduleTypeEnum arg0)` → `FieldWithMetaSpreadScheduleTypeEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaSpreadScheduleTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaSpreadScheduleTypeEnumBuilder` [Setter]
 
 ### ReferenceWithMetaFixedRateSpecification
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -67,8 +67,8 @@
 - `getValue()` → `FixedRateSpecification` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaFixedRateSpecification` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaFixedRateSpecificationBuilder
@@ -78,11 +78,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `FixedRateSpecificationBuilder` [Getter]
 - `setValue(FixedRateSpecification arg0)` → `ReferenceWithMetaFixedRateSpecificationBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaFixedRateSpecificationBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaFixedRateSpecificationBuilder` [Setter]
 - `getOrCreateValue()` → `FixedRateSpecificationBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaFixedRateSpecificationBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaFixedRateSpecificationBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaFixedRateSpecificationBuilder` [Setter]
 
 ### ReferenceWithMetaInterestRatePayout
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -92,8 +92,8 @@
 - `getValue()` → `InterestRatePayout` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaInterestRatePayout` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaInterestRatePayoutBuilder
@@ -103,11 +103,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `InterestRatePayoutBuilder` [Getter]
 - `setValue(InterestRatePayout arg0)` → `ReferenceWithMetaInterestRatePayoutBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaInterestRatePayoutBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaInterestRatePayoutBuilder` [Setter]
 - `getOrCreateValue()` → `InterestRatePayoutBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaInterestRatePayoutBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaInterestRatePayoutBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaInterestRatePayoutBuilder` [Setter]
 
 ### ReferenceWithMetaProtectionTerms
 **Implements:** `RosettaModelObject` `ReferenceWithMeta` 
@@ -117,8 +117,8 @@
 - `getValue()` → `ProtectionTerms` [Getter]
 - `getType()` → `Class` [Getter]
 - `build()` → `ReferenceWithMetaProtectionTerms` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `getValueType()` → `Class` [Getter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaProtectionTermsBuilder
@@ -128,11 +128,11 @@
 - `getReference()` → `ReferenceBuilder` [Getter]
 - `getValue()` → `ProtectionTermsBuilder` [Getter]
 - `setValue(ProtectionTerms arg0)` → `ReferenceWithMetaProtectionTermsBuilder` [Setter]
+- `setReference(Reference arg0)` → `ReferenceWithMetaProtectionTermsBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaProtectionTermsBuilder` [Setter]
 - `getOrCreateValue()` → `ProtectionTermsBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaProtectionTermsBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaProtectionTermsBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaProtectionTermsBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -148,8 +148,8 @@
 - `setValue(IndexAnnexSourceEnum arg0)` → `FieldWithMetaIndexAnnexSourceEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaIndexAnnexSourceEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaIndexAnnexSourceEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaIndexAnnexSourceEnumBuilder` [Setter]
 
 ### FieldWithMetaIndexAnnexSourceEnumImpl
 **Implements:** `FieldWithMetaIndexAnnexSourceEnum` 
@@ -175,8 +175,8 @@
 - `setValue(SettledEntityMatrixSourceEnum arg0)` → `FieldWithMetaSettledEntityMatrixSourceEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaSettledEntityMatrixSourceEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaSettledEntityMatrixSourceEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaSettledEntityMatrixSourceEnumBuilder` [Setter]
 
 ### FieldWithMetaSettledEntityMatrixSourceEnumImpl
 **Implements:** `FieldWithMetaSettledEntityMatrixSourceEnum` 
@@ -202,8 +202,8 @@
 - `setValue(SpreadScheduleTypeEnum arg0)` → `FieldWithMetaSpreadScheduleTypeEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaSpreadScheduleTypeEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaSpreadScheduleTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaSpreadScheduleTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaSpreadScheduleTypeEnumImpl
 **Implements:** `FieldWithMetaSpreadScheduleTypeEnum` 
@@ -231,12 +231,12 @@
 - `getValue()` → `FixedRateSpecificationBuilder` [Getter]
 - `setValue(FixedRateSpecification arg0)` → `ReferenceWithMetaFixedRateSpecificationBuilder` [Setter]
 - `build()` → `ReferenceWithMetaFixedRateSpecification` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaFixedRateSpecificationBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaFixedRateSpecificationBuilder` [Setter]
 - `getOrCreateValue()` → `FixedRateSpecificationBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaFixedRateSpecificationBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaFixedRateSpecificationBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaFixedRateSpecificationBuilder` [Setter]
 
 ### ReferenceWithMetaFixedRateSpecificationImpl
 **Implements:** `ReferenceWithMetaFixedRateSpecification` 
@@ -245,8 +245,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `FixedRateSpecification` [Getter]
 - `build()` → `ReferenceWithMetaFixedRateSpecification` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaFixedRateSpecificationBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaFixedRateSpecificationMeta
@@ -266,12 +266,12 @@
 - `getValue()` → `InterestRatePayoutBuilder` [Getter]
 - `setValue(InterestRatePayout arg0)` → `ReferenceWithMetaInterestRatePayoutBuilder` [Setter]
 - `build()` → `ReferenceWithMetaInterestRatePayout` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaInterestRatePayoutBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaInterestRatePayoutBuilder` [Setter]
 - `getOrCreateValue()` → `InterestRatePayoutBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaInterestRatePayoutBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaInterestRatePayoutBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaInterestRatePayoutBuilder` [Setter]
 
 ### ReferenceWithMetaInterestRatePayoutImpl
 **Implements:** `ReferenceWithMetaInterestRatePayout` 
@@ -280,8 +280,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `InterestRatePayout` [Getter]
 - `build()` → `ReferenceWithMetaInterestRatePayout` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaInterestRatePayoutBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaInterestRatePayoutMeta
@@ -301,12 +301,12 @@
 - `getValue()` → `ProtectionTermsBuilder` [Getter]
 - `setValue(ProtectionTerms arg0)` → `ReferenceWithMetaProtectionTermsBuilder` [Setter]
 - `build()` → `ReferenceWithMetaProtectionTerms` [Builder]
+- `setReference(Reference arg0)` → `ReferenceWithMetaProtectionTermsBuilder` [Setter]
+- `setGlobalReference(String arg0)` → `ReferenceWithMetaProtectionTermsBuilder` [Setter]
 - `getOrCreateValue()` → `ProtectionTermsBuilder` [Getter]
 - `setExternalReference(String arg0)` → `ReferenceWithMetaProtectionTermsBuilder` [Setter]
-- `setGlobalReference(String arg0)` → `ReferenceWithMetaProtectionTermsBuilder` [Setter]
 - `getOrCreateReference()` → `ReferenceBuilder` [Getter]
 - `getExternalReference()` → `String` [Getter]
-- `setReference(Reference arg0)` → `ReferenceWithMetaProtectionTermsBuilder` [Setter]
 
 ### ReferenceWithMetaProtectionTermsImpl
 **Implements:** `ReferenceWithMetaProtectionTerms` 
@@ -315,8 +315,8 @@
 - `getReference()` → `Reference` [Getter]
 - `getValue()` → `ProtectionTerms` [Getter]
 - `build()` → `ReferenceWithMetaProtectionTerms` [Builder]
-- `getExternalReference()` → `String` [Getter]
 - `setBuilderFields(ReferenceWithMetaProtectionTermsBuilder arg0)` → `void` [Setter]
+- `getExternalReference()` → `String` [Getter]
 - `getGlobalReference()` → `String` [Getter]
 
 ### ReferenceWithMetaProtectionTermsMeta

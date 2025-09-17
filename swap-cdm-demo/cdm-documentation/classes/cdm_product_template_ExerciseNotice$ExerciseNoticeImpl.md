@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
+- `FieldWithMetaBusinessCenterEnum getBusinessCenter()`
 - `AncillaryRoleEnum getExerciseNoticeReceiver()`
 - `ExerciseNoticeGiverEnum getExerciseNoticeGiver()`
-- `FieldWithMetaBusinessCenterEnum getBusinessCenter()`
 
 #### Other Methods
 

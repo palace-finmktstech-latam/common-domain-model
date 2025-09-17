@@ -26,8 +26,8 @@
 #### Setter Methods
 
 - `CounterpartyBuilder setRole(CounterpartyRoleEnum arg0)`
-- `CounterpartyBuilder setPartyReferenceValue(Party arg0)`
 - `CounterpartyBuilder setPartyReference(ReferenceWithMetaParty arg0)`
+- `CounterpartyBuilder setPartyReferenceValue(Party arg0)`
 
 #### Getter Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CounterpartyBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CounterpartyBuilder toBuilder()`
 - `CounterpartyBuilder prune()`
+- `CounterpartyBuilder toBuilder()`
+- `boolean hasData()`
 

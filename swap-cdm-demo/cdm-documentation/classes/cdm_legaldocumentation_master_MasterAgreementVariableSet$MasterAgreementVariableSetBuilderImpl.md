@@ -39,9 +39,9 @@
 
 #### Adder Methods
 
-- `MasterAgreementVariableSetBuilder addVariableSet(List arg0)`
 - `MasterAgreementVariableSetBuilder addVariableSet(MasterAgreementVariableSet arg0)`
 - `MasterAgreementVariableSetBuilder addVariableSet(MasterAgreementVariableSet arg0, int arg1)`
+- `MasterAgreementVariableSetBuilder addVariableSet(List arg0)`
 
 #### Other Methods
 
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `MasterAgreementVariableSetBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `MasterAgreementVariableSetBuilder toBuilder()`
 - `MasterAgreementVariableSetBuilder prune()`
+- `MasterAgreementVariableSetBuilder toBuilder()`
+- `boolean hasData()`
 

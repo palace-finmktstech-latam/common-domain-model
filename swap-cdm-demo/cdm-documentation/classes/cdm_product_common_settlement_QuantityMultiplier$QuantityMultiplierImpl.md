@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `FxLinkedNotionalSchedule getFxLinkedNotionalSchedule()`
 - `BigDecimal getMultiplierValue()`
+- `FxLinkedNotionalSchedule getFxLinkedNotionalSchedule()`
 
 #### Other Methods
 

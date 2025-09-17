@@ -30,10 +30,10 @@
 
 #### Getter Methods
 
-- `FxSettlementRateSourceBuilder getOrCreateSettlementRateSource()`
-- `AdjustableDateBuilder getOrCreateFixingDate()`
-- `FxSettlementRateSourceBuilder getSettlementRateSource()`
 - `AdjustableDateBuilder getFixingDate()`
+- `FxSettlementRateSourceBuilder getSettlementRateSource()`
+- `AdjustableDateBuilder getOrCreateFixingDate()`
+- `FxSettlementRateSourceBuilder getOrCreateSettlementRateSource()`
 
 #### Other Methods
 
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FxRateSourceFixingBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FxRateSourceFixingBuilder toBuilder()`
 - `FxRateSourceFixingBuilder prune()`
+- `FxRateSourceFixingBuilder toBuilder()`
+- `boolean hasData()`
 

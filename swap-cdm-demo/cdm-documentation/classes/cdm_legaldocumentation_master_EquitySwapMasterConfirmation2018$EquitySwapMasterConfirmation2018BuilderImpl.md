@@ -34,23 +34,23 @@
 
 #### Setter Methods
 
-- `EquitySwapMasterConfirmation2018Builder setValuationDates(ValuationDates arg0)`
 - `EquitySwapMasterConfirmation2018Builder setSettlementTerms(SettlementTerms arg0)`
+- `EquitySwapMasterConfirmation2018Builder setValuationDates(ValuationDates arg0)`
 - `EquitySwapMasterConfirmation2018Builder setTypeOfSwapElection(ReturnTypeEnum arg0)`
 - `EquitySwapMasterConfirmation2018Builder setPricingMethodElection(PriceReturnTerms arg0)`
-- `EquitySwapMasterConfirmation2018Builder setLinearInterpolationElection(InterpolationMethodEnum arg0)`
 - `EquitySwapMasterConfirmation2018Builder setEquityCashSettlementDates(PaymentDates arg0)`
+- `EquitySwapMasterConfirmation2018Builder setLinearInterpolationElection(InterpolationMethodEnum arg0)`
 
 #### Getter Methods
 
-- `PriceReturnTermsBuilder getPricingMethodElection()`
-- `SettlementTermsBuilder getOrCreateSettlementTerms()`
 - `ReturnTypeEnum getTypeOfSwapElection()`
 - `ValuationDatesBuilder getValuationDates()`
 - `ValuationDatesBuilder getOrCreateValuationDates()`
-- `InterpolationMethodEnum getLinearInterpolationElection()`
+- `SettlementTermsBuilder getOrCreateSettlementTerms()`
 - `PaymentDatesBuilder getEquityCashSettlementDates()`
 - `SettlementTermsBuilder getSettlementTerms()`
+- `PriceReturnTermsBuilder getPricingMethodElection()`
+- `InterpolationMethodEnum getLinearInterpolationElection()`
 - `PriceReturnTermsBuilder getOrCreatePricingMethodElection()`
 - `PaymentDatesBuilder getOrCreateEquityCashSettlementDates()`
 
@@ -60,7 +60,7 @@
 - `String toString()`
 - `int hashCode()`
 - `EquitySwapMasterConfirmation2018Builder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `EquitySwapMasterConfirmation2018Builder toBuilder()`
 - `EquitySwapMasterConfirmation2018Builder prune()`
+- `EquitySwapMasterConfirmation2018Builder toBuilder()`
+- `boolean hasData()`
 

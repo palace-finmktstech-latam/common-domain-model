@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `BigDecimal getConversionFactor()`
-- `RollFeature getRollFeature()`
 - `Rounding getRounding()`
+- `RollFeature getRollFeature()`
+- `BigDecimal getConversionFactor()`
 - `SpreadSchedule getSpread()`
 
 #### Other Methods

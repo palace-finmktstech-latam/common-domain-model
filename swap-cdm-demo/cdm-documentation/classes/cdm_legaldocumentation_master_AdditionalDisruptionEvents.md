@@ -19,18 +19,18 @@
 #### Getter Methods
 
 - `Class getType()`
-- `AncillaryRoleEnum getDeterminingParty()`
 - `Boolean getIncreasedCostOfStockBorrow()`
-- `List getAdditionalBespokeTerms()`
 - `Boolean getFailureToDeliver()`
-- `Boolean getChangeInLaw()`
+- `List getAdditionalBespokeTerms()`
 - `Boolean getLossOfStockBorrow()`
+- `BigDecimal getMaximumStockLoanRate()`
+- `Boolean getForeignOwnershipEvent()`
+- `Boolean getInsolvencyFiling()`
 - `Boolean getHedgingDisruption()`
 - `Boolean getIncreasedCostOfHedging()`
+- `Boolean getChangeInLaw()`
 - `BigDecimal getInitialStockLoanRate()`
-- `Boolean getInsolvencyFiling()`
-- `Boolean getForeignOwnershipEvent()`
-- `BigDecimal getMaximumStockLoanRate()`
+- `AncillaryRoleEnum getDeterminingParty()`
 
 #### Other Methods
 

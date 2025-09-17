@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
-- `Date getStartDate()`
-- `Date getEndDate()`
 - `List getProfile()`
+- `Date getEndDate()`
+- `Date getStartDate()`
 
 #### Other Methods
 

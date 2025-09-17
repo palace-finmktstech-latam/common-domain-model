@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `TradableProductBuilder doEvaluate(TradableProduct arg0, TradeLot arg1)`
 - `TradableProductBuilder assignOutput(TradableProductBuilder arg0, TradableProduct arg1, TradeLot arg2)`
+- `TradableProductBuilder doEvaluate(TradableProduct arg0, TradeLot arg1)`
 

@@ -25,8 +25,8 @@
 - `BigDecimal evaluate(InterestRatePayout arg0, BigDecimal arg1, Date arg2, CalculationPeriodData arg3)`
 - `BigDecimal doEvaluate(InterestRatePayout arg0, BigDecimal arg1, Date arg2, CalculationPeriodData arg3)`
 - `MapperS calculationPeriod1(InterestRatePayout arg0, BigDecimal arg1, Date arg2, CalculationPeriodData arg3)`
-- `MapperS fixedAmountCalc(InterestRatePayout arg0, BigDecimal arg1, Date arg2, CalculationPeriodData arg3)`
 - `MapperS calcPeriodBase(InterestRatePayout arg0, BigDecimal arg1, Date arg2, CalculationPeriodData arg3)`
+- `MapperS fixedAmountCalc(InterestRatePayout arg0, BigDecimal arg1, Date arg2, CalculationPeriodData arg3)`
 
 ### Annotations
 

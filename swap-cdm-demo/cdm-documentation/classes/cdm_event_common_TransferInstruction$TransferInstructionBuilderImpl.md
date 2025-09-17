@@ -33,8 +33,8 @@
 
 #### Adder Methods
 
-- `TransferInstructionBuilder addTransferState(List arg0)`
 - `TransferInstructionBuilder addTransferState(TransferState arg0, int arg1)`
+- `TransferInstructionBuilder addTransferState(List arg0)`
 - `TransferInstructionBuilder addTransferState(TransferState arg0)`
 
 #### Other Methods
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `TransferInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `TransferInstructionBuilder toBuilder()`
 - `TransferInstructionBuilder prune()`
+- `TransferInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

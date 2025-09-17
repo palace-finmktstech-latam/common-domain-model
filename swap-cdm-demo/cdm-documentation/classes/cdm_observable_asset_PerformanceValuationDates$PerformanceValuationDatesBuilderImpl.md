@@ -29,25 +29,25 @@
 
 #### Setter Methods
 
-- `PerformanceValuationDatesBuilder setDeterminationMethod(DeterminationMethodEnum arg0)`
 - `PerformanceValuationDatesBuilder setValuationDates(AdjustableRelativeOrPeriodicDates arg0)`
-- `PerformanceValuationDatesBuilder setValuationTime(BusinessCenterTime arg0)`
-- `PerformanceValuationDatesBuilder setValuationDate(AdjustableOrRelativeDate arg0)`
-- `PerformanceValuationDatesBuilder setValuationTimeType(TimeTypeEnum arg0)`
+- `PerformanceValuationDatesBuilder setDeterminationMethod(DeterminationMethodEnum arg0)`
 - `PerformanceValuationDatesBuilder setMeta(MetaFields arg0)`
+- `PerformanceValuationDatesBuilder setValuationTime(BusinessCenterTime arg0)`
+- `PerformanceValuationDatesBuilder setValuationTimeType(TimeTypeEnum arg0)`
+- `PerformanceValuationDatesBuilder setValuationDate(AdjustableOrRelativeDate arg0)`
 
 #### Getter Methods
 
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `AdjustableRelativeOrPeriodicDatesBuilder getValuationDates()`
 - `BusinessCenterTimeBuilder getValuationTime()`
 - `TimeTypeEnum getValuationTimeType()`
 - `AdjustableOrRelativeDateBuilder getValuationDate()`
 - `DeterminationMethodEnum getDeterminationMethod()`
-- `AdjustableRelativeOrPeriodicDatesBuilder getValuationDates()`
-- `AdjustableOrRelativeDateBuilder getOrCreateValuationDate()`
-- `BusinessCenterTimeBuilder getOrCreateValuationTime()`
-- `AdjustableRelativeOrPeriodicDatesBuilder getOrCreateValuationDates()`
 - `MetaFieldsBuilder getMeta()`
+- `AdjustableRelativeOrPeriodicDatesBuilder getOrCreateValuationDates()`
+- `BusinessCenterTimeBuilder getOrCreateValuationTime()`
+- `AdjustableOrRelativeDateBuilder getOrCreateValuationDate()`
 
 #### Other Methods
 
@@ -55,7 +55,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PerformanceValuationDatesBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PerformanceValuationDatesBuilder toBuilder()`
 - `PerformanceValuationDatesBuilder prune()`
+- `PerformanceValuationDatesBuilder toBuilder()`
+- `boolean hasData()`
 

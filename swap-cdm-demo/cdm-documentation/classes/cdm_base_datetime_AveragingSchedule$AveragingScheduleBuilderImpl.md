@@ -26,16 +26,16 @@
 
 #### Setter Methods
 
-- `AveragingScheduleBuilder setStartDate(Date arg0)`
 - `AveragingScheduleBuilder setEndDate(Date arg0)`
+- `AveragingScheduleBuilder setStartDate(Date arg0)`
 - `AveragingScheduleBuilder setAveragingPeriodFrequency(CalculationPeriodFrequency arg0)`
 
 #### Getter Methods
 
-- `Date getStartDate()`
 - `Date getEndDate()`
-- `CalculationPeriodFrequencyBuilder getOrCreateAveragingPeriodFrequency()`
+- `Date getStartDate()`
 - `CalculationPeriodFrequencyBuilder getAveragingPeriodFrequency()`
+- `CalculationPeriodFrequencyBuilder getOrCreateAveragingPeriodFrequency()`
 
 #### Other Methods
 
@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AveragingScheduleBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AveragingScheduleBuilder toBuilder()`
 - `AveragingScheduleBuilder prune()`
+- `AveragingScheduleBuilder toBuilder()`
+- `boolean hasData()`
 

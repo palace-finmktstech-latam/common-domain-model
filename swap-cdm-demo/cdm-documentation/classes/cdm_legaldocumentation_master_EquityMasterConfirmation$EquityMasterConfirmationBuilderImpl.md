@@ -27,7 +27,7 @@
 - `String toString()`
 - `int hashCode()`
 - `EquityMasterConfirmationBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `EquityMasterConfirmationBuilder toBuilder()`
 - `EquityMasterConfirmationBuilder prune()`
+- `EquityMasterConfirmationBuilder toBuilder()`
+- `boolean hasData()`
 

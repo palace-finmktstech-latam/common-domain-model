@@ -27,19 +27,19 @@
 
 #### Setter Methods
 
-- `PartialExerciseBuilder setMinimumNumberOfOptions(Integer arg0)`
-- `PartialExerciseBuilder setIntegralMultipleAmount(BigDecimal arg0)`
 - `PartialExerciseBuilder setMinimumNotionalAmount(BigDecimal arg0)`
 - `PartialExerciseBuilder setNotionaReference(ReferenceWithMetaMoney arg0)`
 - `PartialExerciseBuilder setNotionaReferenceValue(Money arg0)`
+- `PartialExerciseBuilder setMinimumNumberOfOptions(Integer arg0)`
+- `PartialExerciseBuilder setIntegralMultipleAmount(BigDecimal arg0)`
 
 #### Getter Methods
 
-- `ReferenceWithMetaMoneyBuilder getOrCreateNotionaReference()`
 - `ReferenceWithMetaMoneyBuilder getNotionaReference()`
 - `BigDecimal getIntegralMultipleAmount()`
-- `BigDecimal getMinimumNotionalAmount()`
 - `Integer getMinimumNumberOfOptions()`
+- `BigDecimal getMinimumNotionalAmount()`
+- `ReferenceWithMetaMoneyBuilder getOrCreateNotionaReference()`
 
 #### Other Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `PartialExerciseBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `PartialExerciseBuilder toBuilder()`
 - `PartialExerciseBuilder prune()`
+- `PartialExerciseBuilder toBuilder()`
+- `boolean hasData()`
 

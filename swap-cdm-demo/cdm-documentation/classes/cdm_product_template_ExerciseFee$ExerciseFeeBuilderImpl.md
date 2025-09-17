@@ -32,22 +32,22 @@
 
 #### Setter Methods
 
-- `ExerciseFeeBuilder setReceiver(CounterpartyRoleEnum arg0)`
+- `ExerciseFeeBuilder setFeeRate(BigDecimal arg0)`
+- `ExerciseFeeBuilder setNotionalReferenceValue(Money arg0)`
 - `ExerciseFeeBuilder setNotionalReference(ReferenceWithMetaMoney arg0)`
 - `ExerciseFeeBuilder setFeePaymentDate(RelativeDateOffset arg0)`
-- `ExerciseFeeBuilder setNotionalReferenceValue(Money arg0)`
-- `ExerciseFeeBuilder setFeeAmount(BigDecimal arg0)`
+- `ExerciseFeeBuilder setReceiver(CounterpartyRoleEnum arg0)`
 - `ExerciseFeeBuilder setPayer(CounterpartyRoleEnum arg0)`
-- `ExerciseFeeBuilder setFeeRate(BigDecimal arg0)`
+- `ExerciseFeeBuilder setFeeAmount(BigDecimal arg0)`
 
 #### Getter Methods
 
-- `BigDecimal getFeeRate()`
-- `ReferenceWithMetaMoneyBuilder getOrCreateNotionalReference()`
-- `ReferenceWithMetaMoneyBuilder getNotionalReference()`
 - `RelativeDateOffsetBuilder getFeePaymentDate()`
 - `RelativeDateOffsetBuilder getOrCreateFeePaymentDate()`
+- `ReferenceWithMetaMoneyBuilder getNotionalReference()`
 - `BigDecimal getFeeAmount()`
+- `ReferenceWithMetaMoneyBuilder getOrCreateNotionalReference()`
+- `BigDecimal getFeeRate()`
 
 #### Other Methods
 
@@ -55,7 +55,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ExerciseFeeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ExerciseFeeBuilder toBuilder()`
 - `ExerciseFeeBuilder prune()`
+- `ExerciseFeeBuilder toBuilder()`
+- `boolean hasData()`
 

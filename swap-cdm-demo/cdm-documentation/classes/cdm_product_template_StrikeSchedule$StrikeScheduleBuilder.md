@@ -17,8 +17,8 @@
 
 - `StrikeScheduleBuilder setPriceValue(PriceSchedule arg0)`
 - `StrikeScheduleBuilder setPrice(ReferenceWithMetaPriceSchedule arg0)`
-- `StrikeScheduleBuilder setSeller(PayerReceiverEnum arg0)`
 - `StrikeScheduleBuilder setBuyer(PayerReceiverEnum arg0)`
+- `StrikeScheduleBuilder setSeller(PayerReceiverEnum arg0)`
 
 #### Other Methods
 

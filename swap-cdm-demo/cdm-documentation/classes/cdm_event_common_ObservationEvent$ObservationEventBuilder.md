@@ -15,14 +15,14 @@
 
 #### Setter Methods
 
-- `ObservationEventBuilder setCreditEvent(CreditEvent arg0)`
 - `ObservationEventBuilder setCorporateAction(CorporateAction arg0)`
+- `ObservationEventBuilder setCreditEvent(CreditEvent arg0)`
 
 #### Getter Methods
 
-- `CorporateActionBuilder getOrCreateCorporateAction()`
-- `CreditEventBuilder getCreditEvent()`
 - `CreditEventBuilder getOrCreateCreditEvent()`
+- `CreditEventBuilder getCreditEvent()`
+- `CorporateActionBuilder getOrCreateCorporateAction()`
 - `CorporateActionBuilder getCorporateAction()`
 
 #### Other Methods

@@ -29,31 +29,31 @@
 
 #### Setter Methods
 
-- `CashCollateralValuationMethodBuilder setProtectedParty(List arg0)`
-- `CashCollateralValuationMethodBuilder setApplicableCsa(CsaTypeEnum arg0)`
+- `CashCollateralValuationMethodBuilder setCashCollateralCurrency(String arg0)`
 - `CashCollateralValuationMethodBuilder setAgreedDiscountRateValue(String arg0)`
 - `CashCollateralValuationMethodBuilder setAgreedDiscountRate(FieldWithMetaString arg0)`
-- `CashCollateralValuationMethodBuilder setCashCollateralCurrency(String arg0)`
-- `CashCollateralValuationMethodBuilder setCashCollateralInterestRateValue(String arg0)`
+- `CashCollateralValuationMethodBuilder setApplicableCsa(CsaTypeEnum arg0)`
+- `CashCollateralValuationMethodBuilder setProtectedParty(List arg0)`
 - `CashCollateralValuationMethodBuilder setPrescribedDocumentationAdjustment(Boolean arg0)`
 - `CashCollateralValuationMethodBuilder setCashCollateralInterestRate(FieldWithMetaString arg0)`
+- `CashCollateralValuationMethodBuilder setCashCollateralInterestRateValue(String arg0)`
 
 #### Getter Methods
 
-- `CsaTypeEnum getApplicableCsa()`
-- `String getCashCollateralCurrency()`
-- `FieldWithMetaStringBuilder getAgreedDiscountRate()`
 - `List getProtectedParty()`
-- `FieldWithMetaStringBuilder getOrCreateCashCollateralInterestRate()`
+- `CsaTypeEnum getApplicableCsa()`
+- `FieldWithMetaStringBuilder getAgreedDiscountRate()`
+- `String getCashCollateralCurrency()`
+- `Boolean getPrescribedDocumentationAdjustment()`
 - `FieldWithMetaStringBuilder getOrCreateAgreedDiscountRate()`
 - `FieldWithMetaStringBuilder getCashCollateralInterestRate()`
-- `Boolean getPrescribedDocumentationAdjustment()`
+- `FieldWithMetaStringBuilder getOrCreateCashCollateralInterestRate()`
 
 #### Adder Methods
 
+- `CashCollateralValuationMethodBuilder addProtectedParty(List arg0)`
 - `CashCollateralValuationMethodBuilder addProtectedParty(PartyDeterminationEnum arg0)`
 - `CashCollateralValuationMethodBuilder addProtectedParty(PartyDeterminationEnum arg0, int arg1)`
-- `CashCollateralValuationMethodBuilder addProtectedParty(List arg0)`
 
 #### Other Methods
 
@@ -61,7 +61,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CashCollateralValuationMethodBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CashCollateralValuationMethodBuilder toBuilder()`
 - `CashCollateralValuationMethodBuilder prune()`
+- `CashCollateralValuationMethodBuilder toBuilder()`
+- `boolean hasData()`
 

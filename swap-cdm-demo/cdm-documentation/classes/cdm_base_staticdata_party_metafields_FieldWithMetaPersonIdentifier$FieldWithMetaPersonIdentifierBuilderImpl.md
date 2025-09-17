@@ -31,8 +31,8 @@
 #### Getter Methods
 
 - `PersonIdentifierBuilder getValue()`
-- `PersonIdentifierBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getOrCreateMeta()`
+- `PersonIdentifierBuilder getOrCreateValue()`
 - `MetaFieldsBuilder getMeta()`
 
 #### Other Methods
@@ -41,7 +41,7 @@
 - `String toString()`
 - `int hashCode()`
 - `FieldWithMetaPersonIdentifierBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `FieldWithMetaPersonIdentifierBuilder toBuilder()`
 - `FieldWithMetaPersonIdentifierBuilder prune()`
+- `FieldWithMetaPersonIdentifierBuilder toBuilder()`
+- `boolean hasData()`
 

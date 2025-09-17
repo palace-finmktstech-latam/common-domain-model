@@ -27,21 +27,21 @@
 #### Setter Methods
 
 - `UmbrellaAgreementBuilder setLanguage(String arg0)`
-- `UmbrellaAgreementBuilder setIsApplicable(Boolean arg0)`
 - `UmbrellaAgreementBuilder setParties(List arg0)`
+- `UmbrellaAgreementBuilder setIsApplicable(Boolean arg0)`
 
 #### Getter Methods
 
 - `String getLanguage()`
 - `UmbrellaAgreementEntityBuilder getOrCreateParties(int arg0)`
-- `Boolean getIsApplicable()`
 - `List getParties()`
+- `Boolean getIsApplicable()`
 
 #### Adder Methods
 
-- `UmbrellaAgreementBuilder addParties(UmbrellaAgreementEntity arg0)`
-- `UmbrellaAgreementBuilder addParties(UmbrellaAgreementEntity arg0, int arg1)`
 - `UmbrellaAgreementBuilder addParties(List arg0)`
+- `UmbrellaAgreementBuilder addParties(UmbrellaAgreementEntity arg0, int arg1)`
+- `UmbrellaAgreementBuilder addParties(UmbrellaAgreementEntity arg0)`
 
 #### Other Methods
 
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `UmbrellaAgreementBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `UmbrellaAgreementBuilder toBuilder()`
 - `UmbrellaAgreementBuilder prune()`
+- `UmbrellaAgreementBuilder toBuilder()`
+- `boolean hasData()`
 

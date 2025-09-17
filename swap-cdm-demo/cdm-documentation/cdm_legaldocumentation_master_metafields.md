@@ -18,8 +18,8 @@
 **Key Methods:**
 - `setValue(MasterAgreementTypeEnum arg0)` → `FieldWithMetaMasterAgreementTypeEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaMasterAgreementTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaMasterAgreementTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaMasterConfirmationAnnexTypeEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -37,8 +37,8 @@
 **Key Methods:**
 - `setValue(MasterConfirmationAnnexTypeEnum arg0)` → `FieldWithMetaMasterConfirmationAnnexTypeEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaMasterConfirmationAnnexTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaMasterConfirmationAnnexTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaMasterConfirmationTypeEnum
 **Implements:** `RosettaModelObject` `FieldWithMeta` `GlobalKey` 
@@ -56,8 +56,8 @@
 **Key Methods:**
 - `setValue(MasterConfirmationTypeEnum arg0)` → `FieldWithMetaMasterConfirmationTypeEnumBuilder` [Setter]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaMasterConfirmationTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaMasterConfirmationTypeEnumBuilder` [Setter]
 
 ## Concrete Classes
 
@@ -73,8 +73,8 @@
 - `setValue(MasterAgreementTypeEnum arg0)` → `FieldWithMetaMasterAgreementTypeEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaMasterAgreementTypeEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaMasterAgreementTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaMasterAgreementTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaMasterAgreementTypeEnumImpl
 **Implements:** `FieldWithMetaMasterAgreementTypeEnum` 
@@ -100,8 +100,8 @@
 - `setValue(MasterConfirmationAnnexTypeEnum arg0)` → `FieldWithMetaMasterConfirmationAnnexTypeEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaMasterConfirmationAnnexTypeEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaMasterConfirmationAnnexTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaMasterConfirmationAnnexTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaMasterConfirmationAnnexTypeEnumImpl
 **Implements:** `FieldWithMetaMasterConfirmationAnnexTypeEnum` 
@@ -127,8 +127,8 @@
 - `setValue(MasterConfirmationTypeEnum arg0)` → `FieldWithMetaMasterConfirmationTypeEnumBuilder` [Setter]
 - `build()` → `FieldWithMetaMasterConfirmationTypeEnum` [Builder]
 - `getOrCreateMeta()` → `MetaFieldsBuilder` [Getter]
-- `setMeta(MetaFields arg0)` → `FieldWithMetaMasterConfirmationTypeEnumBuilder` [Setter]
 - `getMeta()` → `MetaFieldsBuilder` [Getter]
+- `setMeta(MetaFields arg0)` → `FieldWithMetaMasterConfirmationTypeEnumBuilder` [Setter]
 
 ### FieldWithMetaMasterConfirmationTypeEnumImpl
 **Implements:** `FieldWithMetaMasterConfirmationTypeEnum` 

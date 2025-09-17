@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `FloatingRateIndex getFloatingRateIndex()`
 - `InflationIndex getInflationIndex()`
+- `FloatingRateIndex getFloatingRateIndex()`
 
 #### Other Methods
 

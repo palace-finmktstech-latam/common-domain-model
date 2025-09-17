@@ -15,24 +15,24 @@
 
 #### Setter Methods
 
-- `CalculationScheduleDeliveryPeriodsBuilder setStartDate(Date arg0)`
-- `CalculationScheduleDeliveryPeriodsBuilder setEndDate(Date arg0)`
-- `CalculationScheduleDeliveryPeriodsBuilder setProfile(List arg0)`
 - `CalculationScheduleDeliveryPeriodsBuilder setDeliveryCapacity(Quantity arg0)`
+- `CalculationScheduleDeliveryPeriodsBuilder setEndDate(Date arg0)`
+- `CalculationScheduleDeliveryPeriodsBuilder setStartDate(Date arg0)`
 - `CalculationScheduleDeliveryPeriodsBuilder setPriceTimeIntervalQuantity(Price arg0)`
+- `CalculationScheduleDeliveryPeriodsBuilder setProfile(List arg0)`
 
 #### Getter Methods
 
-- `QuantityBuilder getDeliveryCapacity()`
 - `PriceBuilder getPriceTimeIntervalQuantity()`
+- `QuantityBuilder getDeliveryCapacity()`
 - `QuantityBuilder getOrCreateDeliveryCapacity()`
 - `PriceBuilder getOrCreatePriceTimeIntervalQuantity()`
 
 #### Adder Methods
 
 - `CalculationScheduleDeliveryPeriodsBuilder addProfile(AssetDeliveryProfile arg0)`
-- `CalculationScheduleDeliveryPeriodsBuilder addProfile(List arg0)`
 - `CalculationScheduleDeliveryPeriodsBuilder addProfile(AssetDeliveryProfile arg0, int arg1)`
+- `CalculationScheduleDeliveryPeriodsBuilder addProfile(List arg0)`
 
 #### Other Methods
 

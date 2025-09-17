@@ -40,12 +40,12 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `CalculatedRateDetails` [Builder]
-- `getAggregateValue()` → `BigDecimal` [Getter]
 - `getObservations()` → `CalculatedRateObservations` [Getter]
+- `getAggregateValue()` → `BigDecimal` [Getter]
 - `getCalculatedRate()` → `BigDecimal` [Getter]
-- `getWeightedRates()` → `List` [Getter]
-- `getCompoundedGrowth()` → `List` [Getter]
 - `getGrowthFactor()` → `List` [Getter]
+- `getCompoundedGrowth()` → `List` [Getter]
+- `getWeightedRates()` → `List` [Getter]
 - `getAggregateWeight()` → `BigDecimal` [Getter]
 
 ### CalculatedRateDetailsBuilder
@@ -53,14 +53,14 @@
 
 **Key Methods:**
 - `getObservations()` → `CalculatedRateObservationsBuilder` [Getter]
-- `setCalculatedRate(BigDecimal arg0)` → `CalculatedRateDetailsBuilder` [Setter]
-- `getOrCreateObservations()` → `CalculatedRateObservationsBuilder` [Getter]
 - `setObservations(CalculatedRateObservations arg0)` → `CalculatedRateDetailsBuilder` [Setter]
-- `setAggregateValue(BigDecimal arg0)` → `CalculatedRateDetailsBuilder` [Setter]
-- `setAggregateWeight(BigDecimal arg0)` → `CalculatedRateDetailsBuilder` [Setter]
-- `setGrowthFactor(List arg0)` → `CalculatedRateDetailsBuilder` [Setter]
+- `getOrCreateObservations()` → `CalculatedRateObservationsBuilder` [Getter]
+- `setCalculatedRate(BigDecimal arg0)` → `CalculatedRateDetailsBuilder` [Setter]
 - `setCompoundedGrowth(List arg0)` → `CalculatedRateDetailsBuilder` [Setter]
 - `setWeightedRates(List arg0)` → `CalculatedRateDetailsBuilder` [Setter]
+- `setAggregateWeight(BigDecimal arg0)` → `CalculatedRateDetailsBuilder` [Setter]
+- `setGrowthFactor(List arg0)` → `CalculatedRateDetailsBuilder` [Setter]
+- `setAggregateValue(BigDecimal arg0)` → `CalculatedRateDetailsBuilder` [Setter]
 
 ### CalculatedRateObservationDatesAndWeights
 **Implements:** `RosettaModelObject` 
@@ -94,8 +94,8 @@
 
 **Key Methods:**
 - `setObservationDates(List arg0)` → `CalculatedRateObservationsBuilder` [Setter]
-- `setObservedRates(List arg0)` → `CalculatedRateObservationsBuilder` [Setter]
 - `setProcessedRates(List arg0)` → `CalculatedRateObservationsBuilder` [Setter]
+- `setObservedRates(List arg0)` → `CalculatedRateObservationsBuilder` [Setter]
 - `setWeights(List arg0)` → `CalculatedRateObservationsBuilder` [Setter]
 
 ### FallbackRateParameters
@@ -104,21 +104,21 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `FallbackRateParameters` [Builder]
-- `getCalculationParameters()` → `FloatingRateCalculationParameters` [Getter]
-- `getFloatingRateIndex()` → `FloatingRateIndexEnum` [Getter]
 - `getEffectiveDate()` → `Date` [Getter]
 - `getSpreadAdjustment()` → `BigDecimal` [Getter]
+- `getCalculationParameters()` → `FloatingRateCalculationParameters` [Getter]
+- `getFloatingRateIndex()` → `FloatingRateIndexEnum` [Getter]
 
 ### FallbackRateParametersBuilder
 **Implements:** `FallbackRateParameters` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setEffectiveDate(Date arg0)` → `FallbackRateParametersBuilder` [Setter]
-- `getCalculationParameters()` → `FloatingRateCalculationParametersBuilder` [Getter]
-- `setFloatingRateIndex(FloatingRateIndexEnum arg0)` → `FallbackRateParametersBuilder` [Setter]
 - `setCalculationParameters(FloatingRateCalculationParameters arg0)` → `FallbackRateParametersBuilder` [Setter]
 - `getOrCreateCalculationParameters()` → `FloatingRateCalculationParametersBuilder` [Getter]
+- `getCalculationParameters()` → `FloatingRateCalculationParametersBuilder` [Getter]
+- `setEffectiveDate(Date arg0)` → `FallbackRateParametersBuilder` [Setter]
 - `setSpreadAdjustment(BigDecimal arg0)` → `FallbackRateParametersBuilder` [Setter]
+- `setFloatingRateIndex(FloatingRateIndexEnum arg0)` → `FallbackRateParametersBuilder` [Setter]
 
 ### FloatingRateCalculationParameters
 **Implements:** `RosettaModelObject` 
@@ -128,25 +128,25 @@
 - `build()` → `FloatingRateCalculationParameters` [Builder]
 - `getCalculationMethod()` → `CalculationMethodEnum` [Getter]
 - `getLookbackCalculation()` → `OffsetCalculation` [Getter]
-- `getObservationParameters()` → `ObservationParameters` [Getter]
-- `getLockoutCalculation()` → `OffsetCalculation` [Getter]
 - `getApplicableBusinessDays()` → `BusinessCenters` [Getter]
+- `getLockoutCalculation()` → `OffsetCalculation` [Getter]
+- `getObservationParameters()` → `ObservationParameters` [Getter]
 - `getObservationShiftCalculation()` → `ObservationShiftCalculation` [Getter]
 
 ### FloatingRateCalculationParametersBuilder
 **Implements:** `FloatingRateCalculationParameters` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setCalculationMethod(CalculationMethodEnum arg0)` → `FloatingRateCalculationParametersBuilder` [Setter]
 - `getLookbackCalculation()` → `OffsetCalculationBuilder` [Getter]
-- `getObservationParameters()` → `ObservationParametersBuilder` [Getter]
-- `getLockoutCalculation()` → `OffsetCalculationBuilder` [Getter]
 - `getApplicableBusinessDays()` → `BusinessCentersBuilder` [Getter]
+- `getLockoutCalculation()` → `OffsetCalculationBuilder` [Getter]
+- `getObservationParameters()` → `ObservationParametersBuilder` [Getter]
 - `getObservationShiftCalculation()` → `ObservationShiftCalculationBuilder` [Getter]
-- `getOrCreateLockoutCalculation()` → `OffsetCalculationBuilder` [Getter]
-- `getOrCreateApplicableBusinessDays()` → `BusinessCentersBuilder` [Getter]
-- `getOrCreateLookbackCalculation()` → `OffsetCalculationBuilder` [Getter]
-- `getOrCreateObservationParameters()` → `ObservationParametersBuilder` [Getter]
+- `setApplicableBusinessDays(BusinessCenters arg0)` → `FloatingRateCalculationParametersBuilder` [Setter]
+- `setCalculationMethod(CalculationMethodEnum arg0)` → `FloatingRateCalculationParametersBuilder` [Setter]
+- `setLookbackCalculation(OffsetCalculation arg0)` → `FloatingRateCalculationParametersBuilder` [Setter]
+- `setObservationParameters(ObservationParameters arg0)` → `FloatingRateCalculationParametersBuilder` [Setter]
+- `setLockoutCalculation(OffsetCalculation arg0)` → `FloatingRateCalculationParametersBuilder` [Setter]
 
 ### ObservationParameters
 **Implements:** `RosettaModelObject` 
@@ -154,15 +154,15 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ObservationParameters` [Builder]
-- `getObservationFloorRate()` → `BigDecimal` [Getter]
 - `getObservationCapRate()` → `BigDecimal` [Getter]
+- `getObservationFloorRate()` → `BigDecimal` [Getter]
 
 ### ObservationParametersBuilder
 **Implements:** `ObservationParameters` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `setObservationCapRate(BigDecimal arg0)` → `ObservationParametersBuilder` [Setter]
 - `setObservationFloorRate(BigDecimal arg0)` → `ObservationParametersBuilder` [Setter]
+- `setObservationCapRate(BigDecimal arg0)` → `ObservationParametersBuilder` [Setter]
 
 ### ObservationShiftCalculation
 **Implements:** `RosettaModelObject` 
@@ -170,19 +170,19 @@
 **Key Methods:**
 - `getType()` → `Class` [Getter]
 - `build()` → `ObservationShiftCalculation` [Builder]
-- `getAdditionalBusinessDays()` → `BusinessCenters` [Getter]
 - `getCalculationBase()` → `ObservationPeriodDatesEnum` [Getter]
+- `getAdditionalBusinessDays()` → `BusinessCenters` [Getter]
 - `getOffsetDays()` → `Integer` [Getter]
 
 ### ObservationShiftCalculationBuilder
 **Implements:** `ObservationShiftCalculation` `RosettaModelObjectBuilder` 
 
 **Key Methods:**
-- `getOrCreateAdditionalBusinessDays()` → `BusinessCentersBuilder` [Getter]
-- `setOffsetDays(Integer arg0)` → `ObservationShiftCalculationBuilder` [Setter]
 - `getAdditionalBusinessDays()` → `BusinessCentersBuilder` [Getter]
+- `setOffsetDays(Integer arg0)` → `ObservationShiftCalculationBuilder` [Setter]
 - `setCalculationBase(ObservationPeriodDatesEnum arg0)` → `ObservationShiftCalculationBuilder` [Setter]
 - `setAdditionalBusinessDays(BusinessCenters arg0)` → `ObservationShiftCalculationBuilder` [Setter]
+- `getOrCreateAdditionalBusinessDays()` → `BusinessCentersBuilder` [Getter]
 
 ### OffsetCalculation
 **Implements:** `RosettaModelObject` 
@@ -214,28 +214,28 @@
 
 **Key Methods:**
 - `build()` → `CalculatedRateDetails` [Builder]
-- `getAggregateValue()` → `BigDecimal` [Getter]
 - `getObservations()` → `CalculatedRateObservationsBuilder` [Getter]
-- `getCalculatedRate()` → `BigDecimal` [Getter]
-- `setCalculatedRate(BigDecimal arg0)` → `CalculatedRateDetailsBuilder` [Setter]
-- `getOrCreateObservations()` → `CalculatedRateObservationsBuilder` [Getter]
+- `getAggregateValue()` → `BigDecimal` [Getter]
 - `setObservations(CalculatedRateObservations arg0)` → `CalculatedRateDetailsBuilder` [Setter]
-- `setAggregateValue(BigDecimal arg0)` → `CalculatedRateDetailsBuilder` [Setter]
-- `getWeightedRates()` → `List` [Getter]
+- `getOrCreateObservations()` → `CalculatedRateObservationsBuilder` [Getter]
+- `setCalculatedRate(BigDecimal arg0)` → `CalculatedRateDetailsBuilder` [Setter]
+- `getCalculatedRate()` → `BigDecimal` [Getter]
+- `getGrowthFactor()` → `List` [Getter]
 - `getCompoundedGrowth()` → `List` [Getter]
+- `getWeightedRates()` → `List` [Getter]
 
 ### CalculatedRateDetailsImpl
 **Implements:** `CalculatedRateDetails` 
 
 **Key Methods:**
 - `build()` → `CalculatedRateDetails` [Builder]
-- `getAggregateValue()` → `BigDecimal` [Getter]
-- `getObservations()` → `CalculatedRateObservations` [Getter]
 - `setBuilderFields(CalculatedRateDetailsBuilder arg0)` → `void` [Setter]
+- `getObservations()` → `CalculatedRateObservations` [Getter]
+- `getAggregateValue()` → `BigDecimal` [Getter]
 - `getCalculatedRate()` → `BigDecimal` [Getter]
-- `getWeightedRates()` → `List` [Getter]
-- `getCompoundedGrowth()` → `List` [Getter]
 - `getGrowthFactor()` → `List` [Getter]
+- `getCompoundedGrowth()` → `List` [Getter]
+- `getWeightedRates()` → `List` [Getter]
 - `getAggregateWeight()` → `BigDecimal` [Getter]
 
 ### CalculatedRateObservationDatesAndWeightsBuilderImpl
@@ -274,10 +274,10 @@
 - `build()` → `CalculatedRateObservations` [Builder]
 - `setObservationDates(List arg0)` → `CalculatedRateObservationsBuilder` [Setter]
 - `getObservationDates()` → `List` [Getter]
-- `getObservedRates()` → `List` [Getter]
-- `getProcessedRates()` → `List` [Getter]
-- `setObservedRates(List arg0)` → `CalculatedRateObservationsBuilder` [Setter]
 - `setProcessedRates(List arg0)` → `CalculatedRateObservationsBuilder` [Setter]
+- `getObservedRates()` → `List` [Getter]
+- `setObservedRates(List arg0)` → `CalculatedRateObservationsBuilder` [Setter]
+- `getProcessedRates()` → `List` [Getter]
 - `getWeights()` → `List` [Getter]
 - `setWeights(List arg0)` → `CalculatedRateObservationsBuilder` [Setter]
 
@@ -303,26 +303,26 @@
 
 **Key Methods:**
 - `build()` → `FallbackRateParameters` [Builder]
-- `setEffectiveDate(Date arg0)` → `FallbackRateParametersBuilder` [Setter]
+- `getEffectiveDate()` → `Date` [Getter]
+- `getSpreadAdjustment()` → `BigDecimal` [Getter]
+- `setCalculationParameters(FloatingRateCalculationParameters arg0)` → `FallbackRateParametersBuilder` [Setter]
+- `getOrCreateCalculationParameters()` → `FloatingRateCalculationParametersBuilder` [Getter]
 - `getCalculationParameters()` → `FloatingRateCalculationParametersBuilder` [Getter]
+- `setEffectiveDate(Date arg0)` → `FallbackRateParametersBuilder` [Setter]
+- `setSpreadAdjustment(BigDecimal arg0)` → `FallbackRateParametersBuilder` [Setter]
 - `getFloatingRateIndex()` → `FloatingRateIndexEnum` [Getter]
 - `setFloatingRateIndex(FloatingRateIndexEnum arg0)` → `FallbackRateParametersBuilder` [Setter]
-- `getEffectiveDate()` → `Date` [Getter]
-- `setCalculationParameters(FloatingRateCalculationParameters arg0)` → `FallbackRateParametersBuilder` [Setter]
-- `getSpreadAdjustment()` → `BigDecimal` [Getter]
-- `getOrCreateCalculationParameters()` → `FloatingRateCalculationParametersBuilder` [Getter]
-- `setSpreadAdjustment(BigDecimal arg0)` → `FallbackRateParametersBuilder` [Setter]
 
 ### FallbackRateParametersImpl
 **Implements:** `FallbackRateParameters` 
 
 **Key Methods:**
 - `build()` → `FallbackRateParameters` [Builder]
+- `setBuilderFields(FallbackRateParametersBuilder arg0)` → `void` [Setter]
+- `getEffectiveDate()` → `Date` [Getter]
+- `getSpreadAdjustment()` → `BigDecimal` [Getter]
 - `getCalculationParameters()` → `FloatingRateCalculationParameters` [Getter]
 - `getFloatingRateIndex()` → `FloatingRateIndexEnum` [Getter]
-- `getEffectiveDate()` → `Date` [Getter]
-- `setBuilderFields(FallbackRateParametersBuilder arg0)` → `void` [Setter]
-- `getSpreadAdjustment()` → `BigDecimal` [Getter]
 
 ### FloatingRateCalculationParametersBuilderImpl
 **Implements:** `FloatingRateCalculationParameters$FloatingRateCalculationParametersBuilder` 
@@ -338,26 +338,26 @@
 **Key Methods:**
 - `build()` → `FloatingRateCalculationParameters` [Builder]
 - `getCalculationMethod()` → `CalculationMethodEnum` [Getter]
-- `setCalculationMethod(CalculationMethodEnum arg0)` → `FloatingRateCalculationParametersBuilder` [Setter]
 - `getLookbackCalculation()` → `OffsetCalculationBuilder` [Getter]
-- `getObservationParameters()` → `ObservationParametersBuilder` [Getter]
-- `getLockoutCalculation()` → `OffsetCalculationBuilder` [Getter]
 - `getApplicableBusinessDays()` → `BusinessCentersBuilder` [Getter]
+- `getLockoutCalculation()` → `OffsetCalculationBuilder` [Getter]
+- `getObservationParameters()` → `ObservationParametersBuilder` [Getter]
 - `getObservationShiftCalculation()` → `ObservationShiftCalculationBuilder` [Getter]
-- `getOrCreateLockoutCalculation()` → `OffsetCalculationBuilder` [Getter]
-- `getOrCreateApplicableBusinessDays()` → `BusinessCentersBuilder` [Getter]
+- `setApplicableBusinessDays(BusinessCenters arg0)` → `FloatingRateCalculationParametersBuilder` [Setter]
+- `setCalculationMethod(CalculationMethodEnum arg0)` → `FloatingRateCalculationParametersBuilder` [Setter]
+- `setLookbackCalculation(OffsetCalculation arg0)` → `FloatingRateCalculationParametersBuilder` [Setter]
 
 ### FloatingRateCalculationParametersImpl
 **Implements:** `FloatingRateCalculationParameters` 
 
 **Key Methods:**
 - `build()` → `FloatingRateCalculationParameters` [Builder]
-- `getCalculationMethod()` → `CalculationMethodEnum` [Getter]
 - `setBuilderFields(FloatingRateCalculationParametersBuilder arg0)` → `void` [Setter]
+- `getCalculationMethod()` → `CalculationMethodEnum` [Getter]
 - `getLookbackCalculation()` → `OffsetCalculation` [Getter]
-- `getObservationParameters()` → `ObservationParameters` [Getter]
-- `getLockoutCalculation()` → `OffsetCalculation` [Getter]
 - `getApplicableBusinessDays()` → `BusinessCenters` [Getter]
+- `getLockoutCalculation()` → `OffsetCalculation` [Getter]
+- `getObservationParameters()` → `ObservationParameters` [Getter]
 - `getObservationShiftCalculation()` → `ObservationShiftCalculation` [Getter]
 
 ### ObservationParametersBuilderImpl
@@ -369,10 +369,10 @@
 
 **Key Methods:**
 - `build()` → `ObservationParameters` [Builder]
-- `getObservationFloorRate()` → `BigDecimal` [Getter]
 - `getObservationCapRate()` → `BigDecimal` [Getter]
-- `setObservationCapRate(BigDecimal arg0)` → `ObservationParametersBuilder` [Setter]
+- `getObservationFloorRate()` → `BigDecimal` [Getter]
 - `setObservationFloorRate(BigDecimal arg0)` → `ObservationParametersBuilder` [Setter]
+- `setObservationCapRate(BigDecimal arg0)` → `ObservationParametersBuilder` [Setter]
 
 ### ObservationParametersImpl
 **Implements:** `ObservationParameters` 
@@ -380,8 +380,8 @@
 **Key Methods:**
 - `build()` → `ObservationParameters` [Builder]
 - `setBuilderFields(ObservationParametersBuilder arg0)` → `void` [Setter]
-- `getObservationFloorRate()` → `BigDecimal` [Getter]
 - `getObservationCapRate()` → `BigDecimal` [Getter]
+- `getObservationFloorRate()` → `BigDecimal` [Getter]
 
 ### ObservationShiftCalculationBuilderImpl
 **Implements:** `ObservationShiftCalculation$ObservationShiftCalculationBuilder` 
@@ -393,13 +393,13 @@
 
 **Key Methods:**
 - `build()` → `ObservationShiftCalculation` [Builder]
-- `getOrCreateAdditionalBusinessDays()` → `BusinessCentersBuilder` [Getter]
-- `setOffsetDays(Integer arg0)` → `ObservationShiftCalculationBuilder` [Setter]
-- `getAdditionalBusinessDays()` → `BusinessCentersBuilder` [Getter]
 - `getCalculationBase()` → `ObservationPeriodDatesEnum` [Getter]
+- `getAdditionalBusinessDays()` → `BusinessCentersBuilder` [Getter]
 - `getOffsetDays()` → `Integer` [Getter]
+- `setOffsetDays(Integer arg0)` → `ObservationShiftCalculationBuilder` [Setter]
 - `setCalculationBase(ObservationPeriodDatesEnum arg0)` → `ObservationShiftCalculationBuilder` [Setter]
 - `setAdditionalBusinessDays(BusinessCenters arg0)` → `ObservationShiftCalculationBuilder` [Setter]
+- `getOrCreateAdditionalBusinessDays()` → `BusinessCentersBuilder` [Getter]
 
 ### ObservationShiftCalculationImpl
 **Implements:** `ObservationShiftCalculation` 
@@ -407,8 +407,8 @@
 **Key Methods:**
 - `build()` → `ObservationShiftCalculation` [Builder]
 - `setBuilderFields(ObservationShiftCalculationBuilder arg0)` → `void` [Setter]
-- `getAdditionalBusinessDays()` → `BusinessCenters` [Getter]
 - `getCalculationBase()` → `ObservationPeriodDatesEnum` [Getter]
+- `getAdditionalBusinessDays()` → `BusinessCenters` [Getter]
 - `getOffsetDays()` → `Integer` [Getter]
 
 ### OffsetCalculationBuilderImpl
@@ -419,8 +419,8 @@
 
 **Key Methods:**
 - `build()` → `OffsetCalculation` [Builder]
-- `setOffsetDays(Integer arg0)` → `OffsetCalculationBuilder` [Setter]
 - `getOffsetDays()` → `Integer` [Getter]
+- `setOffsetDays(Integer arg0)` → `OffsetCalculationBuilder` [Setter]
 
 ### OffsetCalculationImpl
 **Implements:** `OffsetCalculation` 

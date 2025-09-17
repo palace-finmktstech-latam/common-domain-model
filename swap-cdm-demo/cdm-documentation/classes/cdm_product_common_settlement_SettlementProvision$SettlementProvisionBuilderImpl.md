@@ -37,7 +37,7 @@
 - `String toString()`
 - `int hashCode()`
 - `SettlementProvisionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `SettlementProvisionBuilder toBuilder()`
 - `SettlementProvisionBuilder prune()`
+- `SettlementProvisionBuilder toBuilder()`
+- `boolean hasData()`
 

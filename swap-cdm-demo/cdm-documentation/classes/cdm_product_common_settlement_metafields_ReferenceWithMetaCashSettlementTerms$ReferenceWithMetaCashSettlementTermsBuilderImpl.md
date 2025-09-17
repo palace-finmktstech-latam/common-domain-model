@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaCashSettlementTermsBuilder setValue(CashSettlementTerms arg0)`
-- `ReferenceWithMetaCashSettlementTermsBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaCashSettlementTermsBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaCashSettlementTermsBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaCashSettlementTermsBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaCashSettlementTermsBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaCashSettlementTermsBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaCashSettlementTermsBuilder toBuilder()`
 - `ReferenceWithMetaCashSettlementTermsBuilder prune()`
+- `ReferenceWithMetaCashSettlementTermsBuilder toBuilder()`
+- `boolean hasData()`
 

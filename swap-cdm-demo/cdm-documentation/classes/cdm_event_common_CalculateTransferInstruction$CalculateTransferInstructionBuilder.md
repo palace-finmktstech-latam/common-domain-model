@@ -16,31 +16,31 @@
 #### Setter Methods
 
 - `CalculateTransferInstructionBuilder setDate(Date arg0)`
-- `CalculateTransferInstructionBuilder setPayout(ReferenceWithMetaPayout arg0)`
-- `CalculateTransferInstructionBuilder setPayoutValue(Payout arg0)`
-- `CalculateTransferInstructionBuilder setQuantity(Quantity arg0)`
 - `CalculateTransferInstructionBuilder setPayerReceiver(PayerReceiver arg0)`
+- `CalculateTransferInstructionBuilder setQuantity(Quantity arg0)`
+- `CalculateTransferInstructionBuilder setPayout(ReferenceWithMetaPayout arg0)`
 - `CalculateTransferInstructionBuilder setResets(List arg0)`
 - `CalculateTransferInstructionBuilder setTradeState(TradeState arg0)`
+- `CalculateTransferInstructionBuilder setPayoutValue(Payout arg0)`
 
 #### Getter Methods
 
-- `ReferenceWithMetaPayoutBuilder getOrCreatePayout()`
-- `PayerReceiverBuilder getPayerReceiver()`
 - `QuantityBuilder getQuantity()`
-- `QuantityBuilder getOrCreateQuantity()`
 - `PayerReceiverBuilder getOrCreatePayerReceiver()`
+- `PayerReceiverBuilder getPayerReceiver()`
+- `QuantityBuilder getOrCreateQuantity()`
 - `TradeStateBuilder getTradeState()`
+- `ResetBuilder getOrCreateResets(int arg0)`
 - `List getResets()`
 - `ReferenceWithMetaPayoutBuilder getPayout()`
-- `ResetBuilder getOrCreateResets(int arg0)`
 - `TradeStateBuilder getOrCreateTradeState()`
+- `ReferenceWithMetaPayoutBuilder getOrCreatePayout()`
 
 #### Adder Methods
 
 - `CalculateTransferInstructionBuilder addResets(Reset arg0)`
-- `CalculateTransferInstructionBuilder addResets(List arg0)`
 - `CalculateTransferInstructionBuilder addResets(Reset arg0, int arg1)`
+- `CalculateTransferInstructionBuilder addResets(List arg0)`
 
 #### Other Methods
 

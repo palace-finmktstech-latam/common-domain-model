@@ -27,20 +27,20 @@
 
 #### Setter Methods
 
-- `AssetBuilder setDigitalAsset(DigitalAsset arg0)`
-- `AssetBuilder setInstrument(Instrument arg0)`
 - `AssetBuilder setCommodity(Commodity arg0)`
+- `AssetBuilder setInstrument(Instrument arg0)`
+- `AssetBuilder setDigitalAsset(DigitalAsset arg0)`
 - `AssetBuilder setCash(Cash arg0)`
 
 #### Getter Methods
 
-- `CommodityBuilder getOrCreateCommodity()`
-- `DigitalAssetBuilder getOrCreateDigitalAsset()`
 - `InstrumentBuilder getInstrument()`
-- `CashBuilder getOrCreateCash()`
-- `CashBuilder getCash()`
 - `CommodityBuilder getCommodity()`
 - `DigitalAssetBuilder getDigitalAsset()`
+- `DigitalAssetBuilder getOrCreateDigitalAsset()`
+- `CommodityBuilder getOrCreateCommodity()`
+- `CashBuilder getCash()`
+- `CashBuilder getOrCreateCash()`
 - `InstrumentBuilder getOrCreateInstrument()`
 
 #### Other Methods
@@ -49,7 +49,7 @@
 - `String toString()`
 - `int hashCode()`
 - `AssetBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `AssetBuilder toBuilder()`
 - `AssetBuilder prune()`
+- `AssetBuilder toBuilder()`
+- `boolean hasData()`
 

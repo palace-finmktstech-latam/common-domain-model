@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaInterestRatePayoutBuilder setValue(InterestRatePayout arg0)`
-- `ReferenceWithMetaInterestRatePayoutBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaInterestRatePayoutBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaInterestRatePayoutBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaInterestRatePayoutBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaInterestRatePayoutBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaInterestRatePayoutBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaInterestRatePayoutBuilder toBuilder()`
 - `ReferenceWithMetaInterestRatePayoutBuilder prune()`
+- `ReferenceWithMetaInterestRatePayoutBuilder toBuilder()`
+- `boolean hasData()`
 

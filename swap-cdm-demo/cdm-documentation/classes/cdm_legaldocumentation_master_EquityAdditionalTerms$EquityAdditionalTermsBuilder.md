@@ -21,12 +21,12 @@
 
 #### Getter Methods
 
-- `ExtraordinaryEventsBuilder getExtraordinaryEvents()`
 - `List getDeterminationTerms()`
 - `UnderlierSubstitutionProvisionBuilder getSubstitutionProvision()`
+- `ExtraordinaryEventsBuilder getExtraordinaryEvents()`
+- `UnderlierSubstitutionProvisionBuilder getOrCreateSubstitutionProvision()`
 - `ExtraordinaryEventsBuilder getOrCreateExtraordinaryEvents()`
 - `DeterminationRolesAndTermsBuilder getOrCreateDeterminationTerms(int arg0)`
-- `UnderlierSubstitutionProvisionBuilder getOrCreateSubstitutionProvision()`
 
 #### Adder Methods
 

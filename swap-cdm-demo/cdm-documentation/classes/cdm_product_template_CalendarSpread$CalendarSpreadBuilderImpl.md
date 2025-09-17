@@ -28,8 +28,8 @@
 
 #### Getter Methods
 
-- `AdjustableOrRelativeDateBuilder getOrCreateExpirationDateTwo()`
 - `AdjustableOrRelativeDateBuilder getExpirationDateTwo()`
+- `AdjustableOrRelativeDateBuilder getOrCreateExpirationDateTwo()`
 
 #### Other Methods
 
@@ -37,7 +37,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CalendarSpreadBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CalendarSpreadBuilder toBuilder()`
 - `CalendarSpreadBuilder prune()`
+- `CalendarSpreadBuilder toBuilder()`
+- `boolean hasData()`
 

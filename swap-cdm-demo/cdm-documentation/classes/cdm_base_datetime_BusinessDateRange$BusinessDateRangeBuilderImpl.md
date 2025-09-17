@@ -30,16 +30,16 @@
 
 #### Setter Methods
 
-- `BusinessDateRangeBuilder setStartDate(Date arg0)`
-- `BusinessDateRangeBuilder setEndDate(Date arg0)`
-- `BusinessDateRangeBuilder setBusinessDayConvention(BusinessDayConventionEnum arg0)`
 - `BusinessDateRangeBuilder setBusinessCenters(BusinessCenters arg0)`
+- `BusinessDateRangeBuilder setBusinessDayConvention(BusinessDayConventionEnum arg0)`
+- `BusinessDateRangeBuilder setEndDate(Date arg0)`
+- `BusinessDateRangeBuilder setStartDate(Date arg0)`
 
 #### Getter Methods
 
-- `BusinessDayConventionEnum getBusinessDayConvention()`
 - `BusinessCentersBuilder getOrCreateBusinessCenters()`
 - `BusinessCentersBuilder getBusinessCenters()`
+- `BusinessDayConventionEnum getBusinessDayConvention()`
 
 #### Other Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `BusinessDateRangeBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `BusinessDateRangeBuilder toBuilder()`
 - `BusinessDateRangeBuilder prune()`
+- `BusinessDateRangeBuilder toBuilder()`
+- `boolean hasData()`
 

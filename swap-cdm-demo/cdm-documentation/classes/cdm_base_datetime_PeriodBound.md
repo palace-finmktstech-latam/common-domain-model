@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `Boolean getInclusive()`
 - `Period getPeriod()`
+- `Boolean getInclusive()`
 
 #### Other Methods
 

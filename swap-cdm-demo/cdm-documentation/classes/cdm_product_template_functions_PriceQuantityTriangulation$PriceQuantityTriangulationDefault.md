@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `Boolean doEvaluate(List arg0)`
 - `Boolean assignOutput(Boolean arg0, List arg1)`
+- `Boolean doEvaluate(List arg0)`
 

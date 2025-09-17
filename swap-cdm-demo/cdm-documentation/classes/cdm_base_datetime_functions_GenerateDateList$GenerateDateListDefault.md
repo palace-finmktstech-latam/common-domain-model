@@ -20,8 +20,8 @@
 #### Other Methods
 
 - `MapperS active(Date arg0, Date arg1, List arg2)`
-- `List doEvaluate(Date arg0, Date arg1, List arg2)`
 - `List assignOutput(List arg0, Date arg1, Date arg2, List arg3)`
+- `List doEvaluate(Date arg0, Date arg1, List arg2)`
 - `MapperS priorDate(Date arg0, Date arg1, List arg2)`
 - `MapperC priorList(Date arg0, Date arg1, List arg2)`
 - `MapperC newList(Date arg0, Date arg1, List arg2)`

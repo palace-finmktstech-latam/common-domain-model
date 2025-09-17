@@ -19,8 +19,8 @@
 
 #### Getter Methods
 
-- `List getSchedulePeriod()`
 - `SchedulePeriodBuilder getOrCreateSchedulePeriod(int arg0)`
+- `List getSchedulePeriod()`
 
 #### Adder Methods
 

@@ -20,10 +20,10 @@
 #### Getter Methods
 
 - `Class getType()`
-- `ReferenceWithMetaParty getIssuerReference()`
 - `List getAssignedIdentifier()`
-- `FieldWithMetaString getIssuer()`
+- `ReferenceWithMetaParty getIssuerReference()`
 - `MetaFields getMeta()`
+- `FieldWithMetaString getIssuer()`
 
 #### Other Methods
 

@@ -25,20 +25,20 @@
 
 #### Setter Methods
 
-- `ValuationInstructionBuilder setValuation(List arg0)`
 - `ValuationInstructionBuilder setReplace(Boolean arg0)`
+- `ValuationInstructionBuilder setValuation(List arg0)`
 
 #### Getter Methods
 
+- `Boolean getReplace()`
 - `ValuationBuilder getOrCreateValuation(int arg0)`
 - `List getValuation()`
-- `Boolean getReplace()`
 
 #### Adder Methods
 
-- `ValuationInstructionBuilder addValuation(Valuation arg0, int arg1)`
-- `ValuationInstructionBuilder addValuation(Valuation arg0)`
 - `ValuationInstructionBuilder addValuation(List arg0)`
+- `ValuationInstructionBuilder addValuation(Valuation arg0)`
+- `ValuationInstructionBuilder addValuation(Valuation arg0, int arg1)`
 
 #### Other Methods
 
@@ -46,7 +46,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ValuationInstructionBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ValuationInstructionBuilder toBuilder()`
 - `ValuationInstructionBuilder prune()`
+- `ValuationInstructionBuilder toBuilder()`
+- `boolean hasData()`
 

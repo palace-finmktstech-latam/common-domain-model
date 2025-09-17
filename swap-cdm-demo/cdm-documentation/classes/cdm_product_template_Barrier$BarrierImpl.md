@@ -22,8 +22,8 @@
 
 #### Getter Methods
 
-- `TriggerEvent getBarrierFloor()`
 - `TriggerEvent getBarrierCap()`
+- `TriggerEvent getBarrierFloor()`
 
 #### Other Methods
 

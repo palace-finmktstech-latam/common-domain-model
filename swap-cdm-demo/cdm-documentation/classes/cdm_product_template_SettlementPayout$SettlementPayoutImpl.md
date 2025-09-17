@@ -28,8 +28,8 @@
 #### Getter Methods
 
 - `Underlier getUnderlier()`
-- `CalculationSchedule getSchedule()`
 - `AssetDeliveryInformation getDelivery()`
+- `CalculationSchedule getSchedule()`
 - `String getDeliveryTerm()`
 
 #### Other Methods

@@ -19,8 +19,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `FxLinkedNotionalSchedule getFxLinkedNotionalSchedule()`
 - `BigDecimal getMultiplierValue()`
+- `FxLinkedNotionalSchedule getFxLinkedNotionalSchedule()`
 
 #### Other Methods
 

@@ -31,10 +31,10 @@
 
 #### Getter Methods
 
-- `InterestRateCurveBuilder getOrCreateInterestRateCurve()`
-- `InterestRateCurveBuilder getInterestRateCurve()`
 - `FieldWithMetaCommodityReferencePriceEnumBuilder getOrCreateCommodityCurve()`
 - `FieldWithMetaCommodityReferencePriceEnumBuilder getCommodityCurve()`
+- `InterestRateCurveBuilder getInterestRateCurve()`
+- `InterestRateCurveBuilder getOrCreateInterestRateCurve()`
 
 #### Other Methods
 
@@ -42,7 +42,7 @@
 - `String toString()`
 - `int hashCode()`
 - `CurveBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `CurveBuilder toBuilder()`
 - `CurveBuilder prune()`
+- `CurveBuilder toBuilder()`
+- `boolean hasData()`
 

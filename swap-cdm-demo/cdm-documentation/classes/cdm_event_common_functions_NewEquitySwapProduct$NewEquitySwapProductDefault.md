@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `NonTransferableProductBuilder doEvaluate(Security arg0, EquitySwapMasterConfirmation2018 arg1)`
 - `NonTransferableProductBuilder assignOutput(NonTransferableProductBuilder arg0, Security arg1, EquitySwapMasterConfirmation2018 arg2)`
+- `NonTransferableProductBuilder doEvaluate(Security arg0, EquitySwapMasterConfirmation2018 arg1)`
 

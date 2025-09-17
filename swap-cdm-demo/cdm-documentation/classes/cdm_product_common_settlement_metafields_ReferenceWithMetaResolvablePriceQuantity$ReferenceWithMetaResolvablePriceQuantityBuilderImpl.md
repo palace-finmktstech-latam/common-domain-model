@@ -28,9 +28,9 @@
 #### Setter Methods
 
 - `ReferenceWithMetaResolvablePriceQuantityBuilder setValue(ResolvablePriceQuantity arg0)`
-- `ReferenceWithMetaResolvablePriceQuantityBuilder setExternalReference(String arg0)`
-- `ReferenceWithMetaResolvablePriceQuantityBuilder setGlobalReference(String arg0)`
 - `ReferenceWithMetaResolvablePriceQuantityBuilder setReference(Reference arg0)`
+- `ReferenceWithMetaResolvablePriceQuantityBuilder setGlobalReference(String arg0)`
+- `ReferenceWithMetaResolvablePriceQuantityBuilder setExternalReference(String arg0)`
 
 #### Getter Methods
 
@@ -47,7 +47,7 @@
 - `String toString()`
 - `int hashCode()`
 - `ReferenceWithMetaResolvablePriceQuantityBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `ReferenceWithMetaResolvablePriceQuantityBuilder toBuilder()`
 - `ReferenceWithMetaResolvablePriceQuantityBuilder prune()`
+- `ReferenceWithMetaResolvablePriceQuantityBuilder toBuilder()`
+- `boolean hasData()`
 

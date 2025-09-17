@@ -27,9 +27,9 @@
 #### Other Methods
 
 - `Boolean evaluate(BusinessEvent arg0)`
-- `Boolean doEvaluate(BusinessEvent arg0)`
-- `MapperC newTradeInstruction(BusinessEvent arg0)`
 - `MapperC openTradeState(BusinessEvent arg0)`
+- `MapperC newTradeInstruction(BusinessEvent arg0)`
+- `Boolean doEvaluate(BusinessEvent arg0)`
 - `MapperC packageRef(BusinessEvent arg0)`
 
 ### Annotations

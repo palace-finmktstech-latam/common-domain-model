@@ -28,14 +28,14 @@
 - `CalculatedRateObservationDatesAndWeights evaluate(FloatingRateCalculationParameters arg0, ResetDates arg1, CalculationPeriodBase arg2, CalculationPeriodBase arg3)`
 - `CalculatedRateObservationDatesAndWeightsBuilder doEvaluate(FloatingRateCalculationParameters arg0, ResetDates arg1, CalculationPeriodBase arg2, CalculationPeriodBase arg3)`
 - `MapperC observationDates(FloatingRateCalculationParameters arg0, ResetDates arg1, CalculationPeriodBase arg2, CalculationPeriodBase arg3)`
-- `MapperC businessDays(FloatingRateCalculationParameters arg0, ResetDates arg1, CalculationPeriodBase arg2, CalculationPeriodBase arg3)`
 - `MapperS specifiedLockout(FloatingRateCalculationParameters arg0, ResetDates arg1, CalculationPeriodBase arg2, CalculationPeriodBase arg3)`
+- `MapperS observationPeriod(FloatingRateCalculationParameters arg0, ResetDates arg1, CalculationPeriodBase arg2, CalculationPeriodBase arg3)`
 - `MapperS lockoutDays(FloatingRateCalculationParameters arg0, ResetDates arg1, CalculationPeriodBase arg2, CalculationPeriodBase arg3)`
 - `MapperS calculateRelative(FloatingRateCalculationParameters arg0, ResetDates arg1, CalculationPeriodBase arg2, CalculationPeriodBase arg3)`
-- `MapperS observationPeriod(FloatingRateCalculationParameters arg0, ResetDates arg1, CalculationPeriodBase arg2, CalculationPeriodBase arg3)`
 - `MapperS adjustedCalculationPeriod(FloatingRateCalculationParameters arg0, ResetDates arg1, CalculationPeriodBase arg2, CalculationPeriodBase arg3)`
-- `MapperS lockout(FloatingRateCalculationParameters arg0, ResetDates arg1, CalculationPeriodBase arg2, CalculationPeriodBase arg3)`
+- `MapperC businessDays(FloatingRateCalculationParameters arg0, ResetDates arg1, CalculationPeriodBase arg2, CalculationPeriodBase arg3)`
 - `MapperS obsShift(FloatingRateCalculationParameters arg0, ResetDates arg1, CalculationPeriodBase arg2, CalculationPeriodBase arg3)`
+- `MapperS lockout(FloatingRateCalculationParameters arg0, ResetDates arg1, CalculationPeriodBase arg2, CalculationPeriodBase arg3)`
 
 ### Annotations
 

@@ -20,8 +20,8 @@
 #### Getter Methods
 
 - `Class getType()`
-- `RateSchedule getRateSchedule()`
 - `MetaFields getMeta()`
+- `RateSchedule getRateSchedule()`
 
 #### Other Methods
 

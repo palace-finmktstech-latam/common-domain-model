@@ -43,7 +43,7 @@
 - `String toString()`
 - `int hashCode()`
 - `DatedValueBuilder merge(RosettaModelObjectBuilder arg0, BuilderMerger arg1)`
-- `boolean hasData()`
-- `DatedValueBuilder toBuilder()`
 - `DatedValueBuilder prune()`
+- `DatedValueBuilder toBuilder()`
+- `boolean hasData()`
 

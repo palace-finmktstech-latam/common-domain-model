@@ -22,9 +22,9 @@
 
 #### Getter Methods
 
+- `Date getEffectiveDate()`
 - `Transfer getCashTransfer()`
 - `List getPriceQuantity()`
-- `Date getEffectiveDate()`
 
 #### Other Methods
 

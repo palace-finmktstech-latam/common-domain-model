@@ -15,6 +15,6 @@
 
 #### Other Methods
 
-- `TradeStateBuilder doEvaluate(TransferInstruction arg0, TradeState arg1)`
 - `TradeStateBuilder assignOutput(TradeStateBuilder arg0, TransferInstruction arg1, TradeState arg2)`
+- `TradeStateBuilder doEvaluate(TransferInstruction arg0, TradeState arg1)`
 
