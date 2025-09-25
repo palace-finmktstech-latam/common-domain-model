@@ -83,10 +83,12 @@
       "settlementCurrency": "EUR",
       "settlementType": "CASH",
       "fxFixing": {
-        "fxFixingReference": "ECB",
+        "fxFixingReference": "CLP_DOLAR_OBS_CLP10",
         "fxFixingOffset": -2,
+        "fxFixingDayType": "BUSINESS",
+        "dateRelativeTo": "PAYMENT_DATES",
         "fxFixingDayConvention": "PRECEDING",
-        "fxFixingBusinessCenters": ["EUTA"]
+        "fxFixingBusinessCenters": ["CLSA", "USNY"]
       },
       "initialExchange": {
         "amount": 9200000,

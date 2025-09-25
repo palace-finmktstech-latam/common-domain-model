@@ -10,6 +10,12 @@ public class FxFixingParameters {
     @JsonProperty("fxFixingOffset")
     private Integer fxFixingOffset;
 
+    @JsonProperty("fxFixingDayType")
+    private String fxFixingDayType; // "BUSINESS" or "CALENDAR"
+
+    @JsonProperty("dateRelativeTo")
+    private String dateRelativeTo; // "PAYMENT_DATES", "CALCULATION_PERIOD_DATES", "VALUATION_DATES"
+
     @JsonProperty("fxFixingDayConvention")
     private String fxFixingDayConvention;
 
@@ -32,6 +38,22 @@ public class FxFixingParameters {
 
     public void setFxFixingOffset(Integer fxFixingOffset) {
         this.fxFixingOffset = fxFixingOffset;
+    }
+
+    public String getFxFixingDayType() {
+        return fxFixingDayType;
+    }
+
+    public void setFxFixingDayType(String fxFixingDayType) {
+        this.fxFixingDayType = fxFixingDayType;
+    }
+
+    public String getDateRelativeTo() {
+        return dateRelativeTo;
+    }
+
+    public void setDateRelativeTo(String dateRelativeTo) {
+        this.dateRelativeTo = dateRelativeTo;
     }
 
     public String getFxFixingDayConvention() {
@@ -64,6 +86,16 @@ public class FxFixingParameters {
 
         public Builder fxFixingOffset(Integer fxFixingOffset) {
             params.fxFixingOffset = fxFixingOffset;
+            return this;
+        }
+
+        public Builder fxFixingDayType(String fxFixingDayType) {
+            params.fxFixingDayType = fxFixingDayType;
+            return this;
+        }
+
+        public Builder dateRelativeTo(String dateRelativeTo) {
+            params.dateRelativeTo = dateRelativeTo;
             return this;
         }
 

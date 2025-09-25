@@ -1,0 +1,97 @@
+{
+  "header": {
+    "tradeId": "61643",
+    "tradeIdType": "INTERNAL",
+    "tradeDate": {
+      "date": "11/09/2025",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["CLSA"]
+    },
+    "effectiveDate": {
+      "date": "15/09/2025",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["CLSA"]
+    },
+    "terminationDate": {
+      "date": "05/01/2026",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["CLSA"]
+    },
+    "party1": {
+      "partyId": "ThisBank",
+      "partyName": "Banco ABC"
+    },
+    "party2": {
+      "partyId": "OurCounterparty",
+      "partyName": "RBNSHZBANK CHILE"
+    }
+  },
+  "legs": [
+    {
+      "legId": "Pata-Activa",
+      "payerPartyReference": "OurCounterparty",
+      "receiverPartyReference": "ThisBank",
+      "notionalAmount": 300000000000,
+      "notionalCurrency": "CLP",
+      "rateType": "FLOATING",
+      "fixedRate": 0.04715,
+      "floatingRateIndex": "CLP-ICP",
+      "spread": 0.0,
+      "effectiveDate": {
+        "date": "15/09/2025",
+        "businessDayConvention": "MODFOLLOWING",
+        "businessCenters": ["CLSA"]
+      },
+      "terminationDate": {
+        "date": "05/01/2026",
+        "businessDayConvention": "MODFOLLOWING",
+        "businessCenters": ["CLSA"]
+      },
+      "calculationPeriodFrequency": "TERM",
+      "calculationDayConvention": "MODFOLLOWING",
+      "calculationBusinessCenters": ["CLSA"],
+      "dayCountFraction": "ACT/360",
+      "resetFrequency": "TERM",
+      "resetDayConvention": "FOLLOWING",
+      "resetBusinessCenters": ["CLSA"],
+      "resetDateOffset": 0,
+      "rateRoundingPrecision": 4,
+      "rateRoundingDirection": "NEAREST",
+      "paymentFrequency": "ATMATURITY",
+      "paymentDayConvention": "NONE",
+      "paymentBusinessCenters": ["CLSA"],
+      "paymentDateOffset": 1,
+      "settlementCurrency": "CLP",
+      "settlementType": "CASH"
+    },
+    {
+      "legId": "Pata-Pasiva",
+      "payerPartyReference": "ThisBank",
+      "receiverPartyReference": "OurCounterparty",
+      "notionalAmount": 300000000000,
+      "notionalCurrency": "CLP",
+      "rateType": "FIXED",
+      "fixedRate": 0.0472,
+      "effectiveDate": {
+        "date": "15/09/2025",
+        "businessDayConvention": "MODFOLLOWING",
+        "businessCenters": ["CLSA"]
+      },
+      "terminationDate": {
+        "date": "05/01/2026",
+        "businessDayConvention": "MODFOLLOWING",
+        "businessCenters": ["CLSA"]
+      },
+      "calculationPeriodFrequency": "TERM",
+      "calculationDayConvention": "MODFOLLOWING",
+      "calculationBusinessCenters": ["CLSA"],
+      "dayCountFraction": "ACT/360",
+      "paymentFrequency": "ATMATURITY",
+      "paymentDayConvention": "NONE",
+      "paymentBusinessCenters": ["CLSA"],
+      "paymentDateOffset": 1,
+      "settlementCurrency": "CLP",
+      "settlementType": "CASH"
+    }
+  ]
+}

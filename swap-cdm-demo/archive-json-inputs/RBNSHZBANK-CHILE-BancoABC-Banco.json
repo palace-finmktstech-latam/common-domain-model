@@ -23,12 +23,41 @@
     },
     "party2": {
       "partyId": "OurCounterparty",
-      "partyName": "Scotiabank Chile"
+      "partyName": "RBNSHZBANK CHILE"
     }
   },
   "legs": [
     {
-      "legId": "Pata-ICP-ZeroCoupon",
+      "legId": "Pata-Activa",
+      "payerPartyReference": "OurCounterparty",
+      "receiverPartyReference": "ThisBank",
+      "notionalAmount": 300000000000,
+      "notionalCurrency": "CLP",
+      "rateType": "FIXED",
+      "fixedRate": 0.04715,
+      "effectiveDate": {
+        "date": "12/09/2025",
+        "businessDayConvention": "MODFOLLOWING",
+        "businessCenters": ["CLSA"]
+      },
+      "terminationDate": {
+        "date": "05/01/2026",
+        "businessDayConvention": "MODFOLLOWING",
+        "businessCenters": ["CLSA"]
+      },
+      "calculationPeriodFrequency": "TERM",
+      "calculationDayConvention": "MODFOLLOWING",
+      "calculationBusinessCenters": ["CLSA"],
+      "paymentFrequency": "ATMATURITY",
+      "dayCountFraction": "ACT/360",
+      "paymentDayConvention": "NONE",
+      "paymentBusinessCenters": ["CLSA"],
+      "paymentDateOffset": 0,
+      "settlementCurrency": "CLP",
+      "settlementType": "CASH"
+    },
+    {
+      "legId": "Pata-Pasiva",
       "payerPartyReference": "ThisBank",
       "receiverPartyReference": "OurCounterparty",
       "notionalAmount": 300000000000,
@@ -39,33 +68,16 @@
       "dayCountFraction": "ACT/360",
       "calculationPeriodFrequency": "TERM",
       "resetFrequency": "TERM",
-      "resetDayConvention": "PRECEDING",
+      "resetDayConvention": "FOLLOWING",
       "resetBusinessCenters": ["CLSA"],
       "resetDateOffset": 0,
       "paymentFrequency": "ATMATURITY",
       "paymentDayConvention": "NONE",
       "paymentBusinessCenters": ["CLSA"],
-      "paymentDateOffset": 1,
+      "paymentDateOffset": 0,
       "rollConvention": null,
-      "rateRoundingPrecision": 5,
+      "rateRoundingPrecision": 4,
       "rateRoundingDirection": "NEAREST",
-      "settlementCurrency": "CLP",
-      "settlementType": "CASH"
-    },
-    {
-      "legId": "Pata-Fija-ZeroCoupon",
-      "payerPartyReference": "OurCounterparty",
-      "receiverPartyReference": "ThisBank",
-      "notionalAmount": 300000000000,
-      "notionalCurrency": "CLP",
-      "rateType": "FIXED",
-      "fixedRate": 0.04715,
-      "calculationPeriodFrequency": "TERM",
-      "paymentFrequency": "ATMATURITY",
-      "dayCountFraction": "ACT/360",
-      "paymentDayConvention": "NONE",
-      "paymentBusinessCenters": ["CLSA"],
-      "paymentDateOffset": 1,
       "settlementCurrency": "CLP",
       "settlementType": "CASH"
     }

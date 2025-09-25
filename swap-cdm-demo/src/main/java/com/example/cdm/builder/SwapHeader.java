@@ -13,6 +13,8 @@ public class SwapHeader {
     private final DateWithAdjustment terminationDate;
     private final PartyInfo party1;
     private final PartyInfo party2;
+    private final String source;
+    private final String contractName;
 
     private SwapHeader(Builder builder) {
         this.tradeId = builder.tradeId;
@@ -22,6 +24,8 @@ public class SwapHeader {
         this.terminationDate = builder.terminationDate;
         this.party1 = builder.party1;
         this.party2 = builder.party2;
+        this.source = builder.source;
+        this.contractName = builder.contractName;
     }
 
     public String getTradeId() {
@@ -52,6 +56,14 @@ public class SwapHeader {
         return party2;
     }
 
+    public String getSource() {
+        return source;
+    }
+
+    public String getContractName() {
+        return contractName;
+    }
+
     public static Builder builder() {
         return new Builder();
     }
@@ -65,6 +77,8 @@ public class SwapHeader {
         private DateWithAdjustment terminationDate;
         private PartyInfo party1;
         private PartyInfo party2;
+        private String source;
+        private String contractName;
 
         @JsonProperty("tradeId")
         public Builder tradeId(String tradeId) {
@@ -105,6 +119,18 @@ public class SwapHeader {
         @JsonProperty("party2")
         public Builder party2(PartyInfo party2) {
             this.party2 = party2;
+            return this;
+        }
+
+        @JsonProperty("source")
+        public Builder source(String source) {
+            this.source = source;
+            return this;
+        }
+
+        @JsonProperty("contractName")
+        public Builder contractName(String contractName) {
+            this.contractName = contractName;
             return this;
         }
 

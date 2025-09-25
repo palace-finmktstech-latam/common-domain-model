@@ -1,0 +1,83 @@
+{
+  "header": {
+    "tradeId": "61634",
+    "tradeIdType": "INTERNAL",
+    "tradeDate": {
+      "date": "10/09/2025"
+    },
+    "effectiveDate": {
+      "date": "12/09/2025",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["CLSA"]
+    },
+    "terminationDate": {
+      "date": "05/01/2026",
+      "businessDayConvention": "MODFOLLOWING",
+      "businessCenters": ["CLSA"]
+    },
+    "party1": {
+      "partyId": "ThisBank",
+      "partyName": "Banco ABC"
+    },
+    "party2": {
+      "partyId": "OurCounterparty",
+      "partyName": "RBNSHZBANK CHILE"
+    }
+  },
+  "legs": [
+    {
+      "legId": "Pata-Activa",
+      "payerPartyReference": "OurCounterparty",
+      "receiverPartyReference": "ThisBank",
+      "notionalAmount": 300000000000,
+      "notionalCurrency": "CLP",
+      "rateType": "FIXED",
+      "fixedRate": 0.04715,
+      "effectiveDate": {
+        "date": "12/09/2025",
+        "businessDayConvention": "MODFOLLOWING",
+        "businessCenters": ["CLSA"]
+      },
+      "terminationDate": {
+        "date": "05/01/2026",
+        "businessDayConvention": "MODFOLLOWING",
+        "businessCenters": ["CLSA"]
+      },
+      "calculationPeriodFrequency": "TERM",
+      "calculationDayConvention": "MODFOLLOWING",
+      "calculationBusinessCenters": ["CLSA"],
+      "paymentFrequency": "ATMATURITY",
+      "dayCountFraction": "ACT/360",
+      "paymentDayConvention": "NONE",
+      "paymentBusinessCenters": ["CLSA"],
+      "paymentDateOffset": 1,
+      "settlementCurrency": "CLP",
+      "settlementType": "CASH"
+    },
+    {
+      "legId": "Pata-Pasiva",
+      "payerPartyReference": "ThisBank",
+      "receiverPartyReference": "OurCounterparty",
+      "notionalAmount": 300000000000,
+      "notionalCurrency": "CLP",
+      "rateType": "FLOATING",
+      "floatingRateIndex": "CLP-ICP",
+      "spread": 0.0,
+      "dayCountFraction": "ACT/360",
+      "calculationPeriodFrequency": "TERM",
+      "resetFrequency": "TERM",
+      "resetDayConvention": "FOLLOWING",
+      "resetBusinessCenters": ["CLSA"],
+      "resetDateOffset": 0,
+      "paymentFrequency": "ATMATURITY",
+      "paymentDayConvention": "NONE",
+      "paymentBusinessCenters": ["CLSA"],
+      "paymentDateOffset": 1,
+      "rollConvention": null,
+      "rateRoundingPrecision": 4,
+      "rateRoundingDirection": "NEAREST",
+      "settlementCurrency": "CLP",
+      "settlementType": "CASH"
+    }
+  ]
+}

@@ -38,6 +38,8 @@ public class LegParameters {
     private final String rollConvention;
     private final Integer rateRoundingPrecision;
     private final String rateRoundingDirection;
+    private final DateWithAdjustment effectiveDate;
+    private final DateWithAdjustment terminationDate;
 
     private LegParameters(Builder builder) {
         this.legId = builder.legId;
@@ -70,6 +72,8 @@ public class LegParameters {
         this.rollConvention = builder.rollConvention;
         this.rateRoundingPrecision = builder.rateRoundingPrecision;
         this.rateRoundingDirection = builder.rateRoundingDirection;
+        this.effectiveDate = builder.effectiveDate;
+        this.terminationDate = builder.terminationDate;
     }
 
     // Getters for all fields
@@ -103,6 +107,8 @@ public class LegParameters {
     public String getRollConvention() { return rollConvention; }
     public Integer getRateRoundingPrecision() { return rateRoundingPrecision; }
     public String getRateRoundingDirection() { return rateRoundingDirection; }
+    public DateWithAdjustment getEffectiveDate() { return effectiveDate; }
+    public DateWithAdjustment getTerminationDate() { return terminationDate; }
 
     public static Builder builder() {
         return new Builder();
@@ -140,6 +146,8 @@ public class LegParameters {
         private String rollConvention;
         private Integer rateRoundingPrecision;
         private String rateRoundingDirection;
+        private DateWithAdjustment effectiveDate;
+        private DateWithAdjustment terminationDate;
 
         @JsonProperty("legId")
         public Builder legId(String legId) { this.legId = legId; return this; }
@@ -283,6 +291,15 @@ public class LegParameters {
             this.rateRoundingDirection = rateRoundingDirection; return this;
         }
 
+        @JsonProperty("effectiveDate")
+        public Builder effectiveDate(DateWithAdjustment effectiveDate) {
+            this.effectiveDate = effectiveDate; return this;
+        }
+
+        @JsonProperty("terminationDate")
+        public Builder terminationDate(DateWithAdjustment terminationDate) {
+            this.terminationDate = terminationDate; return this;
+        }
 
         public LegParameters build() {
             return new LegParameters(this);

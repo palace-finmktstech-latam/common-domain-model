@@ -382,6 +382,32 @@ The legs array contains specifications for each leg of the swap. Typically conta
 - `"IMM"` - IMM dates (3rd Wednesday)
 - `null` - No specific roll convention
 
+### Leg-Specific Dates (Optional)
+
+#### `effectiveDate` (Optional)
+**Type**: Object
+**Description**: Leg-specific effective date, overrides trade-level effective date
+**Structure**: Same as header `effectiveDate`
+**Use Cases**:
+- Forward-starting swaps where one leg starts later
+- Swaptions with physical settlement
+- Restructured swaps with modified start dates
+
+#### `terminationDate` (Optional)
+**Type**: Object
+**Description**: Leg-specific termination date, overrides trade-level termination date
+**Structure**: Same as header `terminationDate`
+**Use Cases**:
+- Amortizing swaps with different leg maturities
+- Early termination structures
+- Extended legs in restructured swaps
+
+**Important Notes**:
+- **Fallback behavior**: If not specified, legs inherit trade-level dates
+- **Business day conventions**: Leg-specific dates can have their own business day adjustments
+- **Multi-currency support**: Different legs can follow different market calendars
+- **Validation**: Leg effective dates should be >= trade effective date for consistency
+
 ### Interest Rate Calculation Rounding
 
 #### `rateRoundingPrecision` (Optional for FLOATING legs)
@@ -506,6 +532,49 @@ The legs array contains specifications for each leg of the swap. Typically conta
   "paymentBusinessCenters": ["EUFR"],
   "calculationDayConvention": "FOLLOWING",
   "calculationBusinessCenters": ["EUFR", "GBLO"],
+  "settlementCurrency": "EUR",
+  "settlementType": "CASH"
+}
+```
+
+### Forward-Starting Swap with Leg-Specific Dates
+```json
+{
+  "legId": "USD-FLOATING-FORWARD-START",
+  "rateType": "FLOATING",
+  "floatingRateIndex": "USD-SOFR Average 180D",
+  "spread": 0.001,
+  "effectiveDate": {
+    "date": "05/06/2024",
+    "businessDayConvention": "MODFOLLOWING",
+    "businessCenters": ["USNY"]
+  },
+  "terminationDate": {
+    "date": "05/06/2029",
+    "businessDayConvention": "MODFOLLOWING",
+    "businessCenters": ["USNY"]
+  },
+  "calculationPeriodFrequency": "6M",
+  "paymentFrequency": "6M",
+  "settlementCurrency": "USD",
+  "settlementType": "CASH"
+}
+```
+
+### Early Termination Leg
+```json
+{
+  "legId": "EUR-FLOATING-EARLY-TERMINATION",
+  "rateType": "FLOATING",
+  "floatingRateIndex": "EUR-EURIBOR",
+  "spread": 0.0015,
+  "terminationDate": {
+    "date": "05/03/2028",
+    "businessDayConvention": "MODFOLLOWING",
+    "businessCenters": ["EUFR"]
+  },
+  "calculationPeriodFrequency": "3M",
+  "paymentFrequency": "3M",
   "settlementCurrency": "EUR",
   "settlementType": "CASH"
 }
