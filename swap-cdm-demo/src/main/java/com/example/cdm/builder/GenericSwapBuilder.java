@@ -27,17 +27,14 @@ import cdm.product.common.settlement.TransferSettlementEnum;
 import cdm.product.common.settlement.CashSettlementMethodEnum;
 import cdm.product.common.settlement.DeliveryMethodEnum;
 import cdm.product.common.settlement.SettlementCentreEnum;
-import cdm.observable.event.FxFixingDate;
-import cdm.observable.event.DateRelativeToPaymentDates;
-import cdm.observable.event.DateRelativeToCalculationPeriodDates;
-import cdm.observable.event.ValuationDates;
-import cdm.observable.event.ValuationDate;
-import cdm.observable.event.ValuationMethod;
-import cdm.observable.event.ValuationSource;
-import cdm.observable.event.AggregationMethod;
-import cdm.observable.event.AggregationStyleEnum;
-import cdm.observable.event.AveragingQuotationStyle;
-import cdm.observable.event.QuotationStyleEnum;
+import cdm.product.common.settlement.FxFixingDate;
+import cdm.product.common.schedule.DateRelativeToPaymentDates;
+import cdm.product.common.schedule.DateRelativeToCalculationPeriodDates;
+import cdm.observable.asset.ValuationDates;
+import cdm.product.common.settlement.ValuationDate;
+import cdm.observable.asset.ValuationMethod;
+import cdm.observable.asset.ValuationSource;
+import cdm.observable.asset.QuotationStyleEnum;
 import cdm.base.datetime.RelativeDateOffset;
 import cdm.base.staticdata.identifier.TradeIdentifierTypeEnum;
 import cdm.base.staticdata.identifier.AssignedIdentifier;
@@ -419,8 +416,9 @@ public class GenericSwapBuilder {
                 .build())
             .setCalculationPeriodFrequency(createCalculationPeriodFrequency(leg))
             .setCalculationPeriodDatesAdjustments(createBusinessDayAdjustments(
-                leg.getCalculationDayConvention() != null ? leg.getCalculationDayConvention() : leg.getPaymentDayConvention(),
-                leg.getCalculationBusinessCenters() != null ? leg.getCalculationBusinessCenters() : leg.getPaymentBusinessCenters()))
+                leg.getCalculationDayConvention() != null ? leg.getCalculationDayConvention().getBusinessDayConvention() : leg.getPaymentDayConvention(),
+                leg.getCalculationDayConvention() != null ? leg.getCalculationDayConvention().getBusinessCenters() :
+                    (leg.getCalculationBusinessCenters() != null ? leg.getCalculationBusinessCenters() : leg.getPaymentBusinessCenters())))
             .build();
     }
 

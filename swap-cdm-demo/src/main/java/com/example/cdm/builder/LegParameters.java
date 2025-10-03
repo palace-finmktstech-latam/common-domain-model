@@ -22,7 +22,7 @@ public class LegParameters {
     private final List<String> resetBusinessCenters;
     private final Integer resetDateOffset;
     private final String calculationPeriodFrequency;
-    private final String calculationDayConvention;
+    private final DateWithAdjustment calculationDayConvention;
     private final List<String> calculationBusinessCenters;
     private final String paymentFrequency;
     private final String dayCountFraction;
@@ -91,7 +91,7 @@ public class LegParameters {
     public List<String> getResetBusinessCenters() { return resetBusinessCenters; }
     public Integer getResetDateOffset() { return resetDateOffset; }
     public String getCalculationPeriodFrequency() { return calculationPeriodFrequency; }
-    public String getCalculationDayConvention() { return calculationDayConvention; }
+    public DateWithAdjustment getCalculationDayConvention() { return calculationDayConvention; }
     public List<String> getCalculationBusinessCenters() { return calculationBusinessCenters; }
     public String getPaymentFrequency() { return paymentFrequency; }
     public String getDayCountFraction() { return dayCountFraction; }
@@ -130,7 +130,7 @@ public class LegParameters {
         private List<String> resetBusinessCenters;
         private Integer resetDateOffset;
         private String calculationPeriodFrequency;
-        private String calculationDayConvention;
+        private DateWithAdjustment calculationDayConvention;
         private List<String> calculationBusinessCenters;
         private String paymentFrequency;
         private String dayCountFraction;
@@ -212,7 +212,7 @@ public class LegParameters {
         }
 
         @JsonProperty("calculationDayConvention")
-        public Builder calculationDayConvention(String calculationDayConvention) {
+        public Builder calculationDayConvention(DateWithAdjustment calculationDayConvention) {
             this.calculationDayConvention = calculationDayConvention; return this;
         }
 

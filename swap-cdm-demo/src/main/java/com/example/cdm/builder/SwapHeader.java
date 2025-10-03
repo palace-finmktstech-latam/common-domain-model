@@ -1,10 +1,12 @@
 package com.example.cdm.builder;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
 
 @JsonDeserialize(builder = SwapHeader.Builder.class)
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class SwapHeader {
     private final String tradeId;
     private final String tradeIdType;
@@ -69,6 +71,7 @@ public class SwapHeader {
     }
 
     @JsonPOJOBuilder(withPrefix = "")
+    @JsonIgnoreProperties(ignoreUnknown = true)
     public static class Builder {
         private String tradeId;
         private String tradeIdType;
