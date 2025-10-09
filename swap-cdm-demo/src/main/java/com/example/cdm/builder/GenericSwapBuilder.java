@@ -21,6 +21,7 @@ import cdm.base.datetime.Offset;
 import cdm.base.datetime.DayTypeEnum;
 import cdm.base.datetime.PeriodEnum;
 import cdm.base.datetime.metafields.FieldWithMetaBusinessCenterEnum;
+import com.rosetta.model.metafields.FieldWithMetaString;
 import cdm.product.common.settlement.*;
 import cdm.product.common.settlement.SettlementTypeEnum;
 import cdm.product.common.settlement.TransferSettlementEnum;
@@ -34,6 +35,8 @@ import cdm.observable.asset.ValuationDates;
 import cdm.product.common.settlement.ValuationDate;
 import cdm.observable.asset.ValuationMethod;
 import cdm.observable.asset.ValuationSource;
+import cdm.observable.asset.FxSpotRateSource;
+import cdm.observable.asset.InformationSource;
 import cdm.observable.asset.QuotationStyleEnum;
 import cdm.base.datetime.RelativeDateOffset;
 import cdm.base.staticdata.identifier.TradeIdentifierTypeEnum;
@@ -655,17 +658,30 @@ public class GenericSwapBuilder {
                     String.join(",", fxFixing.getFxFixingBusinessCenters()) : "N/A"
             );
 
-            // Store this in the cash settlement terms
-            // In a real implementation, this would be properly structured
-            cashSettlementBuilder.setCashSettlementAmount(
-                Money.builder()
-                    .setValue(BigDecimal.ZERO) // Placeholder value
-                    .setUnit(UnitType.builder()
-                        .setCurrencyValue(fxDescription) // Store FX fixing info as a description
-                        .build())
-                    .build()
-            );
+            // This was a workaround - removing it to implement proper structure
+            // Will be replaced with proper ValuationMethod and ValuationDate
         }
+
+        // Create valuation method with settlement rate option (e.g., CLP_DOLAR_OBS_CLP10)
+        if (fxFixing.getFxFixingReference() != null) {
+            // Store the FX fixing reference in the FxSpotRateSource
+            ValuationMethod valuationMethod = ValuationMethod.builder()
+                .setValuationSource(ValuationSource.builder()
+                    .setInformationSource(FxSpotRateSource.builder()
+                        .setPrimarySource(InformationSource.builder()
+                            .setSourcePageValue(fxFixing.getFxFixingReference())
+                            .build())
+                        .build())
+                    .build())
+                .build();
+            cashSettlementBuilder.setValuationMethod(valuationMethod);
+        }
+
+        // Create valuation date with the FX fixing date
+        ValuationDate valuationDate = ValuationDate.builder()
+            .setFxFixingDate(fxFixingDate)
+            .build();
+        cashSettlementBuilder.setValuationDate(valuationDate);
 
         return cashSettlementBuilder.build();
     }

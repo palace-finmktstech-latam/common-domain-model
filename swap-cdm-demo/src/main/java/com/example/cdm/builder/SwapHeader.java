@@ -9,6 +9,7 @@ import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class SwapHeader {
     private final String tradeId;
+    private final String matchingTradeId;
     private final String tradeIdType;
     private final DateWithAdjustment tradeDate;
     private final DateWithAdjustment effectiveDate;
@@ -20,6 +21,7 @@ public class SwapHeader {
 
     private SwapHeader(Builder builder) {
         this.tradeId = builder.tradeId;
+        this.matchingTradeId = builder.matchingTradeId;
         this.tradeIdType = builder.tradeIdType;
         this.tradeDate = builder.tradeDate;
         this.effectiveDate = builder.effectiveDate;
@@ -32,6 +34,10 @@ public class SwapHeader {
 
     public String getTradeId() {
         return tradeId;
+    }
+
+    public String getMatchingTradeId() {
+        return matchingTradeId;
     }
 
     public String getTradeIdType() {
@@ -74,6 +80,7 @@ public class SwapHeader {
     @JsonIgnoreProperties(ignoreUnknown = true)
     public static class Builder {
         private String tradeId;
+        private String matchingTradeId;
         private String tradeIdType;
         private DateWithAdjustment tradeDate;
         private DateWithAdjustment effectiveDate;
@@ -86,6 +93,12 @@ public class SwapHeader {
         @JsonProperty("tradeId")
         public Builder tradeId(String tradeId) {
             this.tradeId = tradeId;
+            return this;
+        }
+
+        @JsonProperty("matchingTradeId")
+        public Builder matchingTradeId(String matchingTradeId) {
+            this.matchingTradeId = matchingTradeId;
             return this;
         }
 

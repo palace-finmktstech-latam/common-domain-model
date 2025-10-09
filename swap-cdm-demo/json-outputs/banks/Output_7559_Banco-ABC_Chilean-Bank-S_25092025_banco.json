@@ -683,7 +683,7 @@
         "value" : {
           "partyId" : null,
           "name" : {
-            "value" : "Banco Internacional",
+            "value" : "Banco ABC",
             "meta" : null,
             "type" : "com.rosetta.model.metafields.FieldWithMetaString",
             "valueType" : "java.lang.String"
@@ -709,7 +709,7 @@
         "value" : {
           "partyId" : null,
           "name" : {
-            "value" : "SCOTIABANK CHILE",
+            "value" : "Chilean Bank S",
             "meta" : null,
             "type" : "com.rosetta.model.metafields.FieldWithMetaString",
             "valueType" : "java.lang.String"
@@ -763,7 +763,7 @@
     "party" : [ {
       "partyId" : null,
       "name" : {
-        "value" : "Banco Internacional",
+        "value" : "Banco ABC",
         "meta" : null,
         "type" : "com.rosetta.model.metafields.FieldWithMetaString",
         "valueType" : "java.lang.String"
@@ -778,7 +778,7 @@
     }, {
       "partyId" : null,
       "name" : {
-        "value" : "SCOTIABANK CHILE",
+        "value" : "Chilean Bank S",
         "meta" : null,
         "type" : "com.rosetta.model.metafields.FieldWithMetaString",
         "valueType" : "java.lang.String"
